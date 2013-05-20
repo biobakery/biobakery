@@ -1,5 +1,8 @@
 ###################################
 # Installs LefSe into the biobakery
 # Version
+# This is a file of Make rules that
+# will be imported into a master
+# make file.
 ###################################
 
