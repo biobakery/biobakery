@@ -1,0 +1,33 @@
+#cloud-config
+password: password
+chpasswd: { expire: False }
+ssh_pwauth: True
+ssh_authorized_keys:
+ - ssh-rsa { AAAAB3NzaC1kc3MAAACBAPlut0FJCeA/B6WMTWJP4yrsze9zlTEH6KFEbfPndeqqtLobl/vTobIXpofiCdGusC1yJAVcNwWNHPT8Qcva6naxjgUtT9Ttc6CVRXMf0dcrQBl+z8SJry4M0YfKdkuaYdVx94R8DGqY3stG9dIAQM3PmY4f/w2cT1hqzgra+MBlAAAAFQDKWhi6AEbuQAGW2h6Z6YFBX6M2pwAAAIAdK9ICs5qwBLTQ5xfzyvisAxZNn9GHu3gbvWk6f/1mgHqljSOF+X+Ttju8l8hzu06nC/dtEHx/A90b3TWe+tIpEcVEf7rPdamOFOlIzvuZEM65Dml1YURf7KgxS1YNMbZGKFlF62ti/NtzcGpQyCQ4QS7rQQRwxxq2zhaeX4zpDgAAAIA31gUmhGtaYkHRXQUV2q/nVpYXfF81N0xzucL00847xXgP8xOwx6AnFBRJ5zzCsiLgQNz9YGSVsdhXnwMHuSm/fo0Z5uFUEGiRTD8Wi76G0or9IJrwiOSm1BXJKKriFz58+WuXNgIssFzzBc6h5prYattLbDjUCAWnRDanW2SN5w }
+packages:
+	- curl
+
+# run commands
+# default: none
+# runcmd contains a list of either lists or a string
+# each item will be executed in order at rc.local like level with
+# output to the console
+# - if the item is a list, the items will be properly executed as if
+#   passed to execve(3) (with the first arg as the command).
+# - if the item is a string, it will be simply written to the file and
+#   will be interpreted by 'sh'
+#
+# Note, that the list has to be proper yaml, so you have to escape
+# any characters yaml would eat (':' can be problematic)
+#runcmd:
+# - [ ls, -l, / ]
+# - [ sh, -xc, "echo $(date) ': hello world!'" ]
+# - [ sh, -c, echo "=========hello world'=========" ]
+# - ls -l /root
+# - [ wget, "http://slashdot.org", -O, /tmp/index.html ]
+
+runcm:
+ - [mkdir, "test"]
+ - [ hg, clone, "https://mpaull@bitbucket.org/timothyltickle/qiimetomaaslin" ]
+ - [sudo, apt-get, install, python2.7]
+ - [sudo, apt-get, install, python-blist]

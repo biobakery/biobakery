@@ -1,0 +1,315 @@
+
+Biobakery Debian Packaging Notes
+
+(1) On the machine on which you want to make the new debian packages, install the following packages:
+	- sudo apt-get install build-essential
+	- sudo apt-get install devscripts
+	- sudo apt-get install debhelper
+	- sudo apt-get install dch
+
+
+
+Need:
+
+.dsc file (metadata - lists the source and the debian directory)
+
+pkg_ver.orig.tar.gz (upstream source tarball)
+
+a debian directory
+
+
+(2) The upstream tarball must be renamed very specifically to be of the form: (package_name)_(version number).orig.tar.gz. For example, qiimetomaaslin version 3.2 would be named: qiimetomaaslin_3.2.orig.tar.gz
+
+(3) Unpack (unzip) the upstream tarball into a directory named with the following form: (package_name)-(version number). NOTE: this time a dash, not an underscore, separates the name from the package number. For example, qiimetomaaslin version 3.2 would be unpacked into a directory named: qiimetomaaslin-3.2
+
+(4) Inside the package directory, make and populate a debian/ subdirectory.
+	- cd qiimetomaaslin-3.2
+	- mkdir debian
+(4a) Add a changelog subdirectory:
+	- cd debian
+	- mkdir changelog
+Add a blank first entry to the changelog file, specifying the version of the package to be created:
+	- dch --create -v 3.2-1 --package qiimetomaaslin
+Note on the package version numbering. The first part, divided by periods, is the version of the upstream source (in our example, qiimetomaaslin version 3.2). The number followed by a dash is the version of the debian package for that upstream file version (we are creating a new package, so in our case that is debian version 1).
+
+(4b) Create a compatability file, containing only the number 8. From within the debian/ subdirectory:
+	- cat > compat <<EOF
+	8
+	EOF
+
+(5) Create the control file:
+	- cat > control <<EOF
+	Source: qiimetomaaslin
+	Maintainer: Huttenhower Lab <hutlab@googlegroups.com>
+	Section: misc
+	Priority: optional
+	Standards-Version: 3.9.2
+	Build-Depends: debhelper (>= 8), python (2.x),
+
+	Package: qiimetomaaslin
+	Architecture: any
+	Depends: ${shlibs:Depends}, ${misc:Depends}
+	Description: 
+ 
+
+~~~~~~~~~~~~~~~~~~
+
+Attempt number 1:
+
+Downloading qiimetomaaslin as-is, making it into a tarball, and giving it a try. In biobakery/
+
+(1) hg clone https://mpaull@bitbucket.org/timothyltickle/qiimetomaaslin
+
+
+######## Unecessary #################
+########(2) tar -cvf qiimetomaaslin.tar qiimetomaaslin/
+########
+########(3) gzip qiimetomaaslin.tar
+#####################################
+
+
+(4) Rename to fit debian packaging standards:
+	- mv qiimetomaaslin qiimetomaaslin-1.0 
+
+(5) Make a changelog file, and make a blank first entry with dch (must be in directory ABOVE debian for this command to work).
+	- cd ..
+	- dch --create -v 1.0-1 --package
+
+(6) Make a compatability level file in the debian directory:
+	- cat > compat <<EOF
+		8
+		EOF
+
+(5) Create the control file:
+	- cat > control <<EOF
+	Source: qiimetomaaslin
+	Maintainer: Huttenhower Lab <hutlab@googlegroups.com>
+	Section: misc
+	Priority: optional
+	Standards-Version: 3.9.4
+	Build-Depends: debhelper (>= 8), python (>= 2), python (<< 3), python-blist
+
+	Package: qiimetomaaslin
+	Architecture: any
+	Depends: ${shlibs:Depends}, ${misc:Depends}
+	Description: Qiime to Maaslin.
+	 Connects Qiime tools to Maaslin tools.
+	EOF
+
+(6) Make a blank copyright file:
+	- vim copyright
+	- a
+	- (type one space)
+	- esc
+	- shift + ZZ
+
+	(or any other way you want to make a blank copyright file)
+
+(7) Make a rules file:
+	- vim rules
+	- a
+	- type the following:
+	#!/usr/bin/make -f
+	%:
+		dh $@
+	- (There is a tab before the dh $@)
+	- esc
+	- shift + ZZ
+
+(8) Create a source/format file
+	- mkdir source
+	- cd source
+	- cat > format <<EOF
+	3.0 (quilt)
+	EOF
+
+(9) Attempt to build the package:
+	- debuild -us -uc
+
+received output:
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: source package qiimetomaaslin
+dpkg-buildpackage: source version 1.0-1
+dpkg-buildpackage: source changed by Morgan Paull <mpaull@nsegata-Precision-M4500>
+ dpkg-source --before-build qiimetomaaslin-1.0
+dpkg-buildpackage: host architecture amd64
+dpkg-checkbuilddeps: Unmet build dependencies: debheper (>= 8) blist
+dpkg-buildpackage: warning: build dependencies/conflicts unsatisfied; aborting
+dpkg-buildpackage: warning: (Use -d flag to override.)
+debuild: fatal error at line 1357:
+dpkg-buildpackage -rfakeroot -D -us -uc failed
+
+	- I'm going to try again with the override flag for the dependancies.
+	- debuild -us -uc -d
+
+	- Output:
+mpaull@nsegata-Precision-M4500:~/Desktop/biobakery/debpackaging/qiimetomaaslin-1.0/debian$ debuild -us -uc -d
+ dpkg-buildpackage -rfakeroot -d -us -uc
+dpkg-buildpackage: source package qiimetomaaslin
+dpkg-buildpackage: source version 1.0-1
+dpkg-buildpackage: source changed by Morgan Paull <mpaull@nsegata-Precision-M4500>
+ dpkg-source --before-build qiimetomaaslin-1.0
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean 
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b qiimetomaaslin-1.0
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building qiimetomaaslin using existing ./qiimetomaaslin_1.0.orig.tar.gz
+dpkg-source: info: building qiimetomaaslin in qiimetomaaslin_1.0-1.debian.tar.gz
+dpkg-source: info: building qiimetomaaslin in qiimetomaaslin_1.0-1.dsc
+ debian/rules build
+dh build 
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary 
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_pysupport
+dh_pysupport: This program is deprecated, you should use dh_python2 instead. Migration guide: http://deb.li/dhs2p
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_installgsettings
+   dh_bugfiles
+   dh_ucf
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+dpkg-gencontrol: warning: Depends field of package qiimetomaaslin: unknown substitution variable ${shlibs:Depends}
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: warning: parsing file 'debian/qiimetomaaslin/DEBIAN/control' near line 8 package 'qiimetomaaslin':
+ missing description
+dpkg-deb: warning: ignoring 1 warning about the control file(s)
+
+dpkg-deb: building package `qiimetomaaslin' in `../qiimetomaaslin_1.0-1_amd64.deb'.
+ dpkg-genchanges  >../qiimetomaaslin_1.0-1_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build qiimetomaaslin-1.0
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+E: qiimetomaaslin changes: changed-by-address-malformed Morgan Paull <mpaull@nsegata-Precision-M4500>
+E: qiimetomaaslin source: package-uses-debhelper-but-lacks-build-depends
+W: qiimetomaaslin source: out-of-date-standards-version 3.9.2 (current is 3.9.4)
+W: qiimetomaaslin: wrong-bug-number-in-closes l3:#XXXXXX
+E: qiimetomaaslin: debian-changelog-file-contains-invalid-email-address mpaull@nsegata-Precision-M4500
+W: qiimetomaaslin: new-package-should-close-itp-bug
+W: qiimetomaaslin: copyright-without-copyright-notice
+E: qiimetomaaslin: package-has-no-description
+W: qiimetomaaslin: empty-binary-package
+Finished running lintian.
+
+
+(10) Correcting errors
+
+	- W: qiimetomaaslin source: out-of-date-standards-version 3.9.2 (current is 3.9.4)
+		- Changed the source file to reflect this change (and changed the file above in this document)
+	- E: qiimetomaaslin: debian-changelog-file-contains-invalid-email-address mpaull@nsegata-Precision-M4500
+		- Changed the entry in changelog from mpaull@nsegata-Precision-M4500 to an actual email address.
+	- E: qiimetomaaslin: package-has-no-description
+		- Added a description to the control document (and added it to the control document template in this file as well, above).
+
+(11) Unpacking the deb file
+
+mpaull@nsegata-Precision-M4500:~/Desktop/biobakery/debpackaging$ sudo dpkg -i qiimetomaaslin_1.0-1_amd64.deb
+[sudo] password for mpaull: 
+(Reading database ... 190340 files and directories currently installed.)
+Preparing to replace qiimetomaaslin 1.0-1 (using qiimetomaaslin_1.0-1_amd64.deb) ...
+Unpacking replacement qiimetomaaslin ...
+Setting up qiimetomaaslin (1.0-1) ...
+
+
+
+
+Meeting notes:
+
+(1) changed control from 'any' to 'all' (Changed back!)
+(2) added ADDITIONAL python dependancy to control build-depends of python (<< 3).
+(3) need to add stuff to copyright file in debian stuff, Tim emailed me those files. Check if this the copyright file to use for everything, but it is the right one to use for qiimetomaaslin and mircopita for sure.
+(4) the integer in the compat file seems to be the version number of the debhelper program I am using. Add this to my notes above.
+(5) debianhandbook.info
+(6) figure out what source/format is/ what quilt does.
+(7) Changed blist to python-blist in control build-depends.
+(8) Use dpkg -P qiimetomaaslin (removes installed package)
+(9) Use dpkg -l (lists all installed packages)
+(10) Rules file is probably the issue.
+	- maybe add somewhere 'hg clone ... for qiimetomaaslin'
+
+
+(11) Next up: find a way to run hg clone mid-packaging.
+
+
+
+
+
+
+Attempt number 2: using reference number 4 to walk through packaging a python script.
+
+Modified debian/control to be as follows:
+Source: qiimetomaaslin
+Section: misc
+Priority: extra
+Maintainer: Huttenhower Lab <hutlab@googlegroups.com>
+Build-Depends: debhelper (>= 8.0.0), python (>= 2), python (<< 3), python-blist
+Standards-Version: 3.9.4
+
+Package: qiimetomaaslin
+Architecture: all
+Depends: ${misc:Depends}
+Description: qiimetomaaslin
+ Ports Qiime tools into Maaslin.
+
+
+
+
+
+
+Useful notes:
+
+
+ 
+Useful References:
+(1) http://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf
+
+(2) https://wiki.debian.org/IntroDebianPackaging
+
+(3) http://www.debian.org/doc/manuals/maint-guide/modify.en.html
+
+(4) http://askubuntu.com/questions/27715/create-a-deb-package-from-scripts-or-binaries

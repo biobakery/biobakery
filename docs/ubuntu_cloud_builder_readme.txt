@@ -115,8 +115,18 @@ Steps:
 	- virsh console my_new_vm
 
 (9) The escape key for exiting the current session and gaining back control of the console is "ctrl-]".
+
+
+Useful notes:
+
+(1) If you ever need to get rid of a vm that you have previously created, use:
+	- virsh destroy my_new_vm
  
 Useful References:
 (1) https://help.ubuntu.com/13.04/serverguide/cloud-images-and-vmbuilder.html
 
 (2) http://bazaar.launchpad.net/~cloud-init-dev/cloud-init/trunk/view/head:/doc/examples/cloud-config.txt
+
+(3) http://docs.fedoraproject.org/en-US/Fedora/13/html/Virtualization_Guide/sect-Virtualization-Tips_and_tricks-Using_qemu_img.html
+
+(4) General Documentation for QEMU: http://en.wikibooks.org/wiki/QEMU/Images

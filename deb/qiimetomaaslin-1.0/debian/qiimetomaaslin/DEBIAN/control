@@ -1,0 +1,9 @@
+Package: qiimetomaaslin
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Huttenhower Lab <hutlab@googlegroups.com>
+Installed-Size: 25
+Section: misc
+Priority: optional
+Description: Qiime to Maaslin.
+ Connects Qiime tools to Maaslin tools.
