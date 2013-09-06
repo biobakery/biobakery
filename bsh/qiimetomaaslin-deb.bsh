@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# Make the directory for the project
+# -p is make parent directory
+mkdir -p qiimetomaaslin-0.1
+
+# Get the package
+cd qiimetomaaslin-0.1
+hg clone https://bitbucket.org/timothyltickle/qiimetomaaslin
+
+# Make a default project
+# -n program is debian native
+# -s package class is single
+# -e maintainer email address
+dh_make -n -s -e timothyltickle@gmail.com
+
+# Make the settings file
+echo "qiimetomaaslin usr/share/doc/qiimetomaaslin" > debian/qiimetomaaslin.install
+
+# Update dependencies
+sed -i 's/Build-Depends.*$/Build-Depends: debhelper (>= 8.0.0), python (>= 2.6)/' debian/control
+
+# Need to add blist.
+# Need to add to pythonpath and path (seperate script).
+
+# Update the license information
+mv debian/copyright debian/copyright_old
+echo "Format: http://dep.debian.net/deps/dep5" > debian/copyright 
+echo "Upstream-Name: qiimetomaaslin" >> debian/copyright
+echo "Source: <url://bitbucket.org/timothyltickle/qiimetomaaslin>" >> debian/copyright
+echo "" >> debian/copyright
+echo "Files: *" >> debian/copyright
+echo "Copyright: <years> <put author's name and email here>" >> debian/copyright
+echo "           <years> <likewise for another author>" >> debian/copyright
+echo "License: GPL-3.0+" >> debian/copyright
+echo "" >> debian/copyright
+echo "Files: debian/*" >> debian/copyright
+echo "Copyright: 2013 ttickle <timothyltickle@gmail.com>" >> debian/copyright
+echo "License: MIT" >> debian/copyright
+echo "" >> debian/copyright
+echo "License: MIT" >> debian/copyright
+echo " #####################################################################################" >> debian/copyright
+echo " #Copyright (C) <2013>" >> debian/copyright
+echo " #" >> debian/copyright
+echo " #Permission is hereby granted, free of charge, to any person obtaining a copy of" >> debian/copyright
+echo " #this software and associated documentation files (the \"Software\"), to deal in the" >> debian/copyright
+echo " #Software without restriction, including without limitation the rights to use, copy," >> debian/copyright
+echo " #modify, merge, publish, distribute, sublicense, and/or sell copies of the Software," >> debian/copyright
+echo " #and to permit persons to whom the Software is furnished to do so, subject to" >> debian/copyright
+echo " #the following conditions:" >> debian/copyright
+echo " #" >> debian/copyright
+echo " #The above copyright notice and this permission notice shall be included in all copies" >> debian/copyright
+echo " #or substantial portions of the Software." >> debian/copyright
+echo " #" >> debian/copyright
+echo " #THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED," >> debian/copyright
+echo " #INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A" >> debian/copyright
+echo " #PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT" >> debian/copyright
+echo " #HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION" >> debian/copyright
+echo " #OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE" >> debian/copyright
+echo " #SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE." >> debian/copyright
+echo " #####################################################################################" >> debian/copyright
+
+# Build package
+dpkg-buildpackage -us -uc
