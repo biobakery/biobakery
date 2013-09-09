@@ -1,0 +1,8 @@
+sudo rm my_seed.img
+cloud-localds my_seed.img my-user-data
+sudo qemu-img convert -O qcow2 my_new_vm.img.dist my_new_vm.img
+sudo virsh destroy biobakery
+sudo virsh undefine biobakery
+sudo virsh define biobakery.xml
+sudo virsh start biobakery
+sudo virsh console biobakery
