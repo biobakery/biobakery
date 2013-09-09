@@ -18,7 +18,7 @@ dh_make -n -s -e timothyltickle@gmail.com
 echo "qiimetomaaslin $HOME/biobakery/sfle/input" > debian/qiimetomaaslin.install
 
 # Update dependencies
-sed -i 's/Build-Depends.*$/Build-Depends: debhelper (>= 8.0.0), python (>= 2.6), python-blist/' debian/control
+sed -i 's/Build-Depends.*$/Build-Depends: debhelper (>= 8.0.0), python (>= 2.6)/' debian/control
 
 # Update the license information
 mv debian/copyright debian/copyright_old
@@ -59,6 +59,18 @@ echo " #########################################################################
 
 # Build package
 dpkg-buildpackage -us -uc
+
+# Install blist
+wget https://pypi.python.org/packages/source/b/blist/blist-1.3.4.tar.gz
+tar -zxvf blist-1.3.4.tar.gz
+cd blist-1.3.4
+sudo python setup.py install
+
+# Clean up
+cd ..
+rm blist-1.3.4.tar.gz
+rm -r blist-1.3.4
+cd ..
 
 # Make directory for and install deb package
 sudo dpkg -i qiimetomaaslin_0.1_amd64.deb
