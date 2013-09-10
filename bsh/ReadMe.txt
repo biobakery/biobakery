@@ -1,4 +1,3 @@
-#No need to install, done in the bsh script.
 To install packages:
 sudo dpkg -i qiimetomaaslin_0.1_amd64.deb
 sudo dpkg -i micropita_0.1_amd64.deb
