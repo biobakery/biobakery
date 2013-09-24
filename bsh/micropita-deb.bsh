@@ -1,13 +1,27 @@
-#!/bin/bash
+#!/bin/env bash
+
+# Global variables
+INSTALL_DIR="/usr/local/biobakery/"
+
+# Get the qiimetomaaslin directory
+# The whole directory is needed to get the .hgtags
+hg clone https://bitbucket.org/timothyltickle/micropita
+
+# Go into the cloned repository and get the tag
+cd micropita
+VERSION=$(tail -1 .hgtags | cut -f2 -d' ')
+echo $VERSION
+cd ..
 
 # Make the directory for the project
-# -p is make parent directory
-mkdir -p micropita-0.1
+PROJECT_DIR="micropita-$VERSION"
+mkdir $PROJECT_DIR
 
-# Get the package
-cd micropita-0.1
-hg clone https://bitbucket.org/timothyltickle/micropita/MicroPITA.py
-hg clone https://bitbucket.org/timothyltickle/micropita/src
+# Move the scripts into the package
+mv micropita/MicroPITA.py $PROJECT_DIR
+mv -r micropita/src $PROJECT_DIR
+rm -r micropita
+cd $PROJECT_DIR
 
 # Make a default project
 # -n program is debian native
@@ -16,7 +30,7 @@ hg clone https://bitbucket.org/timothyltickle/micropita/src
 dh_make -n -s -e micropita-users@googlegroups.com
 
 # Make the settings file
-echo "micropita /usr/local/biobakery/micropita" > debian/micropita.install
+echo "micropita $INSTALL_DIR$PROJECT_DIR" > debian/micropita.install
 
 # Update dependencies
 sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.7), python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent/' debian/control
@@ -24,24 +38,23 @@ sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.7), python-numpy, python-
 # Update the license information
 cat << EOF > debian/copyright
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: microPITA
+Upstream-Name: $PROJECT_DIR
 Source: <url://bitbucket.org/timothyltickle/micropita>
 
 Files: *
-Copyright: <years> <put author's name and email here>
+Copyright: <years> <put author name and email here>
            <years> <likewise for another author>
 License: GPL-3.0+
 
 Files: debian/*
-Copyright: 2013 Curtis Huttenhower
+Copyright: 2013 Timothy Tickle, Curtis Huttenhower
 License: MIT
 
-License: MIT
  #####################################################################################
  #Copyright (C) <2013>
  #
  #Permission is hereby granted, free of charge, to any person obtaining a copy of
- #this software and associated documentation files (the \"Software\"), to deal in the
+ #this software and associated documentation files (the "Software"), to deal in the
  #Software without restriction, including without limitation the rights to use, copy,
  #modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
  #and to permit persons to whom the Software is furnished to do so, subject to
@@ -50,13 +63,59 @@ License: MIT
  #The above copyright notice and this permission notice shall be included in all copies
  #or substantial portions of the Software.
  #
- #THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ #THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
  #INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
  #PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
  #HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
  #OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  #SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  #####################################################################################
+EOF
+
+# Make the post install script
+cat << EOF > debian/postinst
+#!/bin/env bash
+set -e
+
+case "\$1" in
+    configure)
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/micropita.py /usr/local/bin/micropita.py 
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument '\$1'" >&2
+        exit 1
+    ;;
+esac
+#DEBHELPER#
+
+exit 0
+EOF
+
+# Make the post remove script
+cat << EOF > debian/postrm
+#!/bin/env bash
+set -e
+
+case "\$1" in
+    remove)
+      rm /usr/local/bin/micropita.py 
+    ;;
+
+    purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
+    ;;
+
+    *)
+        echo "postrm called with unknown argument '\$1'" >&2
+        exit 1
+    ;;
+esac
+#DEBHELPER#
+
+exit 0
 EOF
 
 # Build package
