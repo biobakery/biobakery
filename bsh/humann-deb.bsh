@@ -5,43 +5,39 @@ INSTALL_DIR="/usr/local/biobakery/"
 
 # Get the qiimetomaaslin directory
 # The whole directory is needed to get the .hgtags
-hg clone https://bitbucket.org/timothyltickle/qiimetomaaslin
+hg clone https://bitbucket.org/chuttenh/humann
 
 # Go into the cloned repository and get the tag
-cd qiimetomaaslin
+cd humann
 VERSION=$(tail -1 .hgtags | cut -f2 -d' ')
 echo $VERSION
 cd ..
 
-# Make the directory for the project
-PROJECT_DIR="qiimetomaaslin-$VERSION"
-mkdir $PROJECT_DIR
-
-# Move the scripts into the package
-mv qiimetomaaslin/src/qiimeToMaaslin.py $PROJECT_DIR
-rm -r qiimetomaaslin
+# Change the name of the humann directory to add versioning
+PROJECT_DIR="humann-$VERSION"
+mv humann $PROJECT_DIR
 cd $PROJECT_DIR
 
 # Make a default project
 # -n program is debian native
 # -s package class is single
 # -e maintainer email address
-dh_make -n -s -e maaslin-users@googlegroups.com
+dh_make -n -s -e humann-users@googlegroups.com
 
 # Make the settings file
-echo "qiimetomaaslin $INSTALL_DIR$PROJECT_DIR" > debian/qiimetomaaslin.install
+echo "humann $INSTALL_DIR$PROJECT_DIR" > debian/humann.install
 
 # Update dependencies
-sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.6), python-blist/' debian/control
-sed -i 's/Homepage.*$/Homepage: http:\/\/huttenhower.sph.harvard.edu\/maaslin/' debian/control
-sed -i 's/Description.*$/Description: Create PCL files from Qiime tables./' debian/control
-sed -i 's/ <insert long description.*$/Create PCL files for MaAsLin using a OTU table frmm Qiime./' debian/control
+sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.7), scons, ncbi-blast+/' debian/control
+sed -i 's/Homepage.*$/Homepage: http:\/\/huttenhower.sph.harvard.edu\/humann/' debian/control
+sed -i 's/Description.*$/Description: Functional profiling of microbial communities./' debian/control
+sed -i 's/ <insert long description.*$/HUMAnN is a pipeline for efficiently and accurately determining the presence/absence and abundance of microbial pathways in a community from metagenomic data./' debian/control
 
 # Update the license information
 cat << EOF > debian/copyright
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: $PROJECT_DIR
-Source: <url://bitbucket.org/timothyltickle/qiimetomaaslin>
+Source: <url://bitbucket.org/chuttenh/humann>
 
 Files: *
 Copyright: <years> <put author name and email here>
@@ -49,11 +45,11 @@ Copyright: <years> <put author name and email here>
 License: GPL-3.0+
 
 Files: debian/*
-Copyright: 2013 Timothy Tickle, Curtis Huttenhower
+Copyright: 2012 Curtis Huttenhower
 License: MIT
 
  #####################################################################################
- #Copyright (C) <2013>
+ #Copyright (C) <2012>
  #
  #Permission is hereby granted, free of charge, to any person obtaining a copy of
  #this software and associated documentation files (the "Software"), to deal in the
@@ -72,52 +68,6 @@ License: MIT
  #OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  #SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  #####################################################################################
-EOF
-
-# Make the post install script
-cat << EOF > debian/postinst
-#!/bin/env bash
-set -e
-
-case "\$1" in
-    configure)
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/qiimeToMaaslin.py /usr/local/bin/qiimeToMaaslin.py 
-    ;;
-
-    abort-upgrade|abort-remove|abort-deconfigure)
-    ;;
-
-    *)
-        echo "postinst called with unknown argument '\$1'" >&2
-        exit 1
-    ;;
-esac
-#DEBHELPER#
-
-exit 0
-EOF
-
-# Make the post remove script
-cat << EOF > debian/postrm
-#!/bin/env bash
-set -e
-
-case "\$1" in
-    remove)
-      rm /usr/local/bin/qiimeToMaaslin.py 
-    ;;
-
-    purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
-    ;;
-
-    *)
-        echo "postrm called with unknown argument '\$1'" >&2
-        exit 1
-    ;;
-esac
-#DEBHELPER#
-
-exit 0
 EOF
 
 # Build package

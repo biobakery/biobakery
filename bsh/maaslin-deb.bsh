@@ -5,21 +5,17 @@ INSTALL_DIR="/usr/local/biobakery/"
 
 # Get the qiimetomaaslin directory
 # The whole directory is needed to get the .hgtags
-hg clone https://bitbucket.org/timothyltickle/qiimetomaaslin
+hg clone https://bitbucket.org/chuttenh/maaslin
 
 # Go into the cloned repository and get the tag
-cd qiimetomaaslin
+cd maaslin
 VERSION=$(tail -1 .hgtags | cut -f2 -d' ')
 echo $VERSION
 cd ..
 
 # Make the directory for the project
-PROJECT_DIR="qiimetomaaslin-$VERSION"
-mkdir $PROJECT_DIR
-
-# Move the scripts into the package
-mv qiimetomaaslin/src/qiimeToMaaslin.py $PROJECT_DIR
-rm -r qiimetomaaslin
+PROJECT_DIR="maaslin-$VERSION"
+mv maaslin $PROJECT_DIR
 cd $PROJECT_DIR
 
 # Make a default project
@@ -29,19 +25,19 @@ cd $PROJECT_DIR
 dh_make -n -s -e maaslin-users@googlegroups.com
 
 # Make the settings file
-echo "qiimetomaaslin $INSTALL_DIR$PROJECT_DIR" > debian/qiimetomaaslin.install
+echo "maaslin $INSTALL_DIR$PROJECT_DIR" > debian/maaslin.install
 
 # Update dependencies
-sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.6), python-blist/' debian/control
+sed -i 's/Build-Depends.*$/Build-Depends: r-base/' debian/control
 sed -i 's/Homepage.*$/Homepage: http:\/\/huttenhower.sph.harvard.edu\/maaslin/' debian/control
-sed -i 's/Description.*$/Description: Create PCL files from Qiime tables./' debian/control
-sed -i 's/ <insert long description.*$/Create PCL files for MaAsLin using a OTU table frmm Qiime./' debian/control
+sed -i 's/Description.*$/Description: Multivariate inference in microbial studies./' debian/control
+sed -i 's/ <insert long description.*$/MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function./' debian/control
 
 # Update the license information
 cat << EOF > debian/copyright
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: $PROJECT_DIR
-Source: <url://bitbucket.org/timothyltickle/qiimetomaaslin>
+Source: <url://bitbucket.org/chuttenh/maaslin>
 
 Files: *
 Copyright: <years> <put author name and email here>
@@ -81,7 +77,8 @@ set -e
 
 case "\$1" in
     configure)
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/qiimeToMaaslin.py /usr/local/bin/qiimeToMaaslin.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/src/Maaslin.R /usr/local/bin/Maaslin.R 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/src/merge_metadata.py /usr/local/bin/merge_metadata.py 
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
@@ -104,7 +101,8 @@ set -e
 
 case "\$1" in
     remove)
-      rm /usr/local/bin/qiimeToMaaslin.py 
+      rm /usr/local/bin/Maaslin.R 
+      rm /usr/local/bin/merge_metadata.py 
     ;;
 
     purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)

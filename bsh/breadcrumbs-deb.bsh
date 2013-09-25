@@ -3,45 +3,41 @@
 # Global variables
 INSTALL_DIR="/usr/local/biobakery/"
 
-# Get the qiimetomaaslin directory
+# Get the breadcrumbs directory
 # The whole directory is needed to get the .hgtags
-hg clone https://bitbucket.org/timothyltickle/qiimetomaaslin
+hg clone https://bitbucket.org/timothyltickle/breadcrumbs
 
 # Go into the cloned repository and get the tag
-cd qiimetomaaslin
+cd breadcrumbs
 VERSION=$(tail -1 .hgtags | cut -f2 -d' ')
 echo $VERSION
 cd ..
 
 # Make the directory for the project
-PROJECT_DIR="qiimetomaaslin-$VERSION"
-mkdir $PROJECT_DIR
-
-# Move the scripts into the package
-mv qiimetomaaslin/src/qiimeToMaaslin.py $PROJECT_DIR
-rm -r qiimetomaaslin
+PROJECT_DIR="breadcrumbs-$VERSION"
+mv breadcrumbs $PROJECT_DIR
 cd $PROJECT_DIR
 
 # Make a default project
 # -n program is debian native
 # -s package class is single
 # -e maintainer email address
-dh_make -n -s -e maaslin-users@googlegroups.com
+dh_make -n -s -e breadcrumbs-users@googlegroups.com
 
 # Make the settings file
-echo "qiimetomaaslin $INSTALL_DIR$PROJECT_DIR" > debian/qiimetomaaslin.install
+echo "breadcrumbs $INSTALL_DIR$PROJECT_DIR" > debian/breadcrumbs.install
 
 # Update dependencies
-sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.6), python-blist/' debian/control
-sed -i 's/Homepage.*$/Homepage: http:\/\/huttenhower.sph.harvard.edu\/maaslin/' debian/control
-sed -i 's/Description.*$/Description: Create PCL files from Qiime tables./' debian/control
-sed -i 's/ <insert long description.*$/Create PCL files for MaAsLin using a OTU table frmm Qiime./' debian/control
+sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.7), python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent/' debian/control
+sed -i 's/Homepage.*$/Homepage: https:\/\/bitbucket.org\/timothyltickle\/breadcrumbs/' debian/control
+sed -i 's/Description.*$/Description: Utility scripts for microbial community analysis./' debian/control
+sed -i 's/ <insert long description.*$/Utility scripts for microbial community analysis./' debian/control
 
 # Update the license information
 cat << EOF > debian/copyright
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: $PROJECT_DIR
-Source: <url://bitbucket.org/timothyltickle/qiimetomaaslin>
+Source: <url://bitbucket.org/timothyltickle/breadcrumbs>
 
 Files: *
 Copyright: <years> <put author name and email here>
@@ -49,7 +45,7 @@ Copyright: <years> <put author name and email here>
 License: GPL-3.0+
 
 Files: debian/*
-Copyright: 2013 Timothy Tickle, Curtis Huttenhower
+Copyright: 2013 Timothy Tickle, Uri Weingart, Nicola Segata, Curtis Huttenhower
 License: MIT
 
  #####################################################################################
@@ -81,7 +77,12 @@ set -e
 
 case "\$1" in
     configure)
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/qiimeToMaaslin.py /usr/local/bin/qiimeToMaaslin.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptBiplotTSV.R /usr/local/bin/scriptBiplotTSV.R 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptConvertBetweenBIOMAndPCL.py usr/local/bin/scriptConvertBetweenBIOMAndPCL.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptEnvToTable.py /usr/local/bin/scriptEnvToTable.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptManpulateTable.py /usr/local/bin/scriptManpulateTable.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptPcoa.py /usr/local/bin/scriptPcoa.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptPlotFeature.py /usr/local/bin/s/scriptPlotFeature.py 
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
@@ -104,7 +105,12 @@ set -e
 
 case "\$1" in
     remove)
-      rm /usr/local/bin/qiimeToMaaslin.py 
+      rm /usr/local/bin/scriptBiplotTSV.R 
+      rm /usr/local/bin/scriptConvertBetweenBIOMAndPCL.py 
+      rm /usr/local/bin/scriptEnvToTable.py 
+      rm /usr/local/bin/scriptManpulateTable.py 
+      rm /usr/local/bin/scriptPcoa.py 
+      rm /usr/local/bin/s/scriptPlotFeature.py 
     ;;
 
     purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
