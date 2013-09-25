@@ -1,7 +1,7 @@
 #!/bin/env bash
 
 # Global variables
-INSTALL_DIR="/usr/local/biobakery/"
+INSTALL_DIR="/usr/share/biobakery/"
 
 # Get the qiimetomaaslin directory
 # The whole directory is needed to get the .hgtags
@@ -18,7 +18,8 @@ PROJECT_DIR="qiimetomaaslin-$VERSION"
 mkdir $PROJECT_DIR
 
 # Move the scripts into the package
-mv qiimetomaaslin/src/qiimeToMaaslin.py $PROJECT_DIR
+mkdir "$PROJECT_DIR/qiimetomaaslin"
+mv qiimetomaaslin/src/qiimeToMaaslin.py "$PROJECT_DIR/qiimetomaaslin"
 rm -r qiimetomaaslin
 cd $PROJECT_DIR
 
