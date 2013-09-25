@@ -36,7 +36,7 @@ echo "micropita $INSTALL_DIR$PROJECT_DIR" > debian/micropita.install
 sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.7), python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent/' debian/control
 sed -i 's/Homepage.*$/Homepage: http:\/\/huttenhower.sph.harvard.edu\/micropita/' debian/control
 sed -i 's/Description.*$/Description: Two-stage microbial community sample selection./' debian/control
-sed -i 's/ <insert long description.*$/microPITA is a computational tool enabling sample selection in two-stage (tiered) studies. Using two-stage designs can more efficiently allocate resources, reducing study costs, and maximizing the use of samples./' debian/control
+sed -i 's/ <insert long description.*$/ microPITA is a computational tool enabling sample selection in two-stage (tiered) studies. Using two-stage designs can more efficiently allocate resources, reducing study costs, and maximizing the use of samples./' debian/control
 
 # Update the license information
 cat << EOF > debian/copyright

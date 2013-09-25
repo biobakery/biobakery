@@ -35,7 +35,7 @@ echo "qiimetomaaslin $INSTALL_DIR$PROJECT_DIR" > debian/qiimetomaaslin.install
 sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.6), python-blist/' debian/control
 sed -i 's/Homepage.*$/Homepage: http:\/\/huttenhower.sph.harvard.edu\/maaslin/' debian/control
 sed -i 's/Description.*$/Description: Create PCL files from Qiime tables./' debian/control
-sed -i 's/ <insert long description.*$/Create PCL files for MaAsLin using a OTU table frmm Qiime./' debian/control
+sed -i 's/ <insert long description.*$/ Create PCL files for MaAsLin using a OTU table frmm Qiime./' debian/control
 
 # Update the license information
 cat << EOF > debian/copyright

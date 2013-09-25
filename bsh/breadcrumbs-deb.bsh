@@ -31,7 +31,7 @@ echo "breadcrumbs $INSTALL_DIR$PROJECT_DIR" > debian/breadcrumbs.install
 sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.7), python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent/' debian/control
 sed -i 's/Homepage.*$/Homepage: https:\/\/bitbucket.org\/timothyltickle\/breadcrumbs/' debian/control
 sed -i 's/Description.*$/Description: Utility scripts for microbial community analysis./' debian/control
-sed -i 's/ <insert long description.*$/Utility scripts for microbial community analysis./' debian/control
+sed -i 's/ <insert long description.*$/ Utility scripts for microbial community analysis./' debian/control
 
 # Update the license information
 cat << EOF > debian/copyright

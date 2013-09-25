@@ -31,7 +31,7 @@ echo "humann $INSTALL_DIR$PROJECT_DIR" > debian/humann.install
 sed -i 's/Build-Depends.*$/Build-Depends: python (>= 2.7), scons, ncbi-blast+/' debian/control
 sed -i 's/Homepage.*$/Homepage: http:\/\/huttenhower.sph.harvard.edu\/humann/' debian/control
 sed -i 's/Description.*$/Description: Functional profiling of microbial communities./' debian/control
-sed -i 's/ <insert long description.*$/HUMAnN is a pipeline for efficiently and accurately determining the presence/absence and abundance of microbial pathways in a community from metagenomic data./' debian/control
+sed -i 's/ <insert long description.*$/ HUMAnN is a pipeline for efficiently and accurately determining the presence/absence and abundance of microbial pathways in a community from metagenomic data./' debian/control
 
 # Update the license information
 cat << EOF > debian/copyright

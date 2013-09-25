@@ -31,7 +31,7 @@ echo "maaslin $INSTALL_DIR$PROJECT_DIR" > debian/maaslin.install
 sed -i 's/Build-Depends.*$/Build-Depends: r-base/' debian/control
 sed -i 's/Homepage.*$/Homepage: http:\/\/huttenhower.sph.harvard.edu\/maaslin/' debian/control
 sed -i 's/Description.*$/Description: Multivariate inference in microbial studies./' debian/control
-sed -i 's/ <insert long description.*$/MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function./' debian/control
+sed -i 's/ <insert long description.*$/ MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function./' debian/control
 
 # Update the license information
 cat << EOF > debian/copyright
