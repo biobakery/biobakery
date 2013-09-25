@@ -77,12 +77,12 @@ set -e
 
 case "\$1" in
     configure)
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptBiplotTSV.R /usr/local/bin/scriptBiplotTSV.R 
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptConvertBetweenBIOMAndPCL.py usr/local/bin/scriptConvertBetweenBIOMAndPCL.py 
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptEnvToTable.py /usr/local/bin/scriptEnvToTable.py 
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptManpulateTable.py /usr/local/bin/scriptManpulateTable.py 
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptPcoa.py /usr/local/bin/scriptPcoa.py 
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptPlotFeature.py /usr/local/bin/s/scriptPlotFeature.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptBiplotTSV.R /usr/bin/scriptBiplotTSV.R 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptConvertBetweenBIOMAndPCL.py usr/bin/scriptConvertBetweenBIOMAndPCL.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptEnvToTable.py /usr/bin/scriptEnvToTable.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptManpulateTable.py /usr/bin/scriptManpulateTable.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptPcoa.py /usr/bin/scriptPcoa.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/scripts/scriptPlotFeature.py /usr/bin/s/scriptPlotFeature.py 
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
@@ -105,12 +105,12 @@ set -e
 
 case "\$1" in
     remove)
-      rm /usr/local/bin/scriptBiplotTSV.R 
-      rm /usr/local/bin/scriptConvertBetweenBIOMAndPCL.py 
-      rm /usr/local/bin/scriptEnvToTable.py 
-      rm /usr/local/bin/scriptManpulateTable.py 
-      rm /usr/local/bin/scriptPcoa.py 
-      rm /usr/local/bin/s/scriptPlotFeature.py 
+      rm /usr/bin/scriptBiplotTSV.R 
+      rm /usr/bin/scriptConvertBetweenBIOMAndPCL.py 
+      rm /usr/bin/scriptEnvToTable.py 
+      rm /usr/bin/scriptManpulateTable.py 
+      rm /usr/bin/scriptPcoa.py 
+      rm /usr/bin/s/scriptPlotFeature.py 
     ;;
 
     purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)

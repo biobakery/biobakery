@@ -77,8 +77,8 @@ set -e
 
 case "\$1" in
     configure)
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/src/Maaslin.R /usr/local/bin/Maaslin.R 
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/src/merge_metadata.py /usr/local/bin/merge_metadata.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/src/Maaslin.R /usr/bin/Maaslin.R 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/src/merge_metadata.py /usr/bin/merge_metadata.py 
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
@@ -101,8 +101,8 @@ set -e
 
 case "\$1" in
     remove)
-      rm /usr/local/bin/Maaslin.R 
-      rm /usr/local/bin/merge_metadata.py 
+      rm /usr/bin/Maaslin.R 
+      rm /usr/bin/merge_metadata.py 
     ;;
 
     purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)

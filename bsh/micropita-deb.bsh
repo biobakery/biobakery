@@ -82,7 +82,7 @@ set -e
 
 case "\$1" in
     configure)
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/micropita.py /usr/local/bin/micropita.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/micropita.py /usr/bin/micropita.py 
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
@@ -105,7 +105,7 @@ set -e
 
 case "\$1" in
     remove)
-      rm /usr/local/bin/micropita.py 
+      rm /usr/bin/micropita.py 
     ;;
 
     purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
