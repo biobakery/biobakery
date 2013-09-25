@@ -82,7 +82,7 @@ set -e
 
 case "\$1" in
     configure)
-      ln -s ${INSTALL_DIR}${PROJECT_DIR}/qiimeToMaaslin.py /usr/local/bin/qiimeToMaaslin.py 
+      ln -s ${INSTALL_DIR}${PROJECT_DIR}/qiimetomaaslin/qiimeToMaaslin.py /usr/local/bin/qiimeToMaaslin.py 
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
