@@ -1,0 +1,42 @@
+Tools:
+
+breadcrumbs:
+	Already integrated
+	Check that the ManipulateTable script outputs the correct format BIOM or PCL.
+	How do we handle breadcrumbs being referenced by all the projects.
+
+microPITA:
+	Already Integrated
+	Input can be BIOM
+	Output does nto make sense to be BIOM
+
+
+MetaPhlan:
+	Python script, can import breadcrumbs and call the function to write to file.
+		Bulky but we do not want to rework the engine of MetaPhlan to use AbundanceTable.
+	Output as BIOM?
+
+HUMAnN:
+	Input biome to PCL
+		Can be a call in the SConscript
+		HUMAnN does not get called as a script.
+	Output from PCL to BIOM ?
+
+
+LefSe:
+
+R Scripts:
+qiimeToMaaslin:
+	I do not think this needs BIOM
+	If input is BIOM just use updated MaAsLin
+	If input is OTU table, use this and make a PCL file for MaAsLin
+	If you do not want to use MaAsLin but want the normalization, use BreadCrumb's ManipulateTable.py script
+
+MaAsLin:
+	Input BIOM - Needs to be made
+		As a sfle project this can be done easily
+		As an R script Call...
+
+CCREPE:
+
+
