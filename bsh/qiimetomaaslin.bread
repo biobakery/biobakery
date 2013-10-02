@@ -1,9 +1,11 @@
-Tool Name: qiimetomaaslin
-Repository: hg clone https://bitbucket.org/timothyltickle/qiimetomaaslin
+Name: qiimetomaaslin
+Repository: https://bitbucket.org/timothyltickle/qiimetomaaslin
 Version(Tag): 1.0
 Email: maaslin-users@googlegroups.com
 Webpage: www.huttenhower.sph.harvard.edu/maaslin
+Copyright: Timothy Tickle, Curtis Huttenhower
+CopyrightYear: 2012
 Dependencies: python (>= 2.7), python-blist (>= 1.3.4)
 Description(<60char):Create PCL files from Qiime table.
 Description(Longer):Create PCL files for MaAsLin using an OTU table from Qiime.
-CommandlineScripts:qiimetomaaslin.py
+CommandlineScripts:qiimetomaaslin/qiimetomaaslin.py
