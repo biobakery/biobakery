@@ -1,0 +1,13 @@
+#!bin/env bash
+
+# Array to hold the read in values
+tags=()
+
+# Read in file
+while IFS=: read Tag Value
+do
+  tags+=($Value)
+done < qiimetomaaslin.bread
+
+echo $tags
+
