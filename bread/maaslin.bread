@@ -1,0 +1,12 @@
+[Tool]
+Name: maaslin
+Repository: https://bitbucket.org/chuttenh/maaslin
+Version(Tag): v0.2
+Email: maaslin-users@googlegroups.com
+Webpage: www.huttenhower.sph.harvard.edu/micropita
+Copyright: Timothy Tickle, Curtis Huttenhower
+CopyrightYear: 2013
+Dependencies: python (>= 2.7), python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent
+Description(<60char): Multivariate inference in microbial studies.
+Description(Longer): MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function.
+CommandlineScripts: maaslin/src/Maaslin.R,maaslin/src/merge_metadata.py

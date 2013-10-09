@@ -2,25 +2,24 @@ Tools:
 
 breadcrumbs:
 	Already integrated
-	Check that the ManipulateTable script outputs the correct format BIOM or PCL.
 	How do we handle breadcrumbs being referenced by all the projects.
 
 microPITA:
 	Already Integrated
 	Input can be BIOM
-	Output does nto make sense to be BIOM
+	Output does not make sense to be BIOM
 
 
 MetaPhlan:
 	Python script, can import breadcrumbs and call the function to write to file.
 		Bulky but we do not want to rework the engine of MetaPhlan to use AbundanceTable.
-	Output as BIOM?
+	Output as BIOM - No
 
 HUMAnN:
 	Input biome to PCL
 		Can be a call in the SConscript
 		HUMAnN does not get called as a script.
-	Output from PCL to BIOM ?
+	Output from PCL to BIOM - No
 
 
 LefSe:

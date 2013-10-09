@@ -1,0 +1,12 @@
+[Tool]
+Name: breadcrumbs
+Repository: https://bitbucket.org/timothyltickle/breadcrumbs
+Version(Tag): 0.8
+Email: breadcrumbs-users@googlegroups.com
+Webpage: www.huttenhower.sph.harvard.edu/breadcrumbs
+Copyright: Timothy Tickle, Curtis Huttenhower
+CopyrightYear: 2012
+Dependencies: python (>= 2.7), python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent
+Description(<60char): Utility scripts for microbial community analysis.
+Description(Longer): Utility scripts for microbial community analysis.
+CommandlineScripts: breadcrumbs/scripts/scriptBiplotTSV.R,breadcrumbs/scripts/scriptConvertBetweenBIOMAndPCL.py,breadcrumbs/scripts/scriptEnvToTable.py,breadcrumbs/scripts/scriptManpulateTable.py,breadcrumbs/scripts/scriptPcoa.py,breadcrumbs/scripts/scriptPlotFeature.py
