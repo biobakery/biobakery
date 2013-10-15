@@ -19,6 +19,7 @@ c_sDependencies = "Dependencies"
 c_sDescription = "Description(<60char)"
 c_sDescriptionLong = "Description(Longer)"
 c_sEmail = "Email"
+c_sKeyGitHub = "github"
 c_sRepository = "Repository"
 c_cScriptDelimiter = ","
 c_sSep = os.path.sep
@@ -102,7 +103,12 @@ for sConfigFile in lsConfigFiles:
   sInstallDir = c_sBiobakeryInstallLocation + "biobakery" + c_sSep
 
   # Get the project directory given the tag specified by the version
-  fSuccess = funcDoCommands( [[ "hg", "clone", "-r", sVersion, cprsr.get( c_sSectionHeader, c_sRepository ) ]], fVerbose = fLog )
+  sCodeRepository = cprsr.get( c_sSectionHeader, c_sRepository )
+  fSuccess = False
+  if c_sKeyGitHub in sCodeRepository:
+    fSuccess = funcDoCommands( [[ "git", "clone", "-b", sVersion, sCodeRepository ]], fVerbose = fLog )
+  else:
+    fSuccess = funcDoCommands( [[ "hg", "clone", "-r", sVersion, sCodeRepository ]], fVerbose = fLog )
   if not fSuccess: exit(1)
 
   # Make the directory for the project
