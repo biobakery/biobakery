@@ -208,5 +208,5 @@ for sConfigFile in lsConfigFiles:
       hndlPostRM.write("        exit 1\n    ;;\nesac\n#DEBHELPER#\n\nexit 0")
 
   # Build package
-  fSuccess = funcDoCommands( [[ "dpkg-buildpackage", "-us", "-uc" ]], fVerbose = fLog )
+  fSuccess = funcDoCommands( [[ "dpkg-buildpackage", "-us", "-uc", "-d" ]], fVerbose = fLog )
   if not fSuccess: exit(1)
