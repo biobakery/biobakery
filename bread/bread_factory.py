@@ -74,7 +74,7 @@ def funcDoCommands( aastrCommands, fVerbose = False, fForced = False, fPiped = F
   return True
 
 
-# Configuration
+# Configuration for install location
 c_sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
 
 # Get all files with glob
@@ -83,12 +83,11 @@ lsConfigFiles = glob.glob("*.bread")
 # Parse the Config files
 for sConfigFile in lsConfigFiles:
 
-  # Config parser
+  # Create config parser and read in file
   cprsr = ConfigParser.ConfigParser(allow_no_value=True)
+  cprsr.readfp(open(sConfigFile))
 
   print("Making Bread: "+sConfigFile)
-
-  cprsr.readfp(open(sConfigFile))
 
   # Current tool name
   sToolName = cprsr.get( c_sSectionHeader, c_sToolName)
@@ -143,7 +142,8 @@ for sConfigFile in lsConfigFiles:
     hndlInstall.write(sToolName + " " + c_sBiobakeryInstallLocation + sProjectDir)
 
   # Update dependencies
-  fSuccess = funcDoCommands( [[ "sed", "-i", "s/Build-Depends.*$/Build-Depends: " + cprsr.get( c_sSectionHeader, c_sDependencies ) + "/", "debian" + c_sSep + "control" ],
+  fSuccess = funcDoCommands( [[ "sed", "-i", "s/^Depends.*$/Depends: " + cprsr.get( c_sSectionHeader, c_sDependencies ) + "/", "debian" + c_sSep + "control" ],
+                    [ "sed", "-i", "s/Architecture.*$/Architecture: all/", "debian/control" ],
                     [ "sed", "-i", "s/Homepage.*$/Homepage: " + cprsr.get( c_sSectionHeader, c_sWebpage ).replace("/","\\/") + "/", "debian/control" ],
                     [ "sed", "-i", "s/Description.*$/Description: " + cprsr.get( c_sSectionHeader, c_sDescription ).replace("/","\\/") + "/", "debian/control" ],
                     [ "sed", "-i", "s/ <insert long description.*$/ " + cprsr.get( c_sSectionHeader, c_sDescriptionLong ).replace("/","\\/") + "/", "debian" + c_sSep + "control" ]], fVerbose = fLog )
