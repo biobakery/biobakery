@@ -181,31 +181,30 @@ for sConfigFile in lsConfigFiles:
   # Make the post install script
   if( len( lsScripts ) > 0 ):
     with open( "debian" + c_sSep + "postinst", "w") as hndlPostInst:
-      hndlPostInst.write("#!" + c_sSep + "bin" + c_sSep + "env bash\n")
+      hndlPostInst.write("#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash\n")
       hndlPostInst.write("set -e\n\n")
-      hndlPostInst.write("case \"\$1\" in\n")
+      hndlPostInst.write("case \"$1\" in\n")
       hndlPostInst.write("    configure)\n")
       for sScript in lsScripts:
-        hndlPostInst.write("      ln -s " + c_sBiobakeryInstallLocation + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + " \n")
+        hndlPostInst.write("        ln -s " + c_sBiobakeryInstallLocation + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + " \n")
       hndlPostInst.write("    ;;\n\n")
       hndlPostInst.write("    abort-upgrade|abort-remove|abort-deconfigure)\n    ;;\n\n")
       hndlPostInst.write("    *)\n")
-      hndlPostInst.write("        echo \"postinst called with unknown argument '\$1'\" >&2\n")
-      hndlPostInst.write("        exit 1\n    ;;\nesac")
+      hndlPostInst.write("          echo \"postinst called with unknown argument \\`$1'\" >&2\n")
+      hndlPostInst.write("          exit 1\n    ;;\nesac\n")
       hndlPostInst.write("#DEBHELPER#\n\n")
       hndlPostInst.write("exit 0")
 
     # Make the post remove script
     with open( "debian" + c_sSep + "postrm", "w") as hndlPostRM:
-      hndlPostRM.write("#!" + c_sSep + "bin" + c_sSep + "env bash")
+      hndlPostRM.write("#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash\n\n")
       hndlPostRM.write("set -e\n\n")
-      hndlPostRM.write("case \"\$1\" in\n    remove)")
+      hndlPostRM.write("case \"$1\" in\n    remove|purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)\n")
       for sScript in lsScripts:
-        hndlPostRM.write("rm " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript + "\n    ;;\n\n")
-      hndlPostRM.write("    purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)\n    ;;\n\n")
-      hndlPostRM.write("    *)\n")
-      hndlPostRM.write("        echo \"postrm called with unknown argument '\$1'\" >&2\n")
-      hndlPostRM.write("        exit 1\n    ;;\nesac\n#DEBHELPER#\n\nexit 0")
+        hndlPostRM.write("        rm " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + "\n")
+      hndlPostRM.write("    ;;\n\n    *)\n")
+      hndlPostRM.write("          echo \"postrm called with unknown argument \\`$1'\" >&2\n")
+      hndlPostRM.write("          exit 1\n    ;;\nesac\n#DEBHELPER#\n\nexit 0")
 
   # Build package
   fSuccess = funcDoCommands( [[ "dpkg-buildpackage", "-us", "-uc", "-d" ]], fVerbose = fLog )
