@@ -9,4 +9,4 @@ CopyrightYear: 2012
 Dependencies: python (>= 2.7), python-blist
 Description(<60char): Create PCL files from Qiime table.
 Description(Longer): Create PCL files for MaAsLin using an OTU table from Qiime.
-CommandlineScripts: qiimetomaaslin/src/qiimetomaaslin.py
+CommandlineScripts: qiimetomaaslin/src/qiimeToMaaslin.py
