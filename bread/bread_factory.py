@@ -142,7 +142,7 @@ for sConfigFile in lsConfigFiles:
     hndlInstall.write(sToolName + " " + c_sBiobakeryInstallLocation + sProjectDir)
 
   # Update dependencies
-  fSuccess = funcDoCommands( [[ "sed", "-i", "s/^Build-Depends.*$/Build-Depends: " + cprsr.get( c_sSectionHeader, c_sDependencies ) + "/", "debian" + c_sSep + "control" ],
+  fSuccess = funcDoCommands( [[ "sed", "-i", "s/^Depends.*$/Depends: " + cprsr.get( c_sSectionHeader, c_sDependencies ) + "/", "debian" + c_sSep + "control" ],
                     [ "sed", "-i", "s/Architecture.*$/Architecture: all/", "debian/control" ],
                     [ "sed", "-i", "s/Homepage.*$/Homepage: " + cprsr.get( c_sSectionHeader, c_sWebpage ).replace("/","\\/") + "/", "debian/control" ],
                     [ "sed", "-i", "s/Description.*$/Description: " + cprsr.get( c_sSectionHeader, c_sDescription ).replace("/","\\/") + "/", "debian/control" ],
