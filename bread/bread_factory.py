@@ -3,6 +3,7 @@
 import ConfigParser
 import glob
 import os
+import re
 from subprocess import call, PIPE, Popen
 import sys
 import traceback
@@ -79,15 +80,15 @@ c_sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
 # Get all files with glob
 lsConfigFiles = glob.glob("*.bread")
 
-# Config parser
-cprsr = ConfigParser.ConfigParser(allow_no_value=True)
-
 # Parse the Config files
 for sConfigFile in lsConfigFiles:
 
+  # Config parser
+  cprsr = ConfigParser.ConfigParser(allow_no_value=True)
+
   print("Making Bread: "+sConfigFile)
 
-  cprsr.read(sConfigFile)
+  cprsr.readfp(open(sConfigFile))
 
   # Current tool name
   sToolName = cprsr.get( c_sSectionHeader, c_sToolName)
@@ -112,7 +113,7 @@ for sConfigFile in lsConfigFiles:
   if not fSuccess: exit(1)
 
   # Make the directory for the project
-  sProjectDir = "-".join( [ sToolName, sVersion ] )
+  sProjectDir = "-".join( [ sToolName, re.sub("[A-Za-z]","",sVersion) ] )
   fSuccess = funcDoCommands( [[ "mkdir", sProjectDir ]], fVerbose = fLog)
   if not fSuccess: exit(1)
 
@@ -209,3 +210,6 @@ for sConfigFile in lsConfigFiles:
   # Build package
   fSuccess = funcDoCommands( [[ "dpkg-buildpackage", "-us", "-uc", "-d" ]], fVerbose = fLog )
   if not fSuccess: exit(1)
+
+  # Reset directory to build new package
+  os.chdir( ".." )
