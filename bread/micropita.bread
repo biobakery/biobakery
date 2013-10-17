@@ -6,7 +6,7 @@ Email: micropita-users@googlegroups.com
 Webpage: www.huttenhower.sph.harvard.edu/micropita
 Copyright: Timothy Tickle, Curtis Huttenhower
 CopyrightYear: 2013
-Dependencies: python (>= 2.7), python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent
+Dependencies: python (>= 2.7), r-base, python-matplotlib, python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent
 Description(<60char): Two-stage microbial community sample selection.
 Description(Longer): microPITA is a computational tool enabling sample selection in two-stage (tiered) studies. Using two-stage designs can more efficiently allocate resources, reducing study costs, and maximizing the use of samples.
 CommandlineScripts: micropita/MicroPITA.py
