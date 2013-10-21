@@ -1,7 +1,7 @@
 [Tool]
 Name: lefse
 Repository: https://bitbucket.org/nsegata/lefse
-Version(Tag): 1.1.0
+Version(Tag): 1.0.5
 Email: lefse-users@googlegroups.com
 Webpage: http://huttenhower.sph.harvard.edu/galaxy/root?tool_id=lefse_upload
 Copyright: Nicola Segata, Jacques Izard, Levi Walron, Dirk Gevers, Larisa Miropolsky, Wendy Garrett, Curtis Huttenhower.
