@@ -1,6 +1,7 @@
 #!bin/env python
 
 import ConfigParser
+import datetime
 import glob
 import os
 import re
@@ -105,11 +106,18 @@ for sConfigFile in lsConfigFiles:
   # Get the project directory given the tag specified by the version
   sCodeRepository = cprsr.get( c_sSectionHeader, c_sRepository )
   fSuccess = False
+  lsCommand = []
   if c_sKeyGitHub in sCodeRepository:
-    fSuccess = funcDoCommands( [[ "git", "clone", "-b", sVersion, sCodeRepository ]], fVerbose = fLog )
+    lsCommand.extend( [ "git", "clone"] )
+    if sVersion : lsCommand.extend( ["-b", sVersion] )
   else:
-    fSuccess = funcDoCommands( [[ "hg", "clone", "-r", sVersion, sCodeRepository ]], fVerbose = fLog )
+    lsCommand.extend( [ "hg", "clone"] )
+    if sVersion: lsCommand.extend( [ "-r", sVersion ] )
+  fSuccess = funcDoCommands( [ lsCommand + [ sCodeRepository ] ], fVerbose = fLog )
   if not fSuccess: exit(1)
+
+  # If no version was request indicate the date
+  sVersion = datetime.date.today().strftime("%d%m%y")
 
   # Make the directory for the project
   sProjectDir = "-".join( [ sToolName, re.sub("[A-Za-z]","",sVersion) ] )
@@ -139,7 +147,7 @@ for sConfigFile in lsConfigFiles:
 
   # Make the settings file
   with open( "debian"+ c_sSep + sToolName + ".install", "w" ) as hndlInstall:
-    hndlInstall.write(sToolName + " " + c_sBiobakeryInstallLocation + sProjectDir)
+    hndlInstall.write(sToolName + " " + sInstallDir + sProjectDir)
 
   # Update dependencies
   fSuccess = funcDoCommands( [[ "sed", "-i", "s/^Depends.*$/Depends: " + cprsr.get( c_sSectionHeader, c_sDependencies ) + "/", "debian" + c_sSep + "control" ],
@@ -187,7 +195,7 @@ for sConfigFile in lsConfigFiles:
       hndlPostInst.write("case \"$1\" in\n")
       hndlPostInst.write("    configure)\n")
       for sScript in lsScripts:
-        hndlPostInst.write("        ln -s " + c_sBiobakeryInstallLocation + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + " \n")
+        hndlPostInst.write("        ln -s " + sInstallDir + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + " \n")
       hndlPostInst.write("    ;;\n\n")
       hndlPostInst.write("    abort-upgrade|abort-remove|abort-deconfigure)\n    ;;\n\n")
       hndlPostInst.write("    *)\n")
