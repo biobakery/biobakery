@@ -10,5 +10,8 @@ Dependencies: python (>= 2.7), python-cogent, python-numpy
 Description(<60char): Investestigation of  Communities by Reconstruction of Unobserved States
 Description(Longer):   The PICRUSt project aims to support prediction of the unobserved character states in a community of organisms from phylogenetic information about the organisms in that community. The primary application is to predict gene family abundance (e.g. the metagenome) in environmental DNA samples for which only marker gene (e.g. 16S rRNA gene) data are available.
 CommandlineScripts: scripts/normalize_by_copy_number.py
-
- 
+PostInst: git clone https://github.com/bipy/pyqi
+  git clone git://github.com/biom-format/biom-format.git
+  python pyqi/setup.py install
+  python biom-format/setup.py install
+PostRemove:
