@@ -24,6 +24,8 @@ c_sEmail = "Email"
 c_sKeyGitHub = "github"
 c_sRepository = "Repository"
 c_cScriptDelimiter = ","
+c_sScriptPostInst = "PostInst"
+c_sScriptPostRM = "PostRemove"
 c_sSep = os.path.sep
 c_sSectionHeader = "Tool"
 c_sToolName = "Name"
@@ -151,6 +153,7 @@ for sConfigFile in lsConfigFiles:
 
   # Update dependencies
   fSuccess = funcDoCommands( [[ "sed", "-i", "s/^Depends.*$/Depends: " + cprsr.get( c_sSectionHeader, c_sDependencies ) + "/", "debian" + c_sSep + "control" ],
+                    [ "sed", "-i", "s/Maintainer.*$/Maintainer: " + cprsr.get( c_sSectionHeader, c_sEmail ) + "/", "debian/control" ],
                     [ "sed", "-i", "s/Architecture.*$/Architecture: all/", "debian/control" ],
                     [ "sed", "-i", "s/Homepage.*$/Homepage: " + cprsr.get( c_sSectionHeader, c_sWebpage ).replace("/","\\/") + "/", "debian/control" ],
                     [ "sed", "-i", "s/Description.*$/Description: " + cprsr.get( c_sSectionHeader, c_sDescription ).replace("/","\\/") + "/", "debian/control" ],
@@ -158,62 +161,72 @@ for sConfigFile in lsConfigFiles:
   if not fSuccess: exit(1)
   
   # Update the license information
+  sOut = """Format: http://dep.debian.net/deps/dep5
+Upstream-Name: " + sProjectDir
+Source: <%s>
+
+Files: *
+Copyright: <years> <put author name and email here>
+           <years> <likewise for another author>
+License: GPL-3.0
+
+Files: debian/*
+Copyright: %s %s
+License: MIT
+
+#####################################################################################
+#Copyright (C) <%s>
+#
+#Permission is hereby granted, free of charge, to any person obtaining a copy of
+#this software and associated documentation files (the \"Software\"), to deal in the
+#Software without restriction, including without limitation the rights to use, copy,
+#modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+#and to permit persons to whom the Software is furnished to do so, subject to
+#the following conditions:
+#
+#The above copyright notice and this permission notice shall be included in all copies
+#or substantial portions of the Software."+os.linesep+"#
+#THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+#INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+#PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+#HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+#OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+#SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+#####################################################################################""" % (cprsr.get( c_sSectionHeader, c_sWebpage ), cprsr.get( c_sSectionHeader, c_sCopyrightYear ), cprsr.get( c_sSectionHeader, c_sCopyright ), cprsr.get( c_sSectionHeader, c_sCopyrightYear ))
+
   with open( "debian" + c_sSep + "copyright", "w") as hndlCopyRight:
-    hndlCopyRight.write("Format: http://dep.debian.net/deps/dep5\n")
-    hndlCopyRight.write("Upstream-Name: " + sProjectDir + "\n")
-    hndlCopyRight.write("Source: <" + cprsr.get( c_sSectionHeader, c_sWebpage ) + ">\n\n")
-    hndlCopyRight.write("Files: *\n")
-    hndlCopyRight.write("Copyright: <years> <put author name and email here>\n")
-    hndlCopyRight.write("           <years> <likewise for another author>\n")
-    hndlCopyRight.write("License: GPL-3.0+\n\n")
-    hndlCopyRight.write("Files: debian/*\n")
-    hndlCopyRight.write("Copyright: " + cprsr.get( c_sSectionHeader, c_sCopyrightYear ) + " " + cprsr.get( c_sSectionHeader, c_sCopyright ) + "\n")
-    hndlCopyRight.write("License: MIT\n\n")
-    hndlCopyRight.write("#####################################################################################\n")
-    hndlCopyRight.write("#Copyright (C) <" + cprsr.get( c_sSectionHeader, c_sCopyrightYear ) + ">\n#\n")
-    hndlCopyRight.write("#Permission is hereby granted, free of charge, to any person obtaining a copy of\n")
-    hndlCopyRight.write("#this software and associated documentation files (the \"Software\"), to deal in the\n")
-    hndlCopyRight.write("#Software without restriction, including without limitation the rights to use, copy,\n")
-    hndlCopyRight.write("#modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,\n")
-    hndlCopyRight.write("#and to permit persons to whom the Software is furnished to do so, subject to\n")
-    hndlCopyRight.write("#the following conditions:\n#\n")
-    hndlCopyRight.write("#The above copyright notice and this permission notice shall be included in all copies\n")
-    hndlCopyRight.write("#or substantial portions of the Software.\n#\n")
-    hndlCopyRight.write("#THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\n")
-    hndlCopyRight.write("#INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\n")
-    hndlCopyRight.write("#PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\n")
-    hndlCopyRight.write("#HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n")
-    hndlCopyRight.write("#OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n")
-    hndlCopyRight.write("#SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n")
-    hndlCopyRight.write("#####################################################################################")
+    hndlCopyRight.write(sOut)
 
   # Make the post install script
+  sOut = "#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash"+os.linesep+"set -e"+os.linesep+os.linesep+"case \"$1\" in"+os.linesep+"    configure)"+os.linesep
   if( len( lsScripts ) > 0 ):
+
+    # Add in custom scripting
+    for sCustomPostScript in cprsr.get( c_sSectionHeader, c_sScriptPostInst ).splitlines():
+      sOut = sOut + "        " + sCustomPostScript + os.linesep
+
+    # Link in scripts to path
+    for sScript in lsScripts:
+      sOut = sOut + "        ln -s " + sInstallDir + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + os.linesep
+      sOut = sOut + "    ;;"+os.linesep+os.linesep+"    abort-upgrade|abort-remove|abort-deconfigure)"+os.linesep+"    ;;"+os.linesep+os.linesep+"    *)"+os.linesep
+      sOut = sOut + "          echo \"postinst called with unknown argument \\`$1'\" >&2"+os.linesep+"          exit 1"+os.linesep+"    ;;"+os.linesep+"esac"+os.linesep
+      sOut = sOut + "#DEBHELPER#"+os.linesep+os.linesep+"exit 0"
+
     with open( "debian" + c_sSep + "postinst", "w") as hndlPostInst:
-      hndlPostInst.write("#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash\n")
-      hndlPostInst.write("set -e\n\n")
-      hndlPostInst.write("case \"$1\" in\n")
-      hndlPostInst.write("    configure)\n")
-      for sScript in lsScripts:
-        hndlPostInst.write("        ln -s " + sInstallDir + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + " \n")
-      hndlPostInst.write("    ;;\n\n")
-      hndlPostInst.write("    abort-upgrade|abort-remove|abort-deconfigure)\n    ;;\n\n")
-      hndlPostInst.write("    *)\n")
-      hndlPostInst.write("          echo \"postinst called with unknown argument \\`$1'\" >&2\n")
-      hndlPostInst.write("          exit 1\n    ;;\nesac\n")
-      hndlPostInst.write("#DEBHELPER#\n\n")
-      hndlPostInst.write("exit 0")
+      hndlPostInst.write(sOut)
 
     # Make the post remove script
+    sOut = "#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash" + os.linesep+os.linesep + "set -e" + os.linesep + os.linesep
+    sOut = sOut + "case \"$1\" in"+os.linesep+"    remove|purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)"
+    for sCustomRMScript in cprsr.get( c_sSectionHeader, c_sScriptPostRM ).splitlines():
+        sOut = sOut + "        "  + sCustomRMScript +os.linesep
+    for sScript in lsScripts:
+        sOut = sOut + "        rm " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] +os.linesep
+    sOut = sOut + "    ;;"+os.linesep+os.linesep+"    *)"+os.linesep
+    sOut = sOut + "          echo \"postrm called with unknown argument \\`$1'\" >&2"+os.linesep
+    sOut = sOut + "          exit 1"+os.linesep+"    ;;"+os.linesep+"esac"+os.linesep+"#DEBHELPER#"+os.linesep+os.linesep+"exit 0"
     with open( "debian" + c_sSep + "postrm", "w") as hndlPostRM:
-      hndlPostRM.write("#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash\n\n")
-      hndlPostRM.write("set -e\n\n")
-      hndlPostRM.write("case \"$1\" in\n    remove|purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)\n")
-      for sScript in lsScripts:
-        hndlPostRM.write("        rm " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + "\n")
-      hndlPostRM.write("    ;;\n\n    *)\n")
-      hndlPostRM.write("          echo \"postrm called with unknown argument \\`$1'\" >&2\n")
-      hndlPostRM.write("          exit 1\n    ;;\nesac\n#DEBHELPER#\n\nexit 0")
+      hndlPostRM.write( sOut )
 
   # Build package
   fSuccess = funcDoCommands( [[ "dpkg-buildpackage", "-us", "-uc", "-d" ]], fVerbose = fLog )
