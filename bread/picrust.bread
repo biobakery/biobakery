@@ -17,10 +17,21 @@ PostInst: git clone https://github.com/bipy/pyqi ~/pyqi
   git clone git://github.com/biom-format/biom-format.git 
   cd ~/biom-format
   python setup.py install
-  wget ftp://thebeast.colorado.edu/pub/picrust-references/picrust-1.0.0/16S_13_5_precalculated.tab.gz --directory-prefix=picrust/data
-  wget ftp://thebeast.colorado.edu/pub/picrust-references/picrust-1.0.0/ko_13_5_precalculated.tab.gz --directory-prefix=picrust/data
-  wget https://github.com/picrust/picrust/releases/download/0.9.2/16S_18may2012_precalculated.tab.gz --directory-prefix=picrust/data
-  wget https://github.com/picrust/picrust/releases/download/0.9.2/ko_18may2012_precalculated.tab.gz --directory-prefix=picrust/data
-  wget https://github.com/picrust/picrust/releases/download/0.9.2/cog_18may2012_precalculated.tab.gz --directory-prefix=picrust/data
-  python picrust/setup.py install
+  dirpart1="$HOME/biobakery/bread/picrust-"
+  dirpart2=`date +'%d%m%y'`
+  dirpart3="/picrust"
+  dirpart4="/data"
+  mydir=$dirpart1$dirpart2$dirpart3$dirpart3
+  cd $mydir
+  mkdir data
+  mydir1=$mydir$dirpart4
+  cd $mydir1
+  wget ftp://thebeast.colorado.edu/pub/picrust-references/picrust-1.0.0/16S_13_5_precalculated.tab.gz 
+  wget ftp://thebeast.colorado.edu/pub/picrust-references/picrust-1.0.0/ko_13_5_precalculated.tab.gz 
+  wget https://github.com/picrust/picrust/releases/download/0.9.2/16S_18may2012_precalculated.tab.gz
+  wget https://github.com/picrust/picrust/releases/download/0.9.2/ko_18may2012_precalculated.tab.gz
+  wget https://github.com/picrust/picrust/releases/download/0.9.2/cog_18may2012_precalculated.tab.gz 
+  mydir2=$dirpart1$dirpart2$dirpart3
+  cd $mydir2
+  python setup.py install
 PostRemove:
