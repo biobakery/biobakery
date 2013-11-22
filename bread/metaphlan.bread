@@ -6,8 +6,11 @@ Email: metaphlan-users@googlegroups.com
 Webpage: huttenhower.sph.harvard.edu/metaphlan
 Copyright: Nicola Segata, Levi Waldron, Annalisa Ballarini, Vagheesh Narasimhan, Olivier Jousson, Curtis Huttenhower
 CopyrightYear: 2012
-Dependencies: python (>= 2.7), python-numpy, python-matplotlib, python-scipy, python-pylab, ncbi-blast+, bowTie2
+Dependencies: python (>= 2.7), python-numpy, python-matplotlib, python-scipy, bowtie2, ncbi-blast+
 Description(<60char): Profiling the composition of microbial communities.
 Description(Longer):   MetaPhlAn relies on unique clade-specific marker genes identified from 3,000 reference genomes, allowing: - orders of magnitude speedups compared to existing methods;- unambiguous taxonomic assignments;- accurate estimation of organismal relative abundance; - species-level resolution for bacterial and archaeal organisms.
 CommandlineScripts: metaphlan.py
- 
+PostInst: ls
+  pwd
+PostRemove: 
+
