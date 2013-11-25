@@ -21,17 +21,17 @@ PostInst: git clone https://github.com/bipy/pyqi ~/pyqi
   dirpart2=`date +'%d%m%y'`
   dirpart3="/picrust"
   dirpart4="/data"
-  mydir=$dirpart1$dirpart2$dirpart3$dirpart3
-  cd $mydir
+  picrustdir=$dirpart1$dirpart2$dirpart3$dirpart3
+  cd $picrustdir
   mkdir data
-  mydir1=$mydir$dirpart4
-  cd $mydir1
+  picrustdir1=$picrustdir$dirpart4
+  cd $picrustdir1
   wget ftp://thebeast.colorado.edu/pub/picrust-references/picrust-1.0.0/16S_13_5_precalculated.tab.gz 
   wget ftp://thebeast.colorado.edu/pub/picrust-references/picrust-1.0.0/ko_13_5_precalculated.tab.gz 
   wget https://github.com/picrust/picrust/releases/download/0.9.2/16S_18may2012_precalculated.tab.gz
   wget https://github.com/picrust/picrust/releases/download/0.9.2/ko_18may2012_precalculated.tab.gz
   wget https://github.com/picrust/picrust/releases/download/0.9.2/cog_18may2012_precalculated.tab.gz 
-  mydir2=$dirpart1$dirpart2$dirpart3
-  cd $mydir2
+  picrustdir2=$dirpart1$dirpart2$dirpart3
+  cd $picrustdir2
   python setup.py install
 PostRemove:
