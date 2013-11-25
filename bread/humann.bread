@@ -6,7 +6,7 @@ Email: humann-users@googlegroups.com
 Webpage: www.huttenhower.sph.harvard.edu/humann
 Copyright: Curtis Huttenhower
 CopyrightYear: 2012
-Dependencies: python (>= 2.7), scons, ncbi-blast+
+Dependencies: python (>= 2.7), scons, ncbi-blast+, python-setuptools
 Description(<60char): Functional profiling of microbial communities.
 Description(Longer): HUMAnN is a pipeline for efficiently and accurately determining the presence/absence and abundance of microbial pathways in a community from metagenomic data.
 CommandlineScripts:

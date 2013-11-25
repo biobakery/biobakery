@@ -221,7 +221,7 @@ License: MIT
     sOut = sOut + "case \"$1\" in"+os.linesep+"    remove|purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)"
 
     # Add in custom scripting (optional)
-    if cprsr.has_option( c_sSectionheader, c_sScriptPostInst ):
+    if cprsr.has_option( c_sSectionHeader, c_sScriptPostRM ):
       for sCustomRMScript in cprsr.get( c_sSectionHeader, c_sScriptPostRM ).splitlines():
           sOut = sOut + "        "  + sCustomRMScript +os.linesep
 
