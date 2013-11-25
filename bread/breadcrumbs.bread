@@ -12,3 +12,5 @@ Description(Longer): Utility scripts for microbial community analysis.
 CommandlineScripts: breadcrumbs/breadcrumbs/scripts/scriptBiplotTSV.R,breadcrumbs/breadcrumbs/scripts/scriptConvertBetweenBIOMAndPCL.py,breadcrumbs/breadcrumbs/scripts/scriptEnvToTable.py,breadcrumbs/breadcrumbs/scripts/scriptManipulateTable.py,breadcrumbs/breadcrumbs/scripts/scriptPcoa.py,breadcrumbs/breadcrumbs/scripts/scriptPlotFeature.py
 PostInst: cd breadcrumbs
   python setup.py install
+PostRemove:
+

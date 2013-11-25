@@ -14,3 +14,5 @@ PostInst: cd /humann/src
   hg clone -r 0.8 https://bitbucket.org/timothyltickle/breadcrumbs
   cd breadcrumbs
   python setup.py install
+PostRemove:
+

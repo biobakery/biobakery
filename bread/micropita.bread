@@ -10,3 +10,6 @@ Dependencies: python (>= 2.7), r-base, python-matplotlib, python-numpy, python-s
 Description(<60char): Two-stage microbial community sample selection.
 Description(Longer): microPITA is a computational tool enabling sample selection in two-stage (tiered) studies. Using two-stage designs can more efficiently allocate resources, reducing study costs, and maximizing the use of samples.
 CommandlineScripts: micropita/MicroPITA.py
+PostInst:
+PostRemove:
+
