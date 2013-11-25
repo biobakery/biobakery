@@ -10,7 +10,11 @@ Dependencies: python (>= 2.7), r-base, python-matplotlib, python-numpy, python-s
 Description(<60char): Utility scripts for microbial community analysis.
 Description(Longer): Utility scripts for microbial community analysis.
 CommandlineScripts: breadcrumbs/breadcrumbs/scripts/scriptBiplotTSV.R,breadcrumbs/breadcrumbs/scripts/scriptConvertBetweenBIOMAndPCL.py,breadcrumbs/breadcrumbs/scripts/scriptEnvToTable.py,breadcrumbs/breadcrumbs/scripts/scriptManipulateTable.py,breadcrumbs/breadcrumbs/scripts/scriptPcoa.py,breadcrumbs/breadcrumbs/scripts/scriptPlotFeature.py
-PostInst: cd breadcrumbs
+PostInst: dirpart1="$HOME/biobakery/bread/breadcrumbs-"
+  dirpart2=`date +'%d%m%y'`
+  dirpart3="/breadcrumbs"
+  breadcrumbsdir=$dirpart1$dirpart2$dirpart3
+  cd $breadcrumbsdir
   python setup.py install
 PostRemove:
 
