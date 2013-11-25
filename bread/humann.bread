@@ -10,3 +10,7 @@ Dependencies: python (>= 2.7), scons, ncbi-blast+
 Description(<60char): Functional profiling of microbial communities.
 Description(Longer): HUMAnN is a pipeline for efficiently and accurately determining the presence/absence and abundance of microbial pathways in a community from metagenomic data.
 CommandlineScripts:
+PostInst: cd /humann/src
+  hg clone -r 0.8 https://bitbucket.org/timothyltickle/breadcrumbs
+  cd breadcrumbs
+  python setup.py install

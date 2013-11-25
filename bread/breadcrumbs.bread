@@ -9,4 +9,6 @@ CopyrightYear: 2012
 Dependencies: python (>= 2.7), r-base, python-matplotlib, python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent
 Description(<60char): Utility scripts for microbial community analysis.
 Description(Longer): Utility scripts for microbial community analysis.
-CommandlineScripts: breadcrumbs/scripts/scriptBiplotTSV.R,breadcrumbs/scripts/scriptConvertBetweenBIOMAndPCL.py,breadcrumbs/scripts/scriptEnvToTable.py,breadcrumbs/scripts/scriptManipulateTable.py,breadcrumbs/scripts/scriptPcoa.py,breadcrumbs/scripts/scriptPlotFeature.py
+CommandlineScripts: breadcrumbs/breadcrumbs/scripts/scriptBiplotTSV.R,breadcrumbs/breadcrumbs/scripts/scriptConvertBetweenBIOMAndPCL.py,breadcrumbs/breadcrumbs/scripts/scriptEnvToTable.py,breadcrumbs/breadcrumbs/scripts/scriptManipulateTable.py,breadcrumbs/breadcrumbs/scripts/scriptPcoa.py,breadcrumbs/breadcrumbs/scripts/scriptPlotFeature.py
+PostInst: cd breadcrumbs
+  python setup.py install
