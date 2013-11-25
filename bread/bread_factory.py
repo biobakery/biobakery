@@ -201,9 +201,10 @@ License: MIT
   sOut = "#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash"+os.linesep+"set -e"+os.linesep+os.linesep+"case \"$1\" in"+os.linesep+"    configure)"+os.linesep
   if( len( lsScripts ) > 0 ):
 
-    # Add in custom scripting
-    for sCustomPostScript in cprsr.get( c_sSectionHeader, c_sScriptPostInst ).splitlines():
-      sOut = sOut + "        " + sCustomPostScript + os.linesep
+    # Add in custom scripting (optional)
+    if cprsr.has_option( c_sSectionHeader, c_sScriptPostInst ):
+      for sCustomPostScript in cprsr.get( c_sSectionHeader, c_sScriptPostInst ).splitlines():
+        sOut = sOut + "        " + sCustomPostScript + os.linesep
 
     # Link in scripts to path
     for sScript in lsScripts:
@@ -218,8 +219,13 @@ License: MIT
     # Make the post remove script
     sOut = "#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash" + os.linesep+os.linesep + "set -e" + os.linesep + os.linesep
     sOut = sOut + "case \"$1\" in"+os.linesep+"    remove|purge|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)"
-    for sCustomRMScript in cprsr.get( c_sSectionHeader, c_sScriptPostRM ).splitlines():
-        sOut = sOut + "        "  + sCustomRMScript +os.linesep
+
+    # Add in custom scripting (optional)
+    if cprsr.has_option( c_sSectionheader, c_sScriptPostInst ):
+      for sCustomRMScript in cprsr.get( c_sSectionHeader, c_sScriptPostRM ).splitlines():
+          sOut = sOut + "        "  + sCustomRMScript +os.linesep
+
+    # Remove links
     for sScript in lsScripts:
         sOut = sOut + "        rm " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] +os.linesep
     sOut = sOut + "    ;;"+os.linesep+os.linesep+"    *)"+os.linesep
