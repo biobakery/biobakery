@@ -208,9 +208,9 @@ License: MIT
     # Link in scripts to path
     for sScript in lsScripts:
       sOut = sOut + "        ln -s " + sInstallDir + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + os.linesep
-      sOut = sOut + "    ;;"+os.linesep+os.linesep+"    abort-upgrade|abort-remove|abort-deconfigure)"+os.linesep+"    ;;"+os.linesep+os.linesep+"    *)"+os.linesep
-      sOut = sOut + "          echo \"postinst called with unknown argument \\`$1'\" >&2"+os.linesep+"          exit 1"+os.linesep+"    ;;"+os.linesep+"esac"+os.linesep
-      sOut = sOut + "#DEBHELPER#"+os.linesep+os.linesep+"exit 0"
+    sOut = sOut + "    ;;"+os.linesep+os.linesep+"    abort-upgrade|abort-remove|abort-deconfigure)"+os.linesep+"    ;;"+os.linesep+os.linesep+"    *)"+os.linesep
+    sOut = sOut + "          echo \"postinst called with unknown argument \\`$1'\" >&2"+os.linesep+"          exit 1"+os.linesep+"    ;;"+os.linesep+"esac"+os.linesep
+    sOut = sOut + "#DEBHELPER#"+os.linesep+os.linesep+"exit 0"
 
     with open( "debian" + c_sSep + "postinst", "w") as hndlPostInst:
       hndlPostInst.write(sOut)
