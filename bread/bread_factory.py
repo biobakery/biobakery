@@ -200,9 +200,9 @@ License: MIT
 
   # Make a R install batch file and place it in the deb package
   if cprsr.has_option( c_sSectionHeader, c_sRLibs ):
-    lsPackages = [ strip(sPackage)  for sPackage in cprsr.get( c_sSectionHeader, c_sLibs ).split(",") ]
-    sInstallPackages = "install.packages(\"" + "\",\"".join( lsPackages ) + "\"), repos=\"http://cran.us.r-project.org\""
-    with open( c_sSep.join( "..", sProjectDir, sToolName, c_sRCMDFile ) ) as hndlRCMD:
+    lsPackages = [ sPackage.strip()  for sPackage in cprsr.get( c_sSectionHeader, c_sRLibs ).split(",") ]
+    sInstallRPackages = "install.packages(c(\"" + "\",\"".join( lsPackages ) + "\"), repos=\"http://cran.us.r-project.org\")"
+    with open( c_sSep.join( [ sToolName, c_sRCMDFile ] ),'w' ) as hndlRCMD:
       hndlRCMD.write( sInstallRPackages )
 
   with open( "debian" + c_sSep + "copyright", "w") as hndlCopyRight:
@@ -217,12 +217,12 @@ License: MIT
       for sCustomPostScript in cprsr.get( c_sSectionHeader, c_sScriptPostInst ).splitlines():
         sOut = sOut + "        " + sCustomPostScript + os.linesep
 
+    # Install R libraries with batch command
+    sOut = sOut + "        R CMD INSTALL " + c_sRCMDFile + os.linesep
+
     # Link in scripts to path
     for sScript in lsScripts:
       sOut = sOut + "        ln -s " + sInstallDir + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + os.linesep
-
-    # Install R libraries with batch command
-    sOut = sOut + "         R CMD INSTALL " + c_sRCMDFile + os.linesep
 
     # Finish off section
     sOut = sOut + "    ;;"+os.linesep+os.linesep+"    abort-upgrade|abort-remove|abort-deconfigure)"+os.linesep+"    ;;"+os.linesep+os.linesep+"    *)"+os.linesep
