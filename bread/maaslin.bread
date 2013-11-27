@@ -7,6 +7,7 @@ Webpage: www.huttenhower.sph.harvard.edu/micropita
 Copyright: Timothy Tickle, Curtis Huttenhower
 CopyrightYear: 2013
 Dependencies: python (>= 2.7), python-numpy, python-scipy, python-mlpy, python-mpi4py, python-blist, python-cogent
+R-Libs: agricolae, gam, gamlss, gbm, glmnet, inlinedocs, logging, MASS, nlme, optparse, outliers, penalized, pscl, robustbase, testthat
 Description(<60char): Multivariate inference in microbial studies.
 Description(Longer): MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function.
 CommandlineScripts: maaslin/src/Maaslin.R,maaslin/src/merge_metadata.py

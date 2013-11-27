@@ -22,6 +22,8 @@ c_sDescription = "Description(<60char)"
 c_sDescriptionLong = "Description(Longer)"
 c_sEmail = "Email"
 c_sKeyGitHub = "github"
+c_sRCMDFile = "R_CMD_INSTALL.R"
+c_sRLibs = "R-Libs"
 c_sRepository = "Repository"
 c_cScriptDelimiter = ","
 c_sScriptPostInst = "PostInst"
@@ -96,7 +98,9 @@ for sConfigFile in lsConfigFiles:
   sToolName = cprsr.get( c_sSectionHeader, c_sToolName)
 
   # Get the version
-  sVersion = cprsr.get( c_sSectionHeader, c_sVersion )
+  sVersion = ""
+  if cprsr.has_option( c_sSectionHeader, c_sVersion ):
+    sVersion = cprsr.get( c_sSectionHeader, c_sVersion )
 
   # Get scripts to install / remove with the post scripts
   sScripts = cprsr.get( c_sSectionHeader, c_sCommandLineScripts )
@@ -194,8 +198,15 @@ License: MIT
 #SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #####################################################################################""" % (cprsr.get( c_sSectionHeader, c_sWebpage ), cprsr.get( c_sSectionHeader, c_sCopyrightYear ), cprsr.get( c_sSectionHeader, c_sCopyright ), cprsr.get( c_sSectionHeader, c_sCopyrightYear ))
 
+  # Make a R install batch file and place it in the deb package
+  if cprsr.has_option( c_sSectionHeader, c_sRLibs ):
+    lsPackages = [ strip(sPackage)  for sPackage in cprsr.get( c_sSectionHeader, c_sLibs ).split(",") ]
+    sInstallPackages = "install.packages(\"" + "\",\"".join( lsPackages ) + "\"), repos=\"http://cran.us.r-project.org\""
+    with open( c_sSep.join( "..", sProjectDir, sToolName, c_sRCMDFile ) ) as hndlRCMD:
+      hndlRCMD.write( sInstallRPackages )
+
   with open( "debian" + c_sSep + "copyright", "w") as hndlCopyRight:
-    hndlCopyRight.write(sOut)
+    hndlCopyRight.write( sOut )
 
   # Make the post install script
   sOut = "#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash"+os.linesep+"set -e"+os.linesep+os.linesep+"case \"$1\" in"+os.linesep+"    configure)"+os.linesep
@@ -209,6 +220,11 @@ License: MIT
     # Link in scripts to path
     for sScript in lsScripts:
       sOut = sOut + "        ln -s " + sInstallDir + sProjectDir + c_sSep + sScript + " " + c_sSep + "usr" + c_sSep + "bin" + c_sSep + sScript.split(os.path.sep)[-1] + os.linesep
+
+    # Install R libraries with batch command
+    sOut = sOut + "         R CMD INSTALL " + c_sRCMDFile + os.linesep
+
+    # Finish off section
     sOut = sOut + "    ;;"+os.linesep+os.linesep+"    abort-upgrade|abort-remove|abort-deconfigure)"+os.linesep+"    ;;"+os.linesep+os.linesep+"    *)"+os.linesep
     sOut = sOut + "          echo \"postinst called with unknown argument \\`$1'\" >&2"+os.linesep+"          exit 1"+os.linesep+"    ;;"+os.linesep+"esac"+os.linesep
     sOut = sOut + "#DEBHELPER#"+os.linesep+os.linesep+"exit 0"
