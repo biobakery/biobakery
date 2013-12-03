@@ -217,8 +217,9 @@ License: MIT
       for sCustomPostScript in cprsr.get( c_sSectionHeader, c_sScriptPostInst ).splitlines():
         sOut = sOut + "        " + sCustomPostScript + os.linesep
 
-    # Install R libraries with batch command
-    sOut = sOut + "        R CMD INSTALL " + c_sRCMDFile + os.linesep
+    if cprsr.has_option( c_sSectionHeader, c_sRLibs ):
+      # Install R libraries with batch command
+      sOut = sOut + "        R CMD INSTALL " + c_sRCMDFile + os.linesep
 
     # Link in scripts to path
     for sScript in lsScripts:
