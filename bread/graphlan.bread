@@ -9,6 +9,5 @@ Dependencies: python (>= 2.7), python-biopython, python-matplotlib
 Description(<60char): Tool to  produce  circular  taxonomic and phylogenetic trees
 Description(Longer):  GraPhlAn is a software tool for producing high-quality circular representations of taxonomic and phylogenetic trees. GraPhlAn focuses on concise, integrative, informative, and publication-ready representations of phylogenetically- and taxonomically-driven investigation.
 CommandlineScripts: graphlan.py
-PostInst: pwd
-  ls 
+PostInst:  
 PostRemove:
