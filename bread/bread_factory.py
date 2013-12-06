@@ -5,6 +5,7 @@ import datetime
 import glob
 import os
 import re
+import shutil
 from subprocess import call, PIPE, Popen
 import sys
 import traceback
@@ -120,15 +121,19 @@ for sConfigFile in lsConfigFiles:
     lsCommand.extend( [ "hg", "clone"] )
     if sVersion: lsCommand.extend( [ "-r", sVersion ] )
   fSuccess = funcDoCommands( [ lsCommand + [ sCodeRepository ] ], fVerbose = fLog )
-  if not fSuccess: exit(1)
+  if not fSuccess: exit( 1 )
+
+  # If it is mercurial, remove the mercurial database
+  if not c_sKeyGitHub in sCodeRepository:
+    shutil.rmtree( sToolName + c_sSep +".hg" )
 
   # If no version was request indicate the date
   sVersion = datetime.date.today().strftime("%d%m%y")
 
   # Make the directory for the project
   sProjectDir = "-".join( [ sToolName, re.sub("[A-Za-z]","",sVersion) ] )
-  fSuccess = funcDoCommands( [[ "mkdir", sProjectDir ]], fVerbose = fLog)
-  if not fSuccess: exit(1)
+  fSuccess = funcDoCommands( [[ "mkdir", sProjectDir ]], fVerbose = fLog )
+  if not fSuccess: exit( 1 )
 
   # Make scripts into compressed archive
   # Move the scripts into the package
@@ -139,9 +144,9 @@ for sConfigFile in lsConfigFiles:
 #                              [ "mv", sToolArchiveName, sProjectDir ],
 #                              [ "rm", "-r", sToolFileToArchive]], fVerbose = fLog)
 
-  fSuccess = funcDoCommands( [[ "mv", sToolName, sProjectDir + c_sSep + sToolName ]], fVerbose = fLog)
+  fSuccess = funcDoCommands( [[ "mv", sToolName, sProjectDir + c_sSep + sToolName ]], fVerbose = fLog )
 
-  if not fSuccess: exit(1)
+  if not fSuccess: exit( 1 )
 
   # Make a default project
   # -n program is debian native
@@ -149,7 +154,7 @@ for sConfigFile in lsConfigFiles:
   # -e maintainer email address
   os.chdir( sProjectDir )
   fSuccess = funcDoCommands( [[ "yes", "dh_make -n -s -e " + cprsr.get( c_sSectionHeader, c_sEmail ) ]], fForced = True, fPiped = True, fVerbose = fLog)
-  if not fSuccess: exit(1)
+  if not fSuccess: exit( 1 )
 
   # Make the settings file
   with open( "debian"+ c_sSep + sToolName + ".install", "w" ) as hndlInstall:
@@ -162,7 +167,7 @@ for sConfigFile in lsConfigFiles:
                     [ "sed", "-i", "s/Homepage.*$/Homepage: " + cprsr.get( c_sSectionHeader, c_sWebpage ).replace("/","\\/") + "/", "debian/control" ],
                     [ "sed", "-i", "s/Description.*$/Description: " + cprsr.get( c_sSectionHeader, c_sDescription ).replace("/","\\/") + "/", "debian/control" ],
                     [ "sed", "-i", "s/ <insert long description.*$/ " + cprsr.get( c_sSectionHeader, c_sDescriptionLong ).replace("/","\\/") + "/", "debian" + c_sSep + "control" ]], fVerbose = fLog )
-  if not fSuccess: exit(1)
+  if not fSuccess: exit( 1 )
   
   # Update the license information
   sOut = """Format: http://dep.debian.net/deps/dep5
