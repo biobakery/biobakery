@@ -206,7 +206,7 @@ License: MIT
   # Make a R install batch file and place it in the deb package
   if cprsr.has_option( c_sSectionHeader, c_sRLibs ):
     lsPackages = [ sPackage.strip()  for sPackage in cprsr.get( c_sSectionHeader, c_sRLibs ).split(",") ]
-    sInstallRPackages = "install.packages(pkgs=c(\"" + "\",\"".join( lsPackages ) + "\"), lib=\""+ c_sSep + "usr" + c_sSep + "lib" + c_sSep + "R" + c_sSep + "library\", repos=\"http://cran.us.r-project.org\")"
+    sInstallRPackages = "install.packages(pkgs=c(\"" + "\",\"".join( lsPackages ) + "\"), repos=\"http://cran.us.r-project.org\")"
     with open( c_sSep.join( [ sToolName, c_sRCMDFile ] ),'w' ) as hndlRCMD:
       hndlRCMD.write( sInstallRPackages )
 
@@ -224,7 +224,7 @@ License: MIT
 
     if cprsr.has_option( c_sSectionHeader, c_sRLibs ):
       # Install R libraries with batch command
-      sOut = sOut + "        R CMD INSTALL " + c_sRCMDFile + os.linesep
+      sOut = sOut + "        R CMD BATCH " + c_sRCMDFile + os.linesep
 
     # Link in scripts to path
     for sScript in lsScripts:
