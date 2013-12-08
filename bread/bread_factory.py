@@ -224,6 +224,7 @@ License: MIT
 
     if cprsr.has_option( c_sSectionHeader, c_sRLibs ):
       # Install R libraries with batch command
+      sOut = sOut + "        cd " + sInstallDir + sProjectDir + c_sSep + sToolName + os.linesep
       sOut = sOut + "        R CMD BATCH " + c_sRCMDFile + os.linesep
 
     # Link in scripts to path
