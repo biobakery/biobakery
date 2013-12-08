@@ -10,4 +10,4 @@ Dependencies: r-base, python (>= 2.7), scons, python-blist
 R-Libs: agricolae, gam, gamlss, gbm, glmnet, inlinedocs, logging, MASS, nlme, optparse, outliers, penalized, pscl, robustbase, testthat
 Description(<60char): Multivariate inference in microbial studies.
 Description(Longer): MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function.
-CommandlineScripts: maaslin/src/Maaslin.R,maaslin/src/merge_metadata.py
+CommandlineScripts: maaslin/src/Maaslin.R,maaslin/src/merge_metadata.py,maaslin/src/transpose.py
