@@ -132,4 +132,4 @@ alias mv="mv -i"
 alias open=gnome-open
 
 # make emacs open in the terminal
-alias emacs="emacs -nw"
+alias emacs="emacs24 -nw"
