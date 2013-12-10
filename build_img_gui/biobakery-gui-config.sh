@@ -18,8 +18,8 @@ FILE_README="README.html"
 # work with standard ubuntu repos
 # ---------------------------------------------------------------
 
-# remove unnecessary big installs
-sudo apt-get autoremove libreoffice* thunderbird*
+# remove built-ins that we don't want
+sudo apt-get autoremove libreoffice* thunderbird* update-manager
 
 # add virtualbox guest additions
 # **** see: http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-virtualbox ****
@@ -67,10 +67,10 @@ sudo apt-get update
 
 # install things from the repo
 sudo apt-get install qiimetomaaslin
-# sudo apt-get install breadcrumbs 
-# sudo apt-get install graphlan
-# sudo apt-get install humann
-# sudo apt-get install micropita
+sudo apt-get install breadcrumbs 
+sudo apt-get install graphlan
+sudo apt-get install humann
+sudo apt-get install micropita
 
 # ---------------------------------------------------------------
 # gdebi custom linked debs
