@@ -9,9 +9,11 @@
 URL_BITBUCKET="https://bitbucket.org/timothyltickle/biobakery"
 FOLDER_SETUP="$HOME/biobakery/build_img_gui"
 FOLDER_DESKTOP="$HOME/Desktop"
+FOLDER_TERMINAL_CONFIG="$HOME/.gconf/apps/gnome-terminal/profiles/Default/"
 FILE_WALLPAPER="bioBakeryWallpaper.png"
 FILE_BASHRC="bashrc"
 FILE_README="README.html"
+FILE_TERMINAL_CONFIG="%gconf.xml"
 
 # ---------------------------------------------------------------
 # work with standard ubuntu repos
@@ -53,6 +55,9 @@ cp $FOLDER_SETUP/$FILE_README $FOLDER_DESKTOP/$FILE_README
 # replace the builtin bashrc file
 # **** won't take effect until terminal restart ****
 cp $FOLDER_SETUP/$FILE_BASHRC $HOME/.bashrc
+
+# change terminal settings
+cp $FOLDER_SETUP/$FILE_TERMINAL_CONFIG $FOLDER_TERMINAL_CONFIG/$FILE_TERMINAL_CONFIG
 
 # ---------------------------------------------------------------
 # apt-get biobakery debs
