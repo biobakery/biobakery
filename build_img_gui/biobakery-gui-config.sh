@@ -6,7 +6,6 @@
 # constants
 # ---------------------------------------------------------------
 
-#URL_DROPBOX="https://dl.dropboxusercontent.com/u/1391730/biobakery"
 URL_BITBUCKET="https://bitbucket.org/timothyltickle/biobakery"
 FOLDER_SETUP="$HOME/biobakery/build_img_gui"
 FOLDER_DESKTOP="$HOME/Desktop"
@@ -48,12 +47,12 @@ gsettings set org.gnome.desktop.background primary-color "#000000"
 # simplify the ubuntu launcher
 gsettings set com.canonical.Unity.Launcher favorites "['application://nautilus-home.desktop', 'application://firefox.desktop', 'application://gnome-control-center.desktop', 'unity://running-apps', 'application://gnome-terminal.desktop', 'unity://expo-icon', 'unity://devices']"
 
-# replace the builtin bashrc file
-cp $FOLDER_SETUP/$FILE_BASHRC $HOME/.bashrc
-source $HOME/.bashrc
+# copy the readme to the desktop
+cp $FOLDER_SETUP/$FILE_README $FOLDER_DESKTOP/$FILE_README
 
-# remove the hg directory
-# rm $FOLDER_SETUP
+# replace the builtin bashrc file
+# **** won't take effect until terminal restart ****
+cp $FOLDER_SETUP/$FILE_BASHRC $HOME/.bashrc
 
 # ---------------------------------------------------------------
 # apt-get biobakery debs
