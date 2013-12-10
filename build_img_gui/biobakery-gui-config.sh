@@ -8,7 +8,7 @@
 
 #URL_DROPBOX="https://dl.dropboxusercontent.com/u/1391730/biobakery"
 URL_BITBUCKET="https://bitbucket.org/timothyltickle/biobakery"
-FOLDER_SETUP="$HOME/biobakery/build_gui_img"
+FOLDER_SETUP="$HOME/biobakery/build_img_gui"
 FOLDER_DESKTOP="$HOME/Desktop"
 FILE_WALLPAPER="bioBakeryWallpaper.png"
 FILE_BASHRC="bashrc"
