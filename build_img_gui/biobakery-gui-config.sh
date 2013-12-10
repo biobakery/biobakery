@@ -36,11 +36,7 @@ sudo apt-get install trash-cli libgnome2-bin emacs24
 # gui configuration
 # ---------------------------------------------------------------
 
-# set up environment
-# mkdir $FOLDER_SETUP
-# chmod 777 $FOLDER_SETUP
-
-# hg clone bitbucket repo
+# hg clone bitbucket repo to get config files (e.g., wallpaper)
 cd $HOME
 hg clone $URL_BITBUCKET
 
@@ -52,9 +48,12 @@ gsettings set org.gnome.desktop.background primary-color "#000000"
 # simplify the ubuntu launcher
 gsettings set com.canonical.Unity.Launcher favorites "['application://nautilus-home.desktop', 'application://firefox.desktop', 'application://gnome-control-center.desktop', 'unity://running-apps', 'application://gnome-terminal.desktop', 'unity://expo-icon', 'unity://devices']"
 
-# replace the buildin bashrc file
+# replace the builtin bashrc file
 cp $FOLDER_SETUP/$FILE_BASHRC $HOME/.bashrc
 source $HOME/.bashrc
+
+# remove the hg directory
+# rm $FOLDER_SETUP
 
 # ---------------------------------------------------------------
 # apt-get biobakery debs
