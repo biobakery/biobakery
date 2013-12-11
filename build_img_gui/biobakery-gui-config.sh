@@ -28,7 +28,7 @@ FILE_TERMINAL_CONFIG="%gconf.xml"
 # ---------------------------------------------------------------
 
 # remove built-ins that we don't want
-sudo apt-get autoremove libreoffice* thunderbird*
+sudo apt-get autoremove --purge libreoffice* thunderbird*
 
 # add virtualbox guest additions
 # **** see: http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-virtualbox ****
@@ -93,9 +93,9 @@ wget https://www.dropbox.com/s/77hlhwrziionidy/picrust_111213_all.deb
 wget https://www.dropbox.com/s/3u8j5zvxseuc2hk/graphlan_111213_all.deb
 
 # install with dependencies
-gdebi metaphlan_111213_all.deb
-gdebi graphlan_111213_all.deb
-gdebi picrust_111213_all.deb
+sudo gdebi metaphlan_111213_all.deb
+sudo gdebi graphlan_111213_all.deb
+sudo gdebi picrust_111213_all.deb
 
 # cleanup
 rm *.deb
