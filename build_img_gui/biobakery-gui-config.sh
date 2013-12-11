@@ -20,7 +20,7 @@ FOLDER_DESKTOP="$HOME/Desktop"
 FOLDER_TERMINAL_CONFIG="$HOME/.gconf/apps/gnome-terminal/profiles/Default/"
 FILE_WALLPAPER="bioBakeryWallpaper.png"
 FILE_BASHRC="bashrc"
-FILE_README="README.html"
+FILE_README="'Welcome to bioBakery.pdf'"
 FILE_TERMINAL_CONFIG="%gconf.xml"
 
 # ---------------------------------------------------------------
