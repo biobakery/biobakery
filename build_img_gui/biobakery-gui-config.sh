@@ -20,7 +20,7 @@ FOLDER_DESKTOP="$HOME/Desktop"
 FOLDER_TERMINAL_CONFIG="$HOME/.gconf/apps/gnome-terminal/profiles/Default/"
 FILE_WALLPAPER="bioBakeryWallpaper.png"
 FILE_BASHRC="bashrc"
-FILE_README="'Welcome to bioBakery.pdf'"
+FILE_README="WELCOME.pdf"
 FILE_TERMINAL_CONFIG="%gconf.xml"
 
 # ---------------------------------------------------------------
@@ -78,9 +78,9 @@ sudo apt-get update
 
 # install things from the repo
 sudo apt-get install qiimetomaaslin
-sudo apt-get install graphlan
 sudo apt-get install humann
 sudo apt-get install micropita
+# sudo apt-get install maaslin
 # sudo apt-get install breadcrumbs 
 
 # ---------------------------------------------------------------
@@ -93,9 +93,9 @@ wget https://www.dropbox.com/s/77hlhwrziionidy/picrust_111213_all.deb
 wget https://www.dropbox.com/s/3u8j5zvxseuc2hk/graphlan_111213_all.deb
 
 # install with dependencies
-gdebi graphlan_071213_all.deb
-gdebi picrust_071213_all.deb
-gdebi metaphlan_071213_all.deb
+gdebi metaphlan_111213_all.deb
+gdebi graphlan_111213_all.deb
+gdebi picrust_111213_all.deb
 
 # cleanup
 rm *.deb
