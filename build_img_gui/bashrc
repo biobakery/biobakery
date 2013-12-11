@@ -127,6 +127,7 @@ alias hardrm="/bin/rm"
 
 # this prompts you if moving a file would replace existing file
 alias mv="mv -i"
+alias mv="cp -i"
 
 # often used commands
 alias open=gnome-open

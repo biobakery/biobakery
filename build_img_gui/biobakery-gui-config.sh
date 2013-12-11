@@ -1,6 +1,14 @@
 #! /usr/bin/env bash
 
 # running this turns a linux install into a gui'ed biobakery
+# **** makes major changes; do not run on your main computer ****
+
+# ---------------------------------------------------------------
+# to-do list
+# ---------------------------------------------------------------
+
+# * Disable auto-update features
+# * Make the terminal look nicer
 
 # ---------------------------------------------------------------
 # constants
@@ -20,7 +28,7 @@ FILE_TERMINAL_CONFIG="%gconf.xml"
 # ---------------------------------------------------------------
 
 # remove built-ins that we don't want
-sudo apt-get autoremove libreoffice* thunderbird* update-manager
+sudo apt-get autoremove libreoffice* thunderbird*
 
 # add virtualbox guest additions
 # **** see: http://askubuntu.com/questions/22743/how-do-i-install-guest-additions-in-virtualbox ****
@@ -70,18 +78,24 @@ sudo apt-get update
 
 # install things from the repo
 sudo apt-get install qiimetomaaslin
-sudo apt-get install breadcrumbs 
 sudo apt-get install graphlan
 sudo apt-get install humann
 sudo apt-get install micropita
+# sudo apt-get install breadcrumbs 
 
 # ---------------------------------------------------------------
 # gdebi custom linked debs
 # ---------------------------------------------------------------
 
-#wget https://www.dropbox.com/s/h3yvymrddo3yjb7/graphlan_071213_all.deb
-#wget https://www.dropbox.com/s/hx7epdvr44rgqqb/picrust_071213_all.deb
-#wget https://www.dropbox.com/s/uv4hg2opngj5i3i/metaphlan_071213_all.deb
-#gdebi graphlan_071213_all.deb
-#gdebi picrust_071213_all.deb
-#gdebi metaphlan_071213_all.deb
+# wget from dropbox
+wget https://www.dropbox.com/s/6p3nbxp70ok1ww0/metaphlan_111213_all.deb
+wget https://www.dropbox.com/s/77hlhwrziionidy/picrust_111213_all.deb
+wget https://www.dropbox.com/s/3u8j5zvxseuc2hk/graphlan_111213_all.deb
+
+# install with dependencies
+gdebi graphlan_071213_all.deb
+gdebi picrust_071213_all.deb
+gdebi metaphlan_071213_all.deb
+
+# cleanup
+rm *.deb
