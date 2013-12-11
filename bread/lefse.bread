@@ -6,7 +6,7 @@ Email: lefse-users@googlegroups.com
 Webpage: http://huttenhower.sph.harvard.edu/galaxy/root?tool_id=lefse_upload
 Copyright: Nicola Segata, Jacques Izard, Levi Walron, Dirk Gevers, Larisa Miropolsky, Wendy Garrett, Curtis Huttenhower.
 CopyrightYear: 2010
-Dependencies: python (>= 2.7), python-numpy
+Dependencies: python (>= 2.7), python-numpy, python-matplotlib, pyton-rpy2
 Description(<60char): LDA Effect Size (LEfSe)
 Description(Longer):   LDA Effect Size (LEfSe) (Segata et. al 2010) is an algorithm for high-dimensional biomarker discovery and explanation that identifies genomic features (genes, pathways, or taxa) characterizing the differences between two or more biological conditions (or classes, see figure below). It emphasizes both statistical significance and biological relevance, allowing researchers to identify differentially abundant features that are also consistent with biologically meaningful categories (subclasses). LEfSe first robustly identifies features that are statistically different among biological classes. It then performs additional tests to assess whether these differences are consistent with respect to expected biological behavior.
 CommandlineScripts: run_lefse.py
