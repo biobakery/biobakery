@@ -7,6 +7,7 @@ Webpage: http://picrust.github.io/picrust/index.html
 Copyright: Langille, M. G.I., Zaneveld, J., Caporaso, J. G., McDonald, D., Knights, D., a Reyes, J.,Clemente, J. C., Burkepile, D. E., Vega Thurber, R. L., Knight, R., Beiko, R. G.,  Huttenhower, C
 CopyrightYear: 2013
 Dependencies: python (>= 2.7), python-cogent, python-numpy, python-setuptools 
+R-Libs: ape
 Description(<60char): Investestigation of  Communities by Reconstruction of Unobserved States
 Description(Longer):   The PICRUSt project aims to support prediction of the unobserved character states in a community of organisms from phylogenetic information about the organisms in that community. The primary application is to predict gene family abundance (e.g. the metagenome) in environmental DNA samples for which only marker gene (e.g. 16S rRNA gene) data are available.
 CommandlineScripts: picrust/scripts/normalize_by_copy_number.py
