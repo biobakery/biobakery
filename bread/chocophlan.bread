@@ -6,10 +6,9 @@ Email: hocophlan-users@googlegroups.com
 Webpage:  https://bitbucket.org/nsegata/chocophlan
 Copyright: Segata, N., Brady, A., Huttenhower, C
 CopyrightYear: 2011
-Dependencies: python (>= 2.7), python-numpy, python-scipy, python-biopython,  pythn-tempfile, ncbi-blast+,  usearch
+Dependencies: python (>= 2.7), python-numpy, python-scipy, python-biopython, ncbi-blast+
 Description(<60char): chocophlan
 Description(Longer):Cluster of Hierarchical Ortholog COre genes for PHyLogenetic ANalyses
 CommandlineScripts:
 PostInst: 
-scons -f download.py
 PostRemove:
