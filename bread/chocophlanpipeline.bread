@@ -1,5 +1,5 @@
 [Tool]
-Name: chocophlan_pipeline
+Name: chocophlanpipeline
 Repository:  https://bitbucket.org/nsegata/chocophlan_pipeline
 Version(Tag): 
 Email: chocophlan-users@googlegroups.com
@@ -7,7 +7,7 @@ Webpage:  https://bitbucket.org/nsegata/chocophlan_pipeline
 Copyright: Segata, N., Brady, A., Huttenhower, C
 CopyrightYear: 2011
 Dependencies: python (>= 2.7), python-numpy, python-scipy, python-biopython, ncbi-blast+
-Description(<60char): chocophlan_pipeline
+Description(<60char): chocophlanpipeline
 Description(Longer):Pipeline for Cluster of Hierarchical Ortholog COre genes for PHyLogenetic ANalyses.  
 CommandlineScripts:
 PostInst: 
