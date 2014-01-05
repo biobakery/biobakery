@@ -31,6 +31,7 @@ c_sScriptPostInst = "PostInst"
 c_sScriptPostRM = "PostRemove"
 c_sSep = os.path.sep
 c_sSectionHeader = "Tool"
+c_sTimeStampedDirectory = "###DIR###"
 c_sToolName = "Name"
 c_sVersion = "Version(Tag)"
 c_sWebpage = "Webpage"
@@ -214,12 +215,17 @@ License: MIT
     hndlCopyRight.write( sOut )
 
   # Make the post install script
-  sOut = "#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash"+os.linesep+"set -e"+os.linesep+os.linesep+"case \"$1\" in"+os.linesep+"    configure)"+os.linesep
+  sOut = "#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash" + os.linesep + "set -e" + os.linesep + os.linesep + "case \"$1\" in" + os.linesep + "    configure)" + os.linesep
   if( len( lsScripts ) > 0 ):
 
     # Add in custom scripting (optional)
+    # There can be a keyword in the postinstall script ###Dir###
+    # This is replaced with the directory that is time stamped when the deb is created.
+    # The keyword must be used to that the location (that is dynamic during generation ) is static afterwards.
     if cprsr.has_option( c_sSectionHeader, c_sScriptPostInst ):
-      for sCustomPostScript in cprsr.get( c_sSectionHeader, c_sScriptPostInst ).splitlines():
+      sCustomPostScripts = cprsr.get( c_sSectionHeader, c_sScriptPostInst )
+      sCustomPostScripts = sCustomPostScripts.replace( c_sTimeStampedDirectory, sProjectDir )
+      for sCustomPostScript in sCustomPostScripts.splitlines():
         sOut = sOut + "        " + sCustomPostScript + os.linesep
 
     if cprsr.has_option( c_sSectionHeader, c_sRLibs ):
