@@ -11,5 +11,5 @@ R-Libs: vegan, optparse
 Description(<60char): Utility scripts for microbial community analysis.
 Description(Longer): Utility scripts for microbial community analysis.
 CommandlineScripts: breadcrumbs/breadcrumbs/scripts/scriptBiplotTSV.R,breadcrumbs/breadcrumbs/scripts/scriptConvertBetweenBIOMAndPCL.py,breadcrumbs/breadcrumbs/scripts/scriptEnvToTable.py,breadcrumbs/breadcrumbs/scripts/scriptManipulateTable.py,breadcrumbs/breadcrumbs/scripts/scriptPcoa.py,breadcrumbs/breadcrumbs/scripts/scriptPlotFeature.py
-PostInst: cd /usr/share/biobakery/###DIR###/breadcrumbs"
+PostInst: cd /usr/share/biobakery/###DIR###/breadcrumbs
   python setup.py install
