@@ -82,7 +82,7 @@ def funcDoCommands( aastrCommands, fVerbose = False, fForced = False, fPiped = F
 
 
 # Configuration for install location
-c_sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
+sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
 
 # Get all files with glob
 lsConfigFiles = glob.glob( "*.bread" )
@@ -109,7 +109,7 @@ for sConfigFile in lsConfigFiles:
   lsScripts = [ sScript.strip() for sScript in sScripts.split( c_cScriptDelimiter ) ]
 
   # Global variables
-  sInstallDir = c_sBiobakeryInstallLocation + "biobakery" + c_sSep
+  sInstallDir = sBiobakeryInstallLocation + "biobakery" + c_sSep
 
   # Get the project directory given the tag specified by the version
   sCodeRepository = cprsr.get( c_sSectionHeader, c_sRepository )
@@ -224,7 +224,7 @@ License: MIT
     # The keyword must be used to that the location (that is dynamic during generation ) is static afterwards.
     if cprsr.has_option( c_sSectionHeader, c_sScriptPostInst ):
       sCustomPostScripts = cprsr.get( c_sSectionHeader, c_sScriptPostInst )
-      sCustomPostScripts = sCustomPostScripts.replace( c_sTimeStampedDirectory, sProjectDir )
+      sCustomPostScripts = sCustomPostScripts.replace( c_sTimeStampedDirectory, sInstallDir + sProjectDir )
       for sCustomPostScript in sCustomPostScripts.splitlines():
         sOut = sOut + "        " + sCustomPostScript + os.linesep
 
@@ -251,7 +251,9 @@ License: MIT
 
     # Add in custom scripting (optional)
     if cprsr.has_option( c_sSectionHeader, c_sScriptPostRM ):
-      for sCustomRMScript in cprsr.get( c_sSectionHeader, c_sScriptPostRM ).splitlines():
+      sCustomRMScripts = cprsr.get( c_sSectionHeader, c_sScriptPostRM )
+      sCustomRMScripts = sCustomRMScripts.replace( c_sTimeStampedDirectory, sInstallDir + sProjectDir )
+      for sCustomRMScript in sCustomRMScripts.splitlines():
           sOut = sOut + "        "  + sCustomRMScript +os.linesep
 
     # Remove links
