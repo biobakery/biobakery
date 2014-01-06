@@ -10,6 +10,7 @@ Dependencies: python (>= 2.7), python-numpy, python-matplotlib, python-scipy, bo
 Description(<60char): Profiling the composition of microbial communities.
 Description(Longer):   MetaPhlAn relies on unique clade-specific marker genes identified from 3,000 reference genomes, allowing: - orders of magnitude speedups compared to existing methods;- unambiguous taxonomic assignments;- accurate estimation of organismal relative abundance; - species-level resolution for bacterial and archaeal organisms.
 CommandlineScripts: metaphlan/metaphlan.py
+DeleteFolder: blastdb
 PostInst: 
 PostRemove: 
 

@@ -18,6 +18,8 @@ fLog  = True
 c_sCommandLineScripts = "CommandlineScripts"
 c_sCopyright = "Copyright"
 c_sCopyrightYear = "CopyrightYear"
+c_sDeleteDirectory = "DeleteFolder"
+c_sDeleteFile = "DeleteFile"
 c_sDependencies = "Dependencies"
 c_sDescription = "Description(<60char)"
 c_sDescriptionLong = "Description(Longer)"
@@ -125,8 +127,20 @@ for sConfigFile in lsConfigFiles:
   if not fSuccess: exit( 1 )
 
   # If it is mercurial, remove the mercurial database
-  if not c_sKeyGitHub in sCodeRepository:
+  if c_sKeyGitHub in sCodeRepository:
+    shutil.rmtree( sToolName + c_sSep + ".git" )
+  else:
     shutil.rmtree( sToolName + c_sSep +".hg" )
+
+  # If requested, remove a file or directory from the repository
+  if cprsr.has_option( c_sSectionHeader, c_sDeleteDirectory ):
+    for sDeleteDir in cprsr.get( c_sSectionHeader, c_sDeleteDirectory).split( c_cScriptDelimiter ):
+      if sDeleteDir:
+        shutil.rmtree( sToolName + c_sSep + sDeleteDir )
+  if cprsr.has_option( c_sSectionHeader, c_sDeleteFile ):
+    for sDeleteFile in cprsr.get( c_sSectionHeader, c_sDeleteFile).split( c_cScriptDelimiter ):
+      if sDeleteFile:
+        os.remove( sToolName + c_sSep + sDeleteFile )
 
   # If no version was request indicate the date
   sVersion = datetime.date.today().strftime("%d%m%y")

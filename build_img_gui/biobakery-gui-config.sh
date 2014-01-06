@@ -37,6 +37,7 @@ sudo apt-get install virtualbox-ose-guest-x11
 
 # add dev utilities
 sudo apt-get install mercurial git gdebi-core python-pip
+sudo pip install setuptools --upgrade
 
 # add general linux utilities
 sudo apt-get install trash-cli libgnome2-bin emacs24
@@ -73,29 +74,19 @@ cp $FOLDER_SETUP/$FILE_TERMINAL_CONFIG $FOLDER_TERMINAL_CONFIG/$FILE_TERMINAL_CO
 
 # add custom repo to the sources lists
 # **** note: special use of tee command to append to sources.list, since >> doesn't work in sudo context ****
-echo "deb http://biobakery.bitbucket.org/deb-packages ./" | sudo tee -a /etc/apt/sources.list
+echo "deb http://huttenhower.sph.harvard.edu/biobakery-shop/deb-packages ./" | sudo tee -a /etc/apt/sources.list
 sudo apt-get update
 
 # install things from the repo
+sudo apt-get install metaphlan
+sudo apt-get install graphlan
+#sudo apt-get install picrust
 sudo apt-get install qiimetomaaslin
 sudo apt-get install humann
 sudo apt-get install micropita
 # sudo apt-get install maaslin
-# sudo apt-get install breadcrumbs 
-
-# ---------------------------------------------------------------
-# gdebi custom linked debs
-# ---------------------------------------------------------------
-
-# wget from dropbox
-wget https://www.dropbox.com/s/6p3nbxp70ok1ww0/metaphlan_111213_all.deb
-wget https://www.dropbox.com/s/77hlhwrziionidy/picrust_111213_all.deb
-wget https://www.dropbox.com/s/3u8j5zvxseuc2hk/graphlan_111213_all.deb
-
-# install with dependencies
-sudo gdebi metaphlan_111213_all.deb
-sudo gdebi graphlan_111213_all.deb
-sudo gdebi picrust_111213_all.deb
+sudo apt-get install breadcrumbs 
 
 # cleanup
-rm *.deb
+apt-get purge 
+apt-get autoclean
