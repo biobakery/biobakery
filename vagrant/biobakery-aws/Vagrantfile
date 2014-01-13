@@ -1,0 +1,31 @@
+# -*- mode: ruby -*-
+
+# You'll need to create your aws_keypair_name in the aws webui or so
+AWS_REGION              = "us-west-2"
+AWS_AMI_ID              = "ami-36d6b006" # make sure this exists for your region!
+                                         # See http://cloud-images.ubuntu.com/locator/ec2/
+AWS_KEYPAIR_NAME        = "my_keypair_name"
+AWS_ACCESS_KEY_ID       = "my_aws_access_key_id"
+AWS_SECRET_ACCESS_KEY   = "my_secret_access_key"
+PATH_TO_SSH_PRIVATE_KEY = "/path/to/my/.ssh/id_rsa"
+
+Vagrant.require_plugin "vagrant-aws"
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "Biobakery-aws"
+  config.vm.box_url = "https://github.com/mitchellh/vagrant-aws/raw/master/dummy.box"
+
+  config.vm.provider :aws do |aws, override|
+    aws.ami                       = AWS_AMI_ID
+    aws.region                    = AWS_REGION
+    aws.keypair_name              = AWS_KEYPAIR_NAME
+    aws.access_key_id             = AWS_ACCESS_KEY_ID
+    aws.secret_access_key         = AWS_SECRET_ACCESS_KEY
+
+    override.ssh.username = "ubuntu"
+    override.ssh.private_key_path = PATH_TO_SSH_PRIVATE_KEY
+  end 
+
+  # Provision via shell script
+  config.vm.provision :shell, :path => "./setup.sh"
+end
