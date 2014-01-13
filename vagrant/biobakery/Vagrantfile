@@ -1,0 +1,35 @@
+# -*- mode: ruby -*-
+
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "Biobakery-gui"
+  config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-amd64-vagrant-disk1.box"
+
+  config.vm.provider :virtualbox do |vb|
+    vb.gui = true
+
+    # Use VBoxManage to customize the VM. For example to change memory:
+    vb.customize ["modifyvm", :id, "--memory", 1024]
+    #vb.customize ["modifyvm", :id, "--vram", 64]
+    #vb.customize ["modifyvm", :id, "--accelerate3d", "on"]
+
+    file_to_disk = File.realpath( "." ).to_s + "/disk.vdi"
+
+    if ARGV[0] == "up" && ! File.exist?(file_to_disk)
+      #puts "Creating 5GB disk #{file_to_disk}."
+      vb.customize [ 'createhd', 
+                     '--filename', file_to_disk, 
+                     '--format', 'VDI', 
+                     '--size', 5000 * 1024 ] # 5 GB 
+      vb.customize [ 'storageattach', :id, 
+                     '--storagectl', 'SATAController', 
+                     '--port', 1, '--device', 0, 
+                     '--type', 'hdd', '--medium', 
+                     file_to_disk ]
+    end
+
+  end
+
+  # Provision via shell script
+  config.vm.provision :shell, :path => "./setup.sh"
+end
