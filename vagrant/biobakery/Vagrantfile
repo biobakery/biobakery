@@ -2,7 +2,7 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "Biobakery-gui"
+  config.vm.box = "Biobakery-gui_prebuilt"
   config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-amd64-vagrant-disk1.box"
 
   config.vm.provider :virtualbox do |vb|
@@ -13,22 +13,22 @@ Vagrant.configure("2") do |config|
     #vb.customize ["modifyvm", :id, "--vram", 64]
     #vb.customize ["modifyvm", :id, "--accelerate3d", "on"]
 
+
+    # This somehow makes the fixed-size 4GB root disk that ships with
+    # the official image into a magical, expanding 40GB disk. 
+    # Go figure.
     file_to_disk = File.realpath( "." ).to_s + "/disk.vdi"
-
-    if ARGV[0] == "up" && ! File.exist?(file_to_disk)
-      #puts "Creating 5GB disk #{file_to_disk}."
-      vb.customize [ 'createhd', 
-                     '--filename', file_to_disk, 
-                     '--format', 'VDI', 
-                     '--size', 5000 * 1024 ] # 5 GB 
-      vb.customize [ 'storageattach', :id, 
-                     '--storagectl', 'SATAController', 
-                     '--port', 1, '--device', 0, 
-                     '--type', 'hdd', '--medium', 
-                     file_to_disk ]
+    if ARGV[0] == "up" && ! File.exist?(file_to_disk) 
+      vb.customize [
+                    'createhd', 
+                    '--filename', file_to_disk, 
+                    '--format', 'VDI', 
+                    '--size', 5000 * 1024 # 5 GB
+                   ] 
     end
-
   end
+
+
 
   # Provision via shell script
   config.vm.provision :shell, :path => "./setup.sh"
