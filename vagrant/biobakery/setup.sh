@@ -15,6 +15,7 @@ URL_BITBUCKET="https://bitbucket.org/timothyltickle/biobakery"
 FOLDER_SETUP="/vagrant/"
 FOLDER_DESKTOP="/home/vagrant/Desktop"
 FOLDER_TERMINAL_CONFIG="/home/vagrant/.gconf/apps/gnome-terminal/profiles/Default/"
+FOLDER_WALLPAPER="/usr/share/backgrounds"
 FILE_WALLPAPER="bioBakeryWallpaper.png"
 FILE_README="WELCOME.pdf"
 FILE_TERMINAL_CONFIG="%gconf.xml"
@@ -61,6 +62,18 @@ chown -v root.root "${f}"
 
 sudo service lightdm start
 
+# copy the readme to the desktop
+cp $FOLDER_SETUP/$FILE_README $FOLDER_DESKTOP/$FILE_README
+
+# copy background image to appropriate place
+mkdir -pv $FOLDER_WALLPAPER
+cp -v $FOLDER_SETUP/$FILE_WALLPAPER $FOLDER_WALLPAPER/
+
+
+# change terminal settings
+mkdir -pv $FOLDER_TERMINAL_CONFIG
+cp $FOLDER_SETUP/$FILE_TERMINAL_CONFIG $FOLDER_TERMINAL_CONFIG/$FILE_TERMINAL_CONFIG
+
 # Change some settings with dconf
 # Specifically: don't go idle, 
 #               don't bother me with software updates, 
@@ -78,19 +91,13 @@ dchange /org/gnome/settings-daemon/plugins/power/sleep-display-ac 0
 # get/set the wallpaper centered with a black background
 # and simplify the ubuntu launcher
 function gset () { sudo -iu vagrant bash -c " DISPLAY=:0 gsettings set $1 $2 $3 "; }
-gset org.gnome.desktop.background picture-uri "file://$FOLDER_SETUP/$FILE_WALLPAPER"
+gset org.gnome.desktop.background picture-uri     "file://$FOLDER_WALLPAPER/$FILE_WALLPAPER"
 gset org.gnome.desktop.background picture-options "centered"
-gset org.gnome.desktop.background primary-color "\#000000"
+gset org.gnome.desktop.background primary-color   "\#000000"
 
 echo "['application://nautilus-home.desktop', 'application://firefox.desktop', 'application://gnome-control-center.desktop', 'unity://running-apps', 'application://gnome-terminal.desktop', 'unity://expo-icon', 'unity://devices']" >> /tmp/unity-bar.txt
 
 sudo -iu vagrant bash -c 'DISPLAY=:0 gsettings set com.canonical.Unity.Launcher favorites "$(cat /tmp/unity-bar.txt)"'
-
-# copy the readme to the desktop
-cp $FOLDER_SETUP/$FILE_README $FOLDER_DESKTOP/$FILE_README
-
-# change terminal settings
-cp $FOLDER_SETUP/$FILE_TERMINAL_CONFIG $FOLDER_TERMINAL_CONFIG/$FILE_TERMINAL_CONFIG
 
 
 cat - >> /home/vagrant/.bashrc <<EOF
