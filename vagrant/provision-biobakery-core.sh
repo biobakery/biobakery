@@ -14,6 +14,7 @@ URL_BIOBAKERY_REPO="http://huttenhower.sph.harvard.edu/biobakery-shop/deb-packag
 # core additions all versions will use
 # ---------------------------------------------------------------
 
+# **** Note: all "non-core" scripts will make use of this
 sudo apt-get update -y
 sudo apt-get dist-upgrade --yes
 
@@ -51,6 +52,7 @@ sudo apt-get install -y --force-yes breadcrumbs
 # cleanup
 # ---------------------------------------------------------------
 
-sudo apt-get autoremove -y --force-yes
-sudo apt-get purge -y --force-yes
-sudo apt-get autoclean -y --force-yes
+# to be done by each "non-core" script at the end (once)
+# sudo apt-get autoremove -y --force-yes
+# sudo apt-get purge -y --force-yes
+# sudo apt-get autoclean -y --force-yes
