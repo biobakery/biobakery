@@ -10,17 +10,20 @@ FOLDER_SETUP="/vagrant/"
 FOLDER_DESKTOP="/home/vagrant/Desktop"
 FOLDER_TERMINAL_CONFIG="/home/vagrant/.gconf/apps/gnome-terminal/profiles/Default/"
 FOLDER_WALLPAPER="/usr/share/backgrounds"
+
 FILE_WALLPAPER="bioBakeryWallpaper.png"
 FILE_WELCOME="WELCOME.pdf"
 FILE_TERMINAL_CONFIG="%gconf.xml"
+
 HIDDEN_DIR="/vagrant/.biobakery_internals/"
 
 # ---------------------------------------------------------------
 # add/remove gui-specific modules
 # ---------------------------------------------------------------
 
-sudo apt-get update -y
-sudo apt-get dist-upgrade --yes
+# completed by core script
+# sudo apt-get update -y
+# sudo apt-get dist-upgrade --yes
 
 # the actual desktop (commented out if we're starting from a custom box)
 # sudo apt-get install -y ubuntu-desktop
