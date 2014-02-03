@@ -47,7 +47,10 @@ sudo apt-get install -y --force-yes micropita
 #sudo apt-get install -y --force-yes maaslin
 sudo apt-get install -y --force-yes breadcrumbs 
 
+# ---------------------------------------------------------------
 # cleanup
+# ---------------------------------------------------------------
+
 sudo apt-get autoremove -y --force-yes
 sudo apt-get purge -y --force-yes
 sudo apt-get autoclean -y --force-yes
