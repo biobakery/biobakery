@@ -27,5 +27,5 @@ Vagrant.configure("2") do |config|
   end 
 
   # Provision via shell script
-  config.vm.provision :shell, :path => "./setup.sh"
+  config.vm.provision :shell, :path => "./provision-biobakery-aws.sh"
 end

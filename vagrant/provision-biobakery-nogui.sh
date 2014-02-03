@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# setup aws-specific biobakery pieces
+# setup nogui-specific biobakery pieces
 
 # ---------------------------------------------------------------
 # add aws-specific packages
@@ -21,5 +21,6 @@ EOF
 # cleanup
 # ---------------------------------------------------------------
 
-sudo apt-get purge -y
-sudo apt-get autoclean -y
+sudo apt-get autoremove -y --force-yes
+sudo apt-get purge -y --force-yes
+sudo apt-get autoclean -y --force-yes

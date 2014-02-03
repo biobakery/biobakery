@@ -11,29 +11,26 @@ FOLDER_DESKTOP="/home/vagrant/Desktop"
 FOLDER_TERMINAL_CONFIG="/home/vagrant/.gconf/apps/gnome-terminal/profiles/Default/"
 FOLDER_WALLPAPER="/usr/share/backgrounds"
 FILE_WALLPAPER="bioBakeryWallpaper.png"
-FILE_README="WELCOME.pdf"
+FILE_WELCOME="WELCOME.pdf"
 FILE_TERMINAL_CONFIG="%gconf.xml"
 HIDDEN_DIR="/vagrant/.biobakery_internals/"
 
 # ---------------------------------------------------------------
-# add gui-specific modules
+# add/remove gui-specific modules
 # ---------------------------------------------------------------
 
 sudo apt-get update -y
 sudo apt-get dist-upgrade --yes
+
+# the actual desktop (commented out if we're starting from a custom box)
+# sudo apt-get install -y ubuntu-desktop
+
 # allows use to "trash" rather than "rm" files at the terminal
 sudo apt-get install -y trash-cli
 # adds an "open terminal here" option when right-clicking on/in a folder
 sudo apt-get install -y nautilus-open-terminal
-
-# ---------------------------------------------------------------
-# turn base ubuntu into a gui ubuntu
-# **** deprecate if we start from a prebuilt gui box ****
-# ---------------------------------------------------------------
-
-sudo apt-get install -y ubuntu-desktop
+# unnecessary components
 sudo apt-get autoremove -y --purge rhythmbox gnome-games libreoffice* thunderbird* gstreamer* bluez*
-sudo apt-get purge -y
 
 # ---------------------------------------------------------------
 # gui configuration
@@ -90,6 +87,17 @@ echo "['application://nautilus-home.desktop', 'application://firefox.desktop', '
 sudo -iu vagrant bash -c 'DISPLAY=:0 gsettings set com.canonical.Unity.Launcher favorites "$(cat /tmp/unity-bar.txt)"'
 
 # ---------------------------------------------------------------
+# place custom files
+# ---------------------------------------------------------------
+
+# copy the readme to the desktop
+cp $FOLDER_SETUP/$FILE_WELCOME $FOLDER_DESKTOP/$FILE_WELCOME
+
+# change terminal settings
+mkdir -pv $FOLDER_TERMINAL_CONFIG
+cp $FOLDER_SETUP/$FILE_TERMINAL_CONFIG $FOLDER_TERMINAL_CONFIG/$FILE_TERMINAL_CONFIG
+
+# ---------------------------------------------------------------
 # configure the user's .bashrc (controls terminal functions) 
 # ---------------------------------------------------------------
 
@@ -110,19 +118,9 @@ alias emacs="emacs24 -nw"
 EOF
 
 # ---------------------------------------------------------------
-# et cetera
-# ---------------------------------------------------------------
-
-# copy the readme to the desktop
-cp $FOLDER_SETUP/$FILE_README $FOLDER_DESKTOP/$FILE_README
-
-# change terminal settings
-mkdir -pv $FOLDER_TERMINAL_CONFIG
-cp $FOLDER_SETUP/$FILE_TERMINAL_CONFIG $FOLDER_TERMINAL_CONFIG/$FILE_TERMINAL_CONFIG
-
-# ---------------------------------------------------------------
 # cleanup
 # ---------------------------------------------------------------
 
-sudo apt-get purge -y
-sudo apt-get autoclean -y
+sudo apt-get autoremove -y --force-yes
+sudo apt-get purge -y --force-yes
+sudo apt-get autoclean -y --force-yes
