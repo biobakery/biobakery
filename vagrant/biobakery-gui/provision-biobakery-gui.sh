@@ -21,12 +21,8 @@ HIDDEN_DIR="/vagrant/.biobakery_internals/"
 # add/remove gui-specific modules
 # ---------------------------------------------------------------
 
-# completed by core script
-# sudo apt-get update -y
-# sudo apt-get dist-upgrade --yes
-
 # the actual desktop (commented out if we're starting from a custom box)
-# sudo apt-get install -y ubuntu-desktop
+sudo apt-get install -y ubuntu-desktop
 
 # allows use to "trash" rather than "rm" files at the terminal
 sudo apt-get install -y trash-cli
@@ -34,6 +30,15 @@ sudo apt-get install -y trash-cli
 sudo apt-get install -y nautilus-open-terminal
 # unnecessary components
 sudo apt-get autoremove -y --purge rhythmbox gnome-games libreoffice* thunderbird* gstreamer* bluez*
+
+
+
+# ---------------------------------------------------------------
+# username/hostname configuration
+# ---------------------------------------------------------------
+sudo sh -c 'echo "biobakery" > /etc/hostname'
+hostname 'biobakery'
+sudo sed -i.bac -e 's| vagrant.*| biobakery|g' /etc/hosts
 
 # ---------------------------------------------------------------
 # gui configuration
