@@ -38,15 +38,17 @@ sudo apt-get install -y libgnome2-bin emacs24
 echo "deb $URL_BIOBAKERY_REPO ./" | sudo bash -c "cat - >> /etc/apt/sources.list "
 sudo apt-get update
 
-# install things from the repo (comment out packages to ignore)
-sudo apt-get install -y --force-yes metaphlan
-sudo apt-get install -y --force-yes graphlan
-#sudo apt-get install -y --force-yes picrust
-sudo apt-get install -y --force-yes qiimetomaaslin
-sudo apt-get install -y --force-yes humann
-sudo apt-get install -y --force-yes micropita
-#sudo apt-get install -y --force-yes maaslin
-sudo apt-get install -y --force-yes breadcrumbs 
+# install biobakery debs from the biobakery repo
+# -- syntax is package_name=version_number
+# -- version_number is the date the deb was built
+sudo apt-get install -y --force-yes breadcrumbs=130114 
+sudo apt-get install -y --force-yes graphlan=071213
+sudo apt-get install -y --force-yes humann=060114
+# sudo apt-get install -y --force-yes maaslin=160114
+sudo apt-get install -y --force-yes metaphlan=280114
+sudo apt-get install -y --force-yes micropita=081213
+# sudo apt-get install -y --force-yes picrust=151213
+sudo apt-get install -y --force-yes qiimetomaaslin=081213
 
 # ---------------------------------------------------------------
 # cleanup
