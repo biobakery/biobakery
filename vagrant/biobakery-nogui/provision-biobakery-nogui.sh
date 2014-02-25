@@ -1,14 +1,14 @@
 #! /usr/bin/env bash
 
 # setup nogui-specific biobakery pieces
+# =======
+# Authors:
+# Randall Schwager (randall.schwager@gmail.com)
+# Eric Franzosa (eric.franzosa@gmail.com)
 
 # ---------------------------------------------------------------
 # add nogui-specific packages
 # ---------------------------------------------------------------
-
-# completed by core script
-# sudo apt-get update -y
-# sudo apt-get dist-upgrade --yes
 
 # ---------------------------------------------------------------
 # update .bashrc

@@ -1,14 +1,14 @@
 #! /usr/bin/env bash
 
-# setup aws-specific biobakery pieces
+# set up aws-specific biobakery pieces
+# =======
+# Authors:                                                                                                                         
+# Randall Schwager (randall.schwager@gmail.com)
+# Eric Franzosa (eric.franzosa@gmail.com)
 
 # ---------------------------------------------------------------
 # add aws-specific packages
 # ---------------------------------------------------------------
-
-# completed by core script
-# sudo apt-get update -y
-# sudo apt-get dist-upgrade --yes
 
 # ---------------------------------------------------------------
 # update .bashrc
@@ -25,4 +25,3 @@ EOF
 sudo apt-get autoremove -y --force-yes
 sudo apt-get purge -y --force-yes
 sudo apt-get autoclean -y --force-yes
-
