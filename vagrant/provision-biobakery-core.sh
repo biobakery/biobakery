@@ -56,7 +56,7 @@ sudo apt-get update
 # **** PLEASE INSERT NEW PACKAGES IN ALPHABETICAL ORDER ****
 
 sudo apt-get install -y --force-yes breadcrumbs=130114 
-sudo apt-get install -y --force-yes graphlan=071213
+sudo apt-get install -y --force-yes graphlan=200214
 sudo apt-get install -y --force-yes humann=060114
 # sudo apt-get install -y --force-yes maaslin=160114
 sudo apt-get install -y --force-yes metaphlan=280114
