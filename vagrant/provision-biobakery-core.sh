@@ -11,7 +11,7 @@
 # constants
 # ---------------------------------------------------------------
 
-FOLDER_SETUP="/vagrant/"
+FOLDER_SETUP="/vagrant"
 FILE_VERSION="version.txt"
 URL_BITBUCKET="https://bitbucket.org/biobakery/biobakery"
 URL_BIOBAKERY_REPO="http://huttenhower.sph.harvard.edu/biobakery-shop/deb-packages"
