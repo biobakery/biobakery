@@ -11,6 +11,8 @@
 # constants
 # ---------------------------------------------------------------
 
+FOLDER_SETUP="/vagrant"
+FILE_VERSION="version.txt"
 URL_BITBUCKET="https://bitbucket.org/biobakery/biobakery"
 URL_BIOBAKERY_REPO="http://huttenhower.sph.harvard.edu/biobakery-shop/deb-packages"
 
@@ -48,21 +50,39 @@ sudo apt-get update
 # install individual biobakery debs from the repo
 # ---------------------------------------------------------------
 
-# * Syntax is package_name=version_number
-# * Version_number is the date the deb was built
-# * This ties versions of biobakery (as defined by the provisioning scripts) 
-# to specific versions of tools, mitigating silent changes
-
 # **** PLEASE INSERT NEW PACKAGES IN ALPHABETICAL ORDER ****
+# * Syntax is "name=version"
+# * Version is the date the deb was built
+# ** This ties versions of tools to versions of biobakery
+# ** Mitigates silent changes
+# * You can comment out packages with "#"
 
-sudo apt-get install -y --force-yes breadcrumbs=130114 
-sudo apt-get install -y --force-yes graphlan=200214
-sudo apt-get install -y --force-yes humann=060114
-# sudo apt-get install -y --force-yes maaslin=160114
-sudo apt-get install -y --force-yes metaphlan=280114
-sudo apt-get install -y --force-yes micropita=081213
-# sudo apt-get install -y --force-yes picrust=151213
-sudo apt-get install -y --force-yes qiimetomaaslin=081213
+export PACKAGES=$(cat <<EOF
+breadcrumbs=130114 
+graphlan=200214
+humann=060114
+#maaslin=160114
+metaphlan=280114
+micropita=081213
+#picrust=151213
+qiimetomaaslin=081213                                                                                                                                              
+EOF
+);
+
+# install packages that aren't commented out
+for p in `echo "$PACKAGES" | grep -v -P "^#"`
+do
+    sudo apt-get install -y --force-yes $p
+done
+
+# ---------------------------------------------------------------
+# write versioning information
+# ---------------------------------------------------------------
+
+echo "This version of bioBakery was built on:" >> $FOLDER_SETUP/$FILE_VERSION
+date >> $FOLDER_SETUP/$FILE_VERSION
+echo "The following packages were installed:" >> $FOLDER_SETUP/$FILE_VERSION
+echo "$PACKAGES" | grep -v -P "^#" >> $FOLDER_SETUP/$FILE_VERSION
 
 # ---------------------------------------------------------------
 # cleanup
