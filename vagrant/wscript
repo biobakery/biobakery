@@ -1,0 +1,24 @@
+# -*- mode:python -*-
+
+APPNAME="biobakery"
+srcdir = 'biobakery-gui'
+blddir = 'biobakery_dist'
+
+def configure(conf):
+    conf.find_program('vagrant')
+
+def build(bld):
+    bld(rule="vagrant up", source="Vagrantfile", target="disk.vdi")
+    bld(rule="vagrant halt", source="Vagrantfile", target=".vagrant")
+
+    bld(rule="vagrant package --output ${TGT} --include ${SRC}",
+        target="bioBakery.box", source=['WELCOME.pdf',
+                                        'WELCOME.pptx',
+                                        'bioBakeryWallpaper.png',
+                                        'bioBakeryWallpaper.pptx',
+                                        '%gconf.xml'])
+
+def dist(ctx):
+    ctx.algo = 'zip'
+    ctx.excl = ' **/c4che **/.waf-1* **/*~ **/*.pyc **/*.swp **/.lock-w*' 
+
