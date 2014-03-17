@@ -79,7 +79,7 @@ done
 # write versioning information
 # ---------------------------------------------------------------
 
-echo "This version of bioBakery was built on:" >> $FOLDER_SETUP/$FILE_VERSION
+echo "This version of bioBakery was built on:" > $FOLDER_SETUP/$FILE_VERSION
 date >> $FOLDER_SETUP/$FILE_VERSION
 echo "The following packages were installed:" >> $FOLDER_SETUP/$FILE_VERSION
 echo "$PACKAGES" | grep -v -P "^#" >> $FOLDER_SETUP/$FILE_VERSION
