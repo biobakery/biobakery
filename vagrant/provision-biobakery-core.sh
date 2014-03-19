@@ -59,7 +59,7 @@ sudo apt-get update
 
 export PACKAGES=$(cat <<EOF
 breadcrumbs=130114 
-graphlan=200214
+graphlan=170314
 humann=060114
 #maaslin=160114
 metaphlan=280114
