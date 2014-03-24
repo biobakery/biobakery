@@ -8,24 +8,24 @@ hutlab tool, using a <*.bread> file for configuration.
 
 AUTHORS
 =======
-Timothy L. Tickle   (timothyltickle@gmail.com)
+Timothy L. Tickle (timothyltickle@gmail.com)
+Eric A. Franzosa (eric.franzosa@gmail.com)
 """
 
-import ConfigParser
-import datetime
-import glob
-import os
-import re
+import sys, os, re, glob, argparse
 import shutil
-from subprocess import call, PIPE, Popen
-import sys
+import datetime
 import traceback
+import ConfigParser
+from subprocess import call, PIPE, Popen
 
-# Controls if commandline also goes to screen
-# This will not include IO just commandline
+# ---------------------------------------------------------------
+# constants
+# ---------------------------------------------------------------
+
+# Controls if commandline also goes to screen (This will not include IO just commandline)
 fLog  = True
 
-# Constants
 c_sCommandLineScripts = "CommandlineScripts"
 c_sCopyright = "Copyright"
 c_sCopyrightYear = "CopyrightYear"
@@ -49,16 +49,55 @@ c_sToolName = "Name"
 c_sVersion = "Version(Tag)"
 c_sWebpage = "Webpage"
 
-def funcDoCommands( aastrCommands, fVerbose = False, fForced = False, fPiped = False ):
-  """ Act on a list of commands. If the handle is not a none then
-      use it to write to a file / out. Otherwise execute the commands. 
+# ---------------------------------------------------------------
+# derived constants
+# ---------------------------------------------------------------
 
-      Standard commands should be a list of lists with the internal lists each word of the command [["mkdir","newDir"],["rm","-r","newDir"]]
-      Forced commands should be a List of commands as strings [["mkdir newDir"],["rm -r newDir"]]
-      Piped commands which are forced should be List of lists which are pairs, the first string command being piped into the second.
-        This is very rudimentary but all that was needed. [["cat newFile", "less -S"]]
-      Piped commands which are not forced were not implemented because they are so far not needed.
- """
+sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
+
+# ---------------------------------------------------------------
+# get list of bread (config) files and configure the run
+# ---------------------------------------------------------------
+
+# python argparse
+parser = argparse.ArgumentParser()
+parser.add_argument( "-i", "--input", nargs="+", default="*.bread", help="one or more <*.bread> files [default: all]" )
+parser.add_argument( "-k", "--keep_temp", action="store_true", help="keep temp files rather than deleting at the end [default: False]" )
+parser.add_argument( "-w", "--overwrite", action="store_true", help="rebuild a deb, even if it's present [default: False]" )
+args = parser.parse_args()
+lsConfigFiles = args.input
+
+# unless forced, do not rebuild a deb if it exists
+if not args.overwrite:
+    lsTemp = []
+    for sFile in lsConfigFiles:
+        lsMatchDeb = glob.glob( sFile.replace( ".bread", "*.deb" ) )
+        if len( lsMatchDeb ) > 0:
+            print "Found matching debs; skipping rebuild:", sFile, lsMatchDeb
+        else:
+            lsTemp.append( sFile )
+    lsConfigFiles = lsTemp                   
+
+# ---------------------------------------------------------------
+# utility function for making complex command line calls
+# ---------------------------------------------------------------
+
+def funcDoCommands( aastrCommands, fVerbose = False, fForced = False, fPiped = False ):
+  """ 
+  Act on a list of commands. 
+  If the handle is not a none then use it to write to a file / out. 
+  Otherwise execute the commands. 
+  =====
+  Standard commands should be a list of lists with the internal lists each word of the command:
+   -- [["mkdir","newDir"],["rm","-r","newDir"]]
+  Forced commands should be a List of commands as strings:
+   -- [["mkdir newDir"],["rm -r newDir"]]
+  Piped commands which are forced should be List of lists which are pairs, 
+   the first string command being piped into the second.
+   This is very rudimentary but all that was needed. 
+   -- [["cat newFile", "less -S"]]
+  Piped commands which are not forced were not implemented because they are so far not needed.
+  """
 
   #Run command
   try:
@@ -93,12 +132,9 @@ def funcDoCommands( aastrCommands, fVerbose = False, fForced = False, fPiped = F
     return False
   return True
 
-
-# Configuration for install location
-sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
-
-# Get all files with glob
-lsConfigFiles = glob.glob( "*.bread" )
+# ---------------------------------------------------------------
+# loop over breads and deb each one (**** convert this to function call ****)
+# ---------------------------------------------------------------
 
 # Parse the Config files
 for sConfigFile in lsConfigFiles:
@@ -107,7 +143,7 @@ for sConfigFile in lsConfigFiles:
   cprsr = ConfigParser.ConfigParser( allow_no_value=True )
   cprsr.readfp( open( sConfigFile ) )
 
-  print("Making Bread: "+sConfigFile)
+  print( "Making Bread: "+sConfigFile )
 
   # Current tool name
   sToolName = cprsr.get( c_sSectionHeader, c_sToolName)
@@ -161,17 +197,7 @@ for sConfigFile in lsConfigFiles:
   fSuccess = funcDoCommands( [[ "mkdir", sProjectDir ]], fVerbose = fLog )
   if not fSuccess: exit( 1 )
 
-  # Make scripts into compressed archive
-  # Move the scripts into the package
-#  sToolFileToArchive = sProjectDir.replace("-","_") + ".orig"
-#  sToolArchiveName = sToolFileToArchive + ".tar.gz"
-#  fSuccess = funcDoCommands( [["mv", sToolName, sToolFileToArchive],
-#                              [ "tar", "-zcvf", sToolArchiveName, sToolFileToArchive ],
-#                              [ "mv", sToolArchiveName, sProjectDir ],
-#                              [ "rm", "-r", sToolFileToArchive]], fVerbose = fLog)
-
   fSuccess = funcDoCommands( [[ "mv", sToolName, sProjectDir + c_sSep + sToolName ]], fVerbose = fLog )
-
   if not fSuccess: exit( 1 )
 
   # Make a default project
@@ -296,3 +322,15 @@ License: MIT
 
   # Reset directory to build new package
   os.chdir( ".." )
+
+# ---------------------------------------------------------------
+# delete temporary files
+# ---------------------------------------------------------------
+
+if not args.keep_temp:
+    for sFile in lsConfigFiles:
+        sName = sFile.split( "." )[0]
+        os.system( "rm -r %s-*" % ( sName ) )
+        for sTempFile in glob.glob( "%s_*" % ( sName ) ):
+            if ".deb" not in sTempFile:
+                os.system( "rm -r %s" % ( sTempFile ) )
