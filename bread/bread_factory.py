@@ -48,12 +48,8 @@ c_sTimeStampedDirectory = "###DIR###"
 c_sToolName = "Name"
 c_sVersion = "Version(Tag)"
 c_sWebpage = "Webpage"
-
-# ---------------------------------------------------------------
-# derived constants
-# ---------------------------------------------------------------
-
 sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
+c_lsTempSuffixes = ["_amd64.changes", ".dsc", ".tar.gz"]
 
 # ---------------------------------------------------------------
 # get list of bread (config) files and configure the run
@@ -61,19 +57,21 @@ sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
 
 # python argparse
 parser = argparse.ArgumentParser()
-parser.add_argument( "-i", "--input", nargs="+", default="*.bread", help="one or more <*.bread> files [default: all]" )
+parser.add_argument( "-i", "--input", nargs="+", help="one or more <*.bread> files [default: all]" )
 parser.add_argument( "-k", "--keep_temp", action="store_true", help="keep temp files rather than deleting at the end [default: False]" )
-parser.add_argument( "-w", "--overwrite", action="store_true", help="rebuild a deb, even if it's present [default: False]" )
+parser.add_argument( "-d", "--duplicate", action="store_true", help="rebuild a deb, even if it's present [default: False]" )
 args = parser.parse_args()
-lsConfigFiles = args.input
+lsConfigFiles = args.input if args.input is not None else glob.glob( "*.bread" )
 
 # unless forced, do not rebuild a deb if it exists
-if not args.overwrite:
+llsSkipped = []
+if not args.duplicate:
     lsTemp = []
     for sFile in lsConfigFiles:
         lsMatchDeb = glob.glob( sFile.replace( ".bread", "*.deb" ) )
         if len( lsMatchDeb ) > 0:
-            print "Found matching debs; skipping rebuild:", sFile, lsMatchDeb
+            # we'll print this list at the end so it's obvious
+            llsSkipped.append( [sFile] + lsMatchDeb )
         else:
             lsTemp.append( sFile )
     lsConfigFiles = lsTemp                   
@@ -98,13 +96,11 @@ def funcDoCommands( aastrCommands, fVerbose = False, fForced = False, fPiped = F
    -- [["cat newFile", "less -S"]]
   Piped commands which are not forced were not implemented because they are so far not needed.
   """
-
   #Run command
   try:
     for astrCommand in aastrCommands:
       if fVerbose:
         print( " ".join( astrCommand ) )
-
       ## The return code to indicate an error in the process.
       iReturnCode = None
       if fForced:
@@ -117,7 +113,6 @@ def funcDoCommands( aastrCommands, fVerbose = False, fForced = False, fPiped = F
           print("Piped and Forced calls not needed.")
       else:
         iReturnCode = call( astrCommand )
-
       if fVerbose:
         print "Return=" + str( iReturnCode )
       if iReturnCode > 0:
@@ -323,14 +318,16 @@ License: MIT
   # Reset directory to build new package
   os.chdir( ".." )
 
+  # Remove temp files
+  if not args.keep_temp:
+      shutil.rmtree( sProjectDir )
+      for sSuffix in c_lsTempSuffixes:
+          sPath = "%s_%s%s" % ( sToolName, sVersion, sSuffix )
+          os.remove( sPath )
+
 # ---------------------------------------------------------------
-# delete temporary files
+# warn the user about skipped debs
 # ---------------------------------------------------------------
 
-if not args.keep_temp:
-    for sFile in lsConfigFiles:
-        sName = sFile.split( "." )[0]
-        os.system( "rm -r %s-*" % ( sName ) )
-        for sTempFile in glob.glob( "%s_*" % ( sName ) ):
-            if ".deb" not in sTempFile:
-                os.system( "rm -r %s" % ( sTempFile ) )
+for lsItems in llsSkipped:
+    print "skipped", lsItems[0], "due to", lsItems[1:]
