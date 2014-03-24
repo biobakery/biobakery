@@ -1,4 +1,15 @@
-#!bin/env python
+#! /usr/bin/env python
+
+"""
+WHAT IS THIS?
+=============
+<this> runs commands to build a deb package from a 
+hutlab tool, using a <*.bread> file for configuration.
+
+AUTHORS
+=======
+Timothy L. Tickle   (timothyltickle@gmail.com)
+"""
 
 import ConfigParser
 import datetime
@@ -143,7 +154,7 @@ for sConfigFile in lsConfigFiles:
         os.remove( sToolName + c_sSep + sDeleteFile )
 
   # If no version was request indicate the date
-  sVersion = datetime.date.today().strftime("%d%m%y")
+  sVersion = datetime.date.today().strftime("%Y%m%d")
 
   # Make the directory for the project
   sProjectDir = "-".join( [ sToolName, re.sub("[A-Za-z]","",sVersion) ] )
