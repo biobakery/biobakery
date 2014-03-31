@@ -58,14 +58,14 @@ sudo apt-get update
 # * You can comment out packages with "#"
 
 export PACKAGES=$(cat <<EOF
-breadcrumbs=130114 
-graphlan=200214
-humann=060114
-#maaslin=160114
-metaphlan=280114
-micropita=081213
-#picrust=151213
-qiimetomaaslin=081213                                                                                                                                              
+breadcrumbs=20140324
+graphlan=20140324
+humann=20140324
+#maaslin=20140324
+metaphlan=20140324
+micropita=20140324
+#picrust=20140324
+qiimetomaaslin=20140324
 EOF
 );
 
