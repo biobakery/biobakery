@@ -4,7 +4,7 @@ Vagrant.configure("2") do |config|
 
 
   config.vm.box = "Biobakery-gui"
-  config.vm.box_url = "./biobakery.box"
+  config.vm.box_url = "./bioBakery.box"
 
   config.vm.provider :virtualbox do |vb|
     vb.gui = true
