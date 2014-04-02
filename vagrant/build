@@ -1,11 +1,12 @@
 #!/bin/bash
 
 BOX_NAME="bioBakery.box"
+package_includes="WELCOME.pdf,bioBakeryWallpaper.png,bioBakeryWallpaper.pptx"
 
 function assistance () { # show this help
     echo "build stuff"
     echo "Available arguments:"
-    grep "function.*#" build \
+    grep "function.*#" "$0" \
 	| egrep -v 'grep|sed' \
 	| sed -e 's|function \(.*\)[ \t]*(.*#\(.*\)$|\1 - \2|'
 }
@@ -32,11 +33,11 @@ function dist () { # zip the packaged box
 }
 
 function clean() { # clean up 
-    file=$BOX_NAME; test -f $file && rm -vf $file
+    ls *.zip $BOX_NAME | xargs -I%s bash -c "test -f %s && rm -vf %s"
 
     cd biobakery-gui && pwd
       vagrant destroy -f
-      file=disk1.vd1; test -f $file && rm -vf $file
+      file=disk.vd1; test -f $file && rm -vf $file
     cd -
 }
 
