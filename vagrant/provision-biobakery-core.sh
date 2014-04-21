@@ -60,7 +60,7 @@ sudo apt-get update
 export PACKAGES=$(cat <<EOF
 breadcrumbs=20140324
 graphlan=20140324
-humann=20140324
+humann=20140421
 #maaslin=20140324
 metaphlan=20140324
 micropita=20140324
