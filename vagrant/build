@@ -37,7 +37,7 @@ function clean() { # clean up
 
     cd biobakery-gui && pwd
       vagrant destroy -f
-      file=disk.vd1; test -f $file && rm -vf $file
+      file=disk.vdi; test -f $file && rm -vf $file
     cd -
 }
 
