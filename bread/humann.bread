@@ -1,7 +1,7 @@
 [Tool]
 Name: humann
 Repository: https://bitbucket.org/biobakery/humann
-Version(Tag): 0.99
+Version(Tag): 0.99a
 Email: humann-users@googlegroups.com
 Webpage: www.huttenhower.sph.harvard.edu/humann
 Copyright: Curtis Huttenhower
@@ -9,10 +9,6 @@ CopyrightYear: 2012
 Dependencies: python (>= 2.7), scons, ncbi-blast+, python-setuptools, curl
 Description(<60char): Functional profiling of microbial communities.
 Description(Longer): HUMAnN is a pipeline for efficiently and accurately determining the presence/absence and abundance of microbial pathways in a community from metagenomic data.
-CommandlineScripts:
-PostInst: mkdir -p ~/humann/output ~/humann/input ~/humann/data
-  ln -s ###DIR###/humann/data/* ~/humann/data
-  ln -s ###DIR###/humann/input/* ~/humann/input
-  ln -s ###DIR###/SConstruct ~/humann
-  ln -s ###DIR###/site_scons ~/humann
-  ln -s ###DIR###/src ~/humann
+CommandlineScripts: humann/src/humann_init.py
+PostInst:
+PostRemove: 
