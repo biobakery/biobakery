@@ -41,6 +41,7 @@ sudo apt-get autoremove -y --purge rhythmbox gnome-games libreoffice* thunderbir
 sudo sh -c 'echo "biobakery" > /etc/hostname'
 hostname 'biobakery'
 sudo sed -i.bac -e 's| vagrant.*| biobakery|g' /etc/hosts
+sudo sh -c 'echo "127.0.0.1 biobakery" >> /etc/hosts'
 
 # ---------------------------------------------------------------
 # gui configuration
