@@ -1,0 +1,187 @@
+#!/bin/bash
+
+HELP=\
+"$0 - A script to manage bioBakery packages.
+    Use this script to install, uninstall, or otherwise manage packages for 
+the bioBakery.
+
+Typical Usage:
+    $0 <action> [package_name [package_name]...]
+
+package_name can take either the form of a package name, such as 'humann',
+or a package name/version number, such as 'humann_20140421'.
+"
+
+lines='--------------------------------'
+
+###
+# config
+cnf_pkgurl="http://huttenhower.sph.harvard.edu/biobakery-shop/deb-packages"
+cnf_dir="/usr/share/biobakery/.biobakery_metadata"
+cnf_pkgmeta="${cnf_dir}/Packages"
+cnf_debdir="${cnf_dir}/debs"
+cnf_pkgattrs=$(printf "%-20s\t%-10s\n" Name Version)
+
+###
+# Util functions
+function die () {
+    msg="$1"
+    echo "$1"
+    exit 1
+}
+
+function log () {
+    msg="$1"
+    date "+[%Y-%m-%d %H:%M:%S] ${msg}" >&2
+}
+
+awkscript_pkg=\
+'BEGIN{OFS="\t";}
+/^[ \t]*$/{printf "%-20s\t%-10s\t%s\n", name, version, fname; name=""; version=""; fname="";}
+/^Package: /{name=$2;}
+/^Version: /{version=$2;}
+/^Filename: /{fname=$2;}'
+
+function refresh_metadata () {
+    log "refreshing package metadata"
+    curl "${cnf_pkgurl}/Packages.gz" \
+	| gzip -d \
+	| awk "${awkscript_pkg}"  > "${cnf_pkgmeta}"
+}
+
+function check_or_refresh_metadata () {
+    if ! test -f "${cnf_pkgmeta}"; then
+	refresh_metadata
+    fi
+}
+
+function get_fname () {
+    pkg="$1"
+    check_or_refresh_metadata
+    grep "${pkg}" "${cnf_pkgmeta}" | awk -F '\t' '{print $3;}' | head -n1
+}
+
+function get_version () {
+    pkg="$1"
+    check_or_refresh_metadata
+    grep "${pkg}" "${cnf_pkgmeta}" | awk -F '\t' '{print $2;}' | head -n1
+}
+
+function check_deps () {
+    which curl > /dev/null 2>&1 || die "This program needs curl to work, sorry"
+    which gzip > /dev/null 2>&1 || die "This program needs gzip to work, sorry"
+}
+
+function check_perms () {
+    test $(id -u) -eq 0 || die "You'll need to run this as root or with sudo. Exiting"
+    if ! test -d "${cnf_dir}"; then 
+	mkdir "${cnf_dir}" || die "Unable to create data directory. Exiting."
+    fi
+    if ! test -d "${cnf_debdir}"; then
+	mkdir "${cnf_debdir}" || die "Unable to create deb directory. Exiting"
+    fi
+    if ! [ $(stat -c %a "${cnf_dir}" 2> /dev/null ) == 755 ]; then
+	chmod 755 "${cnf_dir}" || die "Insufficient permissions. Exiting."
+    fi
+    if ! [ $(stat -c %u%g "${cnf_dir}" 2> /dev/null ) == 00 ]; then
+	chown -R root:root "${cnf_dir}" || die "Insufficient permissions. Exiting."
+    fi
+}
+
+###
+# Action functions
+
+function install_ () { # Install bioBakery Packages. Example: install humann metaphlan
+    while [ $# -gt 0 ]; do
+	pkg="$1"
+	shift
+	fname=$(get_fname "${pkg}")
+	vers=$(get_version "${pkg}")
+	if test -z "${fname}"; then
+	    log "Unable to find package by name ${pkg}. Perhaps update?"
+	    continue
+	fi
+	log "Downloading ${pkg} at version ${vers} (${fname})"
+	curl "${cnf_pkgurl}/${fname}" > "${cnf_debdir}/${fname}"
+	dpkg --install "${cnf_debdir}/${fname}"
+    done
+}
+
+function clean_ () { # Remove cached bioBakery packages
+    cd "${cnf_debdir}"
+    rm -vf *.deb
+    cd - > /dev/null 2>&1
+}
+
+function list_installed_ () { # List installed bioBakery packages
+    echo "${cnf_pkgattrs}"
+    echo "${lines}"
+    for pkg in $( awk '{print $1;}' < "${cnf_pkgmeta}" | xargs ); do
+	data=$(dpkg -l "${pkg}" 2> /dev/null)
+	if [ $? -eq 0 ]; then
+	    echo "${data}" \
+		| awk '/i.*'${pkg}'/&&NR>1{printf "%-20s\t%-10s\n", $2, $3;}' \
+		| head -n1
+	fi
+    done
+}
+
+function list_avail_ () { # List packages available for download
+    echo "${cnf_pkgattrs}"
+    echo "${lines}"
+    awk '{printf "%-20s\t%-10s\n", $1, $2;}'< "${cnf_pkgmeta}"
+}
+
+function update_ () { # Update bioBakery package metadata
+    refresh_metadata
+}
+
+function uninstall_ () { # Uninstall bioBakery packages. Example: uninstall humann metaphlan
+    while [ $# -gt 0 ]; do
+	pkg="$1"
+	pkg=$(awk '/'${pkg}'/{print $1;}' "${cnf_pkgmeta}" | head -n1)
+	test -z "${pkg}" && echo "Unable to find package by name ${pkg}" >&2
+	shift
+	dpkg --remove "${pkg}"
+    done
+}
+
+function help_ () { # Print this help
+    echo "${HELP}"
+    echo "Available actions:"
+    grep 'function .*_ ()' "${0}" \
+	| grep -v "grep" | grep -v "sed" \
+	| sed -e 's|function \(.*\)_ ().*#\(.*\)|\1\t\2|' \
+	| awk -F'\t' '{printf "    %-15s -- %s\n", $1, $2;}'
+}
+
+###
+# Main
+
+# Sanity checks
+check_deps || exit 1
+check_perms || exit 1
+
+# get action
+action="$1"
+shift
+
+case "${action}" in 
+    install) install_ "${@}"
+	;;
+    clean) clean_ "${@}"
+	;;
+    list_avail) list_avail_ "${@}"
+	;;
+    list_installed) list_installed_ "${@}"
+	;;
+    update) update_ "${@}"
+	;;
+    uninstall) uninstall_ "${@}"
+	;;
+    help) help_ "${@}"
+	;;
+    *) echo "Action not recognized - ${action}" >&2
+	help_
+	;;
+esac
