@@ -75,10 +75,15 @@ function check_deps () {
 function check_perms () {
     test $(id -u) -eq 0 || die "You'll need to run this as root or with sudo. Exiting"
     if ! test -d "${cnf_dir}"; then 
-	mkdir "${cnf_dir}" || die "Unable to create data directory. Exiting."
+	mkdir -p "${cnf_dir}" || die "Unable to create data directory. Exiting."
     fi
+    test -f "${cnf_pkgmeta}" || refresh_metadata
+    # refresh_metadata if the Packages file is older than 3 days (arbitrary)
+    test $(( $(date +%s) - $(stat -c %Z "${cnf_pkgmeta}") )) -lt 259200 \
+	|| refresh_metadata
     if ! test -d "${cnf_debdir}"; then
-	mkdir "${cnf_debdir}" || die "Unable to create deb directory. Exiting"
+	mkdir -p "${cnf_debdir}" \
+	    || die "Unable to create deb directory. Exiting"
     fi
     if ! [ $(stat -c %a "${cnf_dir}" 2> /dev/null ) == 755 ]; then
 	chmod 755 "${cnf_dir}" || die "Insufficient permissions. Exiting."
@@ -87,6 +92,35 @@ function check_perms () {
 	chown -R root:root "${cnf_dir}" || die "Insufficient permissions. Exiting."
     fi
 }
+
+function _ensure_dependencies_installed () {
+    deps_str="${1}"
+    
+    # split by ', '
+    # remove anything after open paren
+    # install them
+    echo "${deps_str}" \
+	| sed -e 's|, |\n|g' \
+	| sed -e 's|\(.*\) (.*|\1|' \
+	| xargs -n 10 apt-get install -y 
+    return $?
+}
+
+
+function _install_package () {
+    pkg="${1}"; fname="${2}"; vers="${3}";
+
+    log "Downloading ${pkg} at version ${vers} (${fname})"
+    if ! test -f "${cnf_debdir}/${fname}"; then
+	curl "${cnf_pkgurl}/${fname}" > "${cnf_debdir}/${fname}"
+    fi
+    
+    deps=$(dpkg -f "${cnf_debdir}/${fname}" Depends)
+    _ensure_dependencies_installed "${deps}" \
+	&& dpkg --install "${cnf_debdir}/${fname}"
+    return $?
+}
+
 
 ###
 # Action functions
@@ -101,9 +135,8 @@ function install_ () { # Install bioBakery Packages. Example: install humann met
 	    log "Unable to find package by name ${pkg}. Perhaps update?"
 	    continue
 	fi
-	log "Downloading ${pkg} at version ${vers} (${fname})"
-	curl "${cnf_pkgurl}/${fname}" > "${cnf_debdir}/${fname}"
-	dpkg --install "${cnf_debdir}/${fname}"
+	_install_package "${pkg}" "${fname}" "${vers}"
+	test $? -eq 0 || log "Unable to install package ${pkg}"
     done
 }
 
