@@ -267,6 +267,7 @@ License: MIT
 
   # Make the post install script
   sOut = "#!" + c_sSep + "usr" + c_sSep + "bin" + c_sSep + "env bash" + os.linesep + "set -e" + os.linesep + os.linesep + "case \"$1\" in" + os.linesep + "    configure)" + os.linesep
+  sOut = sOut + "        installdir='" + sInstallDir+sProjectDir + "';" + os.linesep
   if( len( lsScripts ) > 0 ):
 
     # Add in custom scripting (optional)
