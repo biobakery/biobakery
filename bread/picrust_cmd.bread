@@ -1,0 +1,16 @@
+[Tool]
+Name: picrust_cmd
+Repository: https://bitbucket.org/biobakery/picrust_cmd
+Version(Tag): 0.0.1
+Email: schwager@hsph.harvard.edu
+Webpage: https://bitbucket.org/biobakery/picrust_cmd
+Copyright: The PICRUSt Developers
+CopyrightYear: 2013
+Dependencies:r-base, python (>= 2.7), python-setuptools libatlas-base-dev
+R-Libs: ape
+Description(<60char): A wrapper script around PICRUSt
+Description(Longer):   The PICRUSt (Investestigation of Communities by Reconstruction of Unobserved States) project aims to support prediction of the unobserved character states in a community of organisms from phylogenetic information about the organisms in that community. The primary application is to predict gene family abundance (e.g. the metagenome) in environmental DNA samples for which only marker gene (e.g. 16S rRNA gene) data are available.
+CommandlineScripts: picrust_cmd
+PostInst: bash install.sh /usr/share/biobakery/picrust/
+PostRemove: rm -rf /usr/share/biobakery/picrust/
+
