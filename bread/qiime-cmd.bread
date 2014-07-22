@@ -2,7 +2,7 @@
 Name: qiime-cmd
 Repository: https://bitbucket.org/biobakery/qiime-cmd.git
 Git: True
-Version(Tag): 0.0.1
+Version(Tag): 0.0.2
 Email: schwager@hsph.harvard.edu
 Webpage: https://bitbucket.org/biobakery/qiime-cmd
 Copyright: The QIIME Developers
