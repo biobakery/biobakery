@@ -50,6 +50,7 @@ c_sVersion = "Version(Tag)"
 c_sWebpage = "Webpage"
 sBiobakeryInstallLocation = c_sSep + "usr" + c_sSep + "share" + c_sSep
 c_lsTempSuffixes = ["_amd64.changes", ".dsc", ".tar.gz"]
+c_sIsGit = "Git"
 
 # ---------------------------------------------------------------
 # get list of bread (config) files and configure the run
@@ -157,9 +158,13 @@ for sConfigFile in lsConfigFiles:
 
   # Get the project directory given the tag specified by the version
   sCodeRepository = cprsr.get( c_sSectionHeader, c_sRepository )
+  try:
+      fIsGit = cprsr.getboolean(c_sSectionHeader, c_sIsGit)
+  except ConfigParser.NoOptionError:
+      fIsGit = False
   fSuccess = False
   lsCommand = []
-  if c_sKeyGitHub in sCodeRepository:
+  if c_sKeyGitHub in sCodeRepository or fIsGit is True:
     lsCommand.extend( [ "git", "clone"] )
     if sVersion : lsCommand.extend( ["-b", sVersion] )
   else:
@@ -169,7 +174,7 @@ for sConfigFile in lsConfigFiles:
   if not fSuccess: exit( 1 )
 
   # If it is mercurial, remove the mercurial database
-  if c_sKeyGitHub in sCodeRepository:
+  if c_sKeyGitHub in sCodeRepository or fIsGit is True:
     shutil.rmtree( sToolName + c_sSep + ".git" )
   else:
     shutil.rmtree( sToolName + c_sSep +".hg" )
