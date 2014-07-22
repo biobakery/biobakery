@@ -11,5 +11,5 @@ Dependencies: python-dev, libncurses5-dev, libssl-dev, libzmq-dev, libgsl0-dev, 
 Description(<60char): Install and wrap the qiime tools via qiime-deploy
 Description(Longer):   Namespacing is nice.
 CommandlineScripts: qiime_cmd
-PostInst: bash install.sh /usr/share/biobakery/qiime/
+PostInst: bash "$installdir/qiime-cmd/install.sh" /usr/share/biobakery/qiime/
 PostRemove: rm -rf /usr/share/biobakery/qiime/
