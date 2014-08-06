@@ -43,7 +43,8 @@ sudo apt-get install -y libgnome2-bin emacs24
 # add biobakery custom repo to the sources lists
 # ---------------------------------------------------------------
 
-echo "deb $URL_BIOBAKERY_REPO ./" | sudo bash -c "cat - >> /etc/apt/sources.list "
+echo "deb $URL_BIOBAKERY_REPO /" | sudo bash -c "cat - >> /etc/apt/sources.list "
+wget -O- -q "${URL_BIOBAKERY_REPO}/biobakery.asc" | sudo apt-key add -
 sudo apt-get update
 
 # ---------------------------------------------------------------
