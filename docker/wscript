@@ -1,0 +1,66 @@
+from functools import partial
+
+top = '.'
+out = 'containers'
+
+base_tools = [
+    "micropita",   "maaslin",        "humann", 
+    "metaphlan",   "picrust-cmd",    "lefse", 
+    "base",        "graphlan",       "ccrepe", 
+    "breadcrumbs", "qiimetomaaslin", "qiime-cmd",
+]
+
+use_pigz = False
+
+def configure(x):
+    x.find_program('docker')
+    try:
+        x.find_program('pigz')
+        global use_pigz
+        use_pigz = True
+    except x.errors.ConfigurationError:
+        x.to_log("Unable to find pigz, using gzip instead")
+
+def options(x):
+    x.add_option('--push', action="store_true", default=True, 
+                 help="Push built containers to the docker hub")
+    x.add_option('--save', action="store_true", default=True, 
+                 help=("Save the built containers into the "
+                       "./containers directory"))
+
+def build(x):
+    dockerbuild(x, "base", "base/Dockerfile")
+    
+    for tool in base_tools:
+        dockerbuild(x, tool, tool+"/Dockerfile")
+
+    tool_deps = [ t+"/Dockerfile" for t in base_tools ]
+    dockerbuild(x, "biobakery", tool_deps+["biobakery/Dockerfile"])
+
+    dockerbuild(x, "anadama", ["biobakery/Dockerfile", "anadama/Dockerfile"])
+
+    dockerbuild(x, "mibc", ["anadama/Dockerfile", "mibc/Dockerfile"])
+
+
+def dist(x):
+    for container in ["base"]+base_tools+["biobakery", "anadama", "mibc"]:
+        x("docker push biobakery/{name}".format(name=container))
+
+
+def dockerbuild(gen, name, sources, targets=None):
+    gen(rule="docker build -t biobakery/{name} ../{name}/".format(name=name), 
+        source=sources)
+    if gen.options.push:
+        gen(rule="docker push biobakery/{}".format(name),
+            source=sources)
+    if gen.options.save:
+        global use_pigz
+        compressor = "pigz" if use_pigz else "gzip"
+        gen(
+            rule="docker save biobakery/%s | %s -c > ${TGT}"%(
+                name, compressor),
+            source=sources,
+            target="biobakery_{}_container.tgz".format(name)
+        )
+
+
