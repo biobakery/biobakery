@@ -25,12 +25,7 @@ sudo apt-get update -y
 sudo apt-get dist-upgrade --yes
 
 # packages required for full virtualbox functionality
-sudo apt-get install -y build-essential linux-headers-`uname -r` dkms
-sudo apt-get install -y virtualbox-ose-guest-x11
-sudo apt-get install -y virtualbox-guest-dkms virtualbox-guest-x11
-
-# permits user to mount shared folders
-sudo adduser vagrant vboxsf
+sudo apt-get install -y build-essential linux-headers-`uname -r`
 
 # packages required for deb building and installation
 sudo apt-get install -y mercurial git gdebi-core python-pip
@@ -43,8 +38,10 @@ sudo apt-get install -y libgnome2-bin emacs24
 # add biobakery custom repo to the sources lists
 # ---------------------------------------------------------------
 
-echo "deb $URL_BIOBAKERY_REPO /" | sudo bash -c "cat - >> /etc/apt/sources.list "
-wget -O- -q "${URL_BIOBAKERY_REPO}/biobakery.asc" | sudo apt-key add -
+echo "deb $URL_BIOBAKERY_REPO /" \
+    | sudo bash -c "cat - >> /etc/apt/sources.list "
+wget -O- -q "${URL_BIOBAKERY_REPO}/biobakery.asc" \
+    | sudo apt-key add -
 sudo apt-get update
 
 # ---------------------------------------------------------------
@@ -85,9 +82,3 @@ date >> $FOLDER_SETUP/$FILE_VERSION
 echo "The following packages were installed:" >> $FOLDER_SETUP/$FILE_VERSION
 echo "$PACKAGES" | grep -v -P "^#" >> $FOLDER_SETUP/$FILE_VERSION
 
-# ---------------------------------------------------------------
-# cleanup
-# ---------------------------------------------------------------
-
-# **** cleanup commands should be included at the end of the
-# second, image-specific provisioning scripts ****
