@@ -1,0 +1,7 @@
+provision.sh
+install_phylophlan.sh
+user_install.sh
+Vagrantfile
+*.log
+*~
+\#*\#
