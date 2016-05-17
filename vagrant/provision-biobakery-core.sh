@@ -13,8 +13,6 @@
 
 FOLDER_SETUP="/vagrant"
 FILE_VERSION="version.txt"
-URL_BITBUCKET="https://bitbucket.org/biobakery/biobakery"
-URL_BIOBAKERY_REPO="http://huttenhower.sph.harvard.edu/biobakery-shop/deb-packages"
 
 # ---------------------------------------------------------------
 # core additions all versions will use
@@ -32,46 +30,32 @@ sudo apt-get install -y mercurial git gdebi-core python-pip
 sudo pip install setuptools --upgrade
 
 # utilities
-sudo apt-get install -y libgnome2-bin emacs24
+sudo apt-get install -y libgnome2-bin emacs24 
 
 # ---------------------------------------------------------------
-# add biobakery custom repo to the sources lists
+# install biobakery suite with homebrew
 # ---------------------------------------------------------------
 
-echo "deb $URL_BIOBAKERY_REPO /" \
-    | sudo bash -c "cat - >> /etc/apt/sources.list "
-wget -O- -q "${URL_BIOBAKERY_REPO}/biobakery.asc" \
-    | sudo apt-key add -
-sudo apt-get update
+# install dependencies for homebrew
+apt-get install -y ruby-full R-base
 
-# ---------------------------------------------------------------
-# install individual biobakery debs from the repo
-# ---------------------------------------------------------------
+# install dependencies for numpy and matplotlib
+apt-get install -y python2.7-dev pkg-config
 
-# **** PLEASE INSERT NEW PACKAGES IN ALPHABETICAL ORDER ****
-# * Syntax is "name=version"
-# * Version is the date the deb was built
-# ** This ties versions of tools to versions of biobakery
-# ** Mitigates silent changes
-# * You can comment out packages with "#"
+# install homebrew
+git clone https://github.com/Linuxbrew/linuxbrew.git /home/vagrant/.linuxbrew
 
-export PACKAGES=$(cat <<EOF
-breadcrumbs=20140324
-graphlan=20140324
-humann=20140421
-#maaslin=20140324
-metaphlan=20140324
-micropita=20140324
-#picrust=20140324
-qiimetomaaslin=20140324
+# update bashrc for homebrew install
+cat - >> /home/vagrant/.bashrc <<EOF
+# add paths to homebrew install
+export PATH=/home/vagrant/.linuxbrew/bin:$PATH
+export MANPATH=/home/vagrant/.linuxbrew/share/man:$MANPATH
+export INFOPATH=/home/vagrant/.linuxbrew/share/info:$INFOPATH
 EOF
-);
 
-# install packages that aren't commented out
-for p in `echo "$PACKAGES" | grep -v -P "^#"`
-do
-    sudo apt-get install -y --force-yes $p
-done
+# install biobakery tool suite
+/home/vagrant/.linuxbrew/bin/brew tap biobakery/biobakery
+/home/vagrant/.linuxbrew/bin/brew install biobakery_tool_suite
 
 # ---------------------------------------------------------------
 # write versioning information
