@@ -64,5 +64,7 @@ EOF
 echo "This version of bioBakery was built on:" > $FOLDER_SETUP/$FILE_VERSION
 date >> $FOLDER_SETUP/$FILE_VERSION
 echo "The following packages were installed:" >> $FOLDER_SETUP/$FILE_VERSION
-echo "$PACKAGES" | grep -v -P "^#" >> $FOLDER_SETUP/$FILE_VERSION
+
+# record the biobakery packages installed with homebrew
+/home/vagrant/.linuxbrew/bin/brew list --versions | grep -E '(ppanini|shortbred|picrust|kneaddata|breadcrumbs|graphlan|sparsedossa|humann2|micropita|lefse|metaphlan2|maaslin)' >> $FOLDER_SETUP/$FILE_VERSION
 
