@@ -1,11 +1,11 @@
 # -*- mode: ruby -*-
 
-VIRTUALBOX_RAM_AVAILABLE = 2048
+VIRTUALBOX_RAM_AVAILABLE = 8192
 
 Vagrant.configure("2") do |config|
 
   config.vm.box = "Biobakery-basic"
-  config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-amd64-vagrant-disk1.box"
+  config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/wily/current/wily-server-cloudimg-amd64-vagrant-disk1.box"
 
   config.vm.provider :virtualbox do |vb|
     vb.gui = true
