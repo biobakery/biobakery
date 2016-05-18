@@ -42,6 +42,10 @@ apt-get install -y ruby-full R-base
 # install dependencies for numpy and matplotlib
 apt-get install -y python2.7-dev pkg-config
 
+# install dependencies for java installer
+apt-get install -y python-software-properties
+add-apt-repository -y ppa:webupd8team/java
+
 # install homebrew
 git clone https://github.com/Linuxbrew/linuxbrew.git /home/vagrant/.linuxbrew
 
