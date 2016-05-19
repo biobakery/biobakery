@@ -8,6 +8,11 @@ Vagrant.configure("2") do |config|
   config.vm.provider :virtualbox do |vb|
     vb.gui = true
 
+    # set the username and password
+    config.ssh.username = 'vagrant'
+    config.ssh.password = 'vagrant'
+    config.ssh.insert_key=false
+
     # Use VBoxManage to customize the VM. For example to change memory:
     vb.customize ["modifyvm", :id, "--memory", 8192]
     #vb.customize ["modifyvm", :id, "--vram", 64]
