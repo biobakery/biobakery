@@ -18,9 +18,11 @@ PREREQUISITES
 INSTALLATION 
 ============
 
+Download and decompress the bioBakery source.
+
 * To install on Windows:  
-    * Run the start_biobakery.bat file.
+    * Double click on the start_biobakery.bat file.
 
 * To install on Linux or MacOS: 
-    * Run the start_biobakery.command file.
-
+    * Double click on the start_biobakery.command file.
+    * If when installing on Linux, the double click opens the file in a text editor, go to Files -> Preferences -> Behavior. Change the selection for "Executable Text Files" to "Ask each time". Then double click on the file and select "Run in Terminal" from the prompt.
