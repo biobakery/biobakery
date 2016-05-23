@@ -18,7 +18,7 @@ PREREQUISITES
 INSTALLATION 
 ============
 
-Download and decompress the bioBakery source.
+Download and decompress the [bioBakery source](https://bitbucket.org/biobakery/biobakery/downloads/biobakery-v1.0.tar.gz).
 
 * To install on Windows:  
     * Double click on the ``start_biobakery.bat`` file.
