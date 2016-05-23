@@ -19,8 +19,8 @@ INSTALLATION
 ============
 
 * To install on Windows:  
-  * Run the start_biobakery.bat file.
+    * Run the start_biobakery.bat file.
 
 * To install on Linux or MacOS: 
-  * Run the start_biobakery.command file.
+    * Run the start_biobakery.command file.
 
