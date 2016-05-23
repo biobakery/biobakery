@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# check for vagrant (if installed print version)
+vagrant -v
+
+# check for virtualbox (if install print version)
+vboxmanage -v
+
 # create a biobakery folder in the home directory if it does not already exist
 mkdir -p $HOME/biobakery
 cd $HOME/biobakery
