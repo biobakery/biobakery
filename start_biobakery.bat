@@ -10,6 +10,8 @@ REM create a biobakery folder in the home directory if it does not already exist
 if not exist %HOMEPATH%\biobakery mkdir %HOMEPATH%\biobakery
 cd %HOMEPATH%\biobakery
 
+echo Thanks for downloading the bioBakery! During the first execution, we'll download a fairly large virtual image with all of the software environment pre-installed. This may take a while depending on your Internet connection, but it only happens once. After that, simply run the bioBakery using this launcher. Thanks for using our software!
+
 REM create biobakery vagrantfile, if it does not exist
 if not exist %HOMEPATH%\biobakery\Vagrantfile vagrant init biobakery/biobakery
 
