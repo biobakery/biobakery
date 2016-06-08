@@ -1,0 +1,14 @@
+Variable	Feature	Value	Coefficient	N	N not 0	P-value	Q-value
+Cohort	Bacteria|Proteobacteria	CohortIBD	0.361202359969779	8	7	8.29695122618115e-05	0.0132751219618898
+Cohort	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacteriales|Enterobacteriaceae|Escherichia_Shigella|1532	CohortIBD	0.368439847775899	8	6	0.000282569701775158	0.0226055761420126
+Cohort	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|1032	CohortIBD	-0.517733343029902	8	6	0.000628473175503117	0.0251389270201247
+Cohort	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|1156	CohortIBD	-0.271131332905165	8	6	0.00121369709195569	0.038838306942582
+Cohort	Bacteria|Actinobacteria|Actinobacteria	CohortIBD	-0.197716370206431	8	8	0.0642534621069723	1
+Cohort	Bacteria|Actinobacteria|Actinobacteria|Coriobacteriales|Coriobacteriaceae|1008	CohortIBD	-0.172023344797049	8	5	0.118659372643611	1
+Cohort	Bacteria|Firmicutes|Clostridia|Clostridiales	CohortIBD	-0.468997359294919	8	7	0.147047711115989	1
+Cohort	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	CohortIBD	-0.393110013583125	8	8	0.159599934575721	1
+Cohort	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|1023	CohortIBD	0.63886689486404	8	6	0.222848289298873	1
+Cohort	Bacteria|Firmicutes|Erysipelotrichi|Erysipelotrichales|Erysipelotrichaceae|Coprobacillus|1179	CohortIBD	0.229266704233534	8	5	0.345967358392834	1
+Cohort	Bacteria|Firmicutes|Bacilli|Lactobacillales	CohortIBD	0.547969241374564	8	7	0.41079352833424	1
+Cohort	Bacteria|Firmicutes	CohortIBD	0.0935054642588439	8	8	0.636819746959581	1
+Cohort	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|1026	CohortIBD	0.0223968450057876	8	4	0.769730532513081	1

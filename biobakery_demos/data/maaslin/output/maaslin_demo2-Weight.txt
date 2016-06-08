@@ -1,0 +1,9 @@
+Variable	Feature	Value	Coefficient	N	N not 0	P-value	Q-value
+Weight	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	Weight	-0.0036534007626403	8	8	0.141107936401058	1
+Weight	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|1010	Weight	-0.00370248632778564	8	6	0.229131314933045	1
+Weight	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|1023	Weight	0.00999581189688073	8	6	0.253140107447546	1
+Weight	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	Weight	-0.00354541977448669	8	8	0.300792646144509	1
+Weight	Bacteria|Firmicutes	Weight	0.00507400835814746	8	8	0.303745815638203	1
+Weight	Bacteria|Firmicutes|Bacilli|Lactobacillales	Weight	0.00984273619061132	8	7	0.411433569935307	1
+Weight	Bacteria|Firmicutes|Unclassified|1232	Weight	0.000797833534106021	8	8	0.586649848356416	1
+Weight	Bacteria|Firmicutes|Bacilli|Lactobacillales|Unclassified|1013	Weight	0.00139597740518914	8	5	0.698746909206768	1

@@ -1,0 +1,20 @@
+Variable	Feature	Value	Coefficient	N	N not 0	P-value	Q-value
+Age	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|1	Age	0.00247925731553718	8	8	0.000443046842141385	0.0236291649142072
+Age	Bacteria|Actinobacteria|Actinobacteria	Age	0.00134141813197948	8	8	0.176667859225078	1
+Age	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|1023	Age	0.00527760446218501	8	6	0.252517833759605	1
+Age	Bacteria|Actinobacteria|Actinobacteria|Coriobacteriales|Coriobacteriaceae|1008	Age	-0.00159629059399845	8	5	0.25490406001621	1
+Age	Bacteria|Firmicutes|Erysipelotrichi|Erysipelotrichales|Erysipelotrichaceae|Coprobacillus|1179	Age	-0.00354673098960153	8	5	0.266918657754218	1
+Age	Bacteria|Proteobacteria	Age	-0.000495305457218754	8	7	0.301058434951234	1
+Age	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacteriales|Enterobacteriaceae|Escherichia_Shigella|1532	Age	-0.000619979482606931	8	6	0.322980544264117	1
+Age	Bacteria|Firmicutes|Bacilli|Lactobacillales|Unclassified|1013	Age	-0.00225921095876207	8	5	0.427923487727516	1
+Age	Bacteria|Firmicutes|Unclassified|1232	Age	0.000673546593010048	8	8	0.53670467485666	1
+Age	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|1010	Age	-0.00110331380343959	8	6	0.558578617485019	1
+Age	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|1156	Age	0.000335738917590046	8	6	0.580814179479258	1
+Age	Bacteria|Firmicutes|Clostridia|Clostridiales	Age	-0.00151095025835029	8	7	0.609461354316222	1
+Age	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	Age	-0.000656809720346494	8	8	0.616182380536014	1
+Age	Bacteria|Firmicutes|Bacilli|Lactobacillales	Age	0.00241353206153546	8	7	0.647895431576067	1
+Age	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	Age	-0.000491950338891144	8	8	0.705599623336597	1
+Age	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|1032	Age	-0.000182927151671186	8	6	0.853658686610612	1
+Age	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|1026	Age	0.000173006644897841	8	4	0.887164439102607	1
+Age	Bacteria|Firmicutes	Age	0.000200774411817441	8	8	0.908098877948319	1
+Age	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Alcaligenaceae|Parasutterella|1344	Age	2.65188108164824e-05	8	5	0.918768886950436	1

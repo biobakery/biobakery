@@ -1,0 +1,2 @@
+Variable	Feature	Value	Coefficient	N	N not 0	P-value	Q-value
+Sex	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Alcaligenaceae|Parasutterella|1344	Sex1	0.0432514568655376	8	5	0.186696498822987	1

@@ -1,0 +1,65 @@
+Metadata: Details
+Metadata1 Continuous
+Metadata2 Continuous
+Metadata3 Continuous
+Metadata4 Continuous
+Metadata5 Continuous
+Metadata6 Continuous
+Metadata7 Continuous
+Metadata8 Continuous
+Metadata9 Continuous
+Metadata10 Continuous
+Metadata11 Factor Levels 1 2
+Metadata12 Factor Levels 1 2
+Metadata13 Factor Levels 1 2
+Metadata14 Factor Levels 1 2
+Metadata15 Factor Levels 1 2
+Metadata16 Factor Levels 1 2 3 4
+Metadata17 Factor Levels 1 2 3 4
+Metadata18 Factor Levels 1 2 3 4
+Metadata19 Factor Levels 1 2 3 4
+Metadata20 Factor Levels 1 2 3 4
+SyntheticMicrobiomeLognormal
+Number of features: 158
+Number of samples: 50
+Total Reads per Sample: 8030.2
+Minimum Number of Counts: 0
+in Minimum Number of Samples: 0
+SyntheticMicrobiomeOutlier
+Number of features: 158
+Number of samples: 50
+Max Percent Outliers in a Sample: 0.05
+Percent Samples with Outliers: 0.05
+Outlier Swap: Feature_Outlier_21 Sample: 35
+Outlier Swap: Feature_Outlier_96 Sample: 35
+Outlier Swap: Feature_Outlier_21 Sample: 39
+Outlier Swap: Feature_Outlier_34 Sample: 39
+Outlier Swap: Feature_Outlier_63 Sample: 39
+Outlier Swap: Feature_Outlier_40 Sample: 39
+Outlier Swap: Feature_Outlier_72 Sample: 39
+Outlier Swap: Feature_Outlier_56 Sample: 39
+Outlier Swap: Feature_Outlier_94 Sample: 39
+Outlier Swap: Feature_Outlier_85 Sample: 39
+Outlier Swap: Feature_Outlier_75 Sample: 39
+Outlier Swap: Feature_Outlier_23 Sample: 39
+Outlier Swap: Feature_Outlier_70 Sample: 39
+Outlier Swap: Feature_Outlier_80 Sample: 39
+Outlier Swap: Feature_Outlier_104 Sample: 39
+Outlier Swap: Feature_Outlier_157 Sample: 39
+Outlier Swap: Feature_Outlier_76 Sample: 39
+Outlier Swap: Feature_Outlier_47 Sample: 39
+SyntheticMicrobiomespike_n_1_m_1
+Number of features: 158
+Number of samples: 50
+Percent spikes: 0.03
+Multiplier: 1
+Multivariate Parameter: 1
+Minimum Spiked-in Samples: 5
+Feature_spike_n_1_m_1_94
+Metadata19_Level_3
+Feature_spike_n_1_m_1_145
+Metadata20_Level_4
+Feature_spike_n_1_m_1_50
+Metadata14_Level_2
+Feature_spike_n_1_m_1_25
+Metadata7

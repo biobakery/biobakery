@@ -1,0 +1,14 @@
+Variable	Feature	Value	Coefficient	N	N not 0	P-value	Q-value
+Height	Bacteria|Actinobacteria|Actinobacteria|Coriobacteriales|Coriobacteriaceae|1008	Height	0.0292326640187551	8	5	0.0514468733522976	1
+Height	Bacteria|Actinobacteria|Actinobacteria	Height	0.0201052960922781	8	8	0.0714062399132285	1
+Height	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|1010	Height	-0.0232730462429351	8	6	0.335694665464664	1
+Height	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	Height	0.0140652326637368	8	8	0.449157857364569	1
+Height	Bacteria|Firmicutes	Height	-0.0182300774412388	8	8	0.484125454953786	1
+Height	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|1023	Height	-0.0277644806575717	8	6	0.499923254607044	1
+Height	Bacteria|Firmicutes|Erysipelotrichi|Erysipelotrichales|Erysipelotrichaceae|Coprobacillus|1179	Height	-0.0142261290378164	8	5	0.554539931978462	1
+Height	Bacteria|Firmicutes|Bacilli|Lactobacillales	Height	-0.0323502028287432	8	7	0.629063215219753	1
+Height	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	Height	-0.00707286398630667	8	8	0.645336246201383	1
+Height	Bacteria|Firmicutes|Unclassified|1232	Height	-0.00345677730255937	8	8	0.776043769155427	1
+Height	Bacteria|Firmicutes|Clostridia|Clostridiales	Height	0.00573383380431549	8	7	0.817823285927587	1
+Height	Bacteria|Firmicutes|Bacilli|Lactobacillales|Unclassified|1013	Height	-0.00692108966878757	8	5	0.81998538823809	1
+Height	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Alcaligenaceae|Parasutterella|1344	Height	0.000372500309985122	8	5	0.905264831077522	1

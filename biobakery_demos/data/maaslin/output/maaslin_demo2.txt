@@ -1,0 +1,6 @@
+	Variable	Feature	Value	Coefficient	N	N.not.0	P.value	Q.value
+1	Age	Bacteria|Actinobacteria|Actinobacteria|Bifidobacteriales|Bifidobacteriaceae|Bifidobacterium|1	Age	0.00247925731553718	8	8	0.000443046842141385	0.0236291649142072
+2	Cohort	Bacteria|Proteobacteria	CohortIBD	0.361202359969779	8	7	8.29695122618115e-05	0.0132751219618898
+3	Cohort	Bacteria|Proteobacteria|Gammaproteobacteria|Enterobacteriales|Enterobacteriaceae|Escherichia_Shigella|1532	CohortIBD	0.368439847775899	8	6	0.000282569701775158	0.0226055761420126
+4	Cohort	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Roseburia|1032	CohortIBD	-0.517733343029902	8	6	0.000628473175503117	0.0251389270201247
+5	Cohort	Bacteria|Firmicutes|Clostridia|Clostridiales|Ruminococcaceae|1156	CohortIBD	-0.271131332905165	8	6	0.00121369709195569	0.038838306942582
