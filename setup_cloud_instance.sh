@@ -15,6 +15,9 @@ sudo apt-get dist-upgrade --yes
 sudo apt-get install -y mercurial git gdebi-core python-pip
 sudo pip install setuptools --upgrade
 
+# install dos2unix
+sudo apt-get install dos2unix -y
+
 # ---------------------------------------------------------------
 # install biobakery suite with homebrew
 # ---------------------------------------------------------------
