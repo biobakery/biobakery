@@ -4,12 +4,10 @@ BioBakery Demos is a collection of demos for the BioBakery Tool Suite.
 
 ## Install ##
 
-1. Download biobakery
+* ``$ brew tap biobakery/biobakery``
+* ``$ brew install biobakery_demos``
 
-2. Install the software
-    * ``$ tar zxvf biobakery.tar.gz``
-    * ``$ cd biobakery``
-    * ``$ python setup.py install``
+Biobakery demos is also installed if you install the biobakery tool suite.
 
 ## Run ##
 
