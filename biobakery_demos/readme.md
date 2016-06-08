@@ -42,7 +42,7 @@ To run demos with threads, add the option "--threads <1>".
 
 ## Add a new demo ##
 
-Follow these instructions to add a new demo to biobakery demos. You will only need to add input files, output files, and a bash script to add a new demo. You will not need to edit the biobakery demos software. The software will discover any new demos that are added to its sub-folders and make them avaiable as new tool options.
+Follow these instructions to add a new demo to biobakery demos. You will only need to add input files, output files, and a bash script to add a new demo. You will not need to edit the biobakery demos software. The software will discover any new demos that are added to its sub-folders and make them available as new tool options.
 
 1. Make new data folders for your tool (replace NEWTOOL with tool name)
     * ``$ mkdir biobakery_demos/data/NEWTOOL/input``
