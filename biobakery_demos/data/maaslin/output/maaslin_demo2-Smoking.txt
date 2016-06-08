@@ -1,0 +1,2 @@
+Variable	Feature	Value	Coefficient	N	N not 0	P-value	Q-value
+Smoking	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|1026	Smoking1	0.388993167122071	8	4	0.0953283635349233	1

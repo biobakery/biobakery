@@ -1,0 +1,27 @@
+Variable	Feature	Value	Coefficient	N	N not 0	P-value	Q-value
+Favorite_color	Bacteria|Firmicutes|Erysipelotrichi|Erysipelotrichales|Erysipelotrichaceae|Coprobacillus|1179	Favorite_colorGreen	-0.61131010615971	8	5	0.0916825929201492	1
+Favorite_color	Bacteria|Actinobacteria|Actinobacteria	Favorite_colorGreen	0.136295065284705	8	8	0.135124462963668	1
+Favorite_color	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|1023	Favorite_colorYellow	1.05370403965211	8	6	0.183113288844153	1
+Favorite_color	Bacteria|Firmicutes|Bacilli|Lactobacillales|Enterococcaceae|1023	Favorite_colorGreen	0.539360525525651	8	6	0.217710338538917	1
+Favorite_color	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	Favorite_colorYellow	-0.356134857785862	8	8	0.22995840643629	1
+Favorite_color	Bacteria|Firmicutes|Bacilli|Lactobacillales	Favorite_colorYellow	1.02768717935477	8	7	0.31345800733063	1
+Favorite_color	Bacteria|Firmicutes	Favorite_colorYellow	0.284650474725737	8	8	0.382008014753007	1
+Favorite_color	Bacteria|Firmicutes|Bacilli|Lactobacillales	Favorite_colorGreen	0.494965015652966	8	7	0.382781568330452	1
+Favorite_color	Bacteria|Firmicutes|Erysipelotrichi|Erysipelotrichales|Erysipelotrichaceae|Coprobacillus|1179	Favorite_colorYellow	-0.253374470440595	8	5	0.422403935777505	1
+Favorite_color	Bacteria|Firmicutes|Bacilli|Lactobacillales|Unclassified|1013	Favorite_colorYellow	0.192323137184151	8	5	0.452248700051994	1
+Favorite_color	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae	Favorite_colorGreen	-0.0786927763572404	8	8	0.516446010152353	1
+Favorite_color	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|1010	Favorite_colorGreen	-0.101993940722249	8	6	0.52884420616803	1
+Favorite_color	Bacteria|Actinobacteria|Actinobacteria	Favorite_colorYellow	-0.0525403134681314	8	8	0.537171925072853	1
+Favorite_color	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Alcaligenaceae|Parasutterella|1344	Favorite_colorGreen	0.0137570247984533	8	5	0.612150734734817	1
+Favorite_color	Bacteria|Firmicutes|Clostridia|Clostridiales	Favorite_colorGreen	0.119403757806475	8	7	0.63513847640873	1
+Favorite_color	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	Favorite_colorGreen	-0.0464621995402514	8	8	0.676629871909324	1
+Favorite_color	Bacteria|Firmicutes|Unclassified|1232	Favorite_colorGreen	0.0373097409644557	8	8	0.677977535109965	1
+Favorite_color	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales	Favorite_colorYellow	-0.0490087715894674	8	8	0.679467864318472	1
+Favorite_color	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|1026	Favorite_colorGreen	0.0375710711042811	8	4	0.692657291406812	1
+Favorite_color	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Prevotellaceae|1010	Favorite_colorYellow	-0.0648849233640554	8	6	0.696085431438519	1
+Favorite_color	Bacteria|Firmicutes|Clostridia|Clostridiales	Favorite_colorYellow	-0.104743288193494	8	7	0.739118033633709	1
+Favorite_color	Bacteria|Proteobacteria|Betaproteobacteria|Burkholderiales|Alcaligenaceae|Parasutterella|1344	Favorite_colorYellow	-0.00876226161937011	8	5	0.743942686750932	1
+Favorite_color	Bacteria|Firmicutes	Favorite_colorGreen	0.0442191116646122	8	8	0.775163409356637	1
+Favorite_color	Bacteria|Firmicutes|Unclassified|1232	Favorite_colorYellow	-0.0204275476560027	8	8	0.827785206631139	1
+Favorite_color	Bacteria|Firmicutes|Clostridia|Clostridiales|Lachnospiraceae|Anaerostipes|1026	Favorite_colorYellow	0.018551204911052	8	4	0.835797672767618	1
+Favorite_color	Bacteria|Firmicutes|Bacilli|Lactobacillales|Unclassified|1013	Favorite_colorGreen	0.0400212956141775	8	5	0.856377391434629	1

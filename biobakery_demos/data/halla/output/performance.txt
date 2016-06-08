@@ -1,0 +1,20 @@
+Number of association cluster-by-cluster:	11
+Number of association feature-by-feature: 	16
+
+Decomposition method: 	medoid
+Similarity method: 	nmi
+q: FDR cut-off : 	0.2
+FDR adjusting method : 	bhy
+FDR using : 	level
+Applied stop condition : 	False
+Discretizing method : 	equal-area
+Seed number: 	0
+
+featurize time	0:00:00.015445
+Hierarchical clustering time	0:00:00.152606
+Coupling hypotheses tree time	0:00:00.012843
+number of performed permutation tests: 	251
+Hypotheses testing time	0:00:39.995828
+Summary statistics time	0.0016088485717773438
+Plotting results time	0:00:00.032901
+Total execution time	0:00:40.220458
