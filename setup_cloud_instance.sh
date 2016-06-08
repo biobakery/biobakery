@@ -29,22 +29,26 @@ sudo apt-get install -y python2.7-dev pkg-config
 sudo apt-get install -y openjdk-8-jre
 
 # install homebrew
-git clone https://github.com/Linuxbrew/linuxbrew.git $HOME/.linuxbrew
+sudo git clone https://github.com/Linuxbrew/linuxbrew.git /opt/linuxbrew
 
-# update bashrc for homebrew install
-cat - >> $HOME/.bashrc <<EOF
+# update paths for homebrew install
+sudo cat - >> linuxbrew.sh <<EOF
 # add paths to homebrew install
-export PATH=$HOME/.linuxbrew/bin:$PATH
-export MANPATH=$HOME/.linuxbrew/share/man:$MANPATH
-export INFOPATH=$HOME/.linuxbrew/share/info:$INFOPATH
+export PATH=/opt/linuxbrew/bin:$PATH
+export MANPATH=/opt/linuxbrew/share/man:$MANPATH
+export INFOPATH=/opt/linuxbrew/share/info:$INFOPATH
 EOF
 
-# apply the updates to the current shell
-source $HOME/.bashrc
+sudo mv linuxbrew.sh /etc/profile.d/
+source /etc/profile.d/linuxbrew.sh
+
+# link brew to location in default path for all including sudo
+sudo ln -s /opt/linuxbrew/bin/brew /usr/local/bin/brew
 
 # install biobakery tool suite
-brew tap biobakery/biobakery
-brew install biobakery_tool_suite
+sudo brew tap biobakery/biobakery
+sudo brew install biobakery_tool_suite
 
-printf '\n\n\nbioBakery install complete.\n\nPlease install bioBakery dependencies that require licenses. Refer to the instructions in the bioBakery documentation for more information: https://bitbucket.org/biobakery/biobakery/wiki/biobakery_basic#rst-header-install-biobakery-dependencies .\n\n'
+printf '\n\n\nbioBakery install complete.\n\nPlease install bioBakery dependencies that require licenses. Refer to the instructions in the bioBakery doc
+umentation for more information: https://bitbucket.org/biobakery/biobakery/wiki/biobakery_basic#rst-header-install-biobakery-dependencies .\n\n'
 
