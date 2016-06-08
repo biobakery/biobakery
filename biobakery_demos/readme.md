@@ -47,16 +47,16 @@ To run demos with threads, add the option "--threads <1>".
 Follow these instructions to add a new demo to biobakery demos. You will only need to add input files, output files, and a bash script to add a new demo. You will not need to edit the biobakery demos software. The software will discover any new demos that are added to its sub-folders and make them avaiable as new tool options.
 
 1. Make new data folders for your tool (replace NEWTOOL with tool name)
-    * $ mkdir biobakery_demos/data/NEWTOOL/input
-    * $ mkdir biobakery_demos/data/NEWTOOL/output
-2. Add the input files for the demo to the folder biobakery_demos/data/NEWTOOL/input
-3. Add the output files from running the demo to the folder biobakery_demos/data/NEWTOOL/output
-4. Create a bash script with demo commands for your tool (see biobakery_demos/demos/kneaddata.bash as an example)
-    * This bash script should be added to the folder biobakery_demos/demos/
-    * This bash script should be named NEWTOOL.bash (replace NEWTOOL with tool name)
-    * Note in the bash script $INPUT_FOLDER and $OUTPUT_FOLDER will be replaced with the full paths to these folders.
+    * ``$ mkdir biobakery_demos/data/NEWTOOL/input``
+    * ``$ mkdir biobakery_demos/data/NEWTOOL/output``
+2. Add the input files for the demo to the folder ``biobakery_demos/data/NEWTOOL/input``
+3. Add the output files from running the demo to the folder ``biobakery_demos/data/NEWTOOL/output``
+4. Create a bash script with demo commands for your tool (see ``biobakery_demos/demos/kneaddata.bash`` as an example)
+    * This bash script should be added to the folder ``biobakery_demos/demos/``
+    * This bash script should be named ``NEWTOOL.bash`` (replace NEWTOOL with tool name)
+    * Note in the bash script ``$INPUT_FOLDER`` and ``$OUTPUT_FOLDER`` will be replaced with the full paths to these folders.
 5. Reinstall biobakery_demos (this will add the new files to the install folder)
-    * $ python setup.py install
+    * ``$ python setup.py install``
 6. Test running your new demo (replace NEWTOOL with tool name)
-    * $ biobakery_demos --tool NEWTOOL --mode test
+    * ``$ biobakery_demos --tool NEWTOOL --mode test``
 
