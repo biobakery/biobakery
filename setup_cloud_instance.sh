@@ -34,17 +34,6 @@ sudo apt-get install -y openjdk-8-jre
 # install homebrew
 sudo git clone https://github.com/Linuxbrew/linuxbrew.git /opt/linuxbrew
 
-# update paths for homebrew install
-sudo cat - >> linuxbrew.sh <<EOF
-# add paths to homebrew install
-export PATH=/opt/linuxbrew/bin:$PATH
-export MANPATH=/opt/linuxbrew/share/man:$MANPATH
-export INFOPATH=/opt/linuxbrew/share/info:$INFOPATH
-EOF
-
-sudo mv linuxbrew.sh /etc/profile.d/
-source /etc/profile.d/linuxbrew.sh
-
 # link brew to location in default path for all including sudo
 sudo ln -s /opt/linuxbrew/bin/brew /usr/local/bin/brew
 
