@@ -1,10 +1,10 @@
 @echo off
 
-REM check for vagrant (if installed print version)
-vagrant -v
+REM check for vagrant (if installed print version else print error then wait 30 seconds and close window)
+vagrant -v || echo ERROR: Please install vagrant && timeout 30>nul && exit /b
 
-REM check for virtualbox (if install print version)
-vboxmanage -v
+REM check for virtualbox (if installed print version else print error then wait 30 seconds and close window)
+vboxmanage -v || echo ERROR: Please install virtualbox && timeout 30>nul && exit /b
 
 REM create a biobakery folder in the home directory if it does not already exist
 if not exist %HOMEPATH%\biobakery mkdir %HOMEPATH%\biobakery
