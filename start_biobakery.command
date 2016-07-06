@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# check for vagrant (if installed print version)
-vagrant -v
+# check for vagrant (if installed print version else print error then wait 30 seconds and close window)
+vagrant -v || { echo ERROR: Please install vagrant; sleep 30; exit; }
 
-# check for virtualbox (if install print version)
-vboxmanage -v
+# check for virtualbox (if installed print version else print error then wait 30 seconds and close window)
+vboxmanage -v || { echo ERROR: Please install virtualbox; sleep 30; exit; }
 
 # create a biobakery folder in the home directory if it does not already exist
 mkdir -p $HOME/biobakery
