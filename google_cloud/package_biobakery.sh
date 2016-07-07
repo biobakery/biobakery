@@ -5,6 +5,9 @@
 # and "disk-biobakery-image". It also requires a bucket named 
 # "biobakery_bucket".
 
+# To run the script: $ package_biobakery.sh $VERSION
+# Replace VERSION with the latest version of the biobakery image (ie 1.1) 
+
 # Create an empty temp disk and mount
 sudo mkdir /mnt/tmp
 sudo mkfs.ext4 -F /dev/disk/by-id/google-disk-temp
@@ -35,10 +38,11 @@ sudo umount /mnt/image-disk/
 sudo dd if=/dev/disk/by-id/google-disk-biobakery-image of=/mnt/tmp/disk.raw bs=4096
 
 # Move to the directory and then archive (as full paths cause errors in the archive)
-( cd /mnt/tmp && sudo tar czvf biobakery_image_v1.0.tar.gz disk.raw )
+VERSION=v${1}
+( cd /mnt/tmp && sudo tar czvf biobakery_image_${VERSION}.tar.gz disk.raw )
 
 # Copy the image to google storage bucket
-gsutil cp /mnt/tmp/biobakery_image_v1.0.tar.gz gs://biobakery_bucket/
+gsutil cp /mnt/tmp/biobakery_image_${VERSION}.tar.gz gs://biobakery_bucket/
 
 # Unmount the temp drive
 sudo umount /mnt/tmp
