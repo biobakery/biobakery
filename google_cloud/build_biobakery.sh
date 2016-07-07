@@ -41,6 +41,43 @@ sudo ln -s /opt/linuxbrew/bin/brew /usr/local/bin/brew
 sudo brew tap biobakery/biobakery
 sudo brew install biobakery_tool_suite
 
-printf '\n\n\nbioBakery install complete.\n\nPlease install bioBakery dependencies that require licenses. Refer to the instructions in the bioBakery doc
+# ---------------------------------------------------------------
+# install packages for vnc access
+# ---------------------------------------------------------------
+
+# install xfce4 desktop
+sudo apt-get install xfce4 xfce4-goodies -y
+
+# install vnc server
+sudo apt-get install tightvncserver -y
+
+# install tool for copy/paste
+sudo apt-get install autocutsel -y
+
+# install firefox browser
+sudo apt-get install firefox -y
+
+# update the wallpaper to use the biobakery image
+sudo cp ../vagrant/biobakery-gui/bioBakeryWallpaper.png /usr/share/backgrounds/xfce/
+sudo cp xfce4-desktop.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/
+
+# update the default setup script for tightvnc to work with xfce (fixes broken images) and copy/paste
+sudo sed -i '61 s/.*/       "xrdb \\$HOME\/.Xresources\\nautocutsel -fork\\n"./g' /usr/bin/vncserver
+sudo sed -i '66 s/.*/       "\/etc\/X11\/Xsession\\n"./g' /usr/bin/vncserver
+sudo sed -i '67 s/.*/       "export XKL_XMODMAP_DISABLE=1\\n");/g' /usr/bin/vncserver
+
+# ---------------------------------------------------------------
+# install R packages for visualization
+# ---------------------------------------------------------------
+
+# install R packages to root R library
+sudo R -q -e "install.packages('vegan',repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('ggplot2',repos='http://cran.r-project.org')"
+
+# install dependencies of EBImage (a dependency of ggtree) and then install ggtree
+sudo apt-get install libfftw3-dev libtiff5-dev -y
+sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('EBImage'); biocLite('ggtree')"
+
+printf '\n\n\nbioBakery install complete.\n\nbioBakery dependencies that require licenses are not included. Refer to the instructions in the bioBakery doc
 umentation for more information: https://bitbucket.org/biobakery/biobakery/wiki/biobakery_basic#rst-header-install-biobakery-dependencies .\n\n'
 
