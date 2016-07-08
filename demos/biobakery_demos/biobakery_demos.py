@@ -54,9 +54,9 @@ def test_demo_output(tool_name, output_folder, expected_output_folder):
     
     error_found=0
     for file in expected_output_files:
-        print("Checking for expected demo output file: " + file)
         if file in output_files:
             # check the files have data
+            print("Checking expected demo output file: " + file)
             expected_file_size=os.path.getsize(os.path.join(expected_output_folder, file))
             file_size=os.path.getsize(os.path.join(output_folder, file))
             
@@ -66,9 +66,6 @@ def test_demo_output(tool_name, output_folder, expected_output_folder):
                 if file_size == 0:
                     print("ERROR: Output file is empty: " + file)
                     error_found=1
-        else:
-            print("ERROR: Missing expected output file: " + file)
-            error_found=1
     
     print("Finished testing demo for "+tool_name)
     
