@@ -22,5 +22,5 @@ sample2markers.py --ifn_samples $OUTPUT_FOLDER/40476924_SF06.sam.bz2 --input_typ
 # extract_markers.py --mpa_pkl ../db_v20/mpa_v20_m200.pkl --ifn_markers all_markers.fasta --clade s__Eubacterium_siraeum --ofn_markers s__Eubacterium_siraeum.markers.fasta
 
 # run metaphlan2 strainer on all samples (add the flag to reduce the default as these are subsampled)
-metaphlan2_strainer.py --ifn_samples $OUTPUT_FOLDER/*.markers --ifn_markers $INPUT_FOLDER/s__Eubacterium_siraeum.markers.fasta --ifn_ref_genomes $INPUT_FOLDER/G000273725.fna.bz2 --output_dir $OUTPUT_FOLDER --nprocs_main $THREADS --clades s__Eubacterium_siraeum --marker_in_clade 0.2 --keep_alignment_files
+metaphlan2_strainer.py --ifn_samples $OUTPUT_FOLDER/*.markers --ifn_markers $INPUT_FOLDER/s__Eubacterium_siraeum.markers.fasta --ifn_ref_genomes $INPUT_FOLDER/GCF_000154325.fna.bz2 --output_dir $OUTPUT_FOLDER --nprocs_main $THREADS --clades s__Eubacterium_siraeum --marker_in_clade 0.2 --keep_alignment_files
 
