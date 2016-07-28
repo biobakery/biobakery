@@ -33,11 +33,14 @@ e.sir.scores.meta[,1] <- NULL
 colnames(e.sir.scores.meta) <- c( "PCo1", "PCo2", "SubjectID" )
 
 # plot ordination
+png( 'strainphlan_ordination.png', width = 750, height = 600, res = 150 )
+
 ggplot( e.sir.scores.meta, aes(PCo1, PCo2, color=SubjectID) ) + 
   geom_point(size = 4, alpha = 0.75) + theme_classic() + 
   theme(axis.line.x = element_line(colour = 'black', size=0.75, linetype='solid'),
         axis.line.y = element_line(colour = 'black', size=0.75, linetype='solid'),
         axis.ticks = element_blank(), axis.text = element_blank()) + 
-  xlab("PCo1 (60% variance explained)") + ylab( "PCo12 (29% variance explained)" )
+  xlab("PCo1 (60% variance explained)") + ylab( "PCo2 (29% variance explained)" )
 
+dev.off()
 # NOTE that the two samples from subject 13530241 have identical strains, which in this case is an artefact of subsampling. 
