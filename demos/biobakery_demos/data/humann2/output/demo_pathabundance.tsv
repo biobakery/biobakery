@@ -1,49 +1,8 @@
 # Pathway	demo_Abundance
-UNMAPPED	33.9132355471
-UNINTEGRATED	778.4041770541
-UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron	440.0004428300
-UNINTEGRATED|g__Bacteroides.s__Bacteroides_stercoris	379.1331776970
-PWY-7208: superpathway of pyrimidine nucleobases salvage	3.1634460239
-PWY-7208: superpathway of pyrimidine nucleobases salvage|g__Bacteroides.s__Bacteroides_thetaiotaomicron	2.4482393111
-PWY-3841: folate transformations II	2.9270446651
-PWY-7221: guanosine ribonucleotides de novo biosynthesis	2.5901918184
-PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	1.2068085186
-1CMET2-PWY: N10-formyl-tetrahydrofolate biosynthesis	2.4612648808
-PWY-5100: pyruvate fermentation to acetate and lactate II	2.4191007832
-PWY-5100: pyruvate fermentation to acetate and lactate II|g__Bacteroides.s__Bacteroides_stercoris	1.6860746138
-PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I	2.0882763520
-PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	1.5309785395
-PWY-5505: L-glutamate and L-glutamine biosynthesis	2.0179030384
-PWY-5505: L-glutamate and L-glutamine biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	1.8604040064
-HSERMETANA-PWY: L-methionine biosynthesis III	1.9821605550
-HSERMETANA-PWY: L-methionine biosynthesis III|g__Bacteroides.s__Bacteroides_thetaiotaomicron	1.1318619128
-HOMOSER-METSYN-PWY: L-methionine biosynthesis I	1.7513134851
-HOMOSER-METSYN-PWY: L-methionine biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	1.3149243918
-DTDPRHAMSYN-PWY: dTDP-L-rhamnose biosynthesis I	1.7397022780
-SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I	1.6836788383
-SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	1.0124019236
-PWY-6507: 4-deoxy-L-threo-hex-4-enopyranuronate degradation	1.6117113393
-PWY66-422: D-galactose degradation V (Leloir pathway)	1.6096242991
-PWY66-422: D-galactose degradation V (Leloir pathway)|g__Bacteroides.s__Bacteroides_stercoris	1.1023839052
-PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I	1.5775328499
-PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_thetaiotaomicron	0.8478734825
-PWY-7242: D-fructuronate degradation	1.5273004964
-PWY-5030: L-histidine degradation III	1.4962071452
-VALSYN-PWY: L-valine biosynthesis	1.4019863838
-VALSYN-PWY: L-valine biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	0.8652390223
-GLUCUROCAT-PWY: superpathway of &beta;-D-glucuronide and D-glucuronate degradation	1.3972479991
-CALVIN-PWY: Calvin-Benson-Bassham cycle	1.3078911428
-PWY-5659: GDP-mannose biosynthesis	1.2407272550
-PWY-5659: GDP-mannose biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	0.8912655971
-RHAMCAT-PWY: L-rhamnose degradation I	1.1337868481
-ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis	1.1294704465
-ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis|g__Bacteroides.s__Bacteroides_thetaiotaomicron	0.9865581453
-GALACTUROCAT-PWY: D-galacturonate degradation I	1.1181930001
-PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	1.1098779134
-PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	0.5892751915
-PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_stercoris	0.4387889425
-PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	1.1098779134
-PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_thetaiotaomicron	0.5892751915
-PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_stercoris	0.4387889425
-PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	1.0399014143
-PWY-3781: aerobic respiration I (cytochrome c)	0.8865248227
+UNMAPPED	1230.8607898504
+UNINTEGRATED	6054.4715615480
+UNINTEGRATED|unclassified	39.8051196101
+PWY-6305: putrescine biosynthesis IV	12.1531315236
+PWY-6305: putrescine biosynthesis IV|unclassified	12.1531315236
+PWY490-3: nitrate reduction VI (assimilatory)	10.7955011378
+PWY490-3: nitrate reduction VI (assimilatory)|unclassified	10.7955011378
