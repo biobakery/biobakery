@@ -34,7 +34,7 @@ dev.off()
 library(RColorBrewer)
 
 # path to alignment file
-e.sir.fasta <- ("/Users/galebabu-ali/Dropbox (Huttenhower Lab)/hutlab/Lab_docs/Presentations (external)/Galeb/StrainPhlAn_tutorial/s__Eubacterium_siraeum.fasta")
+e.sir.fasta <- ("s__Eubacterium_siraeum.fasta")
 # plot tree with slice of MSA
 png( 'strainphlan_tree_2.png', width = 750, height = 300, res = 120 )
 # strainphlan_tree_2.pdf
