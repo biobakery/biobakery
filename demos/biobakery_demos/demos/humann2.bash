@@ -1,4 +1,4 @@
-# get the version information (demo developed with humann2 v0.7.0)
+# get the version information (demo developed with humann2 v0.8.0)
 humann2 --version
 
 # run humann2 on the demo input file
