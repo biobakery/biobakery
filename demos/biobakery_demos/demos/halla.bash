@@ -1,4 +1,4 @@
-# get the version information (demo developed with halla v0.6.7)
+# get the version information (demo developed with halla v0.6.10)
 halla --version
 
 # run halla on the demo input file
