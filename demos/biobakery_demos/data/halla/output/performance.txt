@@ -1,6 +1,4 @@
-Number of association cluster-by-cluster:	3
-Number of association feature-by-feature: 	7
-
+HAllA version:	0.6.10
 Decomposition method: 	medoid
 Similarity method: 	nmi
 q: FDR cut-off : 	0.1
@@ -9,13 +7,16 @@ FDR using : 	level
 Applied stop condition : 	False
 Discretizing method : 	equal-area
 Seed number: 	0
-Number of permutations iterations for estamting pvalues: 	1000
-Minimum enropy for filterng threshold : 	0.0
+Number of permutations iterations for estimating pvalues: 	1000
+Minimum entropy for filtering threshold : 	0.0
 
-Hierarchical clustering time	0:00:00.252320
-Coupling hypotheses tree time	0:00:00.052962
-number of performed permutation tests: 	252
-Hypotheses testing time	0:00:42.782389
-Summary statistics time	0.0014400482177734375
-Plotting results time	0:00:00.011115
-Total execution time	0:00:43.108445
+Number of association cluster-by-cluster:	2
+Number of association feature-by-feature: 	8
+
+Hierarchical clustering time	0:00:00.150011
+Coupling hypotheses tree time	0:00:00.033885
+number of performed permutation tests: 	250
+Hypotheses testing time	0:00:32.581877
+Summary statistics time	0.001425027847290039
+Plotting results time	0:00:00.009580
+Total execution time	0:00:32.782763
