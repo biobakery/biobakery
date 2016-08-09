@@ -1,5 +1,5 @@
 # Gene Family	demo_Abundance-RPKs
-UNMAPPED	3836.0000000000
+UNMAPPED	4676.0000000000
 UniRef90_unknown	1641.2181881965
 UniRef90_unknown|g__Bacteroides.s__Bacteroides_dorei	898.7224083120
 UniRef90_unknown|g__Bacteroides.s__Bacteroides_vulgatus	742.4957798844
@@ -131,8 +131,6 @@ UniRef90_K6B0B3|g__Bacteroides.s__Bacteroides_dorei	10.9031491384
 UniRef90_K6B0B3|g__Bacteroides.s__Bacteroides_vulgatus	6.0606060606
 UniRef90_R5JPA6	16.8855534709
 UniRef90_R5JPA6|g__Bacteroides.s__Bacteroides_vulgatus	16.8855534709
-UniRef90_U5FT06	16.7693829744
-UniRef90_U5FT06|unclassified	16.7693829744
 UniRef90_A6KZR7	16.7427701674
 UniRef90_A6KZR7|g__Bacteroides.s__Bacteroides_dorei	9.1324200913
 UniRef90_A6KZR7|g__Bacteroides.s__Bacteroides_vulgatus	7.6103500761
@@ -225,8 +223,6 @@ UniRef90_D6CZE7	13.8312586445
 UniRef90_D6CZE7|g__Bacteroides.s__Bacteroides_vulgatus	13.8312586445
 UniRef90_R7P0P4	13.8067061144
 UniRef90_R7P0P4|g__Bacteroides.s__Bacteroides_dorei	13.8067061144
-UniRef90_Q9ZUH4	13.7815543238
-UniRef90_Q9ZUH4|unclassified	13.7815543238
 UniRef90_I9QBE7	13.7741046832
 UniRef90_I9QBE7|g__Bacteroides.s__Bacteroides_dorei	13.7741046832
 UniRef90_Q5L8D4	13.7457044674
@@ -278,15 +274,9 @@ UniRef90_Q5LI35|g__Bacteroides.s__Bacteroides_dorei	10.6837606838
 UniRef90_Q5LI35|g__Bacteroides.s__Bacteroides_vulgatus	2.1367521368
 UniRef90_R6HWM4	12.8205128205
 UniRef90_R6HWM4|g__Bacteroides.s__Bacteroides_vulgatus	12.8205128205
-UniRef90_Z9K4C5	12.7438684783
-UniRef90_Z9K4C5|unclassified	12.7438684783
-UniRef90_Q8GT21	12.7217525466
-UniRef90_Q8GT21|unclassified	12.7217525466
 UniRef90_A6L0W0	12.6582278481
 UniRef90_A6L0W0|g__Bacteroides.s__Bacteroides_dorei	8.4388185654
 UniRef90_A6L0W0|g__Bacteroides.s__Bacteroides_vulgatus	4.2194092827
-UniRef90_W8YTG4	12.6390305338
-UniRef90_W8YTG4|unclassified	12.6390305338
 UniRef90_R9HNX0	12.4378109453
 UniRef90_R9HNX0|g__Bacteroides.s__Bacteroides_vulgatus	12.4378109453
 UniRef90_A6KX80	12.3456790123
@@ -299,8 +289,6 @@ UniRef90_R6HFJ1|g__Bacteroides.s__Bacteroides_dorei	12.3456790123
 UniRef90_A6L031	12.3456790123
 UniRef90_A6L031|g__Bacteroides.s__Bacteroides_dorei	7.4074074074
 UniRef90_A6L031|g__Bacteroides.s__Bacteroides_vulgatus	4.9382716049
-UniRef90_W1IYL7	12.1580837819
-UniRef90_W1IYL7|unclassified	12.1580837819
 UniRef90_A6L6X2	12.1212121212
 UniRef90_A6L6X2|g__Bacteroides.s__Bacteroides_dorei	6.0606060606
 UniRef90_A6L6X2|g__Bacteroides.s__Bacteroides_vulgatus	6.0606060606
@@ -337,17 +325,11 @@ UniRef90_R6IMC3|g__Bacteroides.s__Bacteroides_vulgatus	8.8495575221
 UniRef90_R6IMC3|g__Bacteroides.s__Bacteroides_dorei	2.9498525074
 UniRef90_R6I1E0	11.7647058824
 UniRef90_R6I1E0|g__Bacteroides.s__Bacteroides_dorei	11.7647058824
-UniRef90_U3KP22	11.6979338377
-UniRef90_U3KP22|unclassified	11.6979338377
 UniRef90_R6IM51	11.6539191351
 UniRef90_R6IM51|g__Bacteroides.s__Bacteroides_vulgatus	6.8054342866
 UniRef90_R6IM51|g__Bacteroides.s__Bacteroides_dorei	4.8484848485
 UniRef90_A6L6W4	11.6372593375
 UniRef90_A6L6W4|g__Bacteroides.s__Bacteroides_vulgatus	11.6372593375
-UniRef90_W7DVV5	11.5904796756
-UniRef90_W7DVV5|unclassified	11.5904796756
-UniRef90_U3KI10	11.5589897710
-UniRef90_U3KI10|unclassified	11.5589897710
 UniRef90_R6HZL4	11.5286146534
 UniRef90_R6HZL4|g__Bacteroides.s__Bacteroides_vulgatus	6.6976967790
 UniRef90_R6HZL4|g__Bacteroides.s__Bacteroides_dorei	4.8309178744
@@ -379,8 +361,6 @@ UniRef90_R6HTM7|g__Bacteroides.s__Bacteroides_dorei	6.5681444992
 UniRef90_R6HTM7|g__Bacteroides.s__Bacteroides_vulgatus	4.8543689320
 UniRef90_I8VW20	11.4219114219
 UniRef90_I8VW20|g__Bacteroides.s__Bacteroides_dorei	11.4219114219
-UniRef90_Z5XKU5	11.3736016532
-UniRef90_Z5XKU5|unclassified	11.3736016532
 UniRef90_R7NXH3	11.3636363636
 UniRef90_R7NXH3|g__Bacteroides.s__Bacteroides_vulgatus	11.3636363636
 UniRef90_D4V956	11.3259948216
@@ -454,8 +434,6 @@ UniRef90_A6L0A6|g__Bacteroides.s__Bacteroides_dorei	1.9047619048
 UniRef90_A6KYM6	10.6666666667
 UniRef90_A6KYM6|g__Bacteroides.s__Bacteroides_vulgatus	6.6666666667
 UniRef90_A6KYM6|g__Bacteroides.s__Bacteroides_dorei	4.0000000000
-UniRef90_Z5XVM9	10.6655343460
-UniRef90_Z5XVM9|unclassified	10.6655343460
 UniRef90_A6L521	10.6589147287
 UniRef90_A6L521|g__Bacteroides.s__Bacteroides_dorei	6.7829457364
 UniRef90_A6L521|g__Bacteroides.s__Bacteroides_vulgatus	3.8759689922
@@ -625,8 +603,6 @@ UniRef90_R6HUZ0|g__Bacteroides.s__Bacteroides_dorei	6.3492063492
 UniRef90_R6HUZ0|g__Bacteroides.s__Bacteroides_vulgatus	3.1746031746
 UniRef90_R6HXN6	9.5238095238
 UniRef90_R6HXN6|g__Bacteroides.s__Bacteroides_dorei	9.5238095238
-UniRef90_V3KIQ1	9.5054275569
-UniRef90_V3KIQ1|unclassified	9.5054275569
 UniRef90_A6KXW1	9.4966761633
 UniRef90_A6KXW1|g__Bacteroides.s__Bacteroides_vulgatus	5.6980056980
 UniRef90_A6KXW1|g__Bacteroides.s__Bacteroides_dorei	3.7986704653
@@ -642,8 +618,6 @@ UniRef90_A6L6C5|g__Bacteroides.s__Bacteroides_vulgatus	9.4228504122
 UniRef90_R6HZ88	9.3896713615
 UniRef90_R6HZ88|g__Bacteroides.s__Bacteroides_vulgatus	7.0422535211
 UniRef90_R6HZ88|g__Bacteroides.s__Bacteroides_dorei	2.3474178404
-UniRef90_Z9JXD8	9.3092450619
-UniRef90_Z9JXD8|unclassified	9.3092450619
 UniRef90_A6L011	9.2865849747
 UniRef90_A6L011|g__Bacteroides.s__Bacteroides_vulgatus	4.6620046620
 UniRef90_A6L011|g__Bacteroides.s__Bacteroides_dorei	4.6245803127
@@ -654,8 +628,6 @@ UniRef90_I9R6V8|g__Bacteroides.s__Bacteroides_dorei	9.2592592593
 UniRef90_A6L426	9.2592592593
 UniRef90_A6L426|g__Bacteroides.s__Bacteroides_vulgatus	5.5555555556
 UniRef90_A6L426|g__Bacteroides.s__Bacteroides_dorei	3.7037037037
-UniRef90_Z9JRB3	9.1884719908
-UniRef90_Z9JRB3|unclassified	9.1884719908
 UniRef90_R6SGE3	9.1863517060
 UniRef90_R6SGE3|g__Bacteroides.s__Bacteroides_vulgatus	6.5616797900
 UniRef90_R6SGE3|g__Bacteroides.s__Bacteroides_dorei	2.6246719160
@@ -680,8 +652,6 @@ UniRef90_A6L3K4|g__Bacteroides.s__Bacteroides_dorei	4.5454545455
 UniRef90_A6L3K4|g__Bacteroides.s__Bacteroides_vulgatus	4.5454545455
 UniRef90_A6L5W8	9.0909090909
 UniRef90_A6L5W8|g__Bacteroides.s__Bacteroides_vulgatus	9.0909090909
-UniRef90_X5M7Z0	9.0719420554
-UniRef90_X5M7Z0|unclassified	9.0719420554
 UniRef90_C3R8N2	9.0702947846
 UniRef90_C3R8N2|g__Bacteroides.s__Bacteroides_dorei	9.0702947846
 UniRef90_A6KX76	9.0090090090
@@ -701,10 +671,6 @@ UniRef90_R7NWZ3|g__Bacteroides.s__Bacteroides_vulgatus	1.4947683109
 UniRef90_R6IKC9	8.9605734767
 UniRef90_R6IKC9|g__Bacteroides.s__Bacteroides_vulgatus	5.3763440860
 UniRef90_R6IKC9|g__Bacteroides.s__Bacteroides_dorei	3.5842293907
-UniRef90_B8RBV1	8.9493644040
-UniRef90_B8RBV1|unclassified	8.9493644040
-UniRef90_V5V2L3	8.8892176814
-UniRef90_V5V2L3|unclassified	8.8892176814
 UniRef90_A6L2T0	8.8888888889
 UniRef90_A6L2T0|g__Bacteroides.s__Bacteroides_dorei	8.8888888889
 UniRef90_R7P164	8.8888888889
@@ -743,8 +709,6 @@ UniRef90_J9CCP1	8.7719298246
 UniRef90_J9CCP1|g__Bacteroides.s__Bacteroides_dorei	8.7719298246
 UniRef90_R9ICM0	8.7719298246
 UniRef90_R9ICM0|g__Bacteroides.s__Bacteroides_dorei	8.7719298246
-UniRef90_Y0KIL9	8.7447954250
-UniRef90_Y0KIL9|unclassified	8.7447954250
 UniRef90_R6CPE5	8.7437607306
 UniRef90_R6CPE5|g__Bacteroides.s__Bacteroides_vulgatus	6.2421972534
 UniRef90_R6CPE5|g__Bacteroides.s__Bacteroides_dorei	2.5015634772
@@ -773,8 +737,6 @@ UniRef90_A6L541|g__Bacteroides.s__Bacteroides_vulgatus	5.1877354049
 UniRef90_A6L541|g__Bacteroides.s__Bacteroides_dorei	3.4722222222
 UniRef90_R9HKW4	8.6580086580
 UniRef90_R9HKW4|g__Bacteroides.s__Bacteroides_vulgatus	8.6580086580
-UniRef90_X6L320	8.6463137003
-UniRef90_X6L320|unclassified	8.6463137003
 UniRef90_A6KZS6	8.6355785838
 UniRef90_A6KZS6|g__Bacteroides.s__Bacteroides_dorei	4.3177892919
 UniRef90_A6KZS6|g__Bacteroides.s__Bacteroides_vulgatus	4.3177892919
@@ -806,8 +768,6 @@ UniRef90_E5UWP0	8.5034013605
 UniRef90_E5UWP0|g__Bacteroides.s__Bacteroides_dorei	8.5034013605
 UniRef90_C3PZ85	8.4925690021
 UniRef90_C3PZ85|g__Bacteroides.s__Bacteroides_vulgatus	8.4925690021
-UniRef90_Z9JLB1	8.4767761266
-UniRef90_Z9JLB1|unclassified	8.4767761266
 UniRef90_A6L389	8.4745762712
 UniRef90_A6L389|g__Bacteroides.s__Bacteroides_vulgatus	5.6497175141
 UniRef90_A6L389|g__Bacteroides.s__Bacteroides_dorei	2.8248587571
@@ -1200,8 +1160,6 @@ UniRef90_A6KWP0|g__Bacteroides.s__Bacteroides_vulgatus	2.2455114963
 UniRef90_A6KWL5	7.4738415546
 UniRef90_A6KWL5|g__Bacteroides.s__Bacteroides_vulgatus	4.4843049327
 UniRef90_A6KWL5|g__Bacteroides.s__Bacteroides_dorei	2.9895366218
-UniRef90_Z5XTI9	7.4649158985
-UniRef90_Z5XTI9|unclassified	7.4649158985
 UniRef90_I8VNZ4	7.4631021999
 UniRef90_I8VNZ4|g__Bacteroides.s__Bacteroides_dorei	7.4631021999
 UniRef90_A6L0G4	7.4626865672
@@ -1254,8 +1212,6 @@ UniRef90_Q8A8P0|g__Bacteroides.s__Bacteroides_dorei	7.3260073260
 UniRef90_R6HY46	7.3260073260
 UniRef90_R6HY46|g__Bacteroides.s__Bacteroides_dorei	3.6630036630
 UniRef90_R6HY46|g__Bacteroides.s__Bacteroides_vulgatus	3.6630036630
-UniRef90_X7F2P9	7.3126169751
-UniRef90_X7F2P9|unclassified	7.3126169751
 UniRef90_R6HWR2	7.3093364080
 UniRef90_R6HWR2|g__Bacteroides.s__Bacteroides_vulgatus	4.7386423206
 UniRef90_R6HWR2|g__Bacteroides.s__Bacteroides_dorei	2.5706940874
