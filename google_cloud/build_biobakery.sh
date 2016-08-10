@@ -41,6 +41,10 @@ sudo ln -s /opt/linuxbrew/bin/brew /usr/local/bin/brew
 sudo brew tap biobakery/biobakery
 sudo brew install biobakery_tool_suite
 
+# install humann2 utility mapping files and larger demo chocophlan database
+sudo humann2_databases --download utility_mapping full /opt/humann2_databases/
+sudo humann2_databases --download chocophlan DEMO /opt/humann2_databases/
+
 # ---------------------------------------------------------------
 # install packages for vnc access
 # ---------------------------------------------------------------
