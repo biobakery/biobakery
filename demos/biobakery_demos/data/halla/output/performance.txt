@@ -1,6 +1,6 @@
-HAllA version:	0.6.10
+HAllA version:	0.6.16
 Decomposition method: 	medoid
-Similarity method: 	nmi
+Similarity method: 	spearman
 q: FDR cut-off : 	0.1
 FDR adjusting method : 	bhy
 FDR using : 	level
@@ -8,15 +8,15 @@ Applied stop condition : 	False
 Discretizing method : 	equal-area
 Seed number: 	0
 Number of permutations iterations for estimating pvalues: 	1000
-Minimum entropy for filtering threshold : 	0.0
+Minimum entropy for filtering threshold : 	0.5
 
-Number of association cluster-by-cluster:	2
-Number of association feature-by-feature: 	8
+Number of association cluster-by-cluster:	7
+Number of association feature-by-feature: 	45
 
-Hierarchical clustering time	0:00:00.150011
-Coupling hypotheses tree time	0:00:00.033885
-number of performed permutation tests: 	250
-Hypotheses testing time	0:00:32.581877
-Summary statistics time	0.001425027847290039
-Plotting results time	0:00:00.009580
-Total execution time	0:00:32.782763
+Hierarchical clustering time	0:00:00.202970
+Coupling hypotheses tree time	0:00:00.145149
+number of performed permutation tests: 	218
+Hypotheses testing time	0:00:43.783293
+Summary statistics time	0.0012671947479248047
+Plotting results time	0:00:04.521884
+Total execution time	0:00:48.659129
