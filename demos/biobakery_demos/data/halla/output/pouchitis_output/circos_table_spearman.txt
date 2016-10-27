@@ -1,0 +1,12 @@
+Data	Data	1	2	3	4	5	6	7
+Data	Data	C15orf57_90416	NCRNA00185_55410	NA_84663	HIST1H4C_8364	MFAP5_8076	FN1_2335	COL12A1_1303
+8	g_Gemella_80	0.0	0.0	0.0	27.0	0.0	0.0	0.0
+9	f_Clostridiaceae_7	23.0	0.0	0.0	0.0	0.0	0.0	0.0
+10	o_Clostridiales_8	0.0	23.0	24.0	0.0	0.0	0.0	0.0
+11	f_Lachnospiraceae_55	0.0	0.0	0.0	0.0	25.0	0.0	0.0
+12	g_Blautia_50	0.0	0.0	0.0	0.0	23.0	0.0	0.0
+13	g_Clostridium_41	0.0	0.0	0.0	0.0	23.0	0.0	0.0
+14	g_Bacteroides_2	0.0	0.0	0.0	0.0	0.0	16.0	23.0
+15	g_Bacteroides_49	0.0	0.0	0.0	0.0	0.0	18.0	23.0
+16	f_Lachnospiraceae_62	0.0	0.0	0.0	0.0	12.0	0.0	0.0
+17	f_Lachnospiraceae_94	0.0	0.0	0.0	0.0	26.0	23.0	24.0
