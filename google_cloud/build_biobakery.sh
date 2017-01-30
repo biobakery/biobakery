@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# This file will provision an image of Ubuntu 15.10 (Wily Werewolf) with bioBakery.
+# This file will provision an image of Ubuntu 16.04 (Xenial Xerus) with bioBakery.
 # This is based on the core bioBakery provisions file used with vagrant.
 
 # ---------------------------------------------------------------
@@ -8,8 +8,8 @@
 # ---------------------------------------------------------------
 
 # update all packages
-sudo apt-get update -y
-sudo apt-get dist-upgrade --yes
+sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
 
 # packages required for deb building and installation
 sudo apt-get install -y mercurial git gdebi-core python-pip
@@ -23,7 +23,7 @@ sudo apt-get install dos2unix -y
 # ---------------------------------------------------------------
 
 # install dependencies for homebrew
-sudo apt-get install -y ruby-full R-base
+sudo apt-get install -y ruby-full r-base
 
 # install dependencies for numpy and matplotlib
 sudo apt-get install -y python2.7-dev pkg-config
@@ -31,15 +31,22 @@ sudo apt-get install -y python2.7-dev pkg-config
 # install java openjdk for biobakery tools
 sudo apt-get install -y openjdk-8-jre
 
-# install homebrew
+# install homebrew, not as root as no longer allowed as of Nov 2016
+# then update to get the latest version
+# next move executable/library so install (plus Cellar when added) is in /usr/local/bin
+# this is the location required to use bottles
 sudo git clone https://github.com/Linuxbrew/linuxbrew.git /opt/linuxbrew
-
-# link brew to location in default path for all including sudo
-sudo ln -s /opt/linuxbrew/bin/brew /usr/local/bin/brew
+sudo /opt/linuxbrew/bin/brew update
+sudo mv /opt/linuxbrew/bin/brew /usr/local/bin/
+sudo mv /opt/linuxbrew/Library /usr/local/
+sudo chown -R $(whoami) /usr/local/
 
 # install biobakery tool suite
-sudo brew tap biobakery/biobakery
-sudo brew install biobakery_tool_suite
+brew tap biobakery/biobakery
+brew install biobakery_tool_suite
+
+# change local back to root owner
+sudo chown -R root /usr/local/
 
 # install humann2 utility mapping files and larger demo chocophlan database
 sudo humann2_databases --download utility_mapping full /opt/humann2_databases/
