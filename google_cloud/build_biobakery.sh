@@ -23,7 +23,15 @@ sudo apt-get install dos2unix -y
 # ---------------------------------------------------------------
 
 # install dependencies for homebrew
-sudo apt-get install -y ruby-full r-base
+sudo apt-get install -y ruby-full
+
+# install the latest version of r
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial/'
+gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9
+gpg -a --export E084DAB9 | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install r-base -y
+
 
 # install dependencies for numpy and matplotlib
 sudo apt-get install -y python2.7-dev pkg-config
