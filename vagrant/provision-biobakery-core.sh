@@ -19,8 +19,9 @@ FILE_VERSION="version.txt"
 # ---------------------------------------------------------------
 
 # **** Note: all downstream provisioning makes use of this update ****
-sudo apt-get update -y
-sudo apt-get dist-upgrade --yes
+# set non-interactive for the pc-grub update
+sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
 
 # packages required for full virtualbox functionality
 sudo apt-get install -y build-essential linux-headers-`uname -r`
@@ -37,15 +38,22 @@ sudo apt-get install -y libgnome2-bin emacs24
 # ---------------------------------------------------------------
 
 # install dependencies for homebrew
-apt-get install -y ruby-full R-base
+sudo apt-get install -y ruby-full
+
+# install the latest version of r
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial/'
+gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9
+gpg -a --export E084DAB9 | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install r-base -y
 
 # install dependencies for numpy and matplotlib
-apt-get install -y python2.7-dev pkg-config
+sudo apt-get install -y python2.7-dev pkg-config
 
 # install java openjdk for biobakery tools
-apt-get install -y openjdk-8-jre
+sudo apt-get install -y openjdk-8-jre
 
-# install homebrew
+# install homebrew, not as root as no longer allowed, as of Nov 2016
 git clone https://github.com/Linuxbrew/linuxbrew.git /home/vagrant/.linuxbrew
 
 # update bashrc for homebrew install
@@ -56,9 +64,15 @@ export MANPATH=/home/vagrant/.linuxbrew/share/man:$MANPATH
 export INFOPATH=/home/vagrant/.linuxbrew/share/info:$INFOPATH
 EOF
 
+# update current path
+export PATH=/home/vagrant/.linuxbrew/bin:$PATH
+
+# update the homebrew formulas
+brew update
+
 # install biobakery tool suite
-/home/vagrant/.linuxbrew/bin/brew tap biobakery/biobakery
-/home/vagrant/.linuxbrew/bin/brew install biobakery_tool_suite
+brew tap biobakery/biobakery
+brew install biobakery_tool_suite
 
 # ---------------------------------------------------------------
 # write versioning information
@@ -69,5 +83,5 @@ date >> $FOLDER_SETUP/$FILE_VERSION
 echo "The following packages were installed:" >> $FOLDER_SETUP/$FILE_VERSION
 
 # record the biobakery packages installed with homebrew
-/home/vagrant/.linuxbrew/bin/brew list --versions | grep -E '(ppanini|shortbred|picrust|kneaddata|breadcrumbs|graphlan|sparsedossa|humann2|micropita|lefse|metaphlan2|maaslin)' >> $FOLDER_SETUP/$FILE_VERSION
+brew list --versions | grep -E '(ppanini|shortbred|picrust|kneaddata|breadcrumbs|graphlan|sparsedossa|humann2|micropita|lefse|metaphlan2|maaslin)' >> $FOLDER_SETUP/$FILE_VERSION
 
