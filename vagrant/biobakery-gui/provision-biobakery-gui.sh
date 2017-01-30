@@ -29,8 +29,6 @@ HIDDEN_DIR="/vagrant/.biobakery_internals/"
 sudo apt-get install -y ubuntu-desktop
 # allows use to "trash" rather than "rm" files at the terminal
 sudo apt-get install -y trash-cli
-# adds an "open terminal here" option when right-clicking on/in a folder
-sudo apt-get install -y nautilus-open-terminal
 # remove unnecessary components
 sudo apt-get autoremove -y --purge rhythmbox gnome-games libreoffice* thunderbird* gstreamer* bluez*
 
