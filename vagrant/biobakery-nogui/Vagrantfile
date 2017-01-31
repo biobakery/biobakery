@@ -25,11 +25,6 @@ Vagrant.configure("2") do |config|
                      '--filename', file_to_disk, 
                      '--format', 'VDI', 
                      '--size', 5000 * 1024 ] # 5 GB 
-      vb.customize [ 'storageattach', :id, 
-                     '--storagectl', 'SATAController', 
-                     '--port', 1, '--device', 0, 
-                     '--type', 'hdd', '--medium', 
-                     file_to_disk ]
     end
 
   end
