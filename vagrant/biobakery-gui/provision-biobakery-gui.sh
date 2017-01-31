@@ -99,8 +99,9 @@ sudo -iu vagrant bash -c 'DISPLAY=:0 gsettings set com.canonical.Unity.Launcher 
 # place custom files
 # ---------------------------------------------------------------
 
-# copy the readme to the desktop
-cp $FOLDER_SETUP/$FILE_WELCOME $FOLDER_DESKTOP/$FILE_WELCOME
+# copy the readme to the desktop (first creating the folder)
+sudo -u vagrant mkdir -p $FOLDER_DESKTOP
+sudo -u vagrant cp $FOLDER_SETUP/$FILE_WELCOME $FOLDER_DESKTOP/$FILE_WELCOME
 # link /vagrant to the desktop
 ln -s $FOLDER_SETUP $FOLDER_DESKTOP
 # change terminal settings
