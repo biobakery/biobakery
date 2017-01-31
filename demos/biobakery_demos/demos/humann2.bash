@@ -46,5 +46,5 @@ humann2_barplot --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-P
 humann2_barplot --sort sum --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot2.png
 humann2_barplot --sort sum metadata --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot3.png
 humann2_barplot --sort sum --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature COA-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot4.png
-humann2_barplot --sort similarity --top-strata 12 --norm --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature COA-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot5.png
+humann2_barplot --sort similarity --top-strata 12 --scaling normalize --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature COA-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot5.png
 
