@@ -44,7 +44,19 @@ try:
 except (ValueError, IndexError, NameError):
     sys.exit("CRITICAL ERROR: Unable to call setuptools version. Please upgrade setuptools.")
     
+import os
+
 VERSION = "0.0.1"
+
+def get_data_files(package_name,folders):
+    """ Get a list of all of the data files in 
+        each folder, walking through all sub-folders """
+    data_files=set()
+    for folder in folders:
+        for dirpath, dirnames, filenames in os.walk(os.path.join(package_name,folder)):
+            for file in filenames:
+                data_files.add(os.path.join(dirpath,file).replace(package_name+os.sep,"",1))
+    return { package_name : list(data_files) }
 
 setuptools.setup(
     name="biobakery_demos",
@@ -63,11 +75,7 @@ setuptools.setup(
         "Topic :: Scientific/Engineering :: Bio-Informatics"
         ],
     packages=setuptools.find_packages(),
-    package_data={
-        'biobakery_demos' : [
-            'data/*/*/*',
-            'demos/*'    
-        ]},
+    package_data=get_data_files("biobakery_demos",["data","demos"]),
     entry_points={
         'console_scripts': ['biobakery_demos = biobakery_demos.biobakery_demos:main']},
     zip_safe = False
