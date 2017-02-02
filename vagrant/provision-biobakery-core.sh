@@ -70,6 +70,10 @@ export PATH=/home/vagrant/.linuxbrew/bin:$PATH
 # update the homebrew formulas
 brew update
 
+# install freetype dependency from source instead of a bottle
+# because the bottle does not work with this platform
+brew install freetype --build-from-source
+
 # install biobakery tool suite
 brew tap biobakery/biobakery
 brew install biobakery_tool_suite
