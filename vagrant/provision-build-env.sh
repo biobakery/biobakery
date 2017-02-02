@@ -22,8 +22,11 @@ sudo apt-get update
 sudo apt-get install virtualbox-5.1 -y
 sudo apt-get install dkms -y
 
-# install vagrant
+# install vagrant and then upgrade
 sudo apt-get install vagrant -y
+wget https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1_x86_64.deb
+sudo dpkg -i vagrant_1.9.1_x86_64.deb
+rm vagrant_1.9.1_x86_64.deb
 
 # ---------------------------------------------------------------
 # install packages for vnc access
