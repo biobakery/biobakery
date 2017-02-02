@@ -49,6 +49,10 @@ sudo mv /opt/linuxbrew/bin/brew /usr/local/bin/
 sudo mv /opt/linuxbrew/Library /usr/local/
 sudo chown -R $(whoami) /usr/local/
 
+# install freetype dependency which needs to be installed
+# from source (instead of a bottle) for this platform
+brew install freetype --build-from-source
+
 # install biobakery tool suite
 brew tap biobakery/biobakery
 brew install biobakery_tool_suite
