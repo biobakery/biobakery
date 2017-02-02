@@ -53,8 +53,16 @@ sudo chown -R $(whoami) /usr/local/
 # from source (instead of a bottle) for this platform
 brew install freetype --build-from-source
 
-# install biobakery tool suite
+# add the biobakery tool formulas
 brew tap biobakery/biobakery
+
+# download all tool suite resources prior to install
+# this allows for a retry incase a download fails
+# this prevents install errors due to download time out errors
+# if an error occurs, exit form this script
+brew fetch biobakery_tool_suite --retry --deps || exit 1
+
+# install biobakery tool suite
 brew install biobakery_tool_suite
 
 # change local back to root owner
