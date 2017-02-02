@@ -74,8 +74,16 @@ brew update
 # because the bottle does not work with this platform
 brew install freetype --build-from-source
 
-# install biobakery tool suite
+# add the biobakery tool formulas
 brew tap biobakery/biobakery
+
+# download all tool suite resources prior to install
+# this allows for a retry incase a download fails
+# this prevents install errors due to download time out errors
+# if an error occurs, exit from this script
+brew fetch biobakery_tool_suite --retry --deps || exit 1
+
+# install biobakery tool suite
 brew install biobakery_tool_suite
 
 # ---------------------------------------------------------------
