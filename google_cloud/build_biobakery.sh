@@ -59,7 +59,7 @@ brew tap biobakery/biobakery
 # download all tool suite resources prior to install
 # this allows for a retry incase a download fails
 # this prevents install errors due to download time out errors
-# if an error occurs, exit form this script
+# if an error occurs, exit from this script
 brew fetch biobakery_tool_suite --retry --deps || exit 1
 
 # install biobakery tool suite
