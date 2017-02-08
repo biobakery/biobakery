@@ -89,6 +89,9 @@ brew fetch biobakery_tool_suite --retry --deps || exit 1
 # install biobakery tool suite
 brew install biobakery_tool_suite
 
+# remove the brew cache (this will free up ~2.5 GB)
+rm -rf $(brew --cache)
+
 # ---------------------------------------------------------------
 # write versioning information
 # ---------------------------------------------------------------
