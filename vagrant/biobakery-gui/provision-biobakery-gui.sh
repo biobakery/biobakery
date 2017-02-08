@@ -31,6 +31,8 @@ sudo apt-get install -y ubuntu-desktop
 sudo apt-get install -y trash-cli
 # remove unnecessary components
 sudo apt-get autoremove -y --purge rhythmbox gnome-games libreoffice* thunderbird* gstreamer* bluez*
+# add pdf viewer
+sudo apt-get install evince -y
 
 # ---------------------------------------------------------------
 # username/hostname configuration
@@ -52,7 +54,7 @@ sudo sh -c 'echo "127.0.0.1 biobakery" >> /etc/hosts'
 f="/etc/lightdm/lightdm.conf"
 mkdir -pv /etc/lightdm
 sudo bash -c "cat - >> ${f}" <<EOF
-[SeatDefaults]
+[Seat:*]
 greeter-session=unity-greeter
 user-session=ubuntu
 autologin-user=vagrant
@@ -60,9 +62,6 @@ EOF
 chmod -v 644 "${f}"
 chown -v root.root "${f}"
 sudo service lightdm start
-
-# wait for the display manager to start
-sleep 3
 
 # ---------------------------------------------------------------
 # change dconf settings
@@ -95,22 +94,19 @@ gset org.gnome.desktop.background primary-color "\#000000"
 # simplify the unity launcher to only have a few icons
 # ---------------------------------------------------------------
 
+# remove new amazon launcher favorite
+sudo rm /usr/share/applications/ubuntu-amazon-default.desktop
+
 echo "['application://nautilus-home.desktop', 'application://firefox.desktop', 'application://gnome-control-center.desktop', 'unity://running-apps', 'application://gnome-terminal.desktop', 'unity://expo-icon', 'unity://devices']" > /tmp/unity-bar.txt
 sudo -iu vagrant bash -c 'DISPLAY=:0 gsettings set com.canonical.Unity.Launcher favorites "$(cat /tmp/unity-bar.txt)"'
-
-# restart the display manager so the changes take effect
-sleep 3
-sudo service lightdm restart
-sleep 3
 
 # ---------------------------------------------------------------
 # place custom files
 # ---------------------------------------------------------------
 
 # copy the readme to the desktop 
+sudo -u vagrant mkdir -p $FOLDER_DESKTOP
 sudo -u vagrant cp $FOLDER_SETUP/$FILE_WELCOME $FOLDER_DESKTOP/$FILE_WELCOME
-# link /vagrant to the desktop
-ln -s $FOLDER_SETUP $FOLDER_DESKTOP
 # change terminal settings
 mkdir -p $FOLDER_TERMINAL_CONFIG
 cp $FOLDER_SETUP/$FILE_TERMINAL_CONFIG $FOLDER_TERMINAL_CONFIG/$FILE_TERMINAL_CONFIG
