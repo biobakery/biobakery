@@ -2,6 +2,8 @@
 FROM sjackman/linuxbrew
 
 USER root
+# Update all installed packages
+RUN apt-get -qq update && apt-get dist-upgrade -y
 # Install packges for formula installation and dependencies 
 RUN apt-get -qq update &&\
     apt-get install -y mercurial git python-pip\
@@ -23,6 +25,9 @@ RUN ln -s /usr/include/freetype2/ft2build.h /usr/include/
 
 # Install editor
 RUN apt-get install vim -y
+
+# Add fix for dist-upgrade that breaks locals (used by brew)
+RUN locale-gen en_US.UTF-8
 
 # Add the biobakery tool formulas
 USER linuxbrew
