@@ -48,7 +48,8 @@ sudo apt-get update
 sudo apt-get install r-base -y
 
 # install dependencies for numpy and matplotlib
-sudo apt-get install -y python2.7-dev pkg-config
+sudo apt-get install -y python2.7-dev pkg-config libfreetype6-dev
+sudo ln -s /usr/include/freetype2/ft2build.h /usr/include/
 
 # install java openjdk for biobakery tools
 sudo apt-get install -y openjdk-8-jre
@@ -70,10 +71,6 @@ export PATH=/home/vagrant/.linuxbrew/bin:$PATH
 # update the homebrew formulas
 brew update
 
-# install freetype dependency from source instead of a bottle
-# because the bottle does not work with this platform
-brew install freetype --build-from-source
-
 # add the biobakery tool formulas
 brew tap biobakery/biobakery
 
@@ -91,6 +88,46 @@ brew install biobakery_tool_suite
 
 # remove the brew cache (this will free up ~2.5 GB)
 rm -rf $(brew --cache)
+
+# install packages that are not brew compatible
+# these are pure R packages or tools that require
+# running directly from the source folder 
+
+# install ccrepe
+sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('ccrepe');"
+
+# install melonpann and dependencies
+sudo R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('getopt', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
+git clone https://github.com/biobakery/melonnpan.git && sudo R CMD INSTALL melonnpan && rm -r melonnpan
+
+# install bannoc and dependencies
+sudo R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
+git clone https://bitbucket.org/biobakery/banocc.git && sudo R CMD INSTALL banocc && rm -r banocc
+
+# install phylophlan and dependencies
+(cd $HOME && hg clone https://bitbucket.org/nsegata/phylophlan)
+sudo apt-get install muscle fasttree -y
+sudo ln -s /usr/bin/fasttree /usr/bin/FastTree
+sudo pip install numpy scipy biopython
+
+# install arepa and dependencies
+sudo apt-get install ant scons subversion curl wget java-common libssl-dev libxml2-dev libcairo2-dev -y
+sudo R -q -e "install.packages('XML', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('httr', repos='http://cran.r-project.org')"
+sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('GEOquery');"
+sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('arrayQualityMetrics');"
+sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('affy');"
+(cd $HOME && sudo hg clone https://bitbucket.org/biobakery/arepa)
+
 
 # ---------------------------------------------------------------
 # write versioning information
