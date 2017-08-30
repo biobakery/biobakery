@@ -104,14 +104,14 @@ sudo R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
 sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
 sudo R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
 sudo R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
-git clone https://github.com/biobakery/melonnpan.git && sudo R CMD INSTALL melonnpan && rm -r melonnpan
+git clone https://github.com/biobakery/melonnpan.git && sudo R CMD INSTALL melonnpan && rm -rf melonnpan
 
 # install bannoc and dependencies
 sudo R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
 sudo R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
 sudo R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
 sudo R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
-git clone https://bitbucket.org/biobakery/banocc.git && sudo R CMD INSTALL banocc && rm -r banocc
+git clone https://bitbucket.org/biobakery/banocc.git && sudo R CMD INSTALL banocc && rm -rf banocc
 
 # install phylophlan and dependencies
 (cd $HOME && hg clone https://bitbucket.org/nsegata/phylophlan)
