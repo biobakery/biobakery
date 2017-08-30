@@ -34,7 +34,8 @@ sudo apt-get install r-base -y
 
 
 # install dependencies for numpy and matplotlib
-sudo apt-get install -y python2.7-dev pkg-config
+sudo apt-get install -y python2.7-dev pkg-config libfreetype6-dev
+sudo ln -s /usr/include/freetype2/ft2build.h /usr/include/
 
 # install java openjdk for biobakery tools
 sudo apt-get install -y openjdk-8-jre
@@ -48,10 +49,6 @@ sudo /opt/linuxbrew/bin/brew update
 sudo mv /opt/linuxbrew/bin/brew /usr/local/bin/
 sudo mv /opt/linuxbrew/Library /usr/local/
 sudo chown -R $(whoami) /usr/local/
-
-# install freetype dependency which needs to be installed
-# from source (instead of a bottle) for this platform
-brew install freetype --build-from-source
 
 # add the biobakery tool formulas
 brew tap biobakery/biobakery
@@ -74,6 +71,31 @@ sudo chown -R root /usr/local/
 # install humann2 utility mapping files and larger demo chocophlan database
 sudo humann2_databases --download utility_mapping full /opt/humann2_databases/
 sudo humann2_databases --download chocophlan DEMO /opt/humann2_databases/
+
+# install packages that are not brew compatible (ie pure R packages)
+# do not install packages that require running locally since
+# build home directory location in cloud is user dependent
+
+# install ccrepe
+sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('ccrepe');"
+
+# install melonpann and dependencies
+sudo R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('getopt', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
+git clone https://github.com/biobakery/melonnpan.git && sudo R CMD INSTALL melonnpan && rm -r melonnpan
+
+# install bannoc and dependencies
+sudo R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
+git clone https://bitbucket.org/biobakery/banocc.git && sudo R CMD INSTALL banocc && rm -r banocc
+
 
 # ---------------------------------------------------------------
 # install packages for vnc access
