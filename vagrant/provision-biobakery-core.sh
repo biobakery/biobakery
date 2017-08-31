@@ -61,6 +61,9 @@ git clone https://github.com/Linuxbrew/linuxbrew.git /home/vagrant/.linuxbrew
 cat - >> /home/vagrant/.bashrc <<EOF
 # add paths to homebrew install
 export PATH=/home/vagrant/.linuxbrew/bin:$PATH
+export PYTHONPATH=/home/vagrant/.linuxbrew/lib/python2.7/site-packages:$PATH
+export PYTHONPATH=/home/vagrant/.linuxbrew/lib/python2.7/dist-packages:$PATH
+export PYTHONPATH=/home/vagrant/.linuxbrew/lib64/python2.7/site-packages:$PATH
 export MANPATH=/home/vagrant/.linuxbrew/share/man:$MANPATH
 export INFOPATH=/home/vagrant/.linuxbrew/share/info:$INFOPATH
 EOF
