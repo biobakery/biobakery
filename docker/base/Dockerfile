@@ -1,6 +1,9 @@
 # Use the latest linuxbrew container, based on ubuntu xenial
 FROM sjackman/linuxbrew
 
+# Add image version and date
+RUN echo "Image version 1.2, "$(date) > $HOME/image_version.txt
+
 USER root
 # Update all installed packages
 RUN apt-get -qq update && apt-get dist-upgrade -y
@@ -34,7 +37,7 @@ USER linuxbrew
 RUN brew tap biobakery/biobakery
 
 # Tap dependencies
-RUN brew tap homebrew/science
+RUN brew tap brewsci/science
 RUN brew tap homebrew/dupes
 
 # Install demos for automated testing
