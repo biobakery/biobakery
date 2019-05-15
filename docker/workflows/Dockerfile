@@ -23,4 +23,4 @@ RUN brew update && brew install biobakery/biobakery/kneaddata && rm -rf $(brew -
 RUN brew update && brew install biobakery/biobakery/picrust && rm -rf $(brew --cache)
 RUN brew update && brew install biobakery/biobakery/hclust2 && rm -rf $(brew --cache)
 RUN brew update && brew install biobakery/biobakery/workflows && rm -rf $(brew --cache)
-
+RUN HOMEBREW_NO_AUTO_UPDATE=1 brew install glpk
