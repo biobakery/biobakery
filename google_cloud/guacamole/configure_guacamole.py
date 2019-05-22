@@ -24,5 +24,6 @@ for line in open("instance_ids.txt"):
 
 print("use guacamole_db;")
 for instance,guac in zip(biobakery_instances,guac_ids):
+    print("# Update Configuration: Google Cloud Instance NAME: {0} IP: {1} to Guacamole Instance NAME: {2} ID: {3}".format(instance[0], instance[2], guac[1], guac[0]))
     print(command_host.replace("NEW_IP",instance[2]).replace("NEW_ID",guac[0]))
     print(command_sftp.replace("NEW_IP",instance[2]).replace("NEW_ID",guac[0]))
