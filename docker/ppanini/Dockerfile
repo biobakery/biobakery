@@ -1,6 +1,4 @@
 # Use the biobakery base image
-FROM quay.io/biobakery/base
+FROM biobakery/base:1.0
 
-# Update the formulas, install ppanini, and remove cache
-RUN brew update && brew install biobakery/biobakery/ppanini && rm -rf $(brew --cache) 
-
+RUN /opt/conda/bin/conda install ppanini==0.7.4
