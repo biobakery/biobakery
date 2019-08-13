@@ -1,6 +1,4 @@
 # Use the biobakery base image
-FROM quay.io/biobakery/base
+FROM biobakery/base:1.0
 
-# Update the formulas, install panphlan, and remove cache
-RUN brew update && brew install biobakery/biobakery/panphlan && rm -rf $(brew --cache) 
-
+RUN /opt/conda/bin/conda install panphlan==1.2.1.3_a25bc29

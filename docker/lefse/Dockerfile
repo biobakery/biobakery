@@ -1,6 +1,4 @@
 # Use the biobakery base image
-FROM quay.io/biobakery/base
+FROM biobakery/base:1.0
 
-# Update the formulas, install lefse, and remove cache
-RUN brew update && brew install biobakery/biobakery/lefse && rm -rf $(brew --cache)
-
+RUN /opt/conda/bin/conda install lefse==1.0.0_dev_9adc3a62460e
