@@ -1,4 +1,4 @@
 # Use the biobakery base image
-FROM biobakery/base:1.0
+FROM biobakery/base:1.1
 
 RUN /opt/conda/bin/conda install hclust2==1.0.0_3d589ab
