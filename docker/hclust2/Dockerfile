@@ -1,6 +1,4 @@
 # Use the biobakery base image
-FROM quay.io/biobakery/base
+FROM biobakery/base:1.0
 
-# Update the formulas, install hclust2, and remove cache
-RUN brew update && brew install biobakery/biobakery/hclust2 && rm -rf $(brew --cache) 
-
+RUN /opt/conda/bin/conda install hclust2==1.0.0_3d589ab

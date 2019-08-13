@@ -1,5 +1,4 @@
 # Use the biobakery base image
-FROM quay.io/biobakery/base
+FROM biobakery/base:1.0
 
-# Update the formulas, install halla, and remove cache
-RUN brew update && brew install biobakery/biobakery/halla && rm -rf $(brew --cache) 
+RUN /opt/conda/bin/conda install halla==0.8.17
