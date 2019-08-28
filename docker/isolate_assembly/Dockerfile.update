@@ -1,0 +1,8 @@
+# use the base image with all dependencies
+FROM biobakery/isolate_assembly:base
+
+# update biobakery workflows
+RUN cd /biobakery_workflows && \
+    hg branch isolate && \
+    hg pull && hg update && \
+    python setup.py install
