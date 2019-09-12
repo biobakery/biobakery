@@ -31,7 +31,7 @@ bash ~/miniconda.sh -b -p $HOME/miniconda/
 echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 conda init bash
-source ~/.bashrc
+. $HOME/miniconda/etc/profile.d/conda.sh
 
 # add the biobakery tool packages
 conda config --add channels defaults
