@@ -48,11 +48,10 @@ do
 done
 
 # install the latest version of r
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial/'
-gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9
-gpg -a --export E084DAB9 | sudo apt-key add -
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
 sudo apt-get update
-sudo apt-get install r-base -y --allow-unauthenticated
+sudo apt-get install r-base -y 
 
 # install packages that are not brew compatible (ie pure R packages)
 # do not install packages that require running locally since
