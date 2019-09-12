@@ -19,58 +19,39 @@ sudo pip install setuptools --upgrade
 sudo apt-get install dos2unix -y
 
 # ---------------------------------------------------------------
-# install biobakery suite with homebrew
+# install biobakery suite with conda
 # ---------------------------------------------------------------
 
-# install dependencies for homebrew
-sudo apt-get install -y ruby-full
+# install dependencies for workflows
+sudo apt-get install -y texlive pandoc
+
+# install conda
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/miniconda/
+echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+conda init bash
+source ~/.bashrc
+
+# add the biobakery tool packages
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --add channels biobakery
+
+conda create -y -n workflows_env python=2.7 && conda activate workflows_env && conda install -y biobakery_workflows -c biobakery && conda install -y samtools=0.1.19 && conda deactivate
+
+for tool in "humann2" "metaphlan2" "kneaddata" "waafle" "shortbred" "ppanini" "panphlan" "micropita" "maaslin2" "lefse" "hclust2" "halla" "graphlan" "breadcrumbs"
+do
+  conda create -y -n "${tool}_env" python=2.7 && conda activate "${tool}_env" && conda install -y $tool -c biobakery && conda deactivate
+done
 
 # install the latest version of r
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial/'
 gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9
 gpg -a --export E084DAB9 | sudo apt-key add -
 sudo apt-get update
-sudo apt-get install r-base -y
-
-
-# install dependencies for numpy and matplotlib
-sudo apt-get install -y python2.7-dev pkg-config libfreetype6-dev
-sudo ln -s /usr/include/freetype2/ft2build.h /usr/include/
-
-# install java openjdk for biobakery tools
-sudo apt-get install -y openjdk-8-jre
-
-# install homebrew, not as root as no longer allowed as of Nov 2016
-# then update to get the latest version
-# next move executable/library so install (plus Cellar when added) is in /usr/local/bin
-# this is the location required to use bottles
-sudo git clone https://github.com/Linuxbrew/linuxbrew.git /opt/linuxbrew
-sudo /opt/linuxbrew/bin/brew update
-sudo mv /opt/linuxbrew/bin/brew /usr/local/bin/
-sudo mv /opt/linuxbrew/Library /usr/local/
-sudo chown -R $(whoami) /usr/local/
-
-# add the biobakery tool formulas
-brew tap biobakery/biobakery
-
-# download all tool suite resources prior to install
-# this allows for a retry incase a download fails
-# this prevents install errors due to download time out errors
-# if an error occurs, exit from this script
-# fetch requires initial dependency tap
-brew tap homebrew/science
-brew tap homebrew/dupes
-brew fetch biobakery_tool_suite --retry --deps || exit 1
-
-# install biobakery tool suite
-brew install biobakery_tool_suite
-
-# change local back to root owner
-sudo chown -R root /usr/local/
-
-# install humann2 utility mapping files and larger demo chocophlan database
-sudo humann2_databases --download utility_mapping full /opt/humann2_databases/
-sudo humann2_databases --download chocophlan DEMO /opt/humann2_databases/
+sudo apt-get install r-base -y --allow-unauthenticated
 
 # install packages that are not brew compatible (ie pure R packages)
 # do not install packages that require running locally since
