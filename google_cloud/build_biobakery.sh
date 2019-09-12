@@ -47,36 +47,30 @@ do
   ( conda create -y -n "${tool[0]}_env" python=2.7 && conda activate "${tool[0]}_env" && conda install -y "${tool[0]}=${tool[1]}" -c biobakery && conda deactivate ) || { echo "ERROR: Conda install of tool ${tool[0]} failed"; exit 1; }
 done
 
-# install the latest version of r
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial/'
-gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9
-gpg -a --export E084DAB9 | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install r-base -y --allow-unauthenticated
-
-# install packages that are not brew compatible (ie pure R packages)
+# install packages that are not conda compatible (ie pure R packages)
 # do not install packages that require running locally since
 # build home directory location in cloud is user dependent
 
 # install ccrepe
-sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('ccrepe');"
+conda install r-base -y
+R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');"
 
 # install melonpann and dependencies
-sudo R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('getopt', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
-git clone https://github.com/biobakery/melonnpan.git && sudo R CMD INSTALL melonnpan && rm -rf melonnpan
+R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')"
+R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')"
+R -q -e "install.packages('getopt', repos='http://cran.r-project.org')"
+R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
+R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
+R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
+R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
+git clone https://github.com/biobakery/melonnpan.git && R CMD INSTALL melonnpan && rm -rf melonnpan
 
 # install bannoc and dependencies
-sudo R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
-git clone https://bitbucket.org/biobakery/banocc.git && sudo R CMD INSTALL banocc && rm -rf banocc
+R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
+R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
+R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
+R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
+git clone https://bitbucket.org/biobakery/banocc.git && R CMD INSTALL banocc && rm -rf banocc
 
 
 # ---------------------------------------------------------------
@@ -112,12 +106,12 @@ sudo sed -i '67 s/.*/       "export XKL_XMODMAP_DISABLE=1\\n");/g' /usr/bin/vncs
 # ---------------------------------------------------------------
 
 # install R packages to root R library
-sudo R -q -e "install.packages('vegan',repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('ggplot2',repos='http://cran.r-project.org')"
+R -q -e "install.packages('vegan',repos='http://cran.r-project.org')"
+R -q -e "install.packages('ggplot2',repos='http://cran.r-project.org')"
 
 # install dependencies of EBImage (a dependency of ggtree) and then install ggtree
 sudo apt-get install libfftw3-dev libtiff5-dev -y
-sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('EBImage'); biocLite('ggtree')"
+R -q -e "library('BiocManager'); BiocManager::install('EBImage'); BiocManager::install('ggtree')"
 
 printf '\n\n\nbioBakery install complete.\n\nbioBakery dependencies that require licenses are not included. Refer to the instructions in the bioBakery doc
 umentation for more information: https://bitbucket.org/biobakery/biobakery/wiki/biobakery_basic#rst-header-install-biobakery-dependencies .\n\n'
