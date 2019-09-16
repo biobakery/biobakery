@@ -52,26 +52,35 @@ done
 # build home directory location in cloud is user dependent
 
 # install ccrepe
-conda install r-base -y
-R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');"
+( conda create -y -n "ccrepe_env" && conda activate "ccrepe_env" && \
+  conda install r-base -y && \
+  R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && conda deactivate ) || { echo "ERROR: Conda ccrepe install failed"; exit 1; }
 
 # install melonpann and dependencies
-R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')"
-R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')"
-R -q -e "install.packages('getopt', repos='http://cran.r-project.org')"
-R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
-R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
-R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
-R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
-git clone https://github.com/biobakery/melonnpan.git && R CMD INSTALL melonnpan && rm -rf melonnpan
+( conda create -y -n "melonpann_env" && conda activate "melonpann_env" && \
+  conda install r-base=3.5.0 -y && \
+  R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && \
+  R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('getopt', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('vegan', repos='http://cran.r-project.org')" && \
+  wget https://cran.r-project.org/src/contrib/Archive/DatABEL/DatABEL_0.9-6.tar.gz && \
+  R CMD INSTALL DatABEL_0.9-6.tar.gz && \
+  rm DatABEL_0.9-6.tar.gz && \
+  R -q -e "install.packages('data.table', repos='http://cran.r-project.org')" && \
+  git clone https://github.com/biobakery/melonnpan.git && R CMD INSTALL melonnpan && rm -rf melonnpan && \
+  conda deactivate ) || { echo "ERROR: Conda melonpann install failed"; exit 1; }
 
 # install bannoc and dependencies
-R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
-R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
-R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
-R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
-git clone https://bitbucket.org/biobakery/banocc.git && R CMD INSTALL banocc && rm -rf banocc
-
+( conda create -y -n "bannoc_env" && conda activate "bannoc_env" && \
+  conda install r-base -y && \
+  R -q -e "install.packages('rstan', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('coda', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('stringr', repos='http://cran.r-project.org')" && \
+  git clone https://bitbucket.org/biobakery/banocc.git && R CMD INSTALL banocc && rm -rf banocc && \
+  conda deactivate ) || { echo "ERROR: Conda bannoc install failed"; exit 1; }
 
 # ---------------------------------------------------------------
 # install packages for vnc access
