@@ -34,103 +34,62 @@ sudo pip install setuptools --upgrade
 sudo apt-get install -y libgnome2-bin emacs24 
 
 # ---------------------------------------------------------------
-# install biobakery suite with homebrew
+# install biobakery suite with conda
 # ---------------------------------------------------------------
 
-# install dependencies for homebrew
-sudo apt-get install -y ruby-full
+# ---------------------------------------------------------------
+# install biobakery suite with conda
+# ---------------------------------------------------------------
 
-# install the latest version of r
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu xenial/'
-gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9
-gpg -a --export E084DAB9 | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install r-base -y
+# install dependencies for workflows
+sudo apt-get install -y texlive pandoc
 
-# install dependencies for numpy and matplotlib
-sudo apt-get install -y python2.7-dev pkg-config libfreetype6-dev
-sudo ln -s /usr/include/freetype2/ft2build.h /usr/include/
+# install conda
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/miniconda/
+echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
+export PATH="$HOME/miniconda/bin:$PATH"
+conda init bash
+. $HOME/miniconda/etc/profile.d/conda.sh
 
-# install java openjdk for biobakery tools
-sudo apt-get install -y openjdk-8-jre
+# add the biobakery tool packages
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --add channels biobakery
 
-# install homebrew, not as root as no longer allowed, as of Nov 2016
-git clone https://github.com/Linuxbrew/linuxbrew.git /home/vagrant/.linuxbrew
+conda create -y -n workflows_env python=2.7 && conda activate workflows_env && conda install -y biobakery_workflows=0.13.2 -c biobakery && conda install -y samtools=0.1.19 && conda deactivate
 
-# update bashrc for homebrew install
-cat - >> /home/vagrant/.bashrc <<EOF
-# add paths to homebrew install
-export PATH=/home/vagrant/.linuxbrew/bin:$PATH
-export PYTHONPATH=/home/vagrant/.linuxbrew/lib/python2.7/site-packages:$PATH
-export PYTHONPATH=/home/vagrant/.linuxbrew/lib/python2.7/dist-packages:$PATH
-export PYTHONPATH=/home/vagrant/.linuxbrew/lib64/python2.7/site-packages:$PATH
-export MANPATH=/home/vagrant/.linuxbrew/share/man:$MANPATH
-export INFOPATH=/home/vagrant/.linuxbrew/share/info:$INFOPATH
-EOF
+for info in "humann2 2.8.1" "metaphlan2 2.7.7" "kneaddata 0.7.2" "waafle 0.1.0" "shortbred 0.9.3_dev_702e3ef" "ppanini 0.7.4" "panphlan 1.2.1.3_a25bc29" "micropita 8.1" "maaslin2 0.99.1" "lefse 1.0.0_dev_e3cabe9" "halla 0.8.17" "graphlan 1.1.3" "breadcrumbs 0.93"
+do
+  tool=( $info )
+  ( conda create -y -n "${tool[0]}_env" python=2.7 && conda activate "${tool[0]}_env" && conda install -y "${tool[0]}=${tool[1]}" -c biobakery && conda deactivate ) || { echo "ERROR: Conda install of tool ${tool[0]} failed"; exit 1; }
+done
 
-# update current path
-export PATH=/home/vagrant/.linuxbrew/bin:$PATH
-
-# update the homebrew formulas
-brew update
-
-# add the biobakery tool formulas
-brew tap biobakery/biobakery
-
-# download all tool suite resources prior to install
-# this allows for a retry incase a download fails
-# this prevents install errors due to download time out errors
-# if an error occurs, exit from this script
-# fetch requires initial dependency tap
-brew tap homebrew/science
-brew tap homebrew/dupes
-brew fetch biobakery_tool_suite --retry --deps || exit 1
-
-# install biobakery tool suite
-brew install biobakery_tool_suite
-
-# remove the brew cache (this will free up ~2.5 GB)
-rm -rf $(brew --cache)
-
-# install packages that are not brew compatible
-# these are pure R packages or tools that require
-# running directly from the source folder 
+# install packages that are not conda compatible (ie pure R packages)
+# do not install packages that require running locally since
+# build home directory location in cloud is user dependent
 
 # install ccrepe
-sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('ccrepe');"
+conda install r-base -y
+R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');"
 
 # install melonpann and dependencies
-sudo R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('getopt', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
-git clone https://github.com/biobakery/melonnpan.git && sudo R CMD INSTALL melonnpan && rm -rf melonnpan
+R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')"
+R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')"
+R -q -e "install.packages('getopt', repos='http://cran.r-project.org')"
+R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
+R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
+R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
+R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
+git clone https://github.com/biobakery/melonnpan.git && R CMD INSTALL melonnpan && rm -rf melonnpan
 
 # install bannoc and dependencies
-sudo R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
-git clone https://bitbucket.org/biobakery/banocc.git && sudo R CMD INSTALL banocc && rm -rf banocc
-
-# install phylophlan and dependencies
-(cd $HOME && hg clone https://bitbucket.org/nsegata/phylophlan)
-sudo apt-get install muscle fasttree -y
-sudo ln -s /usr/bin/fasttree /usr/bin/FastTree
-sudo pip install numpy scipy biopython
-
-# install arepa and dependencies
-sudo apt-get install ant scons subversion curl wget java-common libssl-dev libxml2-dev libcairo2-dev -y
-sudo R -q -e "install.packages('XML', repos='http://cran.r-project.org')"
-sudo R -q -e "install.packages('httr', repos='http://cran.r-project.org')"
-sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('GEOquery');"
-sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('arrayQualityMetrics');"
-sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('affy');"
-(cd $HOME && sudo hg clone https://bitbucket.org/biobakery/arepa)
-
+R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
+R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
+R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
+R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
+git clone https://bitbucket.org/biobakery/banocc.git && R CMD INSTALL banocc && rm -rf banocc
 
 # ---------------------------------------------------------------
 # write versioning information
@@ -139,7 +98,3 @@ sudo R -q -e "source('https://bioconductor.org/biocLite.R'); biocLite('affy');"
 echo "This version of bioBakery was built on:" > $FOLDER_SETUP/$FILE_VERSION
 date >> $FOLDER_SETUP/$FILE_VERSION
 echo "The following packages were installed:" >> $FOLDER_SETUP/$FILE_VERSION
-
-# record the biobakery packages installed with homebrew
-brew list --versions | grep -E '(ppanini|shortbred|picrust|kneaddata|breadcrumbs|graphlan|sparsedossa|humann2|micropita|lefse|metaphlan2|maaslin)' >> $FOLDER_SETUP/$FILE_VERSION
-
