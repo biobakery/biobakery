@@ -25,13 +25,13 @@ sudo apt-get install dos2unix -y
 # install dependencies for workflows
 sudo apt-get install -y texlive pandoc
 
-# install conda
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
-bash ~/miniconda.sh -b -p $HOME/miniconda/
-echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
-export PATH="$HOME/miniconda/bin:$PATH"
-conda init bash
-. $HOME/miniconda/etc/profile.d/conda.sh
+# install conda in opt with automatic install for all users
+sudo mkdir /opt/anaconda
+sudo chmod -R 777 /opt/anaconda/
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /opt/anaconda/miniconda.sh
+bash /opt/anaconda/miniconda.sh -b -p /opt/anaconda/miniconda/
+sudo cp /opt/anaconda/miniconda/etc/profile.d/conda.sh /etc/profile.d/
+. /opt/anaconda/miniconda/etc/profile.d/conda.sh
 
 # add the biobakery tool packages
 conda config --add channels defaults
