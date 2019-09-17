@@ -37,20 +37,16 @@ sudo apt-get install -y libgnome2-bin emacs24
 # install biobakery suite with conda
 # ---------------------------------------------------------------
 
-# ---------------------------------------------------------------
-# install biobakery suite with conda
-# ---------------------------------------------------------------
-
 # install dependencies for workflows
 sudo apt-get install -y texlive pandoc
 
-# install conda
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
-bash ~/miniconda.sh -b -p $HOME/miniconda/
-echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
-export PATH="$HOME/miniconda/bin:$PATH"
-conda init bash
-. $HOME/miniconda/etc/profile.d/conda.sh
+# install conda in opt with automatic install for all users
+sudo mkdir /opt/anaconda
+sudo chmod -R 777 /opt/anaconda/
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /opt/anaconda/miniconda.sh
+bash /opt/anaconda/miniconda.sh -b -p /opt/anaconda/miniconda/
+sudo cp /opt/anaconda/miniconda/etc/profile.d/conda.sh /etc/profile.d/
+. /opt/anaconda/miniconda/etc/profile.d/conda.sh
 
 # add the biobakery tool packages
 conda config --add channels defaults
@@ -71,25 +67,38 @@ done
 # build home directory location in cloud is user dependent
 
 # install ccrepe
-conda install r-base -y
-R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');"
+( conda create -y -n "ccrepe_env" && conda activate "ccrepe_env" && \
+  conda install r-base -y && \
+  R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && conda deactivate ) || { echo "ERROR: Conda ccrepe install failed"; exit 1; }
 
 # install melonpann and dependencies
-R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')"
-R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')"
-R -q -e "install.packages('getopt', repos='http://cran.r-project.org')"
-R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')"
-R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
-R -q -e "install.packages('GenABEL', repos='http://cran.r-project.org')"
-R -q -e "install.packages('data.table', repos='http://cran.r-project.org')"
-git clone https://github.com/biobakery/melonnpan.git && R CMD INSTALL melonnpan && rm -rf melonnpan
+sudo ln -s /bin/tar /bin/gtar
+( conda create -y -n "melonpann_env" && conda activate "melonpann_env" && \
+  conda install r-base=3.5.0 r-devtools r-fbasics -y && \
+  R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && \
+  R -q -e "install.packages('optparse', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('AssocTests', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('getopt', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('vegan', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('data.table', repos='http://cran.r-project.org')" && \
+  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/DatABEL/DatABEL_0.9-6.tar.gz')" && \
+  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/GenABEL.data/GenABEL.data_1.0.0.tar.gz')" && \
+  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/GenABEL/GenABEL_1.8-0.tar.gz')" && \
+  git clone https://github.com/biobakery/melonnpan.git && R CMD INSTALL melonnpan && rm -rf melonnpan && \
+  conda deactivate ) || { echo "ERROR: Conda melonpann install failed"; exit 1; }
 
 # install bannoc and dependencies
-R -q -e "install.packages('rstan', repos='http://cran.r-project.org')"
-R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')"
-R -q -e "install.packages('coda', repos='http://cran.r-project.org')"
-R -q -e "install.packages('stringr', repos='http://cran.r-project.org')"
-git clone https://bitbucket.org/biobakery/banocc.git && R CMD INSTALL banocc && rm -rf banocc
+( conda create -y -n "bannoc_env" && conda activate "bannoc_env" && \
+  conda install r-base -y && \
+  R -q -e "install.packages('rstan', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('coda', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('stringr', repos='http://cran.r-project.org')" && \
+  git clone https://bitbucket.org/biobakery/banocc.git && R CMD INSTALL banocc && rm -rf banocc && \
+  conda deactivate ) || { echo "ERROR: Conda bannoc install failed"; exit 1; }
 
 # ---------------------------------------------------------------
 # write versioning information
