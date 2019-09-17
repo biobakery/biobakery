@@ -58,7 +58,7 @@ done
 
 # install melonpann and dependencies
 ( conda create -y -n "melonpann_env" && conda activate "melonpann_env" && \
-  conda install r-base=3.5.0 -y && \
+  conda install r-base=3.5.0 r-devtools -y && \
   R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && \
   R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')" && \
   R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')" && \
@@ -69,7 +69,6 @@ done
   R CMD INSTALL DatABEL_0.9-6.tar.gz && \
   rm DatABEL_0.9-6.tar.gz && \
   R -q -e "install.packages('data.table', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('devtools', repos='http://cran.r-project.org')" && \
   R -q -e "library('devtools'); devtools::install_version('GenABEL.data', version = '1.0.0', repos='http://cran.us.r-project.org')" && \
   R -q -e "library('devtools'); devtools::install_version('GenABEL', version = '1.8-0', repos='http://cran.us.r-project.org')" && \
   R -q -e "library('devtools'); devtools::install_github('biobakery/melonnpan')" && \
