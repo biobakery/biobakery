@@ -113,18 +113,6 @@ sudo sed -i '61 s/.*/       "xrdb \\$HOME\/.Xresources\\nautocutsel -fork\\n"./g
 sudo sed -i '66 s/.*/       "\/etc\/X11\/Xsession\\n"./g' /usr/bin/vncserver
 sudo sed -i '67 s/.*/       "export XKL_XMODMAP_DISABLE=1\\n");/g' /usr/bin/vncserver
 
-# ---------------------------------------------------------------
-# install R packages for visualization
-# ---------------------------------------------------------------
-
-# install R packages to root R library
-R -q -e "install.packages('vegan',repos='http://cran.r-project.org')"
-R -q -e "install.packages('ggplot2',repos='http://cran.r-project.org')"
-
-# install dependencies of EBImage (a dependency of ggtree) and then install ggtree
-sudo apt-get install libfftw3-dev libtiff5-dev -y
-R -q -e "library('BiocManager'); BiocManager::install('EBImage'); BiocManager::install('ggtree')"
-
 printf '\n\n\nbioBakery install complete.\n\nbioBakery dependencies that require licenses are not included. Refer to the instructions in the bioBakery doc
 umentation for more information: https://bitbucket.org/biobakery/biobakery/wiki/biobakery_basic#rst-header-install-biobakery-dependencies .\n\n'
 
