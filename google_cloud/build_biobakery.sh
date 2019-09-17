@@ -57,6 +57,7 @@ done
   R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && conda deactivate ) || { echo "ERROR: Conda ccrepe install failed"; exit 1; }
 
 # install melonpann and dependencies
+sudo ln -s /bin/tar /bin/gtar
 ( conda create -y -n "melonpann_env" && conda activate "melonpann_env" && \
   conda install r-base=3.5.0 r-devtools -y && \
   R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && \
@@ -65,13 +66,11 @@ done
   R -q -e "install.packages('getopt', repos='http://cran.r-project.org')" && \
   R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')" && \
   R -q -e "install.packages('vegan', repos='http://cran.r-project.org')" && \
-  wget https://cran.r-project.org/src/contrib/Archive/DatABEL/DatABEL_0.9-6.tar.gz && \
-  R CMD INSTALL DatABEL_0.9-6.tar.gz && \
-  rm DatABEL_0.9-6.tar.gz && \
   R -q -e "install.packages('data.table', repos='http://cran.r-project.org')" && \
-  R -q -e "library('devtools'); devtools::install_version('GenABEL.data', version = '1.0.0', repos='http://cran.us.r-project.org')" && \
-  R -q -e "library('devtools'); devtools::install_version('GenABEL', version = '1.8-0', repos='http://cran.us.r-project.org')" && \
-  R -q -e "library('devtools'); devtools::install_github('biobakery/melonnpan')" && \
+  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/DatABEL/DatABEL_0.9-6.tar.gz')" && \
+  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/GenABEL.data/GenABEL.data_1.0.0.tar.gz')" && \
+  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/GenABEL/GenABEL_1.8-0.tar.gz')" && \
+  git clone https://github.com/biobakery/melonnpan.git && R CMD INSTALL melonnpan && rm -rf melonnpan && \
   conda deactivate ) || { echo "ERROR: Conda melonpann install failed"; exit 1; }
 
 # install bannoc and dependencies
