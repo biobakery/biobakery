@@ -61,6 +61,8 @@ sudo ln -s /bin/tar /bin/gtar
 ( conda create -y -n "melonpann_env" && conda activate "melonpann_env" && \
   conda install r-base=3.5.0 r-devtools -y && \
   R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && \
+  R -q -e "install.packages('optparse', repos='http://cran.r-project.org')" && \
+  R -q -e "install.packages('AssocTests', repos='http://cran.r-project.org')" && \
   R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')" && \
   R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')" && \
   R -q -e "install.packages('getopt', repos='http://cran.r-project.org')" && \
