@@ -70,8 +70,8 @@ done
   rm DatABEL_0.9-6.tar.gz && \
   R -q -e "install.packages('data.table', repos='http://cran.r-project.org')" && \
   R -q -e "install.packages('devtools', repos='http://cran.r-project.org')" && \
-  R -q -e "devtools::install_version('GenABEL.data', version = "1.0.0", repos='http://cran.us.r-project.org')" && \
-  R -q -e "devtools::install_version('GenABEL', version = "1.8-0", repos='http://cran.us.r-project.org')" && \
+  R -q -e "devtools::install_version('GenABEL.data', version = '1.0.0', repos='http://cran.us.r-project.org')" && \
+  R -q -e "devtools::install_version('GenABEL', version = '1.8-0', repos='http://cran.us.r-project.org')" && \
   R -q -e "devtools::install_github('biobakery/melonnpan')" && \
   conda deactivate ) || { echo "ERROR: Conda melonpann install failed"; exit 1; }
 
