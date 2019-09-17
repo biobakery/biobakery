@@ -59,7 +59,7 @@ done
 # install melonpann and dependencies
 sudo ln -s /bin/tar /bin/gtar
 ( conda create -y -n "melonpann_env" && conda activate "melonpann_env" && \
-  conda install r-base=3.5.0 r-devtools -y && \
+  conda install r-base=3.5.0 r-devtools r-fbasics -y && \
   R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && \
   R -q -e "install.packages('optparse', repos='http://cran.r-project.org')" && \
   R -q -e "install.packages('AssocTests', repos='http://cran.r-project.org')" && \
