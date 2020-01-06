@@ -85,6 +85,10 @@ sudo ln -s /bin/tar /bin/gtar
   git clone https://bitbucket.org/biobakery/banocc.git && R CMD INSTALL banocc && rm -rf banocc && \
   conda deactivate ) || { echo "ERROR: Conda bannoc install failed"; exit 1; }
 
+# change permissions on all installed conda packages so 
+# users in google cloud (with different login) can edit envs
+sudo chmod -R 777 /opt/anaconda/
+
 # ---------------------------------------------------------------
 # install packages for vnc access
 # ---------------------------------------------------------------
