@@ -1,0 +1,9 @@
+# Use the biobakery kneaddata base image
+FROM biobakery/kneaddata:0.0.1
+
+# Install kneaddata databases
+USER root
+RUN mkdir /opt/dbs && \
+    kneaddata_database --download human_genome bowtie2 /opt/dbs/ && \
+    chmod -R 755 /opt/dbs/ 
+USER linuxbrew

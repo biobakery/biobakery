@@ -1,0 +1,12 @@
+# Use the biobakery humann2 image
+FROM biobakery/humann2:0.0.1
+
+# Install humann2 databases
+USER root
+RUN mkdir /opt/dbs && \
+    humann2_databases --download chocophlan full /opt/dbs/ && \
+    humann2_databases --download uniref uniref90_diamond /opt/dbs/ && \
+    humann2_databases --download utility_mapping full /opt/dbs/ && \
+    chmod -R 755 /opt/dbs/ 
+USER linuxbrew
+
