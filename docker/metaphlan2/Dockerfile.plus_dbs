@@ -1,0 +1,7 @@
+# Use the biobakery metaphlan2 image
+FROM biobakery/metaphlan2:2.7.7
+
+# Install metaphlan2 databases
+RUN metaphlan2.py --install
+
+RUN conda install anadama2 boto3 awscli
