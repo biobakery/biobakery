@@ -7,7 +7,7 @@ RUN pip install boto3 cloudpickle awscli
 RUN pip install anadama2
 
 # install kneaddata and dependencies
-RUN pip install kneaddata --no-binary :all:
+RUN pip install kneaddata==0.7.3 --no-binary :all:
 
 RUN wget http://tandem.bu.edu/trf/downloads/trf409.linux64 && \
     mv trf409.linux64 /usr/local/bin/trf && \
