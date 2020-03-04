@@ -8,7 +8,7 @@ RUN /opt/conda/bin/conda config --add channels defaults && \
     /opt/conda/bin/conda config --add channels biobakery
 
 # install anadama2 so the docker containers can be used with the AWS Batch workflow type
-RUN /opt/conda/bin/conda install anadama2==0.6.3
+RUN /opt/conda/bin/conda install anadama2==0.6.7
 
 # install biobakery demos for testing each package
 RUN /opt/conda/bin/conda install biobakery_demos==1.6
