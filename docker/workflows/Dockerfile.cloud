@@ -7,7 +7,7 @@ RUN pip install boto3 cloudpickle awscli
 RUN pip install anadama2
 
 # install kneaddata and dependencies
-RUN pip install biobakery-workflows==0.14.1 && \
+RUN pip install biobakery-workflows==0.14.2 && \
     pip install kneaddata && \
     pip install humann2
 
