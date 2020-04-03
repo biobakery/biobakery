@@ -18,7 +18,7 @@ RUN hg clone https://biobakery@bitbucket.org/biobakery/metaphlan2 && \
 RUN pip install biom-format
 
 # install humann2 and dependencies
-RUN pip install humann2==2.8.1 --no-binary :all:
+RUN pip install humann2==2.8.2 --no-binary :all:
 
 # change default database locations
 RUN humann2_config --update database_folders nucleotide /opt/humann2/chocophlan && \
