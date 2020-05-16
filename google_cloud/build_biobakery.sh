@@ -12,7 +12,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
 
 # packages required for deb building and installation
-sudo apt-get install -y git gdebi-core python-pip
+sudo apt-get install -y git gdebi-core python3-dev python3-pip build-essential
 sudo pip install setuptools --upgrade
 
 # install dos2unix
@@ -22,8 +22,22 @@ sudo apt-get install dos2unix -y
 # install biobakery suite with pypi and bioconductor
 # ---------------------------------------------------------------
 
+sudo pip3 install kneaddata --no-binary :all:
+sudo pip3 install humann --no-binary :all:
+
+# install metaphlan plus strainphlan with dependencies and databases
+sudo pip3 install metaphlan 
+sudo metaphlan --install --nproc 2
+sudo pip3 install cython
+sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
+sudo pip3 install cmseq
+
+sudo pip3 install biobakery_workflows
+
 # install dependencies for workflows
 sudo apt-get install -y texlive pandoc
+
+
 
 
 # ---------------------------------------------------------------
