@@ -35,6 +35,9 @@ sudo pip3 install cmseq
 
 sudo pip3 install biobakery_workflows
 
+# install waafle
+sudo pip3 install waafle
+
 # install dependencies for workflows
 sudo apt-get install -y texlive pandoc
 
@@ -45,6 +48,17 @@ sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
 
 sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
+
+# install assembly packages
+wget https://github.com/voutcn/megahit/releases/download/v1.1.3/megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
+tar xzvf megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
+sudo cp megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin/megahit* /usr/local/bin/
+rm -r megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin*
+
+wget https://downloads.sourceforge.net/project/quast/quast-4.6.3.tar.gz
+tar xzvf quast-4.6.3.tar.gz
+( cd quast-4.6.3/ && sudo ./setup.py install_full )
+rm -r quast-4.6.3*
 
 # ---------------------------------------------------------------
 # install packages for vnc access
