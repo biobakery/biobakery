@@ -12,7 +12,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
 
 # packages required for deb building and installation
-sudo apt-get install -y git gdebi-core python3-dev python3-pip build-essential
+sudo apt-get install -y git gdebi-core python3-dev python3-pip build-essential fastqc
 sudo pip install setuptools --upgrade
 
 # install dos2unix
@@ -24,6 +24,7 @@ sudo apt-get install dos2unix -y
 
 sudo pip3 install kneaddata --no-binary :all:
 sudo pip3 install humann --no-binary :all:
+sudo pip3 install phylophlan
 
 # install metaphlan plus strainphlan with dependencies and databases
 sudo pip3 install metaphlan 
@@ -37,8 +38,13 @@ sudo pip3 install biobakery_workflows
 # install dependencies for workflows
 sudo apt-get install -y texlive pandoc
 
+# install R and maaslin2
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
+sudo apt update -y && sudo apt install r-base -y
 
-
+sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
+sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
 # ---------------------------------------------------------------
 # install packages for vnc access
