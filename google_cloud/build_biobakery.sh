@@ -62,6 +62,19 @@ tar xzvf quast-4.6.3.tar.gz
 ( cd quast-4.6.3/ && sudo ./setup.py install_full )
 rm -r quast-4.6.3*
 
+# install prokka (has some errors with latest package during install and requires manual input during install)
+sudo apt-get install libdatetime-perl libxml-simple-perl libdigest-md5-perl bioperl -y
+sudo cpan Bio::Perl
+git clone https://github.com/tseemann/prokka.git
+sudo mv prokka /opt/
+sudo /opt/prokka/bin/prokka --setupdb
+sudo ln -s /opt/prokka/bin/* /usr/local/bin/
+
+wget https://github.com/rrwick/Bandage/releases/download/v0.8.1/Bandage_Ubuntu_static_v0_8_1.zip
+unzip Bandage_Ubuntu_static_v0_8_1.zip 
+sudo mv Bandage /usr/local/bin/
+rm Bandage_Ubuntu_static_v0_8_1.zip 
+rm sample_LastGraph 
 
 # ---------------------------------------------------------------
 # install packages for vnc access
