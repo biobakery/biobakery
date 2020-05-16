@@ -41,7 +41,7 @@ sudo apt-get install -y texlive pandoc
 # install R and maaslin2
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
-sudo apt update -y && sudo apt install r-base -y
+sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
 
 sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
