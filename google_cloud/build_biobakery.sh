@@ -55,6 +55,7 @@ tar xzvf megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
 sudo cp megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin/megahit* /usr/local/bin/
 rm -r megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin*
 
+sudo apt-get install openjdk-8-jdk -y
 wget https://downloads.sourceforge.net/project/quast/quast-4.6.3.tar.gz
 tar xzvf quast-4.6.3.tar.gz
 ( cd quast-4.6.3/ && sudo ./setup.py install_full )
