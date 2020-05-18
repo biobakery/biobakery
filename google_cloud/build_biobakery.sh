@@ -33,7 +33,7 @@ sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
 
-sudo pip3 install biobakery_workflows
+sudo pip3 install biobakery_workflows==3.0.0a1
 
 # install waafle
 sudo pip3 install waafle
