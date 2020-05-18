@@ -54,6 +54,16 @@ sudo cp panphlan-1.2/*.py /usr/local/bin/
 rm 1.2.tar.gz
 rm -r panphlan-1.2
 
+# install shortbred (to be replaced with pypi later)
+sudo apt-get install ncbi-blast+ muscle cd-hit -y
+sudo pip install biopython
+wget https://bitbucket.org/biobakery/shortbred/get/702e3ef41be4.tar.gz
+tar xzvf 702e3ef41be4.tar.gz
+( cd biobakery-shortbred-702e3ef41be4 && sudo cp *.py /usr/local/bin/ && sudo cp -r src /usr/local/bin/ )
+rm -r biobakery-shortbred-702e3ef41be4
+rm 702e3ef41be4.tar.gz
+
+
 # install R and maaslin2
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
