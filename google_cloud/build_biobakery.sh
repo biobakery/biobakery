@@ -43,8 +43,16 @@ sudo wget http://huttenhower.sph.harvard.edu/waafle_data/waafledb.tar.gz --direc
 sudo wget http://huttenhower.sph.harvard.edu/waafle_data/waafledb_taxonomy.tsv --directory-prefix=/opt/waafle/
 
 
-# install dependencies for workflows
+# install dependencies for workflows and dependencies
 sudo apt-get install -y texlive pandoc
+
+# install panphlan (to be replaced with pypi later)
+sudo pip install numpy
+wget https://github.com/SegataLab/panphlan/archive/1.2.tar.gz
+tar xzvf 1.2.tar.gz
+sudo cp panphlan-1.2/*.py /usr/local/bin/
+rm 1.2.tar.gz
+rm -r panphlan-1.2
 
 # install R and maaslin2
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
