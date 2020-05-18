@@ -63,6 +63,12 @@ tar xzvf 702e3ef41be4.tar.gz
 rm -r biobakery-shortbred-702e3ef41be4
 rm 702e3ef41be4.tar.gz
 
+# install graphlan (to be replaced with pypi later)
+# please note, this shares a src folder like shortbred does
+sudo pip install matplotlib
+git clone https://github.com/biobakery/graphlan.git
+( cd graphlan && sudo cp graphlan/*.py /usr/local/bin/ && sudo cp graphlan/src/graphlan_lib.py /usr/local/bin/src/ && sudo cp graphlan/src/pyphlan.py /usr/local/bin/src/ && sudo cp -r graphlan/export2graphlan/ /usr/local/bin/ )
+rm -r graphlan
 
 # install R and maaslin2
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
