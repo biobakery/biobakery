@@ -33,7 +33,14 @@ sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
 
+# install workflows and visualization dependencies
 sudo pip3 install biobakery_workflows==3.0.0a1
+sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
+sudo pip install scipy pandas
+wget https://github.com/SegataLab/hclust2/archive/0.99.tar.gz
+tar xzvf 0.99.tar.gz
+sudo cp hclust2-0.99/hclust2.py /usr/local/bin/
+rm 0.99.tar.gz && rm -r hclust2-0.99/
 
 # install waafle
 sudo pip3 install waafle
