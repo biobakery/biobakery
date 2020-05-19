@@ -1,0 +1,17 @@
+#mpa_v30_CHOCOPhlAn_201901
+#/n/huttenhower_lab/tools/metaphlan3/bin/metaphlan SRS014464-Anterior_nares.fasta.gz --input_type fasta --nproc 4
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Proteobacteria	2|1224	97.23649	
+k__Bacteria|p__Firmicutes	2|1239	2.76351	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	97.23649	
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	2.76351	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales	2|1224|1236|72274	97.23649	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	2.76351	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae	2|1224|1236|72274|468	97.23649	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Carnobacteriaceae	2|1239|91061|186826|186828	2.76351	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Moraxella	2|1224|1236|72274|468|475	97.23649	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Carnobacteriaceae|g__Dolosigranulum	2|1239|91061|186826|186828|29393	2.76351	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Moraxella|s__Moraxella_nonliquefaciens	2|1224|1236|72274|468|475|478	97.23649	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Carnobacteriaceae|g__Dolosigranulum|s__Dolosigranulum_pigrum	2|1239|91061|186826|186828|29393|29394	2.76351	
