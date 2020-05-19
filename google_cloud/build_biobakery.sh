@@ -18,6 +18,9 @@ sudo pip install setuptools --upgrade
 # install libreoffice
 sudo apt-get install libreoffice -y
 
+# remove screensaver to remove startup message
+sudo apt-get remove xscreensaver -y
+
 # install dos2unix
 sudo apt-get install dos2unix -y
 
