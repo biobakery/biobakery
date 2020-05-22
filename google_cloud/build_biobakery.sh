@@ -29,7 +29,8 @@ sudo apt-get install dos2unix -y
 # ---------------------------------------------------------------
 
 sudo pip3 install kneaddata --no-binary :all:
-sudo pip3 install humann --no-binary :all:
+# install humann with python2 as library needed for workflows scripts
+sudo pip install humann --no-binary :all:
 # install v3 of phylophlan (case change in pypi package)
 sudo apt-get install fasttree -y
 sudo pip3 install PhyloPhlAn
@@ -113,10 +114,10 @@ sudo mv prokka /opt/
 sudo /opt/prokka/bin/prokka --setupdb
 sudo ln -s /opt/prokka/bin/* /usr/local/bin/
 # update to latest blast required
-wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.10.0+-x64-linux.tar.gz
-tar xzvf ncbi-blast-2.10.0+-x64-linux.tar.gz
-sudo cp ncbi-blast-2.10.0+/bin/* /usr/local/bin/
-rm -r ncbi-blast-2.10.0+*
+wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.8.1/ncbi-blast-2.8.1+-x64-linux.tar.gz
+tar xzvf ncbi-blast-2.8.1+-x64-linux.tar.gz
+sudo cp ncbi-blast-2.8.1+/bin/* /usr/local/bin/
+rm -r ncbi-blast-2.8.1+*
 # install/build databases (needs latest makeblastdb > v2.8)
 sudo /opt/prokka/bin/prokka --setupdb
 
