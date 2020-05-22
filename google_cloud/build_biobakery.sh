@@ -30,7 +30,9 @@ sudo apt-get install dos2unix -y
 
 sudo pip3 install kneaddata --no-binary :all:
 sudo pip3 install humann --no-binary :all:
-sudo pip3 install phylophlan
+# install v3 of phylophlan (case change in pypi package)
+sudo apt-get install fasttree -y
+sudo pip3 install PhyloPhlAn
 
 # install metaphlan plus strainphlan with dependencies and databases
 sudo pip3 install metaphlan 
