@@ -80,7 +80,8 @@ rm 702e3ef41be4.tar.gz
 
 # install graphlan (to be replaced with pypi later)
 # please note, this shares a src folder like shortbred does
-sudo pip install matplotlib
+# install 2.0.0 for workflows vis
+sudo pip install matplotlib==2.0.0
 git clone https://github.com/biobakery/graphlan.git
 ( cd graphlan && sudo cp graphlan/*.py /usr/local/bin/ && sudo cp graphlan/src/graphlan_lib.py /usr/local/bin/src/ && sudo cp graphlan/src/pyphlan.py /usr/local/bin/src/ && sudo cp -r graphlan/export2graphlan/ /usr/local/bin/ )
 rm -r graphlan
