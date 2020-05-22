@@ -57,17 +57,14 @@ sudo wget http://huttenhower.sph.harvard.edu/waafle_data/waafledb.tar.gz --direc
 (cd /opt/waafle/ && sudo tar xzvf waafledb.tar.gz )
 sudo wget http://huttenhower.sph.harvard.edu/waafle_data/waafledb_taxonomy.tsv --directory-prefix=/opt/waafle/
 
-
 # install dependencies for workflows and dependencies
 sudo apt-get install -y texlive pandoc
 
-# install panphlan (to be replaced with pypi later)
-sudo pip install numpy
-wget https://github.com/SegataLab/panphlan/archive/1.2.tar.gz
-tar xzvf 1.2.tar.gz
-sudo cp panphlan-1.2/*.py /usr/local/bin/
-rm 1.2.tar.gz
-rm -r panphlan-1.2
+# install panphlan (to be replaced with pypi later, required update of hashbang to python3)
+sudo pip3 install sklearn
+git clone https://github.com/SegataLab/panphlan.git
+( cd panphlan && git checkout "3.0" && sudo cp *.py /usr/local/bin/ )
+rm -r panphlan
 
 # install shortbred (to be replaced with pypi later)
 sudo apt-get install ncbi-blast+ muscle cd-hit -y
