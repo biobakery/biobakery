@@ -40,8 +40,9 @@ sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
 
 # install workflows and visualization dependencies
+# using python2 currently as anadama2 document methods are not yet python3 compat in some sections
 sudo apt-get install python-tk
-sudo pip3 install biobakery_workflows==3.0.0a1
+sudo pip install biobakery_workflows==3.0.0a1
 sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
 sudo pip install scipy pandas
 wget https://github.com/SegataLab/hclust2/archive/0.99.tar.gz
