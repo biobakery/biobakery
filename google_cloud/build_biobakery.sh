@@ -40,6 +40,7 @@ sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
 
 # install workflows and visualization dependencies
+sudo apt-get install python-tk
 sudo pip3 install biobakery_workflows==3.0.0a1
 sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
 sudo pip install scipy pandas
@@ -111,6 +112,13 @@ git clone https://github.com/tseemann/prokka.git
 sudo mv prokka /opt/
 sudo /opt/prokka/bin/prokka --setupdb
 sudo ln -s /opt/prokka/bin/* /usr/local/bin/
+# update to latest blast required
+wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.10.0+-x64-linux.tar.gz
+tar xzvf ncbi-blast-2.10.0+-x64-linux.tar.gz
+sudo cp ncbi-blast-2.10.0+/bin/* /usr/local/bin/
+rm -r ncbi-blast-2.10.0+*
+# install/build databases (needs latest makeblastdb > v2.8)
+sudo /opt/prokka/bin/prokka --setupdb
 
 wget https://github.com/rrwick/Bandage/releases/download/v0.8.1/Bandage_Ubuntu_static_v0_8_1.zip
 unzip Bandage_Ubuntu_static_v0_8_1.zip 
