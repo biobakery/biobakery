@@ -31,9 +31,14 @@ sudo apt-get install dos2unix -y
 sudo pip3 install kneaddata --no-binary :all:
 # install humann with python2 as library needed for workflows scripts
 sudo pip install humann --no-binary :all:
-# install v3 of phylophlan (case change in pypi package)
+
+# install v3 of phylophlan (case change in pypi package) plus dependencies
 sudo apt-get install fasttree -y
 sudo pip3 install PhyloPhlAn
+wget https://github.com/scapella/trimal/archive/v1.4.1.tar.gz
+tar xzvf v1.4.1.tar.gz
+( cd trimal-1.4.1/source/ && make && sudo cp *al /usr/local/bin/ )
+rm v1.4.1.tar.gz && rm -r trimal-1.4.1
 
 # install metaphlan plus strainphlan with dependencies and databases
 sudo pip3 install metaphlan 
