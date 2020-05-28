@@ -97,8 +97,11 @@ rm 702e3ef41be4.tar.gz
 # install 2.0.0 for workflows vis
 sudo pip install matplotlib==2.0.0
 git clone https://github.com/biobakery/graphlan.git
-( cd graphlan && sudo cp graphlan/*.py /usr/local/bin/ && sudo cp graphlan/src/graphlan_lib.py /usr/local/bin/src/ && sudo cp graphlan/src/pyphlan.py /usr/local/bin/src/ && sudo cp graphlan/export2graphlan/*.py /usr/local/bin/ )
-rm -r graphlan
+( cd graphlan && sudo cp graphlan/*.py /usr/local/bin/ && sudo cp graphlan/src/graphlan_lib.py /usr/local/bin/src/ && sudo cp graphlan/src/pyphlan.py /usr/local/bin/src/ )
+rm -rf graphlan
+git clone https://github.com/SegataLab/export2graphlan.git
+sudo cp export2graphlan/*.py /usr/local/bin/
+rm -rf export2graphan
 
 # install R and maaslin2
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
