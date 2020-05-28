@@ -121,7 +121,7 @@ tar xzvf quast-4.6.3.tar.gz
 rm -r quast-4.6.3*
 
 # install prokka (has some errors with latest package during install and requires manual input during install)
-sudo apt-get install libdatetime-perl libxml-simple-perl libdigest-md5-perl bioperl -y
+sudo apt-get install libdatetime-perl libxml-simple-perl libdigest-md5-perl bioperl parallel -y
 sudo cpan Bio::Perl
 git clone https://github.com/tseemann/prokka.git
 sudo mv prokka /opt/
