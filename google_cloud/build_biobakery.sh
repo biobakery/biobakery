@@ -60,6 +60,9 @@ rm 0.99.tar.gz && rm -r hclust2-0.99/
 
 # install waafle
 sudo pip3 install waafle
+wget https://github.com/hyattpd/Prodigal/releases/download/v2.6.3/prodigal.linux
+chmod +x prodigal.linux
+sudo mv prodigal.linux /usr/local/bin/
 
 # install dependencies for workflows and dependencies
 sudo apt-get install -y texlive pandoc
