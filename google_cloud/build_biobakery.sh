@@ -47,6 +47,16 @@ sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
 
+# add strainphlan visualization scripts (to be moved to package)
+wget https://raw.githubusercontent.com/biobakery/breadcrumbs/master/breadcrumbs/scripts/strainphlan_ggtree.R
+wget https://raw.githubusercontent.com/biobakery/breadcrumbs/master/breadcrumbs/scripts/strainphlan_ordination.R
+chmod +x strainphlan_*.R
+sudo mv strainphlan_*.R /usr/local/bin/
+
+sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
+sudo R -q -e "library(BiocManager); BiocManager::install('ggtree')"
+sudo R -q -e "install.packages(c('optparse','ggplot2','RColorBrewer'), repos='http://cran.r-project.org')"
+
 # install workflows and visualization dependencies
 # using python2 currently as anadama2 document methods are not yet python3 compat in some sections
 sudo apt-get install python-tk
@@ -95,7 +105,6 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
 sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
 
-sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
 # install assembly packages
