@@ -60,10 +60,6 @@ rm 0.99.tar.gz && rm -r hclust2-0.99/
 
 # install waafle
 sudo pip3 install waafle
-sudo mkdir /opt/waafle && sudo chmod 755 /opt/waafle
-sudo wget http://huttenhower.sph.harvard.edu/waafle_data/waafledb.tar.gz --directory-prefix=/opt/waafle/
-(cd /opt/waafle/ && sudo tar xzvf waafledb.tar.gz )
-sudo wget http://huttenhower.sph.harvard.edu/waafle_data/waafledb_taxonomy.tsv --directory-prefix=/opt/waafle/
 
 # install dependencies for workflows and dependencies
 sudo apt-get install -y texlive pandoc
