@@ -83,6 +83,10 @@ sudo pip3 install sklearn
 git clone https://github.com/SegataLab/panphlan.git
 ( cd panphlan && git checkout "3.0" && sudo cp *.py /usr/local/bin/ )
 rm -r panphlan
+wget https://github.com/marbl/Mash/releases/download/v2.2/mash-Linux64-v2.2.tar
+tar xvf mash-Linux64-v2.2.tar
+sudo mv mash-Linux64-v2.2/mash /usr/local/bin/
+rm -r mash-Linux64-v2.2*
 
 # install shortbred (to be replaced with pypi later)
 sudo apt-get install ncbi-blast+ muscle cd-hit -y
