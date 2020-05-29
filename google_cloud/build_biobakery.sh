@@ -55,6 +55,7 @@ sudo mv strainphlan_*.R /usr/local/bin/
 
 sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 sudo R -q -e "library(BiocManager); BiocManager::install('ggtree')"
+sudo R -q -e "library(BiocManager); BiocManager::install('Biostrings')"
 sudo R -q -e "install.packages(c('optparse','ggplot2','RColorBrewer'), repos='http://cran.r-project.org')"
 
 # install workflows and visualization dependencies
