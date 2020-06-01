@@ -82,12 +82,7 @@ rm -r mash-Linux64-v2.2*
 
 # install shortbred (to be replaced with pypi later)
 sudo apt-get install ncbi-blast+ muscle cd-hit -y
-sudo pip install biopython
-wget https://bitbucket.org/biobakery/shortbred/get/702e3ef41be4.tar.gz
-tar xzvf 702e3ef41be4.tar.gz
-( cd biobakery-shortbred-702e3ef41be4 && sudo cp *.py /usr/local/bin/ && sudo cp -r src /usr/local/bin/ )
-rm -r biobakery-shortbred-702e3ef41be4
-rm 702e3ef41be4.tar.gz
+sudo pip3 install shortbred
 
 # install graphlan (to be replaced with pypi later)
 # please note, this shares a src folder like shortbred does
