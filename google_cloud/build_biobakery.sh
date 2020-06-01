@@ -67,8 +67,12 @@ wget https://github.com/hyattpd/Prodigal/releases/download/v2.6.3/prodigal.linux
 chmod +x prodigal.linux
 sudo mv prodigal.linux /usr/local/bin/
 
-# install dependencies for workflows and dependencies
+# install dependencies for workflows (including vis)
 sudo apt-get install -y texlive pandoc
+wget https://drive5.com/downloads/usearch9.0.2132_i86linux32.gz
+gunzip usearch9.0.2132_i86linux32.gz
+chmod +x usearch9.0.2132_i86linux32
+sudo mv usearch9.0.2132_i86linux32 /usr/local/bin/usearch
 
 # install panphlan (to be replaced with pypi later, required update of hashbang to python3)
 sudo pip3 install sklearn
