@@ -111,6 +111,12 @@ sudo R -q -e "library(BiocManager); BiocManager::install('banocc')"
 # install sparsedossa
 sudo R -q -e "library(BiocManager); BiocManager::install('sparseDOSSA')"
 
+# install picrust2
+wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz
+tar xvzf v2.3.0-b.tar.gz
+( cd picrust2-2.3.0-b/ && sudo pip3 install --editable . )
+sudo rm -r picrust2* && rm v2.3.0-b.tar.gz
+
 # install assembly packages
 wget https://github.com/voutcn/megahit/releases/download/v1.1.3/megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
 tar xzvf megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
