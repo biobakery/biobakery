@@ -124,6 +124,7 @@ sudo R -q -e "library(BiocManager); BiocManager::install('sparseDOSSA')"
 
 # install picrust2
 sudo apt-get install hmmer
+sudo R -q -e "install.packages(c('castor'), repos='http://cran.r-project.org')"
 wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz
 tar xvzf v2.3.0-b.tar.gz
 ( cd picrust2-2.3.0-b/ && sudo pip3 install --editable . )
