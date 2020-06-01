@@ -102,6 +102,9 @@ sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
 
 sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
+# install mmuphin
+sudo R -q -e "library(BiocManager); BiocManager::install('MMUPHin')"
+
 # install assembly packages
 wget https://github.com/voutcn/megahit/releases/download/v1.1.3/megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
 tar xzvf megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
