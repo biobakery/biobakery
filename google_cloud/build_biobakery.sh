@@ -69,10 +69,17 @@ sudo mv prodigal.linux /usr/local/bin/
 
 # install dependencies for workflows (including vis)
 sudo apt-get install -y texlive pandoc
+
+# install workflows 16s dependencies
 wget https://drive5.com/downloads/usearch9.0.2132_i86linux32.gz
 gunzip usearch9.0.2132_i86linux32.gz
 chmod +x usearch9.0.2132_i86linux32
 sudo mv usearch9.0.2132_i86linux32 /usr/local/bin/usearch
+
+wget https://github.com/torognes/vsearch/releases/download/v2.14.2/vsearch-2.14.2-linux-x86_64.tar.gz
+tar xzvf vsearch-2.14.2-linux-x86_64.tar.gz
+sudo cp vsearch-2.14.2-linux-x86_64/bin/vsearch /usr/local/bin/
+rm -r vsearch*
 
 # install panphlan (to be replaced with pypi later, required update of hashbang to python3)
 sudo pip3 install sklearn
