@@ -47,27 +47,19 @@ sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
 
-# add strainphlan visualization scripts (to be moved to package)
-wget https://raw.githubusercontent.com/biobakery/breadcrumbs/master/breadcrumbs/scripts/strainphlan_ggtree.R
-wget https://raw.githubusercontent.com/biobakery/breadcrumbs/master/breadcrumbs/scripts/strainphlan_ordination.R
-chmod +x strainphlan_*.R
-sudo mv strainphlan_*.R /usr/local/bin/
+# install workflows and visualization dependencies
+# workflows includ two strainphlan visualization scripts used in the strainphlan tutorial
+# using python2 currently as anadama2 document methods are not yet python3 compat in some sections
+sudo apt-get install python-tk
+sudo pip3 install biobakery_workflows==3.0.0a4
+sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
+sudo pip3 install scipy pandas
+sudo pip3 install hclust2
 
 sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 sudo R -q -e "library(BiocManager); BiocManager::install('ggtree')"
 sudo R -q -e "library(BiocManager); BiocManager::install('Biostrings')"
 sudo R -q -e "install.packages(c('optparse','ggplot2','RColorBrewer'), repos='http://cran.r-project.org')"
-
-# install workflows and visualization dependencies
-# using python2 currently as anadama2 document methods are not yet python3 compat in some sections
-sudo apt-get install python-tk
-sudo pip install biobakery_workflows==3.0.0a1
-sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
-sudo pip install scipy pandas
-wget https://github.com/SegataLab/hclust2/archive/0.99.tar.gz
-tar xzvf 0.99.tar.gz
-sudo cp hclust2-0.99/hclust2.py /usr/local/bin/
-rm 0.99.tar.gz && rm -r hclust2-0.99/
 
 # install waafle
 sudo pip3 install waafle
