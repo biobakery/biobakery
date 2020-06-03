@@ -132,8 +132,12 @@ sudo rm -r picrust2* && rm v2.3.0-b.tar.gz
 sudo apt-get install autotools-dev libtool flex bison cmake automake autoconf -y
 wget https://github.com/Pbdas/epa-ng/archive/v0.3.6.tar.gz
 tar xzvf v0.3.6.tar.gz
-( cd epa-ng-0.3.6/ && make && sudo make install && sudo cp bin/epa-ng /usr/local/bin/ )
-sudo rm -r epa-ng* && rm v0.3.6.tar.gz
+( cd epa-ng-0.3.6/ && make && sudo cp bin/epa-ng /usr/local/bin/ )
+rm -r epa-ng* && rm v0.3.6.tar.gz
+wget https://github.com/lczech/gappa/archive/v0.6.0.tar.gz
+tar xzvf v0.6.0.tar.gz
+( cd gappa-0.6.0/ && make && sudo cp bin/gappa /usr/local/bin/ )
+rm -r gappa* && rm v0.6.0.tar.gz
 
 # install assembly packages
 wget https://github.com/voutcn/megahit/releases/download/v1.1.3/megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
