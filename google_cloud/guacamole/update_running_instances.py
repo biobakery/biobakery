@@ -23,7 +23,7 @@ if len(biobakery_instances)==0:
     sys.exit("ERROR: no instances with 'biobakery' in the name have been found")
 
 for instance in biobakery_instances:
-    if subset_filter and instance[2] in subset_filter:
+    if not subset_filter or (subset_filter and instance[2] in subset_filter):
         print("# Update Image: Google Cloud Instance NAME: {0} IP: {1}".format(instance[0], instance[2]))
         command="ssh {0} -i {1} '{2}'".format(instance[2], key_file, user_command)
         print(command)
