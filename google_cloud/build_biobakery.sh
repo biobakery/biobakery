@@ -127,7 +127,7 @@ sudo apt-get install hmmer
 sudo R -q -e "install.packages(c('castor'), repos='http://cran.r-project.org')"
 wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz
 tar xvzf v2.3.0-b.tar.gz
-( cd picrust2-2.3.0-b/ && sudo pip3 install --editable . )
+( cd picrust2-2.3.0-b/ && sudo pip3 install --editable . && sudo cp -r picrust2/default_files /usr/local/lib/python3.6/dist-packages/picrust2/)
 sudo rm -r picrust2* && rm v2.3.0-b.tar.gz
 
 # install assembly packages
