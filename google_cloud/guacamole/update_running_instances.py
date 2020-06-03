@@ -9,7 +9,11 @@ import json
 
 user_command=sys.argv[1]
 key_file=sys.argv[2]
-subset_filter=sys.argv[3].split(",")
+
+try:
+    subset_filter=sys.argv[3].split(",")
+except IndexError:
+    subset_filter=[]
 
 # get a list of all biobakery instances that are running
 instances = json.loads(subprocess.check_output(["gcloud","compute","instances","list","--format","json"]))
