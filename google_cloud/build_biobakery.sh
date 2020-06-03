@@ -122,13 +122,18 @@ sudo R -q -e "library(BiocManager); BiocManager::install('banocc')"
 # install sparsedossa
 sudo R -q -e "library(BiocManager); BiocManager::install('sparseDOSSA')"
 
-# install picrust2
+# install picrust2 and dependencies
 sudo apt-get install hmmer
 sudo R -q -e "install.packages(c('castor'), repos='http://cran.r-project.org')"
 wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz
 tar xvzf v2.3.0-b.tar.gz
 ( cd picrust2-2.3.0-b/ && sudo pip3 install --editable . && sudo cp -r picrust2/default_files /usr/local/lib/python3.6/dist-packages/picrust2/)
 sudo rm -r picrust2* && rm v2.3.0-b.tar.gz
+sudo apt-get install autotools-dev libtool flex bison cmake automake autoconf -y
+wget https://github.com/Pbdas/epa-ng/archive/v0.3.6.tar.gz
+tar xzvf v0.3.6.tar.gz
+( cd epa-ng-0.3.6/ && make && sudo make install && sudo cp bin/epa-ng /usr/local/bin/ )
+sudo rm -r epa-ng* && rm v0.3.6.tar.gz
 
 # install assembly packages
 wget https://github.com/voutcn/megahit/releases/download/v1.1.3/megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
