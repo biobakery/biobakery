@@ -9,9 +9,10 @@ import json
 
 user_command=sys.argv[1]
 key_file=sys.argv[2]
+password=sys.argv[3]
 
 try:
-    subset_filter=sys.argv[3].split(",")
+    subset_filter=sys.argv[4].split(",")
 except IndexError:
     subset_filter=[]
 
@@ -25,6 +26,6 @@ if len(biobakery_instances)==0:
 for instance in biobakery_instances:
     if not subset_filter or (subset_filter and instance[2] in subset_filter):
         print("# Update Image: Google Cloud Instance NAME: {0} IP: {1}".format(instance[0], instance[2]))
-        command="ssh {0} -i {1} '{2}'".format(instance[2], key_file, user_command)
+        command="sshpass -P passphrase -p {0} ssh {1} -i {2} '{3}'".format(password, instance[2], key_file, user_command)
         print(command)
         print(subprocess.check_output(command,shell=True))
