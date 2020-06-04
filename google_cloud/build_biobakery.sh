@@ -81,11 +81,9 @@ tar xzvf vsearch-2.14.2-linux-x86_64.tar.gz
 sudo cp vsearch-2.14.2-linux-x86_64/bin/vsearch /usr/local/bin/
 rm -r vsearch*
 
-# install panphlan (to be replaced with pypi later, required update of hashbang to python3)
+# install panphlan
 sudo pip3 install sklearn
-git clone https://github.com/SegataLab/panphlan.git
-( cd panphlan && git checkout "3.0" && sudo cp *.py /usr/local/bin/ )
-rm -r panphlan
+sudo pip3 install panphlan
 wget https://github.com/marbl/Mash/releases/download/v2.2/mash-Linux64-v2.2.tar
 tar xvf mash-Linux64-v2.2.tar
 sudo mv mash-Linux64-v2.2/mash /usr/local/bin/
@@ -95,13 +93,10 @@ rm -r mash-Linux64-v2.2*
 sudo apt-get install ncbi-blast+ muscle cd-hit -y
 sudo pip3 install shortbred
 
-# install graphlan (to be replaced with pypi later)
-# please note, this shares a src folder like shortbred does
+# install graphlan (currently python2)
 # install 2.0.0 for workflows vis
 sudo pip install matplotlib==2.0.0
-git clone https://github.com/biobakery/graphlan.git
-( cd graphlan && sudo cp graphlan/*.py /usr/local/bin/ && sudo cp graphlan/src/graphlan_lib.py /usr/local/bin/src/ && sudo cp graphlan/src/pyphlan.py /usr/local/bin/src/ )
-rm -rf graphlan
+sudo pip install graphlan
 git clone https://github.com/SegataLab/export2graphlan.git
 sudo cp export2graphlan/*.py /usr/local/bin/
 rm -rf export2graphan
