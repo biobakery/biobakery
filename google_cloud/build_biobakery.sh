@@ -117,6 +117,12 @@ sudo R -q -e "library(BiocManager); BiocManager::install('banocc')"
 # install sparsedossa
 sudo R -q -e "library(BiocManager); BiocManager::install('sparseDOSSA')"
 
+# install melonnpan
+sudo R -q -e "install.packages(c('devtools'), repos='http://cran.r-project.org')"
+sudo R -q -e "library(devtools); devtools::install_version('GenABEL.data', version = '1.0.0', repos = 'http://cran.us.r-project.org')"
+sudo R -q -e "library(devtools); devtools::install_version('GenABEL', version = '1.8-0', repos = 'http://cran.us.r-project.org')"
+sudo R -q -e "library(devtools); devtools::install_github('biobakery/melonnpan')"
+
 # install picrust2 and dependencies
 sudo apt-get install hmmer
 sudo R -q -e "install.packages(c('castor'), repos='http://cran.r-project.org')"
