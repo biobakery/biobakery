@@ -140,6 +140,16 @@ tar xzvf v0.6.0.tar.gz
 ( cd gappa-0.6.0/ && make && sudo cp bin/gappa /usr/local/bin/ )
 rm -r gappa* && rm v0.6.0.tar.gz
 
+# install lefse
+sudo pip install rpy2===2.8
+wget https://github.com/SegataLab/lefse/archive/1.0.8.tar.gz
+tar xzvf 1.0.8.tar.gz
+sudo cp lefse-1.0.8/*.py /usr/local/bin/
+rm 1.0.8.tar.gz
+rm -r lefse*
+
+sudo R -q -e "install.packages(c('coin','MASS','modeltools','mvtnorm','survival'), repos='http://cran.r-project.org')"
+
 # install assembly packages
 wget https://github.com/voutcn/megahit/releases/download/v1.1.3/megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
 tar xzvf megahit_v1.1.3_LINUX_CPUONLY_x86_64-bin.tar.gz
