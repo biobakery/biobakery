@@ -50,7 +50,7 @@ sudo pip3 install cmseq
 # install workflows and visualization dependencies
 # workflows includ two strainphlan visualization scripts used in the strainphlan tutorial
 # using python2 currently as anadama2 document methods are not yet python3 compat in some sections
-sudo apt-get install python-tk
+sudo apt-get install python-tk -y
 sudo pip3 install biobakery_workflows==3.0.0a4
 sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
 sudo pip3 install scipy pandas
