@@ -124,7 +124,7 @@ sudo R -q -e "library(devtools); devtools::install_version('GenABEL', version = 
 sudo R -q -e "library(devtools); devtools::install_github('biobakery/melonnpan')"
 
 # install picrust2 and dependencies
-sudo apt-get install hmmer
+sudo apt-get install hmmer -y
 sudo R -q -e "install.packages(c('castor'), repos='http://cran.r-project.org')"
 wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz
 tar xvzf v2.3.0-b.tar.gz
