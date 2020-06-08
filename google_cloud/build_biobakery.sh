@@ -161,7 +161,7 @@ sudo pip install joblib
 wget https://downloads.sourceforge.net/project/quast/quast-4.6.3.tar.gz
 tar xzvf quast-4.6.3.tar.gz
 ( cd quast-4.6.3/ && sudo ./setup.py install_full )
-rm -r quast-4.6.3*
+rm -fr quast-4.6.3*
 
 # install prokka (has some errors with latest package during install and requires manual input during install)
 sudo apt-get install libdatetime-perl libxml-simple-perl libdigest-md5-perl bioperl parallel -y
