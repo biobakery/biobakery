@@ -12,7 +12,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
 
 # packages required for deb building and installation
-sudo apt-get install -y git gdebi-core python3-dev python3-pip build-essential fastqc
+sudo apt-get install -y git gdebi-core python3-dev python3-pip python-pip build-essential fastqc
 sudo pip install setuptools --upgrade
 
 # install libreoffice
