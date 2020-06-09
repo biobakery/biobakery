@@ -47,6 +47,13 @@ sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
 
+# install R and maaslin2
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
+sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
+
+sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
+
 # install workflows and visualization dependencies
 # workflows includ two strainphlan visualization scripts used in the strainphlan tutorial
 # using python2 currently as anadama2 document methods are not yet python3 compat in some sections
@@ -100,13 +107,6 @@ sudo pip install graphlan
 git clone https://github.com/SegataLab/export2graphlan.git
 sudo cp export2graphlan/*.py /usr/local/bin/
 rm -rf export2graphan
-
-# install R and maaslin2
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
-sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
-
-sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
 # install mmuphin
 sudo R -q -e "library(BiocManager); BiocManager::install('MMUPHin')"
