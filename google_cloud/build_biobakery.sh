@@ -52,6 +52,7 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
 sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
 
+sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
 # install workflows and visualization dependencies
@@ -63,7 +64,6 @@ sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
 sudo pip3 install scipy pandas
 sudo pip3 install hclust2
 
-sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 sudo R -q -e "library(BiocManager); BiocManager::install('ggtree')"
 sudo R -q -e "library(BiocManager); BiocManager::install('Biostrings')"
 sudo R -q -e "install.packages(c('optparse','ggplot2','RColorBrewer'), repos='http://cran.r-project.org')"
