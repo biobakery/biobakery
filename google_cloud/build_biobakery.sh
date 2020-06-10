@@ -103,7 +103,10 @@ sudo pip3 install shortbred
 # install graphlan (currently python2)
 # install 2.0.0 for workflows vis
 sudo pip install matplotlib==2.0.0
-sudo pip install graphlan
+git clone https://github.com/biobakery/graphlan.git
+sudo cp graphlan/*.py /usr/local/bin/ && sudo cp graphlan/src/graphlan_lib.py /usr/local/bin/src/ && sudo cp graphlan/src/pyphlan.py /usr/local/bin/src/ 
+rm -rf graphlan
+
 git clone https://github.com/SegataLab/export2graphlan.git
 sudo cp export2graphlan/*.py /usr/local/bin/
 rm -rf export2graphan
