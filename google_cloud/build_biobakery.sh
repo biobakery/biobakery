@@ -145,7 +145,7 @@ tar xzvf v0.6.0.tar.gz
 rm -r gappa* && rm v0.6.0.tar.gz
 
 # install lefse
-sudo pip install rpy2===2.8
+sudo pip install rpy2==2.8
 wget https://github.com/SegataLab/lefse/archive/1.0.8.tar.gz
 tar xzvf 1.0.8.tar.gz
 sudo cp lefse-1.0.8/*.py /usr/local/bin/
