@@ -96,8 +96,8 @@ tar xvf mash-Linux64-v2.2.tar
 sudo mv mash-Linux64-v2.2/mash /usr/local/bin/
 rm -r mash-Linux64-v2.2*
 
-# install shortbred (to be replaced with pypi later)
-sudo apt-get install ncbi-blast+ muscle cd-hit -y
+# install shortbred (ncbi blast required, it is installed later with prokka section with version compatible with prokka/shortbred/phylophlan)
+sudo apt-get install muscle cd-hit -y
 sudo pip3 install shortbred
 
 # install graphlan (currently python2)
