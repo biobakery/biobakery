@@ -121,6 +121,7 @@ sudo R -q -e "library(BiocManager); BiocManager::install('banocc')"
 sudo R -q -e "library(BiocManager); BiocManager::install('sparseDOSSA')"
 
 # install melonnpan
+sudo apt-get install libssl-dev libxml2-dev -y
 sudo R -q -e "install.packages(c('devtools'), repos='http://cran.r-project.org')"
 sudo R -q -e "library(devtools); devtools::install_version('GenABEL.data', version = '1.0.0', repos = 'http://cran.us.r-project.org')"
 sudo R -q -e "library(devtools); devtools::install_version('GenABEL', version = '1.8-0', repos = 'http://cran.us.r-project.org')"
