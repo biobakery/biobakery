@@ -169,6 +169,7 @@ sudo rm -r quast-4.6.3*
 
 # install prokka (has some errors with latest package during install and requires manual input during install)
 sudo apt-get install libdatetime-perl libxml-simple-perl libdigest-md5-perl bioperl parallel -y
+sudo apt-get remove ncbi-blast+ -y
 git clone https://github.com/tseemann/prokka.git
 sudo mv prokka /opt/
 sudo /opt/prokka/bin/prokka --setupdb
