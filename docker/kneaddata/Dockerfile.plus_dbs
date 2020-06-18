@@ -1,8 +1,0 @@
-# Use the biobakery kneaddata base image
-FROM biobakery/kneaddata:0.7.2
-
-# Install kneaddata databases
-RUN mkdir /opt/dbs && \
-    kneaddata_database --download human_genome bowtie2 /opt/dbs/
-
-RUN pip install boto3 anadama2==0.6.7
