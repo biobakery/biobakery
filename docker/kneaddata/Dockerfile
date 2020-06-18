@@ -1,13 +1,13 @@
 FROM ubuntu:18.04
 
 RUN apt-get update && \
-    DEBIAN_FRONTEND="noninteractive" apt-get install -y python python-dev python-pip apt-transport-https openjdk-8-jre wget zip
-RUN pip install boto3 cloudpickle awscli
+    DEBIAN_FRONTEND="noninteractive" apt-get install -y python3 python3-dev python3-pip apt-transport-https openjdk-8-jre wget zip
+RUN pip3 install boto3 cloudpickle awscli
 
-RUN pip install anadama2
+RUN pip3 install anadama2
 
 # install kneaddata and dependencies
-RUN pip install kneaddata==0.7.6 --no-binary :all:
+RUN pip3 install kneaddata==0.7.6 --no-binary :all:
 
 # install fastqc
 RUN wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip && \
