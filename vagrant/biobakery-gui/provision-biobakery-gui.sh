@@ -6,6 +6,10 @@
 # Randall Schwager (randall.schwager@gmail.com)
 # Eric Franzosa (eric.franzosa@gmail.com)
 
+# update all packages
+sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
+
 # ---------------------------------------------------------------
 # constants
 # ---------------------------------------------------------------
@@ -17,7 +21,10 @@ FOLDER_WALLPAPER="/usr/share/backgrounds"
 
 FILE_WALLPAPER="bioBakeryWallpaper.png"
 FILE_WELCOME="WELCOME.pdf"
-FILE_TERMINAL_CONFIG="%gconf.xml"
+
+DCONF_USER="user"
+DCONF_DB="00-background"
+GDM_CONFIG="custom.conf"
 
 HIDDEN_DIR="/vagrant/.biobakery_internals/"
 
@@ -44,61 +51,21 @@ sudo sed -i.bac -e 's| vagrant.*| biobakery|g' /etc/hosts
 sudo sh -c 'echo "127.0.0.1 biobakery" >> /etc/hosts'
 
 # ---------------------------------------------------------------
-# gui configuration
-# ---------------------------------------------------------------
-
-# **** NOTE: This requires some special operations since there
-# is no active login at the time of provisioning; that is what
-# lightdm is taking care of (?) ****
-
-f="/etc/lightdm/lightdm.conf"
-mkdir -pv /etc/lightdm
-sudo bash -c "cat - >> ${f}" <<EOF
-[Seat:*]
-greeter-session=unity-greeter
-user-session=ubuntu
-autologin-user=vagrant
-EOF
-chmod -v 644 "${f}"
-chown -v root.root "${f}"
-sudo service lightdm start
-
-# ---------------------------------------------------------------
-# change dconf settings
-# ---------------------------------------------------------------
-
-function dchange () { sudo -iu vagrant bash -c " DISPLAY=:0 dconf write $1 $2 "; }
-# don't go idle
-dchange /org/gnome/session/idle-delay 0
-# don't both me about software updates
-dchange /apps/update-manager/remind-reload false
-# don't show the lock screen
-dchange /org/gnome/desktop/screensaver/lock-enabled false
-# don't lock on suspend
-dchange /org/gnome/desktop/screensaver/ubuntu-lock-on-suspend false
-# don't go to sleep on ac power
-dchange /org/gnome/settings-daemon/plugins/power/sleep-display-ac 0
-
-# ---------------------------------------------------------------
+# gnome configuration:
 # configure the wallpaper (custom image with black background)
+# and other custom gui settings
 # ---------------------------------------------------------------
 
 mkdir -pv $FOLDER_WALLPAPER
 cp -v $FOLDER_SETUP/$FILE_WALLPAPER $FOLDER_WALLPAPER/
-function gset () { sudo -iu vagrant bash -c " DISPLAY=:0 gsettings set $1 $2 $3 "; }
-gset org.gnome.desktop.background picture-uri "file://$FOLDER_WALLPAPER/$FILE_WALLPAPER"
-gset org.gnome.desktop.background picture-options "centered"
-gset org.gnome.desktop.background primary-color "\#000000"
 
-# ---------------------------------------------------------------
-# simplify the unity launcher to only have a few icons
-# ---------------------------------------------------------------
+sudo cp -v $FOLDER_SETUP/$DCONF_USER /etc/dconf/profile/
+sudo mkdir -p /etc/dconf/db/local.d
+sudo cp -v $FOLDER_SETUP/$DCONF_DB /etc/dconf/db/local.d/
+sudo dconf update
+sudo cp -v $FOLDER_SETUP/$GDM_CONFIG /etc/gdm3/
 
-# remove new amazon launcher favorite
-sudo rm /usr/share/applications/ubuntu-amazon-default.desktop
-
-echo "['application://nautilus-home.desktop', 'application://firefox.desktop', 'application://gnome-control-center.desktop', 'unity://running-apps', 'application://gnome-terminal.desktop', 'unity://expo-icon', 'unity://devices']" > /tmp/unity-bar.txt
-sudo -iu vagrant bash -c 'DISPLAY=:0 gsettings set com.canonical.Unity.Launcher favorites "$(cat /tmp/unity-bar.txt)"'
+sudo service gdm3 start
 
 # ---------------------------------------------------------------
 # place custom files
@@ -107,9 +74,6 @@ sudo -iu vagrant bash -c 'DISPLAY=:0 gsettings set com.canonical.Unity.Launcher 
 # copy the readme to the desktop 
 sudo -u vagrant mkdir -p $FOLDER_DESKTOP
 sudo -u vagrant cp $FOLDER_SETUP/$FILE_WELCOME $FOLDER_DESKTOP/$FILE_WELCOME
-# change terminal settings
-mkdir -p $FOLDER_TERMINAL_CONFIG
-cp $FOLDER_SETUP/$FILE_TERMINAL_CONFIG $FOLDER_TERMINAL_CONFIG/$FILE_TERMINAL_CONFIG
 
 # ---------------------------------------------------------------
 # configure the user's .bashrc (controls terminal functions) 
@@ -135,6 +99,6 @@ EOF
 # cleanup
 # ---------------------------------------------------------------
 
-sudo apt-get autoremove -y --force-yes
-sudo apt-get purge -y --force-yes
-sudo apt-get autoclean -y --force-yes
+sudo apt-get autoremove -y
+sudo apt-get purge -y
+sudo apt-get autoclean -y

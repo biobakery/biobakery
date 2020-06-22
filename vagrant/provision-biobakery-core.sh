@@ -18,92 +18,149 @@ FILE_VERSION="version.txt"
 # core additions all versions will use
 # ---------------------------------------------------------------
 
-# **** Note: all downstream provisioning makes use of this update ****
-# set non-interactive for the pc-grub update
+# update all packages
 sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
 
-# packages required for full virtualbox functionality
-sudo apt-get install -y build-essential linux-headers-`uname -r`
-
 # packages required for deb building and installation
-sudo apt-get install -y mercurial git gdebi-core python-pip
+sudo apt-get install -y git gdebi-core python3-dev python3-pip python-pip build-essential fastqc
 sudo pip install setuptools --upgrade
 
-# utilities
-sudo apt-get install -y libgnome2-bin emacs24 
+# install libreoffice
+sudo apt-get install libreoffice -y
+
+# remove screensaver to remove startup message
+sudo apt-get remove xscreensaver -y
+
+# install dos2unix
+sudo apt-get install dos2unix -y
 
 # ---------------------------------------------------------------
-# install biobakery suite with conda
+# install biobakery suite with pypi and bioconductor
 # ---------------------------------------------------------------
 
-# install dependencies for workflows
+sudo pip3 install kneaddata --no-binary :all:
+# install humann with python2 as library needed for workflows scripts
+sudo pip install humann --no-binary :all:
+
+# install v3 of phylophlan (case change in pypi package) plus dependencies
+sudo apt-get install fasttree -y
+sudo pip3 install PhyloPhlAn
+wget https://github.com/scapella/trimal/archive/v1.4.1.tar.gz
+tar xzvf v1.4.1.tar.gz
+( cd trimal-1.4.1/source/ && make && sudo cp *al /usr/local/bin/ )
+rm v1.4.1.tar.gz && rm -r trimal-1.4.1
+
+# install metaphlan plus strainphlan with dependencies
+sudo pip3 install metaphlan 
+sudo pip3 install cython
+sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
+sudo pip3 install cmseq
+
+# install R and maaslin2
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
+sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
+
+sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
+sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
+
+# install workflows and visualization dependencies
+# workflows includ two strainphlan visualization scripts used in the strainphlan tutorial
+# using python2 currently as anadama2 document methods are not yet python3 compat in some sections
+sudo apt-get install python-tk -y
+sudo pip3 install biobakery_workflows==3.0.0a4
+sudo R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"
+sudo pip3 install scipy pandas
+sudo pip3 install hclust2
+
+sudo R -q -e "library(BiocManager); BiocManager::install('ggtree')"
+sudo R -q -e "library(BiocManager); BiocManager::install('Biostrings')"
+sudo R -q -e "install.packages(c('optparse','ggplot2','RColorBrewer'), repos='http://cran.r-project.org')"
+
+# install waafle
+sudo pip3 install waafle
+wget https://github.com/hyattpd/Prodigal/releases/download/v2.6.3/prodigal.linux
+chmod +x prodigal.linux
+sudo mv prodigal.linux /usr/local/bin/
+
+# install dependencies for workflows (including vis)
 sudo apt-get install -y texlive pandoc
 
-# install conda in opt with automatic install for all users
-sudo mkdir /opt/anaconda
-sudo chmod -R 777 /opt/anaconda/
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /opt/anaconda/miniconda.sh
-bash /opt/anaconda/miniconda.sh -b -p /opt/anaconda/miniconda/
-sudo cp /opt/anaconda/miniconda/etc/profile.d/conda.sh /etc/profile.d/
-. /opt/anaconda/miniconda/etc/profile.d/conda.sh
+# install workflows 16s dependencies
+wget https://drive5.com/downloads/usearch9.0.2132_i86linux32.gz
+gunzip usearch9.0.2132_i86linux32.gz
+chmod +x usearch9.0.2132_i86linux32
+sudo mv usearch9.0.2132_i86linux32 /usr/local/bin/usearch
 
-# add the biobakery tool packages
-conda config --add channels defaults
-conda config --add channels bioconda
-conda config --add channels conda-forge
-conda config --add channels biobakery
+wget https://github.com/torognes/vsearch/releases/download/v2.14.2/vsearch-2.14.2-linux-x86_64.tar.gz
+tar xzvf vsearch-2.14.2-linux-x86_64.tar.gz
+sudo cp vsearch-2.14.2-linux-x86_64/bin/vsearch /usr/local/bin/
+rm -r vsearch*
 
-conda create -y -n workflows_env python=2.7 && conda activate workflows_env && conda install -y biobakery_workflows=0.13.2 -c biobakery && conda install -y samtools=0.1.19 && conda deactivate
+# install panphlan
+sudo pip3 install sklearn
+sudo pip3 install panphlan
+wget https://github.com/marbl/Mash/releases/download/v2.2/mash-Linux64-v2.2.tar
+tar xvf mash-Linux64-v2.2.tar
+sudo mv mash-Linux64-v2.2/mash /usr/local/bin/
+rm -r mash-Linux64-v2.2*
 
-for info in "humann2 2.8.1" "metaphlan2 2.7.7" "kneaddata 0.7.2" "waafle 0.1.0" "shortbred 0.9.3_dev_702e3ef" "ppanini 0.7.4" "panphlan 1.2.1.3_a25bc29" "micropita 8.1" "maaslin2 0.99.1" "lefse 1.0.0_dev_e3cabe9" "halla 0.8.17" "graphlan 1.1.3" "breadcrumbs 0.93"
-do
-  tool=( $info )
-  ( conda create -y -n "${tool[0]}_env" python=2.7 && conda activate "${tool[0]}_env" && conda install -y "${tool[0]}=${tool[1]}" -c biobakery && conda deactivate ) || { echo "ERROR: Conda install of tool ${tool[0]} failed"; exit 1; }
-done
+# install shortbred (ncbi blast required, it is installed later with prokka section with version compatible with prokka/shortbred/phylophlan)
+sudo apt-get install muscle cd-hit -y
+sudo pip3 install shortbred
 
-# install packages that are not conda compatible (ie pure R packages)
-# do not install packages that require running locally since
-# build home directory location in cloud is user dependent
+# install graphlan (currently python2)
+# install 2.0.0 for workflows vis
+sudo pip install matplotlib==2.0.0
+git clone https://github.com/biobakery/graphlan.git
+sudo cp graphlan/*.py /usr/local/bin/ && sudo cp graphlan/src/graphlan_lib.py /usr/local/bin/src/ && sudo cp graphlan/src/pyphlan.py /usr/local/bin/src/ 
+rm -rf graphlan
 
-# install ccrepe
-( conda create -y -n "ccrepe_env" && conda activate "ccrepe_env" && \
-  conda install r-base -y && \
-  R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && conda deactivate ) || { echo "ERROR: Conda ccrepe install failed"; exit 1; }
+git clone https://github.com/SegataLab/export2graphlan.git
+sudo cp export2graphlan/*.py /usr/local/bin/
+rm -rf export2graphan
 
-# install melonpann and dependencies
-sudo ln -s /bin/tar /bin/gtar
-( conda create -y -n "melonpann_env" && conda activate "melonpann_env" && \
-  conda install r-base=3.5.0 r-devtools r-fbasics -y && \
-  R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org'); library('BiocManager'); BiocManager::install('ccrepe');" && \
-  R -q -e "install.packages('optparse', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('AssocTests', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('glmnet', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('HDtweedie', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('getopt', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('doParallel', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('vegan', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('data.table', repos='http://cran.r-project.org')" && \
-  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/DatABEL/DatABEL_0.9-6.tar.gz')" && \
-  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/GenABEL.data/GenABEL.data_1.0.0.tar.gz')" && \
-  R -q -e "library('devtools'); devtools::install_url('https://cran.r-project.org/src/contrib/Archive/GenABEL/GenABEL_1.8-0.tar.gz')" && \
-  git clone https://github.com/biobakery/melonnpan.git && R CMD INSTALL melonnpan && rm -rf melonnpan && \
-  conda deactivate ) || { echo "ERROR: Conda melonpann install failed"; exit 1; }
+# install mmuphin
+sudo R -q -e "library(BiocManager); BiocManager::install('MMUPHin')"
 
-# install bannoc and dependencies
-( conda create -y -n "bannoc_env" && conda activate "bannoc_env" && \
-  conda install r-base -y && \
-  R -q -e "install.packages('rstan', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('mvtnorm', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('coda', repos='http://cran.r-project.org')" && \
-  R -q -e "install.packages('stringr', repos='http://cran.r-project.org')" && \
-  git clone https://bitbucket.org/biobakery/banocc.git && R CMD INSTALL banocc && rm -rf banocc && \
-  conda deactivate ) || { echo "ERROR: Conda bannoc install failed"; exit 1; }
+# install banocc
+sudo R -q -e "library(BiocManager); BiocManager::install('banocc')"
 
-# ---------------------------------------------------------------
-# write versioning information
-# ---------------------------------------------------------------
+# install sparsedossa
+sudo R -q -e "library(BiocManager); BiocManager::install('sparseDOSSA')"
 
-echo "This version of bioBakery was built on:" > $FOLDER_SETUP/$FILE_VERSION
-date >> $FOLDER_SETUP/$FILE_VERSION
-echo "The following packages were installed:" >> $FOLDER_SETUP/$FILE_VERSION
+# install melonnpan
+sudo apt-get install libssl-dev libxml2-dev -y
+sudo R -q -e "install.packages(c('devtools'), repos='http://cran.r-project.org')"
+sudo R -q -e "library(devtools); devtools::install_version('GenABEL.data', version = '1.0.0', repos = 'http://cran.us.r-project.org')"
+sudo R -q -e "library(devtools); devtools::install_version('GenABEL', version = '1.8-0', repos = 'http://cran.us.r-project.org')"
+sudo R -q -e "library(devtools); devtools::install_github('biobakery/melonnpan')"
+
+# install picrust2 and dependencies
+sudo apt-get install hmmer -y
+sudo R -q -e "install.packages(c('castor'), repos='http://cran.r-project.org')"
+wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz
+tar xvzf v2.3.0-b.tar.gz
+( cd picrust2-2.3.0-b/ && sudo pip3 install --editable . && sudo cp -r picrust2/default_files /usr/local/lib/python3.6/dist-packages/picrust2/)
+sudo rm -r picrust2* && rm v2.3.0-b.tar.gz
+sudo apt-get install autotools-dev libtool flex bison cmake automake autoconf -y
+wget https://github.com/Pbdas/epa-ng/archive/v0.3.6.tar.gz
+tar xzvf v0.3.6.tar.gz
+( cd epa-ng-0.3.6/ && make && sudo cp bin/epa-ng /usr/local/bin/ )
+rm -r epa-ng* && rm v0.3.6.tar.gz
+wget https://github.com/lczech/gappa/archive/v0.6.0.tar.gz
+tar xzvf v0.6.0.tar.gz
+( cd gappa-0.6.0/ && make && sudo cp bin/gappa /usr/local/bin/ )
+rm -r gappa* && rm v0.6.0.tar.gz
+
+# install lefse
+sudo pip install rpy2==2.8
+wget https://github.com/SegataLab/lefse/archive/1.0.8.tar.gz
+tar xzvf 1.0.8.tar.gz
+sudo cp lefse-1.0.8/*.py /usr/local/bin/
+rm 1.0.8.tar.gz
+rm -r lefse*
+
+sudo R -q -e "install.packages(c('coin','MASS','modeltools','mvtnorm','survival'), repos='http://cran.r-project.org')"
+
