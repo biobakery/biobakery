@@ -11,4 +11,4 @@ RUN add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-
     apt-get update -y && DEBIAN_FRONTEND="noninteractive" apt-get install r-base libcurl4-openssl-dev -y
 
 RUN R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')" && \
-    R -q -e "library(BiocManager); BiocManager::install('sparsedossa')"
+    R -q -e "library(BiocManager); BiocManager::install('sparseDOSSA')"
