@@ -8,7 +8,7 @@ RUN pip3 install boto3 cloudpickle awscli
 RUN pip3 install anadama2
 
 # install kneaddata and dependencies
-RUN pip3 install humann==3.0.0.alpha.2 --no-binary :all:
+RUN pip3 install humann==3.0.0.alpha.3 --no-binary :all:
 RUN pip3 install metaphlan
 
 WORKDIR /tmp
