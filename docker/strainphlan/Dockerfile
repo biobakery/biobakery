@@ -22,14 +22,19 @@ RUN apt-get install -y git && \
 
 RUN apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 
-# install v3 of phylophlan (case change in pypi package) plus dependencies
-RUN apt-get install fasttree -y
+# install v3 of phylophlan plus dependencies and setup default configuration
+RUN apt-get install fasttree ncbi-blast+ mafft raxml -y
 RUN pip3 install PhyloPhlAn
 RUN wget https://github.com/scapella/trimal/archive/v1.4.1.tar.gz && \
     tar xzvf v1.4.1.tar.gz && \
     cd trimal-1.4.1/source/ && make && cp *al /usr/local/bin/ && \
     cd ../../ && \
     rm v1.4.1.tar.gz && rm -r trimal-1.4.1
+
+# write config files
+RUN mkdir -p /usr/local/lib/python3.6/dist-packages/phylophlan/phylophlan_configs
+RUN phylophlan_write_config_file -o /usr/local/lib/python3.6/dist-packages/phylophlan/phylophlan_configs/supermatrix_nt.cfg \
+    -d n --db_dna makeblastdb --map_dna blastn --msa mafft --trim trimal --tree1 fasttree --tree2 raxml --overwrite --verbose
 
 RUN pip3 install metaphlan==3.0.1
 RUN metaphlan --install --nproc 24
