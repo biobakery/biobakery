@@ -70,8 +70,13 @@ RUN wget https://github.com/torognes/vsearch/releases/download/v2.14.2/vsearch-2
     tar xzvf vsearch-2.14.2-linux-x86_64.tar.gz && \
     cp vsearch-2.14.2-linux-x86_64/bin/vsearch /usr/local/bin/
 
+# install clustalo and rename fasttree
+RUN apt-get install clustalo
+RUN ln -s /usr/bin/fasttree /usr/bin/FastTree
+
 # install picrust2 and dependencies
 RUN apt-get install hmmer -y
+RUN pop3 install pandas --upgrade
 RUN R -q -e "install.packages(c('castor'), repos='http://cran.r-project.org')"
 RUN wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz
 RUN tar xvzf v2.3.0-b.tar.gz
@@ -85,6 +90,10 @@ RUN wget https://github.com/lczech/gappa/archive/v0.6.0.tar.gz && tar xzvf v0.6.
 RUN cd gappa-0.6.0/ && make && cp bin/gappa /usr/local/bin/ && cd ../
 RUN rm -r gappa* && rm v0.6.0.tar.gz
 
+# Update to newer pandoc version (to work with latest engine options in anadama2)
+RUN wget https://github.com/jgm/pandoc/releases/download/2.10/pandoc-2.10-1-amd64.deb && \
+    dpkg -i pandoc-2.10-1-amd64.deb && \
+    rm andoc-2.10-1-amd64.deb
 
-RUN pip3 install biobakery_workflows==3.0.0a4
+RUN pip3 install biobakery_workflows==3.0.0a5
 
