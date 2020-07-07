@@ -51,7 +51,11 @@ RUN phylophlan_write_config_file -o /usr/local/lib/python3.6/dist-packages/phylo
 RUN pip3 install metaphlan==3.0.1
 RUN metaphlan --install --nproc 24
 
-RUN pip3 install hclust2
+# install hclust2 from source
+RUN apt-get install -y python-pip python-matplotlib python-scipy python-pandas
+RUN wget https://raw.githubusercontent.com/SegataLab/hclust2/master/hclust2.py && \
+    mv hclust2.py /usr/local/bin/ && \
+    chmod +x /usr/local/bin/hclust2.py
 
 # install R with vegan
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 && \
