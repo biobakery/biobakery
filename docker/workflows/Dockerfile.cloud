@@ -29,8 +29,8 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD5
     R -q -e "install.packages('vegan', repos='http://cran.r-project.org')"	
 
 # install hclust2	
-RUN wget http://huttenhower.sph.harvard.edu/biobakery_demo/biobakery_workflows/hclust2.py && \	
-    mv hclust2.py /usr/local/bin/ && \	
-    chmod +x /usr/local/bin/hclust2.py	
+RUN wget https://raw.githubusercontent.com/SegataLab/hclust2/master/hclust2.py && \
+    mv hclust2.py /usr/local/bin/ && \
+    chmod +x /usr/local/bin/hclust2.py
 
 WORKDIR /tmp
