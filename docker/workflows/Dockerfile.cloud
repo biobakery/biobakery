@@ -4,7 +4,7 @@ RUN apt-get update && \
     DEBIAN_FRONTEND="noninteractive" apt-get install -y python python-dev python-pip apt-transport-https openjdk-8-jre wget zip	
 RUN pip install boto3 cloudpickle awscli	
 
-RUN pip install anadama2	
+RUN pip install anadama2==0.7.8	
 
 # install kneaddata and dependencies	
 RUN pip install biobakery-workflows==0.14.2 && \	
@@ -32,5 +32,10 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD5
 RUN wget https://raw.githubusercontent.com/SegataLab/hclust2/master/hclust2.py && \
     mv hclust2.py /usr/local/bin/ && \
     chmod +x /usr/local/bin/hclust2.py
+
+# Update to newer pandoc version (to work with latest engine options in anadama2)
+RUN wget https://github.com/jgm/pandoc/releases/download/2.10/pandoc-2.10-1-amd64.deb && \
+    dpkg -i pandoc-2.10-1-amd64.deb && \
+    rm pandoc-2.10-1-amd64.deb
 
 WORKDIR /tmp
