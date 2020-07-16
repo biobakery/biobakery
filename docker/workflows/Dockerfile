@@ -11,8 +11,6 @@ RUN apt-get update && \
 
 RUN pip3 install boto3 cloudpickle awscli
 
-RUN pip3 install anadama2
-
 # install dependencies
 RUN pip3 install kneaddata --no-binary :all:
 
@@ -99,5 +97,6 @@ RUN wget https://github.com/jgm/pandoc/releases/download/2.10/pandoc-2.10-1-amd6
     dpkg -i pandoc-2.10-1-amd64.deb && \
     rm pandoc-2.10-1-amd64.deb
 
+RUN pip install anadama2==0.7.8 --upgrade
 RUN pip3 install biobakery_workflows==3.0.0-alpha.6
 
