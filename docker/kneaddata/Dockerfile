@@ -7,7 +7,7 @@ RUN pip3 install boto3 cloudpickle awscli
 RUN pip3 install anadama2
 
 # install kneaddata and dependencies
-RUN pip3 install kneaddata==0.7.9 --no-binary :all:
+RUN pip3 install kneaddata==0.7.10 --no-binary :all:
 
 # install fastqc
 RUN wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip && \
