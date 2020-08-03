@@ -57,4 +57,9 @@ RUN wget https://sourceforge.net/projects/subread/files/subread-2.0.1/subread-2.
     cp subread-2.0.1-Linux-x86_64/bin/*/* /usr/local/bin/ && \
     rm -r subread-2.0.1*
 
+# update env to allow for ascii reads
+ENV LC_ALL C.UTF-8
+
+RUN apt-get update && apt-get install -y python3-numpy python3-scipy python3-pandas vim 
+
 RUN pip3 install metawibele
