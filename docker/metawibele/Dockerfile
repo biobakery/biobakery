@@ -13,7 +13,14 @@ RUN add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-
 RUN R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')" && \
     R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
-RUN apt-get install cd-hit bowtie2 samtools -y
+# Install Maaslin2.R executable and reinstall Maaslin2 package so the versions of the exe and library are in sync
+RUN wget https://www.bioconductor.org/packages/devel/bioc/src/contrib/Maaslin2_1.3.0.tar.gz && \
+    R CMD INSTALL Maaslin2_1.3.0.tar.gz && \
+    tar xzvf Maaslin2_1.3.0.tar.gz && \
+    cp Maaslin2/R/Maaslin2.R /usr/local/bin/ && \
+    rm -r Maaslin2
+
+RUN apt-get install cd-hit bowtie2 samtools openjdk-8-jdk -y
 
 # install diamond
 RUN wget http://github.com/bbuchfink/diamond/releases/download/v0.9.24/diamond-linux64.tar.gz && \
@@ -49,7 +56,7 @@ RUN apt-get update && apt-get install libdatetime-perl libxml-simple-perl libdig
 # install prodigal
 RUN wget https://github.com/hyattpd/Prodigal/releases/download/v2.6.3/prodigal.linux && \
     chmod +x prodigal.linux && \
-    mv prodigal.linux /usr/local/bin/
+    mv prodigal.linux /usr/local/bin/prodigal
 
 # install featurecounts
 RUN wget https://sourceforge.net/projects/subread/files/subread-2.0.1/subread-2.0.1-Linux-x86_64.tar.gz && \
