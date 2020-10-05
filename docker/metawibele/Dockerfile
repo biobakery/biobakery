@@ -61,6 +61,7 @@ RUN wget https://github.com/hyattpd/Prodigal/releases/download/v2.6.3/prodigal.l
 # install featurecounts
 RUN wget https://sourceforge.net/projects/subread/files/subread-2.0.1/subread-2.0.1-Linux-x86_64.tar.gz && \
     tar xzvf subread-2.0.1-Linux-x86_64.tar.gz && \
+    cp subread-2.0.1-Linux-x86_64/bin/* /usr/local/bin/ && \
     cp subread-2.0.1-Linux-x86_64/bin/*/* /usr/local/bin/ && \
     rm -r subread-2.0.1*
 
