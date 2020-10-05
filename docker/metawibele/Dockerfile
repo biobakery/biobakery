@@ -17,7 +17,7 @@ RUN R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 RUN wget https://www.bioconductor.org/packages/devel/bioc/src/contrib/Maaslin2_1.3.0.tar.gz && \
     R CMD INSTALL Maaslin2_1.3.0.tar.gz && \
     tar xzvf Maaslin2_1.3.0.tar.gz && \
-    cp Maaslin2/R/Maaslin2.R /usr/local/bin/ && \
+    cp Maaslin2/R/*.R /usr/local/bin/ && \
     rm -r Maaslin2
 
 RUN apt-get install cd-hit bowtie2 samtools openjdk-8-jdk -y
