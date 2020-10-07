@@ -14,9 +14,10 @@ RUN R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
     R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
 # Install Maaslin2.R executable and reinstall Maaslin2 package so the versions of the exe and library are in sync
-RUN wget https://www.bioconductor.org/packages/devel/bioc/src/contrib/Maaslin2_1.3.0.tar.gz && \
-    R CMD INSTALL Maaslin2_1.3.0.tar.gz && \
-    tar xzvf Maaslin2_1.3.0.tar.gz && \
+RUN R -q -e "install.packages('glmmTMB', repos='http://cran.r-project.org')"
+RUN wget https://www.bioconductor.org/packages/devel/bioc/src/contrib/Maaslin2_1.3.2.tar.gz && \
+    R CMD INSTALL Maaslin2_1.3.2.tar.gz && \
+    tar xzvf Maaslin2_1.3.2.tar.gz && \
     cp Maaslin2/R/*.R /usr/local/bin/ && \
     rm -r Maaslin2
 
@@ -61,8 +62,8 @@ RUN wget https://github.com/hyattpd/Prodigal/releases/download/v2.6.3/prodigal.l
 # install featurecounts
 RUN wget https://sourceforge.net/projects/subread/files/subread-2.0.1/subread-2.0.1-Linux-x86_64.tar.gz && \
     tar xzvf subread-2.0.1-Linux-x86_64.tar.gz && \
-    cp subread-2.0.1-Linux-x86_64/bin/* /usr/local/bin/ && \
-    cp subread-2.0.1-Linux-x86_64/bin/*/* /usr/local/bin/ && \
+    cp -r subread-2.0.1-Linux-x86_64/bin/* /usr/local/bin/ && \
+    cp -r subread-2.0.1-Linux-x86_64/bin/*/* /usr/local/bin/ && \
     rm -r subread-2.0.1*
 
 # update env to allow for ascii reads
