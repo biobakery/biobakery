@@ -71,4 +71,4 @@ ENV LC_ALL C.UTF-8
 
 RUN apt-get update && apt-get install -y python3-numpy python3-scipy python3-pandas vim 
 
-RUN pip3 install metawibele
+RUN pip3 install metawibele==0.3.8.1
