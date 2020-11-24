@@ -20,7 +20,7 @@ RUN apt-get install -y git && \
     cd ../ && \
     rm -r cmseq
 
-RUN pip3 install metaphlan==3.0.1
+RUN pip3 install metaphlan==3.0.6
 RUN metaphlan --install --nproc 24
 
 WORKDIR /tmp
