@@ -80,14 +80,15 @@ RUN ln -s /usr/bin/fasttree /usr/bin/FastTree
 RUN apt-get install hmmer -y
 RUN pip3 install pandas --upgrade
 RUN R -q -e "install.packages(c('castor'), repos='http://cran.r-project.org')"
-RUN wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz
-RUN tar xvzf v2.3.0-b.tar.gz
-RUN cd picrust2-2.3.0-b/ && pip3 install --editable . && cp -r picrust2/default_files /usr/local/lib/python3.6/dist-packages/picrust2/ && cd ../
-RUN rm -r picrust2* && rm v2.3.0-b.tar.gz
+
+RUN wget https://github.com/picrust/picrust2/archive/v2.3.0-b.tar.gz && tar xvzf v2.3.0-b.tar.gz && ( cd picrust2-2.3.0-b/ && pip3 install --editable . && cp -r picrust2/default_files /usr/local/lib/python3.6/dist-packages/picrust2/) && rm -r picrust2* && rm v2.3.0-b.tar.gz
+
 RUN apt-get install autotools-dev libtool flex bison cmake automake autoconf -y
+
 RUN wget https://github.com/Pbdas/epa-ng/archive/v0.3.6.tar.gz && tar xzvf v0.3.6.tar.gz
 RUN cd epa-ng-0.3.6/ && make && cp bin/epa-ng /usr/local/bin/ && cd ../
 RUN rm -r epa-ng* && rm v0.3.6.tar.gz
+
 RUN wget https://github.com/lczech/gappa/archive/v0.6.0.tar.gz && tar xzvf v0.6.0.tar.gz
 RUN cd gappa-0.6.0/ && make && cp bin/gappa /usr/local/bin/ && cd ../
 RUN rm -r gappa* && rm v0.6.0.tar.gz
@@ -99,4 +100,14 @@ RUN wget https://github.com/jgm/pandoc/releases/download/2.10/pandoc-2.10-1-amd6
 
 RUN pip install anadama2==0.7.9
 RUN pip3 install biobakery_workflows==3.0.0-alpha.6
+
+# install dada2 and dependencies
+RUN R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
+RUN R -q -e "library(BiocManager); BiocManager::install('dada2')"
+
+RUN R -q -e "install.packages(c('gridExtra','seqinr','castor'), repos='http://cran.r-project.org')"
+
+# install picrust1
+RUN wget https://github.com/picrust/picrust/releases/download/v1.1.4/picrust-1.1.4.tar.gz && \
+    tar -xzf picrust-1.1.4.tar.gz && cd picrust-1.1.4 && pip install .
 
