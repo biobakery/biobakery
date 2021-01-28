@@ -46,7 +46,7 @@ RUN mkdir -p /usr/local/lib/python3.6/dist-packages/phylophlan/phylophlan_config
 RUN phylophlan_write_config_file -o /usr/local/lib/python3.6/dist-packages/phylophlan/phylophlan_configs/supermatrix_nt.cfg \
     -d n --db_dna makeblastdb --map_dna blastn --msa mafft --trim trimal --tree1 fasttree --tree2 raxml --overwrite --verbose
 
-RUN pip3 install metaphlan==3.0.1
+RUN pip3 install metaphlan==3.0.7
 RUN metaphlan --install --nproc 24
 
 # install hclust2 from source
