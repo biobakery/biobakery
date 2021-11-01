@@ -15,11 +15,11 @@ RUN R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 
 # Install Maaslin2.R executable and reinstall Maaslin2 package so the versions of the exe and library are in sync
 RUN R -q -e "install.packages('glmmTMB', repos='http://cran.r-project.org')"
-RUN wget https://www.bioconductor.org/packages/devel/bioc/src/contrib/Maaslin2_1.3.2.tar.gz && \
-    R CMD INSTALL Maaslin2_1.3.2.tar.gz && \
-    tar xzvf Maaslin2_1.3.2.tar.gz && \
-    cp Maaslin2/R/*.R /usr/local/bin/ && \
-    rm -r Maaslin2
+RUN wget https://github.com/biobakery/Maaslin2/archive/master.zip && \
+    unzip master.zip && \
+    R CMD INSTALL Maaslin2-master && \
+    cp Maaslin2-master/R/*.R /usr/local/bin/ && \
+    rm -r Maaslin2-master
 
 RUN apt-get install cd-hit bowtie2 samtools openjdk-8-jdk -y
 
