@@ -48,6 +48,11 @@ RUN apt-get update && apt-get install libdatetime-perl libxml-simple-perl libdig
     mv prokka /opt/ && \
     /opt/prokka/bin/prokka --setupdb && \
     ln -s /opt/prokka/bin/* /usr/local/bin/ && \
+    ln -s /opt/prokka/binaries/linux/tbl2asn /usr/local/bin/ && \
+    wget -O tbl2asn.gz ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/tbl2asn/linux64.tbl2asn.gz && \
+    gunzip tbl2asn.gz && \
+    chmod +x tbl2asn && \
+    mv tbl2asn /usr/local/bin/ && \
     wget https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.8.1/ncbi-blast-2.8.1+-x64-linux.tar.gz && \
     tar xzvf ncbi-blast-2.8.1+-x64-linux.tar.gz && \
     cp ncbi-blast-2.8.1+/bin/* /usr/local/bin/ && \
@@ -71,4 +76,4 @@ ENV LC_ALL C.UTF-8
 
 RUN apt-get update && apt-get install -y python3-numpy python3-scipy python3-pandas vim 
 
-RUN pip3 install metawibele==0.3.8.1
+RUN pip3 install metawibele==0.4.2
