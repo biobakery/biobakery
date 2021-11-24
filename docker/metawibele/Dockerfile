@@ -14,7 +14,7 @@ RUN R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
     R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
 # Install Maaslin2.R executable and reinstall Maaslin2 package so the versions of the exe and library are in sync
-RUN R -q -e "install.packages(c('MuMIn, 'glmmTMB'), repos='http://cran.r-project.org')"
+RUN R -q -e "install.packages(c('MuMIn', 'glmmTMB'), repos='http://cran.r-project.org')"
 RUN wget https://github.com/biobakery/Maaslin2/archive/refs/tags/1.7.3.zip && \
     mv 1.7.3.zip  Maaslin2-1.7.3.zip && \
     unzip Maaslin2-1.7.3.zip && \
