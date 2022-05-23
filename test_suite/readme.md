@@ -1,17 +1,14 @@
-# BioBakery Demos #
+# BioBakery Tests #
 
-BioBakery Demos is a collection of demos for the BioBakery Tool Suite.
+BioBakery Tests is a collection of tests for the BioBakery Tool Suite.
 
 ## Install ##
 
-* ``$ brew tap biobakery/biobakery``
-* ``$ brew install biobakery_demos``
-
-Biobakery demos is also installed if you install the biobakery tool suite.
+* ``$ python setup.py install``
 
 ## Run ##
 
-Demos are available for the following tools:
+Tests are available for the following tools:
 
 1. [HUMAnN2](http://huttenhower.sph.harvard.edu/humann2)
 2. [KneadData](http://huttenhower.sph.harvard.edu/kneaddata)
@@ -27,16 +24,12 @@ Demos are available for the following tools:
 12. [BreadCrumbs](http://huttenhower.sph.harvard.edu/breadcrumbs)
 13. [HAllA](http://huttenhower.sph.harvard.edu/halla)
 
-There are options to view, run, and test each demo. Also demos for one or all tools can be selected.
+There are options to view, run, and test each tool. Also one or all tools can be selected.
 
-* To view the humann2 demo:
+* To view the humann2 tests:
     * ``$ biobakery_demos --mode view --tool humann2``
-* To run the kneaddata demo:
+* To run the kneaddata tests:
     * ``$ biobakery_demos --mode run --tool kneaddata``
-* To run the kneaddata demo and save output (by default output is not saved):
-    * ``$ biobakery_demos --mode run --tool kneaddata --output kneaddata_output``
-* To test all tools:
-    * ``$ biobakery_demos --mode test --tool all``
 
-To run demos with threads, add the option "--threads <1>".
+To run tests with threads, add the option "--threads <1>".
 
