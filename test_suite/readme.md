@@ -27,9 +27,11 @@ Tests are available for the following tools:
 There are options to view, run, and test each tool. Also one or all tools can be selected.
 
 * To view the humann tests:
-    * ``$ biobakery_demos --mode view --tool humann``
-* To run the kneaddata tests:
-    * ``$ biobakery_demos --mode run --tool kneaddata``
+    * ``$ biobakery_tests --mode view --tool humann``
+* To run the metaphlan tests in demo mode (output is not validated):
+    * ``$ biobakery_tests --mode demo --tool metaphlan``
+* To run the metaphlan tests (output is validated):
+    * ``$ biobakery_tests --mode test --tool metaphlan``
 
 To run tests with threads, add the option "--threads <1>".
 

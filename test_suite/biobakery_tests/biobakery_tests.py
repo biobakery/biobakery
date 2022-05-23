@@ -122,7 +122,7 @@ def run_demo(biobakery_demo_files, mode, tool, threads, output_folder):
             with open(biobakery_demo_files[tool_name]) as file_handle:
                 for line in file_handle:
                     print(OUTPUT_INDENT+line.rstrip())
-        elif mode == "run":
+        elif mode == "demo":
             run_demo_subprocess(tool_name, biobakery_demo_files[tool_name], demo_env)
         elif mode == "test":
             run_demo_subprocess(tool_name, biobakery_demo_files[tool_name], demo_env)
@@ -146,7 +146,7 @@ def parse_arguments(args, biobakery_tools):
         "-m", "--mode",
         help="the demo run mode",
         required=True,
-        choices=["view","run","test"])
+        choices=["view","demo","test"])
     parser.add_argument(
         "-t", "--tool",
         help="the biobakery tool selected",
