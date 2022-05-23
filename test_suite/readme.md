@@ -10,7 +10,7 @@ BioBakery Tests is a collection of tests for the BioBakery Tool Suite.
 
 Tests are available for the following tools:
 
-1. [HUMAnN2](http://huttenhower.sph.harvard.edu/humann2)
+1. [HUMAnN](http://huttenhower.sph.harvard.edu/humann)
 2. [KneadData](http://huttenhower.sph.harvard.edu/kneaddata)
 3. [PICRUSt](http://picrust.github.io/)
 4. [MaAsLin](http://huttenhower.sph.harvard.edu/maaslin)
@@ -26,8 +26,8 @@ Tests are available for the following tools:
 
 There are options to view, run, and test each tool. Also one or all tools can be selected.
 
-* To view the humann2 tests:
-    * ``$ biobakery_demos --mode view --tool humann2``
+* To view the humann tests:
+    * ``$ biobakery_demos --mode view --tool humann``
 * To run the kneaddata tests:
     * ``$ biobakery_demos --mode run --tool kneaddata``
 
