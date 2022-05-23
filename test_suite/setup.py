@@ -1,5 +1,5 @@
 """
-BioBakery Demos setup
+BioBakery Tests setup
 
 To run: python setup.py install
 
@@ -59,10 +59,10 @@ def get_data_files(package_name,folders):
     return { package_name : list(data_files) }
 
 setuptools.setup(
-    name="biobakery_demos",
+    name="biobakery_tests",
     version=VERSION,
     license="MIT",
-    description="BioBakery Demos: A set of demos for the BioBakery tool suite",
+    description="BioBakery Tests: A set of tests for the BioBakery tool suite",
     platforms=['Linux','MacOS'],
     classifiers=[
         "Programming Language :: Python",
@@ -75,8 +75,8 @@ setuptools.setup(
         "Topic :: Scientific/Engineering :: Bio-Informatics"
         ],
     packages=setuptools.find_packages(),
-    package_data=get_data_files("biobakery_demos",["data","demos"]),
+    package_data=get_data_files("biobakery_tests",["data","demos"]),
     entry_points={
-        'console_scripts': ['biobakery_demos = biobakery_demos.biobakery_demos:main']},
+        'console_scripts': ['biobakery_tests = biobakery_tests.biobakery_tests:main']},
     zip_safe = False
  )
