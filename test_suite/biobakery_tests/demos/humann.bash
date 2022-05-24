@@ -23,9 +23,9 @@ humann_join_tables -i $OUTPUT_FOLDER/763577454 -o $OUTPUT_FOLDER/763577454_genef
 
 humann_renorm_table -i $OUTPUT_FOLDER/763577454_genefamilies.tsv -o $OUTPUT_FOLDER/763577454_genefamilies_cpm.tsv --units cpm
 
-humann_barplot --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot1.png
-humann_barplot --sort sum --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot2.png
-humann_barplot --sort sum metadata --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot3.png --scaling logstack
-humann_barplot --sort sum --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature COA-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot4.png
-humann_barplot --sort braycurtis --scaling logstack --as-genera --remove-zeros --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature COA-PWY --focal-metadatum STSite --last-metadatum STSite --output $OUTPUT_FOLDER/plot5.png
+humann_barplot --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-PWY --focal-metadata STSite --last-metadata STSite --output $OUTPUT_FOLDER/plot1.png
+humann_barplot --sort sum --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-PWY --focal-metadata STSite --last-metadata STSite --output $OUTPUT_FOLDER/plot2.png
+humann_barplot --sort sum metadata --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature METSYN-PWY --focal-metadata STSite --last-metadata STSite --output $OUTPUT_FOLDER/plot3.png --scaling logstack
+humann_barplot --sort sum --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature COA-PWY --focal-metadata STSite --last-metadata STSite --output $OUTPUT_FOLDER/plot4.png
+humann_barplot --sort braycurtis --scaling logstack --as-genera --remove-zeros --input $INPUT_FOLDER/hmp_pathabund.pcl --focal-feature COA-PWY --focal-metadata STSite --last-metadata STSite --output $OUTPUT_FOLDER/plot5.png
 
