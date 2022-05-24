@@ -216,6 +216,8 @@ sudo sed -i '61 s/.*/       "xrdb \\$HOME\/.Xresources\\nautocutsel -fork\\n"./g
 sudo sed -i '66 s/.*/       "\/etc\/X11\/Xsession\\n"./g' /usr/bin/vncserver
 sudo sed -i '67 s/.*/       "export XKL_XMODMAP_DISABLE=1\\n");/g' /usr/bin/vncserver
 
+#copying demo files in home location
+mkdir -p $HOME/Tutorials && cp -R ../test_suite/biobakery_tests/data/. $HOME/Tutorials/
 printf '\n\n\nbioBakery install complete.\n\nbioBakery dependencies that require licenses are not included. Refer to the instructions in the bioBakery doc
-umentation for more information: https://bitbucket.org/biobakery/biobakery/wiki/biobakery_basic#rst-header-install-biobakery-dependencies .\n\n'
+umentation for more information: https://github.com/biobakery/biobakery/wiki/biobakery_basic#13-install-biobakery-dependencies .\n\n'
 
