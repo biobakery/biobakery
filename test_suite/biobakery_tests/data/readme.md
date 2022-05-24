@@ -2,16 +2,17 @@
 
 ## Demo input file origins
 
-1. HUMAnN2
-    * The humann2 v0.7.0 source folder humann2/examples.
+1. HUMAnN
+    * The humann v3.0.1 source folder humann2/examples.
 2. KneadData
-    * The kneaddata v0.5.1 source folder kneaddata/examples.
+    * The kneaddata v0.10.0 source folder kneaddata/examples.
 3. PICRUSt
-    * The picrust v1.0.0-dev-ab009a3 source folder picrust/picrust_test_data/normalize_by_copy_number.
+    * The picrust 2.3.0b0 
+    * source folder picrust/picrust_test_data/normalize_by_copy_number.
 4. MaAsLin
     * The maaslin v0.3.0-dev-f1d98b9 source folder maaslin/inst/extdata.
-5. MetaPhlAn2
-    * The humann2 v0.7.0 source folder humann2/examples.
+5. MetaPhlAn
+    * The humann2 v3.0.14 source folder humann2/examples.
 6. SparseDOSSA
     * A link on the sparsedossa landing page to the PRISM data set: https://www.dropbox.com/s/akgv0bv8bbpzcqo/prism.tsv?dl=0 .
 7. ShortBred
