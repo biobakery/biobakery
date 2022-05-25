@@ -1,0 +1,105 @@
+05/20/2021 02:25:45 PM - humann.humann - INFO: Running humann v3.0.0
+05/20/2021 02:25:45 PM - humann.humann - INFO: Output files will be written to: /home/hutlab_public/Tutorials/humann3/demo_m8
+05/20/2021 02:25:45 PM - humann.humann - INFO: Writing temp files to directory: /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp
+05/20/2021 02:25:45 PM - humann.utilities - INFO: File ( /home/hutlab_public/Tutorials/humann3/demo.m8 ) is of format:  blastm8
+05/20/2021 02:25:45 PM - humann.config - INFO: 
+Run config settings: 
+
+DATABASE SETTINGS
+nucleotide database folder = /opt/biobakery_workflows_databases/humann/chocophlan/chocophlan
+protein database folder = /opt/biobakery_workflows_databases/humann/uniref/uniref
+pathways database file 1 = /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_reactions_level4ec_only.uniref.bz2
+pathways database file 2 = /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_pathways_structured_filtered
+utility mapping database folder = /opt/biobakery_workflows_databases/humann/utility_mapping/utility_mapping
+
+RUN MODES
+resume = False
+verbose = False
+bypass prescreen = False
+bypass nucleotide index = False
+bypass nucleotide search = False
+bypass translated search = False
+translated search = diamond
+threads = 1
+
+SEARCH MODE
+search mode = uniref90
+nucleotide identity threshold = 0.0
+translated identity threshold = 80.0
+
+ALIGNMENT SETTINGS
+bowtie2 options = --very-sensitive
+diamond options = --top 1 --outfmt 6
+evalue threshold = 1.0
+prescreen threshold = 0.01
+translated subject coverage threshold = 50.0
+translated query coverage threshold = 90.0
+nucleotide subject coverage threshold = 50.0
+nucleotide query coverage threshold = 90.0
+
+PATHWAYS SETTINGS
+minpath = on
+xipe = off
+gap fill = on
+
+INPUT AND OUTPUT FORMATS
+input file format = blastm8
+output file format = tsv
+output max decimals = 10
+remove stratified output = False
+remove column description output = False
+log level = DEBUG
+
+05/20/2021 02:25:45 PM - humann.store - DEBUG: Initialize Alignments class instance to minimize memory use
+05/20/2021 02:25:45 PM - humann.store - DEBUG: Initialize Reads class instance to minimize memory use
+05/20/2021 02:26:17 PM - humann.humann - INFO: Load pathways database part 1: /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_reactions_level4ec_only.uniref.bz2
+05/20/2021 02:26:43 PM - humann.humann - INFO: Load pathways database part 2: /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_pathways_structured_filtered
+05/20/2021 02:26:43 PM - humann.humann - INFO: Process the blastm8 mapping results ...
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments where percent identity is not a number: 0
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments where alignment length is not a number: 0
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments where E-value is not a number: 0
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments not included based on large e-value: 0
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments not included based on small percent identity: 19
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments not included based on small query coverage: 12
+05/20/2021 02:26:43 PM - humann.search.blastx_coverage - INFO: Total alignments without coverage information: 0
+05/20/2021 02:26:43 PM - humann.search.blastx_coverage - INFO: Total proteins in blastx output: 43
+05/20/2021 02:26:43 PM - humann.search.blastx_coverage - INFO: Total proteins without lengths: 0
+05/20/2021 02:26:43 PM - humann.search.blastx_coverage - INFO: Proteins with coverage greater than threshold (50.0): 43
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments where percent identity is not a number: 0
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments where alignment length is not a number: 0
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments where E-value is not a number: 0
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments not included based on large e-value: 0
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments not included based on small percent identity: 19
+05/20/2021 02:26:43 PM - humann.utilities - DEBUG: Total alignments not included based on small query coverage: 12
+05/20/2021 02:26:43 PM - humann.search.translated - DEBUG: Total translated alignments not included based on small subject coverage value: 0
+05/20/2021 02:26:43 PM - humann.humann - INFO: TIMESTAMP: Completed 	alignment post-processing 	:	 0	 seconds
+05/20/2021 02:26:43 PM - humann.humann - INFO: Computing gene families ...
+05/20/2021 02:26:43 PM - humann.quantify.families - DEBUG: Compute gene families
+05/20/2021 02:26:43 PM - humann.store - INFO: 
+Total gene families  : 43
+unclassified : 43 gene families
+05/20/2021 02:27:08 PM - humann.humann - INFO: TIMESTAMP: Completed 	computing gene families 	:	 25	 seconds
+05/20/2021 02:27:08 PM - humann.humann - INFO: Computing pathways abundance and coverage ...
+05/20/2021 02:27:08 PM - humann.quantify.modules - DEBUG: Write flat reactions to pathways file for Minpath
+05/20/2021 02:27:08 PM - humann.quantify.modules - INFO: Compute reaction scores for bug: unclassified
+05/20/2021 02:27:10 PM - humann.quantify.modules - INFO: Run MinPath on unclassified
+05/20/2021 02:27:10 PM - humann.quantify.modules - INFO: Compute reaction scores for bug: all
+05/20/2021 02:27:12 PM - humann.quantify.modules - INFO: Run MinPath on all
+05/20/2021 02:27:12 PM - humann.utilities - DEBUG: Using python module : /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py
+05/20/2021 02:27:12 PM - humann.utilities - INFO: Execute command: /usr/bin/python /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py -any /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmp_dWImN -map /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmpIkHqoA -report /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmpa2myWk -details /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmp1czhbP -mps /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmpjOsNzl
+05/20/2021 02:27:12 PM - humann.utilities - DEBUG: Using python module : /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py
+05/20/2021 02:27:12 PM - humann.utilities - INFO: Execute command: /usr/bin/python /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py -any /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmpXAJxA4 -map /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmpIkHqoA -report /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmp515sVu -details /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmpbUpjO7 -mps /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY/tmpFg1zqs
+05/20/2021 02:27:13 PM - humann.quantify.modules - DEBUG: Compute pathway abundance for bug: unclassified
+05/20/2021 02:27:13 PM - humann.quantify.modules - DEBUG: Compute pathway abundance for bug: all
+05/20/2021 02:27:13 PM - humann.quantify.modules - DEBUG: Compute pathway coverage for bug: unclassified
+05/20/2021 02:27:13 PM - humann.quantify.modules - DEBUG: Compute pathway coverage for bug: all
+05/20/2021 02:27:13 PM - humann.quantify.modules - DEBUG: Print pathways _Abundance
+05/20/2021 02:27:13 PM - humann.quantify.modules - DEBUG: Print pathways _Coverage
+05/20/2021 02:27:13 PM - humann.humann - INFO: TIMESTAMP: Completed 	computing pathways 	:	 5	 seconds
+05/20/2021 02:27:13 PM - humann.humann - INFO: 
+Output files created: 
+/home/hutlab_public/Tutorials/humann3/demo_m8/demo_genefamilies.tsv
+/home/hutlab_public/Tutorials/humann3/demo_m8/demo_pathabundance.tsv
+/home/hutlab_public/Tutorials/humann3/demo_m8/demo_pathcoverage.tsv
+
+05/20/2021 02:27:13 PM - humann.utilities - DEBUG: Remove directory: /home/hutlab_public/Tutorials/humann3/demo_m8/demo_humann_temp/tmpsA9DEY

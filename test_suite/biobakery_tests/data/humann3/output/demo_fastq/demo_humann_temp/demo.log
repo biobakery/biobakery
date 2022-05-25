@@ -1,0 +1,281 @@
+05/20/2021 02:05:25 PM - humann.humann - INFO: Running humann v3.0.0
+05/20/2021 02:05:25 PM - humann.humann - INFO: Output files will be written to: /home/hutlab_public/Tutorials/humann3/demo_fastq
+05/20/2021 02:05:25 PM - humann.humann - INFO: Writing temp files to directory: /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp
+05/20/2021 02:05:25 PM - humann.utilities - INFO: File ( /home/hutlab_public/Tutorials/humann3/demo.fastq.gz ) is of format:  fastq.gz
+05/20/2021 02:05:25 PM - humann.utilities - INFO: Decompressing gzipped file ...
+05/20/2021 02:05:25 PM - humann.utilities - DEBUG: Check software, metaphlan, for required version, 3.0
+05/20/2021 02:05:26 PM - humann.utilities - INFO: Using metaphlan version 3.0
+05/20/2021 02:05:26 PM - humann.utilities - DEBUG: Check software, bowtie2, for required version, 2.2
+05/20/2021 02:05:26 PM - humann.utilities - INFO: Using bowtie2 version 2.2
+05/20/2021 02:05:26 PM - humann.humann - INFO: Search mode set to uniref90 because a uniref90 translated search database is selected
+05/20/2021 02:05:26 PM - humann.utilities - DEBUG: Check software, diamond, for required version, 0.9.36
+05/20/2021 02:05:26 PM - humann.utilities - INFO: Using diamond version 0.9.36
+05/20/2021 02:05:26 PM - humann.config - INFO: 
+Run config settings: 
+
+DATABASE SETTINGS
+nucleotide database folder = /opt/biobakery_workflows_databases/humann/chocophlan/chocophlan
+protein database folder = /opt/biobakery_workflows_databases/humann/uniref/uniref
+pathways database file 1 = /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_reactions_level4ec_only.uniref.bz2
+pathways database file 2 = /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_pathways_structured_filtered
+utility mapping database folder = /opt/biobakery_workflows_databases/humann/utility_mapping/utility_mapping
+
+RUN MODES
+resume = False
+verbose = False
+bypass prescreen = False
+bypass nucleotide index = False
+bypass nucleotide search = False
+bypass translated search = False
+translated search = diamond
+threads = 1
+
+SEARCH MODE
+search mode = uniref90
+nucleotide identity threshold = 0.0
+translated identity threshold = 80.0
+
+ALIGNMENT SETTINGS
+bowtie2 options = --very-sensitive
+diamond options = --top 1 --outfmt 6
+evalue threshold = 1.0
+prescreen threshold = 0.01
+translated subject coverage threshold = 50.0
+translated query coverage threshold = 90.0
+nucleotide subject coverage threshold = 50.0
+nucleotide query coverage threshold = 90.0
+
+PATHWAYS SETTINGS
+minpath = on
+xipe = off
+gap fill = on
+
+INPUT AND OUTPUT FORMATS
+input file format = fastq.gz
+output file format = tsv
+output max decimals = 10
+remove stratified output = False
+remove column description output = False
+log level = DEBUG
+
+05/20/2021 02:05:26 PM - humann.store - DEBUG: Initialize Alignments class instance to minimize memory use
+05/20/2021 02:05:26 PM - humann.store - DEBUG: Initialize Reads class instance to minimize memory use
+05/20/2021 02:06:03 PM - humann.humann - INFO: Load pathways database part 1: /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_reactions_level4ec_only.uniref.bz2
+05/20/2021 02:06:32 PM - humann.humann - INFO: Load pathways database part 2: /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_pathways_structured_filtered
+05/20/2021 02:06:32 PM - humann.search.prescreen - INFO: Running metaphlan ........
+05/20/2021 02:06:32 PM - humann.utilities - DEBUG: Using software: /usr/local/bin/metaphlan
+05/20/2021 02:06:32 PM - humann.utilities - INFO: Execute command: /usr/local/bin/metaphlan /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpNTXQB5 -t rel_ab -o /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/demo_metaphlan_bugs_list.tsv --input_type fastq --bowtie2out /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/demo_metaphlan_bowtie2.txt
+05/20/2021 02:07:32 PM - humann.utilities - DEBUG: WARNING: The metagenome profile contains clades that represent multiple species merged into a single representant.
+An additional column listing the merged species is added to the MetaPhlAn output.
+
+05/20/2021 02:07:32 PM - humann.humann - INFO: TIMESTAMP: Completed 	prescreen 	:	 60	 seconds
+05/20/2021 02:07:32 PM - humann.search.prescreen - INFO: Found g__Bacteroides.s__Bacteroides_dorei : 58.10% of mapped reads
+05/20/2021 02:07:32 PM - humann.search.prescreen - INFO: Found g__Bacteroides.s__Bacteroides_vulgatus : 41.90% of mapped reads
+05/20/2021 02:07:32 PM - humann.search.prescreen - INFO: Total species selected from prescreen: 2
+05/20/2021 02:07:32 PM - humann.search.prescreen - DEBUG: Adding file to database: g__Bacteroides.s__Bacteroides_dorei.centroids.v296_201901b.ffn.gz
+05/20/2021 02:07:32 PM - humann.search.prescreen - DEBUG: Adding file to database: g__Bacteroides.s__Bacteroides_vulgatus.centroids.v296_201901b.ffn.gz
+05/20/2021 02:07:32 PM - humann.search.prescreen - INFO: Creating custom ChocoPhlAn database ........
+05/20/2021 02:07:32 PM - humann.utilities - DEBUG: Using software: /bin/gunzip
+05/20/2021 02:07:32 PM - humann.utilities - INFO: Execute command: /bin/gunzip -c /opt/biobakery_workflows_databases/humann/chocophlan/chocophlan/g__Bacteroides.s__Bacteroides_dorei.centroids.v296_201901b.ffn.gz /opt/biobakery_workflows_databases/humann/chocophlan/chocophlan/g__Bacteroides.s__Bacteroides_vulgatus.centroids.v296_201901b.ffn.gz
+05/20/2021 02:07:33 PM - humann.humann - INFO: TIMESTAMP: Completed 	custom database creation 	:	 0	 seconds
+05/20/2021 02:07:33 PM - humann.search.nucleotide - INFO: Running bowtie2-build ........
+05/20/2021 02:07:33 PM - humann.utilities - DEBUG: Using software: /usr/local/bin/bowtie2-build
+05/20/2021 02:07:33 PM - humann.utilities - INFO: Execute command: /usr/local/bin/bowtie2-build -f /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/demo_custom_chocophlan_database.ffn /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/demo_bowtie2_index
+05/20/2021 02:08:08 PM - humann.humann - INFO: TIMESTAMP: Completed 	database index 	:	 35	 seconds
+05/20/2021 02:08:08 PM - humann.search.nucleotide - DEBUG: Nucleotide input file is of type: fastq
+05/20/2021 02:08:08 PM - humann.utilities - DEBUG: Using software: /usr/local/bin/bowtie2
+05/20/2021 02:08:08 PM - humann.utilities - INFO: Execute command: /usr/local/bin/bowtie2 -q -x /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/demo_bowtie2_index -U /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpNTXQB5 -S /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/demo_bowtie2_aligned.sam --very-sensitive
+05/20/2021 02:08:11 PM - humann.utilities - DEBUG: 21000 reads; of these:
+  21000 (100.00%) were unpaired; of these:
+    4878 (23.23%) aligned 0 times
+    5579 (26.57%) aligned exactly 1 time
+    10543 (50.20%) aligned >1 times
+76.77% overall alignment rate
+
+05/20/2021 02:08:11 PM - humann.humann - INFO: TIMESTAMP: Completed 	nucleotide alignment 	:	 3	 seconds
+05/20/2021 02:08:12 PM - humann.utilities - DEBUG: Total alignments where percent identity is not a number: 0
+05/20/2021 02:08:12 PM - humann.utilities - DEBUG: Total alignments where alignment length is not a number: 0
+05/20/2021 02:08:12 PM - humann.utilities - DEBUG: Total alignments where E-value is not a number: 0
+05/20/2021 02:08:12 PM - humann.utilities - DEBUG: Total alignments not included based on large e-value: 0
+05/20/2021 02:08:12 PM - humann.utilities - DEBUG: Total alignments not included based on small percent identity: 0
+05/20/2021 02:08:12 PM - humann.utilities - DEBUG: Total alignments not included based on small query coverage: 0
+05/20/2021 02:08:12 PM - humann.search.blastx_coverage - INFO: Total alignments without coverage information: 0
+05/20/2021 02:08:12 PM - humann.search.blastx_coverage - INFO: Total proteins in blastx output: 4621
+05/20/2021 02:08:12 PM - humann.search.blastx_coverage - INFO: Total proteins without lengths: 1
+05/20/2021 02:08:12 PM - humann.search.blastx_coverage - INFO: Proteins with coverage greater than threshold (50.0): 545
+05/20/2021 02:08:13 PM - humann.search.nucleotide - DEBUG: Total nucleotide alignments not included based on filtered genes: 13667
+05/20/2021 02:08:13 PM - humann.search.nucleotide - DEBUG: Total nucleotide alignments not included based on small percent identities: 0
+05/20/2021 02:08:13 PM - humann.search.nucleotide - DEBUG: Total nucleotide alignments not included based on query coverage threshold: 0
+05/20/2021 02:08:13 PM - humann.search.nucleotide - DEBUG: Keeping sam file
+05/20/2021 02:08:13 PM - humann.humann - INFO: TIMESTAMP: Completed 	nucleotide alignment post-processing 	:	 2	 seconds
+05/20/2021 02:08:13 PM - humann.humann - INFO: Total bugs from nucleotide alignment: 2
+05/20/2021 02:08:13 PM - humann.humann - INFO: 
+g__Bacteroides.s__Bacteroides_vulgatus: 1195 hits
+g__Bacteroides.s__Bacteroides_dorei: 1260 hits
+05/20/2021 02:08:13 PM - humann.humann - INFO: Total gene families from nucleotide alignment: 545
+05/20/2021 02:08:13 PM - humann.humann - INFO: Unaligned reads after nucleotide alignment: 88.3095238095 %
+05/20/2021 02:08:13 PM - humann.search.translated - INFO: Running diamond ........
+05/20/2021 02:08:13 PM - humann.search.translated - INFO: Aligning to reference database: uniref90_demo_prots_v201901b.dmnd
+05/20/2021 02:08:13 PM - humann.utilities - DEBUG: Remove file: /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/diamond_m8_jkAS7y
+05/20/2021 02:08:13 PM - humann.utilities - DEBUG: Using software: /usr/bin/diamond
+05/20/2021 02:08:13 PM - humann.utilities - INFO: Execute command: /usr/bin/diamond blastx --query /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/demo_bowtie2_unaligned.fa --evalue 1.0 --threads 1 --top 1 --outfmt 6 --db /opt/biobakery_workflows_databases/humann/uniref/uniref/uniref90_demo_prots_v201901b --out /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/diamond_m8_jkAS7y --tmpdir /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: diamond v0.9.36.137 (C) Max Planck Society for the Advancement of Science
+Documentation, support and updates available at http://www.diamondsearch.org
+
+#CPU threads: 1
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE
+Opening the database...  [0s]
+Percentage range of top alignment score to report hits: 1
+Reference = /opt/biobakery_workflows_databases/humann/uniref/uniref/uniref90_demo_prots_v201901b.dmnd
+Sequences = 44
+Letters = 18842
+Block size = 2000000000
+Opening the input file...  [0.001s]
+Opening the output file...  [0s]
+Loading query sequences...  [0.033s]
+Masking queries...  [0.482s]
+Building query seed set...  [0.021s]
+Algorithm: Double-indexed
+Building query histograms...  [0.045s]
+Allocating buffers...  [0s]
+Loading reference sequences...  [0s]
+Masking reference...  [0.002s]
+Initializing temporary storage...  [0s]
+Building reference histograms...  [0s]
+Allocating buffers...  [0s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0s]
+Building query seed array...  [0.034s]
+Computing hash join...  [0.005s]
+Building seed filter...  [0s]
+Searching alignments...  [0.001s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0s]
+Building query seed array...  [0.039s]
+Computing hash join...  [0.005s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0s]
+Building query seed array...  [0.041s]
+Computing hash join...  [0.005s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0s]
+Building query seed array...  [0.032s]
+Computing hash join...  [0.005s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0s]
+Building query seed array...  [0.028s]
+Computing hash join...  [0.004s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0s]
+Building query seed array...  [0.034s]
+Computing hash join...  [0.004s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0s]
+Building query seed array...  [0.037s]
+Computing hash join...  [0.004s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0s]
+Building query seed array...  [0.029s]
+Computing hash join...  [0.004s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Deallocating buffers...  [0s]
+Computing alignments...  [0.162s]
+Deallocating reference...  [0s]
+Loading reference sequences...  [0s]
+Deallocating buffers...  [0s]
+Deallocating queries...  [0s]
+Loading query sequences...  [0s]
+Closing the input file...  [0s]
+Closing the output file...  [0s]
+Closing the database file...  [0s]
+Deallocating taxonomy...  [0s]
+Total time = 1.09s
+Reported 433 pairwise alignments, 433 HSPs.
+414 queries aligned.
+
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Using software: /bin/cat
+05/20/2021 02:08:14 PM - humann.utilities - INFO: Execute command: /bin/cat /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/diamond_m8_jkAS7y
+05/20/2021 02:08:14 PM - humann.humann - INFO: TIMESTAMP: Completed 	translated alignment 	:	 1	 seconds
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments where percent identity is not a number: 0
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments where alignment length is not a number: 0
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments where E-value is not a number: 0
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments not included based on large e-value: 0
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments not included based on small percent identity: 2
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments not included based on small query coverage: 3
+05/20/2021 02:08:14 PM - humann.search.blastx_coverage - INFO: Total alignments without coverage information: 0
+05/20/2021 02:08:14 PM - humann.search.blastx_coverage - INFO: Total proteins in blastx output: 42
+05/20/2021 02:08:14 PM - humann.search.blastx_coverage - INFO: Total proteins without lengths: 0
+05/20/2021 02:08:14 PM - humann.search.blastx_coverage - INFO: Proteins with coverage greater than threshold (50.0): 14
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments where percent identity is not a number: 0
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments where alignment length is not a number: 0
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments where E-value is not a number: 0
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments not included based on large e-value: 0
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments not included based on small percent identity: 2
+05/20/2021 02:08:14 PM - humann.utilities - DEBUG: Total alignments not included based on small query coverage: 3
+05/20/2021 02:08:14 PM - humann.search.translated - DEBUG: Total translated alignments not included based on small subject coverage value: 177
+05/20/2021 02:08:14 PM - humann.humann - INFO: TIMESTAMP: Completed 	translated alignment post-processing 	:	 0	 seconds
+05/20/2021 02:08:14 PM - humann.humann - INFO: Total bugs after translated alignment: 3
+05/20/2021 02:08:14 PM - humann.humann - INFO: 
+g__Bacteroides.s__Bacteroides_vulgatus: 1195 hits
+unclassified: 252 hits
+g__Bacteroides.s__Bacteroides_dorei: 1260 hits
+05/20/2021 02:08:14 PM - humann.humann - INFO: Total gene families after translated alignment: 559
+05/20/2021 02:08:14 PM - humann.humann - INFO: Unaligned reads after translated alignment: 87.2000000000 %
+05/20/2021 02:08:14 PM - humann.humann - INFO: Computing gene families ...
+05/20/2021 02:08:14 PM - humann.quantify.families - DEBUG: Compute gene families
+05/20/2021 02:08:14 PM - humann.store - INFO: 
+Total gene families  : 559
+g__Bacteroides.s__Bacteroides_vulgatus : 392 gene families
+unclassified : 14 gene families
+g__Bacteroides.s__Bacteroides_dorei : 392 gene families
+05/20/2021 02:08:42 PM - humann.humann - INFO: TIMESTAMP: Completed 	computing gene families 	:	 28	 seconds
+05/20/2021 02:08:42 PM - humann.humann - INFO: Computing pathways abundance and coverage ...
+05/20/2021 02:08:42 PM - humann.quantify.modules - DEBUG: Write flat reactions to pathways file for Minpath
+05/20/2021 02:08:42 PM - humann.quantify.modules - INFO: Compute reaction scores for bug: g__Bacteroides.s__Bacteroides_vulgatus
+05/20/2021 02:08:44 PM - humann.quantify.modules - INFO: Run MinPath on g__Bacteroides.s__Bacteroides_vulgatus
+05/20/2021 02:08:44 PM - humann.quantify.modules - INFO: Compute reaction scores for bug: unclassified
+05/20/2021 02:08:46 PM - humann.quantify.modules - INFO: Run MinPath on unclassified
+05/20/2021 02:08:46 PM - humann.quantify.modules - INFO: Compute reaction scores for bug: all
+05/20/2021 02:08:48 PM - humann.quantify.modules - INFO: Run MinPath on all
+05/20/2021 02:08:48 PM - humann.quantify.modules - INFO: Compute reaction scores for bug: g__Bacteroides.s__Bacteroides_dorei
+05/20/2021 02:08:50 PM - humann.quantify.modules - INFO: Run MinPath on g__Bacteroides.s__Bacteroides_dorei
+05/20/2021 02:08:50 PM - humann.utilities - DEBUG: Using python module : /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py
+05/20/2021 02:08:50 PM - humann.utilities - INFO: Execute command: /usr/bin/python /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py -any /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpDrKVaN -map /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpbzbvOA -report /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpH_pRcm -details /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpN1q_oz -mps /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmp_T4ziP
+05/20/2021 02:08:50 PM - humann.utilities - DEBUG: Using python module : /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py
+05/20/2021 02:08:50 PM - humann.utilities - INFO: Execute command: /usr/bin/python /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py -any /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpFlbF0W -map /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpbzbvOA -report /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpEV_t34 -details /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpKeVlun -mps /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpeqBM_F
+05/20/2021 02:08:51 PM - humann.utilities - DEBUG: Using python module : /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py
+05/20/2021 02:08:51 PM - humann.utilities - INFO: Execute command: /usr/bin/python /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py -any /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmp7O72aW -map /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpbzbvOA -report /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpdOQbHe -details /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpoXlY81 -mps /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpjVd_IY
+05/20/2021 02:08:51 PM - humann.utilities - DEBUG: Using python module : /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py
+05/20/2021 02:08:51 PM - humann.utilities - INFO: Execute command: /usr/bin/python /usr/local/lib/python2.7/dist-packages/humann/quantify/MinPath12hmp.py -any /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmppO8K8t -map /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpbzbvOA -report /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmp9YWBOp -details /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmpUQL1Vz -mps /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE/tmp6_q17s
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Compute pathway abundance for bug: g__Bacteroides.s__Bacteroides_vulgatus
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Compute pathway abundance for bug: unclassified
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Compute pathway abundance for bug: all
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Compute pathway abundance for bug: g__Bacteroides.s__Bacteroides_dorei
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Compute pathway coverage for bug: g__Bacteroides.s__Bacteroides_vulgatus
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Compute pathway coverage for bug: unclassified
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Compute pathway coverage for bug: all
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Compute pathway coverage for bug: g__Bacteroides.s__Bacteroides_dorei
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Print pathways _Abundance
+05/20/2021 02:08:52 PM - humann.quantify.modules - DEBUG: Print pathways _Coverage
+05/20/2021 02:08:52 PM - humann.humann - INFO: TIMESTAMP: Completed 	computing pathways 	:	 10	 seconds
+05/20/2021 02:08:52 PM - humann.humann - INFO: 
+Output files created: 
+/home/hutlab_public/Tutorials/humann3/demo_fastq/demo_genefamilies.tsv
+/home/hutlab_public/Tutorials/humann3/demo_fastq/demo_pathabundance.tsv
+/home/hutlab_public/Tutorials/humann3/demo_fastq/demo_pathcoverage.tsv
+
+05/20/2021 02:08:52 PM - humann.utilities - DEBUG: Remove directory: /home/hutlab_public/Tutorials/humann3/demo_fastq/demo_humann_temp/tmpgcNdVE

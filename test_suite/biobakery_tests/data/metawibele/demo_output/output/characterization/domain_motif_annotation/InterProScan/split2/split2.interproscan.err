@@ -1,0 +1,11 @@
+20/05/2021 22:34:34:962 Welcome to InterProScan-5.31-70.0
+20/05/2021 22:35:11:826 Running InterProScan v5 in STANDALONE mode... on Linux
+20/05/2021 22:36:06:944 Loading file /home/hutlab_public/Tutorials/metawibele/Yancong/temp/split2/demo_genecatalogs.centroid.faa.split2.fasta
+20/05/2021 22:36:06:970 Running the following analyses:
+[Pfam-31.0,SignalP_EUK-4.1,SignalP_GRAM_NEGATIVE-4.1,SignalP_GRAM_POSITIVE-4.1]
+Pre-calculated match lookup service DISABLED.  Please wait for match calculations to complete...
+20/05/2021 22:36:15:294 26% completed
+20/05/2021 22:39:55:210 52% completed
+20/05/2021 22:41:35:279 78% completed
+20/05/2021 22:41:37:807 91% completed
+20/05/2021 22:41:51:325 100% done:  InterProScan analyses completed

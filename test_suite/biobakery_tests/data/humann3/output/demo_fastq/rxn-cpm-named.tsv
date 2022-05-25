@@ -1,0 +1,294 @@
+# Gene Family	demo_Abundance-CPM
+UNMAPPED	690444.0
+UNGROUPED	290292.34000000026
+UNGROUPED|g__Bacteroides.s__Bacteroides_dorei	139621.93409999993
+UNGROUPED|g__Bacteroides.s__Bacteroides_vulgatus	148318.30399999986
+UNGROUPED|unclassified	2352.097
+2.5.1.19-RXN: (expasy) 3-phosphoshikimate 1-carboxyvinyltransferase [2.5.1.19]	233.716
+2.5.1.19-RXN: (expasy) 3-phosphoshikimate 1-carboxyvinyltransferase [2.5.1.19]|g__Bacteroides.s__Bacteroides_dorei	133.704
+2.5.1.19-RXN: (expasy) 3-phosphoshikimate 1-carboxyvinyltransferase [2.5.1.19]|g__Bacteroides.s__Bacteroides_vulgatus	100.012
+2.7.13.3-RXN: (expasy) Histidine kinase [2.7.13.3]	236.729
+2.7.13.3-RXN: (expasy) Histidine kinase [2.7.13.3]|g__Bacteroides.s__Bacteroides_dorei	172.166
+2.7.13.3-RXN: (expasy) Histidine kinase [2.7.13.3]|g__Bacteroides.s__Bacteroides_vulgatus	64.5624
+2.7.7.13-RXN: (expasy) Mannose-1-phosphate guanylyltransferase [2.7.7.13]	398.989
+2.7.7.13-RXN: (expasy) Mannose-1-phosphate guanylyltransferase [2.7.7.13]|g__Bacteroides.s__Bacteroides_dorei	119.697
+2.7.7.13-RXN: (expasy) Mannose-1-phosphate guanylyltransferase [2.7.7.13]|g__Bacteroides.s__Bacteroides_vulgatus	279.292
+3.1.11.2-RXN: (expasy) Exodeoxyribonuclease III [3.1.11.2]	343.55
+3.1.11.2-RXN: (expasy) Exodeoxyribonuclease III [3.1.11.2]|g__Bacteroides.s__Bacteroides_dorei	171.384
+3.1.11.2-RXN: (expasy) Exodeoxyribonuclease III [3.1.11.2]|g__Bacteroides.s__Bacteroides_vulgatus	172.166
+3.1.21.2-RXN: (expasy) Deoxyribonuclease IV [3.1.21.2]	255.45
+3.1.21.2-RXN: (expasy) Deoxyribonuclease IV [3.1.21.2]|g__Bacteroides.s__Bacteroides_vulgatus	255.45
+3.2.1.73-RXN: (expasy) Licheninase [3.2.1.73]	283.067
+3.2.1.73-RXN: (expasy) Licheninase [3.2.1.73]|g__Bacteroides.s__Bacteroides_dorei	169.84
+3.2.1.73-RXN: (expasy) Licheninase [3.2.1.73]|g__Bacteroides.s__Bacteroides_vulgatus	113.227
+3.4.13.22-RXN: (expasy) D-Ala-D-Ala dipeptidase [3.4.13.22]	265.993
+3.4.13.22-RXN: (expasy) D-Ala-D-Ala dipeptidase [3.4.13.22]|g__Bacteroides.s__Bacteroides_dorei	265.993
+3.5.1.27-RXN: (expasy) Peptide deformylase [3.5.1.88]	330.741
+3.5.1.27-RXN: (expasy) Peptide deformylase [3.5.1.88]|g__Bacteroides.s__Bacteroides_dorei	165.37
+3.5.1.27-RXN: (expasy) Peptide deformylase [3.5.1.88]|g__Bacteroides.s__Bacteroides_vulgatus	165.37
+3.5.1.80-RXN: (expasy) N-acetylglucosamine-6-phosphate deacetylase [3.5.1.25]	389.436
+3.5.1.80-RXN: (expasy) N-acetylglucosamine-6-phosphate deacetylase [3.5.1.25]|g__Bacteroides.s__Bacteroides_dorei	106.21
+3.5.1.80-RXN: (expasy) N-acetylglucosamine-6-phosphate deacetylase [3.5.1.25]|g__Bacteroides.s__Bacteroides_vulgatus	283.226
+3.5.1.88-RXN: (expasy) Peptide deformylase [3.5.1.88]	330.741
+3.5.1.88-RXN: (expasy) Peptide deformylase [3.5.1.88]|g__Bacteroides.s__Bacteroides_dorei	165.37
+3.5.1.88-RXN: (expasy) Peptide deformylase [3.5.1.88]|g__Bacteroides.s__Bacteroides_vulgatus	165.37
+4.2.3.16-RXN: (expasy) (4S)-limonene synthase [4.2.3.16]	692.806
+4.2.3.16-RXN: (expasy) (4S)-limonene synthase [4.2.3.16]|unclassified	692.806
+ACETYLGLUTKIN-RXN: (expasy) Acetylglutamate kinase [2.7.2.8]	223.434
+ACETYLGLUTKIN-RXN: (expasy) Acetylglutamate kinase [2.7.2.8]|g__Bacteroides.s__Bacteroides_dorei	111.717
+ACETYLGLUTKIN-RXN: (expasy) Acetylglutamate kinase [2.7.2.8]|g__Bacteroides.s__Bacteroides_vulgatus	111.717
+ADENYLYLSULFKIN-RXN: (expasy) Adenylyl-sulfate kinase [2.7.1.25]	292.283
+ADENYLYLSULFKIN-RXN: (expasy) Adenylyl-sulfate kinase [2.7.1.25]|g__Bacteroides.s__Bacteroides_dorei	219.212
+ADENYLYLSULFKIN-RXN: (expasy) Adenylyl-sulfate kinase [2.7.1.25]|g__Bacteroides.s__Bacteroides_vulgatus	73.0707
+ADOMET-DMK-METHYLTRANSFER-RXN: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+ADOMET-DMK-METHYLTRANSFER-RXN: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+ADOMET-DMK-METHYLTRANSFER-RXN: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+AKBLIG-RXN: (expasy) Glycine C-acetyltransferase [2.3.1.29]	241.695
+AKBLIG-RXN: (expasy) Glycine C-acetyltransferase [2.3.1.29]|g__Bacteroides.s__Bacteroides_dorei	138.112
+AKBLIG-RXN: (expasy) Glycine C-acetyltransferase [2.3.1.29]|g__Bacteroides.s__Bacteroides_vulgatus	103.584
+ALDOSE-1-EPIMERASE-RXN: (expasy) Aldose 1-epimerase [5.1.3.3]	360.333
+ALDOSE-1-EPIMERASE-RXN: (expasy) Aldose 1-epimerase [5.1.3.3]|g__Bacteroides.s__Bacteroides_dorei	71.41
+ALDOSE-1-EPIMERASE-RXN: (expasy) Aldose 1-epimerase [5.1.3.3]|g__Bacteroides.s__Bacteroides_vulgatus	288.923
+ALDOSE1EPIM-RXN: (expasy) Aldose 1-epimerase [5.1.3.3]	360.333
+ALDOSE1EPIM-RXN: (expasy) Aldose 1-epimerase [5.1.3.3]|g__Bacteroides.s__Bacteroides_dorei	71.41
+ALDOSE1EPIM-RXN: (expasy) Aldose 1-epimerase [5.1.3.3]|g__Bacteroides.s__Bacteroides_vulgatus	288.923
+ARGINASE-RXN: (expasy) Arginase [3.5.3.1]	318.181
+ARGINASE-RXN: (expasy) Arginase [3.5.3.1]|g__Bacteroides.s__Bacteroides_dorei	53.0302
+ARGINASE-RXN: (expasy) Arginase [3.5.3.1]|g__Bacteroides.s__Bacteroides_vulgatus	265.151
+ARGININE--TRNA-LIGASE-RXN: (expasy) Arginine--tRNA ligase [6.1.1.19]	271.255
+ARGININE--TRNA-LIGASE-RXN: (expasy) Arginine--tRNA ligase [6.1.1.19]|g__Bacteroides.s__Bacteroides_vulgatus	271.255
+ATP-CITRATE-PRO-S--LYASE-RXN: (expasy) ATP citrate synthase [2.3.3.8]	264.65
+ATP-CITRATE-PRO-S--LYASE-RXN: (expasy) ATP citrate synthase [2.3.3.8]|unclassified	264.65
+ATPSYN-RXN: (expasy) H(+)-transporting two-sector ATPase [7.1.2.2]	288.621
+ATPSYN-RXN: (expasy) H(+)-transporting two-sector ATPase [7.1.2.2]|g__Bacteroides.s__Bacteroides_dorei	157.43
+ATPSYN-RXN: (expasy) H(+)-transporting two-sector ATPase [7.1.2.2]|g__Bacteroides.s__Bacteroides_vulgatus	131.192
+CHORISMATE-SYNTHASE-RXN: (expasy) Chorismate synthase [4.2.3.5]	231.316
+CHORISMATE-SYNTHASE-RXN: (expasy) Chorismate synthase [4.2.3.5]|g__Bacteroides.s__Bacteroides_vulgatus	231.316
+DTDPGLUCOSEPP-RXN: (expasy) Glucose-1-phosphate thymidylyltransferase [2.7.7.24]	286.726
+DTDPGLUCOSEPP-RXN: (expasy) Glucose-1-phosphate thymidylyltransferase [2.7.7.24]|g__Bacteroides.s__Bacteroides_dorei	95.5753
+DTDPGLUCOSEPP-RXN: (expasy) Glucose-1-phosphate thymidylyltransferase [2.7.7.24]|g__Bacteroides.s__Bacteroides_vulgatus	191.151
+FERREDOXIN--NITRITE-REDUCTASE-RXN: (expasy) Ferredoxin--nitrite reductase [1.7.7.1]	524.185
+FERREDOXIN--NITRITE-REDUCTASE-RXN: (expasy) Ferredoxin--nitrite reductase [1.7.7.1]|unclassified	524.185
+GART-RXN: (expasy) Phosphoribosylglycinamide formyltransferase 1 [2.1.2.2]	306.723
+GART-RXN: (expasy) Phosphoribosylglycinamide formyltransferase 1 [2.1.2.2]|g__Bacteroides.s__Bacteroides_dorei	157.102
+GART-RXN: (expasy) Phosphoribosylglycinamide formyltransferase 1 [2.1.2.2]|g__Bacteroides.s__Bacteroides_vulgatus	149.621
+GLUTAMATE-DEHYDROGENASE-NADP+-RXN: (expasy) Glutamate dehydrogenase (NAD(P)(+)) [1.4.1.3]	244.042
+GLUTAMATE-DEHYDROGENASE-NADP+-RXN: (expasy) Glutamate dehydrogenase (NAD(P)(+)) [1.4.1.3]|g__Bacteroides.s__Bacteroides_dorei	91.5157
+GLUTAMATE-DEHYDROGENASE-NADP+-RXN: (expasy) Glutamate dehydrogenase (NAD(P)(+)) [1.4.1.3]|g__Bacteroides.s__Bacteroides_vulgatus	152.526
+GLUTAMIN-RXN: (expasy) AMBIGUOUS [3.5.1.2; 3.5.1.38]	273.334
+GLUTAMIN-RXN: (expasy) AMBIGUOUS [3.5.1.2; 3.5.1.38]|g__Bacteroides.s__Bacteroides_dorei	88.5081
+GLUTAMIN-RXN: (expasy) AMBIGUOUS [3.5.1.2; 3.5.1.38]|g__Bacteroides.s__Bacteroides_vulgatus	184.826
+GLUTAMINESYN-RXN: (expasy) Glutamine synthetase [6.3.1.2]	351.0
+GLUTAMINESYN-RXN: (expasy) Glutamine synthetase [6.3.1.2]|unclassified	351.0
+ISOCHORSYN-RXN: (expasy) Isochorismate synthase [5.4.4.2]	281.639
+ISOCHORSYN-RXN: (expasy) Isochorismate synthase [5.4.4.2]|g__Bacteroides.s__Bacteroides_dorei	281.639
+LINOLENOYL-RXN: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+LINOLENOYL-RXN: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+LYSINE-23-AMINOMUTASE-RXN: (expasy) Lysine 2,3-aminomutase [5.4.3.2]	355.657
+LYSINE-23-AMINOMUTASE-RXN: (expasy) Lysine 2,3-aminomutase [5.4.3.2]|g__Bacteroides.s__Bacteroides_dorei	280.957
+LYSINE-23-AMINOMUTASE-RXN: (expasy) Lysine 2,3-aminomutase [5.4.3.2]|g__Bacteroides.s__Bacteroides_vulgatus	74.6993
+N-ACETYLNEURAMINATE-SYNTHASE-RXN: (expasy) N-acetylneuraminate synthase [2.5.1.56]	249.698
+N-ACETYLNEURAMINATE-SYNTHASE-RXN: (expasy) N-acetylneuraminate synthase [2.5.1.56]|g__Bacteroides.s__Bacteroides_dorei	166.466
+N-ACETYLNEURAMINATE-SYNTHASE-RXN: (expasy) N-acetylneuraminate synthase [2.5.1.56]|g__Bacteroides.s__Bacteroides_vulgatus	83.2328
+NACGLCTRANS-RXN: (metacyc) UDP-N-acetyl-D-glucosamine:N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenol 4-&beta;-N-acetylglucosaminlytransferase [2.4.1.227]	328.818
+NACGLCTRANS-RXN: (metacyc) UDP-N-acetyl-D-glucosamine:N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenol 4-&beta;-N-acetylglucosaminlytransferase [2.4.1.227]|g__Bacteroides.s__Bacteroides_dorei	255.747
+NACGLCTRANS-RXN: (metacyc) UDP-N-acetyl-D-glucosamine:N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelyl-D-alanyl-D-alanine-diphosphoundecaprenol 4-&beta;-N-acetylglucosaminlytransferase [2.4.1.227]|g__Bacteroides.s__Bacteroides_vulgatus	73.0707
+NAG6PDEACET-RXN: (expasy) N-acetylglucosamine-6-phosphate deacetylase [3.5.1.25]	389.436
+NAG6PDEACET-RXN: (expasy) N-acetylglucosamine-6-phosphate deacetylase [3.5.1.25]|g__Bacteroides.s__Bacteroides_dorei	106.21
+NAG6PDEACET-RXN: (expasy) N-acetylglucosamine-6-phosphate deacetylase [3.5.1.25]|g__Bacteroides.s__Bacteroides_vulgatus	283.226
+NAPHTHOATE-SYN-RXN: (expasy) 1,4-dihydroxy-2-naphthoyl-CoA synthase [4.1.3.36]	312.9
+NAPHTHOATE-SYN-RXN: (expasy) 1,4-dihydroxy-2-naphthoyl-CoA synthase [4.1.3.36]|g__Bacteroides.s__Bacteroides_dorei	312.9
+NICONUCADENYLYLTRAN-RXN: (expasy) Nicotinate-nucleotide adenylyltransferase [2.7.7.18]	397.726
+NICONUCADENYLYLTRAN-RXN: (expasy) Nicotinate-nucleotide adenylyltransferase [2.7.7.18]|g__Bacteroides.s__Bacteroides_dorei	318.181
+NICONUCADENYLYLTRAN-RXN: (expasy) Nicotinate-nucleotide adenylyltransferase [2.7.7.18]|g__Bacteroides.s__Bacteroides_vulgatus	79.5453
+OROPRIBTRANS-RXN: (expasy) Orotate phosphoribosyltransferase [2.4.2.10]	418.938
+OROPRIBTRANS-RXN: (expasy) Orotate phosphoribosyltransferase [2.4.2.10]|g__Bacteroides.s__Bacteroides_dorei	209.469
+OROPRIBTRANS-RXN: (expasy) Orotate phosphoribosyltransferase [2.4.2.10]|g__Bacteroides.s__Bacteroides_vulgatus	209.469
+PANTOTHENATE-KIN-RXN: (expasy) Pantothenate kinase [2.7.1.33]	359.09
+PANTOTHENATE-KIN-RXN: (expasy) Pantothenate kinase [2.7.1.33]|g__Bacteroides.s__Bacteroides_dorei	119.697
+PANTOTHENATE-KIN-RXN: (expasy) Pantothenate kinase [2.7.1.33]|g__Bacteroides.s__Bacteroides_vulgatus	239.393
+PEPTIDYLPROLYL-ISOMERASE-RXN: (expasy) Peptidylprolyl isomerase [5.2.1.8]	1076.466
+PEPTIDYLPROLYL-ISOMERASE-RXN: (expasy) Peptidylprolyl isomerase [5.2.1.8]|g__Bacteroides.s__Bacteroides_dorei	562.1831
+PEPTIDYLPROLYL-ISOMERASE-RXN: (expasy) Peptidylprolyl isomerase [5.2.1.8]|g__Bacteroides.s__Bacteroides_vulgatus	514.283
+PYRIMSYN1-RXN: (expasy) Phosphomethylpyrimidine synthase [4.1.99.17]	329.502
+PYRIMSYN1-RXN: (expasy) Phosphomethylpyrimidine synthase [4.1.99.17]|g__Bacteroides.s__Bacteroides_dorei	94.1435
+PYRIMSYN1-RXN: (expasy) Phosphomethylpyrimidine synthase [4.1.99.17]|g__Bacteroides.s__Bacteroides_vulgatus	235.359
+R223-RXN: (metacyc) octanoyl-CoA ligase [6.2.1.3]	433.771
+R223-RXN: (metacyc) octanoyl-CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-11029: (expasy) acetylglucosaminyltransferase [2.4.1.227]	328.818
+RXN-11029: (expasy) acetylglucosaminyltransferase [2.4.1.227]|g__Bacteroides.s__Bacteroides_dorei	255.747
+RXN-11029: (expasy) acetylglucosaminyltransferase [2.4.1.227]|g__Bacteroides.s__Bacteroides_vulgatus	73.0707
+RXN-11046: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-11046: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-11046: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-11346: (expasy) acetylglucosaminyltransferase [2.4.1.227]	328.818
+RXN-11346: (expasy) acetylglucosaminyltransferase [2.4.1.227]|g__Bacteroides.s__Bacteroides_dorei	255.747
+RXN-11346: (expasy) acetylglucosaminyltransferase [2.4.1.227]|g__Bacteroides.s__Bacteroides_vulgatus	73.0707
+RXN-11637: (expasy) 16S rRNA (cytidine(1402)-2'-O)-methyltransferase [2.1.1.198]	318.181
+RXN-11637: (expasy) 16S rRNA (cytidine(1402)-2'-O)-methyltransferase [2.1.1.198]|g__Bacteroides.s__Bacteroides_vulgatus	318.181
+RXN-11839: (expasy) tRNA pseudouridine(55) synthase [5.4.99.25]	371.473
+RXN-11839: (expasy) tRNA pseudouridine(55) synthase [5.4.99.25]|g__Bacteroides.s__Bacteroides_dorei	185.736
+RXN-11839: (expasy) tRNA pseudouridine(55) synthase [5.4.99.25]|g__Bacteroides.s__Bacteroides_vulgatus	185.736
+RXN-12174: (expasy) Unsaturated rhamnogalacturonyl hydrolase [3.2.1.172]	363.815
+RXN-12174: (expasy) Unsaturated rhamnogalacturonyl hydrolase [3.2.1.172]|g__Bacteroides.s__Bacteroides_dorei	363.815
+RXN-12184: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-12184: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-12954: (metacyc) coumaryl alcohol acetyltransferase [2.3.1.224]	386.701
+RXN-12954: (metacyc) coumaryl alcohol acetyltransferase [2.3.1.224]|unclassified	386.701
+RXN-12978: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-12978: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-13290: (metacyc) 15-tetracosenoate&mdash;CoA ligase [6.2.1.3]	433.771
+RXN-13290: (metacyc) 15-tetracosenoate&mdash;CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-13542: (metacyc) phenylethanol acetyltransferase [2.3.1.224]	386.701
+RXN-13542: (metacyc) phenylethanol acetyltransferase [2.3.1.224]|unclassified	386.701
+RXN-13614: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-13614: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-14177: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-14177: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-14177: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-14454: (expasy) Acetyl-CoA-benzylalcohol acetyltransferase [2.3.1.224]	386.701
+RXN-14454: (expasy) Acetyl-CoA-benzylalcohol acetyltransferase [2.3.1.224]|unclassified	386.701
+RXN-15005: (expasy) Acetylglutamate kinase [2.7.2.8]	223.434
+RXN-15005: (expasy) Acetylglutamate kinase [2.7.2.8]|g__Bacteroides.s__Bacteroides_dorei	111.717
+RXN-15005: (expasy) Acetylglutamate kinase [2.7.2.8]|g__Bacteroides.s__Bacteroides_vulgatus	111.717
+RXN-15047: (expasy) 5' to 3' exodeoxyribonuclease (nucleoside 3'-phosphate-forming) [3.1.12.1]	265.993
+RXN-15047: (expasy) 5' to 3' exodeoxyribonuclease (nucleoside 3'-phosphate-forming) [3.1.12.1]|g__Bacteroides.s__Bacteroides_dorei	132.996
+RXN-15047: (expasy) 5' to 3' exodeoxyribonuclease (nucleoside 3'-phosphate-forming) [3.1.12.1]|g__Bacteroides.s__Bacteroides_vulgatus	132.996
+RXN-15294: (expasy) Bacterial non-heme ferritin [1.16.3.2]	294.566
+RXN-15294: (expasy) Bacterial non-heme ferritin [1.16.3.2]|g__Bacteroides.s__Bacteroides_dorei	196.377
+RXN-15294: (expasy) Bacterial non-heme ferritin [1.16.3.2]|g__Bacteroides.s__Bacteroides_vulgatus	98.1887
+RXN-15513: (expasy) Phosphoglycerate mutase (2,3-diphosphoglycerate-dependent) [5.4.2.11]	224.782
+RXN-15513: (expasy) Phosphoglycerate mutase (2,3-diphosphoglycerate-dependent) [5.4.2.11]|g__Bacteroides.s__Bacteroides_dorei	170.608
+RXN-15513: (expasy) Phosphoglycerate mutase (2,3-diphosphoglycerate-dependent) [5.4.2.11]|g__Bacteroides.s__Bacteroides_vulgatus	54.1731
+RXN-16380: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-16380: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-16389: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-16389: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-16393: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-16393: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-16401: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-16401: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-16402: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-16402: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-16418: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-16418: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-19667: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-19667: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-19667: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-19751: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-19751: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-19960: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-19960: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-20651: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-20651: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-20789: (expasy) Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase [2.3.1.129]	506.23300000000006
+RXN-20789: (expasy) Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase [2.3.1.129]|g__Bacteroides.s__Bacteroides_dorei	225.438
+RXN-20789: (expasy) Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase [2.3.1.129]|g__Bacteroides.s__Bacteroides_vulgatus	280.795
+RXN-21443: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-21443: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-21445: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-21445: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-21446: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-21446: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-21447: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-21447: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-21448: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-21448: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-21449: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-21449: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-21450: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-21450: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-34: (expasy) Arginase [3.5.3.1]	318.181
+RXN-34: (expasy) Arginase [3.5.3.1]|g__Bacteroides.s__Bacteroides_dorei	53.0302
+RXN-34: (expasy) Arginase [3.5.3.1]|g__Bacteroides.s__Bacteroides_vulgatus	265.151
+RXN-5109: (expasy) (E)-beta-ocimene synthase [4.2.3.106]	692.806
+RXN-5109: (expasy) (E)-beta-ocimene synthase [4.2.3.106]|unclassified	692.806
+RXN-5110: (expasy) Myrcene synthase [4.2.3.15]	692.806
+RXN-5110: (expasy) Myrcene synthase [4.2.3.15]|unclassified	692.806
+RXN-5121: (expasy) Tricyclene synthase [4.2.3.105]	692.806
+RXN-5121: (expasy) Tricyclene synthase [4.2.3.105]|unclassified	692.806
+RXN-6501: (expasy) D-inositol-3-phosphate glycosyltransferase [2.4.1.250]	295.721
+RXN-6501: (expasy) D-inositol-3-phosphate glycosyltransferase [2.4.1.250]|g__Bacteroides.s__Bacteroides_dorei	36.9652
+RXN-6501: (expasy) D-inositol-3-phosphate glycosyltransferase [2.4.1.250]|g__Bacteroides.s__Bacteroides_vulgatus	258.756
+RXN-6722: (expasy) Benzoate O-methyltransferase [2.1.1.273]	511.579
+RXN-6722: (expasy) Benzoate O-methyltransferase [2.1.1.273]|unclassified	511.579
+RXN-6723: (expasy) Salicylate carboxymethyltransferase [2.1.1.274]	800.088
+RXN-6723: (expasy) Salicylate carboxymethyltransferase [2.1.1.274]|unclassified	800.088
+RXN-6724: (expasy) Benzyl alcohol O-benzoyltransferase [2.3.1.196]	423.202
+RXN-6724: (expasy) Benzyl alcohol O-benzoyltransferase [2.3.1.196]|unclassified	423.202
+RXN-6762: (expasy) Acetyl-CoA-benzylalcohol acetyltransferase [2.3.1.224]	386.701
+RXN-6762: (expasy) Acetyl-CoA-benzylalcohol acetyltransferase [2.3.1.224]|unclassified	386.701
+RXN-7904: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-7904: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-8976: (expasy) acetylglucosaminyltransferase [2.4.1.227]	328.818
+RXN-8976: (expasy) acetylglucosaminyltransferase [2.4.1.227]|g__Bacteroides.s__Bacteroides_dorei	255.747
+RXN-8976: (expasy) acetylglucosaminyltransferase [2.4.1.227]|g__Bacteroides.s__Bacteroides_vulgatus	73.0707
+RXN-9191: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-9191: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-9191: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-9205: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-9205: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-9205: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-9220: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-9220: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-9220: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-9244: (expasy) Acetyl-CoA-benzylalcohol acetyltransferase [2.3.1.224]	386.701
+RXN-9244: (expasy) Acetyl-CoA-benzylalcohol acetyltransferase [2.3.1.224]|unclassified	386.701
+RXN-9361: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-9361: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-9361: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-9362: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-9362: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-9362: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-9363: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-9363: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-9363: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-9366: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]	236.022
+RXN-9366: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_dorei	118.011
+RXN-9366: (expasy) Demethylmenaquinone methyltransferase [2.1.1.163]|g__Bacteroides.s__Bacteroides_vulgatus	118.011
+RXN-9623: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-9623: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-9644: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-9644: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN-9673: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN-9673: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN0-302: (expasy) 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [4.6.1.12]	392.755
+RXN0-302: (expasy) 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [4.6.1.12]|g__Bacteroides.s__Bacteroides_dorei	98.1887
+RXN0-302: (expasy) 2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase [4.6.1.12]|g__Bacteroides.s__Bacteroides_vulgatus	294.566
+RXN0-5189: (expasy) DNA-3-methyladenine glycosylase I [3.2.2.20]	362.577
+RXN0-5189: (expasy) DNA-3-methyladenine glycosylase I [3.2.2.20]|g__Bacteroides.s__Bacteroides_dorei	284.026
+RXN0-5189: (expasy) DNA-3-methyladenine glycosylase I [3.2.2.20]|g__Bacteroides.s__Bacteroides_vulgatus	78.551
+RXN0-7238: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN0-7238: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN0-7239: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN0-7239: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN0-7248: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN0-7248: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN66-469: (metacyc) 3-methyl-branched fatty acyl-CoA ligase [6.2.1.3]	433.771
+RXN66-469: (metacyc) 3-methyl-branched fatty acyl-CoA ligase [6.2.1.3]|unclassified	433.771
+RXN66-477: (metacyc) straight chain fatty acyl-CoA ligase [6.2.1.3]	433.771
+RXN66-477: (metacyc) straight chain fatty acyl-CoA ligase [6.2.1.3]|unclassified	433.771
+RXN66-480: (metacyc) phytenoyl-CoA synthetase [6.2.1.3]	433.771
+RXN66-480: (metacyc) phytenoyl-CoA synthetase [6.2.1.3]|unclassified	433.771
+RXN66-483: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN66-483: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+RXN66-484: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+RXN66-484: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+SHIKIMATE-KINASE-RXN: (expasy) Shikimate kinase [2.7.1.71]	351.557
+SHIKIMATE-KINASE-RXN: (expasy) Shikimate kinase [2.7.1.71]|g__Bacteroides.s__Bacteroides_dorei	175.778
+SHIKIMATE-KINASE-RXN: (expasy) Shikimate kinase [2.7.1.71]|g__Bacteroides.s__Bacteroides_vulgatus	175.778
+TDCEACT-RXN: (expasy) [Formate-C-acetyltransferase]-activating enzyme [1.97.1.4]	299.242
+TDCEACT-RXN: (expasy) [Formate-C-acetyltransferase]-activating enzyme [1.97.1.4]|g__Bacteroides.s__Bacteroides_dorei	299.242
+THIOREDOXIN-REDUCT-NADPH-RXN: (expasy) Thioredoxin-disulfide reductase [1.8.1.9]	355.284
+THIOREDOXIN-REDUCT-NADPH-RXN: (expasy) Thioredoxin-disulfide reductase [1.8.1.9]|g__Bacteroides.s__Bacteroides_vulgatus	355.284
+TRANS-RXN0-623: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]	433.771
+TRANS-RXN0-623: (expasy) Long-chain-fatty-acid--CoA ligase [6.2.1.3]|unclassified	433.771
+TRIOSEPISOMERIZATION-RXN: (expasy) Triose-phosphate isomerase [5.3.1.1]	344.333
+TRIOSEPISOMERIZATION-RXN: (expasy) Triose-phosphate isomerase [5.3.1.1]|g__Bacteroides.s__Bacteroides_dorei	57.3888
+TRIOSEPISOMERIZATION-RXN: (expasy) Triose-phosphate isomerase [5.3.1.1]|g__Bacteroides.s__Bacteroides_vulgatus	286.944
+TRNA-PSEUDOURIDINE-SYNTHASE-I-RXN: (expasy) tRNA pseudouridine(38-40) synthase [5.4.99.12]	218.68
+TRNA-PSEUDOURIDINE-SYNTHASE-I-RXN: (expasy) tRNA pseudouridine(38-40) synthase [5.4.99.12]|g__Bacteroides.s__Bacteroides_dorei	106.963
+TRNA-PSEUDOURIDINE-SYNTHASE-I-RXN: (expasy) tRNA pseudouridine(38-40) synthase [5.4.99.12]|g__Bacteroides.s__Bacteroides_vulgatus	111.717
+UDPNACETYLGLUCOSAMACYLTRANS-RXN: (expasy) Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase [2.3.1.129]	506.23300000000006
+UDPNACETYLGLUCOSAMACYLTRANS-RXN: (expasy) Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase [2.3.1.129]|g__Bacteroides.s__Bacteroides_dorei	225.438
+UDPNACETYLGLUCOSAMACYLTRANS-RXN: (expasy) Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase [2.3.1.129]|g__Bacteroides.s__Bacteroides_vulgatus	280.795

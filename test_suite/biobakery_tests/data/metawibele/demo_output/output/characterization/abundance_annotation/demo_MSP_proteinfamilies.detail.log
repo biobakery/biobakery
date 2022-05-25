@@ -1,0 +1,8 @@
+05/20/2021 10:45:39 PM - metawibele.config - INFO: ### Start msp_protein_family step ####
+05/20/2021 10:45:39 PM - metawibele.config - INFO: Get cluster info ......starting
+05/20/2021 10:45:39 PM - metawibele.config - INFO: Get cluster info ......done
+05/20/2021 10:45:39 PM - metawibele.config - INFO: Get annotation info ......starting
+05/20/2021 10:45:39 PM - metawibele.config - INFO: Get annotation info ......done
+05/20/2021 10:45:39 PM - metawibele.config - INFO: Assign annotation to protein families ......starting
+05/20/2021 10:45:39 PM - metawibele.config - INFO: Assign annotation to protein families ......done
+05/20/2021 10:45:39 PM - metawibele.config - INFO: ### Finish msp_protein_family step ####

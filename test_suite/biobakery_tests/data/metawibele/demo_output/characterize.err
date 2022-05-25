@@ -1,0 +1,613 @@
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `threads' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `characterization_config' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `mspminer_config' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_clustering' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_global_homology' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_domain_motif' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_interproscan' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_pfamtogo' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_domine' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_sifts' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_expatlas' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_psortb' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_abundance' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `split_number' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `bypass_integration' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `study' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `basename' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `input_sequence' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `input_count' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `input_metadata' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `output' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `input' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `config' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `jobs' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `grid_jobs' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `grid' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `grid_partition' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `grid_benchmark' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `grid_options' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `grid_environment' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `grid_scratch' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `dry_run' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `skip_nothing' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `quit_early' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `until_task' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `exclude_task' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `target' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `exclude_target' = `INFO'
+05/20/2021 10:33:24 PM - anadama2.cli - INFO: Command line argument `log_level' = `INFO'
+05/20/2021 10:33:24 PM - metawibele.config - INFO: The config file used for characterization: /usr/local/lib/python3.6/dist-packages/metawibele-0.4.1-py3.6.egg/metawibele/configs/characterization.cfg
+05/20/2021 10:33:24 PM - metawibele.config - INFO: ###### Start get_method_config module ######
+05/20/2021 10:33:24 PM - metawibele.config - INFO: ###### Finish get_method_config module ######
+05/20/2021 10:33:24 PM - metawibele.config - INFO: Start to run clustering module......
+05/20/2021 10:33:24 PM - metawibele.config - INFO: ###### Start clustering module #####
+05/20/2021 10:33:24 PM - metawibele.config - INFO: Start to run global-homology annotation module......
+05/20/2021 10:33:24 PM - metawibele.config - INFO: ###### Start global_homology_annotation module ######
+05/20/2021 10:33:24 PM - metawibele.config - INFO: Start to run domain-motif annotation module......
+05/20/2021 10:33:24 PM - metawibele.config - INFO: WARNING! Bypass module: the psortb annotation module is skipped......
+05/20/2021 10:33:24 PM - metawibele.config - INFO: ###### Start domain_motif_annotation module ######
+05/20/2021 10:34:24 PM - metawibele.config - INFO: Start to run abundance annotation module......
+05/20/2021 10:34:24 PM - metawibele.config - INFO: ###### Start abundance_annotation module ######
+05/20/2021 10:34:24 PM - metawibele.config - INFO: Start to run integration annotation module......
+05/20/2021 10:34:24 PM - metawibele.config - INFO: ###### Start integration_annotation module ######
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: Beginning AnADAMA run with 143 tasks.
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: Workflow description = A workflow for MetaWIBELE characterization
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: Workflow version = 0.4.1
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: Workflow configuration options
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: threads = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: characterization_config = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: mspminer_config = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_clustering = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_global_homology = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_domain_motif = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_interproscan = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_pfamtogo = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_domine = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_sifts = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_expatlas = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_psortb = True
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_abundance = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: split_number = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: bypass_integration = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: study = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: basename = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: input_sequence = input/demo_genecatalogs.centroid.faa
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: input_count = input/demo_genecatalogs_counts.all.tsv
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: input_metadata = input/demo_mgx_metadata.tsv
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: output = output/characterization/
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: input = /home/hutlab_public/Tutorials/metawibele/Yancong
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: config = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: jobs = 4
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: grid_jobs = 0
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: grid = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: grid_partition = 
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: grid_benchmark = off
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: grid_options = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: grid_environment = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: grid_scratch = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: dry_run = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: skip_nothing = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: quit_early = False
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: until_task = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: exclude_task = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: target = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: exclude_target = None
+05/20/2021 10:34:24 PM - LoggerReporter - INFO: log_level = INFO
+05/20/2021 10:34:25 PM - LoggerReporter - INFO: task 118, metadata_format : ready and waiting for resources 
+05/20/2021 10:34:27 PM - LoggerReporter - INFO: task 30, interproscan____split2 : ready and waiting for resources 
+05/20/2021 10:34:27 PM - LoggerReporter - INFO: task 32, interproscan____split3 : ready and waiting for resources 
+05/20/2021 10:34:27 PM - LoggerReporter - INFO: task 34, interproscan____split4 : ready and waiting for resources 
+05/20/2021 10:34:27 PM - LoggerReporter - INFO: task 27, interproscan____split1 : ready and waiting for resources 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: task 118, metadata_format : starting to run 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: task 0, clustering-proteins : ready and waiting for resources 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: task 9, uniref_annotator : ready and waiting for resources 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: Executing with shell:  metawibele_metadata_format -i /home/hutlab_public/Tutorials/metawibele/Yancong/input/demo_mgx_metadata.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/maaslin2_metadata.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/maaslin2_metadata.log 2>&1 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: task 30, interproscan____split2 : starting to run 
+05/20/2021 10:34:28 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: Executing with shell:  mkdir -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split2 && metawibele_interproscan_annotator --split-file split2 --threads 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split2 -i /home/hutlab_public/Tutorials/metawibele/Yancong/temp/split2/demo_genecatalogs.centroid.faa.split2.fasta > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split2/demo_genecatalogs.centroid.faa.split2.log 2> /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split2/demo_genecat.errs.centroid.faa.split2.err 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: task 32, interproscan____split3 : starting to run 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: task 118, metadata_format : completed successfully 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: Executing with shell:  mkdir -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split3 && metawibele_interproscan_annotator --split-file split3 --threads 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split3 -i /home/hutlab_public/Tutorials/metawibele/Yancong/temp/split3/demo_genecatalogs.centroid.faa.split3.fasta > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split3/demo_genecatalogs.centroid.faa.split3.log 2> /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split3/demo_genecat.errs.centroid.faa.split3.err 
+05/20/2021 10:34:28 PM - LoggerReporter - INFO: task 34, interproscan____split4 : starting to run 
+05/20/2021 10:34:29 PM - LoggerReporter - INFO: Executing with shell:  mkdir -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split4 && metawibele_interproscan_annotator --split-file split4 --threads 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split4 -i /home/hutlab_public/Tutorials/metawibele/Yancong/temp/split4/demo_genecatalogs.centroid.faa.split4.fasta > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split4/demo_genecatalogs.centroid.faa.split4.log 2> /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split4/demo_genecat.errs.centroid.faa.split4.err 
+05/20/2021 10:34:29 PM - LoggerReporter - INFO: task 27, interproscan____split1 : starting to run 
+05/20/2021 10:34:29 PM - LoggerReporter - INFO: Executing with shell:  mkdir -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split1 && metawibele_interproscan_annotator --split-file split1 --threads 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split1 -i /home/hutlab_public/Tutorials/metawibele/Yancong/temp/split1/demo_genecatalogs.centroid.faa.split1.fasta > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split1/demo_genecatalogs.centroid.faa.split1.log 2> /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split1/demo_genecat.errs.centroid.faa.split1.err 
+05/20/2021 10:41:08 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:08 PM - LoggerReporter - INFO: task 0, clustering-proteins : starting to run 
+05/20/2021 10:41:08 PM - LoggerReporter - INFO: task 34, interproscan____split4 : completed successfully 
+05/20/2021 10:41:08 PM - LoggerReporter - INFO: task 39, ln____split4.interproscan.txt : ready and waiting for resources 
+05/20/2021 10:41:08 PM - LoggerReporter - INFO: Executing with shell:  cd-hit -i /home/hutlab_public/Tutorials/metawibele/Yancong/input/demo_genecatalogs.centroid.faa -T 4  -d 100 -c 0.9 -aL 0.8 -aS 0.8 -G 0 -M 0 -B 0 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.centroid.faa > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.clstr.log 2>&1
+05/20/2021 10:41:09 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:09 PM - LoggerReporter - INFO: task 9, uniref_annotator : starting to run 
+05/20/2021 10:41:09 PM - LoggerReporter - INFO: task 0, clustering-proteins : completed successfully 
+05/20/2021 10:41:09 PM - LoggerReporter - INFO: task 3, store__clustering-proteins : ready and waiting for resources 
+05/20/2021 10:41:09 PM - LoggerReporter - INFO: task 4, ln__clustering-proteins : ready and waiting for resources 
+05/20/2021 10:41:09 PM - LoggerReporter - INFO: task 5, extract_cluster_CD-hit : ready and waiting for resources 
+05/20/2021 10:41:10 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/input/demo_genecatalogs.centroid.faa /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_genecatalogs.centroid.faa && metawibele_uniref_annotator /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_genecatalogs.centroid.faa --seqtype prot --uniref90db /opt/metawibele_dbs/uniref90.fasta.dmnd --diamond-options "--threads 4" --temp /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/uniref90.mapping.log 2>&1
+05/20/2021 10:41:12 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 39, ln____split4.interproscan.txt : starting to run 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split4/split4.interproscan.txt /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split4.interproscan.txt
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 9, uniref_annotator : completed successfully 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 13, uniref_annotator_stat : ready and waiting for resources 
+05/20/2021 10:41:12 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 3, store__clustering-proteins : starting to run 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: Executing with shell:  cp -f /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.centroid.faa /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.centroid.faa
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 39, ln____split4.interproscan.txt : completed successfully 
+05/20/2021 10:41:12 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 4, ln__clustering-proteins : starting to run 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.centroid.faa /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_proteinfamilies.centroid.faa
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 3, store__clustering-proteins : completed successfully 
+05/20/2021 10:41:12 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 5, extract_cluster_CD-hit : starting to run 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: task 4, ln__clustering-proteins : completed successfully 
+05/20/2021 10:41:12 PM - LoggerReporter - INFO: Executing with shell:  metawibele_extract_cluster -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.centroid.faa.clstr -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.clstr >> /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.clstr.log 2>&1
+05/20/2021 10:41:13 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:13 PM - LoggerReporter - INFO: task 5, extract_cluster_CD-hit : completed successfully 
+05/20/2021 10:41:13 PM - LoggerReporter - INFO: task 7, store__clustering-proteins : ready and waiting for resources 
+05/20/2021 10:41:13 PM - LoggerReporter - INFO: task 8, ln__clustering-proteins : ready and waiting for resources 
+05/20/2021 10:41:13 PM - LoggerReporter - INFO: task 13, uniref_annotator_stat : starting to run 
+05/20/2021 10:41:13 PM - LoggerReporter - INFO: Executing with shell:  metawibele_uniref_annotator_stat -s /home/hutlab_public/Tutorials/metawibele/Yancong/input/demo_genecatalogs.centroid.faa -d /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_genecatalogs.centroid.faa.uniref90.hits -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_genecatalogs.centroid.faa.uniref90.stat.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/uniref90.stat.log 2>&1
+05/20/2021 10:41:14 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: task 7, store__clustering-proteins : starting to run 
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: Executing with shell:  cp -f /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.clstr /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: task 13, uniref_annotator_stat : completed successfully 
+05/20/2021 10:41:14 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: task 8, ln__clustering-proteins : starting to run 
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/clustering/demo_proteinfamilies.clstr /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_proteinfamilies.clstr
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: task 7, store__clustering-proteins : completed successfully 
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: task 15, uniref_protein : ready and waiting for resources 
+05/20/2021 10:41:14 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: task 8, ln__clustering-proteins : completed successfully 
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: task 15, uniref_protein : starting to run 
+05/20/2021 10:41:14 PM - LoggerReporter - INFO: Executing with shell:  metawibele_uniref_protein -m /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_genecatalogs.centroid.faa.uniref90.stat.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_UniRef90_protein.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/uniref90_protein.log 2>&1
+05/20/2021 10:41:27 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:27 PM - LoggerReporter - INFO: task 32, interproscan____split3 : completed successfully 
+05/20/2021 10:41:27 PM - LoggerReporter - INFO: task 38, ln____split3.interproscan.txt : ready and waiting for resources 
+05/20/2021 10:41:27 PM - LoggerReporter - INFO: task 38, ln____split3.interproscan.txt : starting to run 
+05/20/2021 10:41:27 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split3/split3.interproscan.txt /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split3.interproscan.txt
+05/20/2021 10:41:27 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:27 PM - LoggerReporter - INFO: task 38, ln____split3.interproscan.txt : completed successfully 
+05/20/2021 10:41:52 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:52 PM - LoggerReporter - INFO: task 30, interproscan____split2 : completed successfully 
+05/20/2021 10:41:52 PM - LoggerReporter - INFO: task 37, ln____split2.interproscan.txt : ready and waiting for resources 
+05/20/2021 10:41:52 PM - LoggerReporter - INFO: task 37, ln____split2.interproscan.txt : starting to run 
+05/20/2021 10:41:52 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split2/split2.interproscan.txt /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split2.interproscan.txt
+05/20/2021 10:41:52 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:41:52 PM - LoggerReporter - INFO: task 37, ln____split2.interproscan.txt : completed successfully 
+05/20/2021 10:42:40 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 27, interproscan____split1 : completed successfully 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 36, ln____split1.interproscan.txt : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 36, ln____split1.interproscan.txt : starting to run 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split1/split1.interproscan.txt /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split1.interproscan.txt
+05/20/2021 10:42:40 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 36, ln____split1.interproscan.txt : completed successfully 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 40, interproscan_protein : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 40, interproscan_protein : starting to run 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: Executing with shell:  metawibele_interproscan_protein -e interproscan.txt -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/interproscan.extract.log 2>&1
+05/20/2021 10:42:40 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 40, interproscan_protein : completed successfully 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 58, ddi_DOMINE_protein : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 60, ddi_DOMINE_protein : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 42, interproscan_signalp_protein_family : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 44, interproscan_tmhmm_protein_family : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 46, interproscan_phobius_protein_family : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 48, interproscan_pfam_protein_family : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 50, interproscan_protein_family : ready and waiting for resources 
+05/20/2021 10:42:40 PM - LoggerReporter - INFO: task 58, ddi_DOMINE_protein : starting to run 
+05/20/2021 10:42:41 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_protein -e interpro.PfamDomain.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -f no -s interpro.DDI.tsv >>/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.detail.log 2>&1 
+05/20/2021 10:42:41 PM - LoggerReporter - INFO: task 60, ddi_DOMINE_protein : starting to run 
+05/20/2021 10:42:41 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_protein -e interpro.PfamDomain.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -f yes -s interpro.sub.DDI.tsv >> /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.detail.log 2>&1 
+05/20/2021 10:42:41 PM - LoggerReporter - INFO: task 42, interproscan_signalp_protein_family : starting to run 
+05/20/2021 10:42:41 PM - LoggerReporter - INFO: Executing with shell:  metawibele_interproscan_signalp_protein_family -e signalp.signaling.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -a consistency -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_SignalP_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_SignalP_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:42 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 44, interproscan_tmhmm_protein_family : starting to run 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 42, interproscan_signalp_protein_family : completed successfully 
+05/20/2021 10:42:42 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 58, ddi_DOMINE_protein : completed successfully 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 61, ddi_DOMINE_protein_family : ready and waiting for resources 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: Executing with shell:  metawibele_interproscan_tmhmm_protein_family -e tmhmm.transmembrane.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -a consistency -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_TMHMM_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_TMHMM_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 46, interproscan_phobius_protein_family : starting to run 
+05/20/2021 10:42:42 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 60, ddi_DOMINE_protein : completed successfully 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 63, ddi_DOMINE_protein_family : ready and waiting for resources 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: Executing with shell:  metawibele_interproscan_phobius_protein_family -e phobius.signaling.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -a consistency -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Phobius_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Phobius_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 48, interproscan_pfam_protein_family : starting to run 
+05/20/2021 10:42:42 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:42 PM - LoggerReporter - INFO: task 44, interproscan_tmhmm_protein_family : completed successfully 
+05/20/2021 10:42:43 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 46, interproscan_phobius_protein_family : completed successfully 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 54, denovo_TM_SP : ready and waiting for resources 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 52, denovo_TM_SP : ready and waiting for resources 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: Executing with shell:  metawibele_interproscan_pfam_protein_family -e interpro.PfamDomain.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -a consistency -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Pfam_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Pfam_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 50, interproscan_protein_family : starting to run 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: Executing with shell:  metawibele_interproscan_protein_family -e interproscan.txt -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -a consistency -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_InterProScan_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_InterProScan_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 61, ddi_DOMINE_protein_family : starting to run 
+05/20/2021 10:42:43 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 48, interproscan_pfam_protein_family : completed successfully 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 57, pfam2go : ready and waiting for resources 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 55, pfam2go : ready and waiting for resources 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_protein_family -e interpro.DDI.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -a consistency -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.detail.log 2>&1 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 63, ddi_DOMINE_protein_family : starting to run 
+05/20/2021 10:42:43 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:43 PM - LoggerReporter - INFO: task 50, interproscan_protein_family : completed successfully 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_protein_family -e interpro.sub.DDI.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan -a consistency -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -l DOMINE_interaction-human -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.sub.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.sub.detail.log 2>&1 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 54, denovo_TM_SP : starting to run 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: Executing with shell:  metawibele_denovo_TM_SP -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Phobius_proteinfamilies.ORF.signaling.detail.tsv -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Phobius_proteinfamilies.ORF.transmembrane.detail.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_SignalP_proteinfamilies.ORF.detail.tsv -d /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_TMHMM_proteinfamilies.ORF.detail.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Denovo_proteinfamilies.ORF.detail.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Denovo_proteinfamilies.ORF.detail.log 2>&1
+05/20/2021 10:42:44 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 52, denovo_TM_SP : starting to run 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 61, ddi_DOMINE_protein_family : completed successfully 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 66, ddi_DOMINE_ann : ready and waiting for resources 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 64, ddi_DOMINE_ann : ready and waiting for resources 
+05/20/2021 10:42:44 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 54, denovo_TM_SP : completed successfully 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: Executing with shell:  metawibele_denovo_TM_SP -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Phobius_proteinfamilies.signaling.detail.tsv -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Phobius_proteinfamilies.transmembrane.detail.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_SignalP_proteinfamilies.detail.tsv -d /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_TMHMM_proteinfamilies.detail.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Denovo_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Denovo_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 57, pfam2go : starting to run 
+05/20/2021 10:42:44 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 63, ddi_DOMINE_protein_family : completed successfully 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 68, ddi_DOMINE_ann : ready and waiting for resources 
+05/20/2021 10:42:44 PM - LoggerReporter - INFO: task 67, ddi_DOMINE_ann : ready and waiting for resources 
+05/20/2021 10:42:45 PM - LoggerReporter - INFO: Executing with shell:  metawibele_pfam2go -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Pfam_proteinfamilies.ORF.detail.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Pfam2GO_proteinfamilies.ORF.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Pfam2GO_proteinfamilies.ORF.detail.log 2>&1 
+05/20/2021 10:42:45 PM - LoggerReporter - INFO: task 55, pfam2go : starting to run 
+05/20/2021 10:42:45 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:45 PM - LoggerReporter - INFO: task 52, denovo_TM_SP : completed successfully 
+05/20/2021 10:42:45 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:45 PM - LoggerReporter - INFO: task 57, pfam2go : completed successfully 
+05/20/2021 10:42:45 PM - LoggerReporter - INFO: Executing with shell:  metawibele_pfam2go -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Pfam_proteinfamilies.detail.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Pfam2GO_proteinfamilies.detail.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_Pfam2GO_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:45 PM - LoggerReporter - INFO: task 66, ddi_DOMINE_ann : starting to run 
+05/20/2021 10:42:45 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:45 PM - LoggerReporter - INFO: task 55, pfam2go : completed successfully 
+05/20/2021 10:42:46 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_ann -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.detail.ann.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.detail.ann.log 2>&1
+05/20/2021 10:42:46 PM - LoggerReporter - INFO: task 64, ddi_DOMINE_ann : starting to run 
+05/20/2021 10:42:46 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_ann -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.detail.ann.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.detail.ann.log 2>&1
+05/20/2021 10:42:46 PM - LoggerReporter - INFO: task 68, ddi_DOMINE_ann : starting to run 
+05/20/2021 10:42:46 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:46 PM - LoggerReporter - INFO: task 66, ddi_DOMINE_ann : completed successfully 
+05/20/2021 10:42:46 PM - LoggerReporter - INFO: task 71, ddi_DOMINE_SIFTS : ready and waiting for resources 
+05/20/2021 10:42:46 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_ann -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.sub.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.sub.detail.ann.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.sub.detail.ann.log 2>&1
+05/20/2021 10:42:46 PM - LoggerReporter - INFO: task 67, ddi_DOMINE_ann : starting to run 
+05/20/2021 10:42:47 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 64, ddi_DOMINE_ann : completed successfully 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 69, ddi_DOMINE_SIFTS : ready and waiting for resources 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_ann -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.sub.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.sub.detail.ann.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.sub.detail.ann.log 2>&1
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 71, ddi_DOMINE_SIFTS : starting to run 
+05/20/2021 10:42:47 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 68, ddi_DOMINE_ann : completed successfully 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 74, ddi_DOMINE_ExpAtlas : ready and waiting for resources 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_SIFTS -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.detail.ann.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_SIFTS_proteinfamilies.ORF.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_SIFTS_proteinfamilies.ORF.detail.log 2>&1
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 69, ddi_DOMINE_SIFTS : starting to run 
+05/20/2021 10:42:47 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 67, ddi_DOMINE_ann : completed successfully 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 72, ddi_DOMINE_ExpAtlas : ready and waiting for resources 
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_SIFTS -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.detail.ann.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_SIFTS_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_SIFTS_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:47 PM - LoggerReporter - INFO: task 74, ddi_DOMINE_ExpAtlas : starting to run 
+05/20/2021 10:42:48 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_ExpAtlas -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.ORF.sub.detail.ann.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_ExpAtlas_proteinfamilies.ORF.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_ExpAtlas_proteinfamilies.ORF.detail.log 2>&1
+05/20/2021 10:42:49 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:49 PM - LoggerReporter - INFO: task 72, ddi_DOMINE_ExpAtlas : starting to run 
+05/20/2021 10:42:49 PM - LoggerReporter - INFO: task 74, ddi_DOMINE_ExpAtlas : completed successfully 
+05/20/2021 10:42:50 PM - LoggerReporter - INFO: Executing with shell:  metawibele_ddi_DOMINE_ExpAtlas -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_DOMINE_proteinfamilies.sub.detail.ann.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_ExpAtlas_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/demo_ExpAtlas_proteinfamilies.detail.log 2>&1
+05/20/2021 10:42:51 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:42:51 PM - LoggerReporter - INFO: task 72, ddi_DOMINE_ExpAtlas : completed successfully 
+05/20/2021 10:44:02 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:02 PM - LoggerReporter - INFO: task 15, uniref_protein : completed successfully 
+05/20/2021 10:44:02 PM - LoggerReporter - INFO: task 17, uniref_protein_family : ready and waiting for resources 
+05/20/2021 10:44:02 PM - LoggerReporter - INFO: task 17, uniref_protein_family : starting to run 
+05/20/2021 10:44:02 PM - LoggerReporter - INFO: Executing with shell:  metawibele_uniref_protein_family -u /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_UniRef90_protein.tsv -m /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_genecatalogs.centroid.faa.uniref90.stat.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -f centroid -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_UniRef90_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/uniref90_proteinfamilies.log 2>&1
+05/20/2021 10:44:03 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:03 PM - LoggerReporter - INFO: task 17, uniref_protein_family : completed successfully 
+05/20/2021 10:44:03 PM - LoggerReporter - INFO: task 19, summary_protein_uniref_annotation : ready and waiting for resources 
+05/20/2021 10:44:03 PM - LoggerReporter - INFO: task 21, summary_protein_family_uniref_annotation : ready and waiting for resources 
+05/20/2021 10:44:03 PM - LoggerReporter - INFO: task 21, summary_protein_family_uniref_annotation : starting to run 
+05/20/2021 10:44:03 PM - LoggerReporter - INFO: Executing with shell:  metawibele_summary_protein_family_uniref_annotation -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_UniRef90_proteinfamilies.detail.tsv -m /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_genecatalogs.centroid.faa.uniref90.stat.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -s demo -t Rep -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_proteinfamilies_annotation.uniref90_annotation.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/uniref90_family_annotation.log 2>&1
+05/20/2021 10:44:03 PM - LoggerReporter - INFO: task 19, summary_protein_uniref_annotation : starting to run 
+05/20/2021 10:44:03 PM - LoggerReporter - INFO: Executing with shell:  metawibele_summary_protein_uniref_annotation -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_UniRef90_proteinfamilies.ORF.detail.tsv -m /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_genecatalogs.centroid.faa.uniref90.stat.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -s demo -t Rep -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_protein_annotation.uniref90_annotation.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/uniref90_annotation.log 2>&1
+05/20/2021 10:44:24 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 21, summary_protein_family_uniref_annotation : completed successfully 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 23, store__uniref_taxa_family : ready and waiting for resources 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 25, ln__uniref_taxa_family : ready and waiting for resources 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 23, store__uniref_taxa_family : starting to run 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: Executing with shell:  cp -f /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_proteinfamilies_annotation.uniref90_annotation.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.uniref90_annotation.tsv
+05/20/2021 10:44:24 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 25, ln__uniref_taxa_family : starting to run 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_proteinfamilies_annotation.uniref90_annotation.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_proteinfamilies_annotation.uniref90_annotation.tsv
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 23, store__uniref_taxa_family : completed successfully 
+05/20/2021 10:44:24 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 25, ln__uniref_taxa_family : completed successfully 
+05/20/2021 10:44:24 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 19, summary_protein_uniref_annotation : completed successfully 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 24, store__uniref_taxa : ready and waiting for resources 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 26, ln__uniref_taxa : ready and waiting for resources 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 24, store__uniref_taxa : starting to run 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: Executing with shell:  cp -f /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_protein_annotation.uniref90_annotation.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.uniref90_annotation.tsv
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 26, ln__uniref_taxa : starting to run 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/global_homology_annotation/demo_protein_annotation.uniref90_annotation.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_protein_annotation.uniref90_annotation.tsv
+05/20/2021 10:44:24 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 24, store__uniref_taxa : completed successfully 
+05/20/2021 10:44:24 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 26, ln__uniref_taxa : completed successfully 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 75, abundance_filtering : ready and waiting for resources 
+05/20/2021 10:44:24 PM - LoggerReporter - INFO: task 75, abundance_filtering : starting to run 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_filtering -a /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_genecatalogs_counts.all.tsv -f good -i /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_protein_annotation.uniref90_annotation.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_counts.all.refined.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_counts.all.refined.log 2>&1
+05/20/2021 10:44:25 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 75, abundance_filtering : completed successfully 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 78, ln__counts_file : ready and waiting for resources 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 79, mspminer : ready and waiting for resources 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 105, abundance_RPK_gene : ready and waiting for resources 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 98, sum_to_protein_family_abundance : ready and waiting for resources 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 78, ln__counts_file : starting to run 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_counts.all.refined.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_genecatalogs_counts.all.refined.tsv
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 79, mspminer : starting to run 
+05/20/2021 10:44:25 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 78, ln__counts_file : completed successfully 
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: Executing with shell:  mspminer /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/MSPminer_setting.cfg >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.run_mspminer.log 2>&1
+05/20/2021 10:44:25 PM - LoggerReporter - INFO: task 105, abundance_RPK_gene : starting to run 
+05/20/2021 10:44:26 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_RPK -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_counts.all.refined.tsv -l /home/hutlab_public/Tutorials/metawibele/Yancong/input/demo_genecatalogs.centroid.faa -t fasta -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_counts.RPK.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_counts.RPK.log 2>&1
+05/20/2021 10:44:28 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:28 PM - LoggerReporter - INFO: task 98, sum_to_protein_family_abundance : starting to run 
+05/20/2021 10:44:28 PM - LoggerReporter - INFO: task 105, abundance_RPK_gene : completed successfully 
+05/20/2021 10:44:28 PM - LoggerReporter - INFO: task 106, abundance_normalization : ready and waiting for resources 
+05/20/2021 10:44:28 PM - LoggerReporter - INFO: Executing with shell:  metawibele_sum_to_protein_family_abundance -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_counts.all.refined.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_proteinfamilies.clstr -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.all.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.all.log 2>&1
+05/20/2021 10:44:30 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:30 PM - LoggerReporter - INFO: task 106, abundance_normalization : starting to run 
+05/20/2021 10:44:30 PM - LoggerReporter - INFO: task 98, sum_to_protein_family_abundance : completed successfully 
+05/20/2021 10:44:30 PM - LoggerReporter - INFO: task 100, abundance_filtering : ready and waiting for resources 
+05/20/2021 10:44:30 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_normalization -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_counts.RPK.tsv -u cpm -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_nrm.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_nrm.log 2>&1
+05/20/2021 10:44:31 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:31 PM - LoggerReporter - INFO: task 100, abundance_filtering : starting to run 
+05/20/2021 10:44:31 PM - LoggerReporter - INFO: task 79, mspminer : completed successfully 
+05/20/2021 10:44:31 PM - LoggerReporter - INFO: task 82, mspminer_msp : ready and waiting for resources 
+05/20/2021 10:44:31 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:31 PM - LoggerReporter - INFO: task 106, abundance_normalization : completed successfully 
+05/20/2021 10:44:31 PM - LoggerReporter - INFO: task 110, abundance_annotator : ready and waiting for resources 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_filtering -i /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_proteinfamilies_annotation.uniref90_annotation.tsv -f good -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.all.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.log 2>&1
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: task 82, mspminer_msp : starting to run 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: Executing with shell:  metawibele_mspminer_msp -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.uniref90_annotation.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/MSPminer_output -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.log 2>&1
+05/20/2021 10:44:32 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: task 110, abundance_annotator : starting to run 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: task 100, abundance_filtering : completed successfully 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: task 101, abundance_RPK : ready and waiting for resources 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_annotator -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_genecatalogs_nrm.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_proteinfamilies.clstr -m /home/hutlab_public/Tutorials/metawibele/Yancong/input/demo_mgx_metadata.tsv -f protein -t DNA_abundance -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_DNA_proteinfamilies.ORF.abundance.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_DNA_proteinfamilies.ORF.abundance.detail.log 2>&1
+05/20/2021 10:44:32 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: task 101, abundance_RPK : starting to run 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: task 82, mspminer_msp : completed successfully 
+05/20/2021 10:44:32 PM - LoggerReporter - INFO: task 84, mspminer_msp_uniref_annotation : ready and waiting for resources 
+05/20/2021 10:44:33 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_RPK -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.tsv -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -t cluster -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.RPK.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.RPK.log 2>&1
+05/20/2021 10:44:33 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:33 PM - LoggerReporter - INFO: task 84, mspminer_msp_uniref_annotation : starting to run 
+05/20/2021 10:44:33 PM - LoggerReporter - INFO: task 101, abundance_RPK : completed successfully 
+05/20/2021 10:44:33 PM - LoggerReporter - INFO: task 103, abundance_normalization : ready and waiting for resources 
+05/20/2021 10:44:33 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:33 PM - LoggerReporter - INFO: task 110, abundance_annotator : completed successfully 
+05/20/2021 10:44:34 PM - LoggerReporter - INFO: Executing with shell:  metawibele_mspminer_msp_uniref_annotation -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.uniref90_annotation.tsv -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.uniref90_annotation.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.uniref90_annotation.log 2>&1
+05/20/2021 10:44:34 PM - LoggerReporter - INFO: task 103, abundance_normalization : starting to run 
+05/20/2021 10:44:34 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_normalization -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_counts.RPK.tsv -u cpm -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.log 2>&1
+05/20/2021 10:44:35 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:35 PM - LoggerReporter - INFO: task 103, abundance_normalization : completed successfully 
+05/20/2021 10:44:35 PM - LoggerReporter - INFO: task 107, abundance_annotator : ready and waiting for resources 
+05/20/2021 10:44:35 PM - LoggerReporter - INFO: task 111, store__proteinfamilies_relab : ready and waiting for resources 
+05/20/2021 10:44:35 PM - LoggerReporter - INFO: task 112, ln__proteinfamilies_relab : ready and waiting for resources 
+05/20/2021 10:44:35 PM - LoggerReporter - INFO: task 107, abundance_annotator : starting to run 
+05/20/2021 10:44:35 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_annotator -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -m /home/hutlab_public/Tutorials/metawibele/Yancong/input/demo_mgx_metadata.tsv -f protein_family -t DNA_abundance -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_DNA_proteinfamilies.abundance.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_DNA_proteinfamilies.abundance.detail.log 2>&1
+05/20/2021 10:44:36 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: task 111, store__proteinfamilies_relab : starting to run 
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: Executing with shell:  cp -f /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_nrm.tsv
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: task 107, abundance_annotator : completed successfully 
+05/20/2021 10:44:36 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: task 112, ln__proteinfamilies_relab : starting to run 
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_proteinfamilies_nrm.tsv
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: task 111, store__proteinfamilies_relab : completed successfully 
+05/20/2021 10:44:36 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: task 112, ln__proteinfamilies_relab : completed successfully 
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: task 113, abundance_smoothing : ready and waiting for resources 
+05/20/2021 10:44:36 PM - LoggerReporter - INFO: task 113, abundance_smoothing : starting to run 
+05/20/2021 10:44:37 PM - LoggerReporter - INFO: Executing with shell:  metawibele_abundance_smoothing -i /home/hutlab_public/Tutorials/metawibele/Yancong/temp/demo_proteinfamilies_nrm.tsv -f 0 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_proteinfamilies_nrm.smooth.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_proteinfamilies_nrm.smooth.log 2>&1
+05/20/2021 10:44:38 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:38 PM - LoggerReporter - INFO: task 113, abundance_smoothing : completed successfully 
+05/20/2021 10:44:38 PM - LoggerReporter - INFO: task 115, ln__proteinfamilies_relab_feature : ready and waiting for resources 
+05/20/2021 10:44:38 PM - LoggerReporter - INFO: task 115, ln__proteinfamilies_relab_feature : starting to run 
+05/20/2021 10:44:38 PM - LoggerReporter - INFO: Executing with shell:  ln -fs /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.feature.pcl
+05/20/2021 10:44:38 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:38 PM - LoggerReporter - INFO: task 115, ln__proteinfamilies_relab_feature : completed successfully 
+05/20/2021 10:44:38 PM - LoggerReporter - INFO: task 116, transpose : ready and waiting for resources 
+05/20/2021 10:44:38 PM - LoggerReporter - INFO: task 116, transpose : starting to run 
+05/20/2021 10:44:39 PM - LoggerReporter - INFO: Executing with shell:  metawibele_transpose < /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.feature.pcl > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.feature.tsv 2> /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.feature.tsv
+05/20/2021 10:44:39 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:44:39 PM - LoggerReporter - INFO: task 116, transpose : completed successfully 
+05/20/2021 10:44:39 PM - LoggerReporter - INFO: task 120, maaslin2 : ready and waiting for resources 
+05/20/2021 10:44:39 PM - LoggerReporter - INFO: task 120, maaslin2 : starting to run 
+05/20/2021 10:44:39 PM - LoggerReporter - INFO: Executing with shell:  metawibele_maaslin2 -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.feature.tsv -m /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/maaslin2_metadata.tsv -n 4 -w /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/maaslin2_output -o all_results.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/maaslin2_metadata.results.log 2>&1
+05/20/2021 10:45:12 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:12 PM - LoggerReporter - INFO: task 84, mspminer_msp_uniref_annotation : completed successfully 
+05/20/2021 10:45:12 PM - LoggerReporter - INFO: task 86, mspminer_msp_taxonomy_annotation : ready and waiting for resources 
+05/20/2021 10:45:12 PM - LoggerReporter - INFO: task 86, mspminer_msp_taxonomy_annotation : starting to run 
+05/20/2021 10:45:12 PM - LoggerReporter - INFO: Executing with shell:  metawibele_mspminer_msp_taxonomy_annotation -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.uniref90_annotation.tsv -t UniRef90_homology -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.taxonomy.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.taxonomy.log 2>&1
+05/20/2021 10:45:15 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:15 PM - LoggerReporter - INFO: task 69, ddi_DOMINE_SIFTS : completed successfully 
+05/20/2021 10:45:15 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:15 PM - LoggerReporter - INFO: task 71, ddi_DOMINE_SIFTS : completed successfully 
+05/20/2021 10:45:34 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:34 PM - LoggerReporter - INFO: task 120, maaslin2 : completed successfully 
+05/20/2021 10:45:34 PM - LoggerReporter - INFO: task 122, maaslin2_collection : ready and waiting for resources 
+05/20/2021 10:45:34 PM - LoggerReporter - INFO: task 122, maaslin2_collection : starting to run 
+05/20/2021 10:45:34 PM - LoggerReporter - INFO: Executing with shell:  metawibele_maaslin2_collection -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_nrm.tsv -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_proteinfamilies_nrm.smooth.tsv -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/maaslin2_output/all_results.fdr_correction.correct_per_level.tsv -m /home/hutlab_public/Tutorials/metawibele/Yancong/input/demo_mgx_metadata.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_stat_diff_family_abundance.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_stat_diff_family_abundance.stat.tsv.log 2>&1
+05/20/2021 10:45:36 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:36 PM - LoggerReporter - INFO: task 122, maaslin2_collection : completed successfully 
+05/20/2021 10:45:36 PM - LoggerReporter - INFO: task 124, maaslin2_summary : ready and waiting for resources 
+05/20/2021 10:45:36 PM - LoggerReporter - INFO: task 126, maaslin2_summary : ready and waiting for resources 
+05/20/2021 10:45:36 PM - LoggerReporter - INFO: task 124, maaslin2_summary : starting to run 
+05/20/2021 10:45:36 PM - LoggerReporter - INFO: Executing with shell:  metawibele_maaslin2_summary -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_stat_diff_family_abundance.stat.tsv -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_stat_diff_family_abundance.fold.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_stat_diff_family_abundance.prevalence.tsv -p 0.1 -q 0.05 -e mean_log -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_diff_family_abundance.stat.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_diff_family_abundance.stat.tsv.log 2>&1
+05/20/2021 10:45:36 PM - LoggerReporter - INFO: task 126, maaslin2_summary : starting to run 
+05/20/2021 10:45:36 PM - LoggerReporter - INFO: Executing with shell:  metawibele_maaslin2_summary -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_stat_diff_family_abundance.minQ.stat.tsv -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_stat_diff_family_abundance.minQ.fold.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_stat_diff_family_abundance.minQ.prevalence.tsv -p 0.1 -q 0.05 -e mean_log -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_diff_family_abundance.minQ.stat.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_diff_family_abundance.minQ.stat.tsv.log 2>&1
+05/20/2021 10:45:37 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:37 PM - LoggerReporter - INFO: task 86, mspminer_msp_taxonomy_annotation : completed successfully 
+05/20/2021 10:45:37 PM - LoggerReporter - INFO: task 88, mspminer_protein : ready and waiting for resources 
+05/20/2021 10:45:37 PM - LoggerReporter - INFO: task 88, mspminer_protein : starting to run 
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: Executing with shell:  metawibele_mspminer_protein -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.taxonomy.tsv -m /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_msp.tsv -g /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.uniref90_annotation.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_annotation.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_annotation.log 2>&1
+05/20/2021 10:45:38 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: task 88, mspminer_protein : completed successfully 
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: task 90, mspminer_protein_family : ready and waiting for resources 
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: task 92, msp_protein_family : ready and waiting for resources 
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: task 90, mspminer_protein_family : starting to run 
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: task 94, mspminer_protein_family_taxonomy : ready and waiting for resources 
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: Executing with shell:  metawibele_mspminer_protein_family -f centroid -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -m /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_annotation.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_proteinfamilies.detail.log 2>&1
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: task 92, msp_protein_family : starting to run 
+05/20/2021 10:45:38 PM - LoggerReporter - INFO: Executing with shell:  metawibele_msp_protein_family -m /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_annotation.taxonomy.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSP_proteinfamilies.detail.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSP_proteinfamilies.detail.log 2>&1
+05/20/2021 10:45:39 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:39 PM - LoggerReporter - INFO: task 94, mspminer_protein_family_taxonomy : starting to run 
+05/20/2021 10:45:39 PM - LoggerReporter - INFO: task 90, mspminer_protein_family : completed successfully 
+05/20/2021 10:45:39 PM - LoggerReporter - INFO: task 135, summary_function_annotation : ready and waiting for resources 
+05/20/2021 10:45:39 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:39 PM - LoggerReporter - INFO: task 92, msp_protein_family : completed successfully 
+05/20/2021 10:45:39 PM - LoggerReporter - INFO: Executing with shell:  metawibele_mspminer_protein_family_taxonomy -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MSPminer_annotation.taxonomy.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -s Rep -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_annotation.taxonomy.tsv >/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_annotation.taxonomy.log 2>&1
+05/20/2021 10:45:39 PM - LoggerReporter - INFO: task 135, summary_function_annotation : starting to run 
+05/20/2021 10:45:39 PM - LoggerReporter - INFO: Executing with shell:  metawibele_summary_function_annotation -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/protein_ann.list -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.uniref90_annotation.tsv  -b demo -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -s demo -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_protein_annotation.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_protein_annotation.tsv.log 2>&1
+05/20/2021 10:45:40 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:40 PM - LoggerReporter - INFO: task 124, maaslin2_summary : completed successfully 
+05/20/2021 10:45:40 PM - LoggerReporter - INFO: task 127, maaslin2_annotator : ready and waiting for resources 
+05/20/2021 10:45:40 PM - LoggerReporter - INFO: task 129, maaslin2_annotator : ready and waiting for resources 
+05/20/2021 10:45:40 PM - LoggerReporter - INFO: task 127, maaslin2_annotator : starting to run 
+05/20/2021 10:45:40 PM - LoggerReporter - INFO: Executing with shell:  metawibele_maaslin2_annotator -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_diff_family_abundance.stat.tsv -t MaAsLin2_DA-sig -e mean_log -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MaAsLin2_proteinfamilies.DA-sig.detail.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MaAsLin2_proteinfamilies.DA-sig.detail.tsv.log 2>&1
+05/20/2021 10:45:41 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 129, maaslin2_annotator : starting to run 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 126, maaslin2_summary : completed successfully 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 130, maaslin2_annotator : ready and waiting for resources 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 131, maaslin2_annotator : ready and waiting for resources 
+05/20/2021 10:45:41 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 127, maaslin2_annotator : completed successfully 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: Executing with shell:  metawibele_maaslin2_annotator -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_diff_family_abundance.stat.all.tsv -t MaAsLin2_DA -e mean_log -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MaAsLin2_proteinfamilies.DA.detail.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MaAsLin2_proteinfamilies.DA.detail.tsv.log 2>&1
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 130, maaslin2_annotator : starting to run 
+05/20/2021 10:45:41 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 135, summary_function_annotation : completed successfully 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: Executing with shell:  metawibele_maaslin2_annotator -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_diff_family_abundance.minQ.stat.tsv -t MaAsLin2_DA-minQ-sig -e mean_log -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MaAsLin2_proteinfamilies.DA-minQ-sig.detail.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MaAsLin2_proteinfamilies.DA-minQ-sig.detail.tsv.log 2>&1
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 131, maaslin2_annotator : starting to run 
+05/20/2021 10:45:41 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 129, maaslin2_annotator : completed successfully 
+05/20/2021 10:45:41 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: task 130, maaslin2_annotator : completed successfully 
+05/20/2021 10:45:41 PM - LoggerReporter - INFO: Executing with shell:  metawibele_maaslin2_annotator -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/DA/demo_diff_family_abundance.minQ.stat.all.tsv -t MaAsLin2_DA-minQ -e mean_log -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MaAsLin2_proteinfamilies.DA-minQ.detail.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_MaAsLin2_proteinfamilies.DA-minQ.detail.tsv.log 2>&1
+05/20/2021 10:45:42 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:42 PM - LoggerReporter - INFO: task 131, maaslin2_annotator : completed successfully 
+05/20/2021 10:45:42 PM - LoggerReporter - INFO: task 132, summary_function_annotation : ready and waiting for resources 
+05/20/2021 10:45:42 PM - LoggerReporter - INFO: task 132, summary_function_annotation : starting to run 
+05/20/2021 10:45:42 PM - LoggerReporter - INFO: Executing with shell:  metawibele_summary_function_annotation -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/protein_family_ann.list -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.uniref90_annotation.tsv -b demo -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -s demo -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_proteinfamilies_annotation.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_proteinfamilies_annotation.tsv.log 2>&1
+05/20/2021 10:45:43 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:45:43 PM - LoggerReporter - INFO: task 132, summary_function_annotation : completed successfully 
+05/20/2021 10:46:01 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 94, mspminer_protein_family_taxonomy : completed successfully 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 96, store__mymsp_detail_taxa_family : ready and waiting for resources 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 97, store__mymsp_detail_taxa : ready and waiting for resources 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 96, store__mymsp_detail_taxa_family : starting to run 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: Executing with shell:  cp -f /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_proteinfamilies_annotation.taxonomy.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.taxonomy.tsv
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 97, store__mymsp_detail_taxa : starting to run 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: Executing with shell:  cp -f /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/abundance_annotation/demo_protein_annotation.taxonomy.tsv /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.taxonomy.tsv
+05/20/2021 10:46:01 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:46:01 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 96, store__mymsp_detail_taxa_family : completed successfully 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 137, summary_all_annotation : ready and waiting for resources 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 140, finalize_annotation : ready and waiting for resources 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 97, store__mymsp_detail_taxa : completed successfully 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 137, summary_all_annotation : starting to run 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 139, summary_all_annotation : ready and waiting for resources 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 142, finalize_annotation : ready and waiting for resources 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: Executing with shell:  metawibele_summary_all_annotation -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_proteinfamilies_annotation.tsv -t /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.taxonomy.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_proteinfamilies_annotation.all.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_proteinfamilies_annotation.all.tsv.log 2>&1
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 140, finalize_annotation : starting to run 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: Executing with shell:  metawibele_finalize_annotation -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/protein_family_ann.list -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_proteinfamilies_annotation.tsv -t /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.taxonomy.tsv -u /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.uniref90_annotation.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -b demo -s protein_family -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.tsv.log 2>&1
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 139, summary_all_annotation : starting to run 
+05/20/2021 10:46:01 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 137, summary_all_annotation : completed successfully 
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: Executing with shell:  metawibele_summary_all_annotation -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_protein_annotation.tsv -t /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.taxonomy.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_protein_annotation.all.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_protein_annotation.all.tsv.log 2>&1
+05/20/2021 10:46:01 PM - LoggerReporter - INFO: task 142, finalize_annotation : starting to run 
+05/20/2021 10:46:02 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:46:02 PM - LoggerReporter - INFO: task 139, summary_all_annotation : completed successfully 
+05/20/2021 10:46:02 PM - LoggerReporter - INFO: Executing with shell:  metawibele_finalize_annotation -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/protein_ann.list -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_summary_protein_annotation.tsv -t /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.taxonomy.tsv -u /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.uniref90_annotation.tsv -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies.clstr -b demo -s protein -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_protein_annotation.tsv.log 2>&1
+05/20/2021 10:46:03 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:46:03 PM - LoggerReporter - INFO: task 140, finalize_annotation : completed successfully 
+05/20/2021 10:46:03 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:46:03 PM - LoggerReporter - INFO: task 142, finalize_annotation : completed successfully 
+05/20/2021 10:46:03 PM - LoggerReporter - INFO: AnADAMA run finished.

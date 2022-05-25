@@ -1,0 +1,7 @@
+05/20/2021 10:42:43 PM - metawibele.config - INFO: #### Start interproscan_protein_family step ####
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Get info ......starting
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Get annotation info ......starting
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Get annotation info ......done
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Output annotation summary info ......starting
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Output annotation summary info ......done
+05/20/2021 10:42:43 PM - metawibele.config - INFO: #### Finish interproscan_protein_family step ####

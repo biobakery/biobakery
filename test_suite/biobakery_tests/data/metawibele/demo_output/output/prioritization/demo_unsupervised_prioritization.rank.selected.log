@@ -1,0 +1,42 @@
+05/20/2021 10:50:49 PM - metawibele.config - INFO: --- Collect config information ---
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Start read_config_file
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: expatlas_interaction	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: domine_interaction	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: sifts_interaction	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Required filtering item: denovo_signaling	required
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: denovo_transmembrane	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: psortb_extracellular	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: psortb_cellwall	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: psortb_outermembrane	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: uniref90_extracellular	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: uniref90_transmembrane	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: uniref90_cellwall	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: uniref90_outermembrane	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: uniref90_pfamdomain	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_pfamdomain	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_superfamily	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_prositeprofiles	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_prositepatterns	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_gene3d	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_panther	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_tigrfam	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_sfld	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_prodom	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_hamap	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_smart	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_cdd	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_prints	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_pirsf	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Optional filtering item: interproscan_mobidblite	optional
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Finish read_config_file
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Start read_vignettes_file
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Finish read_vignettes_file
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Start read_cluster_file
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Finish read_cluster_file
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Start read_annotation_file
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Finish read_annotation_file
+05/20/2021 10:50:49 PM - metawibele.config - INFO: --- Filter for subset of prioritized protein families ---
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Start filter_prioritization
+05/20/2021 10:50:49 PM - metawibele.config - INFO: Finish filter_prioritization
+05/20/2021 10:50:49 PM - metawibele.config - INFO: --- The filter_prioritization output is written in /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.selected.tsv ...
+05/20/2021 10:50:49 PM - metawibele.config - INFO: --- Prioritization-filter process is successfully completed ---

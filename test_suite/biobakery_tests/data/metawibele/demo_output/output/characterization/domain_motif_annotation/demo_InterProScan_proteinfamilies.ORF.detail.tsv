@@ -1,0 +1,1441 @@
+seqID	type	detail	description	InterPro_accession
+PRISM_7122_03545	InterProScan_PfamDomain	PF01226	Formate/nitrite transporter	IPR000292
+PRISM_7122_03875	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_7122_12067	InterProScan_PfamDomain	PF01293	Phosphoenolpyruvate carboxykinase, ATP-utilising	IPR001272
+PRISM_7122_19039	InterProScan_PfamDomain	PF00301	Rubredoxin domain	IPR024935
+PRISM_7122_26201	InterProScan_PfamDomain	PF00583	GNAT domain	IPR000182
+PRISM_7122_38863	InterProScan_PfamDomain	PF00005;PF02518	ABC transporter-like;Histidine kinase/HSP90-like ATPase	IPR003439;IPR003594
+PRISM_7122_50124	InterProScan_PfamDomain	PF13782	Stage V sporulation protein AB	IPR020144
+PRISM_7122_66999	InterProScan_PfamDomain	PF04296	Domain of unknown function DUF448	IPR007393
+PRISM_7122_77724	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7147_05905	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7147_110796	InterProScan_PfamDomain	PF01797	Transposase IS200-like	IPR002686
+PRISM_7147_121786	InterProScan_PfamDomain	PF00589	Integrase, catalytic domain	IPR002104
+PRISM_7147_223755	InterProScan_PfamDomain	PF16868	TRAP transporter solute receptor, TAXI family	IPR011852
+PRISM_7147_245547	InterProScan_PfamDomain	PF07811	TadE-like	IPR012495
+PRISM_7147_276043	InterProScan_PfamDomain	PF07005;PF17042	Four-carbon acid sugar kinase, N-terminal domain;Four-carbon acid sugar kinase, C-terminal domain	IPR010737;IPR031475
+PRISM_7147_316430	InterProScan_PfamDomain	PF13437;PF13533	HlyD family secretion protein;Membrane fusion protein, biotin-lipoyl like domain	NA;IPR039562
+PRISM_7147_348058	InterProScan_PfamDomain	PF00343	Glycosyl transferase, family 35	IPR000811
+PRISM_7147_41448	InterProScan_PfamDomain	PF13189	Cytidylate kinase-like family	NA
+PRISM_7147_69875	InterProScan_PfamDomain	PF00482	Type II secretion system F domain	IPR018076
+PRISM_7147_78571	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7147_92171	InterProScan_PfamDomain	PF12698	ABC-2 family transporter protein	NA
+PRISM_7150_111763	InterProScan_PfamDomain	PF00293	NUDIX hydrolase domain	IPR000086
+PRISM_7150_111769	InterProScan_PfamDomain	PF16430	Protein of unknown function DUF5027	IPR032208
+PRISM_7150_118770	InterProScan_PfamDomain	PF00899	THIF-type NAD/FAD binding fold	IPR000594
+PRISM_7150_129752	InterProScan_PfamDomain	PF06686	Stage III sporulation protein AC/AD family	IPR025664
+PRISM_7150_129757	InterProScan_PfamDomain	PF00009;PF03144;PF16658	Transcription factor, GTP-binding domain;Translation elongation factor EFTu-like, domain 2;Peptide chain release factor 3, C-terminal	IPR000795;IPR004161;IPR032090
+PRISM_7150_208763	InterProScan_PfamDomain	PF01832	Mannosyl-glycoprotein endo-beta-N-acetylglucosamidase-like domain	IPR002901
+PRISM_7150_232744	InterProScan_PfamDomain	PF04647	Accessory gene regulator B	IPR006741
+PRISM_7150_245514	InterProScan_PfamDomain	PF02132;PF13662	Recombination protein RecR, C4-type zinc finger;TOPRIM  domain	IPR023628;IPR006171
+PRISM_7150_317961	InterProScan_PfamDomain	PF00857	Isochorismatase-like	IPR000868
+PRISM_7150_318834	InterProScan_PfamDomain	PF14436	Bacterial EndoU nuclease	IPR029501
+PRISM_7150_43064	InterProScan_PfamDomain	PF01527	Transposase IS3/IS911family	IPR002514
+PRISM_7150_52451	InterProScan_PfamDomain	PF07963	Prokaryotic N-terminal methylation site	IPR012902
+PRISM_7150_62467	InterProScan_PfamDomain	PF02224	Cytidylate kinase domain	IPR011994
+PRISM_7150_67355	InterProScan_PfamDomain	PF04093	Cell shape-determining protein MreD	IPR007227
+PRISM_7153_10479	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_7153_105309	InterProScan_PfamDomain	PF00216	Histone-like DNA-binding protein	IPR000119
+PRISM_7153_140297	InterProScan_PfamDomain	PF00471	Ribosomal protein L33	IPR001705
+PRISM_7153_144076	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_7153_21522	InterProScan_PfamDomain	PF00300	Histidine phosphatase superfamily, clade-1	IPR013078
+PRISM_7153_23798	InterProScan_PfamDomain	PF01547	Bacterial extracellular solute-binding protein	IPR006059
+PRISM_7153_24170	InterProScan_PfamDomain	PF04542;PF08281	RNA polymerase sigma-70 region 2;RNA polymerase sigma factor 70, region 4 type 2	IPR007627;IPR013249
+PRISM_7153_55065	InterProScan_PfamDomain	PF01547;PF12010	Bacterial extracellular solute-binding protein;Domain of unknown function DUF3502	IPR006059;IPR022627
+PRISM_7153_56046	InterProScan_PfamDomain	PF01527	Transposase IS3/IS911family	IPR002514
+PRISM_7153_86266	InterProScan_PfamDomain	PF00271;PF04851;PF08463;PF13643	Helicase, C-terminal;Helicase/UvrB, N-terminal;EcoEI R protein C-terminal domain;Domain of unknown function DUF4145	IPR001650;IPR006935;IPR013670;IPR025285
+PRISM_7153_93536	InterProScan_PfamDomain	PF00697	N-(5'phosphoribosyl) anthranilate isomerase (PRAI)	IPR001240
+PRISM_7238_02447	InterProScan_PfamDomain	PF01281;PF03948	Ribosomal protein L9, N-terminal;Ribosomal protein L9, C-terminal	IPR020070;IPR020069
+PRISM_7238_03334	InterProScan_PfamDomain	PF02699	Preprotein translocase YajC	IPR003849
+PRISM_7238_05401	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7238_06460	InterProScan_PfamDomain	PF01018;PF01926;PF09269	GTP1/OBG domain;GTP binding domain;GTP-binding protein OBG, C-terminal	IPR006169;IPR006073;IPR015349
+PRISM_7238_07929	InterProScan_PfamDomain	PF09515	Thiamine transporter ThiT	IPR012651
+PRISM_7238_09233	InterProScan_PfamDomain	PF01098	Probable peptidoglycan glycosyltransferase FtsW/RodA	IPR001182
+PRISM_7238_10309	InterProScan_PfamDomain	PF00929;PF02811;PF07733;PF11490;PF14480;PF14579	Exonuclease, RNase T/DNA polymerase III;PHP domain;Bacterial DNA polymerase III, alpha subunit;DNA polymerase III polC-like, N-terminal domain II;DNA polymerase III polC-type, N-terminal domain I;DNA polymerase, helix-hairpin-helix motif	IPR013520;IPR004013;IPR011708;IPR024754;IPR028112;IPR029460
+PRISM_7238_10539	InterProScan_PfamDomain	PF01189;PF13636;PF17125;PF17126	SAM-dependent methyltransferase RsmB/NOP2-type;rRNA small subunit methyltransferase F, RNA-binding PUA-like domain;Ribosomal RNA small subunit methyltransferase F, N-terminal;Ribosomal RNA small subunit methyltransferase F, first C-terminal domain	IPR001678;IPR027391;IPR031341;IPR031340
+PRISM_7238_12081	InterProScan_PfamDomain	PF01098	Probable peptidoglycan glycosyltransferase FtsW/RodA	IPR001182
+PRISM_7238_12082	InterProScan_PfamDomain	PF02142	Methylglyoxal synthase-like domain	IPR011607
+PRISM_7238_12904	InterProScan_PfamDomain	PF02367	tRNA threonylcarbamoyl adenosine modification protein TsaE	IPR003442
+PRISM_7238_13512	InterProScan_PfamDomain	PF00749	Glutamyl/glutaminyl-tRNA synthetase, class Ib, catalytic domain	IPR020058
+PRISM_7238_14009	InterProScan_PfamDomain	PF00365	Phosphofructokinase domain	IPR000023
+PRISM_7238_17078	InterProScan_PfamDomain	PF00392	Transcription regulator HTH, GntR	IPR000524
+PRISM_7238_18273	InterProScan_PfamDomain	PF00004;PF01434	ATPase, AAA-type, core;Peptidase M41	IPR003959;IPR000642
+PRISM_7238_18277	InterProScan_PfamDomain	PF00226	DnaJ domain	IPR001623
+PRISM_7238_18435	InterProScan_PfamDomain	PF03932	Copper homeostasis CutC domain	IPR023648
+PRISM_7238_18846	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_7238_19896	InterProScan_PfamDomain	PF00436	Primosome PriB/single-strand DNA-binding	IPR000424
+PRISM_7238_20041	InterProScan_PfamDomain	PF01145	Band 7 domain	IPR001107
+PRISM_7238_20177	InterProScan_PfamDomain	PF02127	Peptidase M18	IPR001948
+PRISM_7238_20269	InterProScan_PfamDomain	PF00128;PF02922	Glycosyl hydrolase, family 13, catalytic domain;Glycoside hydrolase, family 13, N-terminal	IPR006047;IPR004193
+PRISM_7238_20904	InterProScan_PfamDomain	PF03473	Molybdenum cofactor sulfurase, C-terminal	IPR005302
+PRISM_7238_20905	InterProScan_PfamDomain	PF06325	Ribosomal protein L11 methyltransferase (PrmA)	NA
+PRISM_7238_21681	InterProScan_PfamDomain	PF01025	GrpE nucleotide exchange factor	IPR000740
+PRISM_7238_21848	InterProScan_PfamDomain	PF01569	Phosphatidic acid phosphatase type 2/haloperoxidase	IPR000326
+PRISM_7238_22897	InterProScan_PfamDomain	PF01553	Phospholipid/glycerol acyltransferase	IPR002123
+PRISM_7238_23109	InterProScan_PfamDomain	PF07853;PF13630	Domain of unknown function DUF1648;SdpI/YhfL protein family	IPR012867;IPR025962
+PRISM_7238_23769	InterProScan_PfamDomain	PF01979	Amidohydrolase-related	IPR006680
+PRISM_7238_27955	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_7238_28117	InterProScan_PfamDomain	PF01330;PF07499;PF14520	DNA helicase, Holliday junction RuvA type, domain I, bacterial;Holliday junction DNA helicase RuvA, C-terminal;Helix-hairpin-helix domain	IPR013849;IPR011114;NA
+PRISM_7238_28231	InterProScan_PfamDomain	PF01171	tRNA(Ile)-lysidine/2-thiocytidine synthase, N-terminal	IPR011063
+PRISM_7238_29856	InterProScan_PfamDomain	PF01596	O-methyltransferase, family 3	IPR002935
+PRISM_7238_29889	InterProScan_PfamDomain	PF00392;PF07729	Transcription regulator HTH, GntR;GntR, C-terminal	IPR000524;IPR011711
+PRISM_7238_29934	InterProScan_PfamDomain	PF01987	Mitochondrial biogenesis protein AIM24	IPR002838
+PRISM_7238_34646	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_7238_35692	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_7238_36216	InterProScan_PfamDomain	PF02603;PF07475	HPr(Ser) kinase/phosphorylase, N-terminal;HPr kinase/phosphorylase, C-terminal	IPR011126;IPR011104
+PRISM_7238_36356	InterProScan_PfamDomain	PF00455;PF08220	DeoR C-terminal sensor domain;DeoR-type HTH domain	IPR014036;IPR001034
+PRISM_7238_36743	InterProScan_PfamDomain	PF00903	Glyoxalase/fosfomycin resistance/dioxygenase domain	IPR004360
+PRISM_7238_37078	InterProScan_PfamDomain	PF00571	CBS domain	IPR000644
+PRISM_7238_38330	InterProScan_PfamDomain	PF00107;PF08240	Alcohol dehydrogenase, C-terminal;Alcohol dehydrogenase, N-terminal	IPR013149;IPR013154
+PRISM_7238_38609	InterProScan_PfamDomain	PF02673	Undecaprenyl-diphosphatase UppP	IPR003824
+PRISM_7238_40150	InterProScan_PfamDomain	PF01757	Acyltransferase 3	IPR002656
+PRISM_7238_41031	InterProScan_PfamDomain	PF02517	CAAX amino terminal protease	IPR003675
+PRISM_7238_41054	InterProScan_PfamDomain	PF01416	Pseudouridine synthase I, TruA, alpha/beta domain	IPR020097
+PRISM_7238_41924	InterProScan_PfamDomain	PF00398	Ribosomal RNA adenine methyltransferase KsgA/Erm	IPR001737
+PRISM_7238_42141	InterProScan_PfamDomain	PF00521;PF03989	DNA topoisomerase, type IIA, subunit A/C-terminal;DNA gyrase/topoisomerase IV, subunit A, C-terminal repeat	IPR002205;IPR006691
+PRISM_7238_42966	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_7238_47696	InterProScan_PfamDomain	PF14277	Protein of unknown function DUF4364	IPR025374
+PRISM_7238_49149	InterProScan_PfamDomain	PF00072;PF12833	Signal transduction response regulator, receiver domain;DNA binding HTH domain, AraC-type	IPR001789;IPR018060
+PRISM_7238_49192	InterProScan_PfamDomain	PF00128;PF16657	Glycosyl hydrolase, family 13, catalytic domain;Maltogenic Amylase, C-terminal	IPR006047;IPR032091
+PRISM_7238_49426	InterProScan_PfamDomain	PF05958	(Uracil-5)-methyltransferase family	IPR010280
+PRISM_7238_49878	InterProScan_PfamDomain	PF02492	CobW/HypB/UreG, nucleotide-binding domain	IPR003495
+PRISM_7238_49996	InterProScan_PfamDomain	PF02492	CobW/HypB/UreG, nucleotide-binding domain	IPR003495
+PRISM_7238_51173	InterProScan_PfamDomain	PF12637	TSCPD domain	IPR024434
+PRISM_7238_51313	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_7238_51873	InterProScan_PfamDomain	PF00408;PF02878;PF02879;PF02880	Alpha-D-phosphohexomutase, C-terminal;Alpha-D-phosphohexomutase, alpha/beta/alpha domain I;Alpha-D-phosphohexomutase, alpha/beta/alpha domain II;Alpha-D-phosphohexomutase, alpha/beta/alpha domain III	IPR005843;IPR005844;IPR005845;IPR005846
+PRISM_7238_52989	InterProScan_PfamDomain	PF01053	Cys/Met metabolism, pyridoxal phosphate-dependent enzyme	IPR000277
+PRISM_7238_53211	InterProScan_PfamDomain	PF00483	Nucleotidyl transferase domain	IPR005835
+PRISM_7238_54904	InterProScan_PfamDomain	PF06961	Protein of unknown function DUF1294	IPR010718
+PRISM_7238_55587	InterProScan_PfamDomain	PF00085	Thioredoxin domain	IPR013766
+PRISM_7238_55588	InterProScan_PfamDomain	PF02390	Putative methyltransferase	NA
+PRISM_7238_56344	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_7238_56549	InterProScan_PfamDomain	PF04055;PF13353	Radical SAM;4Fe-4S single cluster domain	IPR007197;NA
+PRISM_7238_56713	InterProScan_PfamDomain	PF02588	Uncharacterised membrane protein YitT	IPR003740
+PRISM_7238_59958	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_7238_60264	InterProScan_PfamDomain	PF00109;PF02801	Beta-ketoacyl synthase, N-terminal;Beta-ketoacyl synthase, C-terminal	IPR014030;IPR014031
+PRISM_7238_60594	InterProScan_PfamDomain	PF00356;PF13377	LacI-type HTH domain;Periplasmic binding protein-like domain	IPR000843;NA
+PRISM_7238_61341	InterProScan_PfamDomain	PF02527	rRNA small subunit methyltransferase G	IPR003682
+PRISM_7238_61342	InterProScan_PfamDomain	PF01134;PF13932	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG-related;GidA associated domain 3	IPR002218;IPR026904
+PRISM_7238_61347	InterProScan_PfamDomain	PF00825	Ribonuclease P	IPR000100
+PRISM_7238_61636	InterProScan_PfamDomain	PF04026	Stage V sporulation protein G	IPR007170
+PRISM_7238_62884	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_7238_63840	InterProScan_PfamDomain	PF00156;PF13793	Phosphoribosyltransferase domain;Ribose-phosphate pyrophosphokinase, N-terminal domain	IPR000836;IPR029099
+PRISM_7238_63841	InterProScan_PfamDomain	PF04459	Domain of unknown function DUF512	IPR007549
+PRISM_7238_64412	InterProScan_PfamDomain	PF00155	Aminotransferase, class I/classII	IPR004839
+PRISM_7238_64951	InterProScan_PfamDomain	PF00633;PF00730;PF10576	Helix-hairpin-helix motif;HhH-GPD domain;Endonuclease III-like, iron-sulphur cluster loop motif	IPR000445;IPR003265;IPR003651
+PRISM_7238_64969	InterProScan_PfamDomain	PF01202	Shikimate kinase/gluconokinase	IPR031322
+PRISM_7238_66423	InterProScan_PfamDomain	PF01926	GTP binding domain	IPR006073
+PRISM_7238_67055	InterProScan_PfamDomain	PF08006	Protein of unknown function DUF1700	IPR012963
+PRISM_7238_67891	InterProScan_PfamDomain	PF00156;PF13537	Phosphoribosyltransferase domain;Glutamine amidotransferase type 2 domain	IPR000836;IPR017932
+PRISM_7238_68125	InterProScan_PfamDomain	PF02952;PF07881;PF07882	L-fucose isomerase, C-terminal;L-fucose isomerase, N-terminal-1;L-fucose isomerase, N-terminal-2	IPR015888;IPR012888;IPR012889
+PRISM_7238_69355	InterProScan_PfamDomain	PF07155	ECF transporter, substrate-specific component-like	IPR009825
+PRISM_7238_70669	InterProScan_PfamDomain	PF02588;PF10035	Uncharacterised membrane protein YitT;Domain of unknown function DUF2179	IPR003740;IPR019264
+PRISM_7238_71840	InterProScan_PfamDomain	PF00137	V-ATPase proteolipid subunit C-like domain	IPR002379
+PRISM_7238_72303	InterProScan_PfamDomain	PF00488;PF01713	DNA mismatch repair protein MutS, C-terminal;Smr domain	IPR000432;IPR002625
+PRISM_7238_72694	InterProScan_PfamDomain	PF01545;PF16916	Cation efflux protein;Cation efflux protein, cytoplasmic domain	IPR002524;IPR027470
+PRISM_7238_72695	InterProScan_PfamDomain	PF09551	Sporulation stage II, protein R	IPR014202
+PRISM_7238_72699	InterProScan_PfamDomain	PF14343	PrcB C-terminal domain	IPR025748
+PRISM_7238_72865	InterProScan_PfamDomain	PF00005;PF12848	ABC transporter-like;ABC-transporter extension domain	IPR003439;IPR032781
+PRISM_7238_73029	InterProScan_PfamDomain	PF09820	AAA-ATPase-like domain	IPR018631
+PRISM_7238_73101	InterProScan_PfamDomain	PF12837	4Fe-4S ferredoxin-type, iron-sulphur binding domain	IPR017896
+PRISM_7238_74755	InterProScan_PfamDomain	PF02033	Ribosome-binding factor A	IPR000238
+PRISM_7238_74845	InterProScan_PfamDomain	PF02554;PF13722	CstA, N-terminal domain;CstA, C-terminal domain	IPR003706;IPR025299
+PRISM_7238_75071	InterProScan_PfamDomain	PF00874;PF03123	PRD domain;CAT RNA-binding domain	IPR011608;IPR004341
+PRISM_7238_76121	InterProScan_PfamDomain	PF03808	Glycosyl transferase WecB/TagA/CpsF	IPR004629
+PRISM_7238_78087	InterProScan_PfamDomain	PF00919;PF01938;PF04055	Methylthiotransferase, N-terminal;TRAM domain;Radical SAM	IPR013848;IPR002792;IPR007197
+PRISM_7406_03284	InterProScan_PfamDomain	PF05958	(Uracil-5)-methyltransferase family	IPR010280
+PRISM_7406_03296	InterProScan_PfamDomain	PF00126	Transcription regulator HTH, LysR	IPR000847
+PRISM_7406_06977	InterProScan_PfamDomain	PF00905;PF03717;PF05223	Penicillin-binding protein, transpeptidase;Penicillin-binding protein, dimerisation domain;NTF2-like N-terminal transpeptidase	IPR001460;IPR005311;IPR007887
+PRISM_7406_09036	InterProScan_PfamDomain	PF02929	Beta galactosidase small chain/ domain 5	IPR004199
+PRISM_7406_10549	InterProScan_PfamDomain	PF00011	Alpha crystallin/Hsp20 domain	IPR002068
+PRISM_7406_17740	InterProScan_PfamDomain	PF00156;PF13537	Phosphoribosyltransferase domain;Glutamine amidotransferase type 2 domain	IPR000836;IPR017932
+PRISM_7406_17743	InterProScan_PfamDomain	PF00359;PF02302	PTS EIIA type-2 domain;Phosphotransferase system, EIIB component, type 2/3	IPR002178;IPR003501
+PRISM_7406_17920	InterProScan_PfamDomain	PF00356;PF13407;PF13416	LacI-type HTH domain;Periplasmic binding protein;Bacterial extracellular solute-binding protein	IPR000843;IPR025997;IPR006059
+PRISM_7406_21151	InterProScan_PfamDomain	PF00265	Thymidine kinase	IPR001267
+PRISM_7406_27606	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7406_30896	InterProScan_PfamDomain	PF00126;PF03466	Transcription regulator HTH, LysR;LysR, substrate-binding	IPR000847;IPR005119
+PRISM_7406_36688	InterProScan_PfamDomain	PF01527	Transposase IS3/IS911family	IPR002514
+PRISM_7406_42391	InterProScan_PfamDomain	PF00356;PF13377	LacI-type HTH domain;Periplasmic binding protein-like domain	IPR000843;NA
+PRISM_7406_44473	InterProScan_PfamDomain	PF00512;PF02518;PF16736	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase;PhoR, single Cache-like domain	IPR003661;IPR003594;IPR031967
+PRISM_7406_44528	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_7406_44849	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7406_49462	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_7406_49805	InterProScan_PfamDomain	PF02463	RecF/RecN/SMC, N-terminal	IPR003395
+PRISM_7408_03657	InterProScan_PfamDomain	PF00128	Glycosyl hydrolase, family 13, catalytic domain	IPR006047
+PRISM_7408_04036	InterProScan_PfamDomain	PF02653	ABC transporter, permease	IPR001851
+PRISM_7408_120911	InterProScan_PfamDomain	PF00009;PF03143	Transcription factor, GTP-binding domain;Translation elongation factor EFTu/EF1A, C-terminal	IPR000795;IPR004160
+PRISM_7408_123224	InterProScan_PfamDomain	PF13930	DNA/RNA non-specific endonuclease	NA
+PRISM_7408_124477	InterProScan_PfamDomain	PF00128;PF02903;PF16657	Glycosyl hydrolase, family 13, catalytic domain;Glycoside hydrolase, family 13, N-terminal Ig-like domain;Maltogenic Amylase, C-terminal	IPR006047;IPR004185;IPR032091
+PRISM_7408_135376	InterProScan_PfamDomain	PF04055;PF13186;PF13353	Radical SAM;4Fe4S-binding SPASM domain;4Fe-4S single cluster domain	IPR007197;IPR023885;NA
+PRISM_7408_144442	InterProScan_PfamDomain	PF04860	Bacteriophage/Gene transfer agent portal protein	IPR006944
+PRISM_7408_160772	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_7408_172539	InterProScan_PfamDomain	PF00408;PF02878;PF02879;PF02880	Alpha-D-phosphohexomutase, C-terminal;Alpha-D-phosphohexomutase, alpha/beta/alpha domain I;Alpha-D-phosphohexomutase, alpha/beta/alpha domain II;Alpha-D-phosphohexomutase, alpha/beta/alpha domain III	IPR005843;IPR005844;IPR005845;IPR005846
+PRISM_7408_181942	InterProScan_PfamDomain	PF01131;PF01751	DNA topoisomerase, type IA, central;TOPRIM  domain	IPR013497;IPR006171
+PRISM_7408_185986	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7408_190335	InterProScan_PfamDomain	PF04073	YbaK/aminoacyl-tRNA synthetase-associated domain	IPR007214
+PRISM_7408_227807	InterProScan_PfamDomain	PF00581	Rhodanese-like domain	IPR001763
+PRISM_7408_22804	InterProScan_PfamDomain	PF00497	Solute-binding protein  family 3/N-terminal domain of MltF	IPR001638
+PRISM_7408_231642	InterProScan_PfamDomain	PF00356;PF13377	LacI-type HTH domain;Periplasmic binding protein-like domain	IPR000843;NA
+PRISM_7408_234758	InterProScan_PfamDomain	PF07238	PilZ domain	IPR009875
+PRISM_7408_243169	InterProScan_PfamDomain	PF03816	Cell envelope-related transcriptional attenuator domain	IPR004474
+PRISM_7408_36551	InterProScan_PfamDomain	PF13529	Peptidase C39-like	IPR039564
+PRISM_7408_62111	InterProScan_PfamDomain	PF00072	Signal transduction response regulator, receiver domain	IPR001789
+PRISM_7408_62141	InterProScan_PfamDomain	PF07670	Nucleoside transporter/FeoB GTPase, Gate domain	IPR011642
+PRISM_7408_71454	InterProScan_PfamDomain	PF02518	Histidine kinase/HSP90-like ATPase	IPR003594
+PRISM_7408_81142	InterProScan_PfamDomain	PF02623	Flagellar assembly factor FliW	IPR003775
+PRISM_7408_85067	InterProScan_PfamDomain	PF11823	Domain of unknown function DUF3343	IPR021778
+PRISM_7408_85069	InterProScan_PfamDomain	PF01205;PF09186	Impact, N-terminal;Uncharacterised domain UPF0029, Impact, C-terminal	IPR001498;IPR015269
+PRISM_7408_94127	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_7421_02347	InterProScan_PfamDomain	PF02463;PF06470	RecF/RecN/SMC, N-terminal;SMCs flexible hinge	IPR003395;IPR010935
+PRISM_7421_02357	InterProScan_PfamDomain	PF00075;PF01693	Ribonuclease H domain;Ribonuclease H1, N-terminal	IPR002156;IPR011320
+PRISM_7421_04147	InterProScan_PfamDomain	PF06081;PF11728	Aromatic acid exporter family member 1;Putative aromatic acid exporter, C-terminal	IPR010343;IPR021062
+PRISM_7421_100517	InterProScan_PfamDomain	PF01119;PF08676;PF13589	DNA mismatch repair protein,  S5 domain 2-like;MutL, C-terminal, dimerisation;Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	IPR013507;IPR014790;NA
+PRISM_7421_101662	InterProScan_PfamDomain	PF01795	Ribosomal RNA small subunit methyltransferase H	IPR002903
+PRISM_7421_101664	InterProScan_PfamDomain	PF00905;PF03717	Penicillin-binding protein, transpeptidase;Penicillin-binding protein, dimerisation domain	IPR001460;IPR005311
+PRISM_7421_114313	InterProScan_PfamDomain	PF12995	Protein of unknown function DUF3879	IPR024540
+PRISM_7421_12221	InterProScan_PfamDomain	PF02302	Phosphotransferase system, EIIB component, type 2/3	IPR003501
+PRISM_7421_134392	InterProScan_PfamDomain	PF03551	Transcription regulator PadR, N-terminal	IPR005149
+PRISM_7421_30505	InterProScan_PfamDomain	PF14433	SUKH-3 immunity protein	IPR025850
+PRISM_7421_36352	InterProScan_PfamDomain	PF00145	C-5 cytosine methyltransferase	IPR001525
+PRISM_7421_50308	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_7421_81103	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7421_83545	InterProScan_PfamDomain	PF03060	Nitronate monooxygenase	IPR004136
+PRISM_7421_87335	InterProScan_PfamDomain	PF00682;PF08502;PF12833	Pyruvate carboxyltransferase;2-isopropylmalate synthase LeuA, allosteric (dimerisation) domain;DNA binding HTH domain, AraC-type	IPR000891;IPR013709;IPR018060
+PRISM_7445_01246	InterProScan_PfamDomain	PF05525	Branched-chain amino acid transport system II carrier protein	IPR004685
+PRISM_7445_14244	InterProScan_PfamDomain	PF00753;PF12706	Metallo-beta-lactamase;Metallo-beta-lactamase	IPR001279;IPR001279
+PRISM_7445_14246	InterProScan_PfamDomain	PF00814;PF13673	Gcp-like domain;GNAT domain	IPR000905;IPR000182
+PRISM_7445_24114	InterProScan_PfamDomain	PF00356;PF13377	LacI-type HTH domain;Periplasmic binding protein-like domain	IPR000843;NA
+PRISM_7445_38125	InterProScan_PfamDomain	PF00376	MerR-type HTH domain	IPR000551
+PRISM_7445_40106	InterProScan_PfamDomain	PF04203	Sortase family	IPR005754
+PRISM_7445_43105	InterProScan_PfamDomain	PF01156	Inosine/uridine-preferring nucleoside hydrolase domain	IPR001910
+PRISM_7445_43130	InterProScan_PfamDomain	PF00270;PF00271;PF17191	DEAD/DEAH box helicase domain;Helicase, C-terminal;RecG, wedge domain	IPR011545;IPR001650;IPR033454
+PRISM_7445_43141	InterProScan_PfamDomain	PF01136;PF12392	Peptidase U32;Peptidase U32, collagenase	IPR001539;IPR020988
+PRISM_7445_51152	InterProScan_PfamDomain	PF00590;PF02602	Tetrapyrrole methylase;Tetrapyrrole biosynthesis, uroporphyrinogen III synthase	IPR000878;IPR003754
+PRISM_7445_57090	InterProScan_PfamDomain	PF07730	Signal transduction histidine kinase, subgroup 3, dimerisation and phosphoacceptor domain	IPR011712
+PRISM_7445_57528	InterProScan_PfamDomain	PF01384	Phosphate transporter	IPR001204
+PRISM_7445_67688	InterProScan_PfamDomain	PF00884	Sulfatase, N-terminal	IPR000917
+PRISM_7445_75325	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_7445_84654	InterProScan_PfamDomain	PF02195	ParB/Sulfiredoxin	IPR003115
+PRISM_7445_84683	InterProScan_PfamDomain	PF01496	V-type  ATPase, V0 complex, 116kDa subunit family	IPR002490
+PRISM_7445_86415	InterProScan_PfamDomain	PF05105	Bacteriophage holin family	IPR006480
+PRISM_7486_06897	InterProScan_PfamDomain	PF00563	EAL domain	IPR001633
+PRISM_7486_140052	InterProScan_PfamDomain	PF03788	LrgA/CidA family	IPR005538
+PRISM_7486_187165	InterProScan_PfamDomain	PF15919	HicB-like antitoxin of toxin-antitoxin system	IPR031807
+PRISM_7486_51262	InterProScan_PfamDomain	PF02525	Flavodoxin-like fold	IPR003680
+PRISM_7486_68837	InterProScan_PfamDomain	PF05580	Peptidase S55, SpoIVB	IPR008763
+PRISM_7486_76161	InterProScan_PfamDomain	PF10592	Abortive bacteriophage infection, resistance	IPR018891
+PRISM_7547_262941	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_7547_289636	InterProScan_PfamDomain	PF03852	DNA mismatch endonuclease vsr	IPR004603
+PRISM_7658_10041	InterProScan_PfamDomain	PF03275;PF13450	UDP-galactopyranose mutase, C-terminal;NAD(P)-binding Rossmann-like domain	IPR015899;NA
+PRISM_7658_111813	InterProScan_PfamDomain	PF04383	KilA, N-terminal/APSES-type HTH, DNA-binding	IPR018004
+PRISM_7658_115072	InterProScan_PfamDomain	PF10882	Bacterial Pleckstrin homology domain-related	IPR027783
+PRISM_7658_13698	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_7658_13927	InterProScan_PfamDomain	PF01053	Cys/Met metabolism, pyridoxal phosphate-dependent enzyme	IPR000277
+PRISM_7658_156114	InterProScan_PfamDomain	PF00814	Gcp-like domain	IPR000905
+PRISM_7658_158183	InterProScan_PfamDomain	PF00389;PF02826	D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain;D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain	IPR006139;IPR006140
+PRISM_7658_158191	InterProScan_PfamDomain	PF01264	Chorismate synthase	IPR000453
+PRISM_7658_54311	InterProScan_PfamDomain	PF13189	Cytidylate kinase-like family	NA
+PRISM_7658_63243	InterProScan_PfamDomain	PF00551;PF02911	Formyl transferase, N-terminal;Formyl transferase, C-terminal	IPR002376;IPR005793
+PRISM_7662_183328	InterProScan_PfamDomain	PF13304	ATPase, AAA-type, core	IPR003959
+PRISM_7662_217585	InterProScan_PfamDomain	PF02565;PF11967	Recombination protein O, RecO;DNA replication/recombination mediator RecO, N-terminal	IPR003717;IPR022572
+PRISM_7662_217609	InterProScan_PfamDomain	PF02618	Endolytic murein transglycosylase	IPR003770
+PRISM_7662_217630	InterProScan_PfamDomain	PF01888	Cobalt-precorrin-5B C(1)-methyltransferase CbiD	IPR002748
+PRISM_7662_224588	InterProScan_PfamDomain	PF00216	Histone-like DNA-binding protein	IPR000119
+PRISM_7662_32045	InterProScan_PfamDomain	PF01330;PF07499;PF14520	DNA helicase, Holliday junction RuvA type, domain I, bacterial;Holliday junction DNA helicase RuvA, C-terminal;Helix-hairpin-helix domain	IPR013849;IPR011114;NA
+PRISM_7662_74946	InterProScan_PfamDomain	PF12728	Helix-turn-helix domain	NA
+PRISM_7744_101580	InterProScan_PfamDomain	PF01594	Transmembrane protein TqsA-like	IPR002549
+PRISM_7744_166714	InterProScan_PfamDomain	PF07944	Beta-L-arabinofuranosidase, GH127	IPR012878
+PRISM_7744_16943	InterProScan_PfamDomain	PF00768	Peptidase S11, D-alanyl-D-alanine carboxypeptidase A, N-terminal	IPR001967
+PRISM_7744_204388	InterProScan_PfamDomain	PF00156	Phosphoribosyltransferase domain	IPR000836
+PRISM_7744_253771	InterProScan_PfamDomain	PF13151	Protein of unknown function DUF3990	IPR025051
+PRISM_7744_27113	InterProScan_PfamDomain	PF14021;PF14449	Tuberculosis necrotizing toxin;Pre-toxin TG domain	IPR025331;IPR027797
+PRISM_7744_59699	InterProScan_PfamDomain	PF00563;PF00990	EAL domain;GGDEF domain	IPR001633;IPR000160
+PRISM_7744_65794	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_7744_73368	InterProScan_PfamDomain	PF00158;PF00874;PF03610;PF13412	RNA polymerase sigma factor 54 interaction domain;PRD domain;Phosphotransferase system, mannose-type IIA component;Winged helix-turn-helix DNA-binding	IPR002078;IPR011608;IPR004701;NA
+PRISM_7759_108616	InterProScan_PfamDomain	PF13416	Bacterial extracellular solute-binding protein	IPR006059
+PRISM_7759_115076	InterProScan_PfamDomain	PF00126;PF03466	Transcription regulator HTH, LysR;LysR, substrate-binding	IPR000847;IPR005119
+PRISM_7759_132126	InterProScan_PfamDomain	PF00270;PF00271;PF01966	DEAD/DEAH box helicase domain;Helicase, C-terminal;HD domain	IPR011545;IPR001650;IPR006674
+PRISM_7759_21703	InterProScan_PfamDomain	PF03776	Cell division topological specificity factor MinE	IPR005527
+PRISM_7759_49381	InterProScan_PfamDomain	PF00005;PF00664	ABC transporter-like;ABC transporter type 1, transmembrane domain	IPR003439;IPR011527
+PRISM_7759_49956	InterProScan_PfamDomain	PF09581	Sporulation stage III, protein AF	IPR014245
+PRISM_7759_57199	InterProScan_PfamDomain	PF01171;PF11734	tRNA(Ile)-lysidine/2-thiocytidine synthase, N-terminal;Lysidine-tRNA(Ile) synthetase, C-terminal	IPR011063;IPR012796
+PRISM_7759_72394	InterProScan_PfamDomain	PF01613	Flavin reductase like domain	IPR002563
+PRISM_7759_73053	InterProScan_PfamDomain	PF02561	Flagellar protein FliS	IPR003713
+PRISM_7759_76561	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_7759_76782	InterProScan_PfamDomain	PF00202	Aminotransferase class-III	IPR005814
+PRISM_7791_142577	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7791_72061	InterProScan_PfamDomain	PF00581	Rhodanese-like domain	IPR001763
+PRISM_7847_07133	InterProScan_PfamDomain	PF12733	Cadherin-like beta sandwich domain	IPR025883
+PRISM_7847_116804	InterProScan_PfamDomain	PF02518;PF06580	Histidine kinase/HSP90-like ATPase;Signal transduction histidine kinase, internal region	IPR003594;IPR010559
+PRISM_7847_163027	InterProScan_PfamDomain	PF06738;PF12821	Putative threonine/serine exporter;Threonine/Serine exporter, ThrE	IPR010619;IPR024528
+PRISM_7847_166885	InterProScan_PfamDomain	PF04101;PF06925	Glycosyl transferase, family 28, C-terminal;Diacylglycerol glucosyltransferase, N-terminal	IPR007235;IPR009695
+PRISM_7847_166886	InterProScan_PfamDomain	PF03547	Membrane transport protein	IPR004776
+PRISM_7847_231801	InterProScan_PfamDomain	PF03613	Phosphotransferase system, mannose/fructose/sorbose family IID component	IPR004704
+PRISM_7847_246691	InterProScan_PfamDomain	PF04464	CDP-glycerol glycerophosphotransferase	IPR007554
+PRISM_7847_39331	InterProScan_PfamDomain	PF04023	Ferrous iron transporter FeoA domain	IPR007167
+PRISM_7847_59258	InterProScan_PfamDomain	PF01957	NfeD-like, C-terminal domain	IPR002810
+PRISM_7847_59285	InterProScan_PfamDomain	PF02545	Maf-like protein	IPR003697
+PRISM_7847_63214	InterProScan_PfamDomain	PF01148	Cytidylyltransferase family	NA
+PRISM_7847_63218	InterProScan_PfamDomain	PF04519	Bactofilin A/B	IPR007607
+PRISM_7847_94569	InterProScan_PfamDomain	PF02378	Phosphotransferase system, EIIC	IPR003352
+PRISM_7847_96543	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7855_113518	InterProScan_PfamDomain	PF00270;PF00271;PF00570;PF16124	DEAD/DEAH box helicase domain;Helicase, C-terminal;HRDC domain;ATP-dependent DNA helicase RecQ, zinc-binding domain	IPR011545;IPR001650;IPR002121;IPR032284
+PRISM_7855_119128	InterProScan_PfamDomain	PF00117;PF00958;PF01171	Glutamine amidotransferase;GMP synthase, C-terminal;tRNA(Ile)-lysidine/2-thiocytidine synthase, N-terminal	IPR017926;IPR001674;IPR011063
+PRISM_7855_120885	InterProScan_PfamDomain	PF00392	Transcription regulator HTH, GntR	IPR000524
+PRISM_7855_160946	InterProScan_PfamDomain	PF01678	Diaminopimelate epimerase, DapF	IPR001653
+PRISM_7855_183578	InterProScan_PfamDomain	PF14317	YcxB-like protein	IPR025588
+PRISM_7855_235607	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_7855_237390	InterProScan_PfamDomain	PF00664	ABC transporter type 1, transmembrane domain	IPR011527
+PRISM_7855_239656	InterProScan_PfamDomain	PF13673	GNAT domain	IPR000182
+PRISM_7855_239681	InterProScan_PfamDomain	PF00905;PF00912	Penicillin-binding protein, transpeptidase;Glycosyl transferase, family 51	IPR001460;IPR001264
+PRISM_7855_40530	InterProScan_PfamDomain	PF01743;PF12627;PF13735	Poly A polymerase, head domain;tRNA nucleotidyltransferase/poly(A) polymerase, RNA and SrmB- binding domain;CCA-adding enzyme, C-terminal	IPR002646;IPR032828;IPR032810
+PRISM_7855_43022	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_7855_43057	InterProScan_PfamDomain	PF00501	AMP-dependent synthetase/ligase	IPR000873
+PRISM_7855_50129	InterProScan_PfamDomain	PF00324	Amino acid permease/ SLC12A domain	IPR004841
+PRISM_7855_54950	InterProScan_PfamDomain	PF01628	Heat-inducible transcription repressor HrcA, C-terminal	IPR021153
+PRISM_7855_54957	InterProScan_PfamDomain	PF02568;PF02926	Thil, AANH domain;THUMP domain	IPR020536;IPR004114
+PRISM_7855_54982	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_7855_55061	InterProScan_PfamDomain	PF07873	Sporulation protein YabP/YqfC	IPR022476
+PRISM_7855_55095	InterProScan_PfamDomain	PF00005;PF12848	ABC transporter-like;ABC-transporter extension domain	IPR003439;IPR032781
+PRISM_7855_56169	InterProScan_PfamDomain	PF00370;PF02782	Carbohydrate kinase, FGGY, N-terminal;Carbohydrate kinase, FGGY, C-terminal	IPR018484;IPR018485
+PRISM_7858_156455	InterProScan_PfamDomain	PF01520	N-acetylmuramoyl-L-alanine amidase, catalytic domain	IPR002508
+PRISM_7858_56529	InterProScan_PfamDomain	PF00205;PF02775;PF02776	Thiamine pyrophosphate enzyme, central domain;Thiamine pyrophosphate enzyme, C-terminal TPP-binding;Thiamine pyrophosphate enzyme, N-terminal TPP-binding domain	IPR012000;IPR011766;IPR012001
+PRISM_7858_63214	InterProScan_PfamDomain	PF03275;PF13450	UDP-galactopyranose mutase, C-terminal;NAD(P)-binding Rossmann-like domain	IPR015899;NA
+PRISM_7858_82555	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_7858_87458	InterProScan_PfamDomain	PF14501	Sensor histidine kinase NatK, C-terminal domain	IPR032834
+PRISM_7858_92771	InterProScan_PfamDomain	PF01171	tRNA(Ile)-lysidine/2-thiocytidine synthase, N-terminal	IPR011063
+PRISM_7858_99542	InterProScan_PfamDomain	PF13481;PF13541	AAA domain;Subunit ChlI of Mg-chelatase	NA;NA
+PRISM_7860_00502	InterProScan_PfamDomain	PF04172	CidB/LrgB family	IPR007300
+PRISM_7860_04672	InterProScan_PfamDomain	PF00768	Peptidase S11, D-alanyl-D-alanine carboxypeptidase A, N-terminal	IPR001967
+PRISM_7860_04868	InterProScan_PfamDomain	PF01888	Cobalt-precorrin-5B C(1)-methyltransferase CbiD	IPR002748
+PRISM_7860_04951	InterProScan_PfamDomain	PF00990	GGDEF domain	IPR000160
+PRISM_7860_116379	InterProScan_PfamDomain	PF01966	HD domain	IPR006674
+PRISM_7860_118418	InterProScan_PfamDomain	PF00890	FAD-dependent oxidoreductase 2, FAD binding domain	IPR003953
+PRISM_7860_128544	InterProScan_PfamDomain	PF01202	Shikimate kinase/gluconokinase	IPR031322
+PRISM_7860_136651	InterProScan_PfamDomain	PF04093	Cell shape-determining protein MreD	IPR007227
+PRISM_7860_152584	InterProScan_PfamDomain	PF12669	Virus attachment protein p12 family	NA
+PRISM_7860_163267	InterProScan_PfamDomain	PF08011;PF09820	PD-(D/E)XK nuclease superfamily 9;AAA-ATPase-like domain	IPR012547;IPR018631
+PRISM_7860_16388	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7860_164625	InterProScan_PfamDomain	PF00877;PF08239	Endopeptidase, NLPC/P60 domain;SH3-like domain, bacterial-type	IPR000064;IPR003646
+PRISM_7860_43577	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_7860_50085	InterProScan_PfamDomain	PF00703;PF02836;PF02837	Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich;Glycoside hydrolase family 2, catalytic domain;Glycosyl hydrolases family 2, sugar binding domain	IPR006102;IPR006103;IPR006104
+PRISM_7860_51472	InterProScan_PfamDomain	PF00535;PF01501	Glycosyltransferase 2-like;Glycosyl transferase, family 8	IPR001173;IPR002495
+PRISM_7860_51478	InterProScan_PfamDomain	PF09512	Energy coupling factor transporter S component ThiW	IPR012652
+PRISM_7860_80094	InterProScan_PfamDomain	PF09479	Listeria/Bacterioides repeat	IPR013378
+PRISM_7861_05313	InterProScan_PfamDomain	PF03446;PF14833	6-phosphogluconate dehydrogenase, NADP-binding;3-hydroxyisobutyrate dehydrogenase, NAD-binding domain	IPR006115;IPR029154
+PRISM_7861_05317	InterProScan_PfamDomain	PF01925	Transmembrane protein TauE-like	IPR002781
+PRISM_7861_06194	InterProScan_PfamDomain	PF01478	Prepilin type IV endopeptidase, peptidase domain	IPR000045
+PRISM_7861_07599	InterProScan_PfamDomain	PF00691;PF13677	OmpA-like domain;Motility protein B, N-terminal domain	IPR006665;IPR025713
+PRISM_7861_08468	InterProScan_PfamDomain	PF08241;PF13411	Methyltransferase type 11;MerR-type HTH domain	IPR013216;IPR000551
+PRISM_7861_09528	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_7861_100932	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_7861_103327	InterProScan_PfamDomain	PF11700	Autophagy-related protein 22-like	IPR024671
+PRISM_7861_107979	InterProScan_PfamDomain	PF16160	Protein of unknown function DUF4866	IPR032357
+PRISM_7861_123038	InterProScan_PfamDomain	PF13672	Protein phosphatase 2C	NA
+PRISM_7861_13455	InterProScan_PfamDomain	PF00005;PF00664	ABC transporter-like;ABC transporter type 1, transmembrane domain	IPR003439;IPR011527
+PRISM_7861_146270	InterProScan_PfamDomain	PF00288;PF08544;PF10509	GHMP kinase N-terminal domain;GHMP kinase, C-terminal domain;Galactokinase galactose-binding domain	IPR006204;IPR013750;IPR019539
+PRISM_7861_14903	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_7861_157826	InterProScan_PfamDomain	PF04542;PF08281	RNA polymerase sigma-70 region 2;RNA polymerase sigma factor 70, region 4 type 2	IPR007627;IPR013249
+PRISM_7861_159516	InterProScan_PfamDomain	PF00583	GNAT domain	IPR000182
+PRISM_7861_170006	InterProScan_PfamDomain	PF01553	Phospholipid/glycerol acyltransferase	IPR002123
+PRISM_7861_172711	InterProScan_PfamDomain	PF00766;PF01012	Electron transfer flavoprotein, alpha subunit, C-terminal;Electron transfer flavoprotein, alpha/beta-subunit, N-terminal	IPR014731;IPR014730
+PRISM_7861_176793	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_7861_179295	InterProScan_PfamDomain	PF08713	DNA alkylation repair enzyme	IPR014825
+PRISM_7861_181141	InterProScan_PfamDomain	PF01867	CRISPR-associated protein Cas1	IPR002729
+PRISM_7861_187351	InterProScan_PfamDomain	PF05977	Transmembrane secretion effector	IPR010290
+PRISM_7861_211956	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7861_28172	InterProScan_PfamDomain	PF01649	Ribosomal protein S20	IPR002583
+PRISM_7861_31706	InterProScan_PfamDomain	PF08011;PF09820	PD-(D/E)XK nuclease superfamily 9;AAA-ATPase-like domain	IPR012547;IPR018631
+PRISM_7861_53949	InterProScan_PfamDomain	PF00550	Phosphopantetheine binding ACP domain	IPR009081
+PRISM_7861_74921	InterProScan_PfamDomain	PF01795	Ribosomal RNA small subunit methyltransferase H	IPR002903
+PRISM_7861_77918	InterProScan_PfamDomain	PF00128;PF02922	Glycosyl hydrolase, family 13, catalytic domain;Glycoside hydrolase, family 13, N-terminal	IPR006047;IPR004193
+PRISM_7861_88789	InterProScan_PfamDomain	PF01025	GrpE nucleotide exchange factor	IPR000740
+PRISM_7861_99048	InterProScan_PfamDomain	PF00009;PF00679;PF03764;PF05991	Transcription factor, GTP-binding domain;Elongation factor EFG, domain V-like;Translation elongation factor EFG/EF2, domain IV;Protein of unknown function DUF901	IPR000795;IPR000640;IPR005517;IPR010298
+PRISM_7862_118059	InterProScan_PfamDomain	PF01380	Sugar isomerase (SIS)	IPR001347
+PRISM_7862_132809	InterProScan_PfamDomain	PF13173	AAA domain	NA
+PRISM_7862_138279	InterProScan_PfamDomain	PF02525	Flavodoxin-like fold	IPR003680
+PRISM_7862_145895	InterProScan_PfamDomain	PF00467;PF17136	KOW;Ribosomal protein L24	IPR005824;IPR003256
+PRISM_7862_154898	InterProScan_PfamDomain	PF12646	Uncharacterised conserved protein UCP014543	IPR016621
+PRISM_7862_165189	InterProScan_PfamDomain	PF13470	PIN domain	IPR002716
+PRISM_7862_165696	InterProScan_PfamDomain	PF02195	ParB/Sulfiredoxin	IPR003115
+PRISM_7862_168117	InterProScan_PfamDomain	PF07561	Domain of unknown function DUF1540	IPR011437
+PRISM_7862_238779	InterProScan_PfamDomain	PF06250	Protein of unknown function DUF1016	IPR009362
+PRISM_7862_238972	InterProScan_PfamDomain	PF01520	N-acetylmuramoyl-L-alanine amidase, catalytic domain	IPR002508
+PRISM_7862_30364	InterProScan_PfamDomain	PF01281;PF03948	Ribosomal protein L9, N-terminal;Ribosomal protein L9, C-terminal	IPR020070;IPR020069
+PRISM_7862_55389	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7870_00493	InterProScan_PfamDomain	PF00300	Histidine phosphatase superfamily, clade-1	IPR013078
+PRISM_7870_01708	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_7870_03639	InterProScan_PfamDomain	PF01471	Peptidoglycan binding-like	IPR002477
+PRISM_7870_03640	InterProScan_PfamDomain	PF03788	LrgA/CidA family	IPR005538
+PRISM_7870_06624	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7870_106317	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_7870_114246	InterProScan_PfamDomain	PF01047	MarR-type HTH domain	IPR000835
+PRISM_7870_126887	InterProScan_PfamDomain	PF00754;PF02368;PF12245;PF13306	Coagulation factor 5/8 C-terminal domain;Bacterial Ig-like, group 2;Bacterial Ig-like domain;Leucine rich repeat 5	IPR000421;IPR003343;IPR022038;IPR026906
+PRISM_7870_130651	InterProScan_PfamDomain	PF00216	Histone-like DNA-binding protein	IPR000119
+PRISM_7870_13233	InterProScan_PfamDomain	PF01053	Cys/Met metabolism, pyridoxal phosphate-dependent enzyme	IPR000277
+PRISM_7870_133275	InterProScan_PfamDomain	PF08011;PF09820	PD-(D/E)XK nuclease superfamily 9;AAA-ATPase-like domain	IPR012547;IPR018631
+PRISM_7870_13439	InterProScan_PfamDomain	PF04203	Sortase family	IPR005754
+PRISM_7870_144717	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_7870_150184	InterProScan_PfamDomain	PF05580	Peptidase S55, SpoIVB	IPR008763
+PRISM_7870_150185	InterProScan_PfamDomain	PF00999;PF02080	Cation/H+ exchanger;Regulator of K+ conductance, C-terminal	IPR006153;IPR006037
+PRISM_7870_158413	InterProScan_PfamDomain	PF04316	Anti-sigma-28 factor FlgM, C-terminal	IPR031316
+PRISM_7870_174366	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_7870_177625	InterProScan_PfamDomain	PF02036	SCP2 sterol-binding domain	IPR003033
+PRISM_7870_177627	InterProScan_PfamDomain	PF00668	Condensation domain	IPR001242
+PRISM_7870_22566	InterProScan_PfamDomain	PF01544	Mg2+ transporter protein, CorA-like/Zinc transport protein ZntB	IPR002523
+PRISM_7870_24288	InterProScan_PfamDomain	PF00871	Aliphatic acid kinase, short-chain	IPR000890
+PRISM_7870_37089	InterProScan_PfamDomain	PF00291	Pyridoxal-phosphate dependent enzyme	IPR001926
+PRISM_7870_38025	InterProScan_PfamDomain	PF01047	MarR-type HTH domain	IPR000835
+PRISM_7870_43163	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_7870_46294	InterProScan_PfamDomain	PF02659	Putative manganese efflux pump	IPR003810
+PRISM_7870_46297	InterProScan_PfamDomain	PF13349	Putative adhesin	IPR025164
+PRISM_7870_48172	InterProScan_PfamDomain	PF00717	Peptidase S24/S26A/S26B/S26C	IPR015927
+PRISM_7870_55151	InterProScan_PfamDomain	PF13635	Domain of unknown function DUF4143	IPR025420
+PRISM_7870_66467	InterProScan_PfamDomain	PF00072;PF03861	Signal transduction response regulator, receiver domain;ANTAR domain	IPR001789;IPR005561
+PRISM_7870_67506	InterProScan_PfamDomain	PF00703;PF02836;PF02837	Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich;Glycoside hydrolase family 2, catalytic domain;Glycosyl hydrolases family 2, sugar binding domain	IPR006102;IPR006103;IPR006104
+PRISM_7870_67748	InterProScan_PfamDomain	PF00392	Transcription regulator HTH, GntR	IPR000524
+PRISM_7870_73924	InterProScan_PfamDomain	PF00488;PF01713	DNA mismatch repair protein MutS, C-terminal;Smr domain	IPR000432;IPR002625
+PRISM_7870_92223	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_7874_103922	InterProScan_PfamDomain	PF13416	Bacterial extracellular solute-binding protein	IPR006059
+PRISM_7874_128470	InterProScan_PfamDomain	PF02410	Ribosomal silencing factor during starvation	NA
+PRISM_7874_143703	InterProScan_PfamDomain	PF00005;PF00664	ABC transporter-like;ABC transporter type 1, transmembrane domain	IPR003439;IPR011527
+PRISM_7874_146666	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_7874_186003	InterProScan_PfamDomain	PF05389	Negative regulator of genetic competence, MecA	IPR008681
+PRISM_7874_186008	InterProScan_PfamDomain	PF05857	TraX	IPR008875
+PRISM_7874_193336	InterProScan_PfamDomain	PF00623;PF04983;PF04997;PF04998;PF05000	RNA polymerase, alpha subunit;RNA polymerase Rpb1, domain 3;RNA polymerase Rpb1, domain 1;RNA polymerase Rpb1, domain 5;RNA polymerase Rpb1, domain 4	IPR000722;IPR007066;IPR007080;IPR007081;IPR007083
+PRISM_7874_203622	InterProScan_PfamDomain	PF01371	Trp repressor	IPR000831
+PRISM_7874_20607	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7874_217561	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_7874_269849	InterProScan_PfamDomain	PF00128	Glycosyl hydrolase, family 13, catalytic domain	IPR006047
+PRISM_7874_269872	InterProScan_PfamDomain	PF00226;PF00684;PF01556	DnaJ domain;Heat shock protein DnaJ, cysteine-rich domain;Chaperone DnaJ, C-terminal	IPR001623;IPR001305;IPR002939
+PRISM_7874_34696	InterProScan_PfamDomain	PF02687;PF12704	ABC transporter permease protein domain;MacB-like periplasmic core domain	IPR003838;IPR025857
+PRISM_7874_34722	InterProScan_PfamDomain	PF00156	Phosphoribosyltransferase domain	IPR000836
+PRISM_7874_50840	InterProScan_PfamDomain	PF00488;PF01624;PF05188;PF05190;PF05192	DNA mismatch repair protein MutS, C-terminal;DNA mismatch repair protein MutS-like, N-terminal;DNA mismatch repair protein MutS, connector domain;DNA mismatch repair protein MutS, clamp;DNA mismatch repair protein MutS, core	IPR000432;IPR007695;IPR007860;IPR007861;IPR007696
+PRISM_7874_58874	InterProScan_PfamDomain	PF00483;PF01636	Nucleotidyl transferase domain;Aminoglycoside phosphotransferase	IPR005835;IPR002575
+PRISM_7874_85593	InterProScan_PfamDomain	PF01966;PF13286	HD domain;Phosphohydrolase-associated domain	IPR006674;IPR026875
+PRISM_7874_85608	InterProScan_PfamDomain	PF01029;PF01189;PF17125	NusB/RsmB/TIM44;SAM-dependent methyltransferase RsmB/NOP2-type;Ribosomal RNA small subunit methyltransferase F, N-terminal	IPR006027;IPR001678;IPR031341
+PRISM_7874_91948	InterProScan_PfamDomain	PF00209	Sodium:neurotransmitter symporter	IPR000175
+PRISM_7879_03690	InterProScan_PfamDomain	PF00571;PF01595;PF03471	CBS domain;CNNM, transmembrane domain;Transporter-associated domain	IPR000644;IPR002550;IPR005170
+PRISM_7879_122335	InterProScan_PfamDomain	PF02224	Cytidylate kinase domain	IPR011994
+PRISM_7879_127059	InterProScan_PfamDomain	PF16161	Protein of unknown function DUF4867	IPR032358
+PRISM_7879_150042	InterProScan_PfamDomain	PF00925;PF00926	GTP cyclohydrolase II;3,4-dihydroxy-2-butanone 4-phosphate synthase, RibB	IPR032677;IPR000422
+PRISM_7879_236985	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7879_244976	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7879_274761	InterProScan_PfamDomain	PF04854	Protein of unknown function DUF624	IPR006938
+PRISM_7879_319058	InterProScan_PfamDomain	PF00356;PF13377;PF13407	LacI-type HTH domain;Periplasmic binding protein-like domain;Periplasmic binding protein	IPR000843;NA;IPR025997
+PRISM_7879_32248	InterProScan_PfamDomain	PF04740	LXG domain	IPR006829
+PRISM_7879_323233	InterProScan_PfamDomain	PF13275	S4 domain	NA
+PRISM_7879_334984	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_7879_85724	InterProScan_PfamDomain	PF12698	ABC-2 family transporter protein	NA
+PRISM_7899_00348	InterProScan_PfamDomain	PF00977;PF01502;PF01503	Histidine biosynthesis;Phosphoribosyl-AMP cyclohydrolase domain;Phosphoribosyl-ATP pyrophosphohydrolase-like	IPR006062;IPR002496;IPR021130
+PRISM_7899_103807	InterProScan_PfamDomain	PF00430	ATP synthase, F0 complex, subunit b/b', bacterial/chloroplast	IPR002146
+PRISM_7899_144690	InterProScan_PfamDomain	PF00563	EAL domain	IPR001633
+PRISM_7899_194885	InterProScan_PfamDomain	PF00587;PF03129;PF09180	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding;Proline-tRNA ligase, class II, C-terminal	IPR002314;IPR004154;IPR016061
+PRISM_7899_215529	InterProScan_PfamDomain	PF05636	Uncharacterised protein family UPF0348	IPR008513
+PRISM_7899_240670	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7899_31022	InterProScan_PfamDomain	PF05167	Uncharacterised protein family UPF0210	IPR007841
+PRISM_7899_77571	InterProScan_PfamDomain	PF00579;PF01479	Aminoacyl-tRNA synthetase, class Ic;RNA-binding S4 domain	IPR002305;IPR002942
+PRISM_7904_03355	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7904_05390	InterProScan_PfamDomain	PF00132	Hexapeptide repeat	IPR001451
+PRISM_7904_111299	InterProScan_PfamDomain	PF02452	mRNA interferase PemK-like	IPR003477
+PRISM_7904_12104	InterProScan_PfamDomain	PF08529;PF13184	Transcription factor NusA, N-terminal;KH domain, NusA-like	IPR013735;IPR025249
+PRISM_7904_125485	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_7904_135096	InterProScan_PfamDomain	PF13483	Beta-lactamase superfamily domain	NA
+PRISM_7904_140726	InterProScan_PfamDomain	PF01863	Protein of unknown function DUF45	IPR002725
+PRISM_7904_161602	InterProScan_PfamDomain	PF13529	Peptidase C39-like	IPR039564
+PRISM_7904_169076	InterProScan_PfamDomain	PF03852	DNA mismatch endonuclease vsr	IPR004603
+PRISM_7904_180217	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_7904_181322	InterProScan_PfamDomain	PF00392	Transcription regulator HTH, GntR	IPR000524
+PRISM_7904_181327	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7904_184728	InterProScan_PfamDomain	PF13302	GNAT domain	IPR000182
+PRISM_7904_31992	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7904_36014	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_7904_47806	InterProScan_PfamDomain	PF07878	CopG-like ribbon-helix-helix domain	IPR012869
+PRISM_7904_63061	InterProScan_PfamDomain	PF02627;PF07883	Carboxymuconolactone decarboxylase-like;Cupin 2, conserved barrel	IPR003779;IPR013096
+PRISM_7904_83631	InterProScan_PfamDomain	PF00440	DNA-binding HTH domain, TetR-type	IPR001647
+PRISM_7904_86964	InterProScan_PfamDomain	PF02653	ABC transporter, permease	IPR001851
+PRISM_7904_98675	InterProScan_PfamDomain	PF05389	Negative regulator of genetic competence, MecA	IPR008681
+PRISM_7906_08764	InterProScan_PfamDomain	PF02421;PF04023;PF07664;PF07670	FeoB-type guanine nucleotide-binding (G) domain;Ferrous iron transporter FeoA domain;Ferrous iron transport protein B, C-terminal;Nucleoside transporter/FeoB GTPase, Gate domain	IPR030389;IPR007167;IPR011640;IPR011642
+PRISM_7906_109114	InterProScan_PfamDomain	PF13529	Peptidase C39-like	IPR039564
+PRISM_7906_136085	InterProScan_PfamDomain	PF13419	Haloacid dehalogenase-like hydrolase	NA
+PRISM_7906_141805	InterProScan_PfamDomain	PF07866	DUF1653-like domain	IPR023387
+PRISM_7906_154195	InterProScan_PfamDomain	PF03323	Bacillus/Clostridium Ger spore germination protein	IPR004995
+PRISM_7906_158570	InterProScan_PfamDomain	PF01026	TatD family	IPR001130
+PRISM_7906_186073	InterProScan_PfamDomain	PF07992;PF14691	FAD/NAD(P)-binding domain;Dihydroprymidine dehydrogenase domain II	IPR023753;IPR028261
+PRISM_7906_190285	InterProScan_PfamDomain	PF00756	Putative esterase	IPR000801
+PRISM_7906_205220	InterProScan_PfamDomain	PF00437	Type II/IV secretion system protein	IPR001482
+PRISM_7906_44106	InterProScan_PfamDomain	PF00440	DNA-binding HTH domain, TetR-type	IPR001647
+PRISM_7908_103074	InterProScan_PfamDomain	PF13828	Domain of unknown function DUF4190	IPR025241
+PRISM_7908_109356	InterProScan_PfamDomain	PF02604	Type II toxin-antitoxin system, antitoxin Phd/YefM	IPR006442
+PRISM_7908_116661	InterProScan_PfamDomain	PF14501	Sensor histidine kinase NatK, C-terminal domain	IPR032834
+PRISM_7908_141263	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7908_177798	InterProScan_PfamDomain	PF01195	Peptidyl-tRNA hydrolase	IPR001328
+PRISM_7908_24217	InterProScan_PfamDomain	PF14501;PF14689	Sensor histidine kinase NatK, C-terminal domain;SpoOB, alpha-helical domain	IPR032834;IPR039506
+PRISM_7908_24218	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_7908_28237	InterProScan_PfamDomain	PF12641	Flavodoxin/nitric oxide synthase	IPR008254
+PRISM_7908_34120	InterProScan_PfamDomain	PF03008	Domain of unknown function DUF234, DEXX-box ATPase C-terminal	IPR004256
+PRISM_7908_77763	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_7909_134197	InterProScan_PfamDomain	PF10387	Protein of unknown function DUF2442	IPR018841
+PRISM_7909_134255	InterProScan_PfamDomain	PF00929	Exonuclease, RNase T/DNA polymerase III	IPR013520
+PRISM_7909_212518	InterProScan_PfamDomain	PF12710	haloacid dehalogenase-like hydrolase	NA
+PRISM_7909_261605	InterProScan_PfamDomain	PF00327	Ribosomal protein L30, ferredoxin-like fold domain	IPR016082
+PRISM_7909_272775	InterProScan_PfamDomain	PF01522	NodB homology domain	IPR002509
+PRISM_7909_272779	InterProScan_PfamDomain	PF00696	Aspartate/glutamate/uridylate kinase	IPR001048
+PRISM_7909_288012	InterProScan_PfamDomain	PF01580	FtsK domain	IPR002543
+PRISM_7909_291075	InterProScan_PfamDomain	PF16163	Protein of unknown function DUF4869	IPR032360
+PRISM_7909_29700	InterProScan_PfamDomain	PF01163;PF03109	RIO1 family;UbiB domain	NA;IPR004147
+PRISM_7909_62726	InterProScan_PfamDomain	PF02110	Hydroxyethylthiazole kinase	IPR000417
+PRISM_7909_67808	InterProScan_PfamDomain	PF06250	Protein of unknown function DUF1016	IPR009362
+PRISM_7909_70269	InterProScan_PfamDomain	PF00005;PF00664	ABC transporter-like;ABC transporter type 1, transmembrane domain	IPR003439;IPR011527
+PRISM_7909_74452	InterProScan_PfamDomain	PF12733	Cadherin-like beta sandwich domain	IPR025883
+PRISM_7910_158508	InterProScan_PfamDomain	PF00075;PF01693	Ribonuclease H domain;Ribonuclease H1, N-terminal	IPR002156;IPR011320
+PRISM_7910_16486	InterProScan_PfamDomain	PF01588;PF03147;PF03483;PF03484	tRNA-binding domain;Ferrodoxin-fold anticodon-binding domain;B3/B4 tRNA-binding domain;tRNA synthetase, B5-domain	IPR002547;IPR005121;IPR005146;IPR005147
+PRISM_7910_16552	InterProScan_PfamDomain	PF01656;PF07685	CobQ/CobB/MinD/ParA nucleotide binding domain;CobB/CobQ-like glutamine amidotransferase	IPR002586;IPR011698
+PRISM_7910_20081	InterProScan_PfamDomain	PF04166	PdxA family	IPR005255
+PRISM_7910_212965	InterProScan_PfamDomain	PF01029	NusB/RsmB/TIM44	IPR006027
+PRISM_7910_217893	InterProScan_PfamDomain	PF01925	Transmembrane protein TauE-like	IPR002781
+PRISM_7910_243729	InterProScan_PfamDomain	PF01128	Cytidylyltransferase IspD/TarI	IPR034683
+PRISM_7910_31018	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_7910_37943	InterProScan_PfamDomain	PF00860	Xanthine/uracil/vitamin C permease	IPR006043
+PRISM_7910_53312	InterProScan_PfamDomain	PF07992	FAD/NAD(P)-binding domain	IPR023753
+PRISM_7910_59114	InterProScan_PfamDomain	PF08011;PF09820	PD-(D/E)XK nuclease superfamily 9;AAA-ATPase-like domain	IPR012547;IPR018631
+PRISM_7910_62536	InterProScan_PfamDomain	PF13780	Protein of unknown function DUF4176	IPR025233
+PRISM_7910_84961	InterProScan_PfamDomain	PF02599	Translational regulator CsrA	IPR003751
+PRISM_7910_86664	InterProScan_PfamDomain	PF02082	Transcription regulator Rrf2-type	IPR000944
+PRISM_7910_91738	InterProScan_PfamDomain	PF13353	4Fe-4S single cluster domain	NA
+PRISM_7910_95222	InterProScan_PfamDomain	PF00111;PF14574	2Fe-2S ferredoxin-type iron-sulfur binding domain;Protein of unknown function DUF4445	IPR001041;IPR027980
+PRISM_7910_97769	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7911_02891	InterProScan_PfamDomain	PF01368;PF02272	DDH domain;DHHA1 domain	IPR001667;IPR003156
+PRISM_7911_02938	InterProScan_PfamDomain	PF00291;PF14821	Pyridoxal-phosphate dependent enzyme;Threonine synthase, N-terminal	IPR001926;IPR029144
+PRISM_7911_06299	InterProScan_PfamDomain	PF01451	Phosphotyrosine protein phosphatase I	IPR023485
+PRISM_7911_109535	InterProScan_PfamDomain	PF00480	ROK family	IPR000600
+PRISM_7911_11377	InterProScan_PfamDomain	PF00521;PF03989	DNA topoisomerase, type IIA, subunit A/C-terminal;DNA gyrase/topoisomerase IV, subunit A, C-terminal repeat	IPR002205;IPR006691
+PRISM_7911_115846	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_7911_116337	InterProScan_PfamDomain	PF02811	PHP domain	IPR004013
+PRISM_7911_117954	InterProScan_PfamDomain	PF13581	Histidine kinase/HSP90-like ATPase	IPR003594
+PRISM_7911_124662	InterProScan_PfamDomain	PF07561	Domain of unknown function DUF1540	IPR011437
+PRISM_7911_124756	InterProScan_PfamDomain	PF00860	Xanthine/uracil/vitamin C permease	IPR006043
+PRISM_7911_134752	InterProScan_PfamDomain	PF00483	Nucleotidyl transferase domain	IPR005835
+PRISM_7911_136572	InterProScan_PfamDomain	PF13472	SGNH hydrolase-type esterase domain	IPR013830
+PRISM_7911_136573	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7911_144765	InterProScan_PfamDomain	PF00456	Transketolase, N-terminal	IPR005474
+PRISM_7911_144982	InterProScan_PfamDomain	PF00579	Aminoacyl-tRNA synthetase, class Ic	IPR002305
+PRISM_7911_145012	InterProScan_PfamDomain	PF00358;PF00367;PF02378	Phosphotransferase system, sugar-specific permease EIIA type 1;Phosphotransferase system EIIB, cysteine phosphorylation site;Phosphotransferase system, EIIC	IPR001127;IPR018113;IPR003352
+PRISM_7911_14777	InterProScan_PfamDomain	PF14584	Protein of unknown function DUF4446	IPR027981
+PRISM_7911_149440	InterProScan_PfamDomain	PF01041	DegT/DnrJ/EryC1/StrS aminotransferase	IPR000653
+PRISM_7911_170037	InterProScan_PfamDomain	PF08282	haloacid dehalogenase-like hydrolase	NA
+PRISM_7911_172833	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_7911_18675	InterProScan_PfamDomain	PF03682	Uncharacterised protein family UPF0158	IPR005361
+PRISM_7911_33412	InterProScan_PfamDomain	PF04993	TfoX, N-terminal	IPR007076
+PRISM_7911_37353	InterProScan_PfamDomain	PF02699	Preprotein translocase YajC	IPR003849
+PRISM_7911_42240	InterProScan_PfamDomain	PF01205;PF09186	Impact, N-terminal;Uncharacterised domain UPF0029, Impact, C-terminal	IPR001498;IPR015269
+PRISM_7911_42276	InterProScan_PfamDomain	PF03109	UbiB domain	IPR004147
+PRISM_7911_47875	InterProScan_PfamDomain	PF13370	4Fe-4S single cluster domain of Ferredoxin I	NA
+PRISM_7911_51682	InterProScan_PfamDomain	PF07883;PF12833	Cupin 2, conserved barrel;DNA binding HTH domain, AraC-type	IPR013096;IPR018060
+PRISM_7911_58390	InterProScan_PfamDomain	PF13306	Leucine rich repeat 5	IPR026906
+PRISM_7911_59500	InterProScan_PfamDomain	PF03551	Transcription regulator PadR, N-terminal	IPR005149
+PRISM_7911_59676	InterProScan_PfamDomain	PF00015;PF07238	Methyl-accepting chemotaxis protein (MCP) signalling domain;PilZ domain	IPR004089;IPR009875
+PRISM_7911_59708	InterProScan_PfamDomain	PF00749	Glutamyl/glutaminyl-tRNA synthetase, class Ib, catalytic domain	IPR020058
+PRISM_7911_59849	InterProScan_PfamDomain	PF03486	HI0933-like protein	NA
+PRISM_7911_66722	InterProScan_PfamDomain	PF04542;PF08281	RNA polymerase sigma-70 region 2;RNA polymerase sigma factor 70, region 4 type 2	IPR007627;IPR013249
+PRISM_7911_66763	InterProScan_PfamDomain	PF12833	DNA binding HTH domain, AraC-type	IPR018060
+PRISM_7911_73687	InterProScan_PfamDomain	PF00392	Transcription regulator HTH, GntR	IPR000524
+PRISM_7911_73900	InterProScan_PfamDomain	PF00543	Nitrogen regulatory protein PII	IPR002187
+PRISM_7911_73922	InterProScan_PfamDomain	PF01379;PF03900	Porphobilinogen deaminase, N-terminal;Porphobilinogen deaminase, C-terminal	IPR022417;IPR022418
+PRISM_7911_73927	InterProScan_PfamDomain	PF00496	Solute-binding protein family 5 domain	IPR000914
+PRISM_7911_78276	InterProScan_PfamDomain	PF02518;PF06580	Histidine kinase/HSP90-like ATPase;Signal transduction histidine kinase, internal region	IPR003594;IPR010559
+PRISM_7912_106530	InterProScan_PfamDomain	PF02769;PF13507	PurM-like, C-terminal domain;CobB/CobQ-like glutamine amidotransferase domain	IPR010918;NA
+PRISM_7912_200080	InterProScan_PfamDomain	PF00857	Isochorismatase-like	IPR000868
+PRISM_7912_205704	InterProScan_PfamDomain	PF00293	NUDIX hydrolase domain	IPR000086
+PRISM_7912_231143	InterProScan_PfamDomain	PF01071;PF02843;PF02844	Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain;Phosphoribosylglycinamide synthetase, C-domain;Phosphoribosylglycinamide synthetase, N-terminal	IPR020561;IPR020560;IPR020562
+PRISM_7912_242536	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7912_260411	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_7912_267628	InterProScan_PfamDomain	PF00589	Integrase, catalytic domain	IPR002104
+PRISM_7938_104118	InterProScan_PfamDomain	PF12706	Metallo-beta-lactamase	IPR001279
+PRISM_7938_106918	InterProScan_PfamDomain	PF13566	Domain of unknown function DUF4130	IPR025404
+PRISM_7938_108386	InterProScan_PfamDomain	PF01471	Peptidoglycan binding-like	IPR002477
+PRISM_7938_18572	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7938_21108	InterProScan_PfamDomain	PF00041;PF02368;PF09479;PF14498	Fibronectin type III;Bacterial Ig-like, group 2;Listeria/Bacterioides repeat;Glycosyl hydrolase family 95, N-terminal domain	IPR003961;IPR003343;IPR013378;IPR027414
+PRISM_7938_21356	InterProScan_PfamDomain	PF02283	Cobinamide kinase/cobinamide phosphate guanyltransferase	IPR003203
+PRISM_7938_21369	InterProScan_PfamDomain	PF01656;PF07685	CobQ/CobB/MinD/ParA nucleotide binding domain;CobB/CobQ-like glutamine amidotransferase	IPR002586;IPR011698
+PRISM_7938_22030	InterProScan_PfamDomain	PF12844	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_7938_27359	InterProScan_PfamDomain	PF08282	haloacid dehalogenase-like hydrolase	NA
+PRISM_7938_33855	InterProScan_PfamDomain	PF14501	Sensor histidine kinase NatK, C-terminal domain	IPR032834
+PRISM_7938_49834	InterProScan_PfamDomain	PF00717	Peptidase S24/S26A/S26B/S26C	IPR015927
+PRISM_7938_56781	InterProScan_PfamDomain	PF00462;PF03477;PF13597	Glutaredoxin;ATP-cone domain;Ribonucleoside-triphosphate reductase, anaerobic	IPR002109;IPR005144;IPR012833
+PRISM_7938_67129	InterProScan_PfamDomain	PF13614	AAA domain	IPR025669
+PRISM_7938_67160	InterProScan_PfamDomain	PF00401;PF02823	ATP synthase delta/epsilon subunit, C-terminal domain;ATP synthase, F1 complex, delta/epsilon subunit, N-terminal	IPR020547;IPR020546
+PRISM_7938_70309	InterProScan_PfamDomain	PF12679	ABC-2 family transporter protein	IPR032688
+PRISM_7938_75963	InterProScan_PfamDomain	PF13416	Bacterial extracellular solute-binding protein	IPR006059
+PRISM_7938_79976	InterProScan_PfamDomain	PF00317;PF02867	Ribonucleotide reductase large subunit, N-terminal;Ribonucleotide reductase large subunit, C-terminal	IPR013509;IPR000788
+PRISM_7938_86297	InterProScan_PfamDomain	PF04014;PF15714	SpoVT-AbrB domain;Sporulation stage V protein T, GAF domain	IPR007159;IPR039472
+PRISM_7938_86973	InterProScan_PfamDomain	PF01966	HD domain	IPR006674
+PRISM_7938_99989	InterProScan_PfamDomain	PF00392;PF07729	Transcription regulator HTH, GntR;GntR, C-terminal	IPR000524;IPR011711
+PRISM_7941_04502	InterProScan_PfamDomain	PF04542;PF08281	RNA polymerase sigma-70 region 2;RNA polymerase sigma factor 70, region 4 type 2	IPR007627;IPR013249
+PRISM_7941_09323	InterProScan_PfamDomain	PF01960	Arginine biosynthesis protein ArgJ	IPR002813
+PRISM_7941_101322	InterProScan_PfamDomain	PF01171	tRNA(Ile)-lysidine/2-thiocytidine synthase, N-terminal	IPR011063
+PRISM_7941_111874	InterProScan_PfamDomain	PF00781	Diacylglycerol kinase, catalytic domain	IPR001206
+PRISM_7941_117476	InterProScan_PfamDomain	PF09547	Sporulation stage IV, protein A	IPR014201
+PRISM_7941_129632	InterProScan_PfamDomain	PF01761	3-dehydroquinate synthase domain	IPR030960
+PRISM_7941_134548	InterProScan_PfamDomain	PF00128;PF02903	Glycosyl hydrolase, family 13, catalytic domain;Glycoside hydrolase, family 13, N-terminal Ig-like domain	IPR006047;IPR004185
+PRISM_7941_14141	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_7941_18861	InterProScan_PfamDomain	PF00155	Aminotransferase, class I/classII	IPR004839
+PRISM_7941_19113	InterProScan_PfamDomain	PF01471	Peptidoglycan binding-like	IPR002477
+PRISM_7941_33049	InterProScan_PfamDomain	PF04055;PF13353	Radical SAM;4Fe-4S single cluster domain	IPR007197;NA
+PRISM_7941_64044	InterProScan_PfamDomain	PF00590	Tetrapyrrole methylase	IPR000878
+PRISM_7941_71180	InterProScan_PfamDomain	PF01807;PF08275;PF10410;PF13155	Zinc finger, CHC2-type;DNA primase, catalytic core, N-terminal;DNA primase, DnaB-helicase binding domain;Toprim-like	IPR002694;IPR013264;IPR019475;NA
+PRISM_7941_81419	InterProScan_PfamDomain	PF00005;PF00664	ABC transporter-like;ABC transporter type 1, transmembrane domain	IPR003439;IPR011527
+PRISM_7941_82020	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7941_94533	InterProScan_PfamDomain	PF13610	DDE domain	IPR032874
+PRISM_7941_96021	InterProScan_PfamDomain	PF00724	NADH:flavin oxidoreductase/NADH oxidase, N-terminal	IPR001155
+PRISM_7947_23712	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_7948_09232	InterProScan_PfamDomain	PF00665	Integrase, catalytic core	IPR001584
+PRISM_7948_11565	InterProScan_PfamDomain	PF02410	Ribosomal silencing factor during starvation	NA
+PRISM_7948_11590	InterProScan_PfamDomain	PF00919;PF04055	Methylthiotransferase, N-terminal;Radical SAM	IPR013848;IPR007197
+PRISM_7948_11621	InterProScan_PfamDomain	PF03116	Ion-translocating oxidoreductase NqrB/RnfD	IPR004338
+PRISM_7948_143435	InterProScan_PfamDomain	PF01171;PF11734	tRNA(Ile)-lysidine/2-thiocytidine synthase, N-terminal;Lysidine-tRNA(Ile) synthetase, C-terminal	IPR011063;IPR012796
+PRISM_7948_146589	InterProScan_PfamDomain	PF07883	Cupin 2, conserved barrel	IPR013096
+PRISM_7948_15103	InterProScan_PfamDomain	PF01381;PF07883	Cro/C1-type helix-turn-helix domain;Cupin 2, conserved barrel	IPR001387;IPR013096
+PRISM_7948_15118	InterProScan_PfamDomain	PF00231	ATP synthase, F1 complex, gamma subunit	IPR000131
+PRISM_7948_45515	InterProScan_PfamDomain	PF12669	Virus attachment protein p12 family	NA
+PRISM_7948_81868	InterProScan_PfamDomain	PF01926	GTP binding domain	IPR006073
+PRISM_7948_85036	InterProScan_PfamDomain	PF04383	KilA, N-terminal/APSES-type HTH, DNA-binding	IPR018004
+PRISM_7955_01133	InterProScan_PfamDomain	PF05437	Branched-chain amino acid transport, AzlD	IPR008407
+PRISM_7955_01137	InterProScan_PfamDomain	PF00587;PF03129;PF09180	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding;Proline-tRNA ligase, class II, C-terminal	IPR002314;IPR004154;IPR016061
+PRISM_7955_02271	InterProScan_PfamDomain	PF00589	Integrase, catalytic domain	IPR002104
+PRISM_7955_05615	InterProScan_PfamDomain	PF00009;PF03143	Transcription factor, GTP-binding domain;Translation elongation factor EFTu/EF1A, C-terminal	IPR000795;IPR004160
+PRISM_7955_100976	InterProScan_PfamDomain	PF02517	CAAX amino terminal protease	IPR003675
+PRISM_7955_10154	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_7955_103289	InterProScan_PfamDomain	PF07751	Abortive infection system protein AbiD/AbiF-like	IPR011664
+PRISM_7955_11348	InterProScan_PfamDomain	PF04026	Stage V sporulation protein G	IPR007170
+PRISM_7955_116482	InterProScan_PfamDomain	PF00365	Phosphofructokinase domain	IPR000023
+PRISM_7955_121322	InterProScan_PfamDomain	PF02132;PF13662	Recombination protein RecR, C4-type zinc finger;TOPRIM  domain	IPR023628;IPR006171
+PRISM_7955_125942	InterProScan_PfamDomain	PF01255	Decaprenyl diphosphate synthase-like	IPR001441
+PRISM_7955_156188	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_7955_171075	InterProScan_PfamDomain	PF00406;PF05191	Adenylate kinase;Adenylate kinase, active site lid domain	NA;IPR007862
+PRISM_7955_179014	InterProScan_PfamDomain	PF02706	Polysaccharide chain length determinant N-terminal domain	IPR003856
+PRISM_7955_186322	InterProScan_PfamDomain	PF02537	Putative fluoride ion transporter CrcB	IPR003691
+PRISM_7955_198500	InterProScan_PfamDomain	PF01371	Trp repressor	IPR000831
+PRISM_7955_20620	InterProScan_PfamDomain	PF13630	SdpI/YhfL protein family	IPR025962
+PRISM_7955_220651	InterProScan_PfamDomain	PF01478;PF06750	Prepilin type IV endopeptidase, peptidase domain;Peptidase A24A, N-terminal	IPR000045;IPR010627
+PRISM_7955_222502	InterProScan_PfamDomain	PF00587;PF02824;PF03129;PF07973	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);TGS;Anticodon-binding;Threonyl/alanyl tRNA synthetase, SAD	IPR002314;IPR004095;IPR004154;IPR012947
+PRISM_7955_232866	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7955_245630	InterProScan_PfamDomain	PF00009;PF03144;PF16658	Transcription factor, GTP-binding domain;Translation elongation factor EFTu-like, domain 2;Peptide chain release factor 3, C-terminal	IPR000795;IPR004161;IPR032090
+PRISM_7955_257857	InterProScan_PfamDomain	PF02568;PF02926	Thil, AANH domain;THUMP domain	IPR020536;IPR004114
+PRISM_7955_269171	InterProScan_PfamDomain	PF03477	ATP-cone domain	IPR005144
+PRISM_7955_277577	InterProScan_PfamDomain	PF01628	Heat-inducible transcription repressor HrcA, C-terminal	IPR021153
+PRISM_7955_281474	InterProScan_PfamDomain	PF12710	haloacid dehalogenase-like hydrolase	NA
+PRISM_7955_284506	InterProScan_PfamDomain	PF06738;PF12821	Putative threonine/serine exporter;Threonine/Serine exporter, ThrE	IPR010619;IPR024528
+PRISM_7955_28504	InterProScan_PfamDomain	PF00275	Enolpyruvate transferase domain	IPR001986
+PRISM_7955_28993	InterProScan_PfamDomain	PF02449;PF08532;PF08533	Glycoside hydrolase, family 42, N-terminal;Beta-galactosidase trimerisation;Beta-galactosidase C-terminal	IPR013529;IPR013738;IPR013739
+PRISM_7955_29551	InterProScan_PfamDomain	PF01841	Transglutaminase-like	IPR002931
+PRISM_7955_296268	InterProScan_PfamDomain	PF04023	Ferrous iron transporter FeoA domain	IPR007167
+PRISM_7955_296270	InterProScan_PfamDomain	PF02421;PF07664;PF07670	FeoB-type guanine nucleotide-binding (G) domain;Ferrous iron transport protein B, C-terminal;Nucleoside transporter/FeoB GTPase, Gate domain	IPR030389;IPR011640;IPR011642
+PRISM_7955_300457	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_7955_306304	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_7955_348114	InterProScan_PfamDomain	PF00109;PF02801	Beta-ketoacyl synthase, N-terminal;Beta-ketoacyl synthase, C-terminal	IPR014030;IPR014031
+PRISM_7955_348118	InterProScan_PfamDomain	PF00550	Phosphopantetheine binding ACP domain	IPR009081
+PRISM_7955_36631	InterProScan_PfamDomain	PF01409;PF02912	Phenylalanyl-tRNA synthetase;Phenylalanine-tRNA ligase, class II, N-terminal	IPR002319;IPR004188
+PRISM_7955_36632	InterProScan_PfamDomain	PF01588;PF03147;PF03483;PF03484	tRNA-binding domain;Ferrodoxin-fold anticodon-binding domain;B3/B4 tRNA-binding domain;tRNA synthetase, B5-domain	IPR002547;IPR005121;IPR005146;IPR005147
+PRISM_7955_36633	InterProScan_PfamDomain	PF02547	S-adenosylmethionine:tRNA ribosyltransferase-isomerase,  QueA	IPR003699
+PRISM_7955_43803	InterProScan_PfamDomain	PF01248	Ribosomal protein L7Ae/L30e/S12e/Gadd45	IPR004038
+PRISM_7955_45003	InterProScan_PfamDomain	PF00437	Type II/IV secretion system protein	IPR001482
+PRISM_7955_45008	InterProScan_PfamDomain	PF00004;PF02861;PF07724;PF10431	ATPase, AAA-type, core;Clp, N-terminal;ATPase, AAA-type, core;Clp ATPase, C-terminal	IPR003959;IPR004176;IPR003959;IPR019489
+PRISM_7955_56494	InterProScan_PfamDomain	PF02603;PF07475	HPr(Ser) kinase/phosphorylase, N-terminal;HPr kinase/phosphorylase, C-terminal	IPR011126;IPR011104
+PRISM_7955_60241	InterProScan_PfamDomain	PF00696	Aspartate/glutamate/uridylate kinase	IPR001048
+PRISM_7955_86525	InterProScan_PfamDomain	PF05167	Uncharacterised protein family UPF0210	IPR007841
+PRISM_7955_91703	InterProScan_PfamDomain	PF00119	ATP synthase, F0 complex, subunit A	IPR000568
+PRISM_7955_91720	InterProScan_PfamDomain	PF01327	Peptide deformylase	IPR023635
+PRISM_7955_99666	InterProScan_PfamDomain	PF13173	AAA domain	NA
+PRISM_7989_02878	InterProScan_PfamDomain	PF01384	Phosphate transporter	IPR001204
+PRISM_7989_04256	InterProScan_PfamDomain	PF00137	V-ATPase proteolipid subunit C-like domain	IPR002379
+PRISM_7989_06239	InterProScan_PfamDomain	PF01380;PF01418	Sugar isomerase (SIS);Helix-turn-helix protein RpiR	IPR001347;IPR000281
+PRISM_7989_07556	InterProScan_PfamDomain	PF00375	Sodium:dicarboxylate symporter	IPR001991
+PRISM_7989_08889	InterProScan_PfamDomain	PF00365	Phosphofructokinase domain	IPR000023
+PRISM_7989_23754	InterProScan_PfamDomain	PF12637	TSCPD domain	IPR024434
+PRISM_7989_28589	InterProScan_PfamDomain	PF02597	Sulfur carrier ThiS/MoaD-like	IPR003749
+PRISM_7989_28754	InterProScan_PfamDomain	PF01512;PF10531;PF13375;PF13534	NADH-ubiquinone oxidoreductase 51kDa subunit, FMN-binding domain;Soluble ligand binding domain;RnfC Barrel sandwich hybrid domain;4Fe-4S dicluster domain	IPR011538;IPR019554;IPR026902;NA
+PRISM_7989_36468	InterProScan_PfamDomain	PF04055	Radical SAM	IPR007197
+PRISM_7989_40250	InterProScan_PfamDomain	PF06808	TRAP C4-dicarboxylate transport system permease DctM subunit	IPR010656
+PRISM_8095_00426	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8095_01192	InterProScan_PfamDomain	PF12847	Methyltransferase domain	NA
+PRISM_8095_01193	InterProScan_PfamDomain	PF01784	GTP cyclohydrolase 1 type 2/Nif3	IPR002678
+PRISM_8095_08819	InterProScan_PfamDomain	PF00933	Glycoside hydrolase, family 3, N-terminal	IPR001764
+PRISM_8095_09405	InterProScan_PfamDomain	PF02503;PF13089;PF13090	Polyphosphate kinase middle domain;Polyphosphate kinase N-terminal domain;Polyphosphate kinase C-terminal domain	IPR024953;IPR025198;IPR025200
+PRISM_8095_18221	InterProScan_PfamDomain	PF03816	Cell envelope-related transcriptional attenuator domain	IPR004474
+PRISM_8095_23153	InterProScan_PfamDomain	PF02588;PF10035	Uncharacterised membrane protein YitT;Domain of unknown function DUF2179	IPR003740;IPR019264
+PRISM_8095_28570	InterProScan_PfamDomain	PF04542;PF09826	RNA polymerase sigma-70 region 2;Beta propeller domain-containing family	IPR007627;IPR019198
+PRISM_8095_35764	InterProScan_PfamDomain	PF00488	DNA mismatch repair protein MutS, C-terminal	IPR000432
+PRISM_8095_47580	InterProScan_PfamDomain	PF00480	ROK family	IPR000600
+PRISM_8226_05848	InterProScan_PfamDomain	PF02130	Endoribonuclease YbeY	IPR002036
+PRISM_8226_07030	InterProScan_PfamDomain	PF02517	CAAX amino terminal protease	IPR003675
+PRISM_8226_11743	InterProScan_PfamDomain	PF05935;PF17425	Arylsulfotransferase, bacteria;Arylsulfotransferase, Ig-like domain	IPR010262;IPR035391
+PRISM_8226_12460	InterProScan_PfamDomain	PF02355;PF07549	Protein-export membrane protein SecD/SecF, archaeal and bacterial;Protein-export membrane protein SecD/SecF/SecDF, conserved site	IPR022813;IPR022646
+PRISM_8226_15040	InterProScan_PfamDomain	PF00381	Phosphocarrier protein HPr-like	IPR000032
+PRISM_8226_15047	InterProScan_PfamDomain	PF00126;PF03466	Transcription regulator HTH, LysR;LysR, substrate-binding	IPR000847;IPR005119
+PRISM_8226_20561	InterProScan_PfamDomain	PF01520	N-acetylmuramoyl-L-alanine amidase, catalytic domain	IPR002508
+PRISM_8226_24079	InterProScan_PfamDomain	PF09966	Uncharacterised conserved protein UCP033199	IPR014580
+PRISM_8226_29379	InterProScan_PfamDomain	PF00672;PF02518;PF02743;PF06580	HAMP domain;Histidine kinase/HSP90-like ATPase;Double Cache domain 1;Signal transduction histidine kinase, internal region	IPR003660;IPR003594;IPR033479;IPR010559
+PRISM_8226_31712	InterProScan_PfamDomain	PF13529	Peptidase C39-like	IPR039564
+PRISM_8226_51564	InterProScan_PfamDomain	PF09148	Protein of unknown function DUF1934	IPR015231
+PRISM_8226_54494	InterProScan_PfamDomain	PF01527	Transposase IS3/IS911family	IPR002514
+PRISM_8226_66857	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_8226_67246	InterProScan_PfamDomain	PF08241	Methyltransferase type 11	IPR013216
+PRISM_8226_68398	InterProScan_PfamDomain	PF00072	Signal transduction response regulator, receiver domain	IPR001789
+PRISM_8226_68803	InterProScan_PfamDomain	PF04383	KilA, N-terminal/APSES-type HTH, DNA-binding	IPR018004
+PRISM_8226_69059	InterProScan_PfamDomain	PF00251;PF08244	Glycosyl hydrolase family 32, N-terminal;Glycosyl hydrolase family 32, C-terminal	IPR013148;IPR013189
+PRISM_8226_84950	InterProScan_PfamDomain	PF02463;PF06470	RecF/RecN/SMC, N-terminal;SMCs flexible hinge	IPR003395;IPR010935
+PRISM_8244_06486	InterProScan_PfamDomain	PF01527	Transposase IS3/IS911family	IPR002514
+PRISM_8244_118342	InterProScan_PfamDomain	PF00696	Aspartate/glutamate/uridylate kinase	IPR001048
+PRISM_8244_120498	InterProScan_PfamDomain	PF01420	Restriction endonuclease, type I, HsdS	IPR000055
+PRISM_8244_201964	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8244_223327	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8244_224145	InterProScan_PfamDomain	PF05025	D-ribose pyranase RbsD/L-fucose mutarotase FucU	IPR007721
+PRISM_8244_243375	InterProScan_PfamDomain	PF03885	Protein of unknown function DUF327	IPR005585
+PRISM_8244_80916	InterProScan_PfamDomain	PF14277	Protein of unknown function DUF4364	IPR025374
+PRISM_8264_00604	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_8283_100896	InterProScan_PfamDomain	PF01297	Periplasmic solute binding protein, ZnuA-like	IPR006127
+PRISM_8283_123984	InterProScan_PfamDomain	PF08348;PF13309	YheO-like;Transcriptional regulator DauR-like, HTH domain	IPR013559;IPR039445
+PRISM_8283_138719	InterProScan_PfamDomain	PF00037;PF02492;PF07992;PF14691	4Fe-4S ferredoxin-type, iron-sulphur binding domain;CobW/HypB/UreG, nucleotide-binding domain;FAD/NAD(P)-binding domain;Dihydroprymidine dehydrogenase domain II	IPR017896;IPR003495;IPR023753;IPR028261
+PRISM_8283_147061	InterProScan_PfamDomain	PF05119	Putative phage terminase, small subunit, P27 family	IPR006448
+PRISM_8283_153533	InterProScan_PfamDomain	PF01136	Peptidase U32	IPR001539
+PRISM_8283_158425	InterProScan_PfamDomain	PF13711	Protein of unknown function DUF4160	IPR025427
+PRISM_8283_168920	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_8283_244391	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_8283_274327	InterProScan_PfamDomain	PF12706	Metallo-beta-lactamase	IPR001279
+PRISM_8283_306173	InterProScan_PfamDomain	PF00994	MoaB/Mog domain	IPR001453
+PRISM_8283_307117	InterProScan_PfamDomain	PF02446	Glycoside hydrolase, family 77	IPR003385
+PRISM_8283_335196	InterProScan_PfamDomain	PF00137	V-ATPase proteolipid subunit C-like domain	IPR002379
+PRISM_8283_37013	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_8283_380940	InterProScan_PfamDomain	PF00857	Isochorismatase-like	IPR000868
+PRISM_8283_395179	InterProScan_PfamDomain	PF06962	Putative rRNA methylase	IPR010719
+PRISM_8283_401970	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_8283_81619	InterProScan_PfamDomain	PF01202	Shikimate kinase/gluconokinase	IPR031322
+PRISM_8283_82843	InterProScan_PfamDomain	PF06689;PF07724;PF10431	Zinc finger, ClpX C4-type;ATPase, AAA-type, core;Clp ATPase, C-terminal	IPR010603;IPR003959;IPR019489
+PRISM_8332_173449	InterProScan_PfamDomain	PF00440	DNA-binding HTH domain, TetR-type	IPR001647
+PRISM_8332_188697	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_8332_241406	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8332_249632	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8332_254539	InterProScan_PfamDomain	PF02527	rRNA small subunit methyltransferase G	IPR003682
+PRISM_8332_265901	InterProScan_PfamDomain	PF00763;PF02882	Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain;Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain	IPR020630;IPR020631
+PRISM_8332_265908	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_8332_281722	InterProScan_PfamDomain	PF08244	Glycosyl hydrolase family 32, C-terminal	IPR013189
+PRISM_8332_301151	InterProScan_PfamDomain	PF00480	ROK family	IPR000600
+PRISM_8332_327235	InterProScan_PfamDomain	PF01370	NAD-dependent epimerase/dehydratase	IPR001509
+PRISM_8332_364941	InterProScan_PfamDomain	PF07730	Signal transduction histidine kinase, subgroup 3, dimerisation and phosphoacceptor domain	IPR011712
+PRISM_8332_370538	InterProScan_PfamDomain	PF02463	RecF/RecN/SMC, N-terminal	IPR003395
+PRISM_8332_59739	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_8332_88048	InterProScan_PfamDomain	PF12164	Stage V sporulation protein AA	IPR021997
+PRISM_8361_101011	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8361_110097	InterProScan_PfamDomain	PF00085	Thioredoxin domain	IPR013766
+PRISM_8361_114303	InterProScan_PfamDomain	PF00633;PF00730;PF10576	Helix-hairpin-helix motif;HhH-GPD domain;Endonuclease III-like, iron-sulphur cluster loop motif	IPR000445;IPR003265;IPR003651
+PRISM_8361_114597	InterProScan_PfamDomain	PF13551	Winged helix-turn helix	NA
+PRISM_8361_124594	InterProScan_PfamDomain	PF02255	Phosphotransferase system, lactose/cellobiose-type IIA subunit	IPR003188
+PRISM_8361_131108	InterProScan_PfamDomain	PF08486	Sporulation stage II protein D, amidase enhancer LytB N-terminal	IPR013693
+PRISM_8361_133945	InterProScan_PfamDomain	PF01330;PF07499;PF14520	DNA helicase, Holliday junction RuvA type, domain I, bacterial;Holliday junction DNA helicase RuvA, C-terminal;Helix-hairpin-helix domain	IPR013849;IPR011114;NA
+PRISM_8361_142481	InterProScan_PfamDomain	PF05681	Fe-S hydro-lyase, tartrate dehydratase alpha-type, catalytic domain	IPR004646
+PRISM_8361_15249	InterProScan_PfamDomain	PF01408;PF02894	Oxidoreductase, N-terminal;Oxidoreductase, C-terminal	IPR000683;IPR004104
+PRISM_8361_23881	InterProScan_PfamDomain	PF13930	DNA/RNA non-specific endonuclease	NA
+PRISM_8361_35097	InterProScan_PfamDomain	PF00999;PF02080	Cation/H+ exchanger;Regulator of K+ conductance, C-terminal	IPR006153;IPR006037
+PRISM_8361_45088	InterProScan_PfamDomain	PF07949	YbbR-like	IPR012505
+PRISM_8361_46007	InterProScan_PfamDomain	PF13237	4Fe-4S ferredoxin-type, iron-sulphur binding domain	IPR017896
+PRISM_8361_46186	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8361_59778	InterProScan_PfamDomain	PF00717	Peptidase S24/S26A/S26B/S26C	IPR015927
+PRISM_8361_59804	InterProScan_PfamDomain	PF11823	Domain of unknown function DUF3343	IPR021778
+PRISM_8361_61662	InterProScan_PfamDomain	PF02588	Uncharacterised membrane protein YitT	IPR003740
+PRISM_8361_63199	InterProScan_PfamDomain	PF06912	Protein of unknown function DUF1275	IPR010699
+PRISM_8361_77824	InterProScan_PfamDomain	PF00884;PF16347	Sulfatase, N-terminal;Domain of unknown function DUF4976	IPR000917;IPR032506
+PRISM_8361_94297	InterProScan_PfamDomain	PF06738	Putative threonine/serine exporter	IPR010619
+PRISM_8374_11936	InterProScan_PfamDomain	PF00753	Metallo-beta-lactamase	IPR001279
+PRISM_8374_121214	InterProScan_PfamDomain	PF06808	TRAP C4-dicarboxylate transport system permease DctM subunit	IPR010656
+PRISM_8374_123881	InterProScan_PfamDomain	PF01938;PF05958	TRAM domain;(Uracil-5)-methyltransferase family	IPR002792;IPR010280
+PRISM_8374_123887	InterProScan_PfamDomain	PF01451	Phosphotyrosine protein phosphatase I	IPR023485
+PRISM_8374_125062	InterProScan_PfamDomain	PF04131	Putative N-acetylmannosamine-6-phosphate epimerase	IPR007260
+PRISM_8374_12632	InterProScan_PfamDomain	PF01551	Peptidase M23	IPR016047
+PRISM_8374_127818	InterProScan_PfamDomain	PF02603;PF07475	HPr(Ser) kinase/phosphorylase, N-terminal;HPr kinase/phosphorylase, C-terminal	IPR011126;IPR011104
+PRISM_8374_17406	InterProScan_PfamDomain	PF00436	Primosome PriB/single-strand DNA-binding	IPR000424
+PRISM_8374_19313	InterProScan_PfamDomain	PF00392	Transcription regulator HTH, GntR	IPR000524
+PRISM_8374_23346	InterProScan_PfamDomain	PF14277	Protein of unknown function DUF4364	IPR025374
+PRISM_8374_23365	InterProScan_PfamDomain	PF00929;PF02811;PF07733;PF11490;PF14480;PF14579	Exonuclease, RNase T/DNA polymerase III;PHP domain;Bacterial DNA polymerase III, alpha subunit;DNA polymerase III polC-like, N-terminal domain II;DNA polymerase III polC-type, N-terminal domain I;DNA polymerase, helix-hairpin-helix motif	IPR013520;IPR004013;IPR011708;IPR024754;IPR028112;IPR029460
+PRISM_8374_28982	InterProScan_PfamDomain	PF06898	Putative stage IV sporulation YqfD	IPR010690
+PRISM_8374_28985	InterProScan_PfamDomain	PF03169;PF05402	Oligopeptide transporter, OPT superfamily;Coenzyme PQQ synthesis D	IPR004813;IPR008792
+PRISM_8374_30176	InterProScan_PfamDomain	PF08282	haloacid dehalogenase-like hydrolase	NA
+PRISM_8374_32635	InterProScan_PfamDomain	PF03116	Ion-translocating oxidoreductase NqrB/RnfD	IPR004338
+PRISM_8374_38979	InterProScan_PfamDomain	PF11545	Cell surface protein Shp, haem-binding domain	IPR020985
+PRISM_8374_44795	InterProScan_PfamDomain	PF02952;PF07881;PF07882	L-fucose isomerase, C-terminal;L-fucose isomerase, N-terminal-1;L-fucose isomerase, N-terminal-2	IPR015888;IPR012888;IPR012889
+PRISM_8374_44810	InterProScan_PfamDomain	PF02492	CobW/HypB/UreG, nucleotide-binding domain	IPR003495
+PRISM_8374_46288	InterProScan_PfamDomain	PF00871	Aliphatic acid kinase, short-chain	IPR000890
+PRISM_8374_46301	InterProScan_PfamDomain	PF13302	GNAT domain	IPR000182
+PRISM_8374_48101	InterProScan_PfamDomain	PF02906;PF12838	Iron hydrogenase, large subunit, C-terminal;4Fe-4S ferredoxin-type, iron-sulphur binding domain	IPR004108;IPR017896
+PRISM_8374_49050	InterProScan_PfamDomain	PF13683	Integrase, catalytic core	IPR001584
+PRISM_8374_49051	InterProScan_PfamDomain	PF04463	Domain of unknown function DUF523	IPR007553
+PRISM_8374_55596	InterProScan_PfamDomain	PF00117	Glutamine amidotransferase	IPR017926
+PRISM_8374_58394	InterProScan_PfamDomain	PF02687	ABC transporter permease protein domain	IPR003838
+PRISM_8374_58398	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8374_62055	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8374_65639	InterProScan_PfamDomain	PF01471	Peptidoglycan binding-like	IPR002477
+PRISM_8377_101797	InterProScan_PfamDomain	PF01300;PF01451;PF03481	YrdC-like domain;Phosphotyrosine protein phosphatase I;Putative GTP-binding controlling metal-binding domain	IPR006070;IPR023485;IPR005145
+PRISM_8377_127631	InterProScan_PfamDomain	PF01025	GrpE nucleotide exchange factor	IPR000740
+PRISM_8377_154180	InterProScan_PfamDomain	PF02674	Colicin V production, CvpA	IPR003825
+PRISM_8377_31421	InterProScan_PfamDomain	PF09820	AAA-ATPase-like domain	IPR018631
+PRISM_8377_33085	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_8377_36155	InterProScan_PfamDomain	PF13416	Bacterial extracellular solute-binding protein	IPR006059
+PRISM_8377_36165	InterProScan_PfamDomain	PF04296	Domain of unknown function DUF448	IPR007393
+PRISM_8377_40236	InterProScan_PfamDomain	PF02687	ABC transporter permease protein domain	IPR003838
+PRISM_8377_65938	InterProScan_PfamDomain	PF12164	Stage V sporulation protein AA	IPR021997
+PRISM_8406_05067	InterProScan_PfamDomain	PF16982	Putative Flagellin, Flp1-like domain	IPR031564
+PRISM_8406_102826	InterProScan_PfamDomain	PF00633;PF00730;PF10576	Helix-hairpin-helix motif;HhH-GPD domain;Endonuclease III-like, iron-sulphur cluster loop motif	IPR000445;IPR003265;IPR003651
+PRISM_8406_10310	InterProScan_PfamDomain	PF00849	Pseudouridine synthase, RsuA/RluB/C/D/E/F	IPR006145
+PRISM_8406_103739	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8406_105776	InterProScan_PfamDomain	PF00072;PF12833	Signal transduction response regulator, receiver domain;DNA binding HTH domain, AraC-type	IPR001789;IPR018060
+PRISM_8406_111493	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_8406_118294	InterProScan_PfamDomain	PF00724;PF07992	NADH:flavin oxidoreductase/NADH oxidase, N-terminal;FAD/NAD(P)-binding domain	IPR001155;IPR023753
+PRISM_8406_131548	InterProScan_PfamDomain	PF02517	CAAX amino terminal protease	IPR003675
+PRISM_8406_139347	InterProScan_PfamDomain	PF00768	Peptidase S11, D-alanyl-D-alanine carboxypeptidase A, N-terminal	IPR001967
+PRISM_8406_155708	InterProScan_PfamDomain	PF01487	3-dehydroquinate dehydratase type I	IPR001381
+PRISM_8406_168796	InterProScan_PfamDomain	PF13416	Bacterial extracellular solute-binding protein	IPR006059
+PRISM_8406_169164	InterProScan_PfamDomain	PF00703;PF02836;PF02837	Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich;Glycoside hydrolase family 2, catalytic domain;Glycosyl hydrolases family 2, sugar binding domain	IPR006102;IPR006103;IPR006104
+PRISM_8406_172195	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8406_177639	InterProScan_PfamDomain	PF10646	GerMN domain	IPR019606
+PRISM_8406_20061	InterProScan_PfamDomain	PF00156;PF13793	Phosphoribosyltransferase domain;Ribose-phosphate pyrophosphokinase, N-terminal domain	IPR000836;IPR029099
+PRISM_8406_21790	InterProScan_PfamDomain	PF05580;PF13180	Peptidase S55, SpoIVB;PDZ domain	IPR008763;IPR001478
+PRISM_8406_235184	InterProScan_PfamDomain	PF04055;PF13394	Radical SAM;4Fe-4S single cluster domain	IPR007197;NA
+PRISM_8406_245507	InterProScan_PfamDomain	PF01053	Cys/Met metabolism, pyridoxal phosphate-dependent enzyme	IPR000277
+PRISM_8406_257800	InterProScan_PfamDomain	PF01694	Peptidase S54, rhomboid domain	IPR022764
+PRISM_8406_262170	InterProScan_PfamDomain	PF00512;PF00672;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;HAMP domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003660;IPR003594
+PRISM_8406_26517	InterProScan_PfamDomain	PF00753;PF07521;PF10996	Metallo-beta-lactamase;Zn-dependent metallo-hydrolase, RNA specificity domain;Beta-Casp domain	IPR001279;IPR011108;IPR022712
+PRISM_8406_34663	InterProScan_PfamDomain	PF01170;PF02926	Putative RNA methylase domain;THUMP domain	IPR000241;IPR004114
+PRISM_8406_42742	InterProScan_PfamDomain	PF01416	Pseudouridine synthase I, TruA, alpha/beta domain	IPR020097
+PRISM_8406_46664	InterProScan_PfamDomain	PF00072;PF12833	Signal transduction response regulator, receiver domain;DNA binding HTH domain, AraC-type	IPR001789;IPR018060
+PRISM_8406_49268	InterProScan_PfamDomain	PF02424	Flavin transferase ApbE	IPR024932
+PRISM_8406_55226	InterProScan_PfamDomain	PF06177	Queuosine precursor transporter QueT	IPR010387
+PRISM_8406_60155	InterProScan_PfamDomain	PF10112	5-bromo-4-chloroindolyl phosphate hydrolysis protein	IPR018770
+PRISM_8406_60904	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8406_67002	InterProScan_PfamDomain	PF00460	Flagellar basal body rod protein, N-terminal	IPR001444
+PRISM_8406_69760	InterProScan_PfamDomain	PF02390	Putative methyltransferase	NA
+PRISM_8406_76140	InterProScan_PfamDomain	PF01895	PhoU domain	IPR026022
+PRISM_8406_83291	InterProScan_PfamDomain	PF00226	DnaJ domain	IPR001623
+PRISM_8462_107624	InterProScan_PfamDomain	PF00196	Transcription regulator LuxR, C-terminal	IPR000792
+PRISM_8462_145988	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8462_154221	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8462_156488	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_8466_11462	InterProScan_PfamDomain	PF01327	Peptide deformylase	IPR023635
+PRISM_8466_130708	InterProScan_PfamDomain	PF00403	Heavy metal-associated domain, HMA	IPR006121
+PRISM_8466_132976	InterProScan_PfamDomain	PF02441;PF04127	Flavoprotein;DNA/pantothenate metabolism flavoprotein, C-terminal	IPR003382;IPR007085
+PRISM_8466_134571	InterProScan_PfamDomain	PF00196;PF04542	Transcription regulator LuxR, C-terminal;RNA polymerase sigma-70 region 2	IPR000792;IPR007627
+PRISM_8466_140717	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8466_41442	InterProScan_PfamDomain	PF01938;PF05958	TRAM domain;(Uracil-5)-methyltransferase family	IPR002792;IPR010280
+PRISM_8466_44556	InterProScan_PfamDomain	PF13614	AAA domain	IPR025669
+PRISM_8466_47948	InterProScan_PfamDomain	PF00717	Peptidase S24/S26A/S26B/S26C	IPR015927
+PRISM_8466_64232	InterProScan_PfamDomain	PF00583	GNAT domain	IPR000182
+PRISM_8466_71625	InterProScan_PfamDomain	PF13310	Virulence protein RhuM-like	IPR011204
+PRISM_8466_85516	InterProScan_PfamDomain	PF03553	Na+/H+ antiporter, NhaC-like, C-terminal	IPR018461
+PRISM_8467_01744	InterProScan_PfamDomain	PF02637;PF02934	Asn/Gln amidotransferase;Aspartyl/Glutamyl-tRNA(Gln) amidotransferase, subunit B/E, catalytic	IPR018027;IPR006075
+PRISM_8467_105366	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8467_114841	InterProScan_PfamDomain	PF06296	Toxin HigB-2	IPR009387
+PRISM_8467_131563	InterProScan_PfamDomain	PF02504	Fatty acid synthesis PlsX protein	IPR003664
+PRISM_8467_137158	InterProScan_PfamDomain	PF00884	Sulfatase, N-terminal	IPR000917
+PRISM_8467_139927	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_8467_158525	InterProScan_PfamDomain	PF11700	Autophagy-related protein 22-like	IPR024671
+PRISM_8467_49939	InterProScan_PfamDomain	PF02547	S-adenosylmethionine:tRNA ribosyltransferase-isomerase,  QueA	IPR003699
+PRISM_8467_69506	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8467_87648	InterProScan_PfamDomain	PF05016	Toxin-antitoxin system, RelE/ParE toxin family	IPR007712
+PRISM_8467_90159	InterProScan_PfamDomain	PF01553	Phospholipid/glycerol acyltransferase	IPR002123
+PRISM_8475_09433	InterProScan_PfamDomain	PF06949	Uncharacterised protein family UPF0473	IPR009711
+PRISM_8475_22744	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_8475_76372	InterProScan_PfamDomain	PF01464	Transglycosylase SLT domain 1	IPR008258
+PRISM_8475_92583	InterProScan_PfamDomain	PF01814	Haemerythrin-like	IPR012312
+PRISM_8483_13548	InterProScan_PfamDomain	PF02915	Rubrerythrin	IPR003251
+PRISM_8483_138255	InterProScan_PfamDomain	PF00497	Solute-binding protein  family 3/N-terminal domain of MltF	IPR001638
+PRISM_8483_139571	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8483_15347	InterProScan_PfamDomain	PF07883	Cupin 2, conserved barrel	IPR013096
+PRISM_8483_17440	InterProScan_PfamDomain	PF03952	Enolase, N-terminal	IPR020811
+PRISM_8483_31458	InterProScan_PfamDomain	PF03473	Molybdenum cofactor sulfurase, C-terminal	IPR005302
+PRISM_8483_39688	InterProScan_PfamDomain	PF01381;PF05685	Cro/C1-type helix-turn-helix domain;Domain of unknown function DUF820	IPR001387;IPR008538
+PRISM_8483_39959	InterProScan_PfamDomain	PF00251	Glycosyl hydrolase family 32, N-terminal	IPR013148
+PRISM_8483_45161	InterProScan_PfamDomain	PF00583	GNAT domain	IPR000182
+PRISM_8483_50938	InterProScan_PfamDomain	PF09818	ABC transporter, ATPase, putative	IPR019195
+PRISM_8483_52540	InterProScan_PfamDomain	PF02654	Adenosylcobinamide-GDP ribazoletransferase	IPR003805
+PRISM_8483_61095	InterProScan_PfamDomain	PF13358	Tc1-like transposase, DDE domain	IPR038717
+PRISM_8483_64652	InterProScan_PfamDomain	PF14286	DHHW protein	IPR025945
+PRISM_8483_67054	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_8483_68582	InterProScan_PfamDomain	PF00113	Enolase, C-terminal TIM barrel domain	IPR020810
+PRISM_8483_75770	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_8483_82800	InterProScan_PfamDomain	PF02562;PF13638	PhoH-like protein;PIN domain	IPR003714;IPR002716
+PRISM_8483_92039	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8485_21630	InterProScan_PfamDomain	PF04357	Translocation and assembly module TamB	IPR007452
+PRISM_8496_101623	InterProScan_PfamDomain	PF01077;PF03460	Nitrite/sulphite reductase 4Fe-4S domain;Nitrite/Sulfite reductase ferredoxin-like domain	IPR006067;IPR005117
+PRISM_8496_102123	InterProScan_PfamDomain	PF01757	Acyltransferase 3	IPR002656
+PRISM_8496_123679	InterProScan_PfamDomain	PF00232	Glycoside hydrolase family 1	IPR001360
+PRISM_8496_12696	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8496_133564	InterProScan_PfamDomain	PF00814;PF13673	Gcp-like domain;GNAT domain	IPR000905;IPR000182
+PRISM_8496_135696	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_8496_139209	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_8496_143220	InterProScan_PfamDomain	PF02719;PF13727	Polysaccharide biosynthesis protein, CapD-like domain;CoA-binding domain	IPR003869;NA
+PRISM_8496_24141	InterProScan_PfamDomain	PF08282	haloacid dehalogenase-like hydrolase	NA
+PRISM_8496_30095	InterProScan_PfamDomain	PF00293	NUDIX hydrolase domain	IPR000086
+PRISM_8496_35897	InterProScan_PfamDomain	PF01018;PF01926;PF09269	GTP1/OBG domain;GTP binding domain;GTP-binding protein OBG, C-terminal	IPR006169;IPR006073;IPR015349
+PRISM_8496_43007	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8496_51565	InterProScan_PfamDomain	PF00107;PF08240	Alcohol dehydrogenase, C-terminal;Alcohol dehydrogenase, N-terminal	IPR013149;IPR013154
+PRISM_8496_51641	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8496_61239	InterProScan_PfamDomain	PF00754;PF02368;PF12245;PF13306	Coagulation factor 5/8 C-terminal domain;Bacterial Ig-like, group 2;Bacterial Ig-like domain;Leucine rich repeat 5	IPR000421;IPR003343;IPR022038;IPR026906
+PRISM_8496_74120	InterProScan_PfamDomain	PF00398	Ribosomal RNA adenine methyltransferase KsgA/Erm	IPR001737
+PRISM_8496_84411	InterProScan_PfamDomain	PF01987	Mitochondrial biogenesis protein AIM24	IPR002838
+PRISM_8523_17930	InterProScan_PfamDomain	PF00440	DNA-binding HTH domain, TetR-type	IPR001647
+PRISM_8534_03325	InterProScan_PfamDomain	PF01261	Xylose isomerase-like, TIM barrel domain	IPR013022
+PRISM_8534_10449	InterProScan_PfamDomain	PF13419	Haloacid dehalogenase-like hydrolase	NA
+PRISM_8534_13848	InterProScan_PfamDomain	PF02065;PF16874;PF16875	Glycoside hydrolase family 36;Glycosyl hydrolase family 36, C-terminal;Glycosyl hydrolase family 36, N-terminal	IPR002252;IPR031705;IPR031704
+PRISM_8534_17726	InterProScan_PfamDomain	PF13091	Phospholipase D-like domain	IPR025202
+PRISM_8534_18228	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8534_27770	InterProScan_PfamDomain	PF05067	Manganese catalase	IPR007760
+PRISM_8534_37742	InterProScan_PfamDomain	PF01244	Peptidase M19	IPR008257
+PRISM_8534_38542	InterProScan_PfamDomain	PF00905;PF03717;PF05223	Penicillin-binding protein, transpeptidase;Penicillin-binding protein, dimerisation domain;NTF2-like N-terminal transpeptidase	IPR001460;IPR005311;IPR007887
+PRISM_8534_38550	InterProScan_PfamDomain	PF03611	Phosphotransferase system, sugar-specific permease component	IPR004703
+PRISM_8534_43013	InterProScan_PfamDomain	PF04539;PF04542;PF04545	RNA polymerase sigma-70 region 3;RNA polymerase sigma-70 region 2;RNA polymerase sigma-70 region 4	IPR007624;IPR007627;IPR007630
+PRISM_8534_43054	InterProScan_PfamDomain	PF02653	ABC transporter, permease	IPR001851
+PRISM_8534_50890	InterProScan_PfamDomain	PF02687	ABC transporter permease protein domain	IPR003838
+PRISM_8534_54413	InterProScan_PfamDomain	PF05673	Domain of unknown function DUF815	IPR008533
+PRISM_8534_54600	InterProScan_PfamDomain	PF00391;PF02896;PF05524	PEP-utilising enzyme, mobile domain;PEP-utilising enzyme, C-terminal;Phosphotransferase system, enzyme I  N-terminal	IPR008279;IPR000121;IPR008731
+PRISM_8534_56121	InterProScan_PfamDomain	PF01315;PF02738	Aldehyde oxidase/xanthine dehydrogenase, a/b hammerhead;Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding	IPR000674;IPR008274
+PRISM_8534_60604	InterProScan_PfamDomain	PF00696	Aspartate/glutamate/uridylate kinase	IPR001048
+PRISM_8534_63243	InterProScan_PfamDomain	PF02589	LUD domain	IPR003741
+PRISM_8534_66703	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_8534_80165	InterProScan_PfamDomain	PF00401;PF02823	ATP synthase delta/epsilon subunit, C-terminal domain;ATP synthase, F1 complex, delta/epsilon subunit, N-terminal	IPR020547;IPR020546
+PRISM_8534_84573	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_8534_84632	InterProScan_PfamDomain	PF02581	Thiamine phosphate synthase/TenI	IPR022998
+PRISM_8534_98684	InterProScan_PfamDomain	PF00586;PF02769	PurM-like, N-terminal domain;PurM-like, C-terminal domain	IPR016188;IPR010918
+PRISM_8537_00100	InterProScan_PfamDomain	PF00586;PF02769	PurM-like, N-terminal domain;PurM-like, C-terminal domain	IPR016188;IPR010918
+PRISM_8537_00353	InterProScan_PfamDomain	PF00082	Peptidase S8/S53 domain	IPR000209
+PRISM_8537_04283	InterProScan_PfamDomain	PF02661	Fido domain	IPR003812
+PRISM_8537_08716	InterProScan_PfamDomain	PF01098	Probable peptidoglycan glycosyltransferase FtsW/RodA	IPR001182
+PRISM_8537_10876	InterProScan_PfamDomain	PF03060	Nitronate monooxygenase	IPR004136
+PRISM_8537_12121	InterProScan_PfamDomain	PF01890;PF11760;PF11761	CobE/GbiG C-terminal domain;Cobalamin synthesis G, N-terminal;Cobalamin biosynthesis central region	IPR002750;IPR021744;IPR021745
+PRISM_8537_19815	InterProScan_PfamDomain	PF12784	PD-(D/E)XK nuclease family transposase	NA
+PRISM_8537_25026	InterProScan_PfamDomain	PF01613	Flavin reductase like domain	IPR002563
+PRISM_8537_29305	InterProScan_PfamDomain	PF02065;PF16874;PF16875	Glycoside hydrolase family 36;Glycosyl hydrolase family 36, C-terminal;Glycosyl hydrolase family 36, N-terminal	IPR002252;IPR031705;IPR031704
+PRISM_8537_32751	InterProScan_PfamDomain	PF01467	Cytidyltransferase-like domain	IPR004821
+PRISM_8537_33637	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_8537_34670	InterProScan_PfamDomain	PF10418	Dihydroorotate dehydrogenase, electron transfer subunit, iron-sulphur cluster binding domain	IPR019480
+PRISM_8537_36344	InterProScan_PfamDomain	PF04277;PF13026	Sodium ion-translocating decarboxylase;Domain of unknown function DUF3887	IPR005899;IPR024981
+PRISM_8537_40924	InterProScan_PfamDomain	PF01841	Transglutaminase-like	IPR002931
+PRISM_8550_91221	InterProScan_PfamDomain	PF01797	Transposase IS200-like	IPR002686
+PRISM_8564_02687	InterProScan_PfamDomain	PF04203	Sortase family	IPR005754
+PRISM_8564_103470	InterProScan_PfamDomain	PF04295;PF08666	D-galactarate/Altronate dehydratase, C-terminal;SAF domain	IPR007392;IPR013974
+PRISM_8564_103471	InterProScan_PfamDomain	PF01232;PF08125	Mannitol dehydrogenase, N-terminal;Mannitol dehydrogenase, C-terminal	IPR013131;IPR013118
+PRISM_8564_112846	InterProScan_PfamDomain	PF02127	Peptidase M18	IPR001948
+PRISM_8564_116293	InterProScan_PfamDomain	PF01384	Phosphate transporter	IPR001204
+PRISM_8564_118486	InterProScan_PfamDomain	PF00754;PF05738;PF09479;PF13306	Coagulation factor 5/8 C-terminal domain;Collagen-binding surface protein Cna-like, B-type domain;Listeria/Bacterioides repeat;Leucine rich repeat 5	IPR000421;IPR008454;IPR013378;IPR026906
+PRISM_8564_123915	InterProScan_PfamDomain	PF04459	Domain of unknown function DUF512	IPR007549
+PRISM_8564_127094	InterProScan_PfamDomain	PF13302	GNAT domain	IPR000182
+PRISM_8564_135978	InterProScan_PfamDomain	PF13320	Domain of unknown function DUF4091	IPR025150
+PRISM_8564_155745	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8564_164578	InterProScan_PfamDomain	PF02826;PF16924	D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain;Dipicolinate synthase subunit A, N-terminal	IPR006140;IPR031629
+PRISM_8564_164582	InterProScan_PfamDomain	PF02581	Thiamine phosphate synthase/TenI	IPR022998
+PRISM_8564_172527	InterProScan_PfamDomain	PF04854	Protein of unknown function DUF624	IPR006938
+PRISM_8564_177647	InterProScan_PfamDomain	PF04542;PF08281	RNA polymerase sigma-70 region 2;RNA polymerase sigma factor 70, region 4 type 2	IPR007627;IPR013249
+PRISM_8564_193602	InterProScan_PfamDomain	PF01943;PF14667	Polysaccharide biosynthesis protein;Polysaccharide biosynthesis protein, C-terminal domain	IPR002797;IPR029303
+PRISM_8564_22402	InterProScan_PfamDomain	PF00480	ROK family	IPR000600
+PRISM_8564_73617	InterProScan_PfamDomain	PF12685	Stage III sporulation protein AH-like	IPR024232
+PRISM_8564_73622	InterProScan_PfamDomain	PF02609	Exonuclease VII, small subunit	IPR003761
+PRISM_8564_73636	InterProScan_PfamDomain	PF01411;PF02272;PF07973	Alanyl-tRNA synthetase, class IIc, N-terminal;DHHA1 domain;Threonyl/alanyl tRNA synthetase, SAD	IPR018164;IPR003156;IPR012947
+PRISM_8564_75623	InterProScan_PfamDomain	PF00497	Solute-binding protein  family 3/N-terminal domain of MltF	IPR001638
+PRISM_8564_85664	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_8564_96904	InterProScan_PfamDomain	PF00126;PF03466	Transcription regulator HTH, LysR;LysR, substrate-binding	IPR000847;IPR005119
+PRISM_8565_58169	InterProScan_PfamDomain	PF13546	Transposase IS701-like, DDE domain	IPR038721
+PRISM_8565_79477	InterProScan_PfamDomain	PF00145	C-5 cytosine methyltransferase	IPR001525
+PRISM_8577_14488	InterProScan_PfamDomain	PF02237;PF03099;PF08279	Biotin protein ligase, C-terminal;Biotinyl protein ligase (BPL) and lipoyl protein ligase (LPL), catalytic domain;Helix-turn-helix, type 11	IPR003142;IPR004143;IPR013196
+PRISM_8589_06020	InterProScan_PfamDomain	PF07883	Cupin 2, conserved barrel	IPR013096
+PRISM_8589_137779	InterProScan_PfamDomain	PF12833	DNA binding HTH domain, AraC-type	IPR018060
+PRISM_8589_150242	InterProScan_PfamDomain	PF08006	Protein of unknown function DUF1700	IPR012963
+PRISM_8589_31025	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_8589_39036	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_8591_04187	InterProScan_PfamDomain	PF04055;PF13353	Radical SAM;4Fe-4S single cluster domain	IPR007197;NA
+PRISM_8591_04195	InterProScan_PfamDomain	PF00587;PF02824;PF03129;PF07973	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);TGS;Anticodon-binding;Threonyl/alanyl tRNA synthetase, SAD	IPR002314;IPR004095;IPR004154;IPR012947
+PRISM_8591_06060	InterProScan_PfamDomain	PF01487	3-dehydroquinate dehydratase type I	IPR001381
+PRISM_8591_07982	InterProScan_PfamDomain	PF00072;PF12833	Signal transduction response regulator, receiver domain;DNA binding HTH domain, AraC-type	IPR001789;IPR018060
+PRISM_8591_107742	InterProScan_PfamDomain	PF03706	Lysylphosphatidylglycerol synthetase/glycosyltransferase AglD	IPR022791
+PRISM_8591_122365	InterProScan_PfamDomain	PF00749	Glutamyl/glutaminyl-tRNA synthetase, class Ib, catalytic domain	IPR020058
+PRISM_8591_24028	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8591_26121	InterProScan_PfamDomain	PF03413	PepSY domain	IPR025711
+PRISM_8591_47563	InterProScan_PfamDomain	PF01609	Transposase, IS4-like	IPR002559
+PRISM_8591_54909	InterProScan_PfamDomain	PF00145	C-5 cytosine methyltransferase	IPR001525
+PRISM_8591_56495	InterProScan_PfamDomain	PF00004;PF01434	ATPase, AAA-type, core;Peptidase M41	IPR003959;IPR000642
+PRISM_8591_66098	InterProScan_PfamDomain	PF04203	Sortase family	IPR005754
+PRISM_8591_72861	InterProScan_PfamDomain	PF13419	Haloacid dehalogenase-like hydrolase	NA
+PRISM_8591_72862	InterProScan_PfamDomain	PF13420	Acetyltransferase (GNAT) domain	NA
+PRISM_8591_77904	InterProScan_PfamDomain	PF01966	HD domain	IPR006674
+PRISM_8591_90176	InterProScan_PfamDomain	PF00358;PF00367;PF02378	Phosphotransferase system, sugar-specific permease EIIA type 1;Phosphotransferase system EIIB, cysteine phosphorylation site;Phosphotransferase system, EIIC	IPR001127;IPR018113;IPR003352
+PRISM_8591_98206	InterProScan_PfamDomain	PF00768;PF07943	Peptidase S11, D-alanyl-D-alanine carboxypeptidase A, N-terminal;Peptidase S11, D-Ala-D-Ala carboxypeptidase A, C-terminal	IPR001967;IPR012907
+PRISM_8592_09397	InterProScan_PfamDomain	PF01351	Ribonuclease HII/HIII domain	IPR024567
+PRISM_8592_103060	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_8592_104260	InterProScan_PfamDomain	PF00082	Peptidase S8/S53 domain	IPR000209
+PRISM_8592_10944	InterProScan_PfamDomain	PF00344	SecY/SEC61-alpha family	IPR002208
+PRISM_8592_113262	InterProScan_PfamDomain	PF04073	YbaK/aminoacyl-tRNA synthetase-associated domain	IPR007214
+PRISM_8592_141169	InterProScan_PfamDomain	PF13173;PF13635	AAA domain;Domain of unknown function DUF4143	NA;IPR025420
+PRISM_8592_23515	InterProScan_PfamDomain	PF04422;PF04432;PF12838	Coenzyme F420 hydrogenase/dehydrogenase beta subunit, N-terminal;Coenzyme F420 hydrogenase/dehydrogenase beta subunit, C-terminal;4Fe-4S ferredoxin-type, iron-sulphur binding domain	IPR007516;IPR007525;IPR017896
+PRISM_8592_38744	InterProScan_PfamDomain	PF00293	NUDIX hydrolase domain	IPR000086
+PRISM_8592_54108	InterProScan_PfamDomain	PF02465;PF07195	Flagellar hook-associated protein 2, N-terminal;Flagellar hook-associated protein 2, C-terminal	IPR003481;IPR010809
+PRISM_8592_55261	InterProScan_PfamDomain	PF01699	Sodium/calcium exchanger membrane region	IPR004837
+PRISM_8592_74223	InterProScan_PfamDomain	PF04085	Rod shape-determining protein MreC	IPR007221
+PRISM_8592_82478	InterProScan_PfamDomain	PF04551	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, bacterial-type	IPR004588
+PRISM_8592_89174	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_8624_03149	InterProScan_PfamDomain	PF01408;PF02894	Oxidoreductase, N-terminal;Oxidoreductase, C-terminal	IPR000683;IPR004104
+PRISM_8624_133466	InterProScan_PfamDomain	PF01120	Glycoside hydrolase, family 29	IPR000933
+PRISM_8624_160023	InterProScan_PfamDomain	PF01384	Phosphate transporter	IPR001204
+PRISM_8624_167008	InterProScan_PfamDomain	PF07811	TadE-like	IPR012495
+PRISM_8624_26034	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_8624_27180	InterProScan_PfamDomain	PF13561	Enoyl-(Acyl carrier protein) reductase	NA
+PRISM_8624_30080	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_8624_41345	InterProScan_PfamDomain	PF02065;PF16874;PF16875	Glycoside hydrolase family 36;Glycosyl hydrolase family 36, C-terminal;Glycosyl hydrolase family 36, N-terminal	IPR002252;IPR031705;IPR031704
+PRISM_8624_54659	InterProScan_PfamDomain	PF17117	Protein of unknown function DUF5104	IPR031344
+PRISM_8624_70530	InterProScan_PfamDomain	PF00999	Cation/H+ exchanger	IPR006153
+PRISM_8624_70867	InterProScan_PfamDomain	PF00881	Nitroreductase	IPR029479
+PRISM_8624_87848	InterProScan_PfamDomain	PF00583	GNAT domain	IPR000182
+PRISM_8624_97705	InterProScan_PfamDomain	PF00128;PF02922	Glycosyl hydrolase, family 13, catalytic domain;Glycoside hydrolase, family 13, N-terminal	IPR006047;IPR004193
+PRISM_8675_00240	InterProScan_PfamDomain	PF01113	Dihydrodipicolinate reductase, N-terminal	IPR000846
+PRISM_8675_00639	InterProScan_PfamDomain	PF06180	Anaerobic cobalt chelatase	IPR010388
+PRISM_8675_13571	InterProScan_PfamDomain	PF00289;PF02785;PF02786	Biotin carboxylase-like, N-terminal domain;Biotin carboxylase, C-terminal;Carbamoyl-phosphate synthetase large subunit-like, ATP-binding domain	IPR005481;IPR005482;IPR005479
+PRISM_8675_18199	InterProScan_PfamDomain	PF14501	Sensor histidine kinase NatK, C-terminal domain	IPR032834
+PRISM_8675_18777	InterProScan_PfamDomain	PF16962	Putative ABC exporter	IPR031584
+PRISM_8675_27417	InterProScan_PfamDomain	PF00440	DNA-binding HTH domain, TetR-type	IPR001647
+PRISM_8675_30640	InterProScan_PfamDomain	PF00251	Glycosyl hydrolase family 32, N-terminal	IPR013148
+PRISM_8675_33411	InterProScan_PfamDomain	PF01351	Ribonuclease HII/HIII domain	IPR024567
+PRISM_8675_43674	InterProScan_PfamDomain	PF12728	Helix-turn-helix domain	NA
+PRISM_8675_47091	InterProScan_PfamDomain	PF02669	Potassium-transporting ATPase C chain	IPR003820
+PRISM_8675_60190	InterProScan_PfamDomain	PF05525	Branched-chain amino acid transport system II carrier protein	IPR004685
+PRISM_8675_60193	InterProScan_PfamDomain	PF00175;PF10418	Oxidoreductase FAD/NAD(P)-binding;Dihydroorotate dehydrogenase, electron transfer subunit, iron-sulphur cluster binding domain	IPR001433;IPR019480
+PRISM_8675_67202	InterProScan_PfamDomain	PF02875;PF08245	Mur ligase, C-terminal;Mur ligase, central	IPR004101;IPR013221
+PRISM_8675_71504	InterProScan_PfamDomain	PF00128;PF16657	Glycosyl hydrolase, family 13, catalytic domain;Maltogenic Amylase, C-terminal	IPR006047;IPR032091
+PRISM_8675_81399	InterProScan_PfamDomain	PF00933;PF01915;PF14310	Glycoside hydrolase, family 3, N-terminal;Glycoside hydrolase family 3 C-terminal domain;Fibronectin type III-like domain	IPR001764;IPR002772;IPR026891
+PRISM_8683_00080	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8683_10800	InterProScan_PfamDomain	PF12833	DNA binding HTH domain, AraC-type	IPR018060
+PRISM_8683_112928	InterProScan_PfamDomain	PF12146	Serine aminopeptidase, S33	IPR022742
+PRISM_8683_118134	InterProScan_PfamDomain	PF00756	Putative esterase	IPR000801
+PRISM_8683_118138	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_8683_118638	InterProScan_PfamDomain	PF00111;PF14574	2Fe-2S ferredoxin-type iron-sulfur binding domain;Protein of unknown function DUF4445	IPR001041;IPR027980
+PRISM_8683_18907	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8683_23816	InterProScan_PfamDomain	PF13777	Domain of unknown function DUF4173	IPR025231
+PRISM_8683_55574	InterProScan_PfamDomain	PF10609	Flagellum site-determining protein YlxH/ Fe-S cluster assembling factor NBP35	IPR033756
+PRISM_8683_67572	InterProScan_PfamDomain	PF04055;PF13394	Radical SAM;4Fe-4S single cluster domain	IPR007197;NA
+PRISM_8683_70962	InterProScan_PfamDomain	PF09512	Energy coupling factor transporter S component ThiW	IPR012652
+PRISM_8683_95989	InterProScan_PfamDomain	PF01134;PF13932	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG-related;GidA associated domain 3	IPR002218;IPR026904
+PRISM_8683_98269	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8749_03598	InterProScan_PfamDomain	PF04074	YhcH/YjgK/YiaL family	IPR004375
+PRISM_8749_12046	InterProScan_PfamDomain	PF00006;PF00306;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATP synthase, alpha subunit, C-terminal;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR000793;IPR004100
+PRISM_8749_13029	InterProScan_PfamDomain	PF14501	Sensor histidine kinase NatK, C-terminal domain	IPR032834
+PRISM_8749_13214	InterProScan_PfamDomain	PF00145	C-5 cytosine methyltransferase	IPR001525
+PRISM_8749_27039	InterProScan_PfamDomain	PF09084	SsuA/THI5-like	IPR015168
+PRISM_8749_33279	InterProScan_PfamDomain	PF02457	DNA integrity scanning protein, DisA, N-terminal	IPR003390
+PRISM_8749_40043	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_8749_42102	InterProScan_PfamDomain	PF01047	MarR-type HTH domain	IPR000835
+PRISM_8749_43317	InterProScan_PfamDomain	PF03313	Serine dehydratase-like, alpha subunit	IPR005130
+PRISM_8749_43436	InterProScan_PfamDomain	PF00575	S1 domain	IPR003029
+PRISM_8749_43438	InterProScan_PfamDomain	PF01497	ABC transporter periplasmic binding domain	IPR002491
+PRISM_8749_45285	InterProScan_PfamDomain	PF13347	MFS/sugar transport protein	NA
+PRISM_8749_49115	InterProScan_PfamDomain	PF12833	DNA binding HTH domain, AraC-type	IPR018060
+PRISM_8749_60336	InterProScan_PfamDomain	PF05016	Toxin-antitoxin system, RelE/ParE toxin family	IPR007712
+PRISM_8749_61951	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8749_79241	InterProScan_PfamDomain	PF04854	Protein of unknown function DUF624	IPR006938
+PRISM_8749_79267	InterProScan_PfamDomain	PF00232	Glycoside hydrolase family 1	IPR001360
+PRISM_8749_79290	InterProScan_PfamDomain	PF01966;PF13286	HD domain;Phosphohydrolase-associated domain	IPR006674;IPR026875
+PRISM_8749_80073	InterProScan_PfamDomain	PF05580	Peptidase S55, SpoIVB	IPR008763
+PRISM_8749_86290	InterProScan_PfamDomain	PF01408	Oxidoreductase, N-terminal	IPR000683
+PRISM_8749_86811	InterProScan_PfamDomain	PF01022	HTH ArsR-type DNA-binding domain	IPR001845
+PRISM_8753_01429	InterProScan_PfamDomain	PF01479	RNA-binding S4 domain	IPR002942
+PRISM_8753_03668	InterProScan_PfamDomain	PF08011;PF09820	PD-(D/E)XK nuclease superfamily 9;AAA-ATPase-like domain	IPR012547;IPR018631
+PRISM_8753_07638	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_8753_09741	InterProScan_PfamDomain	PF01926	GTP binding domain	IPR006073
+PRISM_8753_121040	InterProScan_PfamDomain	PF00133;PF01588;PF08264;PF09334	Aminoacyl-tRNA synthetase, class Ia;tRNA-binding domain;Methionyl/Valyl/Leucyl/Isoleucyl-tRNA synthetase, anticodon-binding;Methionyl/Leucyl tRNA synthetase	IPR002300;IPR002547;IPR013155;IPR015413
+PRISM_8753_127824	InterProScan_PfamDomain	PF00994	MoaB/Mog domain	IPR001453
+PRISM_8753_136715	InterProScan_PfamDomain	PF00746;PF16569	Gram-positive LPXTG cell wall anchor;Gram-positive pilin backbone subunit 2, Cna-B-like domain	IPR019948;IPR032334
+PRISM_8753_157670	InterProScan_PfamDomain	PF02811	PHP domain	IPR004013
+PRISM_8753_162591	InterProScan_PfamDomain	PF00512;PF02518;PF13493	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase;Sensor protein KdpD, transmembrane domain	IPR003661;IPR003594;IPR025201
+PRISM_8753_17027	InterProScan_PfamDomain	PF00589	Integrase, catalytic domain	IPR002104
+PRISM_8753_188941	InterProScan_PfamDomain	PF02397	Bacterial sugar transferase	IPR003362
+PRISM_8753_193433	InterProScan_PfamDomain	PF00933	Glycoside hydrolase, family 3, N-terminal	IPR001764
+PRISM_8753_19349	InterProScan_PfamDomain	PF01048	Nucleoside phosphorylase domain	IPR000845
+PRISM_8753_199746	InterProScan_PfamDomain	PF01071;PF02843;PF02844	Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain;Phosphoribosylglycinamide synthetase, C-domain;Phosphoribosylglycinamide synthetase, N-terminal	IPR020561;IPR020560;IPR020562
+PRISM_8753_36144	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_8753_41433	InterProScan_PfamDomain	PF00005;PF00664	ABC transporter-like;ABC transporter type 1, transmembrane domain	IPR003439;IPR011527
+PRISM_8753_49637	InterProScan_PfamDomain	PF00126;PF03466	Transcription regulator HTH, LysR;LysR, substrate-binding	IPR000847;IPR005119
+PRISM_8753_70293	InterProScan_PfamDomain	PF05257;PF13702	CHAP domain;Lysozyme-like	IPR007921;NA
+PRISM_8753_82574	InterProScan_PfamDomain	PF00697	N-(5'phosphoribosyl) anthranilate isomerase (PRAI)	IPR001240
+PRISM_8753_85026	InterProScan_PfamDomain	PF09148	Protein of unknown function DUF1934	IPR015231
+PRISM_8753_85196	InterProScan_PfamDomain	PF13419	Haloacid dehalogenase-like hydrolase	NA
+PRISM_8753_93536	InterProScan_PfamDomain	PF03932	Copper homeostasis CutC domain	IPR023648
+PRISM_8753_95739	InterProScan_PfamDomain	PF06325	Ribosomal protein L11 methyltransferase (PrmA)	NA
+PRISM_8754_206004	InterProScan_PfamDomain	PF01170	Putative RNA methylase domain	IPR000241
+PRISM_8754_31509	InterProScan_PfamDomain	PF00126;PF03466	Transcription regulator HTH, LysR;LysR, substrate-binding	IPR000847;IPR005119
+PRISM_8754_350052	InterProScan_PfamDomain	PF14378	Inositolphosphotransferase Aur1/Ipt1	IPR026841
+PRISM_8754_351101	InterProScan_PfamDomain	PF02163;PF13180	Peptidase M50;PDZ domain	IPR008915;IPR001478
+PRISM_8754_351228	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_8754_375622	InterProScan_PfamDomain	PF01145;PF15975	Band 7 domain;Flotillin, C-terminal domain	IPR001107;IPR031905
+PRISM_8754_375690	InterProScan_PfamDomain	PF03551	Transcription regulator PadR, N-terminal	IPR005149
+PRISM_8754_456130	InterProScan_PfamDomain	PF02588;PF10035	Uncharacterised membrane protein YitT;Domain of unknown function DUF2179	IPR003740;IPR019264
+PRISM_8754_565377	InterProScan_PfamDomain	PF02620	Large ribosomal RNA subunit accumulation protein YceD	IPR003772
+PRISM_8754_610827	InterProScan_PfamDomain	PF03780	Alkaline shock protein Asp23	IPR005531
+PRISM_8758_10105	InterProScan_PfamDomain	PF00633;PF00730	Helix-hairpin-helix motif;HhH-GPD domain	IPR000445;IPR003265
+PRISM_8758_11842	InterProScan_PfamDomain	PF00440	DNA-binding HTH domain, TetR-type	IPR001647
+PRISM_8758_28006	InterProScan_PfamDomain	PF01979	Amidohydrolase-related	IPR006680
+PRISM_8758_28058	InterProScan_PfamDomain	PF01430	Heat shock protein Hsp33	IPR000397
+PRISM_8758_28104	InterProScan_PfamDomain	PF01471	Peptidoglycan binding-like	IPR002477
+PRISM_8758_33661	InterProScan_PfamDomain	PF01022	HTH ArsR-type DNA-binding domain	IPR001845
+PRISM_8758_33662	InterProScan_PfamDomain	PF00122;PF00403;PF00702	E1-E2 ATPase;Heavy metal-associated domain, HMA;haloacid dehalogenase-like hydrolase	NA;IPR006121;NA
+PRISM_8758_33685	InterProScan_PfamDomain	PF01757	Acyltransferase 3	IPR002656
+PRISM_8758_37183	InterProScan_PfamDomain	PF12725	Protein of unknown function DUF3810	IPR024294
+PRISM_8758_39348	InterProScan_PfamDomain	PF02355	Protein-export membrane protein SecD/SecF, archaeal and bacterial	IPR022813
+PRISM_8758_42463	InterProScan_PfamDomain	PF00356;PF13377	LacI-type HTH domain;Periplasmic binding protein-like domain	IPR000843;NA
+PRISM_8758_46651	InterProScan_PfamDomain	PF00082	Peptidase S8/S53 domain	IPR000209
+PRISM_8758_46655	InterProScan_PfamDomain	PF04909	Amidohydrolase-related	IPR006680
+PRISM_8758_51475	InterProScan_PfamDomain	PF00582;PF02702;PF13493	UspA;Signal transduction histidine kinase, osmosensitive K+ channel sensor, N-terminal;Sensor protein KdpD, transmembrane domain	IPR006016;IPR003852;IPR025201
+PRISM_8758_62267	InterProScan_PfamDomain	PF00919;PF01938;PF04055	Methylthiotransferase, N-terminal;TRAM domain;Radical SAM	IPR013848;IPR002792;IPR007197
+PRISM_8758_62320	InterProScan_PfamDomain	PF08011;PF09820	PD-(D/E)XK nuclease superfamily 9;AAA-ATPase-like domain	IPR012547;IPR018631
+PRISM_8764_141664	InterProScan_PfamDomain	PF00698	Acyl transferase	IPR014043
+PRISM_8764_213907	InterProScan_PfamDomain	PF00550	Phosphopantetheine binding ACP domain	IPR009081
+PRISM_8764_226415	InterProScan_PfamDomain	PF13476	Rad50/SbcC-type AAA domain	IPR038729
+PRISM_8764_239046	InterProScan_PfamDomain	PF02645	DegV	IPR003797
+PRISM_8764_326967	InterProScan_PfamDomain	PF00697	N-(5'phosphoribosyl) anthranilate isomerase (PRAI)	IPR001240
+PRISM_8764_367302	InterProScan_PfamDomain	PF00376	MerR-type HTH domain	IPR000551
+PRISM_8764_36841	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8764_433285	InterProScan_PfamDomain	PF04073	YbaK/aminoacyl-tRNA synthetase-associated domain	IPR007214
+PRISM_8765_110754	InterProScan_PfamDomain	PF00580;PF13361	UvrD/AddA helicase, N-terminal;UvrD-like DNA helicase, C-terminal	IPR034739;IPR014017
+PRISM_8765_152223	InterProScan_PfamDomain	PF00892	EamA domain	IPR000620
+PRISM_8765_154753	InterProScan_PfamDomain	PF01029;PF01189;PF17125	NusB/RsmB/TIM44;SAM-dependent methyltransferase RsmB/NOP2-type;Ribosomal RNA small subunit methyltransferase F, N-terminal	IPR006027;IPR001678;IPR031341
+PRISM_8765_160326	InterProScan_PfamDomain	PF05713	Bacterial mobilisation	IPR008687
+PRISM_8765_184869	InterProScan_PfamDomain	PF00392;PF07729	Transcription regulator HTH, GntR;GntR, C-terminal	IPR000524;IPR011711
+PRISM_8765_184896	InterProScan_PfamDomain	PF00128	Glycosyl hydrolase, family 13, catalytic domain	IPR006047
+PRISM_8765_256445	InterProScan_PfamDomain	PF02368	Bacterial Ig-like, group 2	IPR003343
+PRISM_8765_389169	InterProScan_PfamDomain	PF01627	Signal transduction histidine kinase, phosphotransfer (Hpt) domain	IPR008207
+PRISM_8765_479140	InterProScan_PfamDomain	PF00923	Transaldolase/Fructose-6-phosphate aldolase	IPR001585
+PRISM_8765_499766	InterProScan_PfamDomain	PF13546	Transposase IS701-like, DDE domain	IPR038721
+PRISM_8765_511231	InterProScan_PfamDomain	PF10531;PF12836	Soluble ligand binding domain;Helix-hairpin-helix motif	IPR019554;NA
+PRISM_8765_544731	InterProScan_PfamDomain	PF03975	Chemoreceptor glutamine deamidase CheD	IPR005659
+PRISM_8765_551856	InterProScan_PfamDomain	PF07179	SseB protein N-terminal domain	IPR009839
+PRISM_8765_551894	InterProScan_PfamDomain	PF00392	Transcription regulator HTH, GntR	IPR000524
+PRISM_8765_560753	InterProScan_PfamDomain	PF00430	ATP synthase, F0 complex, subunit b/b', bacterial/chloroplast	IPR002146
+PRISM_8765_624128	InterProScan_PfamDomain	PF02660	Glycerol-3-phosphate acyltransferase, PlsY	IPR003811
+PRISM_8765_642685	InterProScan_PfamDomain	PF00126;PF03466	Transcription regulator HTH, LysR;LysR, substrate-binding	IPR000847;IPR005119
+PRISM_8765_86485	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_8774_132255	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8774_144907	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_8774_172403	InterProScan_PfamDomain	PF12733	Cadherin-like beta sandwich domain	IPR025883
+PRISM_8774_19763	InterProScan_PfamDomain	PF00154	DNA recombination and repair protein RecA	IPR013765
+PRISM_8774_216124	InterProScan_PfamDomain	PF01964	Phosphomethylpyrimidine synthase ThiC/5-hydroxybenzimidazole synthase BzaA/B	IPR002817
+PRISM_8774_52288	InterProScan_PfamDomain	PF00465	Alcohol dehydrogenase, iron-type/glycerol dehydrogenase GldA	IPR001670
+PRISM_8774_63220	InterProScan_PfamDomain	PF01990	ATPase, V1 complex, subunit F	IPR008218
+PRISM_8774_63502	InterProScan_PfamDomain	PF00004	ATPase, AAA-type, core	IPR003959
+PRISM_8774_79196	InterProScan_PfamDomain	PF07521;PF10996;PF16661	Zn-dependent metallo-hydrolase, RNA specificity domain;Beta-Casp domain;Metallo-beta-lactamase	IPR011108;IPR022712;IPR001279
+PRISM_8774_91466	InterProScan_PfamDomain	PF01943	Polysaccharide biosynthesis protein	IPR002797
+PRISM_8776_02463	InterProScan_PfamDomain	PF08533	Beta-galactosidase C-terminal	IPR013739
+PRISM_8776_113346	InterProScan_PfamDomain	PF16888	Protein of unknown function DUF5082	IPR031681
+PRISM_8776_117622	InterProScan_PfamDomain	PF00015	Methyl-accepting chemotaxis protein (MCP) signalling domain	IPR004089
+PRISM_8776_120932	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8776_125628	InterProScan_PfamDomain	PF02503;PF13089;PF13090	Polyphosphate kinase middle domain;Polyphosphate kinase N-terminal domain;Polyphosphate kinase C-terminal domain	IPR024953;IPR025198;IPR025200
+PRISM_8776_12844	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_8776_161211	InterProScan_PfamDomain	PF00550	Phosphopantetheine binding ACP domain	IPR009081
+PRISM_8776_174569	InterProScan_PfamDomain	PF14501	Sensor histidine kinase NatK, C-terminal domain	IPR032834
+PRISM_8776_188858	InterProScan_PfamDomain	PF12641	Flavodoxin/nitric oxide synthase	IPR008254
+PRISM_8776_234628	InterProScan_PfamDomain	PF08759	Glycosyltransferase GT-D fold	IPR014869
+PRISM_8776_267347	InterProScan_PfamDomain	PF01966;PF11871	HD domain;Protein of unknown function DUF3391	IPR006674;IPR021812
+PRISM_8776_277608	InterProScan_PfamDomain	PF00392	Transcription regulator HTH, GntR	IPR000524
+PRISM_8776_286645	InterProScan_PfamDomain	PF09551	Sporulation stage II, protein R	IPR014202
+PRISM_8776_294067	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8776_296858	InterProScan_PfamDomain	PF01207	tRNA-dihydrouridine synthase	IPR001269
+PRISM_8776_341223	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_8776_341235	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_8776_34249	InterProScan_PfamDomain	PF02645	DegV	IPR003797
+PRISM_8776_351157	InterProScan_PfamDomain	PF08308	PEGA	IPR013229
+PRISM_8776_372369	InterProScan_PfamDomain	PF00766;PF01012	Electron transfer flavoprotein, alpha subunit, C-terminal;Electron transfer flavoprotein, alpha/beta-subunit, N-terminal	IPR014731;IPR014730
+PRISM_8776_392907	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_8776_392918	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_8776_406524	InterProScan_PfamDomain	PF00692	dUTPase-like	IPR029054
+PRISM_8776_41101	InterProScan_PfamDomain	PF13437;PF13533	HlyD family secretion protein;Membrane fusion protein, biotin-lipoyl like domain	NA;IPR039562
+PRISM_8776_60938	InterProScan_PfamDomain	PF16480	Domain of unknown function DUF5057	IPR032480
+PRISM_8776_75847	InterProScan_PfamDomain	PF01936	NYN domain, limkain-b1-type	IPR021139
+PRISM_8776_83065	InterProScan_PfamDomain	PF00849;PF01479	Pseudouridine synthase, RsuA/RluB/C/D/E/F;RNA-binding S4 domain	IPR006145;IPR002942
+PRISM_8776_85330	InterProScan_PfamDomain	PF00746;PF16569	Gram-positive LPXTG cell wall anchor;Gram-positive pilin backbone subunit 2, Cna-B-like domain	IPR019948;IPR032334
+PRISM_8783_100528	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8783_116005	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8783_12360	InterProScan_PfamDomain	PF07730	Signal transduction histidine kinase, subgroup 3, dimerisation and phosphoacceptor domain	IPR011712
+PRISM_8783_131377	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_8783_134200	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_8783_154961	InterProScan_PfamDomain	PF00701	DapA-like	IPR002220
+PRISM_8783_15718	InterProScan_PfamDomain	PF11175	Protein of unknown function DUF2961	IPR021345
+PRISM_8783_159464	InterProScan_PfamDomain	PF13328	HD/PDEase domain	IPR003607
+PRISM_8783_173822	InterProScan_PfamDomain	PF00884	Sulfatase, N-terminal	IPR000917
+PRISM_8783_174842	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8783_174847	InterProScan_PfamDomain	PF00717	Peptidase S24/S26A/S26B/S26C	IPR015927
+PRISM_8783_174849	InterProScan_PfamDomain	PF00717	Peptidase S24/S26A/S26B/S26C	IPR015927
+PRISM_8783_177192	InterProScan_PfamDomain	PF01979	Amidohydrolase-related	IPR006680
+PRISM_8783_183393	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_8783_203860	InterProScan_PfamDomain	PF00251;PF08244	Glycosyl hydrolase family 32, N-terminal;Glycosyl hydrolase family 32, C-terminal	IPR013148;IPR013189
+PRISM_8783_206150	InterProScan_PfamDomain	PF01053	Cys/Met metabolism, pyridoxal phosphate-dependent enzyme	IPR000277
+PRISM_8783_223351	InterProScan_PfamDomain	PF00455;PF08220	DeoR C-terminal sensor domain;DeoR-type HTH domain	IPR014036;IPR001034
+PRISM_8783_227320	InterProScan_PfamDomain	PF13145	Peptidyl-prolyl cis-trans isomerase, PpiC-type	IPR000297
+PRISM_8783_25315	InterProScan_PfamDomain	PF03772;PF13567	ComEC/Rec2-related protein;Domain of unknown function DUF4131	IPR004477;IPR025405
+PRISM_8783_27058	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8783_38014	InterProScan_PfamDomain	PF00171	Aldehyde dehydrogenase domain	IPR015590
+PRISM_8783_48478	InterProScan_PfamDomain	PF05685;PF06414	Domain of unknown function DUF820;Zeta toxin domain	IPR008538;IPR010488
+PRISM_8783_51820	InterProScan_PfamDomain	PF09848	Domain of unknown function DUF2075	IPR018647
+PRISM_8783_67714	InterProScan_PfamDomain	PF13472	SGNH hydrolase-type esterase domain	IPR013830
+PRISM_8783_67717	InterProScan_PfamDomain	PF00480;PF01238	ROK family;Mannose-6-phosphate isomerase, type I	IPR000600;IPR001250
+PRISM_8783_78927	InterProScan_PfamDomain	PF01381;PF13127	Cro/C1-type helix-turn-helix domain;Protein of unknown function DUF3955	IPR001387;IPR025016
+PRISM_8783_93233	InterProScan_PfamDomain	PF02836	Glycoside hydrolase family 2, catalytic domain	IPR006103
+PRISM_8784_115686	InterProScan_PfamDomain	PF00703;PF02836;PF02837	Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich;Glycoside hydrolase family 2, catalytic domain;Glycosyl hydrolases family 2, sugar binding domain	IPR006102;IPR006103;IPR006104
+PRISM_8784_157895	InterProScan_PfamDomain	PF13242	HAD-hyrolase-like	NA
+PRISM_8784_187144	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_8784_227697	InterProScan_PfamDomain	PF14384	BrnA antitoxin of type II toxin-antitoxin system	IPR025528
+PRISM_8784_234075	InterProScan_PfamDomain	PF01053	Cys/Met metabolism, pyridoxal phosphate-dependent enzyme	IPR000277
+PRISM_8784_330595	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8784_39797	InterProScan_PfamDomain	PF01168	Alanine racemase, N-terminal	IPR001608
+PRISM_8784_444029	InterProScan_PfamDomain	PF00359;PF02302;PF02378	PTS EIIA type-2 domain;Phosphotransferase system, EIIB component, type 2/3;Phosphotransferase system, EIIC	IPR002178;IPR003501;IPR003352
+PRISM_8784_70391	InterProScan_PfamDomain	PF13419	Haloacid dehalogenase-like hydrolase	NA
+PRISM_8784_74927	InterProScan_PfamDomain	PF02779;PF02780;PF13292	Transketolase-like, pyrimidine-binding domain;Transketolase, C-terminal domain;Deoxyxylulose-5-phosphate synthase	IPR005475;IPR033248;IPR005477
+PRISM_8784_90389	InterProScan_PfamDomain	PF00583	GNAT domain	IPR000182
+PRISM_8784_94396	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8784_94407	InterProScan_PfamDomain	PF01814	Haemerythrin-like	IPR012312
+PRISM_8788_01520	InterProScan_PfamDomain	PF14449	Pre-toxin TG domain	IPR027797
+PRISM_8788_101304	InterProScan_PfamDomain	PF00082	Peptidase S8/S53 domain	IPR000209
+PRISM_8788_101340	InterProScan_PfamDomain	PF00185;PF02729	Aspartate/ornithine carbamoyltransferase, Asp/Orn-binding domain;Aspartate/ornithine carbamoyltransferase, carbamoyl-P binding	IPR006131;IPR006132
+PRISM_8788_184652	InterProScan_PfamDomain	PF01926	GTP binding domain	IPR006073
+PRISM_8788_231441	InterProScan_PfamDomain	PF02482;PF16321	Ribosome hibernation promoting factor/RaiA;Sigma 54 modulation/S30EA ribosomal protein, C-terminal	IPR003489;IPR032528
+PRISM_8788_23557	InterProScan_PfamDomain	PF01066	CDP-alcohol phosphatidyltransferase	IPR000462
+PRISM_8788_238323	InterProScan_PfamDomain	PF01637;PF03008	ATPase domain;Domain of unknown function DUF234, DEXX-box ATPase C-terminal	IPR011579;IPR004256
+PRISM_8788_252544	InterProScan_PfamDomain	PF03786	Mannonate dehydratase	IPR004628
+PRISM_8788_262578	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_8788_262599	InterProScan_PfamDomain	PF02080;PF02254	Regulator of K+ conductance, C-terminal;Regulator of K+ conductance, N-terminal	IPR006037;IPR003148
+PRISM_8788_289490	InterProScan_PfamDomain	PF13483	Beta-lactamase superfamily domain	NA
+PRISM_8788_72105	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8788_72129	InterProScan_PfamDomain	PF05437	Branched-chain amino acid transport, AzlD	IPR008407
+PRISM_8788_95653	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_8789_129783	InterProScan_PfamDomain	PF00091;PF12327	Tubulin/FtsZ, GTPase domain;Cell division protein FtsZ, C-terminal	IPR003008;IPR024757
+PRISM_8789_142569	InterProScan_PfamDomain	PF04026	Stage V sporulation protein G	IPR007170
+PRISM_8789_203944	InterProScan_PfamDomain	PF12710	haloacid dehalogenase-like hydrolase	NA
+PRISM_8789_30271	InterProScan_PfamDomain	PF01078;PF13335;PF13541	Magnesium chelatase ChlI domain;Mg chelatase-related protein, C-terminal domain;Subunit ChlI of Mg-chelatase	IPR000523;IPR025158;NA
+PRISM_8789_34688	InterProScan_PfamDomain	PF00293	NUDIX hydrolase domain	IPR000086
+PRISM_8789_66557	InterProScan_PfamDomain	PF03755;PF08340	YicC-like, N-terminal;Domain of unknown function DUF1732	IPR013527;IPR013551
+PRISM_8794_00248	InterProScan_PfamDomain	PF02664	S-ribosylhomocysteinase (LuxS)	IPR003815
+PRISM_8794_110032	InterProScan_PfamDomain	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387
+PRISM_8794_122520	InterProScan_PfamDomain	PF08780	Nucleotidyltransferase substrate binding protein, HI0074	IPR010235
+PRISM_8794_131430	InterProScan_PfamDomain	PF04055;PF13353	Radical SAM;4Fe-4S single cluster domain	IPR007197;NA
+PRISM_8794_132524	InterProScan_PfamDomain	PF01145	Band 7 domain	IPR001107
+PRISM_8794_132719	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8794_164008	InterProScan_PfamDomain	PF01596	O-methyltransferase, family 3	IPR002935
+PRISM_8794_171329	InterProScan_PfamDomain	PF02653	ABC transporter, permease	IPR001851
+PRISM_8794_179232	InterProScan_PfamDomain	PF01979	Amidohydrolase-related	IPR006680
+PRISM_8794_204050	InterProScan_PfamDomain	PF03610	Phosphotransferase system, mannose-type IIA component	IPR004701
+PRISM_8794_20417	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_8794_223148	InterProScan_PfamDomain	PF03976	Polyphosphate kinase-2-related	IPR022488
+PRISM_8794_252192	InterProScan_PfamDomain	PF13701	Transposase DDE domain	IPR025668
+PRISM_8794_260641	InterProScan_PfamDomain	PF01189;PF13636;PF17125;PF17126	SAM-dependent methyltransferase RsmB/NOP2-type;rRNA small subunit methyltransferase F, RNA-binding PUA-like domain;Ribosomal RNA small subunit methyltransferase F, N-terminal;Ribosomal RNA small subunit methyltransferase F, first C-terminal domain	IPR001678;IPR027391;IPR031341;IPR031340
+PRISM_8794_262954	InterProScan_PfamDomain	PF08282	haloacid dehalogenase-like hydrolase	NA
+PRISM_8794_265785	InterProScan_PfamDomain	PF02518	Histidine kinase/HSP90-like ATPase	IPR003594
+PRISM_8794_26636	InterProScan_PfamDomain	PF00448;PF02881	Signal recognition particle, SRP54 subunit, GTPase domain;Signal recognition particle, SRP54 subunit, helical bundle	IPR000897;IPR013822
+PRISM_8794_270080	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8794_270081	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8794_288119	InterProScan_PfamDomain	PF00202	Aminotransferase class-III	IPR005814
+PRISM_8794_302257	InterProScan_PfamDomain	PF14076	Protein of unknown function DUF4258	IPR025354
+PRISM_8794_307251	InterProScan_PfamDomain	PF02421;PF04023;PF07664;PF07670	FeoB-type guanine nucleotide-binding (G) domain;Ferrous iron transporter FeoA domain;Ferrous iron transport protein B, C-terminal;Nucleoside transporter/FeoB GTPase, Gate domain	IPR030389;IPR007167;IPR011640;IPR011642
+PRISM_8794_311700	InterProScan_PfamDomain	PF00122;PF00689;PF00690;PF00702	E1-E2 ATPase;Cation-transporting P-type ATPase, C-terminal;Cation-transporting P-type ATPase, N-terminal;haloacid dehalogenase-like hydrolase	NA;IPR006068;IPR004014;NA
+PRISM_8794_314436	InterProScan_PfamDomain	PF00571	CBS domain	IPR000644
+PRISM_8794_317380	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_8794_319816	InterProScan_PfamDomain	PF00533;PF01653;PF03120;PF14520	BRCT domain;NAD-dependent DNA ligase, adenylation;NAD-dependent DNA ligase, OB-fold;Helix-hairpin-helix domain	IPR001357;IPR013839;IPR004150;NA
+PRISM_8794_54390	InterProScan_PfamDomain	PF01966	HD domain	IPR006674
+PRISM_8794_57379	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8794_62475	InterProScan_PfamDomain	PF13437;PF13533	HlyD family secretion protein;Membrane fusion protein, biotin-lipoyl like domain	NA;IPR039562
+PRISM_8794_68370	InterProScan_PfamDomain	PF03315	Serine dehydratase beta chain	IPR005131
+PRISM_8794_72029	InterProScan_PfamDomain	PF13508	GNAT domain	IPR000182
+PRISM_8794_78993	InterProScan_PfamDomain	PF01261	Xylose isomerase-like, TIM barrel domain	IPR013022
+PRISM_8794_85641	InterProScan_PfamDomain	PF04542;PF08281	RNA polymerase sigma-70 region 2;RNA polymerase sigma factor 70, region 4 type 2	IPR007627;IPR013249
+PRISM_8794_96682	InterProScan_PfamDomain	PF00990	GGDEF domain	IPR000160
+PRISM_8800_02575	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8800_04288	InterProScan_PfamDomain	PF00266	Aminotransferase class V domain	IPR000192
+PRISM_8800_101476	InterProScan_PfamDomain	PF00119	ATP synthase, F0 complex, subunit A	IPR000568
+PRISM_8800_105515	InterProScan_PfamDomain	PF05164	Cell division protein ZapA-like	IPR007838
+PRISM_8800_129106	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8800_130016	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_8800_161272	InterProScan_PfamDomain	PF13347	MFS/sugar transport protein	NA
+PRISM_8800_162888	InterProScan_PfamDomain	PF00381	Phosphocarrier protein HPr-like	IPR000032
+PRISM_8800_165334	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_8800_17950	InterProScan_PfamDomain	PF03275;PF13450	UDP-galactopyranose mutase, C-terminal;NAD(P)-binding Rossmann-like domain	IPR015899;NA
+PRISM_8800_184047	InterProScan_PfamDomain	PF11823	Domain of unknown function DUF3343	IPR021778
+PRISM_8800_57525	InterProScan_PfamDomain	PF03275;PF13450	UDP-galactopyranose mutase, C-terminal;NAD(P)-binding Rossmann-like domain	IPR015899;NA
+PRISM_8800_78329	InterProScan_PfamDomain	PF01966	HD domain	IPR006674
+PRISM_8802_113859	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8802_116927	InterProScan_PfamDomain	PF01053	Cys/Met metabolism, pyridoxal phosphate-dependent enzyme	IPR000277
+PRISM_8802_187018	InterProScan_PfamDomain	PF08241	Methyltransferase type 11	IPR013216
+PRISM_8802_187107	InterProScan_PfamDomain	PF00892	EamA domain	IPR000620
+PRISM_8802_24859	InterProScan_PfamDomain	PF01991	V-type ATPase subunit E	IPR002842
+PRISM_8802_26656	InterProScan_PfamDomain	PF02421;PF07664;PF07670	FeoB-type guanine nucleotide-binding (G) domain;Ferrous iron transport protein B, C-terminal;Nucleoside transporter/FeoB GTPase, Gate domain	IPR030389;IPR011640;IPR011642
+PRISM_8802_27693	InterProScan_PfamDomain	PF00196	Transcription regulator LuxR, C-terminal	IPR000792
+PRISM_8802_314810	InterProScan_PfamDomain	PF03602	Conserved hypothetical protein 95	NA
+PRISM_8802_314851	InterProScan_PfamDomain	PF00082	Peptidase S8/S53 domain	IPR000209
+PRISM_8802_418743	InterProScan_PfamDomain	PF00590	Tetrapyrrole methylase	IPR000878
+PRISM_8802_418750	InterProScan_PfamDomain	PF01891	Metal transport protein CbiM/NikMN	IPR002751
+PRISM_8802_418826	InterProScan_PfamDomain	PF06445;PF13411	GyrI-like small molecule binding domain;MerR-type HTH domain	IPR029442;IPR000551
+PRISM_8802_418926	InterProScan_PfamDomain	PF01547	Bacterial extracellular solute-binding protein	IPR006059
+PRISM_8802_42708	InterProScan_PfamDomain	PF00886	Ribosomal protein S16	IPR000307
+PRISM_8802_458212	InterProScan_PfamDomain	PF01315;PF02738	Aldehyde oxidase/xanthine dehydrogenase, a/b hammerhead;Aldehyde oxidase/xanthine dehydrogenase, molybdopterin binding	IPR000674;IPR008274
+PRISM_8802_46230	InterProScan_PfamDomain	PF12784	PD-(D/E)XK nuclease family transposase	NA
+PRISM_8802_520431	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_8802_55624	InterProScan_PfamDomain	PF12849	PBP domain	IPR024370
+PRISM_8802_60419	InterProScan_PfamDomain	PF03009	Glycerophosphodiester phosphodiesterase domain	IPR030395
+PRISM_8802_60462	InterProScan_PfamDomain	PF04892	VanZ-like	IPR006976
+PRISM_8802_98003	InterProScan_PfamDomain	PF02367	tRNA threonylcarbamoyl adenosine modification protein TsaE	IPR003442
+PRISM_8802_98024	InterProScan_PfamDomain	PF13411	MerR-type HTH domain	IPR000551
+PRISM_8807_01693	InterProScan_PfamDomain	PF02464	CinA, C-terminal	IPR008136
+PRISM_8807_03582	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_8807_108339	InterProScan_PfamDomain	PF02302	Phosphotransferase system, EIIB component, type 2/3	IPR003501
+PRISM_8807_115545	InterProScan_PfamDomain	PF00356;PF13377	LacI-type HTH domain;Periplasmic binding protein-like domain	IPR000843;NA
+PRISM_8807_115551	InterProScan_PfamDomain	PF03786	Mannonate dehydratase	IPR004628
+PRISM_8807_117719	InterProScan_PfamDomain	PF00004;PF02190;PF05362	ATPase, AAA-type, core;Lon, substrate-binding domain;Peptidase S16, Lon proteolytic domain	IPR003959;IPR003111;IPR008269
+PRISM_8807_117733	InterProScan_PfamDomain	PF13346	ABC-2 membrane transporter-like	IPR025699
+PRISM_8807_14710	InterProScan_PfamDomain	PF05067	Manganese catalase	IPR007760
+PRISM_8807_15428	InterProScan_PfamDomain	PF01808	Bifunctional purine biosynthesis protein PurH-like	IPR002695
+PRISM_8807_17117	InterProScan_PfamDomain	PF05977	Transmembrane secretion effector	IPR010290
+PRISM_8807_24054	InterProScan_PfamDomain	PF13649	Methyltransferase domain	NA
+PRISM_8807_25088	InterProScan_PfamDomain	PF00528;PF13416	ABC transporter type 1, transmembrane domain MetI-like;Bacterial extracellular solute-binding protein	IPR000515;IPR006059
+PRISM_8807_30739	InterProScan_PfamDomain	PF00703;PF02836;PF02837;PF16355	Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich;Glycoside hydrolase family 2, catalytic domain;Glycosyl hydrolases family 2, sugar binding domain;Domain of unknown function DUF4982	IPR006102;IPR006103;IPR006104;IPR032311
+PRISM_8807_69288	InterProScan_PfamDomain	PF13529	Peptidase C39-like	IPR039564
+PRISM_8807_71072	InterProScan_PfamDomain	PF13347	MFS/sugar transport protein	NA
+PRISM_8807_84018	InterProScan_PfamDomain	PF00730;PF03749;PF14815	HhH-GPD domain;Sugar fermentation stimulation protein;MutY, C-terminal	IPR003265;IPR005224;IPR029119
+PRISM_8807_85185	InterProScan_PfamDomain	PF01168	Alanine racemase, N-terminal	IPR001608
+PRISM_8807_92820	InterProScan_PfamDomain	PF01797	Transposase IS200-like	IPR002686
+PRISM_8841_11537	InterProScan_PfamDomain	PF12784	PD-(D/E)XK nuclease family transposase	NA
+PRISM_8841_123934	InterProScan_PfamDomain	PF00367;PF02378	Phosphotransferase system EIIB, cysteine phosphorylation site;Phosphotransferase system, EIIC	IPR018113;IPR003352
+PRISM_8841_125431	InterProScan_PfamDomain	PF00132;PF06426	Hexapeptide repeat;Serine acetyltransferase, N-terminal	IPR001451;IPR010493
+PRISM_8841_125434	InterProScan_PfamDomain	PF00183;PF13589	Heat shock protein Hsp90 family;Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	IPR001404;NA
+PRISM_8841_127788	InterProScan_PfamDomain	PF00111;PF14574	2Fe-2S ferredoxin-type iron-sulfur binding domain;Protein of unknown function DUF4445	IPR001041;IPR027980
+PRISM_8841_139569	InterProScan_PfamDomain	PF02421;PF04023;PF07664;PF07670	FeoB-type guanine nucleotide-binding (G) domain;Ferrous iron transporter FeoA domain;Ferrous iron transport protein B, C-terminal;Nucleoside transporter/FeoB GTPase, Gate domain	IPR030389;IPR007167;IPR011640;IPR011642
+PRISM_8841_140889	InterProScan_PfamDomain	PF13304	ATPase, AAA-type, core	IPR003959
+PRISM_8841_164236	InterProScan_PfamDomain	PF00375	Sodium:dicarboxylate symporter	IPR001991
+PRISM_8841_17715	InterProScan_PfamDomain	PF02670;PF08436;PF13288	1-deoxy-D-xylulose 5-phosphate reductoisomerase, N-terminal;1-deoxy-D-xylulose 5-phosphate reductoisomerase, C-terminal;DXP reductoisomerase C-terminal domain	IPR013512;IPR013644;IPR026877
+PRISM_8841_22509	InterProScan_PfamDomain	PF00004;PF02861;PF07724;PF10431	ATPase, AAA-type, core;Clp, N-terminal;ATPase, AAA-type, core;Clp ATPase, C-terminal	IPR003959;IPR004176;IPR003959;IPR019489
+PRISM_8841_24435	InterProScan_PfamDomain	PF14501	Sensor histidine kinase NatK, C-terminal domain	IPR032834
+PRISM_8841_26187	InterProScan_PfamDomain	PF07179	SseB protein N-terminal domain	IPR009839
+PRISM_8841_36945	InterProScan_PfamDomain	PF07892	Protein of unknown function DUF1667	IPR012460
+PRISM_8841_39924	InterProScan_PfamDomain	PF00795;PF02540	Carbon-nitrogen hydrolase;NAD/GMP synthase	IPR003010;IPR022310
+PRISM_8841_42494	InterProScan_PfamDomain	PF15432	Accessory Sec system protein Asp3	IPR022259
+PRISM_8841_61424	InterProScan_PfamDomain	PF04397	LytTR DNA-binding domain	IPR007492
+PRISM_8841_68351	InterProScan_PfamDomain	PF00251	Glycosyl hydrolase family 32, N-terminal	IPR013148
+PRISM_8841_72811	InterProScan_PfamDomain	PF05580	Peptidase S55, SpoIVB	IPR008763
+PRISM_8841_74100	InterProScan_PfamDomain	PF03609	Phosphotransferase system, mannose/fructose/sorbose family, IIC subunit	IPR004700
+PRISM_8841_74196	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8841_77625	InterProScan_PfamDomain	PF02311;PF12833	AraC-type arabinose-binding/dimerisation domain;DNA binding HTH domain, AraC-type	IPR003313;IPR018060
+PRISM_8841_77728	InterProScan_PfamDomain	PF00485	Phosphoribulokinase/uridine kinase	IPR006083
+PRISM_8841_91852	InterProScan_PfamDomain	PF01478	Prepilin type IV endopeptidase, peptidase domain	IPR000045
+PRISM_8843_03059	InterProScan_PfamDomain	PF13472	SGNH hydrolase-type esterase domain	IPR013830
+PRISM_8843_124608	InterProScan_PfamDomain	PF01408;PF02894	Oxidoreductase, N-terminal;Oxidoreductase, C-terminal	IPR000683;IPR004104
+PRISM_8843_134325	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8843_135606	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8843_145534	InterProScan_PfamDomain	PF05913	Protein of unknown function DUF871, prokaryotic	IPR008589
+PRISM_8843_145536	InterProScan_PfamDomain	PF00158;PF00874;PF03610	RNA polymerase sigma factor 54 interaction domain;PRD domain;Phosphotransferase system, mannose-type IIA component	IPR002078;IPR011608;IPR004701
+PRISM_8843_189454	InterProScan_PfamDomain	PF13649	Methyltransferase domain	NA
+PRISM_8843_195332	InterProScan_PfamDomain	PF00183;PF13589	Heat shock protein Hsp90 family;Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	IPR001404;NA
+PRISM_8843_225531	InterProScan_PfamDomain	PF01757	Acyltransferase 3	IPR002656
+PRISM_8843_226546	InterProScan_PfamDomain	PF02153	Prephenate dehydrogenase	IPR003099
+PRISM_8843_239315	InterProScan_PfamDomain	PF04055;PF13353	Radical SAM;4Fe-4S single cluster domain	IPR007197;NA
+PRISM_8843_247107	InterProScan_PfamDomain	PF00587;PF03129	Aminoacyl-tRNA synthetase, class II (G/ P/ S/T);Anticodon-binding	IPR002314;IPR004154
+PRISM_8843_251222	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8843_36162	InterProScan_PfamDomain	PF00005;PF12848	ABC transporter-like;ABC-transporter extension domain	IPR003439;IPR032781
+PRISM_8843_38703	InterProScan_PfamDomain	PF01569	Phosphatidic acid phosphatase type 2/haloperoxidase	IPR000326
+PRISM_8843_49881	InterProScan_PfamDomain	PF02645	DegV	IPR003797
+PRISM_8843_51368	InterProScan_PfamDomain	PF04383	KilA, N-terminal/APSES-type HTH, DNA-binding	IPR018004
+PRISM_8843_51697	InterProScan_PfamDomain	PF01032	ABC transporter, permease protein, BtuC-like	IPR000522
+PRISM_8843_57429	InterProScan_PfamDomain	PF00994	MoaB/Mog domain	IPR001453
+PRISM_8843_68879	InterProScan_PfamDomain	PF03609	Phosphotransferase system, mannose/fructose/sorbose family, IIC subunit	IPR004700
+PRISM_8843_70169	InterProScan_PfamDomain	PF01471	Peptidoglycan binding-like	IPR002477
+PRISM_8843_82963	InterProScan_PfamDomain	PF01960	Arginine biosynthesis protein ArgJ	IPR002813
+PRISM_8843_83079	InterProScan_PfamDomain	PF00072;PF00486	Signal transduction response regulator, receiver domain;OmpR/PhoB-type DNA-binding domain	IPR001789;IPR001867
+PRISM_8843_86401	InterProScan_PfamDomain	PF04085	Rod shape-determining protein MreC	IPR007221
+PRISM_8843_90925	InterProScan_PfamDomain	PF12385	Peptidase C70, AvrRpt2	IPR022118
+PRISM_8847_105945	InterProScan_PfamDomain	PF07314	Integral membrane protein 1906	IPR010178
+PRISM_8847_105988	InterProScan_PfamDomain	PF00155	Aminotransferase, class I/classII	IPR004839
+PRISM_8847_112137	InterProScan_PfamDomain	PF01832	Mannosyl-glycoprotein endo-beta-N-acetylglucosamidase-like domain	IPR002901
+PRISM_8847_137996	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_8847_145748	InterProScan_PfamDomain	PF02255	Phosphotransferase system, lactose/cellobiose-type IIA subunit	IPR003188
+PRISM_8847_198977	InterProScan_PfamDomain	PF03169	Oligopeptide transporter, OPT superfamily	IPR004813
+PRISM_8847_199065	InterProScan_PfamDomain	PF00849	Pseudouridine synthase, RsuA/RluB/C/D/E/F	IPR006145
+PRISM_8847_233340	InterProScan_PfamDomain	PF02627;PF07883	Carboxymuconolactone decarboxylase-like;Cupin 2, conserved barrel	IPR003779;IPR013096
+PRISM_8847_253007	InterProScan_PfamDomain	PF00132;PF00483	Hexapeptide repeat;Nucleotidyl transferase domain	IPR001451;IPR005835
+PRISM_8847_281258	InterProScan_PfamDomain	PF01276;PF03711	Orn/Lys/Arg decarboxylase, major domain;Orn/Lys/Arg decarboxylase, C-terminal	IPR000310;IPR008286
+PRISM_8847_281259	InterProScan_PfamDomain	PF00625	Guanylate kinase/L-type calcium channel beta subunit	IPR008145
+PRISM_8847_312857	InterProScan_PfamDomain	PF00005;PF00664	ABC transporter-like;ABC transporter type 1, transmembrane domain	IPR003439;IPR011527
+PRISM_8847_312883	InterProScan_PfamDomain	PF13320	Domain of unknown function DUF4091	IPR025150
+PRISM_8847_349699	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_8847_381843	InterProScan_PfamDomain	PF09822	ABC-type uncharacterised transport system	IPR019196
+PRISM_8878_106988	InterProScan_PfamDomain	PF06250	Protein of unknown function DUF1016	IPR009362
+PRISM_8878_112199	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_8878_127210	InterProScan_PfamDomain	PF00460;PF06429	Flagellar basal body rod protein, N-terminal;Flagellar basal-body/hook protein, C-terminal domain	IPR001444;IPR010930
+PRISM_8878_13291	InterProScan_PfamDomain	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515
+PRISM_8878_142430	InterProScan_PfamDomain	PF01569	Phosphatidic acid phosphatase type 2/haloperoxidase	IPR000326
+PRISM_8878_147927	InterProScan_PfamDomain	PF03963	Flagellar hook capping protein	IPR005648
+PRISM_8878_180611	InterProScan_PfamDomain	PF05960	Protein of unknown function DUF885	IPR010281
+PRISM_8878_31754	InterProScan_PfamDomain	PF08876	Protein of unknown function DUF1836	IPR014975
+PRISM_8878_33740	InterProScan_PfamDomain	PF02589	LUD domain	IPR003741
+PRISM_8878_41895	InterProScan_PfamDomain	PF00440	DNA-binding HTH domain, TetR-type	IPR001647
+PRISM_8878_44486	InterProScan_PfamDomain	PF00015	Methyl-accepting chemotaxis protein (MCP) signalling domain	IPR004089
+PRISM_8878_60299	InterProScan_PfamDomain	PF00015;PF00672;PF12729	Methyl-accepting chemotaxis protein (MCP) signalling domain;HAMP domain;Chemotaxis methyl-accepting receptor HlyB-like, 4HB MCP domain	IPR004089;IPR003660;IPR024478
+PRISM_8878_83372	InterProScan_PfamDomain	PF04616	Glycoside hydrolase, family 43	IPR006710
+PRISM_8892_16831	InterProScan_PfamDomain	PF03814	Potassium-transporting ATPase A chain	IPR004623
+PRISM_8892_24206	InterProScan_PfamDomain	PF03480;PF04290	TRAP transporter solute receptor DctP/TeaA;TRAP transporter, small membrane protein DctQ	IPR018389;IPR007387
+PRISM_8892_24447	InterProScan_PfamDomain	PF02518	Histidine kinase/HSP90-like ATPase	IPR003594
+PRISM_8892_25057	InterProScan_PfamDomain	PF03780	Alkaline shock protein Asp23	IPR005531
+PRISM_8892_28872	InterProScan_PfamDomain	PF01943;PF14667	Polysaccharide biosynthesis protein;Polysaccharide biosynthesis protein, C-terminal domain	IPR002797;IPR029303
+PRISM_8892_29494	InterProScan_PfamDomain	PF02527	rRNA small subunit methyltransferase G	IPR003682
+PRISM_8892_41476	InterProScan_PfamDomain	PF00825	Ribonuclease P	IPR000100
+PRISM_8892_41861	InterProScan_PfamDomain	PF01887	SAM-dependent chlorinase/fluorinase	IPR002747
+PRISM_8892_51990	InterProScan_PfamDomain	PF01966	HD domain	IPR006674
+PRISM_8892_55928	InterProScan_PfamDomain	PF00936	Microcompartment protein, bacteria	IPR000249
+PRISM_8892_56912	InterProScan_PfamDomain	PF02357	NusG, N-terminal	IPR006645
+PRISM_8892_65090	InterProScan_PfamDomain	PF13509	Conserved virulence factor B, S1 domain	IPR039566
+PRISM_8892_66754	InterProScan_PfamDomain	PF13490	Putative zinc-finger	IPR027383
+PRISM_8892_69873	InterProScan_PfamDomain	PF10694	Protein of unknown function DUF2500	IPR019635
+PRISM_9126_09245	InterProScan_PfamDomain	PF07228	PPM-type phosphatase domain	IPR001932
+PRISM_9126_09645	InterProScan_PfamDomain	PF06689;PF07724;PF10431	Zinc finger, ClpX C4-type;ATPase, AAA-type, core;Clp ATPase, C-terminal	IPR010603;IPR003959;IPR019489
+PRISM_9126_111168	InterProScan_PfamDomain	PF01176	RNA-binding domain, S1, IF1 type	IPR006196
+PRISM_9126_11798	InterProScan_PfamDomain	PF01739;PF03705	MCP methyltransferase, CheR-type, SAM-binding domain, C-terminal;Chemotaxis receptor methyltransferase CheR, N-terminal	IPR022642;IPR022641
+PRISM_9126_139690	InterProScan_PfamDomain	PF04203	Sortase family	IPR005754
+PRISM_9126_139811	InterProScan_PfamDomain	PF00344	SecY/SEC61-alpha family	IPR002208
+PRISM_9126_153664	InterProScan_PfamDomain	PF00275	Enolpyruvate transferase domain	IPR001986
+PRISM_9126_17600	InterProScan_PfamDomain	PF02661	Fido domain	IPR003812
+PRISM_9126_17900	InterProScan_PfamDomain	PF01554	Multi antimicrobial extrusion protein	IPR002528
+PRISM_9126_196605	InterProScan_PfamDomain	PF00925;PF00926	GTP cyclohydrolase II;3,4-dihydroxy-2-butanone 4-phosphate synthase, RibB	IPR032677;IPR000422
+PRISM_9126_200883	InterProScan_PfamDomain	PF00496	Solute-binding protein family 5 domain	IPR000914
+PRISM_9126_20228	InterProScan_PfamDomain	PF00004;PF02861;PF07724;PF10431	ATPase, AAA-type, core;Clp, N-terminal;ATPase, AAA-type, core;Clp ATPase, C-terminal	IPR003959;IPR004176;IPR003959;IPR019489
+PRISM_9126_211131	InterProScan_PfamDomain	PF07949	YbbR-like	IPR012505
+PRISM_9126_231901	InterProScan_PfamDomain	PF00072;PF04397	Signal transduction response regulator, receiver domain;LytTR DNA-binding domain	IPR001789;IPR007492
+PRISM_9126_32593	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_9126_34281	InterProScan_PfamDomain	PF13181	Tetratricopeptide repeat	IPR019734
+PRISM_9126_35156	InterProScan_PfamDomain	PF03780	Alkaline shock protein Asp23	IPR005531
+PRISM_9126_35737	InterProScan_PfamDomain	PF00403	Heavy metal-associated domain, HMA	IPR006121
+PRISM_9126_39250	InterProScan_PfamDomain	PF02687	ABC transporter permease protein domain	IPR003838
+PRISM_9126_63967	InterProScan_PfamDomain	PF00269	Small acid-soluble spore protein, alpha/beta-type	IPR001448
+PRISM_9126_73058	InterProScan_PfamDomain	PF00072;PF00196	Signal transduction response regulator, receiver domain;Transcription regulator LuxR, C-terminal	IPR001789;IPR000792
+PRISM_9126_81338	InterProScan_PfamDomain	PF13240;PF14018	Zinc-ribbon domain;Domain of unknown function DUF4234	IPR026870;IPR025328
+PRISM_9126_89167	InterProScan_PfamDomain	PF00006;PF02874	ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain;ATPase, F1/V1/A1 complex, alpha/beta subunit, N-terminal domain	IPR000194;IPR004100
+PRISM_9126_99509	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_9148_07702	InterProScan_PfamDomain	PF00005	ABC transporter-like	IPR003439
+PRISM_9148_07975	InterProScan_PfamDomain	PF13302	GNAT domain	IPR000182
+PRISM_9148_08194	InterProScan_PfamDomain	PF00158;PF00874;PF03610;PF13412	RNA polymerase sigma factor 54 interaction domain;PRD domain;Phosphotransferase system, mannose-type IIA component;Winged helix-turn-helix DNA-binding	IPR002078;IPR011608;IPR004701;NA
+PRISM_9148_104649	InterProScan_PfamDomain	PF00903	Glyoxalase/fosfomycin resistance/dioxygenase domain	IPR004360
+PRISM_9148_120522	InterProScan_PfamDomain	PF01520	N-acetylmuramoyl-L-alanine amidase, catalytic domain	IPR002508
+PRISM_9148_122832	InterProScan_PfamDomain	PF01509;PF16198	Pseudouridine synthase II, N-terminal;tRNA pseudouridylate synthase B, C-terminal	IPR002501;IPR032819
+PRISM_9148_12749	InterProScan_PfamDomain	PF13614	AAA domain	IPR025669
+PRISM_9148_140112	InterProScan_PfamDomain	PF13673	GNAT domain	IPR000182
+PRISM_9148_15728	InterProScan_PfamDomain	PF00842;PF01168	Alanine racemase, C-terminal;Alanine racemase, N-terminal	IPR011079;IPR001608
+PRISM_9148_17372	InterProScan_PfamDomain	PF02578	Multi-copper polyphenol oxidoreductase	IPR003730
+PRISM_9148_190010	InterProScan_PfamDomain	PF00535	Glycosyltransferase 2-like	IPR001173
+PRISM_9148_196537	InterProScan_PfamDomain	PF00795	Carbon-nitrogen hydrolase	IPR003010
+PRISM_9148_209857	InterProScan_PfamDomain	PF02390	Putative methyltransferase	NA
+PRISM_9148_24258	InterProScan_PfamDomain	PF01967	Molybdopterin cofactor biosynthesis C (MoaC) domain	IPR002820
+PRISM_9148_30673	InterProScan_PfamDomain	PF04203	Sortase family	IPR005754
+PRISM_9148_30677	InterProScan_PfamDomain	PF09967	VWA-like domain	IPR018698
+PRISM_9148_54414	InterProScan_PfamDomain	PF00920	Dihydroxy-acid/6-phosphogluconate dehydratase	IPR000581
+PRISM_9148_59140	InterProScan_PfamDomain	PF00512;PF02518	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain;Histidine kinase/HSP90-like ATPase	IPR003661;IPR003594
+PRISM_9148_60429	InterProScan_PfamDomain	PF05636	Uncharacterised protein family UPF0348	IPR008513
+PRISM_9148_60779	InterProScan_PfamDomain	PF04041	Mannoside phosphorylase	IPR007184
+PRISM_9148_64881	InterProScan_PfamDomain	PF07486	Cell wall hydrolase, SleB	IPR011105
+PRISM_9148_69085	InterProScan_PfamDomain	PF08282	haloacid dehalogenase-like hydrolase	NA
+PRISM_9148_69557	InterProScan_PfamDomain	PF00440	DNA-binding HTH domain, TetR-type	IPR001647
+PRISM_9148_73456	InterProScan_PfamDomain	PF08841	Diol dehydratase reactivase ATPase-like domain	IPR030994

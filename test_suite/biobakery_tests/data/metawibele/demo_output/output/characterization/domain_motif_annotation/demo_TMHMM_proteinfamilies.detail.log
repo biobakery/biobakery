@@ -1,0 +1,8 @@
+05/20/2021 10:42:42 PM - metawibele.config - INFO: ### Start interproscan_tmhmm_protein_family step ####
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Get info ......starting
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Get info ......done
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Get transmembrane info ......starting
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Get transmembrane info ......done
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Output transmembrane summary info ......starting
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Output transmembrane summary info ......done
+05/20/2021 10:42:42 PM - metawibele.config - INFO: ### Finish interproscan_tmhmm_protein_family step ####

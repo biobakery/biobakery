@@ -1,0 +1,257 @@
+PRISM_8683_18907	97a0514a1b36a3f3632780ea00861aca	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	3.2E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8764_213907	f480daf23cf077ae912cff898bf87789	78	Pfam	PF00550	Phosphopantetheine attachment site	4	70	1.4E-13	T	20-05-2021	IPR009081	Phosphopantetheine binding ACP domain
+PRISM_8496_12696	5b60fac927a3ac434a032e712de94d8a	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	5.0E-28	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7911_115846	c22ed71ba0cb0045a3f7e3de8088c86e	132	Pfam	PF01381	Helix-turn-helix	3	52	1.4E-10	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_7147_110796	787646d8ee8487c4f3e21b627d4880fc	85	Pfam	PF01797	Transposase IS200 like	11	82	4.6E-24	T	20-05-2021	IPR002686	Transposase IS200-like
+PRISM_7938_67160	cbcde7d6b9deaf001f5de2f45f33713e	138	Pfam	PF02823	ATP synthase, Delta/Epsilon chain, beta-sandwich domain	6	83	5.7E-20	T	20-05-2021	IPR020546	ATP synthase, F1 complex, delta/epsilon subunit, N-terminal
+PRISM_7938_67160	cbcde7d6b9deaf001f5de2f45f33713e	138	Pfam	PF00401	ATP synthase, Delta/Epsilon chain, long alpha-helix domain	87	132	1.5E-14	T	20-05-2021	IPR020547	ATP synthase delta/epsilon subunit, C-terminal domain
+PRISM_7910_62536	e58a1dbe3b4b797a17f9a89a6c456981	108	Pfam	PF13780	Domain of unknown function (DUF4176)	7	81	1.9E-23	T	20-05-2021	IPR025233	Protein of unknown function DUF4176
+PRISM_8754_198831	e1869863b50e73ad79cfdec80363f406	133	SignalP_GRAM_NEGATIVE	SignalP-noTM		1	24	-	T	20-05-2021
+PRISM_8754_198831	e1869863b50e73ad79cfdec80363f406	133	SignalP_GRAM_POSITIVE	SignalP-TM		1	24	-	T	20-05-2021
+PRISM_8754_198831	e1869863b50e73ad79cfdec80363f406	133	SignalP_EUK	SignalP-noTM		1	24	-	T	20-05-2021
+PRISM_7861_211956	ad78619a8792f6cfe8569783115d6191	85	Pfam	PF01176	Translation initiation factor 1A / IF-1	20	83	5.8E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7862_145895	9ec37c87d38181f1a92a74f6cf7f3938	103	Pfam	PF00467	KOW motif	8	39	2.8E-5	T	20-05-2021	IPR005824	KOW
+PRISM_7862_145895	9ec37c87d38181f1a92a74f6cf7f3938	103	Pfam	PF17136	Ribosomal proteins 50S L24/mitochondrial 39S L24	41	102	8.0E-27	T	20-05-2021	IPR003256	Ribosomal protein L24
+PRISM_8467_105366	75416c98a3cc228e944be0377d8a58cd	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	1.8E-26	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7486_140052	63b814170f4785c47920c5f4efa2561d	125	Pfam	PF03788	LrgA family	15	106	1.6E-28	T	20-05-2021	IPR005538	LrgA/CidA family
+PRISM_7870_130651	2b1b539fd13118be4d7d9876391839a4	90	Pfam	PF00216	Bacterial DNA-binding protein	1	90	3.7E-36	T	20-05-2021	IPR000119	Histone-like DNA-binding protein
+PRISM_8776_294067	d37974e248e3f8c5661d0da2827af597	81	Pfam	PF00886	Ribosomal protein S16	9	67	5.7E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_8283_147061	6f37ceaee56b09d2345d6f9a7cc9b7a1	129	Pfam	PF05119	Phage terminase, small subunit	37	118	1.4E-5	T	20-05-2021	IPR006448	Putative phage terminase, small subunit, P27 family
+PRISM_7238_54904	c4501f2231822961811b12b7008dfe63	88	Pfam	PF06961	Protein of unknown function (DUF1294)	13	67	2.6E-26	T	20-05-2021	IPR010718	Protein of unknown function DUF1294
+PRISM_7870_43163	60906fcaeb31362b1972fa5ad0b184c1	81	Pfam	PF00886	Ribosomal protein S16	9	67	3.2E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_8892_25057	bd2e1bd41fdb36a251cd75a3877d9343	120	Pfam	PF03780	Asp23 family, cell envelope-related function	10	117	3.2E-30	T	20-05-2021	IPR005531	Alkaline shock protein Asp23
+PRISM_7421_134392	ce6f8f2b8991cf16e4445b931d7a2857	119	Pfam	PF03551	Transcriptional regulator PadR-like family	20	85	8.2E-13	T	20-05-2021	IPR005149	Transcription regulator PadR, N-terminal
+PRISM_7904_47806	c04e49d7c3a4eabcda873a4657851dce	65	Pfam	PF07878	CopG-like RHH_1 or ribbon-helix-helix domain, RHH_5	23	55	4.2E-7	T	20-05-2021	IPR012869	CopG-like ribbon-helix-helix domain
+PRISM_8802_113859	b6c3b4f335d42e6d767da3f7d67e09ba	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	7.7E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7406_44849	d8cfbbf9b505671cd42b5bf1a40638c7	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	1.5E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7759_21703	ea59c098056fd1ea3326f18c5d6e6b52	70	Pfam	PF03776	Septum formation topological specificity factor MinE	9	63	1.8E-13	T	20-05-2021	IPR005527	Cell division topological specificity factor MinE
+PRISM_8774_132255	f66f39de053448591cd018e7166671d7	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	5.5E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8794_132719	f66f39de053448591cd018e7166671d7	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	5.5E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7153_140297	748f2ead3ae842779f3994ff1568c991	67	Pfam	PF00471	Ribosomal protein L33	22	67	1.6E-19	T	20-05-2021	IPR001705	Ribosomal protein L33
+PRISM_7855_50129	81cf7f2ac846ccfa9032cb5a1633cc6d	79	Pfam	PF00324	Amino acid permease	16	68	1.1E-5	T	20-05-2021	IPR004841	Amino acid permease/ SLC12A domain
+PRISM_8226_24079	102c51e45aae765e40fdce1c2cb94745	119	Pfam	PF09966	Uncharacterized protein conserved in bacteria (DUF2200)	5	110	1.4E-45	T	20-05-2021	IPR014580	Uncharacterised conserved protein UCP033199
+PRISM_7855_55061	7831d1de5b54b6d5983827cbae8c97e4	86	Pfam	PF07873	YabP family	21	84	1.2E-15	T	20-05-2021	IPR022476	Sporulation protein YabP/YqfC
+PRISM_8564_73622	f5adee28dad3fee61aa3b3bdd330126d	72	Pfam	PF02609	Exonuclease VII small subunit	12	62	1.3E-18	T	20-05-2021	IPR003761	Exonuclease VII, small subunit
+PRISM_7879_323233	ebb342a471ee4661e0584bb8839d9063	71	Pfam	PF13275	S4 domain	9	70	5.3E-27	T	20-05-2021
+PRISM_7759_76561	ca0f29f47450076f305f9afed55ed8f0	119	Pfam	PF00936	BMC domain	6	90	5.0E-20	T	20-05-2021	IPR000249	Microcompartment protein, bacteria
+PRISM_8783_183393	fa879bd31e23882c7ecf981df9bf7b13	99	Pfam	PF00936	BMC domain	9	85	1.8E-17	T	20-05-2021	IPR000249	Microcompartment protein, bacteria
+PRISM_7662_217609	9031417d358f1efefdae5fe22a795033	136	Pfam	PF02618	YceG-like family	57	122	1.6E-8	T	20-05-2021	IPR003770	Endolytic murein transglycosylase
+PRISM_7862_238779	3eb2ba3efd4a2d2da81067c76fad1399	63	Pfam	PF06250	Protein of unknown function (DUF1016)	4	54	4.9E-16	T	20-05-2021	IPR009362	Protein of unknown function DUF1016
+PRISM_8788_72129	f1681491a5a39fc7e083223f0299d268	102	Pfam	PF05437	Branched-chain amino acid transport protein (AzlD)	7	97	9.4E-13	T	20-05-2021	IPR008407	Branched-chain amino acid transport, AzlD
+PRISM_8802_42708	b9a7e26f29ffae7d15d4c77e1db8d6f6	81	Pfam	PF00886	Ribosomal protein S16	9	67	2.3E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_7904_180217	b9a7e26f29ffae7d15d4c77e1db8d6f6	81	Pfam	PF00886	Ribosomal protein S16	9	67	2.3E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_8794_57379	e795395b037332556052f6cb076c1fc4	81	Pfam	PF00886	Ribosomal protein S16	9	67	1.0E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_7406_36688	ca66d83d3ef48261389f7e58e9de7492	97	Pfam	PF01527	Transposase	1	78	1.9E-10	T	20-05-2021	IPR002514	Transposase IS3/IS911family
+PRISM_7408_160772	8979f7096140a56629125b7fbaeb595b	99	Pfam	PF00936	BMC domain	9	85	1.8E-17	T	20-05-2021	IPR000249	Microcompartment protein, bacteria
+PRISM_8592_89174	c78bdfdb3b4eadcfd8089fbf72b49cf3	131	Pfam	PF01381	Helix-turn-helix	38	90	6.7E-13	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_8789_142569	e0ab23d0e3c6377f07838d1fb9fcc144	93	Pfam	PF04026	SpoVG	1	81	9.2E-39	T	20-05-2021	IPR007170	Stage V sporulation protein G
+PRISM_7955_11348	ac103de48e0d6c65d2e1bd6d94a6b00a	87	Pfam	PF04026	SpoVG	1	81	1.6E-38	T	20-05-2021	IPR007170	Stage V sporulation protein G
+PRISM_8784_94407	321fe824e63d6fc85cedbd216e566d59	133	Pfam	PF01814	Hemerythrin HHE cation binding domain	11	123	1.6E-7	T	20-05-2021	IPR012312	Haemerythrin-like
+PRISM_9126_35156	3ab8471b109d5eae92216729b7f47701	119	Pfam	PF03780	Asp23 family, cell envelope-related function	9	116	4.2E-30	T	20-05-2021	IPR005531	Alkaline shock protein Asp23
+PRISM_7847_96543	66fa34fe18a815ea684a4bf2b02a5e62	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	6.3E-28	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8774_144907	3a85d250eeb5b4c3a1e0e965765f8e57	120	Pfam	PF01381	Helix-turn-helix	22	76	1.4E-10	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_8754_263931	e99de81da0186a51ea316b84ed4780e6	137	SignalP_EUK	SignalP-noTM		1	20	-	T	20-05-2021
+PRISM_7791_142577	63844bac2a04bcbe9955a2516a0db419	84	Pfam	PF01176	Translation initiation factor 1A / IF-1	19	82	5.6E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7861_53949	3a7eeb8572cb7d311fd1ddd59f39d92e	77	Pfam	PF00550	Phosphopantetheine attachment site	3	70	1.3E-19	T	20-05-2021	IPR009081	Phosphopantetheine binding ACP domain
+PRISM_8754_375690	1b4a43953787856d57b2abdf985f0c3a	110	Pfam	PF03551	Transcriptional regulator PadR-like family	17	91	6.7E-20	T	20-05-2021	IPR005149	Transcription regulator PadR, N-terminal
+PRISM_7874_203622	4443e8c4909d3baf4f33e4dff889bb25	107	Pfam	PF01371	Trp repressor protein	15	99	8.7E-31	T	20-05-2021	IPR000831	Trp repressor
+PRISM_7904_181322	f90d7943499fa6769dd0c68e6846b296	123	Pfam	PF00392	Bacterial regulatory proteins, gntR family	12	74	7.5E-16	T	20-05-2021	IPR000524	Transcription regulator HTH, GntR
+PRISM_9148_104649	0e6d2b642ba845ab0d2347e36b1103ee	127	Pfam	PF00903	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	8	121	2.5E-11	T	20-05-2021	IPR004360	Glyoxalase/fosfomycin resistance/dioxygenase domain
+PRISM_7948_11565	e4d60b04e0bd506d119de8383c40eca3	115	Pfam	PF02410	Ribosomal silencing factor during starvation	9	104	2.2E-27	T	20-05-2021
+PRISM_8483_61095	968dd1be38babab51b72a43929f2de49	129	Pfam	PF13358	DDE superfamily endonuclease	1	94	6.5E-25	T	20-05-2021	IPR038717	Tc1-like transposase, DDE domain
+PRISM_8847_137996	31edad019e8475ac2ec2a41f2b2cb671	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	1.9E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8784_330595	31edad019e8475ac2ec2a41f2b2cb671	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	1.9E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7870_158413	d17b19fa6052dbde6efc2270243e0b87	91	Pfam	PF04316	Anti-sigma-28 factor, FlgM	32	86	1.8E-17	T	20-05-2021	IPR031316	Anti-sigma-28 factor FlgM, C-terminal
+PRISM_7874_128470	f90664d901a64151b8cae86dbf163628	115	Pfam	PF02410	Ribosomal silencing factor during starvation	9	104	4.9E-27	T	20-05-2021
+PRISM_7904_220682	2fb1df4f3f71b3d235416890f54981ac	50	SignalP_EUK	SignalP-noTM		1	18	-	T	20-05-2021
+PRISM_7150_43064	d0df6b5212b2f511aa16a0369126875a	108	Pfam	PF01527	Transposase	12	89	1.3E-8	T	20-05-2021	IPR002514	Transposase IS3/IS911family
+PRISM_7910_84961	10e23000130be731fce0af1049a86a21	89	Pfam	PF02599	Global regulator protein family	1	45	1.2E-14	T	20-05-2021	IPR003751	Translational regulator CsrA
+PRISM_8283_158425	7d846dc33782bee91b6c46503d4a82dd	87	Pfam	PF13711	Domain of unknown function (DUF4160)	9	73	3.3E-21	T	20-05-2021	IPR025427	Protein of unknown function DUF4160
+PRISM_8774_63220	cd7833381cb8cede06f5bbb2209b7345	102	Pfam	PF01990	ATP synthase (F/14-kDa) subunit	5	94	1.2E-22	T	20-05-2021	IPR008218	ATPase, V1 complex, subunit F
+PRISM_7938_22030	3101ea302eaa2c3a0fc378208e25a560	97	Pfam	PF12844	Helix-turn-helix domain	8	66	2.7E-16	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_7744_65794	b18c7a9c530aa3914d70cdc67be5e16e	132	Pfam	PF01381	Helix-turn-helix	3	52	1.9E-8	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_8758_33661	34a4789d13d037da4c31e7b706a20cc7	119	Pfam	PF01022	Bacterial regulatory protein, arsR family	44	88	9.3E-15	T	20-05-2021	IPR001845	HTH ArsR-type DNA-binding domain
+PRISM_7122_19039	163b9e88d4e9cee363f85f74c829585c	53	Pfam	PF00301	Rubredoxin	3	49	1.5E-24	T	20-05-2021	IPR024935	Rubredoxin domain
+PRISM_8406_76250	e16abcf48dc26bd4ee168be3c5e94632	124	SignalP_EUK	SignalP-noTM		1	19	-	T	20-05-2021
+PRISM_8406_76250	e16abcf48dc26bd4ee168be3c5e94632	124	SignalP_GRAM_POSITIVE	SignalP-TM		1	29	-	T	20-05-2021
+PRISM_8406_76250	e16abcf48dc26bd4ee168be3c5e94632	124	SignalP_GRAM_NEGATIVE	SignalP-noTM		1	21	-	T	20-05-2021
+PRISM_7947_23712	5f41fa604653be4f486457b091ac3ddd	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	3.2E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8783_27058	5f41fa604653be4f486457b091ac3ddd	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	3.2E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8749_27039	93f1afc94ada1139f5d68d6734461f89	88	Pfam	PF09084	NMT1/THI5 like	55	78	1.1E-4	T	20-05-2021	IPR015168	SsuA/THI5-like
+PRISM_8749_27039	93f1afc94ada1139f5d68d6734461f89	88	SignalP_GRAM_NEGATIVE	SignalP-noTM		1	22	-	T	20-05-2021
+PRISM_8749_27039	93f1afc94ada1139f5d68d6734461f89	88	SignalP_GRAM_POSITIVE	SignalP-TM		1	24	-	T	20-05-2021
+PRISM_8749_27039	93f1afc94ada1139f5d68d6734461f89	88	SignalP_EUK	SignalP-noTM		1	22	-	T	20-05-2021
+PRISM_8475_09433	c57cdfc5020f720b6713ce52c12277e1	103	Pfam	PF06949	Protein of unknown function (DUF1292)	24	96	1.2E-16	T	20-05-2021	IPR009711	Uncharacterised protein family UPF0473
+PRISM_8361_101011	2d5f5db018945a1c1918fca0b061a3b8	81	Pfam	PF00886	Ribosomal protein S16	9	67	6.5E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_8794_20417	a932a10569910fd266224a1287344258	117	SignalP_EUK	SignalP-noTM		1	22	-	T	20-05-2021
+PRISM_8794_20417	a932a10569910fd266224a1287344258	117	Pfam	PF00936	BMC domain	4	88	4.8E-20	T	20-05-2021	IPR000249	Microcompartment protein, bacteria
+PRISM_7408_85067	1b320bd030cb5244966ecfdcba0b8382	76	Pfam	PF11823	Protein of unknown function (DUF3343)	8	68	2.1E-20	T	20-05-2021	IPR021778	Domain of unknown function DUF3343
+PRISM_8095_08819	a2e58c70d186d7d19414dad008a70c7a	119	Pfam	PF00933	Glycosyl hydrolase family 3 N terminal domain	10	53	1.2E-5	T	20-05-2021	IPR001764	Glycoside hydrolase, family 3, N-terminal
+PRISM_7759_49956	05c4f14372150ab7b1e1817ae85f6d08	110	Pfam	PF09581	Stage III sporulation protein AF (Spore_III_AF)	13	96	4.9E-14	T	20-05-2021	IPR014245	Sporulation stage III, protein AF
+PRISM_8406_05067	143bc6bed9df6a7dcf61c6d5c8a85d83	55	Pfam	PF16982	Putative Flagellin, Flp1-like, domain	6	54	5.3E-25	T	20-05-2021	IPR031564	Putative Flagellin, Flp1-like domain
+PRISM_8841_91852	67c25bd9b01a514abc91bc28ac0a62f4	135	Pfam	PF01478	Type IV leader peptidase family	4	100	1.1E-5	T	20-05-2021	IPR000045	Prepilin type IV endopeptidase, peptidase domain
+PRISM_7989_28589	79132183a31d3328c450d3f03fa77534	64	Pfam	PF02597	ThiS family	2	64	4.7E-14	T	20-05-2021	IPR003749	Sulfur carrier ThiS/MoaD-like
+PRISM_8774_311109	a7fdb503709fcb8827db3d34af74a05f	92	SignalP_GRAM_NEGATIVE	SignalP-noTM		1	23	-	T	20-05-2021
+PRISM_8774_311109	a7fdb503709fcb8827db3d34af74a05f	92	SignalP_GRAM_POSITIVE	SignalP-TM		1	28	-	T	20-05-2021
+PRISM_8774_311109	a7fdb503709fcb8827db3d34af74a05f	92	SignalP_EUK	SignalP-noTM		1	27	-	T	20-05-2021
+PRISM_8749_86811	3e9e99ef1dbe6c6a97a67f153107eb48	100	Pfam	PF01022	Bacterial regulatory protein, arsR family	16	60	2.6E-12	T	20-05-2021	IPR001845	HTH ArsR-type DNA-binding domain
+PRISM_7911_37353	d4d512ca7a0d3acfd55d79b7ab9675c9	103	Pfam	PF02699	Preprotein translocase subunit	16	93	5.3E-30	T	20-05-2021	IPR003849	Preprotein translocase YajC
+PRISM_7911_73900	845f6e09b640be44375477374e7699b8	120	Pfam	PF00543	Nitrogen regulatory protein P-II	5	107	1.1E-30	T	20-05-2021	IPR002187	Nitrogen regulatory protein PII
+PRISM_8800_184047	34a1bd9406a16b2e72b49cfaa7fdb6f3	76	Pfam	PF11823	Protein of unknown function (DUF3343)	8	66	5.6E-20	T	20-05-2021	IPR021778	Domain of unknown function DUF3343
+PRISM_7150_129752	3a425edaddeec592cfe88218a3fee223	125	Pfam	PF06686	Stage III sporulation protein AC/AD protein family	69	124	2.8E-18	T	20-05-2021	IPR025664	Stage III sporulation protein AC/AD family
+PRISM_7150_129752	3a425edaddeec592cfe88218a3fee223	125	Pfam	PF06686	Stage III sporulation protein AC/AD protein family	1	55	2.7E-12	T	20-05-2021	IPR025664	Stage III sporulation protein AC/AD family
+PRISM_7759_98916	1e6d3af96419344a04aa6bfa7d0f5e1c	116	SignalP_GRAM_POSITIVE	SignalP-TM		1	34	-	T	20-05-2021
+PRISM_7862_154898	1fc59a619d2bb0ecc9db6fcd57b8f8a1	130	Pfam	PF12646	Domain of unknown function (DUF3783)	72	128	2.5E-18	T	20-05-2021	IPR016621	Uncharacterised conserved protein UCP014543
+PRISM_8807_14710	537d47301bad18fe9545c75646df1eb9	101	Pfam	PF05067	Manganese containing catalase	27	78	3.7E-9	T	20-05-2021	IPR007760	Manganese catalase
+PRISM_8764_226415	ad49faf95d20655e3b4b9757d1ec1b8f	134	Pfam	PF13476	AAA domain	25	77	1.5E-6	T	20-05-2021	IPR038729	Rad50/SbcC-type AAA domain
+PRISM_7955_306304	22a29b2904835b1d40338066d1fc1d69	93	Pfam	PF01381	Helix-turn-helix	22	68	2.0E-9	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_8807_108339	7d5126284022b2eb0a93df60fa6f0c3c	100	Pfam	PF02302	PTS system, Lactose/Cellobiose specific IIB subunit	8	96	3.8E-16	T	20-05-2021	IPR003501	Phosphotransferase system, EIIB component, type 2/3
+PRISM_9126_35737	5ec4fd779efc1aee48b165885a26f589	90	Pfam	PF00403	Heavy-metal-associated domain	23	79	2.6E-8	T	20-05-2021	IPR006121	Heavy metal-associated domain, HMA
+PRISM_7870_177625	8c42b599f8cb118c52730405ccb6c984	110	Pfam	PF02036	SCP-2 sterol transfer family	28	105	6.3E-14	T	20-05-2021	IPR003033	SCP2 sterol-binding domain
+PRISM_7759_26574	a6ee4f5055a6881170aa7f3bf3894285	100	SignalP_EUK	SignalP-noTM		1	32	-	T	20-05-2021
+PRISM_7759_26574	a6ee4f5055a6881170aa7f3bf3894285	100	SignalP_GRAM_NEGATIVE	SignalP-noTM		1	32	-	T	20-05-2021
+PRISM_7759_26574	a6ee4f5055a6881170aa7f3bf3894285	100	SignalP_GRAM_POSITIVE	SignalP-TM		1	34	-	T	20-05-2021
+PRISM_8332_306200	fd7801837baaee530b7cba0bec50a67c	122	SignalP_GRAM_POSITIVE	SignalP-TM		1	39	-	T	20-05-2021
+PRISM_7408_190335	9e8b52f9dfacc791625856d20e9762ad	137	Pfam	PF04073	Aminoacyl-tRNA editing domain	37	111	2.5E-10	T	20-05-2021	IPR007214	YbaK/aminoacyl-tRNA synthetase-associated domain
+PRISM_8794_314436	9460b56f2abfe476a7761718743c9982	137	Pfam	PF00571	CBS domain	83	127	3.4E-9	T	20-05-2021	IPR000644	CBS domain
+PRISM_8794_314436	9460b56f2abfe476a7761718743c9982	137	Pfam	PF00571	CBS domain	12	56	2.2E-8	T	20-05-2021	IPR000644	CBS domain
+PRISM_7122_50124	88a7736eecbf4167ecfaebd25867d34c	136	Pfam	PF13782	Stage V sporulation protein AB	27	135	5.1E-37	T	20-05-2021	IPR020144	Stage V sporulation protein AB
+PRISM_7855_120885	72de054808401c1a9452b8cdb8a354bb	126	Pfam	PF00392	Bacterial regulatory proteins, gntR family	14	76	2.1E-14	T	20-05-2021	IPR000524	Transcription regulator HTH, GntR
+PRISM_8534_80165	a020f6c00524317e54de3825922807ab	138	Pfam	PF00401	ATP synthase, Delta/Epsilon chain, long alpha-helix domain	87	132	1.5E-14	T	20-05-2021	IPR020547	ATP synthase delta/epsilon subunit, C-terminal domain
+PRISM_8534_80165	a020f6c00524317e54de3825922807ab	138	Pfam	PF02823	ATP synthase, Delta/Epsilon chain, beta-sandwich domain	6	83	3.0E-18	T	20-05-2021	IPR020546	ATP synthase, F1 complex, delta/epsilon subunit, N-terminal
+PRISM_8534_18228	37a8c4ca48e29f405621d18e9ebd895c	121	Pfam	PF00486	Transcriptional regulatory protein, C terminal	78	104	3.5E-5	T	20-05-2021	IPR001867	OmpR/PhoB-type DNA-binding domain
+PRISM_8534_18228	37a8c4ca48e29f405621d18e9ebd895c	121	Pfam	PF00072	Response regulator receiver domain	3	43	2.6E-6	T	20-05-2021	IPR001789	Signal transduction response regulator, receiver domain
+PRISM_7861_28172	12bd0910a3169c3809101fec3be59500	87	Pfam	PF01649	Ribosomal protein S20	2	84	6.5E-28	T	20-05-2021	IPR002583	Ribosomal protein S20
+PRISM_8794_302257	90b8db14d7177bde345f66d792dc3423	105	Pfam	PF14076	Domain of unknown function (DUF4258)	19	88	7.3E-17	T	20-05-2021	IPR025354	Protein of unknown function DUF4258
+PRISM_7904_03355	0bf7b590771af9c13d78b59349cc08fa	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	3.0E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7238_12082	734e5b2a98310500967dc5a31c246e75	131	Pfam	PF02142	MGS-like domain	28	107	1.4E-12	T	20-05-2021	IPR011607	Methylglyoxal synthase-like domain
+PRISM_8591_24028	6c21af184fb6e0c42ab16715625fc0b5	81	Pfam	PF00886	Ribosomal protein S16	9	67	1.5E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_8794_96682	bc32bca09a337006cc77ae9965432721	118	Pfam	PF00990	Diguanylate cyclase, GGDEF domain	10	113	2.3E-22	T	20-05-2021	IPR000160	GGDEF domain
+PRISM_8841_74196	246fa874c1ef1fac34bc27cb5c0ef9cf	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	1.7E-26	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8226_68398	c276394acbf90d46c2fa9d9be76b380a	76	Pfam	PF00072	Response regulator receiver domain	14	75	1.1E-16	T	20-05-2021	IPR001789	Signal transduction response regulator, receiver domain
+PRISM_9148_07975	414a38eb6b96fdd95467bf3bb98630d0	107	Pfam	PF13302	Acetyltransferase (GNAT) domain	19	91	2.7E-6	T	20-05-2021	IPR000182	GNAT domain
+PRISM_8675_43674	f3dc094f0992d36a9d76fc79221552d8	62	Pfam	PF12728	Helix-turn-helix domain	2	51	2.7E-10	T	20-05-2021
+PRISM_8361_110097	fa477fc7d47125831e49366edc6f6a83	118	Pfam	PF00085	Thioredoxin	18	115	2.9E-26	T	20-05-2021	IPR013766	Thioredoxin domain
+PRISM_8794_122520	3036e4a3eb18693b3dc929af41224890	135	Pfam	PF08780	Nucleotidyltransferase substrate binding protein like	8	128	8.7E-24	T	20-05-2021	IPR010235	Nucleotidyltransferase substrate binding protein, HI0074
+PRISM_7406_03296	d73379a4ae71b62ad90c3003774b7262	115	Pfam	PF00126	Bacterial regulatory helix-turn-helix protein, lysR family	25	82	1.4E-8	T	20-05-2021	IPR000847	Transcription regulator HTH, LysR
+PRISM_8226_54494	c9b9a18b21cc54335b9d94af5e52c86d	98	Pfam	PF01527	Transposase	3	76	2.2E-11	T	20-05-2021	IPR002514	Transposase IS3/IS911family
+PRISM_7874_20607	af477427bc9ffea31a84c1e2b8150b4a	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	6.3E-25	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7238_74755	9d324ca0eb399b40e211ad9810a020f2	123	Pfam	PF02033	Ribosome-binding factor A	8	109	5.0E-31	T	20-05-2021	IPR000238	Ribosome-binding factor A
+PRISM_7855_235607	d6f79bcf0e201da3104e4f343ee6b956	93	Pfam	PF01381	Helix-turn-helix	22	68	3.4E-9	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_7899_240965	25c5cbf017d658287413911003a85492	65	SignalP_GRAM_POSITIVE	SignalP-TM		1	38	-	T	20-05-2021
+PRISM_7153_93536	467986f49c261680be24904329605723	74	Pfam	PF00697	N-(5'phosphoribosyl)anthranilate (PRA) isomerase	30	66	6.6E-8	T	20-05-2021	IPR001240	N-(5'phosphoribosyl) anthranilate isomerase (PRAI)
+PRISM_8764_367302	ad89805d35140eddfbf328dafdaa4a6b	125	Pfam	PF00376	MerR family regulatory protein	2	39	6.6E-17	T	20-05-2021	IPR000551	MerR-type HTH domain
+PRISM_8783_100528	8cbe0909036d35fcc8ab336d8b282362	81	Pfam	PF00886	Ribosomal protein S16	9	67	1.6E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_7662_224588	c99c2caafcf11427bcdf97da030ae888	90	Pfam	PF00216	Bacterial DNA-binding protein	1	90	1.6E-35	T	20-05-2021	IPR000119	Histone-like DNA-binding protein
+PRISM_7909_134197	bd0ecab817563b0107e17edd1dbb3c2e	94	Pfam	PF10387	Protein of unknown function (DUF2442)	8	85	2.5E-16	T	20-05-2021	IPR018841	Protein of unknown function DUF2442
+PRISM_8683_27158	3610ab3400bab1aa23665fb5b89aa4b7	125	SignalP_EUK	SignalP-noTM		1	20	-	T	20-05-2021
+PRISM_7408_62111	60e6645938aac09ec674a75995e0960b	96	Pfam	PF00072	Response regulator receiver domain	6	70	7.6E-17	T	20-05-2021	IPR001789	Signal transduction response regulator, receiver domain
+PRISM_7238_17078	d578122f87f588d39f8c8d7ffd38ee5b	120	Pfam	PF00392	Bacterial regulatory proteins, gntR family	10	71	3.5E-10	T	20-05-2021	IPR000524	Transcription regulator HTH, GntR
+PRISM_8406_67002	87db3235659f2c1e80250c050a9fd059	128	Pfam	PF00460	Flagella basal body rod protein	14	40	2.9E-6	T	20-05-2021	IPR001444	Flagellar basal body rod protein, N-terminal
+PRISM_7955_103289	4cf86a0b2a67f4f06e253bfe25d3e680	114	Pfam	PF07751	Abi-like protein	4	71	4.9E-7	T	20-05-2021	IPR011664	Abortive infection system protein AbiD/AbiF-like
+PRISM_8783_174842	80932a2957e7e95a2e4564d8d5f54427	81	Pfam	PF00886	Ribosomal protein S16	9	67	2.6E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_8776_02463	7a007b998be283b034b0b2e794f30017	72	Pfam	PF08533	Beta-galactosidase C-terminal domain	12	68	1.6E-13	T	20-05-2021	IPR013739	Beta-galactosidase C-terminal
+PRISM_7955_186322	35658649d6078fbe83a9d31eae6e5c5a	121	Pfam	PF02537	CrcB-like protein, Camphor Resistance (CrcB)	4	113	1.8E-22	T	20-05-2021	IPR003691	Putative fluoride ion transporter CrcB
+PRISM_7874_117284	2c84af6712c0cf766001930505ec3058	124	SignalP_GRAM_POSITIVE	SignalP-TM		1	34	-	T	20-05-2021
+PRISM_7874_117284	2c84af6712c0cf766001930505ec3058	124	SignalP_EUK	SignalP-TM		1	23	-	T	20-05-2021
+PRISM_7238_51173	f5dd84b59080d823e8b0b15e759b53eb	80	Pfam	PF12637	TSCPD domain	3	75	9.6E-37	T	20-05-2021	IPR024434	TSCPD domain
+PRISM_7911_33412	5d8299a56ed4bf2376848890f7212dfa	106	Pfam	PF04993	TfoX N-terminal domain	14	65	7.4E-7	T	20-05-2021	IPR007076	TfoX, N-terminal
+PRISM_8534_27770	e3502eb658eca18b0b03e0eea72da7e9	114	Pfam	PF05067	Manganese containing catalase	2	110	1.6E-26	T	20-05-2021	IPR007760	Manganese catalase
+PRISM_7908_141263	ed2b972531a10efe800467c6d33208b8	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	5.6E-28	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8374_49050	171760ea152740a4bd48fc79c833d392	101	Pfam	PF13683	Integrase core domain	24	86	2.2E-11	T	20-05-2021	IPR001584	Integrase, catalytic core
+PRISM_7870_01708	5f3276bdc5a949b5cda0c625961ce03f	101	Pfam	PF01381	Helix-turn-helix	43	84	3.0E-6	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_7153_99052	ceff5db4aec4a6a2668b2fb5475e4d21	48	SignalP_EUK	SignalP-noTM		1	29	-	T	20-05-2021
+PRISM_7955_296268	cff9c677858f78974e30bf4326b8b687	69	Pfam	PF04023	FeoA domain	1	69	6.2E-15	T	20-05-2021	IPR007167	Ferrous iron transporter FeoA domain
+PRISM_8754_610827	e593d1ee95f1a489480645b5a9b653ee	124	Pfam	PF03780	Asp23 family, cell envelope-related function	15	119	2.8E-33	T	20-05-2021	IPR005531	Alkaline shock protein Asp23
+PRISM_8361_124594	7020fbb4e5a42436d11fe5e03e6f1214	106	Pfam	PF02255	PTS system, Lactose/Cellobiose specific IIA subunit	7	99	3.7E-33	T	20-05-2021	IPR003188	Phosphotransferase system, lactose/cellobiose-type IIA subunit
+PRISM_8467_114841	61a60a3f75647547f58acef2449fe3c8	120	Pfam	PF06296	RelE toxin of RelE / RelB toxin-antitoxin system	46	109	6.8E-8	T	20-05-2021	IPR009387	Toxin HigB-2
+PRISM_7238_55587	c10a80be77efd5a328d5a6a987685923	103	Pfam	PF00085	Thioredoxin	4	100	3.4E-25	T	20-05-2021	IPR013766	Thioredoxin domain
+PRISM_8683_00080	59e09a0a45ee6fb4921da98690c4616d	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	1.7E-26	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8784_73764	a2e00569704fe5da36f668edd776b51f	69	SignalP_GRAM_POSITIVE	SignalP-TM		1	24	-	T	20-05-2021
+PRISM_8784_73764	a2e00569704fe5da36f668edd776b51f	69	SignalP_EUK	SignalP-noTM		1	24	-	T	20-05-2021
+PRISM_8374_19313	59240abb68268129e0d42e8d17e4dca1	132	Pfam	PF00392	Bacterial regulatory proteins, gntR family	14	76	1.7E-13	T	20-05-2021	IPR000524	Transcription regulator HTH, GntR
+PRISM_8776_161211	4ae0add471a45a43fc64968012ef0f33	77	Pfam	PF00550	Phosphopantetheine attachment site	4	71	8.9E-14	T	20-05-2021	IPR009081	Phosphopantetheine binding ACP domain
+PRISM_7791_72061	15641848420ad1e0bbe34b07970c2ce3	105	Pfam	PF00581	Rhodanese-like domain	10	93	5.5E-10	T	20-05-2021	IPR001763	Rhodanese-like domain
+PRISM_7989_23754	648eb05a9cc1189d27e5dc1384431233	80	Pfam	PF12637	TSCPD domain	3	75	7.3E-37	T	20-05-2021	IPR024434	TSCPD domain
+PRISM_7238_03334	9cd7f86eb75328149a487f0071ad75dd	89	Pfam	PF02699	Preprotein translocase subunit	5	82	5.5E-26	T	20-05-2021	IPR003849	Preprotein translocase YajC
+PRISM_7862_165189	5c69b51d945f9a9e8dd2edbc71bf9105	135	Pfam	PF13470	PIN domain	4	116	7.9E-14	T	20-05-2021	IPR002716	PIN domain
+PRISM_8765_551894	34d46245551a8720fb3be6152d5c5788	123	Pfam	PF00392	Bacterial regulatory proteins, gntR family	14	76	3.8E-16	T	20-05-2021	IPR000524	Transcription regulator HTH, GntR
+PRISM_9126_111168	61a4b8a41b1fa6eb103820ed02211c21	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	2.9E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7238_61636	340928f9ee3b791540c20e77c48f1119	102	Pfam	PF04026	SpoVG	11	92	1.6E-37	T	20-05-2021	IPR007170	Stage V sporulation protein G
+PRISM_8406_76140	c264713cc464f92080f53fb491c79895	111	Pfam	PF01895	PhoU domain	21	103	2.0E-4	T	20-05-2021	IPR026022	PhoU domain
+PRISM_8754_522969	e6d84fc518dad7eb2dd02aae351be2fb	126	SignalP_GRAM_POSITIVE	SignalP-TM		1	23	-	T	20-05-2021
+PRISM_8754_522969	e6d84fc518dad7eb2dd02aae351be2fb	126	SignalP_EUK	SignalP-TM		1	18	-	T	20-05-2021
+PRISM_8466_130708	b772e5b323f9c609298cd11ba2e91a0a	92	Pfam	PF00403	Heavy-metal-associated domain	25	81	4.2E-8	T	20-05-2021	IPR006121	Heavy metal-associated domain, HMA
+PRISM_8749_60336	6ce7c4fa0b40023283c20c98d53a536a	99	Pfam	PF05016	ParE toxin of type II toxin-antitoxin system, parDE	5	93	2.8E-11	T	20-05-2021	IPR007712	Toxin-antitoxin system, RelE/ParE toxin family
+PRISM_7948_146589	3ed7097a39883f6815293fabab920dba	110	Pfam	PF07883	Cupin domain	42	107	2.4E-12	T	20-05-2021	IPR013096	Cupin 2, conserved barrel
+PRISM_7955_198500	d05cbedaeaeafcc90714ab392d9092ef	96	Pfam	PF01371	Trp repressor protein	9	93	7.3E-32	T	20-05-2021	IPR000831	Trp repressor
+PRISM_7238_61347	5026d0b24ea0695c5fee4a7e736f0973	111	Pfam	PF00825	Ribonuclease P	1	103	1.7E-29	T	20-05-2021	IPR000100	Ribonuclease P
+PRISM_8361_59804	0d41e2c459ab33039a03bc51ca0b217c	84	Pfam	PF11823	Protein of unknown function (DUF3343)	13	80	4.9E-17	T	20-05-2021	IPR021778	Domain of unknown function DUF3343
+PRISM_8776_277608	41aab000e51c3006f260b6da142abc30	122	Pfam	PF00392	Bacterial regulatory proteins, gntR family	12	74	7.4E-16	T	20-05-2021	IPR000524	Transcription regulator HTH, GntR
+PRISM_7911_59500	6f162415f1b2de080b2140ad6aa11ec5	104	Pfam	PF03551	Transcriptional regulator PadR-like family	14	82	1.1E-18	T	20-05-2021	IPR005149	Transcription regulator PadR, N-terminal
+PRISM_8483_92039	ffbb6657a488404ae80d82ac8310f00c	81	Pfam	PF00886	Ribosomal protein S16	9	67	9.0E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_8800_162888	f2bc449d19dd312f549fcdc3b1a56199	88	Pfam	PF00381	PTS HPr component phosphorylation site	4	83	5.6E-26	T	20-05-2021	IPR000032	Phosphocarrier protein HPr-like
+PRISM_7122_66999	b72e7352c8cb814316d744e548ab0c31	92	Pfam	PF04296	Protein of unknown function (DUF448)	10	84	4.1E-31	T	20-05-2021	IPR007393	Domain of unknown function DUF448
+PRISM_8589_06020	2e59964c11b6aaf5729da67bcd1e1bf3	110	Pfam	PF07883	Cupin domain	42	107	1.4E-11	T	20-05-2021	IPR013096	Cupin 2, conserved barrel
+PRISM_8226_66857	65b0d0902aa50ee3e6eded04d8588ff8	54	Pfam	PF01381	Helix-turn-helix	17	50	6.7E-10	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_7445_75325	ab56fb9d65d2fcffb9c23576a13d1ebb	81	Pfam	PF00886	Ribosomal protein S16	9	67	3.6E-28	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_8847_145748	77123bece60466349e23655a99040831	106	Pfam	PF02255	PTS system, Lactose/Cellobiose specific IIA subunit	7	99	6.0E-32	T	20-05-2021	IPR003188	Phosphotransferase system, lactose/cellobiose-type IIA subunit
+PRISM_7870_03640	3ec03e4e748cf8a6b84e11488fe2bf57	127	Pfam	PF03788	LrgA family	15	106	1.5E-28	T	20-05-2021	IPR005538	LrgA/CidA family
+PRISM_8483_15347	22c087105dd30939d41d651483f6c3e8	110	Pfam	PF07883	Cupin domain	42	107	6.7E-12	T	20-05-2021	IPR013096	Cupin 2, conserved barrel
+PRISM_7421_30505	099afc90bd448d8cd2ab47c8a17146d9	123	Pfam	PF14433	SUKH-3 immunity protein	8	113	2.7E-7	T	20-05-2021	IPR025850	SUKH-3 immunity protein
+PRISM_8776_174569	0a36781ce936fafecd13ede3382cf1c5	53	Pfam	PF14501	GHKL domain	15	53	6.5E-6	T	20-05-2021	IPR032834	Sensor histidine kinase NatK, C-terminal domain
+PRISM_7662_74946	9e13774ef91a980f8456703777aaf8f1	82	Pfam	PF12728	Helix-turn-helix domain	29	78	7.2E-7	T	20-05-2021
+PRISM_8764_36841	ae0f1e5e0bf5fc142ccd83686c99c2fa	81	Pfam	PF00886	Ribosomal protein S16	9	67	1.2E-27	T	20-05-2021	IPR000307	Ribosomal protein S16
+PRISM_7238_59958	acd5e166e0d0047dc2dccd57a22f7a36	99	Pfam	PF00936	BMC domain	9	85	2.3E-17	T	20-05-2021	IPR000249	Microcompartment protein, bacteria
+PRISM_7955_43803	8566ac3965349b3af1abe1a824264764	104	Pfam	PF01248	Ribosomal protein L7Ae/L30e/S12e/Gadd45 family	5	89	5.4E-13	T	20-05-2021	IPR004038	Ribosomal protein L7Ae/L30e/S12e/Gadd45
+PRISM_7908_103074	029b1cda3f3431bb73913eece310718f	108	Pfam	PF13828	Domain of unknown function (DUF4190)	31	91	3.7E-10	T	20-05-2021	IPR025241	Domain of unknown function DUF4190
+PRISM_7408_234758	11618c618191c51817f40f953c560bf9	113	Pfam	PF07238	PilZ domain	3	103	5.4E-9	T	20-05-2021	IPR009875	PilZ domain
+PRISM_8406_103739	31c4920de48e55d416c69dbb6cc1f1be	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	7.0E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7862_168117	69edf445ab5f30b82966f7fb5a82f0cb	105	Pfam	PF07561	Domain of Unknown Function (DUF1540)	5	42	3.4E-9	T	20-05-2021	IPR011437	Domain of unknown function DUF1540
+PRISM_7862_168117	69edf445ab5f30b82966f7fb5a82f0cb	105	Pfam	PF07561	Domain of Unknown Function (DUF1540)	63	101	4.5E-7	T	20-05-2021	IPR011437	Domain of unknown function DUF1540
+PRISM_7910_212965	1c16fdaa9314319b98d800d29450ead0	131	Pfam	PF01029	NusB family	5	130	7.8E-39	T	20-05-2021	IPR006027	NusB/RsmB/TIM44
+PRISM_7908_109356	13b0897c7c0c6cbdcb79a13034af9d81	71	Pfam	PF02604	Antitoxin Phd_YefM, type II toxin-antitoxin system	2	38	3.3E-6	T	20-05-2021	IPR006442	Type II toxin-antitoxin system, antitoxin Phd/YefM
+PRISM_7955_348118	57873a30a2c675413483a2c63636a5c6	77	Pfam	PF00550	Phosphopantetheine attachment site	3	70	1.6E-19	T	20-05-2021	IPR009081	Phosphopantetheine binding ACP domain
+PRISM_8467_87648	edf7d010a5a452603c8254014e7f3e5a	99	Pfam	PF05016	ParE toxin of type II toxin-antitoxin system, parDE	5	93	2.4E-12	T	20-05-2021	IPR007712	Toxin-antitoxin system, RelE/ParE toxin family
+PRISM_8807_92820	526fc6e16909da34f8f715094dbe3de4	65	Pfam	PF01797	Transposase IS200 like	1	64	2.7E-14	T	20-05-2021	IPR002686	Transposase IS200-like
+PRISM_8406_111493	8284eb5d7946336b4e60829867ea7808	99	Pfam	PF00936	BMC domain	9	85	1.8E-17	T	20-05-2021	IPR000249	Microcompartment protein, bacteria
+PRISM_8784_227697	402bf982cf49d00f42538af57b405ffe	69	Pfam	PF14384	BrnA antitoxin of type II toxin-antitoxin system	11	56	2.5E-7	T	20-05-2021	IPR025528	BrnA antitoxin of type II toxin-antitoxin system
+PRISM_7911_47875	73367edb151de60f2f51ef4a13fcc69f	63	Pfam	PF13370	4Fe-4S single cluster domain of Ferredoxin I	6	60	9.9E-16	T	20-05-2021
+PRISM_7238_37078	0da885fe750837d1413b916aea7b9d26	137	Pfam	PF00571	CBS domain	83	127	4.0E-9	T	20-05-2021	IPR000644	CBS domain
+PRISM_7238_37078	0da885fe750837d1413b916aea7b9d26	137	Pfam	PF00571	CBS domain	12	56	2.6E-8	T	20-05-2021	IPR000644	CBS domain
+PRISM_7955_01133	99d0b80e3992e8cbc31d2e71b190f522	102	Pfam	PF05437	Branched-chain amino acid transport protein (AzlD)	7	97	1.2E-12	T	20-05-2021	IPR008407	Branched-chain amino acid transport, AzlD
+PRISM_8550_91221	d50514bf86f246f138425c854fef583b	85	Pfam	PF01797	Transposase IS200 like	11	74	1.7E-18	T	20-05-2021	IPR002686	Transposase IS200-like
+PRISM_7909_261605	cd3c25f16f940f7b2fdea9f4e3b7a996	60	Pfam	PF00327	Ribosomal protein L30p/L7e	5	55	1.2E-17	T	20-05-2021	IPR016082	Ribosomal protein L30, ferredoxin-like fold domain
+PRISM_7150_232744	575d0bdf61c0b0c5c36c88a8390a19ce	110	Pfam	PF04647	Accessory gene regulator B	7	97	1.6E-20	T	20-05-2021	IPR006741	Accessory gene regulator B
+PRISM_8244_06486	c6d88b3d80b27de2ec102f2a3e1efc74	97	Pfam	PF01527	Transposase	1	78	4.6E-9	T	20-05-2021	IPR002514	Transposase IS3/IS911family
+PRISM_8841_164236	32d186304a8e3785b2da5386ae91311b	118	Pfam	PF00375	Sodium:dicarboxylate symporter family	16	88	3.4E-19	T	20-05-2021	IPR001991	Sodium:dicarboxylate symporter
+PRISM_8753_17027	b301c7bb8e9f59422867fbcd36f6f09c	72	Pfam	PF00589	Phage integrase family	11	48	2.1E-9	T	20-05-2021	IPR002104	Integrase, catalytic domain
+PRISM_8683_118138	e78800503ecc2047482b331063c8fc29	67	Pfam	PF01381	Helix-turn-helix	6	60	2.6E-15	T	20-05-2021	IPR001387	Cro/C1-type helix-turn-helix domain
+PRISM_7860_152584	bdf59e49d5a5166e915622434a83867e	56	Pfam	PF12669	Virus attachment protein p12 family	5	46	6.5E-10	T	20-05-2021
+PRISM_7860_152584	bdf59e49d5a5166e915622434a83867e	56	SignalP_EUK	SignalP-noTM		1	21	-	T	20-05-2021
+PRISM_7238_36743	65d8f636f337ca1b8dc654cc1dacb09a	122	Pfam	PF00903	Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily	5	118	3.6E-10	T	20-05-2021	IPR004360	Glyoxalase/fosfomycin resistance/dioxygenase domain
+PRISM_8765_389169	d19b80bea3dd4331c3ba267c689b6eb7	117	Pfam	PF01627	Hpt domain	42	113	2.6E-9	T	20-05-2021	IPR008207	Signal transduction histidine kinase, phosphotransfer (Hpt) domain
+PRISM_8226_15040	0161719a785107a71d32fdd56f696d0e	85	Pfam	PF00381	PTS HPr component phosphorylation site	3	82	1.1E-29	T	20-05-2021	IPR000032	Phosphocarrier protein HPr-like
+PRISM_8226_67246	a5313fd221a98302390e5cbc22e5254c	127	Pfam	PF08241	Methyltransferase domain	40	89	1.8E-5	T	20-05-2021	IPR013216	Methyltransferase type 11
+PRISM_7759_73053	cec198b222cf030e2c3ac3bb92af25a7	131	Pfam	PF02561	Flagellar protein FliS	7	119	5.4E-40	T	20-05-2021	IPR003713	Flagellar protein FliS
+PRISM_8462_154221	22d086b3f8f1e49fc1a95156a58cae68	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	1.0E-27	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_7153_56046	79873a3077a8289c11dc7be17686fa84	106	Pfam	PF01527	Transposase	2	78	7.2E-11	T	20-05-2021	IPR002514	Transposase IS3/IS911family
+PRISM_8892_41476	5d2ae5389192a42b7832c44763c6d5e0	111	Pfam	PF00825	Ribonuclease P	1	103	7.8E-30	T	20-05-2021	IPR000100	Ribonuclease P
+PRISM_7408_227807	0a3cb26f4da280723316474345400b48	113	Pfam	PF00581	Rhodanese-like domain	31	107	1.2E-14	T	20-05-2021	IPR001763	Rhodanese-like domain
+PRISM_9126_63967	ec5a2a732217fffcbe896c8196caf435	65	Pfam	PF00269	Small, acid-soluble spore proteins, alpha/beta type	7	64	1.3E-26	T	20-05-2021	IPR001448	Small acid-soluble spore protein, alpha/beta-type
+PRISM_8462_145988	c32e03f9f6169c85cfca29d629ecb68a	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	1.7E-26	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8841_36945	12e2a4e61965357ea932ad4aa7fb6c2d	128	Pfam	PF07892	Protein of unknown function (DUF1667)	35	115	3.6E-34	T	20-05-2021	IPR012460	Protein of unknown function DUF1667
+PRISM_7421_12221	8eda34645d1025f3096f5af903e3d5d2	100	Pfam	PF02302	PTS system, Lactose/Cellobiose specific IIB subunit	8	96	4.7E-16	T	20-05-2021	IPR003501	Phosphotransferase system, EIIB component, type 2/3
+PRISM_7847_39331	7d00379eae390b8de3012d39c09795b0	70	Pfam	PF04023	FeoA domain	2	70	4.8E-15	T	20-05-2021	IPR007167	Ferrous iron transporter FeoA domain
+PRISM_7910_97769	4daf99ebf2081898fdf99780c1933361	72	Pfam	PF01176	Translation initiation factor 1A / IF-1	7	70	9.8E-28	T	20-05-2021	IPR006196	RNA-binding domain, S1, IF1 type
+PRISM_8374_49051	8f2af2a2d6bfc0e565cfb764fe5bc436	120	Pfam	PF04463	Protein of unknown function (DUF523)	3	116	6.7E-28	T	20-05-2021	IPR007553	Domain of unknown function DUF523
+PRISM_7948_45515	2a2827ccb0f56d1a828009bb88dca456	45	Pfam	PF12669	Virus attachment protein p12 family	3	45	3.6E-14	T	20-05-2021
+PRISM_8377_36165	b78cdfeff412b0cfd1649f8066b757cc	92	Pfam	PF04296	Protein of unknown function (DUF448)	10	84	2.9E-31	T	20-05-2021	IPR007393	Domain of unknown function DUF448
+PRISM_8800_165334	e98df142f150593e1712a7ae3078a10a	94	Pfam	PF00936	BMC domain	6	78	4.6E-22	T	20-05-2021	IPR000249	Microcompartment protein, bacteria
+PRISM_8847_349699	9e765767b3da268ca775722de26370c6	69	Pfam	PF00005	ABC transporter	21	53	1.0E-8	T	20-05-2021	IPR003439	ABC transporter-like
+PRISM_7153_105309	bd75890af23a107f98798b9371cdd0cb	90	Pfam	PF00216	Bacterial DNA-binding protein	1	90	9.9E-36	T	20-05-2021	IPR000119	Histone-like DNA-binding protein
+PRISM_9148_140112	46983a7bbbfa0b899423baa6a38e35c3	99	Pfam	PF13673	Acetyltransferase (GNAT) domain	7	89	4.1E-12	T	20-05-2021	IPR000182	GNAT domain
+PRISM_7911_73687	995d576e138835722e2062d6cc350d15	120	Pfam	PF00392	Bacterial regulatory proteins, gntR family	10	72	6.1E-11	T	20-05-2021	IPR000524	Transcription regulator HTH, GntR
+PRISM_7911_124662	a15fdded3ba1c90ac622f6f6b40d8bb5	112	Pfam	PF07561	Domain of Unknown Function (DUF1540)	71	109	1.5E-7	T	20-05-2021	IPR011437	Domain of unknown function DUF1540
+PRISM_7911_124662	a15fdded3ba1c90ac622f6f6b40d8bb5	112	Pfam	PF07561	Domain of Unknown Function (DUF1540)	5	42	2.2E-11	T	20-05-2021	IPR011437	Domain of unknown function DUF1540
+PRISM_8892_69873	4d836c4ec9e3233cf4dcf961b8e92627	124	Pfam	PF10694	Protein of unknown function (DUF2500)	10	121	4.3E-39	T	20-05-2021	IPR019635	Protein of unknown function DUF2500

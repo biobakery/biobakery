@@ -1,0 +1,8 @@
+05/20/2021 10:42:43 PM - metawibele.config - INFO: ### Start interproscan_phobius_protein_family step ####
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Get info ......starting
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Get info ......done
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Get phobius info ......starting
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Get phobius info ......done
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Output signaling and transmembrane summary info ......starting
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Output signaling and transmembrane summary info ......done
+05/20/2021 10:42:43 PM - metawibele.config - INFO: ### Finish interproscan_phobius_protein_family step ####

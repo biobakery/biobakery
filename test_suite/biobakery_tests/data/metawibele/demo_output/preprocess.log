@@ -1,0 +1,85 @@
+(May 20 22:40:05) [ 1/28 -   3.57%] **Started  ** Task 13: sample1__prodigal
+(May 20 22:40:07) [ 5/28 -  17.86%] **Started  ** Task 18: ln__sample1.faa
+(May 20 22:40:08) [ 9/28 -  32.14%] **Started  ** Task 14: ln__sample2.faa
+(May 20 22:40:09) [13/28 -  46.43%] **Started  ** Task 22: format_protein_sequences
+(May 20 22:40:11) [18/28 -  64.29%] **Started  ** Task 28: extract_complete_ORF_seq
+(May 20 22:40:13) [21/28 -  75.00%] **Started  ** Task 37: gene_abundance_indexRef
+(May 20 22:40:20) [26/28 -  92.86%] **Started  ** Task 42: ln__sample2.sort.bed
+(May 20 22:40:05) [ 1/28 -   3.57%] **Started  ** Task  8: ln__sample1.contigs.fa
+(May 20 22:40:06) [ 3/28 -  10.71%] **Started  ** Task  9: format_contig_table
+(May 20 22:40:10) [16/28 -  57.14%] **Started  ** Task 30: extract_complete_ORF_seq
+(May 20 22:40:12) [20/28 -  71.43%] **Started  ** Task 33: extract_cluster_CD-hit
+(May 20 22:40:15) [23/28 -  82.14%] **Started  ** Task 41: sample1__gene_abundance
+(May 20 22:40:20) [27/28 -  96.43%] **Started  ** Task 44: gene_catalog_abundance
+(May 20 22:38:29) [ 0/28 -   0.00%] **Started  ** Task  0: sample2__megahit
+(May 20 22:40:07) [ 5/28 -  17.86%] **Started  ** Task 11: sample2__prodigal
+(May 20 22:40:08) [ 9/28 -  32.14%] **Started  ** Task 16: ln__sample2.faa
+(May 20 22:40:10) [15/28 -  53.57%] **Started  ** Task 24: usearch__sorting
+(May 20 22:40:12) [19/28 -  67.86%] **Started  ** Task 31: cd-hit-est
+(May 20 22:40:15) [23/28 -  82.14%] **Started  ** Task 39: sample2__gene_abundance
+(May 20 22:38:29) [ 0/28 -   0.00%] **Started  ** Task  4: sample1__megahit
+(May 20 22:40:06) [ 3/28 -  10.71%] **Started  ** Task  7: ln__sample2.contigs.fa
+(May 20 22:40:07) [ 5/28 -  17.86%] **Started  ** Task 17: ln__sample1.faa
+(May 20 22:40:07) [ 5/28 -  17.86%] **Started  ** Task 19: ln__sample1.faa
+(May 20 22:40:08) [ 9/28 -  32.14%] **Started  ** Task 15: ln__sample2.faa
+(May 20 22:40:08) [11/28 -  39.29%] **Started  ** Task 20: combine_gene_sequences
+(May 20 22:40:10) [16/28 -  57.14%] **Started  ** Task 26: extract_protein_coding_genes
+(May 20 22:40:13) [20/28 -  71.43%] **Started  ** Task 35: extract_non_redundance_seq
+(May 20 22:40:20) [24/28 -  85.71%] **Started  ** Task 43: ln__sample1.sort.bed
+(May 20 22:38:29) [ 0/28 -   0.00%] **Ready    ** Task  4: sample1__megahit
+(May 20 22:38:29) [ 0/28 -   0.00%] **Ready    ** Task  0: sample2__megahit
+(May 20 22:40:05) [ 1/28 -   3.57%] **Completed** Task  4: sample1__megahit
+(May 20 22:40:05) [ 1/28 -   3.57%] **Ready    ** Task  8: ln__sample1.contigs.fa
+(May 20 22:40:05) [ 1/28 -   3.57%] **Ready    ** Task 13: sample1__prodigal
+(May 20 22:40:05) [ 2/28 -   7.14%] **Completed** Task  8: ln__sample1.contigs.fa
+(May 20 22:40:06) [ 3/28 -  10.71%] **Completed** Task  0: sample2__megahit
+(May 20 22:40:06) [ 3/28 -  10.71%] **Ready    ** Task  7: ln__sample2.contigs.fa
+(May 20 22:40:06) [ 3/28 -  10.71%] **Ready    ** Task  9: format_contig_table
+(May 20 22:40:06) [ 3/28 -  10.71%] **Ready    ** Task 11: sample2__prodigal
+(May 20 22:40:06) [ 4/28 -  14.29%] **Completed** Task  7: ln__sample2.contigs.fa
+(May 20 22:40:06) [ 5/28 -  17.86%] **Completed** Task 13: sample1__prodigal
+(May 20 22:40:06) [ 5/28 -  17.86%] **Ready    ** Task 17: ln__sample1.faa
+(May 20 22:40:06) [ 5/28 -  17.86%] **Ready    ** Task 18: ln__sample1.faa
+(May 20 22:40:06) [ 5/28 -  17.86%] **Ready    ** Task 19: ln__sample1.faa
+(May 20 22:40:07) [ 6/28 -  21.43%] **Completed** Task 17: ln__sample1.faa
+(May 20 22:40:07) [ 7/28 -  25.00%] **Completed** Task 18: ln__sample1.faa
+(May 20 22:40:07) [ 8/28 -  28.57%] **Completed** Task 19: ln__sample1.faa
+(May 20 22:40:08) [ 9/28 -  32.14%] **Completed** Task 11: sample2__prodigal
+(May 20 22:40:08) [ 9/28 -  32.14%] **Ready    ** Task 14: ln__sample2.faa
+(May 20 22:40:08) [ 9/28 -  32.14%] **Ready    ** Task 15: ln__sample2.faa
+(May 20 22:40:08) [ 9/28 -  32.14%] **Ready    ** Task 16: ln__sample2.faa
+(May 20 22:40:08) [10/28 -  35.71%] **Completed** Task 15: ln__sample2.faa
+(May 20 22:40:08) [10/28 -  35.71%] **Ready    ** Task 20: combine_gene_sequences
+(May 20 22:40:08) [11/28 -  39.29%] **Completed** Task 14: ln__sample2.faa
+(May 20 22:40:08) [11/28 -  39.29%] **Ready    ** Task 22: format_protein_sequences
+(May 20 22:40:08) [12/28 -  42.86%] **Completed** Task 16: ln__sample2.faa
+(May 20 22:40:08) [13/28 -  46.43%] **Completed** Task  9: format_contig_table
+(May 20 22:40:10) [14/28 -  50.00%] **Completed** Task 20: combine_gene_sequences
+(May 20 22:40:10) [15/28 -  53.57%] **Completed** Task 22: format_protein_sequences
+(May 20 22:40:10) [15/28 -  53.57%] **Ready    ** Task 24: usearch__sorting
+(May 20 22:40:10) [16/28 -  57.14%] **Completed** Task 24: usearch__sorting
+(May 20 22:40:10) [16/28 -  57.14%] **Ready    ** Task 30: extract_complete_ORF_seq
+(May 20 22:40:10) [16/28 -  57.14%] **Ready    ** Task 26: extract_protein_coding_genes
+(May 20 22:40:11) [17/28 -  60.71%] **Completed** Task 30: extract_complete_ORF_seq
+(May 20 22:40:11) [18/28 -  64.29%] **Completed** Task 26: extract_protein_coding_genes
+(May 20 22:40:11) [18/28 -  64.29%] **Ready    ** Task 28: extract_complete_ORF_seq
+(May 20 22:40:12) [19/28 -  67.86%] **Completed** Task 28: extract_complete_ORF_seq
+(May 20 22:40:12) [19/28 -  67.86%] **Ready    ** Task 31: cd-hit-est
+(May 20 22:40:12) [20/28 -  71.43%] **Completed** Task 31: cd-hit-est
+(May 20 22:40:12) [20/28 -  71.43%] **Ready    ** Task 33: extract_cluster_CD-hit
+(May 20 22:40:12) [20/28 -  71.43%] **Ready    ** Task 35: extract_non_redundance_seq
+(May 20 22:40:12) [20/28 -  71.43%] **Ready    ** Task 37: gene_abundance_indexRef
+(May 20 22:40:13) [21/28 -  75.00%] **Completed** Task 33: extract_cluster_CD-hit
+(May 20 22:40:14) [22/28 -  78.57%] **Completed** Task 35: extract_non_redundance_seq
+(May 20 22:40:15) [23/28 -  82.14%] **Completed** Task 37: gene_abundance_indexRef
+(May 20 22:40:15) [23/28 -  82.14%] **Ready    ** Task 39: sample2__gene_abundance
+(May 20 22:40:15) [23/28 -  82.14%] **Ready    ** Task 41: sample1__gene_abundance
+(May 20 22:40:20) [24/28 -  85.71%] **Completed** Task 41: sample1__gene_abundance
+(May 20 22:40:20) [24/28 -  85.71%] **Ready    ** Task 43: ln__sample1.sort.bed
+(May 20 22:40:20) [25/28 -  89.29%] **Completed** Task 43: ln__sample1.sort.bed
+(May 20 22:40:20) [26/28 -  92.86%] **Completed** Task 39: sample2__gene_abundance
+(May 20 22:40:20) [26/28 -  92.86%] **Ready    ** Task 42: ln__sample2.sort.bed
+(May 20 22:40:20) [27/28 -  96.43%] **Completed** Task 42: ln__sample2.sort.bed
+(May 20 22:40:20) [27/28 -  96.43%] **Ready    ** Task 44: gene_catalog_abundance
+(May 20 22:40:21) [28/28 - 100.00%] **Completed** Task 44: gene_catalog_abundance
+Run Finished

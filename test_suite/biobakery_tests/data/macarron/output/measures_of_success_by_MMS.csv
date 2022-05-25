@@ -1,0 +1,7 @@
+"MMS","total modules","singletons","% annotated modules","% characterizable features","% successful classifications","Max classes/module","90p classes/module","Max subclasses/module","90p subclasses/module"
+5,71,8,7.04,8.86,100,1,0,1,0
+10,30,8,16.67,12.08,100,1,1,1,1
+15,21,8,23.81,16.23,100,1,1,1,1
+20,14,33,35.71,19.33,100,1,1,1,1
+25,13,33,38.46,19.33,100,1,1,1,1
+30,11,35,36.36,30.03,100,2,1,2,1

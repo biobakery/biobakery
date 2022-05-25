@@ -1,0 +1,539 @@
+seqID	Pfam	Description	InterPro	Evalue
+PRISM_7662_183328	PF13304	ATPase, AAA-type, core	IPR003959	2.6E-42
+PRISM_8765_551856	PF07179	SseB protein N-terminal domain	IPR009839	1.4E-14
+PRISM_7911_02891	PF02272	DHHA1 domain	IPR003156	1.5E-12
+PRISM_7911_02891	PF01368	DDH domain	IPR001667	1.2E-16
+PRISM_7938_86973	PF01966	HD domain	IPR006674	2.3E-8
+PRISM_7870_24288	PF00871	Aliphatic acid kinase, short-chain	IPR000890	2.2E-158
+PRISM_8537_19815	PF12784	PD-(D/E)XK nuclease family transposase	NA	4.4E-48
+PRISM_7445_14246	PF13673	GNAT domain	IPR000182	4.5E-17
+PRISM_7445_14246	PF00814	Gcp-like domain	IPR000905	5.4E-31
+PRISM_8776_372369	PF00766	Electron transfer flavoprotein, alpha subunit, C-terminal	IPR014731	4.2E-35
+PRISM_8776_372369	PF01012	Electron transfer flavoprotein, alpha/beta-subunit, N-terminal	IPR014730	5.7E-49
+PRISM_7909_272775	PF01522	NodB homology domain	IPR002509	8.9E-26
+PRISM_8624_03149	PF01408	Oxidoreductase, N-terminal	IPR000683	1.5E-28
+PRISM_8624_03149	PF02894	Oxidoreductase, C-terminal	IPR004104	3.0E-7
+PRISM_8095_47580	PF00480	ROK family	IPR000600	6.3E-53
+PRISM_7406_09036	PF02929	Beta galactosidase small chain/ domain 5	IPR004199	1.2E-59
+PRISM_8226_11743	PF17425	Arylsulfotransferase, Ig-like domain	IPR035391	3.7E-6
+PRISM_8226_11743	PF05935	Arylsulfotransferase, bacteria	IPR010262	6.4E-33
+PRISM_8592_103060	PF12833	DNA binding HTH domain, AraC-type	IPR018060	2.3E-20
+PRISM_8592_103060	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	1.4E-20
+PRISM_8802_187107	PF00892	EamA domain	IPR000620	7.6E-15
+PRISM_8802_187107	PF00892	EamA domain	IPR000620	3.4E-19
+PRISM_7938_70309	PF12679	ABC-2 family transporter protein	IPR032688	1.3E-19
+PRISM_7238_09233	PF01098	Probable peptidoglycan glycosyltransferase FtsW/RodA	IPR001182	1.3E-91
+PRISM_8406_177639	PF10646	GerMN domain	IPR019606	8.8E-23
+PRISM_8406_177639	PF10646	GerMN domain	IPR019606	9.2E-14
+PRISM_8496_133564	PF13673	GNAT domain	IPR000182	1.0E-16
+PRISM_8496_133564	PF00814	Gcp-like domain	IPR000905	9.8E-31
+PRISM_7906_190285	PF00756	Putative esterase	IPR000801	5.7E-25
+PRISM_8537_10876	PF03060	Nitronate monooxygenase	IPR004136	2.1E-55
+PRISM_8537_10876	PF03060	Nitronate monooxygenase	IPR004136	4.7E-21
+PRISM_8749_80073	PF05580	Peptidase S55, SpoIVB	IPR008763	7.3E-82
+PRISM_8496_51565	PF08240	Alcohol dehydrogenase, N-terminal	IPR013154	1.7E-30
+PRISM_8496_51565	PF00107	Alcohol dehydrogenase, C-terminal	IPR013149	1.3E-24
+PRISM_7874_186008	PF05857	TraX	IPR008875	4.9E-32
+PRISM_7860_16388	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	4.5E-7
+PRISM_7238_40150	PF01757	Acyltransferase 3	IPR002656	9.7E-18
+PRISM_7408_135376	PF04055	Radical SAM	IPR007197	1.3E-21
+PRISM_7408_135376	PF13353	4Fe-4S single cluster domain	NA	2.8E-6
+PRISM_7408_135376	PF13186	4Fe4S-binding SPASM domain	IPR023885	8.5E-11
+PRISM_9148_120522	PF01520	N-acetylmuramoyl-L-alanine amidase, catalytic domain	IPR002508	6.4E-27
+PRISM_7860_164625	PF00877	Endopeptidase, NLPC/P60 domain	IPR000064	7.9E-20
+PRISM_7860_164625	PF08239	SH3-like domain, bacterial-type	IPR003646	6.0E-9
+PRISM_7860_164625	PF08239	SH3-like domain, bacterial-type	IPR003646	2.0E-8
+PRISM_8783_38014	PF00171	Aldehyde dehydrogenase domain	IPR015590	3.0E-65
+PRISM_7879_236985	PF00005	ABC transporter-like	IPR003439	7.2E-33
+PRISM_8878_13291	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	2.4E-28
+PRISM_7658_63243	PF00551	Formyl transferase, N-terminal	IPR002376	1.9E-43
+PRISM_7658_63243	PF02911	Formyl transferase, C-terminal	IPR005793	1.7E-29
+PRISM_7955_300457	PF00005	ABC transporter-like	IPR003439	8.7E-35
+PRISM_8496_43007	PF00005	ABC transporter-like	IPR003439	3.5E-28
+PRISM_7408_123224	PF13930	DNA/RNA non-specific endonuclease	NA	1.0E-32
+PRISM_7861_07599	PF13677	Motility protein B, N-terminal domain	IPR025713	1.3E-18
+PRISM_7861_07599	PF00691	OmpA-like domain	IPR006665	3.7E-20
+PRISM_7911_136572	PF13472	SGNH hydrolase-type esterase domain	IPR013830	3.0E-11
+PRISM_8406_49268	PF02424	Flavin transferase ApbE	IPR024932	8.8E-82
+PRISM_8537_33637	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	9.6E-13
+PRISM_8537_33637	PF12833	DNA binding HTH domain, AraC-type	IPR018060	2.5E-17
+PRISM_8095_23153	PF02588	Uncharacterised membrane protein YitT	IPR003740	2.1E-57
+PRISM_8095_23153	PF10035	Domain of unknown function DUF2179	IPR019264	1.5E-18
+PRISM_7955_45003	PF00437	Type II/IV secretion system protein	IPR001482	2.6E-33
+PRISM_8753_127824	PF00994	MoaB/Mog domain	IPR001453	5.6E-22
+PRISM_8749_43438	PF01497	ABC transporter periplasmic binding domain	IPR002491	9.1E-34
+PRISM_7955_29551	PF01841	Transglutaminase-like	IPR002931	1.6E-10
+PRISM_8683_10800	PF12833	DNA binding HTH domain, AraC-type	IPR018060	6.4E-25
+PRISM_7486_76161	PF10592	Abortive bacteriophage infection, resistance	IPR018891	7.9E-50
+PRISM_7904_161602	PF13529	Peptidase C39-like	IPR039564	2.4E-19
+PRISM_8283_153533	PF01136	Peptidase U32	IPR001539	4.7E-24
+PRISM_7955_277577	PF01628	Heat-inducible transcription repressor HrcA, C-terminal	IPR021153	2.3E-61
+PRISM_7989_02878	PF01384	Phosphate transporter	IPR001204	1.5E-73
+PRISM_7147_223755	PF16868	TRAP transporter solute receptor, TAXI family	IPR011852	3.8E-66
+PRISM_8783_227320	PF13145	Peptidyl-prolyl cis-trans isomerase, PpiC-type	IPR000297	8.0E-13
+PRISM_7238_41924	PF00398	Ribosomal RNA adenine methyltransferase KsgA/Erm	IPR001737	2.3E-63
+PRISM_8784_94396	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	4.7E-20
+PRISM_7238_20041	PF01145	Band 7 domain	IPR001107	1.5E-36
+PRISM_7658_158183	PF02826	D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain	IPR006140	8.1E-39
+PRISM_7658_158183	PF00389	D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain	IPR006139	1.2E-17
+PRISM_7908_24218	PF04397	LytTR DNA-binding domain	IPR007492	6.9E-17
+PRISM_7908_24218	PF00072	Signal transduction response regulator, receiver domain	IPR001789	5.5E-19
+PRISM_8843_68879	PF03609	Phosphotransferase system, mannose/fructose/sorbose family, IIC subunit	IPR004700	7.3E-60
+PRISM_8483_138255	PF00497	Solute-binding protein  family 3/N-terminal domain of MltF	IPR001638	2.8E-25
+PRISM_8483_138255	PF00497	Solute-binding protein  family 3/N-terminal domain of MltF	IPR001638	2.3E-26
+PRISM_8841_77625	PF12833	DNA binding HTH domain, AraC-type	IPR018060	1.1E-24
+PRISM_8841_77625	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	9.0E-17
+PRISM_8589_150242	PF08006	Protein of unknown function DUF1700	IPR012963	1.0E-13
+PRISM_7858_63214	PF03275	UDP-galactopyranose mutase, C-terminal	IPR015899	4.0E-82
+PRISM_7858_63214	PF13450	NAD(P)-binding Rossmann-like domain	NA	9.9E-15
+PRISM_8496_123679	PF00232	Glycoside hydrolase family 1	IPR001360	7.7E-86
+PRISM_8843_225531	PF01757	Acyltransferase 3	IPR002656	3.5E-19
+PRISM_7658_10041	PF03275	UDP-galactopyranose mutase, C-terminal	IPR015899	3.5E-82
+PRISM_7658_10041	PF13450	NAD(P)-binding Rossmann-like domain	NA	9.9E-15
+PRISM_8753_01429	PF01479	RNA-binding S4 domain	IPR002942	2.5E-8
+PRISM_8095_01193	PF01784	GTP cyclohydrolase 1 type 2/Nif3	IPR002678	8.8E-79
+PRISM_8591_107742	PF03706	Lysylphosphatidylglycerol synthetase/glycosyltransferase AglD	IPR022791	1.1E-40
+PRISM_8783_25315	PF03772	ComEC/Rec2-related protein	IPR004477	2.4E-7
+PRISM_8783_25315	PF13567	Domain of unknown function DUF4131	IPR025405	6.2E-18
+PRISM_7445_84654	PF02195	ParB/Sulfiredoxin	IPR003115	4.5E-19
+PRISM_7911_134752	PF00483	Nucleotidyl transferase domain	IPR005835	7.3E-72
+PRISM_7421_101662	PF01795	Ribosomal RNA small subunit methyltransferase H	IPR002903	1.8E-123
+PRISM_7955_348114	PF02801	Beta-ketoacyl synthase, C-terminal	IPR014031	5.0E-36
+PRISM_7955_348114	PF00109	Beta-ketoacyl synthase, N-terminal	IPR014030	6.5E-58
+PRISM_8683_112928	PF12146	Serine aminopeptidase, S33	IPR022742	4.4E-11
+PRISM_8361_23881	PF13930	DNA/RNA non-specific endonuclease	NA	2.1E-32
+PRISM_8843_03059	PF13472	SGNH hydrolase-type esterase domain	IPR013830	2.9E-9
+PRISM_8783_48478	PF05685	Domain of unknown function DUF820	IPR008538	1.2E-30
+PRISM_8783_48478	PF06414	Zeta toxin domain	IPR010488	4.8E-6
+PRISM_7955_100976	PF02517	CAAX amino terminal protease	IPR003675	1.1E-16
+PRISM_7911_66763	PF12833	DNA binding HTH domain, AraC-type	IPR018060	5.8E-19
+PRISM_7445_40106	PF04203	Sortase family	IPR005754	1.5E-24
+PRISM_7238_38330	PF08240	Alcohol dehydrogenase, N-terminal	IPR013154	1.2E-30
+PRISM_7238_38330	PF00107	Alcohol dehydrogenase, C-terminal	IPR013149	1.2E-24
+PRISM_7147_69875	PF00482	Type II secretion system F domain	IPR018076	1.8E-5
+PRISM_7911_73922	PF03900	Porphobilinogen deaminase, C-terminal	IPR022418	1.9E-12
+PRISM_7911_73922	PF01379	Porphobilinogen deaminase, N-terminal	IPR022417	2.8E-73
+PRISM_7941_129632	PF01761	3-dehydroquinate synthase domain	IPR030960	1.8E-93
+PRISM_7911_149440	PF01041	DegT/DnrJ/EryC1/StrS aminotransferase	IPR000653	1.5E-91
+PRISM_7938_104118	PF12706	Metallo-beta-lactamase	IPR001279	1.2E-15
+PRISM_7861_172711	PF00766	Electron transfer flavoprotein, alpha subunit, C-terminal	IPR014731	6.4E-33
+PRISM_7861_172711	PF01012	Electron transfer flavoprotein, alpha/beta-subunit, N-terminal	IPR014730	1.2E-49
+PRISM_8564_22402	PF00480	ROK family	IPR000600	1.5E-52
+PRISM_7662_217630	PF01888	Cobalt-precorrin-5B C(1)-methyltransferase CbiD	IPR002748	8.6E-101
+PRISM_8374_127818	PF07475	HPr kinase/phosphorylase, C-terminal	IPR011104	2.5E-73
+PRISM_8374_127818	PF02603	HPr(Ser) kinase/phosphorylase, N-terminal	IPR011126	9.7E-44
+PRISM_8374_46288	PF00871	Aliphatic acid kinase, short-chain	IPR000890	1.2E-159
+PRISM_8749_49115	PF12833	DNA binding HTH domain, AraC-type	IPR018060	7.9E-22
+PRISM_7759_115076	PF00126	Transcription regulator HTH, LysR	IPR000847	8.5E-17
+PRISM_7759_115076	PF03466	LysR, substrate-binding	IPR005119	2.0E-32
+PRISM_8592_23515	PF04422	Coenzyme F420 hydrogenase/dehydrogenase beta subunit, N-terminal	IPR007516	2.0E-6
+PRISM_8592_23515	PF04432	Coenzyme F420 hydrogenase/dehydrogenase beta subunit, C-terminal	IPR007525	8.5E-27
+PRISM_8592_23515	PF12838	4Fe-4S ferredoxin-type, iron-sulphur binding domain	IPR017896	1.5E-7
+PRISM_8374_38979	PF11545	Cell surface protein Shp, haem-binding domain	IPR020985	1.2E-37
+PRISM_7658_115072	PF10882	Bacterial Pleckstrin homology domain-related	IPR027783	4.0E-6
+PRISM_7238_63840	PF13793	Ribose-phosphate pyrophosphokinase, N-terminal domain	IPR029099	2.2E-33
+PRISM_7238_63840	PF00156	Phosphoribosyltransferase domain	IPR000836	3.4E-13
+PRISM_7861_146270	PF10509	Galactokinase galactose-binding domain	IPR019539	9.1E-22
+PRISM_7861_146270	PF08544	GHMP kinase, C-terminal domain	IPR013750	6.9E-13
+PRISM_7861_146270	PF00288	GHMP kinase N-terminal domain	IPR006204	2.3E-13
+PRISM_9148_69085	PF08282	haloacid dehalogenase-like hydrolase	NA	8.6E-67
+PRISM_7408_71454	PF02518	Histidine kinase/HSP90-like ATPase	IPR003594	4.5E-21
+PRISM_7847_166886	PF03547	Membrane transport protein	IPR004776	1.8E-14
+PRISM_7847_166886	PF03547	Membrane transport protein	IPR004776	6.1E-12
+PRISM_8332_265901	PF02882	Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain	IPR020631	2.3E-72
+PRISM_8332_265901	PF00763	Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain	IPR020630	5.6E-43
+PRISM_8496_102123	PF01757	Acyltransferase 3	IPR002656	1.4E-19
+PRISM_7238_18846	PF12833	DNA binding HTH domain, AraC-type	IPR018060	3.4E-19
+PRISM_7238_18846	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	6.6E-10
+PRISM_8537_08716	PF01098	Probable peptidoglycan glycosyltransferase FtsW/RodA	IPR001182	4.7E-80
+PRISM_8843_124608	PF02894	Oxidoreductase, C-terminal	IPR004104	1.6E-4
+PRISM_8843_124608	PF01408	Oxidoreductase, N-terminal	IPR000683	2.0E-23
+PRISM_7408_94127	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	5.5E-8
+PRISM_7408_94127	PF12833	DNA binding HTH domain, AraC-type	IPR018060	5.0E-17
+PRISM_7909_134255	PF00929	Exonuclease, RNase T/DNA polymerase III	IPR013520	1.3E-34
+PRISM_9148_122832	PF16198	tRNA pseudouridylate synthase B, C-terminal	IPR032819	5.0E-16
+PRISM_9148_122832	PF01509	Pseudouridine synthase II, N-terminal	IPR002501	3.2E-59
+PRISM_8765_642685	PF00126	Transcription regulator HTH, LysR	IPR000847	1.7E-19
+PRISM_8765_642685	PF03466	LysR, substrate-binding	IPR005119	8.6E-33
+PRISM_7861_176793	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	4.2E-11
+PRISM_7861_176793	PF12833	DNA binding HTH domain, AraC-type	IPR018060	8.2E-23
+PRISM_8758_33685	PF01757	Acyltransferase 3	IPR002656	2.8E-18
+PRISM_8537_12121	PF11760	Cobalamin synthesis G, N-terminal	IPR021744	1.6E-29
+PRISM_8537_12121	PF11761	Cobalamin biosynthesis central region	IPR021745	3.5E-6
+PRISM_8537_12121	PF01890	CobE/GbiG C-terminal domain	IPR002750	3.0E-29
+PRISM_8377_31421	PF09820	AAA-ATPase-like domain	IPR018631	1.5E-48
+PRISM_8283_401970	PF01554	Multi antimicrobial extrusion protein	IPR002528	5.4E-16
+PRISM_8283_100896	PF01297	Periplasmic solute binding protein, ZnuA-like	IPR006127	5.9E-51
+PRISM_8807_115551	PF03786	Mannonate dehydratase	IPR004628	6.5E-127
+PRISM_8794_131430	PF04055	Radical SAM	IPR007197	9.9E-10
+PRISM_8794_131430	PF13353	4Fe-4S single cluster domain	NA	2.0E-5
+PRISM_7862_118059	PF01380	Sugar isomerase (SIS)	IPR001347	3.6E-11
+PRISM_7911_58390	PF13306	Leucine rich repeat 5	IPR026906	3.9E-8
+PRISM_7421_04147	PF06081	Aromatic acid exporter family member 1	IPR010343	7.6E-9
+PRISM_7421_04147	PF11728	Putative aromatic acid exporter, C-terminal	IPR021062	3.1E-46
+PRISM_8843_86401	PF04085	Rod shape-determining protein MreC	IPR007221	1.7E-40
+PRISM_8892_24447	PF02518	Histidine kinase/HSP90-like ATPase	IPR003594	2.7E-18
+PRISM_8467_49939	PF02547	S-adenosylmethionine:tRNA ribosyltransferase-isomerase,  QueA	IPR003699	3.4E-149
+PRISM_8802_60419	PF03009	Glycerophosphodiester phosphodiesterase domain	IPR030395	1.8E-21
+PRISM_8843_51368	PF04383	KilA, N-terminal/APSES-type HTH, DNA-binding	IPR018004	2.8E-28
+PRISM_8802_55624	PF12849	PBP domain	IPR024370	2.8E-9
+PRISM_8802_55624	PF12849	PBP domain	IPR024370	1.9E-21
+PRISM_8783_12360	PF07730	Signal transduction histidine kinase, subgroup 3, dimerisation and phosphoacceptor domain	IPR011712	1.9E-11
+PRISM_8564_75623	PF00497	Solute-binding protein  family 3/N-terminal domain of MltF	IPR001638	6.4E-37
+PRISM_7909_67808	PF06250	Protein of unknown function DUF1016	IPR009362	1.6E-107
+PRISM_8794_265785	PF02518	Histidine kinase/HSP90-like ATPase	IPR003594	4.3E-19
+PRISM_8496_51641	PF00005	ABC transporter-like	IPR003439	1.5E-29
+PRISM_7408_144442	PF04860	Bacteriophage/Gene transfer agent portal protein	IPR006944	1.4E-39
+PRISM_8758_42463	PF13377	Periplasmic binding protein-like domain	NA	9.4E-30
+PRISM_8758_42463	PF00356	LacI-type HTH domain	IPR000843	8.8E-8
+PRISM_7874_85593	PF13286	Phosphohydrolase-associated domain	IPR026875	1.8E-24
+PRISM_7874_85593	PF01966	HD domain	IPR006674	7.4E-19
+PRISM_8847_199065	PF00849	Pseudouridine synthase, RsuA/RluB/C/D/E/F	IPR006145	9.2E-28
+PRISM_7904_181327	PF00005	ABC transporter-like	IPR003439	3.4E-35
+PRISM_8361_131108	PF08486	Sporulation stage II protein D, amidase enhancer LytB N-terminal	IPR013693	2.5E-15
+PRISM_7406_30896	PF00126	Transcription regulator HTH, LysR	IPR000847	9.2E-19
+PRISM_7406_30896	PF03466	LysR, substrate-binding	IPR005119	3.1E-31
+PRISM_8749_33279	PF02457	DNA integrity scanning protein, DisA, N-terminal	IPR003390	2.8E-42
+PRISM_8800_57525	PF03275	UDP-galactopyranose mutase, C-terminal	IPR015899	2.4E-83
+PRISM_8800_57525	PF13450	NAD(P)-binding Rossmann-like domain	NA	1.7E-16
+PRISM_8794_262954	PF08282	haloacid dehalogenase-like hydrolase	NA	7.8E-53
+PRISM_7445_24114	PF00356	LacI-type HTH domain	IPR000843	8.8E-8
+PRISM_7445_24114	PF13377	Periplasmic binding protein-like domain	NA	1.8E-30
+PRISM_8534_98684	PF02769	PurM-like, C-terminal domain	IPR010918	2.8E-11
+PRISM_8534_98684	PF00586	PurM-like, N-terminal domain	IPR016188	2.1E-5
+PRISM_7955_56494	PF07475	HPr kinase/phosphorylase, C-terminal	IPR011104	2.2E-73
+PRISM_7955_56494	PF02603	HPr(Ser) kinase/phosphorylase, N-terminal	IPR011126	7.1E-42
+PRISM_7904_86964	PF02653	ABC transporter, permease	IPR001851	2.5E-41
+PRISM_8564_164578	PF16924	Dipicolinate synthase subunit A, N-terminal	IPR031629	9.1E-23
+PRISM_8564_164578	PF02826	D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain	IPR006140	3.6E-9
+PRISM_7906_205220	PF00437	Type II/IV secretion system protein	IPR001482	1.8E-34
+PRISM_8592_55261	PF01699	Sodium/calcium exchanger membrane region	IPR004837	1.7E-28
+PRISM_8592_55261	PF01699	Sodium/calcium exchanger membrane region	IPR004837	1.2E-28
+PRISM_7862_238972	PF01520	N-acetylmuramoyl-L-alanine amidase, catalytic domain	IPR002508	3.0E-45
+PRISM_8843_90925	PF12385	Peptidase C70, AvrRpt2	IPR022118	3.6E-17
+PRISM_7238_36216	PF07475	HPr kinase/phosphorylase, C-terminal	IPR011104	2.5E-73
+PRISM_7238_36216	PF02603	HPr(Ser) kinase/phosphorylase, N-terminal	IPR011126	7.3E-44
+PRISM_7238_20905	PF06325	Ribosomal protein L11 methyltransferase (PrmA)	NA	5.6E-81
+PRISM_8776_83065	PF01479	RNA-binding S4 domain	IPR002942	1.7E-9
+PRISM_8776_83065	PF00849	Pseudouridine synthase, RsuA/RluB/C/D/E/F	IPR006145	9.0E-18
+PRISM_7238_12081	PF01098	Probable peptidoglycan glycosyltransferase FtsW/RodA	IPR001182	4.8E-80
+PRISM_7870_13439	PF04203	Sortase family	IPR005754	1.6E-24
+PRISM_8783_154961	PF00701	DapA-like	IPR002220	5.7E-76
+PRISM_8226_20561	PF01520	N-acetylmuramoyl-L-alanine amidase, catalytic domain	IPR002508	4.0E-28
+PRISM_8843_145534	PF05913	Protein of unknown function DUF871, prokaryotic	IPR008589	2.7E-68
+PRISM_8843_145534	PF05913	Protein of unknown function DUF871, prokaryotic	IPR008589	2.2E-22
+PRISM_8774_52288	PF00465	Alcohol dehydrogenase, iron-type/glycerol dehydrogenase GldA	IPR001670	3.6E-109
+PRISM_9148_17372	PF02578	Multi-copper polyphenol oxidoreductase	IPR003730	7.6E-75
+PRISM_8226_07030	PF02517	CAAX amino terminal protease	IPR003675	4.0E-16
+PRISM_7408_231642	PF13377	Periplasmic binding protein-like domain	NA	1.3E-30
+PRISM_7408_231642	PF00356	LacI-type HTH domain	IPR000843	4.4E-18
+PRISM_7941_82020	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	5.9E-17
+PRISM_8807_115545	PF00356	LacI-type HTH domain	IPR000843	4.8E-19
+PRISM_8807_115545	PF13377	Periplasmic binding protein-like domain	NA	1.7E-30
+PRISM_8332_265908	PF12833	DNA binding HTH domain, AraC-type	IPR018060	1.9E-20
+PRISM_8332_265908	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	2.3E-23
+PRISM_7910_53312	PF07992	FAD/NAD(P)-binding domain	IPR023753	6.7E-7
+PRISM_8843_135606	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	8.4E-18
+PRISM_9148_69557	PF00440	DNA-binding HTH domain, TetR-type	IPR001647	1.1E-14
+PRISM_8783_93233	PF02836	Glycoside hydrolase family 2, catalytic domain	IPR006103	6.3E-83
+PRISM_8783_93233	PF02836	Glycoside hydrolase family 2, catalytic domain	IPR006103	1.5E-7
+PRISM_7238_49149	PF12833	DNA binding HTH domain, AraC-type	IPR018060	7.3E-18
+PRISM_7238_49149	PF00072	Signal transduction response regulator, receiver domain	IPR001789	2.3E-24
+PRISM_9126_139811	PF00344	SecY/SEC61-alpha family	IPR002208	4.3E-40
+PRISM_8591_66098	PF04203	Sortase family	IPR005754	1.7E-24
+PRISM_8591_77904	PF01966	HD domain	IPR006674	2.1E-8
+PRISM_7406_49462	PF00535	Glycosyltransferase 2-like	IPR001173	3.1E-16
+PRISM_7238_53211	PF00483	Nucleotidyl transferase domain	IPR005835	6.9E-74
+PRISM_7955_116482	PF00365	Phosphofructokinase domain	IPR000023	6.8E-102
+PRISM_8624_54659	PF17117	Protein of unknown function DUF5104	IPR031344	7.3E-10
+PRISM_7238_05401	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	1.5E-19
+PRISM_7238_38609	PF02673	Undecaprenyl-diphosphatase UppP	IPR003824	6.3E-87
+PRISM_7870_37089	PF00291	Pyridoxal-phosphate dependent enzyme	IPR001926	4.9E-83
+PRISM_7408_36551	PF13529	Peptidase C39-like	IPR039564	8.0E-20
+PRISM_8843_51697	PF01032	ABC transporter, permease protein, BtuC-like	IPR000522	4.1E-96
+PRISM_8361_142481	PF05681	Fe-S hydro-lyase, tartrate dehydratase alpha-type, catalytic domain	IPR004646	1.3E-114
+PRISM_7911_109535	PF00480	ROK family	IPR000600	7.2E-36
+PRISM_7238_64412	PF00155	Aminotransferase, class I/classII	IPR004839	8.2E-39
+PRISM_7911_144982	PF00579	Aminoacyl-tRNA synthetase, class Ic	IPR002305	6.8E-55
+PRISM_9126_196605	PF00926	3,4-dihydroxy-2-butanone 4-phosphate synthase, RibB	IPR000422	1.7E-84
+PRISM_9126_196605	PF00925	GTP cyclohydrolase II	IPR032677	2.9E-71
+PRISM_8095_35764	PF00488	DNA mismatch repair protein MutS, C-terminal	IPR000432	1.6E-12
+PRISM_8283_274327	PF12706	Metallo-beta-lactamase	IPR001279	1.3E-19
+PRISM_7855_160946	PF01678	Diaminopimelate epimerase, DapF	IPR001653	4.6E-35
+PRISM_7855_160946	PF01678	Diaminopimelate epimerase, DapF	IPR001653	2.3E-28
+PRISM_8564_02687	PF04203	Sortase family	IPR005754	2.3E-25
+PRISM_7408_22804	PF00497	Solute-binding protein  family 3/N-terminal domain of MltF	IPR001638	1.2E-55
+PRISM_8841_74100	PF03609	Phosphotransferase system, mannose/fructose/sorbose family, IIC subunit	IPR004700	7.9E-69
+PRISM_7910_20081	PF04166	PdxA family	IPR005255	3.3E-107
+PRISM_8467_131563	PF02504	Fatty acid synthesis PlsX protein	IPR003664	2.5E-106
+PRISM_8788_01520	PF14449	Pre-toxin TG domain	IPR027797	3.1E-15
+PRISM_7238_70669	PF02588	Uncharacterised membrane protein YitT	IPR003740	2.4E-57
+PRISM_7238_70669	PF10035	Domain of unknown function DUF2179	IPR019264	3.3E-18
+PRISM_8802_187018	PF08241	Methyltransferase type 11	IPR013216	7.5E-17
+PRISM_7938_27359	PF08282	haloacid dehalogenase-like hydrolase	NA	2.9E-45
+PRISM_8794_54390	PF01966	HD domain	IPR006674	1.1E-8
+PRISM_8537_00100	PF00586	PurM-like, N-terminal domain	IPR016188	5.1E-5
+PRISM_8537_00100	PF02769	PurM-like, C-terminal domain	IPR010918	1.6E-9
+PRISM_8847_253007	PF00132	Hexapeptide repeat	IPR001451	6.8E-5
+PRISM_8847_253007	PF00483	Nucleotidyl transferase domain	IPR005835	2.5E-11
+PRISM_8754_456130	PF02588	Uncharacterised membrane protein YitT	IPR003740	1.2E-53
+PRISM_8754_456130	PF10035	Domain of unknown function DUF2179	IPR019264	8.2E-18
+PRISM_8226_15047	PF00126	Transcription regulator HTH, LysR	IPR000847	5.2E-19
+PRISM_8226_15047	PF03466	LysR, substrate-binding	IPR005119	8.3E-32
+PRISM_7860_04868	PF01888	Cobalt-precorrin-5B C(1)-methyltransferase CbiD	IPR002748	4.8E-101
+PRISM_8800_130016	PF02518	Histidine kinase/HSP90-like ATPase	IPR003594	1.2E-23
+PRISM_8800_130016	PF00512	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain	IPR003661	1.4E-9
+PRISM_7955_156188	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	5.4E-13
+PRISM_8534_60604	PF00696	Aspartate/glutamate/uridylate kinase	IPR001048	7.4E-49
+PRISM_7955_257857	PF02926	THUMP domain	IPR004114	2.6E-17
+PRISM_7955_257857	PF02568	Thil, AANH domain	IPR020536	4.8E-68
+PRISM_8754_31509	PF03466	LysR, substrate-binding	IPR005119	9.4E-40
+PRISM_8754_31509	PF00126	Transcription regulator HTH, LysR	IPR000847	2.5E-20
+PRISM_9148_60779	PF04041	Mannoside phosphorylase	IPR007184	1.5E-73
+PRISM_8774_19763	PF00154	DNA recombination and repair protein RecA	IPR013765	5.8E-146
+PRISM_8467_69506	PF00072	Signal transduction response regulator, receiver domain	IPR001789	5.7E-25
+PRISM_8467_69506	PF00486	OmpR/PhoB-type DNA-binding domain	IPR001867	1.8E-22
+PRISM_7906_109114	PF13529	Peptidase C39-like	IPR039564	5.4E-21
+PRISM_8841_17715	PF08436	1-deoxy-D-xylulose 5-phosphate reductoisomerase, C-terminal	IPR013644	1.9E-39
+PRISM_8841_17715	PF13288	DXP reductoisomerase C-terminal domain	IPR026877	2.3E-39
+PRISM_8841_17715	PF02670	1-deoxy-D-xylulose 5-phosphate reductoisomerase, N-terminal	IPR013512	2.1E-44
+PRISM_8683_67572	PF04055	Radical SAM	IPR007197	5.9E-16
+PRISM_8683_67572	PF13394	4Fe-4S single cluster domain	NA	2.3E-5
+PRISM_7445_57528	PF01384	Phosphate transporter	IPR001204	2.7E-74
+PRISM_8374_32635	PF03116	Ion-translocating oxidoreductase NqrB/RnfD	IPR004338	1.8E-113
+PRISM_7744_101580	PF01594	Transmembrane protein TqsA-like	IPR002549	1.4E-50
+PRISM_7899_77571	PF00579	Aminoacyl-tRNA synthetase, class Ic	IPR002305	3.7E-78
+PRISM_7899_77571	PF01479	RNA-binding S4 domain	IPR002942	2.1E-5
+PRISM_7955_02271	PF00589	Integrase, catalytic domain	IPR002104	7.3E-33
+PRISM_8332_327235	PF01370	NAD-dependent epimerase/dehydratase	IPR001509	2.5E-20
+PRISM_7989_40250	PF06808	TRAP C4-dicarboxylate transport system permease DctM subunit	IPR010656	2.1E-36
+PRISM_7989_40250	PF06808	TRAP C4-dicarboxylate transport system permease DctM subunit	IPR010656	5.0E-46
+PRISM_7238_41031	PF02517	CAAX amino terminal protease	IPR003675	3.9E-14
+PRISM_7847_166885	PF06925	Diacylglycerol glucosyltransferase, N-terminal	IPR009695	4.7E-27
+PRISM_7847_166885	PF04101	Glycosyl transferase, family 28, C-terminal	IPR007235	3.1E-5
+PRISM_8406_235184	PF13394	4Fe-4S single cluster domain	NA	6.8E-5
+PRISM_8406_235184	PF04055	Radical SAM	IPR007197	5.1E-16
+PRISM_7861_08468	PF08241	Methyltransferase type 11	IPR013216	1.4E-15
+PRISM_7861_08468	PF13411	MerR-type HTH domain	IPR000551	1.5E-12
+PRISM_8565_58169	PF13546	Transposase IS701-like, DDE domain	IPR038721	7.9E-46
+PRISM_8675_00639	PF06180	Anaerobic cobalt chelatase	IPR010388	5.0E-85
+PRISM_7658_111813	PF04383	KilA, N-terminal/APSES-type HTH, DNA-binding	IPR018004	2.0E-28
+PRISM_7874_217561	PF00535	Glycosyltransferase 2-like	IPR001173	1.5E-23
+PRISM_9126_11798	PF03705	Chemotaxis receptor methyltransferase CheR, N-terminal	IPR022641	6.5E-15
+PRISM_9126_11798	PF01739	MCP methyltransferase, CheR-type, SAM-binding domain, C-terminal	IPR022642	6.1E-58
+PRISM_8577_14488	PF03099	Biotinyl protein ligase (BPL) and lipoyl protein ligase (LPL), catalytic domain	IPR004143	1.2E-18
+PRISM_8577_14488	PF02237	Biotin protein ligase, C-terminal	IPR003142	2.2E-6
+PRISM_8577_14488	PF08279	Helix-turn-helix, type 11	IPR013196	7.7E-18
+PRISM_7238_14009	PF00365	Phosphofructokinase domain	IPR000023	5.7E-57
+PRISM_7906_158570	PF01026	TatD family	IPR001130	5.8E-79
+PRISM_7870_92223	PF00535	Glycosyltransferase 2-like	IPR001173	5.3E-34
+PRISM_7912_267628	PF00589	Integrase, catalytic domain	IPR002104	7.0E-33
+PRISM_8537_34670	PF10418	Dihydroorotate dehydrogenase, electron transfer subunit, iron-sulphur cluster binding domain	IPR019480	3.3E-12
+PRISM_8788_184652	PF01926	GTP binding domain	IPR006073	2.2E-15
+PRISM_8624_167008	PF07811	TadE-like	IPR012495	7.1E-5
+PRISM_7948_85036	PF04383	KilA, N-terminal/APSES-type HTH, DNA-binding	IPR018004	2.1E-28
+PRISM_8537_36344	PF13026	Domain of unknown function DUF3887	IPR024981	1.4E-15
+PRISM_8537_36344	PF04277	Sodium ion-translocating decarboxylase	IPR005899	7.5E-27
+PRISM_8802_98024	PF13411	MerR-type HTH domain	IPR000551	8.0E-18
+PRISM_7147_121786	PF00589	Integrase, catalytic domain	IPR002104	4.3E-25
+PRISM_7408_62141	PF07670	Nucleoside transporter/FeoB GTPase, Gate domain	IPR011642	1.3E-5
+PRISM_7860_04951	PF00990	GGDEF domain	IPR000160	8.5E-29
+PRISM_9126_139690	PF04203	Sortase family	IPR005754	5.5E-19
+PRISM_7861_05313	PF03446	6-phosphogluconate dehydrogenase, NADP-binding	IPR006115	1.9E-40
+PRISM_7861_05313	PF14833	3-hydroxyisobutyrate dehydrogenase, NAD-binding domain	IPR029154	9.1E-21
+PRISM_8800_78329	PF01966	HD domain	IPR006674	6.6E-8
+PRISM_8406_10310	PF00849	Pseudouridine synthase, RsuA/RluB/C/D/E/F	IPR006145	7.1E-24
+PRISM_8758_46655	PF04909	Amidohydrolase-related	IPR006680	9.7E-17
+PRISM_8753_193433	PF00933	Glycoside hydrolase, family 3, N-terminal	IPR001764	2.7E-53
+PRISM_8406_34663	PF02926	THUMP domain	IPR004114	1.7E-11
+PRISM_8406_34663	PF01170	Putative RNA methylase domain	IPR000241	2.9E-57
+PRISM_8841_125431	PF06426	Serine acetyltransferase, N-terminal	IPR010493	1.4E-4
+PRISM_8841_125431	PF00132	Hexapeptide repeat	IPR001451	2.5E-4
+PRISM_8841_125431	PF00132	Hexapeptide repeat	IPR001451	1.9E-5
+PRISM_9148_30673	PF04203	Sortase family	IPR005754	1.1E-19
+PRISM_8534_43054	PF02653	ABC transporter, permease	IPR001851	9.7E-38
+PRISM_7238_75071	PF03123	CAT RNA-binding domain	IPR004341	1.7E-21
+PRISM_7238_75071	PF00874	PRD domain	IPR011608	5.8E-19
+PRISM_7238_75071	PF00874	PRD domain	IPR011608	6.9E-24
+PRISM_7948_15118	PF00231	ATP synthase, F1 complex, gamma subunit	IPR000131	9.9E-89
+PRISM_7421_81103	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	4.0E-20
+PRISM_8483_64652	PF14286	DHHW protein	IPR025945	3.4E-29
+PRISM_7847_231801	PF03613	Phosphotransferase system, mannose/fructose/sorbose family IID component	IPR004704	1.5E-106
+PRISM_7862_55389	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	9.2E-24
+PRISM_7858_82555	PF00512	Signal transduction histidine kinase, dimerisation/phosphoacceptor domain	IPR003661	5.6E-10
+PRISM_7858_82555	PF02518	Histidine kinase/HSP90-like ATPase	IPR003594	1.2E-12
+PRISM_8749_86290	PF01408	Oxidoreductase, N-terminal	IPR000683	1.4E-22
+PRISM_8776_267347	PF11871	Protein of unknown function DUF3391	IPR021812	1.9E-7
+PRISM_8776_267347	PF01966	HD domain	IPR006674	5.2E-18
+PRISM_7847_63214	PF01148	Cytidylyltransferase family	NA	4.8E-58
+PRISM_8764_239046	PF02645	DegV	IPR003797	9.1E-59
+PRISM_8624_160023	PF01384	Phosphate transporter	IPR001204	8.5E-73
+PRISM_8374_30176	PF08282	haloacid dehalogenase-like hydrolase	NA	2.7E-58
+PRISM_8406_60155	PF10112	5-bromo-4-chloroindolyl phosphate hydrolysis protein	IPR018770	1.8E-14
+PRISM_8843_82963	PF01960	Arginine biosynthesis protein ArgJ	IPR002813	5.7E-148
+PRISM_8794_171329	PF02653	ABC transporter, permease	IPR001851	7.5E-32
+PRISM_7955_36633	PF02547	S-adenosylmethionine:tRNA ribosyltransferase-isomerase,  QueA	IPR003699	9.0E-150
+PRISM_8283_37013	PF12833	DNA binding HTH domain, AraC-type	IPR018060	2.7E-18
+PRISM_8283_37013	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	1.6E-14
+PRISM_7874_269872	PF01556	Chaperone DnaJ, C-terminal	IPR002939	2.0E-34
+PRISM_7874_269872	PF00226	DnaJ domain	IPR001623	3.8E-27
+PRISM_7874_269872	PF00684	Heat shock protein DnaJ, cysteine-rich domain	IPR001305	8.9E-15
+PRISM_8847_112137	PF01832	Mannosyl-glycoprotein endo-beta-N-acetylglucosamidase-like domain	IPR002901	4.9E-14
+PRISM_8789_66557	PF03755	YicC-like, N-terminal	IPR013527	2.1E-47
+PRISM_8789_66557	PF08340	Domain of unknown function DUF1732	IPR013551	1.5E-35
+PRISM_7445_14244	PF00753	Metallo-beta-lactamase	IPR001279	1.2E-12
+PRISM_7445_14244	PF12706	Metallo-beta-lactamase	IPR001279	2.5E-6
+PRISM_7909_272779	PF00696	Aspartate/glutamate/uridylate kinase	IPR001048	1.2E-28
+PRISM_8847_105988	PF00155	Aminotransferase, class I/classII	IPR004839	1.3E-46
+PRISM_8788_72105	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	4.7E-14
+PRISM_8675_00240	PF01113	Dihydrodipicolinate reductase, N-terminal	IPR000846	3.1E-8
+PRISM_7421_83545	PF03060	Nitronate monooxygenase	IPR004136	1.0E-51
+PRISM_8754_351101	PF02163	Peptidase M50	IPR008915	3.3E-69
+PRISM_8754_351101	PF13180	PDZ domain	IPR001478	4.6E-10
+PRISM_7122_03545	PF01226	Formate/nitrite transporter	IPR000292	4.1E-60
+PRISM_8466_132976	PF02441	Flavoprotein	IPR003382	5.8E-44
+PRISM_8466_132976	PF04127	DNA/pantothenate metabolism flavoprotein, C-terminal	IPR007085	7.6E-69
+PRISM_8776_296858	PF01207	tRNA-dihydrouridine synthase	IPR001269	8.5E-103
+PRISM_8483_39688	PF05685	Domain of unknown function DUF820	IPR008538	5.0E-33
+PRISM_8483_39688	PF01381	Cro/C1-type helix-turn-helix domain	IPR001387	5.5E-5
+PRISM_8534_03325	PF01261	Xylose isomerase-like, TIM barrel domain	IPR013022	1.7E-23
+PRISM_7238_66423	PF01926	GTP binding domain	IPR006073	1.6E-17
+PRISM_7860_04672	PF00768	Peptidase S11, D-alanyl-D-alanine carboxypeptidase A, N-terminal	IPR001967	8.4E-49
+PRISM_8794_62475	PF13533	Membrane fusion protein, biotin-lipoyl like domain	IPR039562	1.8E-6
+PRISM_8794_62475	PF13437	HlyD family secretion protein	NA	3.0E-12
+PRISM_7941_111874	PF00781	Diacylglycerol kinase, catalytic domain	IPR001206	1.1E-28
+PRISM_8332_249632	PF00005	ABC transporter-like	IPR003439	1.1E-28
+PRISM_8377_154180	PF02674	Colicin V production, CvpA	IPR003825	2.3E-7
+PRISM_8377_154180	PF02674	Colicin V production, CvpA	IPR003825	4.6E-12
+PRISM_7989_06239	PF01418	Helix-turn-helix protein RpiR	IPR000281	7.9E-17
+PRISM_7989_06239	PF01380	Sugar isomerase (SIS)	IPR001347	1.9E-12
+PRISM_7855_54957	PF02926	THUMP domain	IPR004114	1.5E-16
+PRISM_7855_54957	PF02568	Thil, AANH domain	IPR020536	5.3E-69
+PRISM_7847_246691	PF04464	CDP-glycerol glycerophosphotransferase	IPR007554	3.6E-61
+PRISM_7908_77763	PF00535	Glycosyltransferase 2-like	IPR001173	1.6E-29
+PRISM_8753_09741	PF01926	GTP binding domain	IPR006073	3.4E-17
+PRISM_7855_54950	PF01628	Heat-inducible transcription repressor HrcA, C-terminal	IPR021153	6.7E-61
+PRISM_8783_67714	PF13472	SGNH hydrolase-type esterase domain	IPR013830	1.8E-12
+PRISM_8332_301151	PF00480	ROK family	IPR000600	7.8E-63
+PRISM_8753_49637	PF03466	LysR, substrate-binding	IPR005119	1.1E-9
+PRISM_8753_49637	PF00126	Transcription regulator HTH, LysR	IPR000847	2.7E-15
+PRISM_8564_116293	PF01384	Phosphate transporter	IPR001204	2.6E-74
+PRISM_7238_60264	PF00109	Beta-ketoacyl synthase, N-terminal	IPR014030	1.5E-60
+PRISM_7238_60264	PF02801	Beta-ketoacyl synthase, C-terminal	IPR014031	8.1E-34
+PRISM_8800_04288	PF00266	Aminotransferase class V domain	IPR000192	3.3E-80
+PRISM_8841_26187	PF07179	SseB protein N-terminal domain	IPR009839	1.8E-6
+PRISM_8537_00353	PF00082	Peptidase S8/S53 domain	IPR000209	5.1E-14
+PRISM_8807_17117	PF05977	Transmembrane secretion effector	IPR010290	6.0E-19
+PRISM_7238_72694	PF16916	Cation efflux protein, cytoplasmic domain	IPR027470	1.1E-13
+PRISM_7238_72694	PF01545	Cation efflux protein	IPR002524	8.3E-43
+PRISM_8753_95739	PF06325	Ribosomal protein L11 methyltransferase (PrmA)	NA	9.8E-81
+PRISM_8592_82478	PF04551	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase, bacterial-type	IPR004588	1.4E-134
+PRISM_8374_12632	PF01551	Peptidase M23	IPR016047	6.4E-19
+PRISM_8776_34249	PF02645	DegV	IPR003797	3.2E-71
+PRISM_7911_51682	PF12833	DNA binding HTH domain, AraC-type	IPR018060	2.6E-22
+PRISM_7911_51682	PF07883	Cupin 2, conserved barrel	IPR013096	4.5E-7
+PRISM_7955_36631	PF02912	Phenylalanine-tRNA ligase, class II, N-terminal	IPR004188	1.1E-22
+PRISM_7955_36631	PF01409	Phenylalanyl-tRNA synthetase	IPR002319	7.7E-102
+PRISM_7861_74921	PF01795	Ribosomal RNA small subunit methyltransferase H	IPR002903	3.5E-70
+PRISM_8592_74223	PF04085	Rod shape-determining protein MreC	IPR007221	1.7E-39
+PRISM_8794_288119	PF00202	Aminotransferase class-III	IPR005814	1.7E-117
+PRISM_8534_37742	PF01244	Peptidase M19	IPR008257	4.8E-84
+PRISM_7445_43105	PF01156	Inosine/uridine-preferring nucleoside hydrolase domain	IPR001910	2.0E-83
+PRISM_7911_170037	PF08282	haloacid dehalogenase-like hydrolase	NA	1.3E-56
+PRISM_8892_51990	PF01966	HD domain	IPR006674	3.8E-8
+PRISM_8892_24206	PF03480	TRAP transporter solute receptor DctP/TeaA	IPR018389	1.8E-57
+PRISM_8892_24206	PF04290	TRAP transporter, small membrane protein DctQ	IPR007387	2.6E-10
+PRISM_8783_15718	PF11175	Protein of unknown function DUF2961	IPR021345	5.2E-89
+PRISM_9148_15728	PF01168	Alanine racemase, N-terminal	IPR001608	4.3E-61
+PRISM_9148_15728	PF00842	Alanine racemase, C-terminal	IPR011079	2.1E-44
+PRISM_8794_26636	PF00448	Signal recognition particle, SRP54 subunit, GTPase domain	IPR000897	9.1E-78
+PRISM_8794_26636	PF02881	Signal recognition particle, SRP54 subunit, helical bundle	IPR013822	2.9E-13
+PRISM_7861_181141	PF01867	CRISPR-associated protein Cas1	IPR002729	6.1E-99
+PRISM_7879_150042	PF00925	GTP cyclohydrolase II	IPR032677	3.3E-73
+PRISM_7879_150042	PF00926	3,4-dihydroxy-2-butanone 4-phosphate synthase, RibB	IPR000422	3.0E-84
+PRISM_8496_74120	PF00398	Ribosomal RNA adenine methyltransferase KsgA/Erm	IPR001737	3.6E-63
+PRISM_8802_418826	PF13411	MerR-type HTH domain	IPR000551	8.1E-18
+PRISM_8802_418826	PF06445	GyrI-like small molecule binding domain	IPR029442	1.4E-7
+PRISM_7238_60594	PF00356	LacI-type HTH domain	IPR000843	8.8E-8
+PRISM_7238_60594	PF13377	Periplasmic binding protein-like domain	NA	6.3E-29
+PRISM_8758_37183	PF12725	Protein of unknown function DUF3810	IPR024294	1.5E-108
+PRISM_8675_60193	PF00175	Oxidoreductase FAD/NAD(P)-binding	IPR001433	2.8E-4
+PRISM_8675_60193	PF10418	Dihydroorotate dehydrogenase, electron transfer subunit, iron-sulphur cluster binding domain	IPR019480	3.3E-12
+PRISM_7911_144765	PF00456	Transketolase, N-terminal	IPR005474	4.2E-36
+PRISM_8800_17950	PF13450	NAD(P)-binding Rossmann-like domain	NA	3.4E-14
+PRISM_8800_17950	PF03275	UDP-galactopyranose mutase, C-terminal	IPR015899	8.3E-82
+PRISM_8374_28982	PF06898	Putative stage IV sporulation YqfD	IPR010690	9.2E-106
+PRISM_8892_41861	PF01887	SAM-dependent chlorinase/fluorinase	IPR002747	2.9E-61
+PRISM_8332_370538	PF02463	RecF/RecN/SMC, N-terminal	IPR003395	1.1E-17
+PRISM_7406_42391	PF00356	LacI-type HTH domain	IPR000843	8.8E-8
+PRISM_7406_42391	PF13377	Periplasmic binding protein-like domain	NA	9.7E-31
+PRISM_8564_155745	PF00005	ABC transporter-like	IPR003439	1.8E-24
+PRISM_8794_132524	PF01145	Band 7 domain	IPR001107	9.1E-33
+PRISM_8794_270080	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	1.8E-19
+PRISM_7899_144690	PF00563	EAL domain	IPR001633	9.1E-55
+PRISM_7147_05905	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	4.9E-28
+PRISM_7445_57090	PF07730	Signal transduction histidine kinase, subgroup 3, dimerisation and phosphoacceptor domain	IPR011712	4.2E-11
+PRISM_8466_140717	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	1.1E-9
+PRISM_8406_20061	PF00156	Phosphoribosyltransferase domain	IPR000836	3.6E-13
+PRISM_8406_20061	PF13793	Ribose-phosphate pyrophosphokinase, N-terminal domain	IPR029099	6.5E-33
+PRISM_7941_09323	PF01960	Arginine biosynthesis protein ArgJ	IPR002813	2.1E-148
+PRISM_8788_262578	PF00535	Glycosyltransferase 2-like	IPR001173	3.4E-21
+PRISM_8332_364941	PF07730	Signal transduction histidine kinase, subgroup 3, dimerisation and phosphoacceptor domain	IPR011712	2.3E-12
+PRISM_7941_18861	PF00155	Aminotransferase, class I/classII	IPR004839	6.1E-39
+PRISM_8794_317380	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	9.9E-10
+PRISM_8794_317380	PF12833	DNA binding HTH domain, AraC-type	IPR018060	9.6E-19
+PRISM_8764_141664	PF00698	Acyl transferase	IPR014043	2.8E-37
+PRISM_7408_243169	PF03816	Cell envelope-related transcriptional attenuator domain	IPR004474	2.7E-34
+PRISM_7912_205704	PF00293	NUDIX hydrolase domain	IPR000086	9.4E-17
+PRISM_8878_112199	PF00535	Glycosyltransferase 2-like	IPR001173	2.3E-24
+PRISM_7989_08889	PF00365	Phosphofructokinase domain	IPR000023	4.2E-57
+PRISM_8788_101340	PF00185	Aspartate/ornithine carbamoyltransferase, Asp/Orn-binding domain	IPR006131	2.3E-31
+PRISM_8788_101340	PF02729	Aspartate/ornithine carbamoyltransferase, carbamoyl-P binding	IPR006132	2.5E-47
+PRISM_8564_96904	PF03466	LysR, substrate-binding	IPR005119	1.5E-33
+PRISM_8564_96904	PF00126	Transcription regulator HTH, LysR	IPR000847	1.0E-19
+PRISM_8496_24141	PF08282	haloacid dehalogenase-like hydrolase	NA	7.6E-47
+PRISM_7122_77724	PF00005	ABC transporter-like	IPR003439	7.4E-18
+PRISM_8788_252544	PF03786	Mannonate dehydratase	IPR004628	4.5E-129
+PRISM_7860_116379	PF01966	HD domain	IPR006674	2.8E-9
+PRISM_7870_22566	PF01544	Mg2+ transporter protein, CorA-like/Zinc transport protein ZntB	IPR002523	2.5E-41
+PRISM_8406_131548	PF02517	CAAX amino terminal protease	IPR003675	5.1E-16
+PRISM_8794_270081	PF00528	ABC transporter type 1, transmembrane domain MetI-like	IPR000515	3.3E-7
+PRISM_8765_86485	PF00535	Glycosyltransferase 2-like	IPR001173	2.0E-29
+PRISM_7879_334984	PF00072	Signal transduction response regulator, receiver domain	IPR001789	2.0E-16
+PRISM_7879_334984	PF04397	LytTR DNA-binding domain	IPR007492	1.5E-15
+PRISM_9148_07702	PF00005	ABC transporter-like	IPR003439	1.8E-31
+PRISM_8758_28058	PF01430	Heat shock protein Hsp33	IPR000397	3.3E-92
+PRISM_7911_136573	PF00005	ABC transporter-like	IPR003439	8.8E-30
+PRISM_8374_44810	PF02492	CobW/HypB/UreG, nucleotide-binding domain	IPR003495	6.2E-31
+PRISM_7658_158191	PF01264	Chorismate synthase	IPR000453	5.1E-139
+PRISM_7858_92771	PF01171	tRNA(Ile)-lysidine/2-thiocytidine synthase, N-terminal	IPR011063	1.2E-17
+PRISM_7847_63218	PF04519	Bactofilin A/B	IPR007607	7.5E-16
+PRISM_7847_63218	PF04519	Bactofilin A/B	IPR007607	2.9E-6
+PRISM_7862_165696	PF02195	ParB/Sulfiredoxin	IPR003115	1.2E-26
+PRISM_8406_139347	PF00768	Peptidase S11, D-alanyl-D-alanine carboxypeptidase A, N-terminal	IPR001967	1.7E-51
+PRISM_9126_17600	PF02661	Fido domain	IPR003812	1.2E-12
+PRISM_7861_187351	PF05977	Transmembrane secretion effector	IPR010290	1.7E-10
+PRISM_7408_04036	PF02653	ABC transporter, permease	IPR001851	1.5E-32
+PRISM_8466_71625	PF13310	Virulence protein RhuM-like	IPR011204	4.5E-107
+PRISM_8683_118134	PF00756	Putative esterase	IPR000801	6.6E-9
+PRISM_8783_134200	PF00535	Glycosyltransferase 2-like	IPR001173	2.7E-30
+PRISM_7948_11621	PF03116	Ion-translocating oxidoreductase NqrB/RnfD	IPR004338	9.5E-116
+PRISM_8589_137779	PF12833	DNA binding HTH domain, AraC-type	IPR018060	1.0E-23
+PRISM_8802_314851	PF00082	Peptidase S8/S53 domain	IPR000209	4.1E-5
+PRISM_7153_144076	PF00535	Glycosyltransferase 2-like	IPR001173	6.8E-16
+PRISM_7238_27955	PF02311	AraC-type arabinose-binding/dimerisation domain	IPR003313	2.0E-6
+PRISM_7238_27955	PF12833	DNA binding HTH domain, AraC-type	IPR018060	1.3E-11
+PRISM_8226_68803	PF04383	KilA, N-terminal/APSES-type HTH, DNA-binding	IPR018004	2.2E-28
+PRISM_8843_226546	PF02153	Prephenate dehydrogenase	IPR003099	8.0E-62
+PRISM_7911_18675	PF03682	Uncharacterised protein family UPF0158	IPR005361	6.8E-9
+PRISM_8843_49881	PF02645	DegV	IPR003797	1.2E-58
+PRISM_7911_116337	PF02811	PHP domain	IPR004013	6.6E-16
+PRISM_8683_55574	PF10609	Flagellum site-determining protein YlxH/ Fe-S cluster assembling factor NBP35	IPR033756	2.0E-91
+PRISM_7909_62726	PF02110	Hydroxyethylthiazole kinase	IPR000417	6.0E-58
+PRISM_8466_44556	PF13614	AAA domain	IPR025669	4.1E-7
+PRISM_8361_46007	PF13237	4Fe-4S ferredoxin-type, iron-sulphur binding domain	IPR017896	2.0E-7
+PRISM_8765_152223	PF00892	EamA domain	IPR000620	1.9E-9
+PRISM_8765_152223	PF00892	EamA domain	IPR000620	1.7E-11
+PRISM_8807_15428	PF01808	Bifunctional purine biosynthesis protein PurH-like	IPR002695	1.2E-61
+PRISM_7955_179014	PF02706	Polysaccharide chain length determinant N-terminal domain	IPR003856	3.8E-14
+PRISM_7238_76121	PF03808	Glycosyl transferase WecB/TagA/CpsF	IPR004629	3.8E-59

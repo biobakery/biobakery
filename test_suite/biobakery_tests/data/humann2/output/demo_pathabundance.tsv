@@ -1,0 +1,17 @@
+# Pathway	demo_Abundance
+UNMAPPED	1338.3190523130
+UNINTEGRATED	5324.4312912906
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus	2889.8374763450
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_dorei	3137.3888860073
+COA-PWY-1: coenzyme A biosynthesis II (mammalian)	6.7591572814
+COA-PWY-1: coenzyme A biosynthesis II (mammalian)|g__Bacteroides.s__Bacteroides_vulgatus	5.7967729695
+PWY-6700: queuosine biosynthesis	5.5677097144
+PWY-6700: queuosine biosynthesis|g__Bacteroides.s__Bacteroides_dorei	3.3937482013
+PWY-7111: pyruvate fermentation to isobutanol (engineered)	3.3883947480
+PWY-7111: pyruvate fermentation to isobutanol (engineered)|g__Bacteroides.s__Bacteroides_vulgatus	1.5541525012
+VALSYN-PWY: L-valine biosynthesis	3.3883947480
+VALSYN-PWY: L-valine biosynthesis|g__Bacteroides.s__Bacteroides_vulgatus	1.5541525012
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation	2.8720157961
+PWY-2942: L-lysine biosynthesis III	2.6698917705
+PWY-5097: L-lysine biosynthesis VI	2.6664127226
+PWY-7219: adenosine ribonucleotides de novo biosynthesis	2.4290890774

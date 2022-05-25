@@ -1,0 +1,119 @@
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `threads' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `prioritization_config' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `vignette_config' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `bypass_mandatory' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `bypass_optional' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `bypass_finalized' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `selected_output' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `basename' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `input_annotation' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `input_attribute' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `output' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `input' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `config' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `jobs' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `grid_jobs' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `grid' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `grid_partition' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `grid_benchmark' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `grid_options' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `grid_environment' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `grid_scratch' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `dry_run' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `skip_nothing' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `quit_early' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `until_task' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `exclude_task' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `target' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `exclude_target' = `INFO'
+05/20/2021 10:50:36 PM - anadama2.cli - INFO: Command line argument `log_level' = `INFO'
+05/20/2021 10:50:36 PM - metawibele.config - INFO: The config file for prioritization: /usr/local/lib/python3.6/dist-packages/metawibele-0.4.1-py3.6.egg/metawibele/configs/prioritization.cfg
+05/20/2021 10:50:36 PM - metawibele.config - INFO: Start to run mandatory prioritization module......
+05/20/2021 10:50:36 PM - metawibele.config - INFO: ###### Start mandatory_prioritization module ######
+05/20/2021 10:50:36 PM - metawibele.config - INFO: Start to run optional prioritization module based on filers......
+05/20/2021 10:50:36 PM - metawibele.config - INFO: ###### Start optional_prioritization module ######
+05/20/2021 10:50:36 PM - metawibele.config - INFO: ###### Start optional_prioritization module ######
+05/20/2021 10:50:36 PM - metawibele.config - INFO: Start to run finalized prioritizations module......
+05/20/2021 10:50:36 PM - metawibele.config - INFO: ###### Start finalize_prioritization module ######
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: Beginning AnADAMA run with 14 tasks.
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: Workflow description = A workflow for MetaWIBELE prioritization
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: Workflow version = 0.4.1
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: Workflow configuration options
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: threads = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: prioritization_config = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: vignette_config = none
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: bypass_mandatory = False
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: bypass_optional = False
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: bypass_finalized = False
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: selected_output = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: basename = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: input_annotation = output/characterization/finalized/demo_proteinfamilies_annotation.tsv
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: input_attribute = output/characterization/finalized/demo_proteinfamilies_annotation.attribute.tsv
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: output = output/prioritization/
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: input = /home/hutlab_public/Tutorials/metawibele/Yancong
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: config = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: jobs = 4
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: grid_jobs = 0
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: grid = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: grid_partition = 
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: grid_benchmark = off
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: grid_options = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: grid_environment = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: grid_scratch = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: dry_run = False
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: skip_nothing = False
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: quit_early = False
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: until_task = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: exclude_task = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: target = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: exclude_target = None
+05/20/2021 10:50:36 PM - LoggerReporter - INFO: log_level = INFO
+05/20/2021 10:50:41 PM - LoggerReporter - INFO: task 5, quantify_prioritization__supervised : ready and waiting for resources 
+05/20/2021 10:50:41 PM - LoggerReporter - INFO: task 0, quantify_prioritization__unsupervised : ready and waiting for resources 
+05/20/2021 10:50:41 PM - LoggerReporter - INFO: task 5, quantify_prioritization__supervised : starting to run 
+05/20/2021 10:50:42 PM - LoggerReporter - INFO: Executing with shell:  metawibele_quantify_prioritization -c /usr/local/lib/python3.6/dist-packages/metawibele-0.4.1-py3.6.egg/metawibele/configs/prioritization.cfg -m supervised -w equal -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.tsv -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.attribute.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization >/home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.log 2>&1
+05/20/2021 10:50:42 PM - LoggerReporter - INFO: task 0, quantify_prioritization__unsupervised : starting to run 
+05/20/2021 10:50:43 PM - LoggerReporter - INFO: Executing with shell:  metawibele_quantify_prioritization -c /usr/local/lib/python3.6/dist-packages/metawibele-0.4.1-py3.6.egg/metawibele/configs/prioritization.cfg -m unsupervised -w fixed -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.tsv -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.attribute.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization >/home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.log 2>&1
+05/20/2021 10:50:45 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:50:45 PM - LoggerReporter - INFO: task 5, quantify_prioritization__supervised : completed successfully 
+05/20/2021 10:50:45 PM - LoggerReporter - INFO: task 12, finalize_prioritization__supervised_rank : ready and waiting for resources 
+05/20/2021 10:50:45 PM - LoggerReporter - INFO: task 8, filter_prioritization : ready and waiting for resources 
+05/20/2021 10:50:45 PM - LoggerReporter - INFO: task 12, finalize_prioritization__supervised_rank : starting to run 
+05/20/2021 10:50:45 PM - LoggerReporter - INFO: Executing with shell:  metawibele_finalize_prioritization -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.table.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.table.log 2>&1
+05/20/2021 10:50:45 PM - LoggerReporter - INFO: task 8, filter_prioritization : starting to run 
+05/20/2021 10:50:46 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:50:46 PM - LoggerReporter - INFO: task 12, finalize_prioritization__supervised_rank : completed successfully 
+05/20/2021 10:50:46 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:50:46 PM - LoggerReporter - INFO: task 0, quantify_prioritization__unsupervised : completed successfully 
+05/20/2021 10:50:46 PM - LoggerReporter - INFO: task 6, filter_prioritization : ready and waiting for resources 
+05/20/2021 10:50:46 PM - LoggerReporter - INFO: task 9, finalize_prioritization__unsupervised_rank : ready and waiting for resources 
+05/20/2021 10:50:46 PM - LoggerReporter - INFO: Executing with shell:  metawibele_filter_prioritization -c /usr/local/lib/python3.6/dist-packages/metawibele-0.4.1-py3.6.egg/metawibele/configs/prioritization.cfg -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.tsv -f none -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.selected.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.selected.log 2>&1
+05/20/2021 10:50:46 PM - LoggerReporter - INFO: task 6, filter_prioritization : starting to run 
+05/20/2021 10:50:47 PM - LoggerReporter - INFO: Executing with shell:  metawibele_filter_prioritization -c /usr/local/lib/python3.6/dist-packages/metawibele-0.4.1-py3.6.egg/metawibele/configs/prioritization.cfg -a /home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/finalized/demo_proteinfamilies_annotation.tsv -p /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.tsv -f none -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.selected.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.selected.log 2>&1
+05/20/2021 10:50:47 PM - LoggerReporter - INFO: task 9, finalize_prioritization__unsupervised_rank : starting to run 
+05/20/2021 10:50:48 PM - LoggerReporter - INFO: Executing with shell:  metawibele_finalize_prioritization -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.table.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.table.log 2>&1
+05/20/2021 10:50:48 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:50:48 PM - LoggerReporter - INFO: task 8, filter_prioritization : completed successfully 
+05/20/2021 10:50:48 PM - LoggerReporter - INFO: task 13, finalize_prioritization__selected_supervised_priority : ready and waiting for resources 
+05/20/2021 10:50:48 PM - LoggerReporter - INFO: task 13, finalize_prioritization__selected_supervised_priority : starting to run 
+05/20/2021 10:50:48 PM - LoggerReporter - INFO: Executing with shell:  metawibele_finalize_prioritization -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.selected.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.selected.table.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_supervised_prioritization.rank.selected.table.log 2>&1
+05/20/2021 10:50:48 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:50:48 PM - LoggerReporter - INFO: task 9, finalize_prioritization__unsupervised_rank : completed successfully 
+05/20/2021 10:50:49 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:50:49 PM - LoggerReporter - INFO: task 13, finalize_prioritization__selected_supervised_priority : completed successfully 
+05/20/2021 10:50:49 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:50:49 PM - LoggerReporter - INFO: task 6, filter_prioritization : completed successfully 
+05/20/2021 10:50:49 PM - LoggerReporter - INFO: task 11, finalize_prioritization__selected_unsupervised_priority : ready and waiting for resources 
+05/20/2021 10:50:49 PM - LoggerReporter - INFO: task 11, finalize_prioritization__selected_unsupervised_priority : starting to run 
+05/20/2021 10:50:50 PM - LoggerReporter - INFO: Executing with shell:  metawibele_finalize_prioritization -i /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.selected.tsv -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.selected.table.tsv > /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization/demo_unsupervised_prioritization.rank.selected.table.log 2>&1
+05/20/2021 10:50:50 PM - anadama2.helpers - INFO: Execution complete. Stdout: 
+Stderr: 
+05/20/2021 10:50:50 PM - LoggerReporter - INFO: task 11, finalize_prioritization__selected_unsupervised_priority : completed successfully 
+05/20/2021 10:50:50 PM - LoggerReporter - INFO: AnADAMA run finished.

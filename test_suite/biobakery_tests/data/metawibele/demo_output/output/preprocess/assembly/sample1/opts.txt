@@ -1,0 +1,11 @@
+-1
+/home/hutlab_public/Tutorials/metawibele/Yancong/raw_reads/sample1_R1.fastq.gz
+-2
+/home/hutlab_public/Tutorials/metawibele/Yancong/raw_reads/sample1_R2.fastq.gz
+-t
+4
+-o
+/home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1
+--out-prefix
+sample1
+MEGAHIT_TEMP_DIR: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/

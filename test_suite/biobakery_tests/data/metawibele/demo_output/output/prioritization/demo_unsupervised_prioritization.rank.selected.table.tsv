@@ -1,0 +1,193 @@
+TID	familyID	evidence	value	rank	description	note
+1	Cluster_354	DNA_abundance	1267.6080248039216	0.961489898989899	ranking based on single evidence	
+2	Cluster_354	DNA_prevalence	0.9117647058823529	0.9577020202020202	ranking based on single evidence	
+3	Cluster_354	priority_score	0.9595922215576822	0.9595922215576822	meta ranking based on multiple evidences	
+4	Cluster_357	DNA_abundance	1085.93017167647	0.8762626262626263	ranking based on single evidence	
+5	Cluster_357	DNA_prevalence	0.9117647058823529	0.9577020202020202	ranking based on single evidence	
+6	Cluster_357	priority_score	0.9151741163789358	0.9151741163789358	meta ranking based on multiple evidences	
+7	Cluster_377	DNA_abundance	1185.7471050392166	0.9305555555555556	ranking based on single evidence	
+8	Cluster_377	DNA_prevalence	0.8725490196078431	0.8974116161616161	ranking based on single evidence	
+9	Cluster_377	priority_score	0.9136831098064045	0.9136831098064045	meta ranking based on multiple evidences	
+10	Cluster_353	DNA_abundance	1098.2746660784314	0.8825757575757576	ranking based on single evidence	
+11	Cluster_353	DNA_prevalence	0.8921568627450981	0.9308712121212122	ranking based on single evidence	
+12	Cluster_353	priority_score	0.9060803861064958	0.9060803861064958	meta ranking based on multiple evidences	
+13	Cluster_535	DNA_abundance	1257.5661952058824	0.9602272727272727	ranking based on single evidence	
+14	Cluster_535	DNA_prevalence	0.8333333333333334	0.8128156565656566	ranking based on single evidence	
+15	Cluster_535	priority_score	0.8803935293832037	0.8803935293832037	meta ranking based on multiple evidences	
+16	Cluster_36	DNA_abundance	995.7899993117643	0.8162878787878788	ranking based on single evidence	
+17	Cluster_36	DNA_prevalence	0.8823529411764706	0.9144570707070707	ranking based on single evidence	
+18	Cluster_36	priority_score	0.8625883585075633	0.8625883585075633	meta ranking based on multiple evidences	
+19	Cluster_330	DNA_abundance	963.0484931568624	0.797979797979798	ranking based on single evidence	
+20	Cluster_330	DNA_prevalence	0.8921568627450981	0.9308712121212122	ranking based on single evidence	
+21	Cluster_330	priority_score	0.8593180296667607	0.8593180296667607	meta ranking based on multiple evidences	
+22	Cluster_703	DNA_abundance	1042.5971932745097	0.8459595959595959	ranking based on single evidence	
+23	Cluster_703	DNA_prevalence	0.8431372549019608	0.8361742424242424	ranking based on single evidence	
+24	Cluster_703	priority_score	0.8410384573829872	0.8410384573829872	meta ranking based on multiple evidences	
+25	Cluster_597	DNA_abundance	873.8188716666666	0.764520202020202	ranking based on single evidence	
+26	Cluster_597	DNA_prevalence	0.8627450980392157	0.8797348484848485	ranking based on single evidence	
+27	Cluster_597	priority_score	0.8180909207257835	0.8180909207257835	meta ranking based on multiple evidences	
+28	Cluster_675	DNA_abundance	1032.4516500686277	0.8402777777777778	ranking based on single evidence	
+29	Cluster_675	DNA_prevalence	0.8137254901960784	0.7629419191919192	ranking based on single evidence	
+30	Cluster_675	priority_score	0.7997445910174794	0.7997445910174794	meta ranking based on multiple evidences	
+31	Cluster_89	DNA_abundance	1055.0882466960786	0.8547979797979798	ranking based on single evidence	
+32	Cluster_89	DNA_prevalence	0.803921568627451	0.7329545454545454	ranking based on single evidence	
+33	Cluster_89	priority_score	0.7892011566961865	0.7892011566961865	meta ranking based on multiple evidences	
+34	Cluster_665	DNA_abundance	1033.8395572450981	0.8409090909090909	ranking based on single evidence	
+35	Cluster_665	DNA_prevalence	0.7941176470588235	0.7045454545454546	ranking based on single evidence	
+36	Cluster_665	priority_score	0.7667112299465241	0.7667112299465241	meta ranking based on multiple evidences	
+37	Cluster_628	DNA_abundance	1031.4782586372548	0.8390151515151515	ranking based on single evidence	
+38	Cluster_628	DNA_prevalence	0.7941176470588235	0.7045454545454546	ranking based on single evidence	
+39	Cluster_628	priority_score	0.7659230340211937	0.7659230340211937	meta ranking based on multiple evidences	
+40	Cluster_13	DNA_abundance	922.7674971568626	0.7847222222222222	ranking based on single evidence	
+41	Cluster_13	DNA_prevalence	0.803921568627451	0.7329545454545454	ranking based on single evidence	
+42	Cluster_13	priority_score	0.7579554908485857	0.7579554908485857	meta ranking based on multiple evidences	
+43	Cluster_355	DNA_abundance	737.1235897058825	0.6792929292929293	ranking based on single evidence	
+44	Cluster_355	DNA_prevalence	0.8431372549019608	0.8361742424242424	ranking based on single evidence	
+45	Cluster_355	priority_score	0.7496134012484773	0.7496134012484773	meta ranking based on multiple evidences	
+46	Cluster_389	DNA_abundance	777.4483038235295	0.7095959595959596	ranking based on single evidence	
+47	Cluster_389	DNA_prevalence	0.8235294117647058	0.7888257575757576	ranking based on single evidence	
+48	Cluster_389	priority_score	0.7471162009818003	0.7471162009818003	meta ranking based on multiple evidences	
+49	Cluster_363	DNA_abundance	664.3166090588239	0.6174242424242424	ranking based on single evidence	
+50	Cluster_363	DNA_prevalence	0.8921568627450981	0.9308712121212122	ranking based on single evidence	
+51	Cluster_363	priority_score	0.7424196089333704	0.7424196089333704	meta ranking based on multiple evidences	
+52	Cluster_657	DNA_abundance	714.4183858823532	0.6565656565656566	ranking based on single evidence	
+53	Cluster_657	DNA_prevalence	0.8431372549019608	0.8361742424242424	ranking based on single evidence	
+54	Cluster_657	priority_score	0.7355645693560686	0.7355645693560686	meta ranking based on multiple evidences	
+55	Cluster_721	DNA_abundance	1027.6205969803923	0.8358585858585859	ranking based on single evidence	
+56	Cluster_721	DNA_prevalence	0.7745098039215687	0.6464646464646465	ranking based on single evidence	
+57	Cluster_721	priority_score	0.7290623440538262	0.7290623440538262	meta ranking based on multiple evidences	
+58	Cluster_1012	DNA_abundance	768.8383703921568	0.7026515151515151	ranking based on single evidence	
+59	Cluster_1012	DNA_prevalence	0.803921568627451	0.7329545454545454	ranking based on single evidence	
+60	Cluster_1012	priority_score	0.7174832094027346	0.7174832094027346	meta ranking based on multiple evidences	
+61	Cluster_849	DNA_abundance	710.6624937254904	0.6540404040404041	ranking based on single evidence	
+62	Cluster_849	DNA_prevalence	0.7941176470588235	0.7045454545454546	ranking based on single evidence	
+63	Cluster_849	priority_score	0.6783541737073336	0.6783541737073336	meta ranking based on multiple evidences	
+64	Cluster_164	DNA_abundance	1069.9353185294115	0.86489898989899	ranking based on single evidence	
+65	Cluster_164	DNA_prevalence	0.7352941176470589	0.5397727272727273	ranking based on single evidence	
+66	Cluster_164	priority_score	0.664708886618999	0.664708886618999	meta ranking based on multiple evidences	
+67	Cluster_1051	DNA_abundance	699.6473086274511	0.6458333333333334	ranking based on single evidence	
+68	Cluster_1051	DNA_prevalence	0.7843137254901961	0.678030303030303	ranking based on single evidence	
+69	Cluster_1051	priority_score	0.6615402956604673	0.6615402956604673	meta ranking based on multiple evidences	
+70	Cluster_726	DNA_abundance	673.0119743529413	0.6287878787878788	ranking based on single evidence	
+71	Cluster_726	DNA_prevalence	0.7843137254901961	0.678030303030303	ranking based on single evidence	
+72	Cluster_726	priority_score	0.6524813350900307	0.6524813350900307	meta ranking based on multiple evidences	
+73	Cluster_623	DNA_abundance	616.7667498137256	0.5599747474747475	ranking based on single evidence	
+74	Cluster_623	DNA_prevalence	0.803921568627451	0.7329545454545454	ranking based on single evidence	
+75	Cluster_623	priority_score	0.6348932439630682	0.6348932439630682	meta ranking based on multiple evidences	
+76	Cluster_59	DNA_abundance	672.4695793627449	0.6268939393939394	ranking based on single evidence	
+77	Cluster_59	DNA_prevalence	0.7647058823529411	0.617739898989899	ranking based on single evidence	
+78	Cluster_59	priority_score	0.6222832560963426	0.6222832560963426	meta ranking based on multiple evidences	
+79	Cluster_881	DNA_abundance	750.491405980392	0.6887626262626263	ranking based on single evidence	
+80	Cluster_881	DNA_prevalence	0.7450980392156863	0.5656565656565656	ranking based on single evidence	
+81	Cluster_881	priority_score	0.6211689110531586	0.6211689110531586	meta ranking based on multiple evidences	
+82	Cluster_807	DNA_abundance	561.149197745098	0.494949494949495	ranking based on single evidence	
+83	Cluster_807	DNA_prevalence	0.8235294117647058	0.7888257575757576	ranking based on single evidence	
+84	Cluster_807	priority_score	0.6082511865644397	0.6082511865644397	meta ranking based on multiple evidences	
+85	Cluster_513	DNA_abundance	576.5068271568629	0.5138888888888888	ranking based on single evidence	
+86	Cluster_513	DNA_prevalence	0.803921568627451	0.7329545454545454	ranking based on single evidence	
+87	Cluster_513	priority_score	0.6041772151898733	0.6041772151898733	meta ranking based on multiple evidences	
+88	Cluster_478	DNA_abundance	576.5484710784316	0.514520202020202	ranking based on single evidence	
+89	Cluster_478	DNA_prevalence	0.7941176470588235	0.7045454545454546	ranking based on single evidence	
+90	Cluster_478	priority_score	0.5947224706934702	0.5947224706934702	meta ranking based on multiple evidences	
+91	Cluster_737	DNA_abundance	864.9608586274508	0.7588383838383839	ranking based on single evidence	
+92	Cluster_737	DNA_prevalence	0.7058823529411765	0.46811868686868685	ranking based on single evidence	
+93	Cluster_737	priority_score	0.5790364410765749	0.5790364410765749	meta ranking based on multiple evidences	
+94	Cluster_1036	DNA_abundance	636.7007654901961	0.5827020202020202	ranking based on single evidence	
+95	Cluster_1036	DNA_prevalence	0.7450980392156863	0.5656565656565656	ranking based on single evidence	
+96	Cluster_1036	priority_score	0.5740527873568005	0.5740527873568005	meta ranking based on multiple evidences	
+97	Cluster_565	DNA_abundance	706.7969394215689	0.6502525252525253	ranking based on single evidence	
+98	Cluster_565	DNA_prevalence	0.7254901960784313	0.5123106060606061	ranking based on single evidence	
+99	Cluster_565	priority_score	0.5730979356420574	0.5730979356420574	meta ranking based on multiple evidences	
+100	Cluster_326	DNA_abundance	514.1880157058824	0.43686868686868685	ranking based on single evidence	
+101	Cluster_326	DNA_prevalence	0.7843137254901961	0.678030303030303	ranking based on single evidence	
+102	Cluster_326	priority_score	0.5313668965990597	0.5313668965990597	meta ranking based on multiple evidences	
+103	Cluster_893	DNA_abundance	587.4683120588235	0.5290404040404041	ranking based on single evidence	
+104	Cluster_893	DNA_prevalence	0.7254901960784313	0.5123106060606061	ranking based on single evidence	
+105	Cluster_893	priority_score	0.52054111898004	0.52054111898004	meta ranking based on multiple evidences	
+106	Cluster_578	DNA_abundance	502.3512375294117	0.4273989898989899	ranking based on single evidence	
+107	Cluster_578	DNA_prevalence	0.7745098039215687	0.6464646464646465	ranking based on single evidence	
+108	Cluster_578	priority_score	0.5145873787849096	0.5145873787849096	meta ranking based on multiple evidences	
+109	Cluster_644	DNA_abundance	581.0042183333334	0.5208333333333334	ranking based on single evidence	
+110	Cluster_644	DNA_prevalence	0.7156862745098039	0.4880050505050505	ranking based on single evidence	
+111	Cluster_644	priority_score	0.5038850646641635	0.5038850646641635	meta ranking based on multiple evidences	
+112	Cluster_514	DNA_abundance	641.8443562941176	0.5877525252525253	ranking based on single evidence	
+113	Cluster_514	DNA_prevalence	0.6764705882352942	0.4131944444444444	ranking based on single evidence	
+114	Cluster_514	priority_score	0.4852526367427029	0.4852526367427029	meta ranking based on multiple evidences	
+115	Cluster_483	DNA_abundance	472.63580930392175	0.4097222222222222	ranking based on single evidence	
+116	Cluster_483	DNA_prevalence	0.7254901960784313	0.5123106060606061	ranking based on single evidence	
+117	Cluster_483	priority_score	0.45530925482140816	0.45530925482140816	meta ranking based on multiple evidences	
+118	Cluster_664	DNA_abundance	485.54767676470584	0.4166666666666667	ranking based on single evidence	
+119	Cluster_664	DNA_prevalence	0.7058823529411765	0.46811868686868685	ranking based on single evidence	
+120	Cluster_664	priority_score	0.4408966583422523	0.4408966583422523	meta ranking based on multiple evidences	
+121	Cluster_217	DNA_abundance	317.94596325490204	0.26830808080808083	ranking based on single evidence	
+122	Cluster_217	DNA_prevalence	0.8529411764705882	0.8598484848484849	ranking based on single evidence	
+123	Cluster_217	priority_score	0.40899340353733193	0.40899340353733193	meta ranking based on multiple evidences	
+124	Cluster_620	DNA_abundance	340.96411784313716	0.2935606060606061	ranking based on single evidence	
+125	Cluster_620	DNA_prevalence	0.7647058823529411	0.617739898989899	ranking based on single evidence	
+126	Cluster_620	priority_score	0.3979896820648466	0.3979896820648466	meta ranking based on multiple evidences	
+127	Cluster_1018	DNA_abundance	416.3212969607845	0.36174242424242425	ranking based on single evidence	
+128	Cluster_1018	DNA_prevalence	0.6764705882352942	0.4131944444444444	ranking based on single evidence	
+129	Cluster_1018	priority_score	0.38576035302104544	0.38576035302104544	meta ranking based on multiple evidences	
+130	Cluster_1205	DNA_abundance	571.3443803921571	0.5075757575757576	ranking based on single evidence	
+131	Cluster_1205	DNA_prevalence	0.5784313725490197	0.2676767676767677	ranking based on single evidence	
+132	Cluster_1205	priority_score	0.3505083407363538	0.3505083407363538	meta ranking based on multiple evidences	
+133	Cluster_215	DNA_abundance	246.67965924509807	0.20833333333333334	ranking based on single evidence	
+134	Cluster_215	DNA_prevalence	0.8627450980392157	0.8797348484848485	ranking based on single evidence	
+135	Cluster_215	priority_score	0.3368871482448506	0.3368871482448506	meta ranking based on multiple evidences	
+136	Cluster_740	DNA_abundance	464.9242031274508	0.4015151515151515	ranking based on single evidence	
+137	Cluster_740	DNA_prevalence	0.5686274509803921	0.2534722222222222	ranking based on single evidence	
+138	Cluster_740	priority_score	0.3107630522088353	0.3107630522088353	meta ranking based on multiple evidences	
+139	Cluster_643	DNA_abundance	289.30200107843126	0.24368686868686867	ranking based on single evidence	
+140	Cluster_643	DNA_prevalence	0.6666666666666666	0.3961489898989899	ranking based on single evidence	
+141	Cluster_643	priority_score	0.3017533499773263	0.3017533499773263	meta ranking based on multiple evidences	
+142	Cluster_470	DNA_abundance	331.7344611176472	0.2821969696969697	ranking based on single evidence	
+143	Cluster_470	DNA_prevalence	0.5686274509803921	0.2534722222222222	ranking based on single evidence	
+144	Cluster_470	priority_score	0.2670644274209389	0.2670644274209389	meta ranking based on multiple evidences	
+145	Cluster_864	DNA_abundance	188.9430165686275	0.15088383838383837	ranking based on single evidence	
+146	Cluster_864	DNA_prevalence	0.5196078431372549	0.1985479797979798	ranking based on single evidence	
+147	Cluster_864	priority_score	0.17146510269816503	0.17146510269816503	meta ranking based on multiple evidences	
+148	Cluster_1401	DNA_abundance	179.10073598039216	0.13952020202020202	ranking based on single evidence	
+149	Cluster_1401	DNA_prevalence	0.5098039215686274	0.19160353535353536	ranking based on single evidence	
+150	Cluster_1401	priority_score	0.16146570567447593	0.16146570567447593	meta ranking based on multiple evidences	
+151	Cluster_374	DNA_abundance	192.813612	0.1571969696969697	ranking based on single evidence	
+152	Cluster_374	DNA_prevalence	0.46078431372549017	0.15309343434343434	ranking based on single evidence	
+153	Cluster_374	priority_score	0.1551180677579457	0.1551180677579457	meta ranking based on multiple evidences	
+154	Cluster_841	DNA_abundance	164.24525078431373	0.12184343434343434	ranking based on single evidence	
+155	Cluster_841	DNA_prevalence	0.5294117647058824	0.20801767676767677	ranking based on single evidence	
+156	Cluster_841	priority_score	0.15367430283698225	0.15367430283698225	meta ranking based on multiple evidences	
+157	Cluster_663	DNA_abundance	143.43415024509807	0.09595959595959595	ranking based on single evidence	
+158	Cluster_663	DNA_prevalence	0.47058823529411764	0.16319444444444445	ranking based on single evidence	
+159	Cluster_663	priority_score	0.12085532548382728	0.12085532548382728	meta ranking based on multiple evidences	
+160	Cluster_937	DNA_abundance	260.7324376470588	0.2215909090909091	ranking based on single evidence	
+161	Cluster_937	DNA_prevalence	0.35294117647058826	0.07922979797979798	ranking based on single evidence	
+162	Cluster_937	priority_score	0.11672469712868452	0.11672469712868452	meta ranking based on multiple evidences	
+163	Cluster_407	DNA_abundance	196.69866674509808	0.16161616161616163	ranking based on single evidence	
+164	Cluster_407	DNA_prevalence	0.3627450980392157	0.08806818181818182	ranking based on single evidence	
+165	Cluster_407	priority_score	0.11400988392138836	0.11400988392138836	meta ranking based on multiple evidences	
+166	Cluster_220	DNA_abundance	98.71117458823531	0.058712121212121215	ranking based on single evidence	
+167	Cluster_220	DNA_prevalence	0.7254901960784313	0.5123106060606061	ranking based on single evidence	
+168	Cluster_220	priority_score	0.10535077139554752	0.10535077139554752	meta ranking based on multiple evidences	
+169	Cluster_230	DNA_abundance	96.55410578431375	0.05744949494949495	ranking based on single evidence	
+170	Cluster_230	DNA_prevalence	0.6764705882352942	0.4131944444444444	ranking based on single evidence	
+171	Cluster_230	priority_score	0.10087376108502868	0.10087376108502868	meta ranking based on multiple evidences	
+172	Cluster_289	DNA_abundance	98.98217754901958	0.059343434343434344	ranking based on single evidence	
+173	Cluster_289	DNA_prevalence	0.6176470588235294	0.32039141414141414	ranking based on single evidence	
+174	Cluster_289	priority_score	0.10013896235841373	0.10013896235841373	meta ranking based on multiple evidences	
+175	Cluster_214	DNA_abundance	67.28191690196077	0.03851010101010101	ranking based on single evidence	
+176	Cluster_214	DNA_prevalence	0.7647058823529411	0.617739898989899	ranking based on single evidence	
+177	Cluster_214	priority_score	0.07250049800554852	0.07250049800554852	meta ranking based on multiple evidences	
+178	Cluster_233	DNA_abundance	149.8646996470588	0.10416666666666667	ranking based on single evidence	
+179	Cluster_233	DNA_prevalence	0.27450980392156865	0.04861111111111111	ranking based on single evidence	
+180	Cluster_233	priority_score	0.06628787878787878	0.06628787878787878	meta ranking based on multiple evidences	
+181	Cluster_813	DNA_abundance	96.47664549019606	0.056818181818181816	ranking based on single evidence	
+182	Cluster_813	DNA_prevalence	0.3333333333333333	0.06881313131313131	ranking based on single evidence	
+183	Cluster_813	priority_score	0.06224303334856098	0.06224303334856098	meta ranking based on multiple evidences	
+184	Cluster_361	DNA_abundance	45.92447411764706	0.027146464646464648	ranking based on single evidence	
+185	Cluster_361	DNA_prevalence	0.3627450980392157	0.08806818181818182	ranking based on single evidence	
+186	Cluster_361	priority_score	0.041500622665006225	0.041500622665006225	meta ranking based on multiple evidences	
+187	Cluster_1021	DNA_abundance	18.770534803921567	0.018308080808080808	ranking based on single evidence	
+188	Cluster_1021	DNA_prevalence	0.3627450980392157	0.08806818181818182	ranking based on single evidence	
+189	Cluster_1021	priority_score	0.030314270299433503	0.030314270299433503	meta ranking based on multiple evidences	
+190	Cluster_1002	DNA_abundance	18.727422058823528	0.017676767676767676	ranking based on single evidence	
+191	Cluster_1002	DNA_prevalence	0.058823529411764705	0.013257575757575758	ranking based on single evidence	
+192	Cluster_1002	priority_score	0.015151515151515152	0.015151515151515152	meta ranking based on multiple evidences	

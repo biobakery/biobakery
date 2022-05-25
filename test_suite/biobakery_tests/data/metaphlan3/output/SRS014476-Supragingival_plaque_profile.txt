@@ -1,5 +1,5 @@
 #mpa_v30_CHOCOPhlAn_201901
-#/n/huttenhower_lab/tools/metaphlan3/bin/metaphlan SRS014476-Supragingival_plaque.fasta.gz --input_type fasta --nproc 4
+#/usr/local/bin/metaphlan SRS014476-Supragingival_plaque.fasta.gz --input_type fasta --nproc 4
 #SampleID	Metaphlan_Analysis
 #clade_name	NCBI_tax_id	relative_abundance	additional_species
 k__Bacteria	2	100.0	

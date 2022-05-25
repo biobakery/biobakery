@@ -1,0 +1,870 @@
+"metabolic_feature","HMDB_ID","Metabolite","rank","perturbation","module","module_anchor_metabolite","module_composition","Method","RT","mz"
+"F829","","",1,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.49,795.699
+"F710","","",2,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.02,851.7614
+"F257","","",3,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,773.7169
+"F380","","",4,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,401.378
+"F584","","",5,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.02,455.3862
+"F197","","",6,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,441.3705
+"F93","","",7,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.58,401.3779
+"F623","","",8,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,427.3549
+"F80","","",9,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.01,432.4203
+"F696","","",10,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.74,383.3674
+"F344","","",11,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.02,429.4093
+"F178","","",12,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.02,397.383
+"F15","","",13,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,371.3583
+"F420","","",14,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,389.3688
+"F875","HMDB0000908","5alpha-Cholestanol",15,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","HILIC-pos",1.69,371.3656
+"F394","","",16,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,404.3889
+"F533","","",17,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.02,469.4021
+"F189","","",18,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.76,636.4423
+"F587","","",19,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.02,417.4003
+"F369","","",20,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.75,418.4046
+"F381","","",21,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,369.3517
+"F479","","",22,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,409.3442
+"F806","","",23,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,243.2107
+"F330","","",24,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.49,425.3181
+"F761","","",25,"depleted in IBD",0,"","","C8-pos",8.41,659.5611
+"F477","","",26,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,387.3621
+"F215","","",27,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.83,648.4421
+"F559","HMDB0013325","C10:2 carnitine",28,"enriched in IBD",0,"","","HILIC-pos",7.26,312.2157
+"F737","","",29,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.49,446.3995
+"F727","","",30,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",6.89,266.6062
+"F509","","",31,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.63,430.4045
+"F663","","",32,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.03,650.458
+"F803","","",33,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",6.93,252.5724
+"F591","","",34,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.75,441.3706
+"F548","HMDB0000921","cholestenone",35,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,791.6675
+"F671","","",36,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",1.68,329.1756
+"F190","","",37,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.75,415.3938
+"F1","HMDB0000874","tauroursodeoxycholic acid",38,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",7.26,498.2898
+"F550","","",39,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,418.4046
+"F798","","",40,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",6.67,294.6192
+"F283","HMDB0000921","cholestenone",41,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,769.6855
+"F150","","",42,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",4.23,345.1704
+"F439","","",43,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",8.77,556.3306
+"F233","","",44,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",6.45,573.4121
+"F664","","",45,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,217.1952
+"F794","","",46,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.02,437.3756
+"F773","","",47,"enriched in IBD",1,"","","HILIC-neg",6.87,287.6116
+"F331","","",48,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.75,423.36
+"F644","","",49,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.5,411.3509
+"F307","HMDB0002121","carnosol",50,"depleted in IBD",13,"carnosol","Terpene lactones","C18-neg",10.79,329.1756
+"F138","","",51,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",6.46,786.4944
+"F260","","",52,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.71,271.0038
+"F847","","",53,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",8.66,556.3308
+"F264","","",54,"depleted in IBD",3,"","","C8-pos",10.12,411.3623
+"F250","","",55,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",6.72,300.6375
+"F481","","",56,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",1.67,345.1704
+"F800","","",57,"depleted in IBD",3,"","","C8-pos",10.13,928.683
+"F153","","",58,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.01,415.3935
+"F554","","",59,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",5.78,252.5723
+"F94","","",60,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",3.47,556.3306
+"F194","","",61,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.82,435.3599
+"F741","","",62,"depleted in IBD",3,"","","C8-pos",3.71,572.3387
+"F507","","",63,"depleted in IBD",3,"","","C8-pos",8.66,623.5015
+"F691","","",64,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7.51,821.7145
+"F489","","",65,"depleted in IBD",3,"","","C8-pos",3.71,359.2558
+"F345","","",66,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",3.58,361.2018
+"F406","","",67,"depleted in IBD",0,"","","HILIC-pos",5.28,441.2594
+"F831","","",68,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.75,401.378
+"F2","HMDB0000251","taurine",69,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.72,124.0072
+"F714","","",70,"depleted in IBD",12,"","","HILIC-neg",6.41,319.082
+"F375","","",71,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",9.92,540.336
+"F242","","",72,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",3.02,404.2471
+"F22","","",73,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",9.66,295.1208
+"F174","","",74,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",3.04,329.1756
+"F119","","",75,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","HILIC-neg",4.09,337.1416
+"F539","","",76,"depleted in IBD",4,"","","C18-neg",3.34,329.103
+"F131","","",77,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",6.71,308.635
+"F665","","",78,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",9.71,540.3356
+"F445","","",79,"depleted in IBD",4,"","","HILIC-neg",11.12,343.0819
+"F391","","",80,"depleted in IBD",13,"carnosol","Terpene lactones","C18-neg",12.61,345.2069
+"F133","","",81,"depleted in IBD",0,"","","C18-neg",15.14,493.2939
+"F333","","",82,"depleted in IBD",3,"","","C8-pos",10.13,710.6427
+"F129","","",83,"depleted in IBD",3,"","","C8-pos",10.12,715.5994
+"F108","","",84,"enriched in IBD",1,"","","HILIC-neg",6.94,279.614
+"F195","","",85,"depleted in IBD",0,"","","HILIC-pos",6.31,327.1689
+"F27","","",86,"depleted in IBD",3,"","","C18-neg",5.52,261.0767
+"F159","","",87,"depleted in IBD",0,"","","HILIC-pos",5.16,509.3219
+"F700","","",88,"depleted in IBD",13,"carnosol","Terpene lactones","C8-pos",3.88,353.1725
+"F858","","",89,"depleted in IBD",13,"carnosol","Terpene lactones","C8-pos",3.88,566.2555
+"F3","HMDB0000251","taurine",90,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.1,126.0218
+"F532","","",91,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.1,251.0356
+"F516","","",92,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.74,208.9848
+"F311","","",93,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",8.66,624.3181
+"F649","","",94,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",7.63,435.3599
+"F814","","",95,"depleted in IBD",4,"","","C18-neg",4.3,327.0874
+"F430","","",96,"depleted in IBD",3,"","","C8-pos",9.79,708.628
+"F139","","",97,"depleted in IBD",0,"","","C18-neg",12.32,453.2621
+"F676","","",98,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.7,206.0102
+"F277","","",99,"depleted in IBD",13,"carnosol","Terpene lactones","C18-neg",13.28,499.3427
+"F98","","",100,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",5.79,253.074
+"F657","","",101,"depleted in IBD",3,"","","C8-pos",9.8,713.5842
+"F4","HMDB0000921","cholestenone",102,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,385.3465
+"F45","","",103,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.71,126.003
+"F203","","",104,"depleted in IBD",0,"","","HILIC-pos",1.61,673.5376
+"F293","","",105,"depleted in IBD",13,"carnosol","Terpene lactones","C18-neg",10.34,343.1549
+"F290","","",106,"depleted in IBD",0,"","","C18-neg",12.7,453.2622
+"F123","","",107,"depleted in IBD",3,"","","C8-pos",9.71,747.6262
+"F575","","",108,"depleted in IBD",0,"","","C8-pos",10.35,679.6016
+"F725","","",109,"depleted in IBD",13,"carnosol","Terpene lactones","C8-pos",3.88,331.1906
+"F421","","",110,"depleted in IBD",3,"","","C8-pos",9.59,705.5796
+"F779","","",111,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.71,125.0105
+"F859","","",112,"depleted in IBD",12,"","","C8-pos",2.76,325.1412
+"F851","","",113,"depleted in IBD",5,"","","HILIC-neg",3.89,243.1598
+"F463","","",114,"depleted in IBD",0,"","","HILIC-pos",5.26,455.275
+"F478","","",115,"depleted in IBD",3,"","","HILIC-pos",7.54,274.1063
+"F734","","",116,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.67,385.3448
+"F69","","",117,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-pos",1.66,376.2467
+"F506","","",118,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",9.98,294.6192
+"F846","","",119,"depleted in IBD",13,"carnosol","Terpene lactones","C18-neg",8.99,345.1706
+"F372","","",120,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",1.19,222.0919
+"F231","","",121,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",2.89,388.2525
+"F528","","",122,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7.47,622.4267
+"F294","","",123,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","HILIC-neg",4.54,325.0068
+"F281","","",124,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","C18-neg",13.17,362.237
+"F670","","",125,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",2.92,362.2369
+"F783","","",126,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",6.69,301.6272
+"F5","HMDB0000921","cholestenone",127,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,407.3285
+"F112","","",128,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",3.63,246.0076
+"F235","","",129,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",9.78,294.6192
+"F435","","",130,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.84,124.9913
+"F220","","",131,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",6.99,620.411
+"F286","","",132,"depleted in IBD",3,"","","C8-pos",8.34,621.486
+"F7","","",133,"depleted in IBD",3,"","","C8-pos",9.98,651.5886
+"F684","","",134,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-pos",1.8,380.2419
+"F720","","",135,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.47,180.0335
+"F877","","",136,"depleted in IBD",13,"carnosol","Terpene lactones","C18-neg",8.52,345.1706
+"F484","","",137,"depleted in IBD",4,"","","HILIC-pos",8.17,194.1169
+"F681","","",138,"enriched in IBD",1,"","","C18-neg",7.43,279.614
+"F648","","",139,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.31,206.0451
+"F19","","",140,"depleted in IBD",13,"carnosol","Terpene lactones","C18-neg",10.79,285.186
+"F398","","",141,"depleted in IBD",3,"","","HILIC-pos",8.06,208.0961
+"F309","","",142,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","C18-neg",0.75,124.006
+"F183","","",143,"depleted in IBD",3,"","","C8-pos",8.74,618.5449
+"F34","","",144,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,409.3351
+"F824","","",145,"depleted in IBD",3,"","","HILIC-pos",6.48,230.1167
+"F724","","",146,"enriched in IBD",1,"","","C18-neg",18.94,485.2726
+"F882","","",147,"depleted in IBD",0,"","","HILIC-neg",3.13,496.3137
+"F162","","",148,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",6.67,295.1207
+"F249","","",149,"depleted in IBD",0,"","","C8-pos",10.39,679.6198
+"F753","","",150,"depleted in IBD",0,"","","C18-neg",11.67,439.2463
+"F709","","",151,"depleted in IBD",6,"","","C8-pos",4.45,641.473
+"F715","","",152,"depleted in IBD",3,"","","HILIC-pos",6.9,232.0959
+"F253","","",153,"depleted in IBD",9,"","","C8-pos",6.15,761.6033
+"F382","","",154,"depleted in IBD",3,"","","HILIC-pos",8.55,238.1064
+"F241","","",155,"depleted in IBD",3,"","","HILIC-pos",6.54,357.1794
+"F350","","",156,"depleted in IBD",3,"","","C8-pos",9.02,603.5325
+"F495","","",157,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.3,184.0633
+"F505","","",158,"depleted in IBD",5,"","","C8-pos",10.06,834.5471
+"F113","","",159,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.67,321.0848
+"F743","","",160,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.67,387.3515
+"F188","","",161,"depleted in IBD",0,"","","HILIC-neg",1.17,587.3439
+"F449","","",162,"depleted in IBD",5,"","","C8-pos",10.05,629.4934
+"F519","","",163,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",3.77,361.2019
+"F321","","",164,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",3.1,442.1903
+"F85","","",165,"depleted in IBD",6,"","","C8-pos",4.45,619.4911
+"F770","","",166,"depleted in IBD",3,"","","HILIC-neg",6.66,259.0609
+"F564","","",167,"depleted in IBD",5,"","","C8-pos",10.06,535.4304
+"F721","","",168,"depleted in IBD",5,"","","C8-pos",10.15,653.5636
+"F887","","",169,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","HILIC-pos",1.7,399.3967
+"F120","","",170,"enriched in IBD",12,"","","HILIC-neg",6.71,401.1813
+"F837","","",171,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,387.353
+"F618","","",172,"depleted in IBD",13,"carnosol","Terpene lactones","C18-neg",13.28,453.3371
+"F20","","",173,"depleted in IBD",5,"","","C8-pos",10.06,567.4564
+"F627","","",174,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","C18-neg",0.74,124.9901
+"F169","","",175,"depleted in IBD",5,"","","C8-pos",9.96,683.5013
+"F236","","",176,"depleted in IBD",5,"","","C8-pos",10.06,621.4646
+"F638","","",177,"depleted in IBD",3,"","","HILIC-pos",9.02,238.1065
+"F77","","",178,"depleted in IBD",3,"","","HILIC-pos",8.66,222.1117
+"F678","","",179,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.6,166.0177
+"F862","","",180,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.68,430.4025
+"F158","","",181,"depleted in IBD",5,"","","C8-pos",9.87,571.4879
+"F620","","",182,"depleted in IBD",5,"","","C8-pos",10.06,597.4672
+"F234","","",183,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","C18-neg",12.28,386.2369
+"F33","","",184,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.1,128.0174
+"F156","","",185,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-pos",1.95,504.3123
+"F689","","",186,"depleted in IBD",5,"","","C8-pos",10.3,562.535
+"F751","","",187,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",6.99,416.389
+"F596","","",188,"depleted in IBD",4,"","","HILIC-neg",4.69,228.0513
+"F630","HMDB0000921","cholestenone",189,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,443.3997
+"F659","","",190,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.1,167.0479
+"F756","","",191,"depleted in IBD",3,"","","HILIC-pos",4.49,272.0906
+"F499","","",192,"depleted in IBD",0,"","","C8-pos",4.83,469.2924
+"F141","","",193,"depleted in IBD",3,"","","C8-pos",9.36,729.5785
+"F503","","",194,"depleted in IBD",5,"","","C8-pos",9.95,607.4477
+"F697","","",195,"depleted in IBD",5,"","","C8-pos",10.15,648.608
+"F739","","",196,"depleted in IBD",5,"","","C8-pos",10.38,567.5108
+"F527","","",197,"depleted in IBD",5,"","","C8-pos",10.38,562.5552
+"F415","","",198,"depleted in IBD",3,"","","HILIC-pos",7.62,218.1168
+"F353","","",199,"depleted in IBD",0,"","","C8-pos",4.96,495.3088
+"F43","","",200,"depleted in IBD",5,"","","C8-pos",10.07,637.4386
+"F786","","",201,"depleted in IBD",3,"","","HILIC-pos",8.9,220.096
+"F212","","",202.5,"depleted in IBD",3,"","","C18-neg",6.51,429.1585
+"F306","","",202.5,"depleted in IBD",5,"","","C8-pos",9.87,625.496
+"F403","","",204,"depleted in IBD",3,"","","C18-neg",10.92,311.1839
+"F639","","",205,"depleted in IBD",5,"","","C8-pos",9.09,553.4402
+"F160","","",206,"depleted in IBD",5,"","","C8-pos",9.96,599.4823
+"F72","","",207,"depleted in IBD",5,"","","C8-pos",10.06,536.438
+"F67","","",208,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","C18-neg",10.61,406.263
+"F500","","",209,"depleted in IBD",5,"","","C8-pos",10.06,553.4412
+"F552","","",210,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",6.99,423.3025
+"F204","","",211,"depleted in IBD",5,"","","C8-pos",9.96,553.4403
+"F95","","",212,"depleted in IBD",5,"","","C8-pos",8.82,581.4701
+"F325","","",213,"depleted in IBD",4,"","","HILIC-pos",8.66,196.1326
+"F622","","",214,"depleted in IBD",5,"","","C8-pos",9.57,622.4685
+"F47","","",215,"depleted in IBD",9,"","","C8-pos",6.15,523.3378
+"F845","","",216,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.1,148.0033
+"F825","","",217,"depleted in IBD",3,"","","HILIC-pos",7.09,234.1481
+"F413","","",218,"depleted in IBD",4,"","","HILIC-pos",7.84,206.1169
+"F838","","",219,"depleted in IBD",12,"","","HILIC-neg",2.2,167.0824
+"F579","","",220,"depleted in IBD",3,"","","HILIC-pos",8.6,210.1118
+"F467","","",221,"depleted in IBD",3,"","","HILIC-pos",6.98,178.122
+"F574","","",222,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.41,194.0501
+"F186","","",223,"depleted in IBD",8,"","","C18-neg",13.17,297.2434
+"F683","","",224,"depleted in IBD",4,"","","C18-neg",5.23,413.1639
+"F633","","",225,"depleted in IBD",5,"","","C8-pos",9.94,631.4736
+"F699","","",226,"depleted in IBD",3,"","","HILIC-pos",6.34,198.127
+"F661","","",227,"depleted in IBD",13,"carnosol","Terpene lactones","C8-pos",4.4,287.2006
+"F562","","",228,"depleted in IBD",4,"","","HILIC-pos",7.67,110.06
+"F13","","",229,"depleted in IBD",0,"","","C8-pos",5.36,497.3238
+"F127","","",230,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",3.21,343.1547
+"F207","","",231,"depleted in IBD",5,"","","C8-pos",10.07,598.4735
+"F879","","",232,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",8.23,573.4867
+"F408","","",233,"depleted in IBD",0,"","","HILIC-neg",1.1,573.3637
+"F262","","",234,"depleted in IBD",5,"","","C8-pos",10.06,607.449
+"F799","","",235,"depleted in IBD",5,"","","C8-pos",10.14,565.4755
+"F765","","",236,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",3.38,194.049
+"F146","","",237,"depleted in IBD",5,"","","C8-pos",9.14,581.4696
+"F482","","",238,"depleted in IBD",3,"","","HILIC-pos",7.02,190.122
+"F327","","",239,"depleted in IBD",3,"","","HILIC-pos",7.7,166.1221
+"F332","","",240,"depleted in IBD",5,"","","HILIC-pos",1.5,581.433
+"F202","","",241,"depleted in IBD",8,"","","C18-neg",13.17,595.4934
+"F60","","",242,"depleted in IBD",3,"","","HILIC-pos",4.94,220.0961
+"F595","","",243,"depleted in IBD",8,"","","HILIC-neg",3.2,297.2432
+"F71","","",244,"depleted in IBD",4,"","","HILIC-neg",3.79,223.0609
+"F646","","",245,"depleted in IBD",4,"","","HILIC-pos",7.67,178.122
+"F46","","",246,"depleted in IBD",3,"","","HILIC-pos",5.62,352.1586
+"F376","","",247,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",8.98,556.3325
+"F643","","",248,"depleted in IBD",3,"","","HILIC-pos",7.32,192.1013
+"F422","","",249,"depleted in IBD",5,"","","C8-pos",8.98,543.4925
+"F810","","",250,"depleted in IBD",3,"","","C8-pos",5.64,441.3717
+"F730","","",251,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",3.44,345.2068
+"F614","","",252,"depleted in IBD",3,"","","HILIC-pos",6.6,204.1012
+"F400","","",253,"depleted in IBD",0,"","","C18-neg",14.47,493.2932
+"F762","","",254,"depleted in IBD",5,"","","C8-pos",9.88,563.4608
+"F518","","",255,"depleted in IBD",3,"","","C18-neg",3.01,431.1744
+"F366","","",256,"depleted in IBD",3,"","","HILIC-pos",7.64,257.1849
+"F6","","",257,"depleted in IBD",4,"","","HILIC-neg",7,261.0614
+"F102","","",258,"depleted in IBD",4,"","","HILIC-pos",8.12,152.1065
+"F675","","",259,"depleted in IBD",5,"","","C8-pos",8.97,583.486
+"F248","","",260,"depleted in IBD",4,"","","HILIC-pos",8.18,166.122
+"F883","","",261,"depleted in IBD",3,"","","HILIC-pos",6.28,258.1115
+"F285","","",262,"depleted in IBD",3,"","","C18-neg",10.93,243.1961
+"F582","","",263,"depleted in IBD",3,"","","C18-neg",5.06,349.2021
+"F537","","",264,"depleted in IBD",3,"","","HILIC-pos",7.38,178.122
+"F157","","",265,"depleted in IBD",3,"","","HILIC-pos",6.64,174.0907
+"F658","","",266,"depleted in IBD",8,"","","HILIC-neg",3.2,299.2498
+"F578","","",267,"depleted in IBD",3,"","","HILIC-neg",4.96,339.08
+"F298","","",268,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.67,411.3605
+"F759","","",269,"depleted in IBD",4,"","","HILIC-pos",8.09,178.122
+"F117","","",270,"depleted in IBD",3,"","","HILIC-neg",6.26,275.0564
+"F654","","",271,"depleted in IBD",5,"","","C8-pos",8.98,578.5296
+"F165","","",272,"depleted in IBD",3,"","","HILIC-pos",7.86,188.1064
+"F647","","",273,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.67,413.3761
+"F785","","",274,"depleted in IBD",4,"","","HILIC-pos",7.42,124.0755
+"F226","","",275,"depleted in IBD",5,"","","C8-pos",10.3,567.4906
+"F440","","",276,"enriched in IBD",1,"","","C8-pos",3.47,542.1803
+"F848","","",277,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",8.72,402.1918
+"F193","","",278,"depleted in IBD",4,"","","HILIC-neg",7.26,227.059
+"F651","","",279,"enriched in IBD",12,"","","HILIC-pos",7.86,158.0919
+"F229","","",280,"depleted in IBD",5,"","","C8-pos",10.5,567.4907
+"F365","","",281,"depleted in IBD",6,"","","C8-pos",4.45,313.2738
+"F632","","",282,"depleted in IBD",8,"","","C18-neg",13.17,365.2304
+"F111","","",283,"depleted in IBD",3,"","","HILIC-pos",6.57,200.1062
+"F535","","",284,"depleted in IBD",6,"","","HILIC-pos",1.64,299.2569
+"F272","","",285,"depleted in IBD",0,"","","HILIC-pos",5.19,517.2882
+"F48","","",286,"depleted in IBD",6,"","","C8-pos",4.45,299.2582
+"F355","","",287,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-neg",6.51,315.6426
+"F404","","",288,"depleted in IBD",9,"","","C8-pos",6.13,607.4978
+"F145","","",289,"depleted in IBD",4,"","","HILIC-pos",7.78,228.1222
+"F702","","",290,"depleted in IBD",5,"","","C8-pos",10.3,545.5084
+"F59","","",291,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","C18-neg",6.88,442.1903
+"F40","","",292,"depleted in IBD",9,"","","C8-pos",6.13,613.5145
+"F255","","",293,"depleted in IBD",6,"","","C8-pos",4.45,321.2401
+"F456","","",294,"depleted in IBD",4,"","","HILIC-pos",6.44,244.1323
+"F778","","",295,"depleted in IBD",4,"","","HILIC-pos",6.71,176.07
+"F100","","",296,"depleted in IBD",6,"","","HILIC-pos",1.64,253.2516
+"F707","","",297,"depleted in IBD",4,"","","HILIC-pos",7.23,124.0755
+"F196","","",298,"depleted in IBD",5,"","","C8-pos",10.06,551.4254
+"F834","","",299,"depleted in IBD",6,"","","C8-pos",4.45,316.2847
+"F182","","",300,"depleted in IBD",6,"","","C8-pos",4.45,253.2527
+"F37","","",301,"depleted in IBD",4,"","","HILIC-pos",8.62,168.1013
+"F466","","",302,"depleted in IBD",6,"","","C8-pos",4.45,315.2803
+"F520","","",303,"depleted in IBD",8,"","","C18-neg",13.17,343.2486
+"F487","","",304,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",2.99,406.2629
+"F446","","",305,"depleted in IBD",6,"","","C8-pos",4.45,534.323
+"F142","","",306,"depleted in IBD",5,"","","C8-pos",10.07,543.4929
+"F854","","",307,"depleted in IBD",4,"","","C18-neg",6.1,377.1969
+"F822","","",308,"depleted in IBD",3,"","","C18-neg",8.84,483.3325
+"F392","","",309,"depleted in IBD",5,"","","HILIC-pos",1.57,535.4278
+"F433","","",310,"depleted in IBD",12,"","","HILIC-pos",7.84,254.1126
+"F558","","",311,"depleted in IBD",13,"carnosol","Terpene lactones","C8-pos",3.88,285.1853
+"F606","","",312,"depleted in IBD",4,"","","HILIC-pos",8.77,152.0701
+"F570","","",313,"depleted in IBD",4,"","","HILIC-pos",8.98,212.1275
+"F154","","",314,"depleted in IBD",12,"","","HILIC-pos",7.9,290.1224
+"F645","","",315,"depleted in IBD",3,"","","HILIC-pos",1.92,307.1159
+"F602","","",316,"enriched in IBD",1,"","","C18-neg",15.55,588.8969
+"F374","","",317,"depleted in IBD",5,"","","HILIC-pos",1.49,536.4356
+"F198","","",318,"depleted in IBD",3,"","","HILIC-pos",6.45,188.1063
+"F12","","",319,"depleted in IBD",4,"","","HILIC-neg",10.03,297.0624
+"F315","","",320,"depleted in IBD",5,"","","HILIC-neg",2.61,188.1289
+"F191","","",321,"depleted in IBD",5,"","","C8-pos",8.91,599.48
+"F441","","",322,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.67,399.3605
+"F305","","",323,"depleted in IBD",5,"","","C8-pos",10.05,583.4517
+"F55","","",324,"depleted in IBD",4,"","","HILIC-neg",4.4,319.1911
+"F373","","",325,"depleted in IBD",4,"","","C18-neg",6.32,319.1913
+"F624","","",326,"enriched in IBD",1,"","","C18-neg",15.55,520.9095
+"F797","","",327,"depleted in IBD",5,"","","C8-pos",9.57,536.438
+"F510","","",328,"depleted in IBD",8,"","","C18-neg",13.17,433.218
+"F884","","",329,"depleted in IBD",3,"","","HILIC-pos",7.45,192.1013
+"F279","","",330,"depleted in IBD",6,"","","HILIC-pos",1.64,316.2833
+"F524","","",331,"depleted in IBD",4,"","","HILIC-pos",8.56,208.1325
+"F760","","",332,"enriched in IBD",1,"","","HILIC-neg",6.98,413.1449
+"F97","","",333,"depleted in IBD",4,"","","C18-neg",5.46,481.151
+"F324","","",334,"depleted in IBD",9,"","","C8-pos",6.12,1077.7253
+"F459","","",335,"depleted in IBD",5,"","","C8-pos",10.3,576.5498
+"F766","","",336,"depleted in IBD",5,"","","HILIC-pos",1.6,584.4562
+"F635","","",337,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-pos",1.66,331.189
+"F747","","",338,"depleted in IBD",5,"","","C8-pos",10.3,583.4647
+"F895","","",339,"depleted in IBD",4,"","","C18-neg",5.46,413.1639
+"F732","","",340,"depleted in IBD",9,"","","C8-pos",6.12,307.2612
+"F543","","",341,"depleted in IBD",4,"","","HILIC-pos",4.09,238.0701
+"F607","","",342,"depleted in IBD",4,"","","HILIC-neg",3.19,253.0714
+"F418","","",343,"depleted in IBD",0,"","","HILIC-pos",5.17,497.3219
+"F319","","",344,"depleted in IBD",3,"","","HILIC-pos",7.06,204.1013
+"F612","","",345,"depleted in IBD",4,"","","HILIC-neg",3.84,193.0501
+"F594","","",346,"depleted in IBD",9,"","","C8-pos",6.13,411.246
+"F167","","",347,"depleted in IBD",6,"","","C8-pos",4.45,330.3004
+"F793","","",348,"depleted in IBD",9,"","","C8-pos",6.15,711.4837
+"F850","","",349,"depleted in IBD",5,"","","HILIC-pos",1.51,567.4537
+"F821","","",350,"depleted in IBD",6,"","","C8-pos",4.45,263.2371
+"F271","","",351,"depleted in IBD",4,"","","HILIC-pos",8.83,224.1273
+"F86","","",352,"depleted in IBD",6,"","","C8-pos",4.45,281.2477
+"F808","","",353,"depleted in IBD",3,"","","HILIC-pos",7.89,254.1377
+"F310","","",354,"depleted in IBD",12,"","","HILIC-pos",7.72,212.1022
+"F359","","",355,"depleted in IBD",4,"","","HILIC-pos",8.69,194.1169
+"F534","","",356,"depleted in IBD",4,"","","HILIC-neg",3.85,193.0505
+"F447","","",357,"depleted in IBD",3,"","","HILIC-neg",4.1,236.0923
+"F337","","",358,"depleted in IBD",6,"","","HILIC-pos",1.64,344.3144
+"F526","","",359,"depleted in IBD",4,"","","HILIC-neg",7.54,413.1636
+"F201","","",360,"depleted in IBD",2,"","","HILIC-neg",2.5,250.1447
+"F411","","",361,"depleted in IBD",6,"","","C8-pos",4.46,479.1973
+"F152","","",362,"depleted in IBD",9,"","","C8-pos",6.13,697.4669
+"F758","","",363,"depleted in IBD",3,"","","C18-neg",4.08,391.1764
+"F491","","",364,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.67,397.3448
+"F74","","",365,"depleted in IBD",0,"","","C18-neg",13.83,467.2774
+"F819","","",366,"enriched in IBD",2,"","","HILIC-neg",1.13,214.0818
+"F628","","",367,"depleted in IBD",3,"","","HILIC-pos",6.53,162.102
+"F30","","",368,"depleted in IBD",5,"","","HILIC-pos",1.49,444.3733
+"F561","","",369,"depleted in IBD",5,"","","HILIC-pos",1.5,554.4415
+"F722","","",370,"depleted in IBD",9,"","","C8-pos",6.13,629.4794
+"F680","","",371,"depleted in IBD",9,"","","C8-pos",6.14,779.4702
+"F317","","",372,"enriched in IBD",2,"","","HILIC-neg",15.23,285.0469
+"F31","","",373,"enriched in IBD",2,"","","HILIC-neg",1.26,139.0512
+"F745","","",374,"depleted in IBD",12,"","","HILIC-pos",7.87,308.1328
+"F693","","",375,"depleted in IBD",9,"","","C8-pos",6.13,635.4964
+"F653","","",376,"enriched in IBD",12,"","","HILIC-pos",5.86,269.1121
+"F868","","",377,"depleted in IBD",3,"","","HILIC-pos",1.92,289.117
+"F716","","",378,"depleted in IBD",0,"","","HILIC-pos",5.22,469.2907
+"F511","","",379,"depleted in IBD",4,"","","HILIC-pos",8.47,94.0654
+"F364","","",380,"depleted in IBD",4,"","","HILIC-pos",8,214.1065
+"F63","","",381,"depleted in IBD",9,"","","C8-pos",6.13,1003.7202
+"F328","","",382,"depleted in IBD",4,"","","HILIC-neg",2.98,231.1136
+"F828","","",383,"depleted in IBD",3,"","","C18-neg",12.43,421.2731
+"F772","","",384,"enriched in IBD",1,"","","HILIC-neg",6.48,340.0638
+"F812","","",385,"depleted in IBD",4,"","","HILIC-pos",8.47,95.0687
+"F360","","",386,"enriched in IBD",1,"","","C18-neg",17.56,491.9334
+"F300","","",387,"depleted in IBD",9,"","","C8-pos",6.13,329.2429
+"F436","","",388,"depleted in IBD",0,"","","HILIC-pos",5.19,495.3063
+"F144","","",389,"enriched in IBD",3,"","","C8-pos",8.72,601.5173
+"F784","","",390,"depleted in IBD",4,"","","C18-neg",1.02,236.056
+"F393","","",391,"depleted in IBD",9,"","","C8-pos",6.13,765.4544
+"F276","","",392,"enriched in IBD",1,"","","C18-neg",15.76,588.8968
+"F687","","",393,"depleted in IBD",9,"","","C8-pos",6.13,1009.738
+"F827","","",394,"depleted in IBD",5,"","","HILIC-neg",1.11,161.0719
+"F577","","",395,"depleted in IBD",3,"","","C18-neg",2.43,415.1796
+"F885","","",396,"depleted in IBD",3,"","","HILIC-pos",6.72,232.1323
+"F299","","",397,"depleted in IBD",0,"","","HILIC-neg",10.9,295.8921
+"F313","","",398,"depleted in IBD",3,"","","HILIC-pos",6.73,176.1064
+"F705","","",399,"enriched in IBD",0,"","","C18-neg",14.03,470.2907
+"F171","","",400,"depleted in IBD",4,"","","HILIC-neg",6.93,133.0505
+"F318","","",401,"depleted in IBD",5,"","","HILIC-pos",1.49,538.4425
+"F767","","",402,"depleted in IBD",2,"","","HILIC-neg",1.16,539.3224
+"F92","","",403,"enriched in IBD",2,"","","HILIC-neg",1.67,112.9855
+"F9","","",404,"depleted in IBD",4,"","","HILIC-pos",8.02,201.1015
+"F387","","",405,"depleted in IBD",3,"","","HILIC-pos",6.42,164.1428
+"F497","","",406,"depleted in IBD",4,"","","HILIC-neg",3.77,193.0507
+"F218","","",407,"enriched in IBD",1,"","","C18-neg",18.76,559.9206
+"F423","","",408,"enriched in IBD",1,"","","C18-neg",15.77,520.9095
+"F78","","",409,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",6.99,484.4149
+"F791","","",410.5,"depleted in IBD",0,"","","HILIC-neg",1.02,615.3725
+"F881","","",410.5,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,580.5087
+"F504","","",412,"depleted in IBD",12,"","","C18-neg",3.75,337.121
+"F640","","",413,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7.06,853.704
+"F763","","",414,"enriched in IBD",2,"","","HILIC-neg",15.45,214.0811
+"F531","","",415,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,475.316
+"F864","","",416,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,582.5246
+"F368","","",417,"enriched in IBD",2,"","","HILIC-neg",15.57,285.042
+"F379","","",418,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",6.52,405.3128
+"F429","HMDB0000921","cholestenone",419,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,425.3392
+"F396","","",420,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,430.4045
+"F490","","",421,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.3,229.1209
+"F137","","",422,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,385.1473
+"F896","","",423,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.3,185.0666
+"F278","","",424,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.1,127.025
+"F270","","",425,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,506.3974
+"F81","","",426,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.32,208.0409
+"F206","","",427,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.1,398.0316
+"F342","","",428,"depleted in IBD",9,"","","C8-pos",6.14,351.251
+"F90","","",429,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",4.06,141.9987
+"F625","","",430,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.1,108.0114
+"F269","","",431,"depleted in IBD",2,"","","C18-neg",0.61,160.8408
+"F110","","",432,"enriched in IBD",8,"","","C8-pos",4.66,414.358
+"F53","","",433,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","C8-pos",6.45,568.4557
+"F813","","",434,"enriched in IBD",1,"","","C18-neg",17.42,423.9464
+"F155","","",435,"depleted in IBD",12,"","","HILIC-pos",7.8,250.1276
+"F322","","",436,"depleted in IBD",3,"","","HILIC-pos",1.91,330.1322
+"F462","","",437,"depleted in IBD",5,"","","C8-pos",10.3,327.3035
+"F261","","",438,"depleted in IBD",5,"","","C8-pos",9.86,691.5291
+"F221","","",439,"enriched in IBD",2,"","","HILIC-neg",1.65,207.0684
+"F91","","",440,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.3,207.0485
+"F619","","",441,"enriched in IBD",1,"","","C18-neg",18.76,491.9333
+"F817","","",442,"depleted in IBD",6,"","","HILIC-pos",2.99,299.2572
+"F832","","",443,"depleted in IBD",4,"","","HILIC-pos",6.14,239.1322
+"F425","","",444,"depleted in IBD",9,"","","C8-pos",6.13,771.4714
+"F461","","",445,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",6.13,169.9852
+"F225","","",446,"depleted in IBD",6,"","","HILIC-pos",3.17,299.2572
+"F199","","",447,"depleted in IBD",4,"","","HILIC-pos",8.09,266.1376
+"F668","","",448,"depleted in IBD",4,"","","HILIC-pos",8.18,108.0807
+"F475","","",449,"depleted in IBD",4,"","","HILIC-pos",8.42,138.0909
+"F448","","",450,"depleted in IBD",4,"","","HILIC-pos",7.67,194.1169
+"F148","","",451,"depleted in IBD",4,"","","HILIC-pos",4.32,224.1273
+"F853","","",452,"depleted in IBD",2,"","","HILIC-neg",1.16,573.3276
+"F301","","",453,"depleted in IBD",5,"","","C8-pos",10.31,463.4297
+"F609","","",454,"depleted in IBD",4,"","","HILIC-pos",7.74,280.1533
+"F259","","",455,"depleted in IBD",6,"","","C8-pos",4.45,541.1679
+"F744","","",456,"enriched in IBD",0,"","","C18-neg",6.01,437.1496
+"F289","","",457,"depleted in IBD",6,"","","HILIC-pos",1.98,300.2604
+"F891","","",458,"depleted in IBD",5,"","","C8-pos",7.68,599.4807
+"F399","","",459,"depleted in IBD",6,"","","C8-pos",4.46,751.1471
+"F134","","",460,"depleted in IBD",12,"","","HILIC-pos",7.61,308.1328
+"F801","","",461,"depleted in IBD",12,"","","HILIC-pos",7.48,202.1067
+"F545","","",462,"enriched in IBD",3,"","","C8-pos",3.01,577.3677
+"F295","","",463,"depleted in IBD",6,"","","C8-pos",4.45,343.2221
+"F348","","",464,"depleted in IBD",5,"","","C8-pos",9.42,629.4923
+"F593","","",465,"enriched in IBD",2,"","","HILIC-neg",15.53,208.0719
+"F522","","",466,"depleted in IBD",9,"","","C8-pos",6.13,703.4836
+"F288","","",467,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,602.4908
+"F128","","",468,"depleted in IBD",5,"","","C8-pos",7.05,443.3307
+"F343","","",469,"depleted in IBD",6,"","","C8-pos",4.46,337.2139
+"F893","","",470,"enriched in IBD",2,"","","HILIC-neg",1.71,214.0801
+"F775","","",471,"depleted in IBD",6,"","","C8-pos",4.46,221.2265
+"F701","","",472,"enriched in IBD",1,"","","C18-neg",17.42,355.9587
+"F485","","",473,"depleted in IBD",6,"","","C8-pos",4.46,609.1552
+"F880","","",474,"depleted in IBD",8,"","","C18-neg",13.17,617.4753
+"F655","","",475,"depleted in IBD",4,"","","HILIC-pos",7.61,122.0963
+"F768","","",476,"depleted in IBD",6,"","","C8-pos",4.46,405.1928
+"F867","","",477,"depleted in IBD",5,"","","C8-pos",10.38,545.5254
+"F49","","",478,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",7,604.5075
+"F592","","",479,"depleted in IBD",3,"","","HILIC-pos",4.17,276.1219
+"F774","","",480,"depleted in IBD",9,"","","C8-pos",6.16,833.442
+"F370","","",481,"depleted in IBD",6,"","","C8-pos",4.46,555.1845
+"F771","","",482,"depleted in IBD",5,"","","C8-pos",9.57,535.43
+"F432","","",483,"enriched in IBD",1,"","","C18-neg",18.76,452.9226
+"F674","","",484,"depleted in IBD",6,"","","C8-pos",4.46,615.1722
+"F308","","",485,"depleted in IBD",4,"","","HILIC-pos",4.9,222.0753
+"F568","","",486,"depleted in IBD",4,"","","HILIC-pos",6.68,209.1277
+"F312","","",487,"depleted in IBD",6,"","","C8-pos",4.46,211.1696
+"F586","","",488,"enriched in IBD",1,"","","C18-neg",18.76,588.8969
+"F336","","",489,"depleted in IBD",4,"","","HILIC-pos",7.9,274.1425
+"F536","","",490,"depleted in IBD",8,"","","C18-neg",13.18,335.2171
+"F395","","",491,"depleted in IBD",9,"","","C8-pos",6.13,341.2366
+"F752","","",492,"depleted in IBD",12,"","","HILIC-pos",8.36,275.159
+"F872","","",493,"enriched in IBD",1,"","","C18-neg",18.93,646.8556
+"F557","","",494,"depleted in IBD",9,"","","C8-pos",6.11,428.8909
+"F39","","",495,"depleted in IBD",2,"","","HILIC-neg",1.06,514.3245
+"F566","","",496,"depleted in IBD",9,"","","C8-pos",6.14,1071.7086
+"F852","","",497,"depleted in IBD",4,"","","HILIC-pos",7.88,279.1693
+"F88","","",498,"depleted in IBD",6,"","","HILIC-pos",1.64,301.2637
+"F280","","",499,"depleted in IBD",6,"","","HILIC-pos",1.64,71.0851
+"F79","","",500,"depleted in IBD",6,"","","C8-pos",4.45,683.1598
+"F438","","",501,"depleted in IBD",6,"","","C8-pos",4.46,547.1849
+"F89","","",502,"depleted in IBD",5,"","","C8-pos",10.5,583.4649
+"F416","","",503,"depleted in IBD",8,"","","C18-neg",13.17,299.2489
+"F254","","",504,"depleted in IBD",4,"","","HILIC-pos",7.78,248.1387
+"F679","","",505,"depleted in IBD",6,"","","C8-pos",4.46,473.1807
+"F143","","",506,"depleted in IBD",12,"","","HILIC-pos",8.76,375.1747
+"F65","","",507,"depleted in IBD",6,"","","C8-pos",4.45,323.2465
+"F361","","",508,"depleted in IBD",11,"cholestenone","Cholestane steroids","C8-pos",6.52,383.3311
+"F468","","",509,"depleted in IBD",8,"","","C18-neg",13.17,397.1683
+"F180","","",510,"depleted in IBD",8,"","","C18-neg",13.17,355.2021
+"F219","","",511,"depleted in IBD",9,"","","C8-pos",6.19,813.1544
+"F488","","",512,"depleted in IBD",6,"","","HILIC-pos",2.07,344.3146
+"F839","","",513,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.68,109.0648
+"F764","","",514,"depleted in IBD",6,"","","C8-pos",4.46,301.2646
+"F650","","",515,"depleted in IBD",6,"","","C8-pos",4.46,677.1431
+"F351","","",516,"depleted in IBD",6,"","","C8-pos",4.45,225.185
+"F792","","",517,"depleted in IBD",12,"","","HILIC-pos",7.79,314.1221
+"F735","","",518,"depleted in IBD",4,"","","HILIC-pos",8.01,266.1489
+"F790","","",519,"depleted in IBD",6,"","","C8-pos",4.46,235.2421
+"F605","","",520,"depleted in IBD",8,"","","HILIC-neg",1.1,553.3383
+"F476","","",521,"depleted in IBD",6,"","","C8-pos",4.45,411.2097
+"F122","","",522,"depleted in IBD",2,"","","C18-neg",0.61,162.8379
+"F844","","",523,"enriched in IBD",1,"","","C18-neg",18.74,423.9461
+"F428","","",524,"enriched in IBD",2,"","","C18-neg",18.92,137.9738
+"F216","","",525,"depleted in IBD",5,"","","C8-pos",10.8,659.6059
+"F706","","",526,"depleted in IBD",4,"","","HILIC-pos",6.72,178.122
+"F302","","",527,"depleted in IBD",4,"","","HILIC-pos",6.65,184.1326
+"F426","","",528,"depleted in IBD",8,"","","C18-neg",13.18,423.1894
+"F796","","",529,"depleted in IBD",8,"","","C18-neg",13.17,333.2201
+"F64","","",530,"depleted in IBD",12,"","","HILIC-pos",7.83,254.1108
+"F265","","",531,"depleted in IBD",8,"","","C18-neg",13.18,393.2312
+"F818","","",532,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-neg",1.16,221.093
+"F184","","",533,"enriched in IBD",2,"","","HILIC-neg",1.69,214.0812
+"F66","","",534,"depleted in IBD",6,"","","HILIC-pos",1.64,235.2411
+"F746","","",535,"enriched in IBD",1,"","","C18-neg",17.75,588.8969
+"F56","","",536,"depleted in IBD",12,"","","HILIC-pos",8.01,284.123
+"F239","","",537,"enriched in IBD",2,"","","HILIC-neg",15.53,325.0181
+"F498","","",538,"depleted in IBD",8,"","","C18-neg",13.17,427.201
+"F409","","",539,"enriched in IBD",1,"","","C18-neg",18.15,491.9333
+"F621","","",540,"depleted in IBD",12,"","","HILIC-pos",7.87,284.123
+"F871","","",541,"depleted in IBD",3,"","","HILIC-pos",9.03,271.1643
+"F452","","",542,"enriched in IBD",1,"","","C18-neg",18.93,578.8682
+"F303","","",543,"depleted in IBD",4,"","","HILIC-pos",8.01,152.1065
+"F172","","",544,"depleted in IBD",6,"","","C8-pos",5.63,321.2405
+"F571","","",545,"enriched in IBD",2,"","","HILIC-neg",15.55,285.0446
+"F135","","",546,"enriched in IBD",1,"","","C18-neg",18.76,355.9587
+"F820","","",547,"enriched in IBD",1,"","","C18-neg",18.82,646.8559
+"F857","","",548,"depleted in IBD",3,"","","HILIC-pos",4.89,218.0806
+"F898","","",549,"depleted in IBD",8,"","","C18-neg",13.17,445.174
+"F629","","",550,"depleted in IBD",4,"","","C18-neg",5,399.1845
+"F70","","",551,"enriched in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-pos",8.74,203.1384
+"F742","","",552,"depleted in IBD",8,"","","C18-neg",13.15,513.1604
+"F185","","",553,"depleted in IBD",9,"","","C8-pos",6.12,935.7331
+"F525","","",554.5,"depleted in IBD",5,"","","HILIC-pos",1.58,542.4828
+"F769","","",554.5,"enriched in IBD",2,"","","HILIC-neg",14.99,393.2848
+"F23","","",556,"enriched in IBD",1,"","","C18-neg",18.76,520.9095
+"F826","","",557,"depleted in IBD",8,"","","HILIC-pos",1.65,197.1893
+"F16","","",558,"depleted in IBD",6,"","","C8-pos",4.45,245.2266
+"F740","","",559,"depleted in IBD",4,"","","C18-neg",1.18,221.0445
+"F442","","",560,"depleted in IBD",12,"","","HILIC-pos",7.57,144.1015
+"F662","","",561,"depleted in IBD",6,"","","HILIC-pos",1.65,299.25
+"F384","","",562,"enriched in IBD",12,"","","HILIC-pos",7.59,128.0704
+"F371","","",563,"depleted in IBD",8,"","","C18-neg",13.18,501.2054
+"F252","","",564,"depleted in IBD",12,"","","HILIC-pos",8.43,248.1483
+"F240","","",565,"depleted in IBD",4,"","","HILIC-pos",7.73,248.1271
+"F599","","",566,"depleted in IBD",2,"","","C18-neg",0.63,257.8192
+"F44","","",567,"depleted in IBD",4,"","","HILIC-pos",6.37,190.0856
+"F346","","",568,"depleted in IBD",8,"","","C18-neg",13.19,569.1924
+"F401","","",569,"depleted in IBD",4,"","","HILIC-pos",8.07,124.0755
+"F83","","",570,"enriched in IBD",1,"","","C8-pos",3.51,778.8863
+"F833","","",571,"enriched in IBD",2,"","","HILIC-neg",1.15,214.079
+"F652","","",572,"depleted in IBD",9,"","","C8-pos",6.12,369.2315
+"F889","","",573,"depleted in IBD",8,"","","HILIC-pos",1.64,141.1269
+"F512","","",574,"depleted in IBD",12,"","","HILIC-pos",9.05,240.1335
+"F14","","",575,"depleted in IBD",6,"","","HILIC-pos",1.64,318.2901
+"F805","","",576,"depleted in IBD",6,"","","HILIC-pos",1.64,346.3212
+"F227","","",577,"enriched in IBD",1,"","","C18-neg",18.85,333.9381
+"F777","","",578,"depleted in IBD",4,"","","HILIC-pos",3.36,309.1432
+"F667","","",579,"enriched in IBD",1,"","","C18-neg",17.75,520.9095
+"F8","","",580,"depleted in IBD",5,"","","HILIC-pos",1.77,225.1479
+"F417","","",581,"enriched in IBD",2,"","","HILIC-neg",0.49,214.0811
+"F521","","",582,"depleted in IBD",6,"","","HILIC-pos",1.74,301.2637
+"F228","","",583,"depleted in IBD",3,"","","HILIC-pos",9.16,218.0803
+"F282","","",584,"depleted in IBD",3,"","","HILIC-pos",2.29,321.0956
+"F669","","",585,"depleted in IBD",8,"","","HILIC-neg",1.13,549.307
+"F244","","",586,"enriched in IBD",2,"","","HILIC-neg",6.62,282.0247
+"F897","","",587,"depleted in IBD",5,"","","HILIC-pos",2.35,165.1269
+"F52","","",588,"depleted in IBD",12,"","","HILIC-pos",8,245.1487
+"F451","","",589,"depleted in IBD",5,"","","HILIC-pos",2.36,141.0905
+"F572","","",590,"depleted in IBD",2,"","","C18-neg",0.63,255.8221
+"F795","","",591,"depleted in IBD",4,"","","HILIC-pos",1.94,285.1838
+"F149","","",592,"enriched in IBD",1,"","","C18-neg",18.11,423.9461
+"F347","","",593,"depleted in IBD",3,"","","HILIC-neg",4.79,403.1466
+"F748","","",594,"depleted in IBD",5,"","","HILIC-pos",4.36,167.1062
+"F224","","",595,"depleted in IBD",5,"","","HILIC-pos",1.94,623.3051
+"F10","","",596,"depleted in IBD",8,"","","C18-neg",12.52,283.2277
+"F708","","",597,"depleted in IBD",6,"","","C8-pos",4.45,357.311
+"F471","","",598,"depleted in IBD",9,"","","C8-pos",6.13,397.2303
+"F776","","",599,"depleted in IBD",12,"","","HILIC-pos",7.76,184.1075
+"F580","","",600,"depleted in IBD",6,"","","HILIC-pos",1.64,337.2126
+"F266","","",601,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",9.78,537.3258
+"F567","","",602,"depleted in IBD",4,"","","HILIC-pos",8.31,129.102
+"F107","","",603,"depleted in IBD",4,"","","HILIC-pos",6.71,150.1273
+"F749","","",604,"depleted in IBD",4,"","","HILIC-pos",7.8,138.0909
+"F457","","",605,"enriched in IBD",1,"","","C18-neg",18.76,384.9351
+"F892","","",606,"depleted in IBD",7,"5alpha-Cholestanol","Cholestane steroids","HILIC-neg",2.91,178.0892
+"F24","","",607,"depleted in IBD",11,"cholestenone","Cholestane steroids","HILIC-pos",1.66,415.3828
+"F326","","",608,"enriched in IBD",1,"","","C18-neg",17.77,423.9461
+"F214","","",609,"enriched in IBD",2,"","","HILIC-neg",4.79,225.0588
+"F256","","",610,"depleted in IBD",4,"","","C18-neg",1.05,195.029
+"F865","","",611,"depleted in IBD",3,"","","HILIC-pos",6.5,174.0908
+"F529","","",612,"enriched in IBD",1,"","","C18-neg",17.57,646.8562
+"F642","","",613,"enriched in IBD",1,"","","C18-neg",17.56,559.9209
+"F540","","",614,"depleted in IBD",2,"","","C18-neg",0.32,100.9246
+"F899","","",615,"depleted in IBD",9,"","","C8-pos",6.12,321.2406
+"F549","","",616,"depleted in IBD",8,"","","HILIC-pos",1.66,235.2048
+"F711","","",617,"depleted in IBD",12,"","","HILIC-pos",7.67,236.1214
+"F469","","",618,"enriched in IBD",1,"","","C18-neg",17.58,287.9542
+"F861","","",619,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","HILIC-pos",4.29,575.3703
+"F843","","",620,"depleted in IBD",13,"carnosol","Terpene lactones","HILIC-pos",2.98,74.0979
+"F636","","",621,"depleted in IBD",4,"","","C18-neg",5.15,365.1967
+"F410","","",622,"depleted in IBD",6,"","","HILIC-pos",1.65,179.1788
+"F363","","",623,"enriched in IBD",2,"","","HILIC-neg",1.69,176.0461
+"F513","","",624,"depleted in IBD",12,"","","HILIC-pos",7.79,332.1327
+"F140","","",625,"depleted in IBD",8,"","","HILIC-neg",1.01,589.3198
+"F515","","",626,"enriched in IBD",5,"","","HILIC-neg",1.1,317.1141
+"F600","","",627,"enriched in IBD",1,"","","C18-neg",18.76,316.9476
+"F57","","",628,"enriched in IBD",1,"","","C18-neg",18.83,374.9064
+"F96","","",629,"depleted in IBD",6,"","","HILIC-pos",1.64,283.2537
+"F28","","",630,"enriched in IBD",1,"","","C18-neg",18.36,491.9333
+"F176","","",631,"enriched in IBD",1,"","","C18-neg",17.76,559.9207
+"F782","","",632,"depleted in IBD",8,"","","HILIC-pos",1.65,141.0905
+"F243","","",633,"enriched in IBD",1,"","","C18-neg",18.86,469.9126
+"F474","","",634,"enriched in IBD",1,"","","C18-neg",18.93,151.9952
+"F677","","",635,"enriched in IBD",1,"","","C18-neg",18.9,151.9953
+"F508","","",636,"depleted in IBD",6,"","","HILIC-pos",1.64,221.2256
+"F563","","",637,"depleted in IBD",5,"","","HILIC-pos",3.51,207.1374
+"F610","","",638,"depleted in IBD",8,"","","HILIC-neg",1.12,567.3174
+"F21","","",639,"enriched in IBD",1,"","","C18-neg",17.76,491.9333
+"F673","","",640,"depleted in IBD",4,"","","HILIC-pos",6.95,137.0957
+"F573","","",641,"enriched in IBD",1,"","","C18-neg",17.54,442.8939
+"F787","","",642,"enriched in IBD",1,"","","C18-neg",18.39,559.9206
+"F728","","",643,"depleted in IBD",4,"","","HILIC-pos",7.1,136.1116
+"F210","","",644,"depleted in IBD",8,"","","HILIC-neg",1.15,569.333
+"F583","","",645,"depleted in IBD",6,"","","HILIC-pos",1.64,167.1789
+"F809","","",646,"depleted in IBD",6,"","","HILIC-pos",1.64,139.1477
+"F493","","",647,"enriched in IBD",1,"","","C18-neg",17.45,287.9713
+"F114","","",648,"depleted in IBD",8,"","","HILIC-neg",3.23,279.2204
+"F362","","",649,"enriched in IBD",2,"","","HILIC-neg",15.45,169.9632
+"F437","","",650,"depleted in IBD",3,"","","C8-pos",8.56,618.546
+"F434","","",651,"depleted in IBD",8,"","","HILIC-pos",1.64,207.1736
+"F694","","",652,"enriched in IBD",1,"","","C18-neg",18.94,84.9891
+"F551","","",653,"depleted in IBD",5,"","","C8-pos",9.14,576.5143
+"F637","","",654,"depleted in IBD",8,"","","HILIC-neg",1.16,165.0919
+"F888","","",655,"depleted in IBD",2,"","","HILIC-neg",1.15,575.3429
+"F26","","",656,"enriched in IBD",1,"","","C18-neg",17.7,510.8808
+"F789","","",657,"enriched in IBD",1,"","","C18-neg",18.4,333.9381
+"F835","","",658,"depleted in IBD",6,"","","HILIC-pos",1.64,125.1322
+"F217","","",659,"enriched in IBD",1,"","","C18-neg",17.42,491.9334
+"F841","","",660,"depleted in IBD",12,"","","HILIC-pos",8.11,213.1226
+"F443","","",661.5,"depleted in IBD",6,"","","HILIC-pos",1.64,153.1633
+"F731","","",661.5,"enriched in IBD",1,"","","C18-neg",18.97,491.9333
+"F115","","",663,"enriched in IBD",2,"","","HILIC-neg",15.24,210.9289
+"F11","","",664,"enriched in IBD",1,"","","C18-neg",18.81,287.9712
+"F454","","",665,"enriched in IBD",1,"","","C18-neg",16.04,588.8969
+"F581","","",666,"enriched in IBD",1,"","","C18-neg",18.21,355.9587
+"F894","","",667,"depleted in IBD",3,"","","C18-neg",12.19,271.2277
+"F402","","",668,"depleted in IBD",8,"","","HILIC-pos",1.65,169.1217
+"F296","","",669,"depleted in IBD",9,"","","C8-pos",6.12,405.2291
+"F617","","",670,"enriched in IBD",1,"","","HILIC-pos",7.44,98.0602
+"F407","","",671,"depleted in IBD",5,"","","C8-pos",4.59,259.2044
+"F613","","",672,"enriched in IBD",9,"","","C18-neg",12.9,347.2694
+"F860","","",673,"depleted in IBD",2,"","","HILIC-neg",0.99,574.3174
+"F781","","",674,"depleted in IBD",8,"","","HILIC-neg",1.15,571.3484
+"F121","","",675,"enriched in IBD",1,"","","C18-neg",18.84,510.8801
+"F480","","",676,"enriched in IBD",2,"","","HILIC-neg",15.44,187.9768
+"F99","","",677,"depleted in IBD",8,"","","HILIC-pos",1.65,151.1113
+"F870","","",678,"enriched in IBD",2,"","","HILIC-neg",5.83,214.08
+"F863","","",679,"enriched in IBD",2,"","","HILIC-neg",1.4,176.0457
+"F869","","",680,"enriched in IBD",2,"","","HILIC-neg",1.08,201.023
+"F458","","",681,"depleted in IBD",5,"","","HILIC-pos",1.51,601.4226
+"F383","","",682,"depleted in IBD",9,"","","C8-pos",6.15,610.3127
+"F173","","",683,"depleted in IBD",12,"","","HILIC-pos",7.9,301.1496
+"F25","","",684,"enriched in IBD",1,"","","C18-neg",18.82,442.8939
+"F76","","",685,"enriched in IBD",2,"","","HILIC-neg",1.71,207.0684
+"F544","","",686,"enriched in IBD",1,"","","C18-neg",16.8,510.8812
+"F804","","",687,"enriched in IBD",2,"","","HILIC-neg",12.06,295.8925
+"F161","","",688,"depleted in IBD",8,"","","HILIC-neg",1.15,537.3508
+"F788","","",689,"enriched in IBD",1,"","","C18-neg",18.17,287.9712
+"F213","","",690,"enriched in IBD",1,"","","C18-neg",18.95,374.9064
+"F386","","",691,"enriched in IBD",4,"","","C18-neg",0.75,138.9693
+"F569","","",692,"enriched in IBD",1,"","","C18-neg",18.93,648.853
+"F287","","",693,"enriched in IBD",1,"","","C18-neg",18.82,578.8679
+"F267","","",694,"depleted in IBD",9,"","","C18-neg",12.72,433.2358
+"F560","","",695,"enriched in IBD",2,"","","HILIC-neg",12.01,373.8704
+"F357","","",696,"enriched in IBD",2,"","","HILIC-neg",0.5,208.072
+"F816","","",697,"enriched in IBD",1,"","","C18-neg",16.9,588.8969
+"F87","","",698,"depleted in IBD",8,"","","HILIC-pos",1.66,253.2153
+"F356","","",699,"depleted in IBD",8,"","","C18-neg",14.68,297.2433
+"F890","","",700,"enriched in IBD",2,"","","HILIC-neg",15.27,214.0799
+"F232","","",701,"enriched in IBD",1,"","","C18-neg",16.03,520.9095
+"F492","","",702,"enriched in IBD",1,"","","C18-neg",18.18,559.9208
+"F147","","",703,"depleted in IBD",9,"","","HILIC-pos",1.88,353.1481
+"F320","","",704,"depleted in IBD",2,"","","C18-neg",0.61,164.835
+"F163","","",705,"enriched in IBD",3,"","","HILIC-neg",3.73,220.0613
+"F54","","",706,"enriched in IBD",1,"","","C18-neg",18.96,510.881
+"F274","","",707,"depleted in IBD",8,"","","HILIC-pos",1.65,225.1841
+"F886","","",708,"enriched in IBD",2,"","","HILIC-neg",1.12,273.1891
+"F611","","",709,"enriched in IBD",1,"","","C18-neg",16.9,520.9095
+"F840","","",710,"enriched in IBD",2,"","","C18-neg",13.25,361.1661
+"F682","","",711,"enriched in IBD",1,"","","C18-neg",18.9,333.9382
+"F192","","",712,"enriched in IBD",2,"","","HILIC-neg",15.58,169.9626
+"F388","","",713,"depleted in IBD",3,"","","C8-pos",7.22,712.5515
+"F431","","",714,"depleted in IBD",9,"","","C8-pos",6.12,323.2262
+"F660","","",715,"enriched in IBD",2,"","","HILIC-neg",11.23,296.8875
+"F136","","",716,"enriched in IBD",2,"","","HILIC-neg",13.93,176.0429
+"F464","","",717,"enriched in IBD",1,"","","HILIC-neg",6.97,176.043
+"F555","","",718,"enriched in IBD",2,"","","HILIC-neg",12.26,296.8877
+"F873","","",719,"enriched in IBD",1,"","","C18-neg",18.29,559.9208
+"F530","","",720,"depleted in IBD",0,"","","HILIC-neg",7.15,209.0122
+"F717","","",721,"depleted in IBD",4,"","","C18-neg",5.15,319.1913
+"F588","","",722,"enriched in IBD",1,"","","C18-neg",18.94,248.9601
+"F68","","",723,"enriched in IBD",1,"","","C18-neg",17.33,355.9587
+"F723","","",724,"depleted in IBD",4,"","","HILIC-pos",5.11,316.128
+"F546","","",725,"enriched in IBD",2,"","","HILIC-neg",15.55,214.0812
+"F58","","",726,"enriched in IBD",2,"","","HILIC-neg",0.49,214.0796
+"F29","","",727,"enriched in IBD",2,"","","HILIC-neg",15.26,208.0719
+"F608","","",728,"enriched in IBD",1,"","","C18-neg",18.34,287.9712
+"F589","","",729,"enriched in IBD",4,"","","C18-neg",5.37,259.0611
+"F815","","",730,"enriched in IBD",14,"tauroursodeoxycholic acid","Bile acid alcohols and derivatives","C18-neg",8.26,480.2781
+"F38","","",731,"enriched in IBD",1,"","","C18-neg",18.21,401.9246
+"F547","","",732,"depleted in IBD",9,"","","C8-pos",6.13,941.7488
+"F335","","",733,"enriched in IBD",1,"","","C18-neg",17.86,287.9712
+"F17","","",734,"depleted in IBD",9,"","","C8-pos",6.13,391.2134
+"F414","","",735,"enriched in IBD",2,"","","HILIC-neg",14.05,274.0586
+"F209","","",736,"enriched in IBD",1,"","","C18-neg",17.32,423.9462
+"F685","","",737,"depleted in IBD",12,"","","HILIC-pos",7.89,300.1178
+"F378","","",738,"enriched in IBD",1,"","","C18-neg",17.75,355.9587
+"F514","","",739,"depleted in IBD",5,"","","HILIC-neg",2.99,396.348
+"F377","","",740,"depleted in IBD",5,"","","HILIC-pos",3.7,206.138
+"F811","","",741,"depleted in IBD",6,"","","HILIC-pos",1.64,265.2428
+"F334","","",742,"depleted in IBD",9,"","","C8-pos",6.12,383.247
+"F222","","",743,"enriched in IBD",6,"","","HILIC-pos",1.64,263.2359
+"F200","","",744,"enriched in IBD",1,"","","C18-neg",18.21,333.9379
+"F541","","",745,"enriched in IBD",2,"","","HILIC-neg",15.6,249.1607
+"F553","","",746,"depleted in IBD",12,"","","HILIC-neg",1.26,182.0932
+"F352","","",747,"enriched in IBD",1,"","","C18-neg",16.72,355.9587
+"F486","","",748,"enriched in IBD",1,"","","C18-neg",18.36,578.8684
+"F736","","",749,"enriched in IBD",1,"","","C18-neg",18.39,306.9188
+"F704","","",750,"depleted in IBD",9,"","","C8-pos",6.12,355.2523
+"F601","","",751,"enriched in IBD",2,"","","HILIC-neg",2.84,176.0455
+"F598","","",752,"enriched in IBD",2,"","","HILIC-neg",1.07,273.1893
+"F666","","",753,"enriched in IBD",1,"","","C18-neg",16.48,287.9712
+"F104","","",754,"enriched in IBD",1,"","","C18-neg",16.69,423.9462
+"F842","","",755,"enriched in IBD",2,"","","HILIC-neg",0.45,156.0123
+"F292","","",756,"depleted in IBD",2,"","","HILIC-neg",14.07,208.0723
+"F523","","",757,"depleted in IBD",0,"","","HILIC-neg",3.77,220.064
+"F304","","",758,"enriched in IBD",1,"","","C18-neg",18.79,401.9251
+"F712","","",759,"depleted in IBD",12,"","","HILIC-pos",7.89,208.1173
+"F713","","",760,"enriched in IBD",2,"","","HILIC-neg",11.45,202.027
+"F615","","",761,"depleted in IBD",4,"","","HILIC-neg",3.84,193.0528
+"F51","","",762,"enriched in IBD",1,"","","C18-neg",18.35,559.9207
+"F780","","",763,"depleted in IBD",3,"","","HILIC-neg",2.24,164.0351
+"F397","","",764,"enriched in IBD",1,"","","C18-neg",18.89,297.1524
+"F390","","",765,"depleted in IBD",6,"","","HILIC-pos",1.64,321.2391
+"F692","","",766,"enriched in IBD",2,"","","HILIC-neg",12.06,236.9188
+"F590","","",767,"enriched in IBD",1,"","","C18-neg",18.81,306.919
+"F626","","",768,"depleted in IBD",8,"","","HILIC-neg",1.15,551.3241
+"F389","","",769,"enriched in IBD",1,"","","C18-neg",16.84,249.9635
+"F208","","",770,"depleted in IBD",2,"","","C18-neg",0.62,170.8697
+"F273","","",771,"enriched in IBD",1,"","","C18-neg",18.94,333.9377
+"F616","","",772,"enriched in IBD",1,"","","C18-neg",16.7,287.9713
+"F603","","",773,"enriched in IBD",6,"","","HILIC-pos",1.64,211.1685
+"F494","","",774,"enriched in IBD",2,"","","HILIC-neg",13.89,156.0048
+"F358","","",775,"enriched in IBD",1,"","","C18-neg",17.33,287.9712
+"F656","","",776,"enriched in IBD",1,"","","C18-neg",18.35,646.8553
+"F729","","",777,"enriched in IBD",2,"","","HILIC-neg",11.75,295.892
+"F802","","",778,"enriched in IBD",2,"","","HILIC-neg",2.94,469.2633
+"F419","","",779,"enriched in IBD",1,"","","C18-neg",17.28,355.9589
+"F900","","",780,"enriched in IBD",1,"","","C18-neg",18.21,306.9191
+"F465","","",781,"enriched in IBD",2,"","","HILIC-neg",1.7,207.069
+"F35","","",782,"enriched in IBD",2,"","","HILIC-neg",0.46,214.081
+"F132","","",783,"depleted in IBD",2,"","","C8-pos",5.44,451.3186
+"F686","","",784,"enriched in IBD",1,"","","C18-neg",18.8,469.9127
+"F73","","",785,"depleted in IBD",8,"","","HILIC-neg",1.17,555.3515
+"F823","","",786,"enriched in IBD",1,"","","C18-neg",17.32,491.9335
+"F230","","",787,"depleted in IBD",2,"","","C18-neg",0.62,126.8797
+"F36","","",788,"depleted in IBD",12,"","","HILIC-pos",7.79,300.1179
+"F757","","",789,"enriched in IBD",1,"","","C18-neg",18.94,401.9254
+"F450","","",790,"enriched in IBD",1,"","","C18-neg",18.96,469.9127
+"F444","","",791,"enriched in IBD",1,"","","C8-pos",3.4,351.6388
+"F866","","",792,"depleted in IBD",4,"","","C18-neg",0.74,168.98
+"F726","","",793,"depleted in IBD",2,"","","HILIC-neg",5.08,193.0532
+"F750","","",794,"enriched in IBD",2,"","","HILIC-neg",11.87,295.892
+"F297","","",795,"enriched in IBD",1,"","","C18-neg",18.35,401.9253
+"F855","","",796,"enriched in IBD",1,"","","C18-neg",16.47,355.959
+"F367","","",797,"enriched in IBD",2,"","","HILIC-neg",11.71,202.027
+"F103","","",798,"depleted in IBD",2,"","","HILIC-neg",7.12,300.0729
+"F496","","",799,"depleted in IBD",6,"","","C8-pos",5.45,321.2404
+"F878","","",800,"depleted in IBD",9,"","","C8-pos",6.12,313.2738
+"F502","","",801,"depleted in IBD",1,"","","C18-neg",17.87,559.921
+"F597","","",802,"enriched in IBD",1,"","","C18-neg",16.81,104.9525
+"F126","","",803,"enriched in IBD",2,"","","HILIC-neg",13.47,202.0278
+"F323","","",804,"enriched in IBD",1,"","","C18-neg",18.96,151.9952
+"F18","","",805,"depleted in IBD",2,"","","HILIC-neg",2.49,214.0792
+"F284","","",806,"enriched in IBD",4,"","","C18-neg",5.15,377.15
+"F856","","",807,"enriched in IBD",2,"","","HILIC-neg",15.56,208.0725
+"F631","","",808,"enriched in IBD",2,"","","HILIC-neg",2.79,176.0431
+"F874","","",809,"enriched in IBD",2,"","","HILIC-neg",10.53,237.9516
+"F718","","",810,"depleted in IBD",9,"","","C8-pos",6.13,341.3054
+"F876","","",811,"enriched in IBD",6,"","","HILIC-pos",1.64,281.2464
+"F455","","",812,"depleted in IBD",2,"","","C18-neg",0.62,172.8667
+"F690","","",813,"enriched in IBD",3,"","","C18-neg",16.1,145.9253
+"F168","","",814,"depleted in IBD",3,"","","C8-pos",8.86,620.5617
+"F501","","",815,"enriched in IBD",2,"","","C18-neg",17.38,321.2098
+"F263","","",816,"depleted in IBD",2,"","","HILIC-neg",1.67,208.0727
+"F166","","",817,"enriched in IBD",2,"","","HILIC-neg",11.47,202.0268
+"F339","","",818,"enriched in IBD",2,"","","HILIC-neg",15.2,214.0811
+"F211","","",819,"enriched in IBD",6,"","","HILIC-pos",1.64,197.1529
+"F672","","",820,"depleted in IBD",0,"","","C18-neg",14.1,468.2773
+"F105","","",821,"enriched in IBD",1,"","","C18-neg",16.59,355.9586
+"F32","","",822.5,"enriched in IBD",11,"cholestenone","Cholestane steroids","C8-pos",6.01,401.3415
+"F175","","",822.5,"depleted in IBD",2,"","","HILIC-pos",8.9,251.113
+"F41","","",824,"depleted in IBD",1,"","","HILIC-neg",7.01,300.0732
+"F719","","",825,"enriched in IBD",1,"","","C18-neg",17.03,287.9714
+"F483","","",826,"depleted in IBD",6,"","","HILIC-pos",1.64,97.1013
+"F118","","",827,"enriched in IBD",2,"","","HILIC-neg",15.13,214.0801
+"F316","","",828,"enriched in IBD",2,"","","HILIC-neg",15.13,214.0811
+"F688","","",829,"depleted in IBD",9,"","","C8-pos",6.12,359.3158
+"F340","","",830,"enriched in IBD",6,"","","HILIC-pos",1.64,193.1581
+"F470","","",831,"enriched in IBD",1,"","","HILIC-neg",5.55,170.0822
+"F84","","",832,"enriched in IBD",9,"","","C8-pos",6.13,376.342
+"F101","","",833,"enriched in IBD",9,"","","C8-pos",6.13,1092.3704
+"F733","","",834,"enriched in IBD",6,"","","HILIC-pos",1.63,322.2727
+"F237","","",835,"enriched in IBD",3,"","","HILIC-pos",2.33,344.1115
+"F164","","",836,"enriched in IBD",1,"","","C18-neg",17.03,260.9066
+"F223","","",837,"enriched in IBD",6,"","","HILIC-pos",1.64,245.2255
+"F755","","",838,"enriched in IBD",1,"","","C18-neg",18.07,559.9209
+"F836","","",839,"enriched in IBD",1,"","","C18-neg",17.93,401.9243
+"F247","","",840,"enriched in IBD",1,"","","C18-neg",18.31,401.9253
+"F179","","",841,"enriched in IBD",1,"","","HILIC-neg",5.54,214.0811
+"F849","","",842,"enriched in IBD",8,"","","C18-neg",11.65,315.2539
+"F245","","",843,"enriched in IBD",2,"","","HILIC-neg",15.3,201.9893
+"F238","","",844,"enriched in IBD",2,"","","HILIC-neg",12.17,295.8921
+"F556","","",845,"enriched in IBD",1,"","","C18-neg",16.6,423.946
+"F585","","",846,"enriched in IBD",2,"","","C18-neg",0.62,128.8767
+"F187","","",847,"depleted in IBD",4,"","","C18-neg",5.15,415.1793
+"F124","","",848,"enriched in IBD",2,"","","HILIC-neg",5.08,176.045
+"F109","","",849,"depleted in IBD",2,"","","HILIC-neg",1.65,306.0999
+"F698","","",850,"enriched in IBD",2,"","","C18-neg",14.7,156.9951
+"F82","","",851,"depleted in IBD",3,"","","C8-pos",11.91,833.7349
+"F246","","",852,"depleted in IBD",0,"","","C18-neg",9.91,343.2125
+"F329","","",853,"enriched in IBD",6,"","","HILIC-pos",1.65,179.1424
+"F576","","",854,"enriched in IBD",1,"","","C18-neg",18.33,374.9064
+"F517","","",855,"enriched in IBD",2,"","","HILIC-neg",13.54,296.8853
+"F641","","",856,"depleted in IBD",10,"taurine","Organosulfonic acids and derivatives","HILIC-neg",9.16,261.0071
+"F170","","",857,"enriched in IBD",6,"","","HILIC-pos",1.65,239.1996
+"F634","","",858,"enriched in IBD",2,"","","HILIC-neg",15.2,201.9894
+"F106","","",859,"depleted in IBD",2,"","","HILIC-neg",4.75,225.0579
+"F754","","",860,"depleted in IBD",10,"taurine","Organosulfonic acids and derivatives","C18-neg",0.99,261.0073
+"F125","","",861,"depleted in IBD",12,"","","HILIC-pos",7.6,134.0808
+"F50","","",862,"enriched in IBD",1,"","","C18-neg",18.31,333.9382
+"F695","","",863,"enriched in IBD",2,"","","C18-neg",0.62,225.8967
+"F130","","",864,"enriched in IBD",2,"","","HILIC-neg",14.04,96.9772
+"F830","","",865,"depleted in IBD",5,"","","HILIC-neg",9.25,509.3117
+"F177","","",866,"enriched in IBD",6,"","","HILIC-pos",1.64,111.1168
+"F338","","",867,"enriched in IBD",2,"","","HILIC-neg",11.93,202.0269
+"F181","","",868,"enriched in IBD",6,"","","HILIC-pos",1.64,83.0859
+"F412","","",869,"enriched in IBD",2,"","","HILIC-neg",10.09,236.992

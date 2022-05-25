@@ -1,0 +1,28 @@
+05/20/2021 10:50:44 PM - metawibele.config - INFO: --- Collecting annotations for protein families ---
+05/20/2021 10:50:44 PM - metawibele.config - INFO: Start read_config_file
+05/20/2021 10:50:44 PM - metawibele.config - INFO: Finish read_config_file
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Start read_annotation_file
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Finish read_annotation_file
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Start combine_annotation
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Finish combine_annotation
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Start combine_annotation
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Finish combine_annotation
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Start combine_evidence
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Finish combine_evidence
+05/20/2021 10:50:46 PM - metawibele.config - INFO: --- MetaWIBELE evidence table are written to the output ---
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Start write_prioritization_results
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Finish write_prioritization_results
+05/20/2021 10:50:46 PM - metawibele.config - INFO: --- Calculate Ranking score for protein families ---
+05/20/2021 10:50:46 PM - metawibele.config - INFO: DNA_abundance	0.50
+05/20/2021 10:50:46 PM - metawibele.config - INFO: DNA_prevalence	0.50
+05/20/2021 10:50:46 PM - metawibele.config - INFO: --- Weighted method: fixed
+05/20/2021 10:50:46 PM - metawibele.config - INFO: --- Ranking method: harmonic_mean
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Start get_rank_score
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Finish get_rank_score
+05/20/2021 10:50:46 PM - metawibele.config - INFO: --- Get prioritized families based on MetaWIBELE score ---
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Start prioritize_families
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Finish prioritize_families
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Start write_prioritization_results
+05/20/2021 10:50:46 PM - metawibele.config - INFO: Finish write_prioritization_results
+05/20/2021 10:50:46 PM - metawibele.config - INFO: --- The prioritization output is written in /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization ...
+05/20/2021 10:50:46 PM - metawibele.config - INFO: --- Prioritization process is successfully completed ---

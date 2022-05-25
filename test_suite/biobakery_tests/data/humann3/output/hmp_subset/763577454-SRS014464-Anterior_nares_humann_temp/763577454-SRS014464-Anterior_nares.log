@@ -1,0 +1,219 @@
+05/20/2021 02:56:48 PM - humann.humann - INFO: Running humann v3.0.0
+05/20/2021 02:56:48 PM - humann.humann - INFO: Output files will be written to: /home/hutlab_public/Tutorials/humann3/hmp_subset
+05/20/2021 02:56:48 PM - humann.humann - INFO: Writing temp files to directory: /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp
+05/20/2021 02:56:48 PM - humann.utilities - INFO: File ( /home/hutlab_public/Tutorials/humann3/763577454-SRS014464-Anterior_nares.fasta ) is of format:  fasta
+05/20/2021 02:56:48 PM - humann.utilities - DEBUG: Check software, metaphlan, for required version, 3.0
+05/20/2021 02:56:49 PM - humann.utilities - INFO: Using metaphlan version 3.0
+05/20/2021 02:56:49 PM - humann.utilities - DEBUG: Check software, bowtie2, for required version, 2.2
+05/20/2021 02:56:49 PM - humann.utilities - INFO: Using bowtie2 version 2.2
+05/20/2021 02:56:49 PM - humann.humann - INFO: Search mode set to uniref90 because a uniref90 translated search database is selected
+05/20/2021 02:56:49 PM - humann.utilities - DEBUG: Check software, diamond, for required version, 0.9.36
+05/20/2021 02:56:49 PM - humann.utilities - INFO: Using diamond version 0.9.36
+05/20/2021 02:56:49 PM - humann.config - INFO: 
+Run config settings: 
+
+DATABASE SETTINGS
+nucleotide database folder = /opt/biobakery_workflows_databases/humann/chocophlan/chocophlan
+protein database folder = /opt/biobakery_workflows_databases/humann/uniref/uniref
+pathways database file 1 = /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_reactions_level4ec_only.uniref.bz2
+pathways database file 2 = /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_pathways_structured_filtered
+utility mapping database folder = /opt/biobakery_workflows_databases/humann/utility_mapping/utility_mapping
+
+RUN MODES
+resume = False
+verbose = False
+bypass prescreen = False
+bypass nucleotide index = False
+bypass nucleotide search = False
+bypass translated search = False
+translated search = diamond
+threads = 1
+
+SEARCH MODE
+search mode = uniref90
+nucleotide identity threshold = 0.0
+translated identity threshold = 80.0
+
+ALIGNMENT SETTINGS
+bowtie2 options = --very-sensitive
+diamond options = --top 1 --outfmt 6
+evalue threshold = 1.0
+prescreen threshold = 0.01
+translated subject coverage threshold = 50.0
+translated query coverage threshold = 90.0
+nucleotide subject coverage threshold = 50.0
+nucleotide query coverage threshold = 90.0
+
+PATHWAYS SETTINGS
+minpath = on
+xipe = off
+gap fill = on
+
+INPUT AND OUTPUT FORMATS
+input file format = fasta
+output file format = tsv
+output max decimals = 10
+remove stratified output = False
+remove column description output = False
+log level = DEBUG
+
+05/20/2021 02:56:49 PM - humann.store - DEBUG: Initialize Alignments class instance to minimize memory use
+05/20/2021 02:56:49 PM - humann.store - DEBUG: Initialize Reads class instance to minimize memory use
+05/20/2021 02:57:23 PM - humann.humann - INFO: Load pathways database part 1: /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_reactions_level4ec_only.uniref.bz2
+05/20/2021 02:57:49 PM - humann.humann - INFO: Load pathways database part 2: /usr/local/lib/python2.7/dist-packages/humann/data/pathways/metacyc_pathways_structured_filtered
+05/20/2021 02:57:49 PM - humann.search.prescreen - INFO: Running metaphlan ........
+05/20/2021 02:57:49 PM - humann.utilities - DEBUG: Using software: /usr/local/bin/metaphlan
+05/20/2021 02:57:49 PM - humann.utilities - INFO: Execute command: /usr/local/bin/metaphlan /home/hutlab_public/Tutorials/humann3/763577454-SRS014464-Anterior_nares.fasta -t rel_ab -o /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp/763577454-SRS014464-Anterior_nares_metaphlan_bugs_list.tsv --input_type fasta --bowtie2out /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp/763577454-SRS014464-Anterior_nares_metaphlan_bowtie2.txt
+05/20/2021 02:58:46 PM - humann.utilities - DEBUG: 
+05/20/2021 02:58:46 PM - humann.humann - INFO: TIMESTAMP: Completed 	prescreen 	:	 57	 seconds
+05/20/2021 02:58:46 PM - humann.search.prescreen - INFO: Found g__Moraxella.s__Moraxella_nonliquefaciens : 97.24% of mapped reads
+05/20/2021 02:58:46 PM - humann.search.prescreen - INFO: Found g__Dolosigranulum.s__Dolosigranulum_pigrum : 2.76% of mapped reads
+05/20/2021 02:58:46 PM - humann.search.prescreen - INFO: Total species selected from prescreen: 2
+05/20/2021 02:58:46 PM - humann.search.prescreen - DEBUG: 
+
+None of the species selected from the prescreen were found in the ChocoPhlAn database.
+Because of this the custom ChocoPhlAn database is empty.
+This will result in zero species-specific gene families and pathways.
+
+
+05/20/2021 02:58:46 PM - humann.humann - INFO: TIMESTAMP: Completed 	custom database creation 	:	 0	 seconds
+05/20/2021 02:58:46 PM - humann.humann - DEBUG: Custom database is empty
+05/20/2021 02:58:46 PM - humann.store - DEBUG: Initialize Reads class instance to minimize memory use
+05/20/2021 02:58:46 PM - humann.search.translated - INFO: Running diamond ........
+05/20/2021 02:58:46 PM - humann.search.translated - INFO: Aligning to reference database: uniref90_demo_prots_v201901b.dmnd
+05/20/2021 02:58:46 PM - humann.utilities - DEBUG: Remove file: /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp/tmp7OVboX/diamond_m8_DjraA_
+05/20/2021 02:58:46 PM - humann.utilities - DEBUG: Using software: /usr/bin/diamond
+05/20/2021 02:58:46 PM - humann.utilities - INFO: Execute command: /usr/bin/diamond blastx --query /home/hutlab_public/Tutorials/humann3/763577454-SRS014464-Anterior_nares.fasta --evalue 1.0 --threads 1 --top 1 --outfmt 6 --db /opt/biobakery_workflows_databases/humann/uniref/uniref/uniref90_demo_prots_v201901b --out /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp/tmp7OVboX/diamond_m8_DjraA_ --tmpdir /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp/tmp7OVboX
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: diamond v0.9.36.137 (C) Max Planck Society for the Advancement of Science
+Documentation, support and updates available at http://www.diamondsearch.org
+
+#CPU threads: 1
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Temporary directory: /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp/tmp7OVboX
+Opening the database...  [0s]
+Percentage range of top alignment score to report hits: 1
+Reference = /opt/biobakery_workflows_databases/humann/uniref/uniref/uniref90_demo_prots_v201901b.dmnd
+Sequences = 44
+Letters = 18842
+Block size = 2000000000
+Opening the input file...  [0.001s]
+Opening the output file...  [0s]
+Loading query sequences...  [0.035s]
+Masking queries...  [0.481s]
+Building query seed set...  [0.021s]
+Algorithm: Double-indexed
+Building query histograms...  [0.051s]
+Allocating buffers...  [0s]
+Loading reference sequences...  [0s]
+Masking reference...  [0.002s]
+Initializing temporary storage...  [0s]
+Building reference histograms...  [0s]
+Allocating buffers...  [0s]
+Processing query block 0, reference block 0, shape 0, index chunk 0.
+Building reference seed array...  [0s]
+Building query seed array...  [0.039s]
+Computing hash join...  [0.005s]
+Building seed filter...  [0.001s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 0, index chunk 1.
+Building reference seed array...  [0s]
+Building query seed array...  [0.045s]
+Computing hash join...  [0.005s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 0, index chunk 2.
+Building reference seed array...  [0s]
+Building query seed array...  [0.046s]
+Computing hash join...  [0.005s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 0, index chunk 3.
+Building reference seed array...  [0s]
+Building query seed array...  [0.037s]
+Computing hash join...  [0.005s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 1, index chunk 0.
+Building reference seed array...  [0s]
+Building query seed array...  [0.032s]
+Computing hash join...  [0.004s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 1, index chunk 1.
+Building reference seed array...  [0s]
+Building query seed array...  [0.038s]
+Computing hash join...  [0.004s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 1, index chunk 2.
+Building reference seed array...  [0s]
+Building query seed array...  [0.04s]
+Computing hash join...  [0.004s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Processing query block 0, reference block 0, shape 1, index chunk 3.
+Building reference seed array...  [0s]
+Building query seed array...  [0.032s]
+Computing hash join...  [0.004s]
+Building seed filter...  [0s]
+Searching alignments...  [0s]
+Deallocating buffers...  [0s]
+Computing alignments...  [0.151s]
+Deallocating reference...  [0s]
+Loading reference sequences...  [0s]
+Deallocating buffers...  [0s]
+Deallocating queries...  [0s]
+Loading query sequences...  [0s]
+Closing the input file...  [0s]
+Closing the output file...  [0s]
+Closing the database file...  [0s]
+Deallocating taxonomy...  [0s]
+Total time = 1.114s
+Reported 6 pairwise alignments, 6 HSPs.
+6 queries aligned.
+
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Using software: /bin/cat
+05/20/2021 02:58:47 PM - humann.utilities - INFO: Execute command: /bin/cat /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp/tmp7OVboX/diamond_m8_DjraA_
+05/20/2021 02:58:47 PM - humann.humann - INFO: TIMESTAMP: Completed 	translated alignment 	:	 1	 seconds
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments where percent identity is not a number: 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments where alignment length is not a number: 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments where E-value is not a number: 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments not included based on large e-value: 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments not included based on small percent identity: 5
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments not included based on small query coverage: 0
+05/20/2021 02:58:47 PM - humann.search.blastx_coverage - INFO: Total alignments without coverage information: 0
+05/20/2021 02:58:47 PM - humann.search.blastx_coverage - INFO: Total proteins in blastx output: 1
+05/20/2021 02:58:47 PM - humann.search.blastx_coverage - INFO: Total proteins without lengths: 0
+05/20/2021 02:58:47 PM - humann.search.blastx_coverage - INFO: Proteins with coverage greater than threshold (50.0): 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments where percent identity is not a number: 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments where alignment length is not a number: 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments where E-value is not a number: 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments not included based on large e-value: 0
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments not included based on small percent identity: 5
+05/20/2021 02:58:47 PM - humann.utilities - DEBUG: Total alignments not included based on small query coverage: 0
+05/20/2021 02:58:47 PM - humann.search.translated - DEBUG: Total translated alignments not included based on small subject coverage value: 1
+05/20/2021 02:58:47 PM - humann.humann - INFO: TIMESTAMP: Completed 	translated alignment post-processing 	:	 0	 seconds
+05/20/2021 02:58:47 PM - humann.humann - INFO: Total bugs after translated alignment: 0
+05/20/2021 02:58:47 PM - humann.humann - INFO: 
+
+05/20/2021 02:58:47 PM - humann.humann - INFO: Total gene families after translated alignment: 0
+05/20/2021 02:58:47 PM - humann.humann - INFO: Unaligned reads after translated alignment: 94.4463642198 %
+05/20/2021 02:58:47 PM - humann.humann - INFO: Computing gene families ...
+05/20/2021 02:58:47 PM - humann.quantify.families - DEBUG: Compute gene families
+05/20/2021 02:58:47 PM - humann.store - INFO: 
+Total gene families  : 0
+
+05/20/2021 02:59:13 PM - humann.humann - INFO: TIMESTAMP: Completed 	computing gene families 	:	 26	 seconds
+05/20/2021 02:59:13 PM - humann.humann - INFO: Computing pathways abundance and coverage ...
+05/20/2021 02:59:13 PM - humann.quantify.modules - DEBUG: Write flat reactions to pathways file for Minpath
+05/20/2021 02:59:13 PM - humann.quantify.modules - INFO: Compute reaction scores for bug: all
+05/20/2021 02:59:15 PM - humann.quantify.modules - DEBUG: Print pathways _Abundance
+05/20/2021 02:59:15 PM - humann.quantify.modules - DEBUG: Print pathways _Coverage
+05/20/2021 02:59:15 PM - humann.humann - INFO: TIMESTAMP: Completed 	computing pathways 	:	 2	 seconds
+05/20/2021 02:59:15 PM - humann.humann - INFO: 
+Output files created: 
+/home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_genefamilies.tsv
+/home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_pathabundance.tsv
+/home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_pathcoverage.tsv
+
+05/20/2021 02:59:15 PM - humann.utilities - DEBUG: Remove directory: /home/hutlab_public/Tutorials/humann3/hmp_subset/763577454-SRS014464-Anterior_nares_humann_temp/tmp7OVboX

@@ -1,0 +1,7 @@
+05/20/2021 10:42:43 PM - metawibele.config - INFO: ### Start ddi_DOMINE_protein_family step ####
+05/20/2021 10:42:43 PM - metawibele.config - INFO: Get info ......starting
+05/20/2021 10:42:44 PM - metawibele.config - INFO: Get pfam info ......starting
+05/20/2021 10:42:44 PM - metawibele.config - INFO: Get pfam info ......done
+05/20/2021 10:42:44 PM - metawibele.config - INFO: Output Pfam summary info ......starting
+05/20/2021 10:42:44 PM - metawibele.config - INFO: Output Pfam summary info ......done
+05/20/2021 10:42:44 PM - metawibele.config - INFO: ### Finish ddi_DOMINE_protein_family step ####
