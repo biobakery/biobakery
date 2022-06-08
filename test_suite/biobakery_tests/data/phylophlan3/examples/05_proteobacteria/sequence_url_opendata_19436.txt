@@ -1,0 +1,13 @@
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/CM_madagascar__A25_01_1FE__bin.3.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/DavidLA_2015__LD-Run1-04__bin.4.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/DavidLA_2015__LD-Run2-05__bin.2.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/DavidLA_2015__LD-Run2-08__bin.1.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/Obregon-TitoAJ_2015__SM18__bin.20.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/Obregon-TitoAJ_2015__SM20__bin.32.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/Obregon-TitoAJ_2015__SM24__bin.43.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/Obregon-TitoAJ_2015__SM41__bin.32.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/RampelliS_2015__H10__bin.82.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/RampelliS_2015__H24__bin.5.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/RampelliS_2015__H3__bin.34.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/RampelliS_2015__H4__bin.29.fa
+https://s3-eu-west-1.amazonaws.com/sgb-genomes/data/genomes/19436/RampelliS_2015__H7__bin.8.fa

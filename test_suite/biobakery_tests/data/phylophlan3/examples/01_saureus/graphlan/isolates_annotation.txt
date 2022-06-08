@@ -1,0 +1,1195 @@
+total_plotted_degrees	340
+start_rotation	270
+ring_label	1	Sample type
+ring_label	2	Operative unit
+ring_label	3	PVL presence
+ring_label	4	SCCmec type
+ring_label	5	# Virulence genes
+ring_label_font_size	1	10
+ring_label_font_size	2	10
+ring_label_font_size	3	10
+ring_label_font_size	4	10
+ring_label_font_size	5	10
+ring_internal_separator_thickness	1	0.5
+ring_internal_separator_thickness	2	0.5
+ring_internal_separator_thickness	3	0.5
+ring_internal_separator_thickness	4	0.5
+ring_internal_separator_thickness	5	0.5
+ring_separator_color	1	#888888
+ring_separator_color	2	#888888
+ring_separator_color	3	#888888
+ring_separator_color	4	#888888
+clade_marker_edge_width	0.25
+clade_marker_size	1
+annotation_font_size	10
+annotation_background_width	0.12
+GCA_003239095	clade_marker_size	30
+GCA_003240395	clade_marker_size	30
+GCA_003239845	clade_marker_size	30
+GCA_003238995	clade_marker_size	30
+GCA_003239795	clade_marker_size	30
+GCA_003238955	clade_marker_size	30
+GCA_003240345	clade_marker_size	30
+GCA_003240325	clade_marker_size	30
+GCA_003240295	clade_marker_size	30
+GCA_003239735	clade_marker_size	30
+GCA_003238925	clade_marker_size	30
+GCA_003238885	clade_marker_size	30
+GCA_003238845	clade_marker_size	30
+GCA_003238805	clade_marker_size	30
+GCA_003240245	clade_marker_size	30
+GCA_003239715	clade_marker_size	30
+GCA_003239675	clade_marker_size	30
+GCA_003240235	clade_marker_size	30
+GCA_003240215	clade_marker_size	30
+GCA_003238735	clade_marker_size	30
+GCA_003238695	clade_marker_size	30
+GCA_003238685	clade_marker_size	30
+GCA_003238675	clade_marker_size	30
+GCA_003240175	clade_marker_size	30
+GCA_003238655	clade_marker_size	30
+GCA_003240135	clade_marker_size	30
+GCA_003240105	clade_marker_size	30
+GCA_003240075	clade_marker_size	30
+GCA_003238595	clade_marker_size	30
+GCA_003238575	clade_marker_size	30
+GCA_003240035	clade_marker_size	30
+GCA_003240005	clade_marker_size	30
+GCA_003239585	clade_marker_size	30
+GCA_003239555	clade_marker_size	30
+GCA_003238415	clade_marker_size	30
+GCA_003239925	clade_marker_size	30
+GCA_003239915	clade_marker_size	30
+GCA_003239895	clade_marker_size	30
+GCA_003238405	clade_marker_size	30
+GCA_003239815	clade_marker_size	30
+GCA_003238375	clade_marker_size	30
+GCA_003237775	clade_marker_size	30
+GCA_003237755	clade_marker_size	30
+GCA_003239505	clade_marker_size	30
+GCA_003238345	clade_marker_size	30
+GCA_003239495	clade_marker_size	30
+GCA_003237705	clade_marker_size	30
+GCA_003238335	clade_marker_size	30
+GCA_003237675	clade_marker_size	30
+GCA_003237655	clade_marker_size	30
+GCA_003239455	clade_marker_size	30
+GCA_003238285	clade_marker_size	30
+GCA_003239435	clade_marker_size	30
+GCA_003239415	clade_marker_size	30
+GCA_003237625	clade_marker_size	30
+GCA_003237595	clade_marker_size	30
+GCA_003237575	clade_marker_size	30
+GCA_003237545	clade_marker_size	30
+GCA_003237535	clade_marker_size	30
+GCA_003238275	clade_marker_size	30
+GCA_003238245	clade_marker_size	30
+GCA_003239385	clade_marker_size	30
+GCA_003238235	clade_marker_size	30
+GCA_003238205	clade_marker_size	30
+GCA_003239365	clade_marker_size	30
+GCA_003239355	clade_marker_size	30
+GCA_003237475	clade_marker_size	30
+GCA_003238195	clade_marker_size	30
+GCA_003239335	clade_marker_size	30
+GCA_003237445	clade_marker_size	30
+GCA_003239295	clade_marker_size	30
+GCA_003237435	clade_marker_size	30
+GCA_003237415	clade_marker_size	30
+GCA_003238165	clade_marker_size	30
+GCA_003238155	clade_marker_size	30
+GCA_003238125	clade_marker_size	30
+GCA_003237365	clade_marker_size	30
+GCA_003237375	clade_marker_size	30
+GCA_003237355	clade_marker_size	30
+GCA_003237335	clade_marker_size	30
+GCA_003237275	clade_marker_size	30
+GCA_003238105	clade_marker_size	30
+GCA_003238075	clade_marker_size	30
+GCA_003237305	clade_marker_size	30
+GCA_003238085	clade_marker_size	30
+GCA_003237285	clade_marker_size	30
+GCA_003237255	clade_marker_size	30
+GCA_003239265	clade_marker_size	30
+GCA_003238045	clade_marker_size	30
+GCA_003237215	clade_marker_size	30
+GCA_003238035	clade_marker_size	30
+GCA_003238015	clade_marker_size	30
+GCA_003237995	clade_marker_size	30
+GCA_003239255	clade_marker_size	30
+GCA_003237205	clade_marker_size	30
+GCA_003237195	clade_marker_size	30
+GCA_003237175	clade_marker_size	30
+GCA_003237145	clade_marker_size	30
+GCA_003237125	clade_marker_size	30
+GCA_003237975	clade_marker_size	30
+GCA_003239235	clade_marker_size	30
+GCA_003239215	clade_marker_size	30
+GCA_003237945	clade_marker_size	30
+GCA_003239185	clade_marker_size	30
+GCA_003237115	clade_marker_size	30
+GCA_003237095	clade_marker_size	30
+GCA_003239175	clade_marker_size	30
+GCA_003237055	clade_marker_size	30
+GCA_003237045	clade_marker_size	30
+GCA_003237035	clade_marker_size	30
+GCA_003237935	clade_marker_size	30
+GCA_003237005	clade_marker_size	30
+GCA_003236985	clade_marker_size	30
+GCA_003236975	clade_marker_size	30
+GCA_003236955	clade_marker_size	30
+GCA_003236935	clade_marker_size	30
+GCA_003237915	clade_marker_size	30
+GCA_003236905	clade_marker_size	30
+GCA_003237895	clade_marker_size	30
+GCA_003236895	clade_marker_size	30
+GCA_003236875	clade_marker_size	30
+GCA_003236855	clade_marker_size	30
+GCA_003237865	clade_marker_size	30
+GCA_003236825	clade_marker_size	30
+GCA_003236805	clade_marker_size	30
+GCA_003237855	clade_marker_size	30
+GCA_003236795	clade_marker_size	30
+GCA_003254765	clade_marker_size	30
+GCA_003239155	clade_marker_size	30
+GCA_003236765	clade_marker_size	30
+GCA_003236755	clade_marker_size	30
+GCA_003239125	clade_marker_size	30
+GCA_003237825	clade_marker_size	30
+GCA_003239105	clade_marker_size	30
+GCA_003237815	clade_marker_size	30
+GCA_003239095	clade_marker_color	#ee3333
+GCA_003240395	clade_marker_color	#ee3333
+GCA_003239845	clade_marker_color	#ee3333
+GCA_003238995	clade_marker_color	#ee3333
+GCA_003239795	clade_marker_color	#ee3333
+GCA_003238955	clade_marker_color	#ee3333
+GCA_003240345	clade_marker_color	#ee3333
+GCA_003240325	clade_marker_color	#ee3333
+GCA_003240295	clade_marker_color	#ee3333
+GCA_003239735	clade_marker_color	#ee3333
+GCA_003238925	clade_marker_color	#ee3333
+GCA_003238885	clade_marker_color	#ee3333
+GCA_003238845	clade_marker_color	#ee3333
+GCA_003238805	clade_marker_color	#ee3333
+GCA_003240245	clade_marker_color	#ee3333
+GCA_003239715	clade_marker_color	#ee3333
+GCA_003239675	clade_marker_color	#ee3333
+GCA_003240235	clade_marker_color	#ee3333
+GCA_003240215	clade_marker_color	#ee3333
+GCA_003238735	clade_marker_color	#ee3333
+GCA_003238695	clade_marker_color	#ee3333
+GCA_003238685	clade_marker_color	#ee3333
+GCA_003238675	clade_marker_color	#ee3333
+GCA_003240175	clade_marker_color	#ee3333
+GCA_003238655	clade_marker_color	#ee3333
+GCA_003240135	clade_marker_color	#ee3333
+GCA_003240105	clade_marker_color	#ee3333
+GCA_003240075	clade_marker_color	#ee3333
+GCA_003238595	clade_marker_color	#ee3333
+GCA_003238575	clade_marker_color	#ee3333
+GCA_003240035	clade_marker_color	#ee3333
+GCA_003240005	clade_marker_color	#ee3333
+GCA_003239585	clade_marker_color	#ee3333
+GCA_003239555	clade_marker_color	#ee3333
+GCA_003238415	clade_marker_color	#ee3333
+GCA_003239925	clade_marker_color	#ee3333
+GCA_003239915	clade_marker_color	#ee3333
+GCA_003239895	clade_marker_color	#ee3333
+GCA_003238405	clade_marker_color	#ee3333
+GCA_003239815	clade_marker_color	#ee3333
+GCA_003238375	clade_marker_color	#ee3333
+GCA_003237775	clade_marker_color	#ee3333
+GCA_003237755	clade_marker_color	#ee3333
+GCA_003239505	clade_marker_color	#ee3333
+GCA_003238345	clade_marker_color	#ee3333
+GCA_003239495	clade_marker_color	#ee3333
+GCA_003237705	clade_marker_color	#ee3333
+GCA_003238335	clade_marker_color	#ee3333
+GCA_003237675	clade_marker_color	#ee3333
+GCA_003239455	clade_marker_color	#ee3333
+GCA_003239435	clade_marker_color	#ee3333
+GCA_003239415	clade_marker_color	#ee3333
+GCA_003237625	clade_marker_color	#ee3333
+GCA_003237595	clade_marker_color	#ee3333
+GCA_003237575	clade_marker_color	#ee3333
+GCA_003237535	clade_marker_color	#ee3333
+GCA_003238275	clade_marker_color	#ee3333
+GCA_003238245	clade_marker_color	#ee3333
+GCA_003239385	clade_marker_color	#ee3333
+GCA_003238235	clade_marker_color	#ee3333
+GCA_003238205	clade_marker_color	#ee3333
+GCA_003239365	clade_marker_color	#ee3333
+GCA_003239355	clade_marker_color	#ee3333
+GCA_003237475	clade_marker_color	#ee3333
+GCA_003238195	clade_marker_color	#ee3333
+GCA_003239335	clade_marker_color	#ee3333
+GCA_003237445	clade_marker_color	#ee3333
+GCA_003239295	clade_marker_color	#ee3333
+GCA_003237415	clade_marker_color	#ee3333
+GCA_003238165	clade_marker_color	#ee3333
+GCA_003238155	clade_marker_color	#ee3333
+GCA_003238125	clade_marker_color	#ee3333
+GCA_003237365	clade_marker_color	#ee3333
+GCA_003237375	clade_marker_color	#ee3333
+GCA_003237355	clade_marker_color	#ee3333
+GCA_003237275	clade_marker_color	#ee3333
+GCA_003238105	clade_marker_color	#ee3333
+GCA_003238075	clade_marker_color	#ee3333
+GCA_003237305	clade_marker_color	#ee3333
+GCA_003238085	clade_marker_color	#ee3333
+GCA_003237285	clade_marker_color	#ee3333
+GCA_003237255	clade_marker_color	#ee3333
+GCA_003239265	clade_marker_color	#ee3333
+GCA_003238045	clade_marker_color	#ee3333
+GCA_003237215	clade_marker_color	#ee3333
+GCA_003237815	clade_marker_color	#ee3333
+GCA_003237655	clade_marker_color	#66aa55
+GCA_003238285	clade_marker_color	#66aa55
+GCA_003237545	clade_marker_color	#66aa55
+GCA_003237435	clade_marker_color	#66aa55
+GCA_003237335	clade_marker_color	#66aa55
+GCA_003238035	clade_marker_color	#66aa55
+GCA_003238015	clade_marker_color	#66aa55
+GCA_003237995	clade_marker_color	#66aa55
+GCA_003239255	clade_marker_color	#66aa55
+GCA_003237205	clade_marker_color	#66aa55
+GCA_003237195	clade_marker_color	#66aa55
+GCA_003237175	clade_marker_color	#66aa55
+GCA_003237145	clade_marker_color	#66aa55
+GCA_003237125	clade_marker_color	#66aa55
+GCA_003237975	clade_marker_color	#66aa55
+GCA_003239235	clade_marker_color	#66aa55
+GCA_003239215	clade_marker_color	#66aa55
+GCA_003237945	clade_marker_color	#66aa55
+GCA_003239185	clade_marker_color	#66aa55
+GCA_003237115	clade_marker_color	#66aa55
+GCA_003237095	clade_marker_color	#66aa55
+GCA_003239175	clade_marker_color	#66aa55
+GCA_003237055	clade_marker_color	#66aa55
+GCA_003237045	clade_marker_color	#66aa55
+GCA_003237035	clade_marker_color	#66aa55
+GCA_003237935	clade_marker_color	#66aa55
+GCA_003237005	clade_marker_color	#66aa55
+GCA_003236985	clade_marker_color	#66aa55
+GCA_003236975	clade_marker_color	#66aa55
+GCA_003236955	clade_marker_color	#66aa55
+GCA_003236935	clade_marker_color	#66aa55
+GCA_003237915	clade_marker_color	#66aa55
+GCA_003236905	clade_marker_color	#66aa55
+GCA_003237895	clade_marker_color	#66aa55
+GCA_003236895	clade_marker_color	#66aa55
+GCA_003236875	clade_marker_color	#66aa55
+GCA_003236855	clade_marker_color	#66aa55
+GCA_003237865	clade_marker_color	#66aa55
+GCA_003236825	clade_marker_color	#66aa55
+GCA_003236805	clade_marker_color	#66aa55
+GCA_003237855	clade_marker_color	#66aa55
+GCA_003236795	clade_marker_color	#66aa55
+GCA_003254765	clade_marker_color	#66aa55
+GCA_003239155	clade_marker_color	#66aa55
+GCA_003236765	clade_marker_color	#66aa55
+GCA_003236755	clade_marker_color	#66aa55
+GCA_003239125	clade_marker_color	#66aa55
+GCA_003237825	clade_marker_color	#66aa55
+GCA_003239105	clade_marker_color	#66aa55
+GCA_003238405	ring_color	1	#ee3333
+GCA_003239815	ring_color	1	#ee3333
+GCA_003238375	ring_color	1	#ee3333
+GCA_003237595	ring_color	1	#ee3333
+GCA_003237535	ring_color	1	#ee3333
+GCA_003238275	ring_color	1	#ee3333
+GCA_003238245	ring_color	1	#ee3333
+GCA_003239385	ring_color	1	#ee3333
+GCA_003238235	ring_color	1	#ee3333
+GCA_003238205	ring_color	1	#ee3333
+GCA_003237475	ring_color	1	#ee3333
+GCA_003239295	ring_color	1	#ee3333
+GCA_003237415	ring_color	1	#ee3333
+GCA_003238165	ring_color	1	#ee3333
+GCA_003238155	ring_color	1	#ee3333
+GCA_003238125	ring_color	1	#ee3333
+GCA_003237365	ring_color	1	#ee3333
+GCA_003237355	ring_color	1	#ee3333
+GCA_003239265	ring_color	1	#ee3333
+GCA_003238045	ring_color	1	#ee3333
+GCA_003237215	ring_color	1	#ee3333
+GCA_003237435	ring_color	1	#ee3333
+GCA_003237175	ring_color	1	#ee3333
+GCA_003237775	ring_color	1	#66aa55
+GCA_003237755	ring_color	1	#66aa55
+GCA_003239505	ring_color	1	#66aa55
+GCA_003238345	ring_color	1	#66aa55
+GCA_003239495	ring_color	1	#66aa55
+GCA_003238335	ring_color	1	#66aa55
+GCA_003237675	ring_color	1	#66aa55
+GCA_003239455	ring_color	1	#66aa55
+GCA_003239415	ring_color	1	#66aa55
+GCA_003237625	ring_color	1	#66aa55
+GCA_003239335	ring_color	1	#66aa55
+GCA_003237445	ring_color	1	#66aa55
+GCA_003238075	ring_color	1	#66aa55
+GCA_003238015	ring_color	1	#66aa55
+GCA_003237205	ring_color	1	#66aa55
+GCA_003237195	ring_color	1	#66aa55
+GCA_003237145	ring_color	1	#66aa55
+GCA_003237125	ring_color	1	#66aa55
+GCA_003237975	ring_color	1	#66aa55
+GCA_003237945	ring_color	1	#66aa55
+GCA_003239185	ring_color	1	#66aa55
+GCA_003237115	ring_color	1	#66aa55
+GCA_003237095	ring_color	1	#66aa55
+GCA_003237055	ring_color	1	#66aa55
+GCA_003237045	ring_color	1	#66aa55
+GCA_003237035	ring_color	1	#66aa55
+GCA_003237935	ring_color	1	#66aa55
+GCA_003237005	ring_color	1	#66aa55
+GCA_003236985	ring_color	1	#66aa55
+GCA_003236975	ring_color	1	#66aa55
+GCA_003236955	ring_color	1	#66aa55
+GCA_003236935	ring_color	1	#66aa55
+GCA_003236905	ring_color	1	#66aa55
+GCA_003237895	ring_color	1	#66aa55
+GCA_003236895	ring_color	1	#66aa55
+GCA_003236855	ring_color	1	#66aa55
+GCA_003237865	ring_color	1	#66aa55
+GCA_003236825	ring_color	1	#66aa55
+GCA_003237855	ring_color	1	#66aa55
+GCA_003236795	ring_color	1	#66aa55
+GCA_003254765	ring_color	1	#66aa55
+GCA_003239155	ring_color	1	#66aa55
+GCA_003239125	ring_color	1	#66aa55
+GCA_003239105	ring_color	1	#66aa55
+GCA_003240215	ring_color	1	#3366aa
+GCA_003237705	ring_color	1	#3366aa
+GCA_003239365	ring_color	1	#3366aa
+GCA_003239355	ring_color	1	#3366aa
+GCA_003238285	ring_color	1	#3366aa
+GCA_003237335	ring_color	1	#3366aa
+GCA_003239235	ring_color	1	#3366aa
+GCA_003239095	ring_color	1	#cccc55
+GCA_003238845	ring_color	1	#cccc55
+GCA_003240245	ring_color	1	#cccc55
+GCA_003240175	ring_color	1	#cccc55
+GCA_003238655	ring_color	1	#cccc55
+GCA_003238595	ring_color	1	#cccc55
+GCA_003238575	ring_color	1	#cccc55
+GCA_003240035	ring_color	1	#cccc55
+GCA_003239555	ring_color	1	#cccc55
+GCA_003239925	ring_color	1	#cccc55
+GCA_003239895	ring_color	1	#cccc55
+GCA_003237655	ring_color	1	#cccc55
+GCA_003239255	ring_color	1	#cccc55
+GCA_003240395	ring_color	1	#992288
+GCA_003239845	ring_color	1	#992288
+GCA_003238995	ring_color	1	#992288
+GCA_003239795	ring_color	1	#992288
+GCA_003238955	ring_color	1	#992288
+GCA_003240345	ring_color	1	#992288
+GCA_003240325	ring_color	1	#992288
+GCA_003240295	ring_color	1	#992288
+GCA_003239735	ring_color	1	#992288
+GCA_003238925	ring_color	1	#992288
+GCA_003238885	ring_color	1	#992288
+GCA_003238805	ring_color	1	#992288
+GCA_003239715	ring_color	1	#992288
+GCA_003239675	ring_color	1	#992288
+GCA_003240235	ring_color	1	#992288
+GCA_003238735	ring_color	1	#992288
+GCA_003238695	ring_color	1	#992288
+GCA_003238685	ring_color	1	#992288
+GCA_003238675	ring_color	1	#992288
+GCA_003240135	ring_color	1	#992288
+GCA_003240105	ring_color	1	#992288
+GCA_003240075	ring_color	1	#992288
+GCA_003240005	ring_color	1	#992288
+GCA_003239585	ring_color	1	#992288
+GCA_003238415	ring_color	1	#992288
+GCA_003239915	ring_color	1	#992288
+GCA_003237575	ring_color	1	#992288
+GCA_003238195	ring_color	1	#992288
+GCA_003237275	ring_color	1	#992288
+GCA_003238105	ring_color	1	#992288
+GCA_003238085	ring_color	1	#992288
+GCA_003237255	ring_color	1	#992288
+GCA_003237545	ring_color	1	#992288
+GCA_003239435	ring_color	1	#d890dd
+GCA_003237375	ring_color	1	#d890dd
+GCA_003237305	ring_color	1	#d890dd
+GCA_003237285	ring_color	1	#d890dd
+GCA_003237815	ring_color	1	#d890dd
+GCA_003238035	ring_color	1	#d890dd
+GCA_003237995	ring_color	1	#d890dd
+GCA_003239215	ring_color	1	#d890dd
+GCA_003239175	ring_color	1	#d890dd
+GCA_003237915	ring_color	1	#d890dd
+GCA_003236875	ring_color	1	#d890dd
+GCA_003236805	ring_color	1	#d890dd
+GCA_003236765	ring_color	1	#d890dd
+GCA_003236755	ring_color	1	#d890dd
+GCA_003237825	ring_color	1	#d890dd
+GCA_003240215	ring_color	2	#ee3333
+GCA_003239095	ring_color	2	#ee3333
+GCA_003238845	ring_color	2	#ee3333
+GCA_003240245	ring_color	2	#ee3333
+GCA_003240175	ring_color	2	#ee3333
+GCA_003238655	ring_color	2	#ee3333
+GCA_003238595	ring_color	2	#ee3333
+GCA_003238575	ring_color	2	#ee3333
+GCA_003240035	ring_color	2	#ee3333
+GCA_003239555	ring_color	2	#ee3333
+GCA_003239925	ring_color	2	#ee3333
+GCA_003239895	ring_color	2	#ee3333
+GCA_003240395	ring_color	2	#ee3333
+GCA_003239845	ring_color	2	#ee3333
+GCA_003238995	ring_color	2	#ee3333
+GCA_003239795	ring_color	2	#ee3333
+GCA_003238955	ring_color	2	#ee3333
+GCA_003240345	ring_color	2	#ee3333
+GCA_003240325	ring_color	2	#ee3333
+GCA_003240295	ring_color	2	#ee3333
+GCA_003239735	ring_color	2	#ee3333
+GCA_003238925	ring_color	2	#ee3333
+GCA_003238885	ring_color	2	#ee3333
+GCA_003238805	ring_color	2	#ee3333
+GCA_003239715	ring_color	2	#ee3333
+GCA_003239675	ring_color	2	#ee3333
+GCA_003240235	ring_color	2	#ee3333
+GCA_003238735	ring_color	2	#ee3333
+GCA_003238695	ring_color	2	#ee3333
+GCA_003238685	ring_color	2	#ee3333
+GCA_003238675	ring_color	2	#ee3333
+GCA_003240135	ring_color	2	#ee3333
+GCA_003240105	ring_color	2	#ee3333
+GCA_003240075	ring_color	2	#ee3333
+GCA_003240005	ring_color	2	#ee3333
+GCA_003239585	ring_color	2	#ee3333
+GCA_003238415	ring_color	2	#ee3333
+GCA_003239915	ring_color	2	#ee3333
+GCA_003239505	ring_color	2	#66aa55
+GCA_003239415	ring_color	2	#66aa55
+GCA_003237625	ring_color	2	#66aa55
+GCA_003239335	ring_color	2	#66aa55
+GCA_003237945	ring_color	2	#66aa55
+GCA_003237095	ring_color	2	#66aa55
+GCA_003237045	ring_color	2	#66aa55
+GCA_003236985	ring_color	2	#66aa55
+GCA_003239365	ring_color	2	#66aa55
+GCA_003238285	ring_color	2	#66aa55
+GCA_003239235	ring_color	2	#66aa55
+GCA_003238105	ring_color	2	#66aa55
+GCA_003237375	ring_color	2	#66aa55
+GCA_003237305	ring_color	2	#66aa55
+GCA_003237285	ring_color	2	#66aa55
+GCA_003237815	ring_color	2	#66aa55
+GCA_003236875	ring_color	2	#66aa55
+GCA_003237825	ring_color	2	#66aa55
+GCA_003236975	ring_color	2	#3366aa
+GCA_003237705	ring_color	2	#3366aa
+GCA_003237335	ring_color	2	#3366aa
+GCA_003239435	ring_color	2	#3366aa
+GCA_003239215	ring_color	2	#3366aa
+GCA_003237445	ring_color	2	#cccc55
+GCA_003237195	ring_color	2	#cccc55
+GCA_003239355	ring_color	2	#cccc55
+GCA_003237775	ring_color	2	#992288
+GCA_003237755	ring_color	2	#992288
+GCA_003238345	ring_color	2	#992288
+GCA_003238335	ring_color	2	#992288
+GCA_003239455	ring_color	2	#992288
+GCA_003239185	ring_color	2	#992288
+GCA_003237115	ring_color	2	#992288
+GCA_003237935	ring_color	2	#992288
+GCA_003237005	ring_color	2	#992288
+GCA_003237895	ring_color	2	#992288
+GCA_003236825	ring_color	2	#992288
+GCA_003236795	ring_color	2	#992288
+GCA_003239255	ring_color	2	#992288
+GCA_003237915	ring_color	2	#992288
+GCA_003236755	ring_color	2	#992288
+GCA_003239815	ring_color	2	#d890dd
+GCA_003238275	ring_color	2	#d890dd
+GCA_003238245	ring_color	2	#d890dd
+GCA_003239385	ring_color	2	#d890dd
+GCA_003238235	ring_color	2	#d890dd
+GCA_003238205	ring_color	2	#d890dd
+GCA_003237475	ring_color	2	#d890dd
+GCA_003237415	ring_color	2	#d890dd
+GCA_003238165	ring_color	2	#d890dd
+GCA_003238155	ring_color	2	#d890dd
+GCA_003238125	ring_color	2	#d890dd
+GCA_003237365	ring_color	2	#d890dd
+GCA_003237355	ring_color	2	#d890dd
+GCA_003239265	ring_color	2	#d890dd
+GCA_003238045	ring_color	2	#d890dd
+GCA_003237215	ring_color	2	#d890dd
+GCA_003237435	ring_color	2	#d890dd
+GCA_003237175	ring_color	2	#d890dd
+GCA_003239495	ring_color	2	#777777
+GCA_003238075	ring_color	2	#ffee33
+GCA_003237125	ring_color	2	#ffee33
+GCA_003237975	ring_color	2	#ffee33
+GCA_003237055	ring_color	2	#ffee33
+GCA_003237035	ring_color	2	#ffee33
+GCA_003236955	ring_color	2	#ffee33
+GCA_003236935	ring_color	2	#ffee33
+GCA_003236905	ring_color	2	#ffee33
+GCA_003236895	ring_color	2	#ffee33
+GCA_003236855	ring_color	2	#ffee33
+GCA_003237865	ring_color	2	#ffee33
+GCA_003237855	ring_color	2	#ffee33
+GCA_003254765	ring_color	2	#ffee33
+GCA_003239155	ring_color	2	#ffee33
+GCA_003239125	ring_color	2	#ffee33
+GCA_003239105	ring_color	2	#ffee33
+GCA_003237655	ring_color	2	#ffee33
+GCA_003237575	ring_color	2	#ffee33
+GCA_003237275	ring_color	2	#ffee33
+GCA_003238085	ring_color	2	#ffee33
+GCA_003238035	ring_color	2	#ffee33
+GCA_003239175	ring_color	2	#ffee33
+GCA_003236805	ring_color	2	#ffee33
+GCA_003236765	ring_color	2	#ffee33
+GCA_003238405	ring_color	2	#ffaa06
+GCA_003238375	ring_color	2	#ffaa06
+GCA_003237595	ring_color	2	#ffaa06
+GCA_003237535	ring_color	2	#ffaa06
+GCA_003238195	ring_color	2	#ffaa06
+GCA_003237255	ring_color	2	#ffaa06
+GCA_003237545	ring_color	2	#ffaa06
+GCA_003239295	ring_color	2	#20d5e1
+GCA_003237675	ring_color	2	#20d5e1
+GCA_003238015	ring_color	2	#20d5e1
+GCA_003237205	ring_color	2	#000000
+GCA_003237145	ring_color	2	#000000
+GCA_003237995	ring_color	2	#000000
+GCA_003238575	ring_color	3	#66aa55
+GCA_003240215	ring_color	3	#66aa55
+GCA_003239095	ring_color	3	#66aa55
+GCA_003238845	ring_color	3	#66aa55
+GCA_003240245	ring_color	3	#66aa55
+GCA_003240175	ring_color	3	#66aa55
+GCA_003238655	ring_color	3	#66aa55
+GCA_003238595	ring_color	3	#66aa55
+GCA_003240035	ring_color	3	#66aa55
+GCA_003239555	ring_color	3	#66aa55
+GCA_003239925	ring_color	3	#66aa55
+GCA_003240395	ring_color	3	#66aa55
+GCA_003239845	ring_color	3	#66aa55
+GCA_003239795	ring_color	3	#66aa55
+GCA_003238955	ring_color	3	#66aa55
+GCA_003240345	ring_color	3	#66aa55
+GCA_003240325	ring_color	3	#66aa55
+GCA_003240295	ring_color	3	#66aa55
+GCA_003239735	ring_color	3	#66aa55
+GCA_003238925	ring_color	3	#66aa55
+GCA_003238885	ring_color	3	#66aa55
+GCA_003238805	ring_color	3	#66aa55
+GCA_003239715	ring_color	3	#66aa55
+GCA_003239675	ring_color	3	#66aa55
+GCA_003240235	ring_color	3	#66aa55
+GCA_003238735	ring_color	3	#66aa55
+GCA_003238695	ring_color	3	#66aa55
+GCA_003238675	ring_color	3	#66aa55
+GCA_003240135	ring_color	3	#66aa55
+GCA_003240105	ring_color	3	#66aa55
+GCA_003240075	ring_color	3	#66aa55
+GCA_003240005	ring_color	3	#66aa55
+GCA_003239585	ring_color	3	#66aa55
+GCA_003238415	ring_color	3	#66aa55
+GCA_003239915	ring_color	3	#66aa55
+GCA_003237945	ring_color	3	#66aa55
+GCA_003238285	ring_color	3	#66aa55
+GCA_003238105	ring_color	3	#66aa55
+GCA_003237305	ring_color	3	#66aa55
+GCA_003237335	ring_color	3	#66aa55
+GCA_003237445	ring_color	3	#66aa55
+GCA_003239185	ring_color	3	#66aa55
+GCA_003237115	ring_color	3	#66aa55
+GCA_003237935	ring_color	3	#66aa55
+GCA_003239255	ring_color	3	#66aa55
+GCA_003236755	ring_color	3	#66aa55
+GCA_003239815	ring_color	3	#66aa55
+GCA_003238275	ring_color	3	#66aa55
+GCA_003238245	ring_color	3	#66aa55
+GCA_003239385	ring_color	3	#66aa55
+GCA_003238235	ring_color	3	#66aa55
+GCA_003238205	ring_color	3	#66aa55
+GCA_003237475	ring_color	3	#66aa55
+GCA_003237415	ring_color	3	#66aa55
+GCA_003238165	ring_color	3	#66aa55
+GCA_003238125	ring_color	3	#66aa55
+GCA_003237365	ring_color	3	#66aa55
+GCA_003237355	ring_color	3	#66aa55
+GCA_003239265	ring_color	3	#66aa55
+GCA_003238045	ring_color	3	#66aa55
+GCA_003237215	ring_color	3	#66aa55
+GCA_003237435	ring_color	3	#66aa55
+GCA_003237175	ring_color	3	#66aa55
+GCA_003239495	ring_color	3	#66aa55
+GCA_003237125	ring_color	3	#66aa55
+GCA_003237975	ring_color	3	#66aa55
+GCA_003237055	ring_color	3	#66aa55
+GCA_003237035	ring_color	3	#66aa55
+GCA_003236955	ring_color	3	#66aa55
+GCA_003236905	ring_color	3	#66aa55
+GCA_003236895	ring_color	3	#66aa55
+GCA_003236855	ring_color	3	#66aa55
+GCA_003237865	ring_color	3	#66aa55
+GCA_003237855	ring_color	3	#66aa55
+GCA_003254765	ring_color	3	#66aa55
+GCA_003239155	ring_color	3	#66aa55
+GCA_003239105	ring_color	3	#66aa55
+GCA_003237655	ring_color	3	#66aa55
+GCA_003237575	ring_color	3	#66aa55
+GCA_003237275	ring_color	3	#66aa55
+GCA_003238085	ring_color	3	#66aa55
+GCA_003238035	ring_color	3	#66aa55
+GCA_003239175	ring_color	3	#66aa55
+GCA_003236805	ring_color	3	#66aa55
+GCA_003236765	ring_color	3	#66aa55
+GCA_003238405	ring_color	3	#66aa55
+GCA_003238375	ring_color	3	#66aa55
+GCA_003237595	ring_color	3	#66aa55
+GCA_003237535	ring_color	3	#66aa55
+GCA_003238195	ring_color	3	#66aa55
+GCA_003237255	ring_color	3	#66aa55
+GCA_003237545	ring_color	3	#66aa55
+GCA_003239295	ring_color	3	#66aa55
+GCA_003237995	ring_color	3	#66aa55
+GCA_003239895	ring_color	3	#66aa55
+GCA_003238995	ring_color	3	#ee3333
+GCA_003238685	ring_color	3	#ee3333
+GCA_003239505	ring_color	3	#ee3333
+GCA_003239415	ring_color	3	#ee3333
+GCA_003237625	ring_color	3	#ee3333
+GCA_003239335	ring_color	3	#ee3333
+GCA_003237095	ring_color	3	#ee3333
+GCA_003237045	ring_color	3	#ee3333
+GCA_003236985	ring_color	3	#ee3333
+GCA_003239365	ring_color	3	#ee3333
+GCA_003239235	ring_color	3	#ee3333
+GCA_003237375	ring_color	3	#ee3333
+GCA_003237285	ring_color	3	#ee3333
+GCA_003237815	ring_color	3	#66aa55
+GCA_003236875	ring_color	3	#ee3333
+GCA_003237825	ring_color	3	#ee3333
+GCA_003236975	ring_color	3	#ee3333
+GCA_003237705	ring_color	3	#ee3333
+GCA_003239435	ring_color	3	#ee3333
+GCA_003239215	ring_color	3	#ee3333
+GCA_003237195	ring_color	3	#ee3333
+GCA_003239355	ring_color	3	#ee3333
+GCA_003237775	ring_color	3	#ee3333
+GCA_003237755	ring_color	3	#ee3333
+GCA_003238345	ring_color	3	#ee3333
+GCA_003238335	ring_color	3	#ee3333
+GCA_003239455	ring_color	3	#ee3333
+GCA_003237005	ring_color	3	#ee3333
+GCA_003237895	ring_color	3	#ee3333
+GCA_003236825	ring_color	3	#ee3333
+GCA_003236795	ring_color	3	#ee3333
+GCA_003237915	ring_color	3	#66aa55
+GCA_003238075	ring_color	3	#ee3333
+GCA_003236935	ring_color	3	#ee3333
+GCA_003239125	ring_color	3	#ee3333
+GCA_003237675	ring_color	3	#ee3333
+GCA_003238015	ring_color	3	#ee3333
+GCA_003237205	ring_color	3	#ee3333
+GCA_003237145	ring_color	3	#ee3333
+GCA_003238155	ring_color	3	#66aa55
+GCA_003237655	ring_color	4	#ffffff
+GCA_003238285	ring_color	4	#ffffff
+GCA_003237545	ring_color	4	#ffffff
+GCA_003237435	ring_color	4	#ffffff
+GCA_003237335	ring_color	4	#ffffff
+GCA_003238035	ring_color	4	#ffffff
+GCA_003238015	ring_color	4	#ffffff
+GCA_003237995	ring_color	4	#ffffff
+GCA_003239255	ring_color	4	#ffffff
+GCA_003237205	ring_color	4	#ffffff
+GCA_003237195	ring_color	4	#ffffff
+GCA_003237175	ring_color	4	#ffffff
+GCA_003237145	ring_color	4	#ffffff
+GCA_003237125	ring_color	4	#ffffff
+GCA_003237975	ring_color	4	#ffffff
+GCA_003239235	ring_color	4	#ffffff
+GCA_003239215	ring_color	4	#ffffff
+GCA_003237945	ring_color	4	#ffffff
+GCA_003239185	ring_color	4	#ffffff
+GCA_003237115	ring_color	4	#ffffff
+GCA_003237095	ring_color	4	#ffffff
+GCA_003239175	ring_color	4	#ffffff
+GCA_003237055	ring_color	4	#ffffff
+GCA_003237045	ring_color	4	#ffffff
+GCA_003237035	ring_color	4	#ffffff
+GCA_003237935	ring_color	4	#ffffff
+GCA_003237005	ring_color	4	#ffffff
+GCA_003236985	ring_color	4	#ffffff
+GCA_003236975	ring_color	4	#ffffff
+GCA_003236955	ring_color	4	#ffffff
+GCA_003236935	ring_color	4	#ffffff
+GCA_003237915	ring_color	4	#ffffff
+GCA_003236905	ring_color	4	#ffffff
+GCA_003237895	ring_color	4	#ffffff
+GCA_003236895	ring_color	4	#ffffff
+GCA_003236875	ring_color	4	#ffffff
+GCA_003236855	ring_color	4	#ffffff
+GCA_003237865	ring_color	4	#ffffff
+GCA_003236825	ring_color	4	#ffffff
+GCA_003236805	ring_color	4	#ffffff
+GCA_003237855	ring_color	4	#ffffff
+GCA_003236795	ring_color	4	#ffffff
+GCA_003254765	ring_color	4	#ffffff
+GCA_003239155	ring_color	4	#ffffff
+GCA_003236765	ring_color	4	#ffffff
+GCA_003236755	ring_color	4	#ffffff
+GCA_003239125	ring_color	4	#ffffff
+GCA_003237825	ring_color	4	#ffffff
+GCA_003239105	ring_color	4	#ffffff
+GCA_003239845	ring_color	4	#ee3333
+GCA_003239795	ring_color	4	#ee3333
+GCA_003238955	ring_color	4	#ee3333
+GCA_003240345	ring_color	4	#ee3333
+GCA_003239735	ring_color	4	#ee3333
+GCA_003239675	ring_color	4	#ee3333
+GCA_003240215	ring_color	4	#ee3333
+GCA_003238675	ring_color	4	#ee3333
+GCA_003240075	ring_color	4	#ee3333
+GCA_003239915	ring_color	4	#ee3333
+GCA_003238405	ring_color	4	#ee3333
+GCA_003237575	ring_color	4	#ee3333
+GCA_003238275	ring_color	4	#ee3333
+GCA_003238245	ring_color	4	#ee3333
+GCA_003238235	ring_color	4	#ee3333
+GCA_003237365	ring_color	4	#ee3333
+GCA_003238085	ring_color	4	#ee3333
+GCA_003237215	ring_color	4	#ee3333
+GCA_003237815	ring_color	4	#ee3333
+GCA_003239585	ring_color	4	#66aa55
+GCA_003239095	ring_color	4	#cccc55
+GCA_003240395	ring_color	4	#cccc55
+GCA_003238995	ring_color	4	#cccc55
+GCA_003238845	ring_color	4	#cccc55
+GCA_003240235	ring_color	4	#cccc55
+GCA_003238695	ring_color	4	#cccc55
+GCA_003240175	ring_color	4	#cccc55
+GCA_003238655	ring_color	4	#cccc55
+GCA_003240105	ring_color	4	#cccc55
+GCA_003238575	ring_color	4	#cccc55
+GCA_003240005	ring_color	4	#cccc55
+GCA_003239555	ring_color	4	#cccc55
+GCA_003238415	ring_color	4	#cccc55
+GCA_003239895	ring_color	4	#cccc55
+GCA_003239815	ring_color	4	#cccc55
+GCA_003238375	ring_color	4	#cccc55
+GCA_003237775	ring_color	4	#cccc55
+GCA_003237755	ring_color	4	#cccc55
+GCA_003238345	ring_color	4	#cccc55
+GCA_003239495	ring_color	4	#cccc55
+GCA_003237705	ring_color	4	#cccc55
+GCA_003238335	ring_color	4	#cccc55
+GCA_003237675	ring_color	4	#cccc55
+GCA_003239455	ring_color	4	#cccc55
+GCA_003239435	ring_color	4	#cccc55
+GCA_003237595	ring_color	4	#cccc55
+GCA_003237535	ring_color	4	#cccc55
+GCA_003239385	ring_color	4	#cccc55
+GCA_003238205	ring_color	4	#cccc55
+GCA_003239365	ring_color	4	#cccc55
+GCA_003239355	ring_color	4	#cccc55
+GCA_003237475	ring_color	4	#cccc55
+GCA_003238195	ring_color	4	#cccc55
+GCA_003239335	ring_color	4	#cccc55
+GCA_003239295	ring_color	4	#cccc55
+GCA_003237415	ring_color	4	#cccc55
+GCA_003238165	ring_color	4	#cccc55
+GCA_003238125	ring_color	4	#cccc55
+GCA_003237375	ring_color	4	#cccc55
+GCA_003237355	ring_color	4	#cccc55
+GCA_003237275	ring_color	4	#cccc55
+GCA_003238105	ring_color	4	#cccc55
+GCA_003238075	ring_color	4	#cccc55
+GCA_003237305	ring_color	4	#cccc55
+GCA_003237285	ring_color	4	#cccc55
+GCA_003237255	ring_color	4	#cccc55
+GCA_003239265	ring_color	4	#cccc55
+GCA_003238045	ring_color	4	#cccc55
+GCA_003240325	ring_color	4	#992288
+GCA_003238885	ring_color	4	#992288
+GCA_003238805	ring_color	4	#992288
+GCA_003238685	ring_color	4	#992288
+GCA_003240135	ring_color	4	#992288
+GCA_003239415	ring_color	4	#992288
+GCA_003237625	ring_color	4	#992288
+GCA_003237445	ring_color	4	#992288
+GCA_003240295	ring_color	4	#000000
+GCA_003238155	ring_color	4	#000000
+GCA_003240245	ring_color	4	#000000
+GCA_003239505	ring_color	4	#000000
+GCA_003238925	ring_color	4	#cccc55
+GCA_003239715	ring_color	4	#cccc55
+GCA_003238735	ring_color	4	#cccc55
+GCA_003238595	ring_color	4	#cccc55
+GCA_003240035	ring_color	4	#cccc55
+GCA_003239925	ring_color	4	#cccc55
+GCA_003239095	ring_height	5	1.854545456
+GCA_003240395	ring_height	5	1.490909092
+GCA_003239845	ring_height	5	1.21818182
+GCA_003238995	ring_height	5	1.945454544
+GCA_003239795	ring_height	5	1.309090908
+GCA_003238955	ring_height	5	1.127272728
+GCA_003240345	ring_height	5	1.4
+GCA_003240325	ring_height	5	1.309090908
+GCA_003240295	ring_height	5	1.490909092
+GCA_003239735	ring_height	5	1.58181818
+GCA_003238925	ring_height	5	1.4
+GCA_003238885	ring_height	5	0.309090908
+GCA_003238845	ring_height	5	1.854545456
+GCA_003238805	ring_height	5	1.490909092
+GCA_003240245	ring_height	5	0.58181818
+GCA_003239715	ring_height	5	1.309090908
+GCA_003239675	ring_height	5	1.58181818
+GCA_003240235	ring_height	5	1.4
+GCA_003240215	ring_height	5	1.58181818
+GCA_003238735	ring_height	5	1.490909092
+GCA_003238695	ring_height	5	2.127272728
+GCA_003238685	ring_height	5	0.490909092
+GCA_003238675	ring_height	5	1.127272728
+GCA_003240175	ring_height	5	1.490909092
+GCA_003238655	ring_height	5	1.4
+GCA_003240135	ring_height	5	1.4
+GCA_003240105	ring_height	5	2.309090908
+GCA_003240075	ring_height	5	0.945454544
+GCA_003238595	ring_height	5	1.309090908
+GCA_003238575	ring_height	5	2.036363636
+GCA_003240035	ring_height	5	1.21818182
+GCA_003240005	ring_height	5	2.127272728
+GCA_003239585	ring_height	5	1.763636364
+GCA_003239555	ring_height	5	1.309090908
+GCA_003238415	ring_height	5	1.945454544
+GCA_003239925	ring_height	5	2.309090908
+GCA_003239915	ring_height	5	1.58181818
+GCA_003239895	ring_height	5	1.945454544
+GCA_003238405	ring_height	5	0.945454544
+GCA_003239815	ring_height	5	1.58181818
+GCA_003238375	ring_height	5	1.4
+GCA_003237775	ring_height	5	1.945454544
+GCA_003237755	ring_height	5	2.036363636
+GCA_003239505	ring_height	5	1.127272728
+GCA_003238345	ring_height	5	2.036363636
+GCA_003239495	ring_height	5	0.854545456
+GCA_003237705	ring_height	5	2.036363636
+GCA_003238335	ring_height	5	1.945454544
+GCA_003237675	ring_height	5	2.127272728
+GCA_003237655	ring_height	5	1.309090908
+GCA_003239455	ring_height	5	1.854545456
+GCA_003238285	ring_height	5	1.58181818
+GCA_003239435	ring_height	5	1.854545456
+GCA_003239415	ring_height	5	1.854545456
+GCA_003237625	ring_height	5	1.854545456
+GCA_003237595	ring_height	5	0.854545456
+GCA_003237575	ring_height	5	1.58181818
+GCA_003237545	ring_height	5	2.4
+GCA_003237535	ring_height	5	1.58181818
+GCA_003238275	ring_height	5	0.854545456
+GCA_003238245	ring_height	5	1.036363636
+GCA_003239385	ring_height	5	1.21818182
+GCA_003238235	ring_height	5	1.127272728
+GCA_003238205	ring_height	5	1.58181818
+GCA_003239365	ring_height	5	1.490909092
+GCA_003239355	ring_height	5	1.854545456
+GCA_003237475	ring_height	5	1.21818182
+GCA_003238195	ring_height	5	2.127272728
+GCA_003239335	ring_height	5	1.945454544
+GCA_003237445	ring_height	5	1.672727272
+GCA_003239295	ring_height	5	2.309090908
+GCA_003237435	ring_height	5	2.309090908
+GCA_003237415	ring_height	5	1.945454544
+GCA_003238165	ring_height	5	2.036363636
+GCA_003238155	ring_height	5	1.58181818
+GCA_003238125	ring_height	5	1.21818182
+GCA_003237365	ring_height	5	0.945454544
+GCA_003237375	ring_height	5	1.945454544
+GCA_003237355	ring_height	5	1.4
+GCA_003237335	ring_height	5	1.127272728
+GCA_003237275	ring_height	5	1.490909092
+GCA_003238105	ring_height	5	0.854545456
+GCA_003238075	ring_height	5	2.036363636
+GCA_003237305	ring_height	5	1.309090908
+GCA_003238085	ring_height	5	1.036363636
+GCA_003237285	ring_height	5	2.127272728
+GCA_003237255	ring_height	5	1.4
+GCA_003239265	ring_height	5	1.58181818
+GCA_003238045	ring_height	5	1.945454544
+GCA_003237215	ring_height	5	1.036363636
+GCA_003238035	ring_height	5	1.854545456
+GCA_003238015	ring_height	5	1.490909092
+GCA_003237995	ring_height	5	1.21818182
+GCA_003239255	ring_height	5	0.945454544
+GCA_003237205	ring_height	5	2.127272728
+GCA_003237195	ring_height	5	1.490909092
+GCA_003237175	ring_height	5	1.4
+GCA_003237145	ring_height	5	1.763636364
+GCA_003237125	ring_height	5	1.945454544
+GCA_003237975	ring_height	5	1.4
+GCA_003239235	ring_height	5	1.490909092
+GCA_003239215	ring_height	5	2.127272728
+GCA_003237945	ring_height	5	2.309090908
+GCA_003239185	ring_height	5	1.945454544
+GCA_003237115	ring_height	5	1.58181818
+GCA_003237095	ring_height	5	1.672727272
+GCA_003239175	ring_height	5	1.490909092
+GCA_003237055	ring_height	5	1.309090908
+GCA_003237045	ring_height	5	2.036363636
+GCA_003237035	ring_height	5	1.945454544
+GCA_003237935	ring_height	5	1.945454544
+GCA_003237005	ring_height	5	1.672727272
+GCA_003236985	ring_height	5	1.672727272
+GCA_003236975	ring_height	5	1.672727272
+GCA_003236955	ring_height	5	1.490909092
+GCA_003236935	ring_height	5	1.672727272
+GCA_003237915	ring_height	5	2.127272728
+GCA_003236905	ring_height	5	1.672727272
+GCA_003237895	ring_height	5	2.036363636
+GCA_003236895	ring_height	5	1.854545456
+GCA_003236875	ring_height	5	0.490909092
+GCA_003236855	ring_height	5	1.945454544
+GCA_003237865	ring_height	5	1.763636364
+GCA_003236825	ring_height	5	1.672727272
+GCA_003236805	ring_height	5	1.4
+GCA_003237855	ring_height	5	1.763636364
+GCA_003236795	ring_height	5	1.58181818
+GCA_003254765	ring_height	5	1.945454544
+GCA_003239155	ring_height	5	2.127272728
+GCA_003236765	ring_height	5	2.036363636
+GCA_003236755	ring_height	5	1.945454544
+GCA_003239125	ring_height	5	1.763636364
+GCA_003237825	ring_height	5	1.945454544
+GCA_003239105	ring_height	5	1.21818182
+GCA_003237815	ring_height	5	1.309090908
+GCA_003239095	ring_color	5	#777777
+GCA_003240395	ring_color	5	#777777
+GCA_003239845	ring_color	5	#777777
+GCA_003238995	ring_color	5	#777777
+GCA_003239795	ring_color	5	#777777
+GCA_003238955	ring_color	5	#777777
+GCA_003240345	ring_color	5	#777777
+GCA_003240325	ring_color	5	#777777
+GCA_003240295	ring_color	5	#777777
+GCA_003239735	ring_color	5	#777777
+GCA_003238925	ring_color	5	#777777
+GCA_003238885	ring_color	5	#777777
+GCA_003238845	ring_color	5	#777777
+GCA_003238805	ring_color	5	#777777
+GCA_003240245	ring_color	5	#777777
+GCA_003239715	ring_color	5	#777777
+GCA_003239675	ring_color	5	#777777
+GCA_003240235	ring_color	5	#777777
+GCA_003240215	ring_color	5	#777777
+GCA_003238735	ring_color	5	#777777
+GCA_003238695	ring_color	5	#777777
+GCA_003238685	ring_color	5	#777777
+GCA_003238675	ring_color	5	#777777
+GCA_003240175	ring_color	5	#777777
+GCA_003238655	ring_color	5	#777777
+GCA_003240135	ring_color	5	#777777
+GCA_003240105	ring_color	5	#777777
+GCA_003240075	ring_color	5	#777777
+GCA_003238595	ring_color	5	#777777
+GCA_003238575	ring_color	5	#777777
+GCA_003240035	ring_color	5	#777777
+GCA_003240005	ring_color	5	#777777
+GCA_003239585	ring_color	5	#777777
+GCA_003239555	ring_color	5	#777777
+GCA_003238415	ring_color	5	#777777
+GCA_003239925	ring_color	5	#777777
+GCA_003239915	ring_color	5	#777777
+GCA_003239895	ring_color	5	#777777
+GCA_003238405	ring_color	5	#777777
+GCA_003239815	ring_color	5	#777777
+GCA_003238375	ring_color	5	#777777
+GCA_003237775	ring_color	5	#777777
+GCA_003237755	ring_color	5	#777777
+GCA_003239505	ring_color	5	#777777
+GCA_003238345	ring_color	5	#777777
+GCA_003239495	ring_color	5	#777777
+GCA_003237705	ring_color	5	#777777
+GCA_003238335	ring_color	5	#777777
+GCA_003237675	ring_color	5	#777777
+GCA_003237655	ring_color	5	#777777
+GCA_003239455	ring_color	5	#777777
+GCA_003238285	ring_color	5	#777777
+GCA_003239435	ring_color	5	#777777
+GCA_003239415	ring_color	5	#777777
+GCA_003237625	ring_color	5	#777777
+GCA_003237595	ring_color	5	#777777
+GCA_003237575	ring_color	5	#777777
+GCA_003237545	ring_color	5	#777777
+GCA_003237535	ring_color	5	#777777
+GCA_003238275	ring_color	5	#777777
+GCA_003238245	ring_color	5	#777777
+GCA_003239385	ring_color	5	#777777
+GCA_003238235	ring_color	5	#777777
+GCA_003238205	ring_color	5	#777777
+GCA_003239365	ring_color	5	#777777
+GCA_003239355	ring_color	5	#777777
+GCA_003237475	ring_color	5	#777777
+GCA_003238195	ring_color	5	#777777
+GCA_003239335	ring_color	5	#777777
+GCA_003237445	ring_color	5	#777777
+GCA_003239295	ring_color	5	#777777
+GCA_003237435	ring_color	5	#777777
+GCA_003237415	ring_color	5	#777777
+GCA_003238165	ring_color	5	#777777
+GCA_003238155	ring_color	5	#777777
+GCA_003238125	ring_color	5	#777777
+GCA_003237365	ring_color	5	#777777
+GCA_003237375	ring_color	5	#777777
+GCA_003237355	ring_color	5	#777777
+GCA_003237335	ring_color	5	#777777
+GCA_003237275	ring_color	5	#777777
+GCA_003238105	ring_color	5	#777777
+GCA_003238075	ring_color	5	#777777
+GCA_003237305	ring_color	5	#777777
+GCA_003238085	ring_color	5	#777777
+GCA_003237285	ring_color	5	#777777
+GCA_003237255	ring_color	5	#777777
+GCA_003239265	ring_color	5	#777777
+GCA_003238045	ring_color	5	#777777
+GCA_003237215	ring_color	5	#777777
+GCA_003238035	ring_color	5	#777777
+GCA_003238015	ring_color	5	#777777
+GCA_003237995	ring_color	5	#777777
+GCA_003239255	ring_color	5	#777777
+GCA_003237205	ring_color	5	#777777
+GCA_003237195	ring_color	5	#777777
+GCA_003237175	ring_color	5	#777777
+GCA_003237145	ring_color	5	#777777
+GCA_003237125	ring_color	5	#777777
+GCA_003237975	ring_color	5	#777777
+GCA_003239235	ring_color	5	#777777
+GCA_003239215	ring_color	5	#777777
+GCA_003237945	ring_color	5	#777777
+GCA_003239185	ring_color	5	#777777
+GCA_003237115	ring_color	5	#777777
+GCA_003237095	ring_color	5	#777777
+GCA_003239175	ring_color	5	#777777
+GCA_003237055	ring_color	5	#777777
+GCA_003237045	ring_color	5	#777777
+GCA_003237035	ring_color	5	#777777
+GCA_003237935	ring_color	5	#777777
+GCA_003237005	ring_color	5	#777777
+GCA_003236985	ring_color	5	#777777
+GCA_003236975	ring_color	5	#777777
+GCA_003236955	ring_color	5	#777777
+GCA_003236935	ring_color	5	#777777
+GCA_003237915	ring_color	5	#777777
+GCA_003236905	ring_color	5	#777777
+GCA_003237895	ring_color	5	#777777
+GCA_003236895	ring_color	5	#777777
+GCA_003236875	ring_color	5	#777777
+GCA_003236855	ring_color	5	#777777
+GCA_003237865	ring_color	5	#777777
+GCA_003236825	ring_color	5	#777777
+GCA_003236805	ring_color	5	#777777
+GCA_003237855	ring_color	5	#777777
+GCA_003236795	ring_color	5	#777777
+GCA_003254765	ring_color	5	#777777
+GCA_003239155	ring_color	5	#777777
+GCA_003236765	ring_color	5	#777777
+GCA_003236755	ring_color	5	#777777
+GCA_003239125	ring_color	5	#777777
+GCA_003237825	ring_color	5	#777777
+GCA_003239105	ring_color	5	#777777
+GCA_003237815	ring_color	5	#777777
+ST152	annotation	152
+ST59	annotation	59
+GCA_003237335	annotation	942
+ST121	annotation	121
+GCA_003237435	annotation	10
+ST1162	annotation	1162
+GCA_003237915	annotation	395
+ST45	annotation	45
+ST398	annotation	398
+ST30and34	annotation	30
+ST30	annotation	30
+ST34	annotation	34
+ST22and1327	annotation	22
+GCA_003238165	annotation	1327
+GCA_003238155	annotation	241
+ST239	annotation	239
+ST8and247	annotation	8
+ST8	annotation	8
+GCA_003237815	annotation	247
+GCA_003237595	annotation	88
+GCA_003237475	annotation	6
+ST7	annotation	7
+GCA_003237095	annotation	96
+ST25	annotation	25
+ST15	annotation	15
+ST1	annotation	1
+ST97	annotation	97
+ST772	annotation	772
+ST5and228	annotation	5
+ST228	annotation	228
+ST152	annotation_background_color	#ee3333
+ST59	annotation_background_color	#66aa55
+GCA_003237335	annotation_background_color	#3366aa
+ST121	annotation_background_color	#cccc55
+GCA_003237435	annotation_background_color	#992288
+ST1162	annotation_background_color	#ffaa06
+GCA_003237915	annotation_background_color	#20d5e1
+ST45	annotation_background_color	#000000
+ST398	annotation_background_color	#ee3333
+ST30and34	annotation_background_color	#66aa55
+ST30	annotation_background_color	#66aa55
+ST34	annotation_background_color	#3366aa
+ST22and1327	annotation_background_color	#cccc55
+GCA_003238165	annotation_background_color	#992288
+GCA_003238155	annotation_background_color	#ffaa06
+ST239	annotation_background_color	#20d5e1
+ST8and247	annotation_background_color	#000000
+ST8	annotation_background_color	#000000
+GCA_003237815	annotation_background_color	#ee3333
+GCA_003237595	annotation_background_color	#66aa55
+GCA_003237475	annotation_background_color	#3366aa
+ST7	annotation_background_color	#cccc55
+GCA_003237095	annotation_background_color	#992288
+ST25	annotation_background_color	#ffaa06
+ST15	annotation_background_color	#20d5e1
+ST1	annotation_background_color	#000000
+ST97	annotation_background_color	#ee3333
+ST772	annotation_background_color	#66aa55
+ST5and228	annotation_background_color	#3366aa
+ST228	annotation_background_color	#cccc55
+ST152	annotation_rotation	90
+ST59	annotation_rotation	90
+GCA_003237335	annotation_rotation	90
+ST121	annotation_rotation	90
+GCA_003237435	annotation_rotation	90
+ST1162	annotation_rotation	90
+GCA_003237915	annotation_rotation	90
+ST45	annotation_rotation	90
+ST398	annotation_rotation	90
+ST30and34	annotation_rotation	90
+ST30	annotation_rotation	90
+ST34	annotation_rotation	90
+ST22and1327	annotation_rotation	90
+GCA_003238165	annotation_rotation	90
+GCA_003238155	annotation_rotation	90
+ST239	annotation_rotation	90
+ST8and247	annotation_rotation	90
+ST8	annotation_rotation	90
+GCA_003237815	annotation_rotation	90
+GCA_003237595	annotation_rotation	90
+GCA_003237475	annotation_rotation	90
+ST7	annotation_rotation	90
+GCA_003237095	annotation_rotation	90
+ST25	annotation_rotation	90
+ST15	annotation_rotation	90
+ST1	annotation_rotation	90
+ST97	annotation_rotation	90
+ST772	annotation_rotation	90
+ST5and228	annotation_rotation	90
+ST228	annotation_rotation	90
