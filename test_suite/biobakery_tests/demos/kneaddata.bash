@@ -12,10 +12,6 @@ kneaddata_read_count_table --input $OUTPUT_FOLDER/kneaddataOutputTrimmomatic/ --
 
 kneaddata --unpaired $INPUT_FOLDER/singleEnd.fastq --output $OUTPUT_FOLDER/kneaddataOutputBowtie2 --reference-db $INPUT_FOLDER/demo_db --bowtie2-options="--very-fast" --bowtie2-options="-p 2"
 
-kneaddata --unpaired $INPUT_FOLDER/singleEnd.fastq --reference-db $INPUT_FOLDER/demo_db --run-bmtagger --output $OUTPUT_FOLDER/kneaddataOutputBMTagger
-
-kneaddata --input1 $INPUT_FOLDER/seq1.fastq --input2 $INPUT_FOLDER/seq2.fastq -db $INPUT_FOLDER/demo_db --run-bmtagger --output $OUTPUT_FOLDER/kneaddataOutputBMTagger
-
 kneaddata --unpaired $INPUT_FOLDER/singleEnd.fastq --reference-db $INPUT_FOLDER/demo_db --output $OUTPUT_FOLDER/kneaddataOutput --quality-scores phred64
 
 
