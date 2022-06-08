@@ -170,7 +170,7 @@ def main():
     biobakery_demo_files=find_demos()
     
     # parse arguments from command line
-    args=parse_arguments(sys.argv, biobakery_demo_files.keys())
+    args=parse_arguments(sys.argv, list(biobakery_demo_files.keys()))
     
     if args.output:
         # get the full path to the output folder
