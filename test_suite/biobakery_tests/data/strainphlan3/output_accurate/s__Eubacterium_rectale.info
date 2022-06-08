@@ -1,0 +1,18 @@
+Clade: s__Eubacterium_rectale
+Number of main samples: 25
+Number of secondary samples: 0
+Number of main references: 6
+Number of secondary references: 0
+Number of available markers for the clade: 150
+Filtering parameters: 
+	Number of bases to remove when trimming markers: 50
+	Minimun number of markers to keep a main sample: 20
+	Minimun number of markers to keep a secondary sample: 20
+	Minimum percentage of samples to keep a marker: 80
+Number of markers selected after filtering: 135
+Number of main samples after filtering:: 25
+Number of secondary samples after filtering:: 0
+Number of main references after filtering:: 5
+Number of secondary references after filtering:: 0
+PhyloPhlan phylogenetic precision mode: accurate
+Number of processes used: 20
