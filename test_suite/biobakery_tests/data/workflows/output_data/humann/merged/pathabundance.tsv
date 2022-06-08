@@ -1,0 +1,32 @@
+# Pathway	HD32R1_subsample_Abundance	HD42R4_subsample_Abundance	HD48R4_subsample_Abundance	LD96R2_subsample_Abundance	LV16R4_subsample_Abundance	LV20R4_subsample_Abundance
+UNMAPPED	12865.9198858953	9520.7560911404	9480.3308855252	0.0000000000	29423.0514385599	18863.2989837202
+UNINTEGRATED	1676.1417748245	2583.6910315565	3471.3859681627	0.0000000000	6119.7241569761	6520.8611512422
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_dorei	776.8989234580	1192.6950005773	642.4055890734	0	196.0387572543	0
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus	803.5188237183	1199.4365303706	2635.0059960032	0	5705.4910986317	6520.8611512422
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	44.1809075254	99.7825682007	201.7117886165	0	518.3096546286	529.1109973851
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_dorei	18.1744467233	43.7971636331	18.4490542793	0	24.4436197015	0
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_vulgatus	24.7395928465	51.2475179937	170.8956975902	0	457.9084740234	529.1109973851
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation	58.9557626244	90.1960889991	224.0253591241	0	505.7584897968	514.6771567669
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_dorei	27.3723496052	35.1916444258	21.7304231666	0	12.4316051910	0
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_vulgatus	29.9230606294	54.0572991508	187.1157471298	0	466.1828654876	514.6771567669
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	36.3794969809	79.9751365123	194.5435565799	0	438.0847424516	522.5416047496
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_dorei	9.4301337846	20.9996979098	26.5650556861	0	16.6960748448	0
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	25.0021910166	50.9024098851	164.1246080347	0	416.2628402445	522.5416047496
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	42.6012222125	100.8313026099	196.7667350913	0	506.8198597788	522.9714563012
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_dorei	18.5910684882	48.8025997295	18.4535470457	0	22.7637425118	0
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_vulgatus	23.0579752084	49.4337915996	164.0658106908	0	442.6494167791	522.9714563012
+PWY-6700: queuosine biosynthesis	56.0410927451	71.0840732459	247.4250466992	0	525.3162794489	581.8072552709
+PWY-6700: queuosine biosynthesis|g__Bacteroides.s__Bacteroides_dorei	19.4688795209	38.1215634660	41.7673470909	0	55.8608800924	0
+PWY-6700: queuosine biosynthesis|g__Bacteroides.s__Bacteroides_vulgatus	35.4120049761	30.5217747945	192.3145949569	0	385.5242910742	581.8072552709
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	31.4527864428	82.3032888319	201.9497343218	0	509.4651937302	595.9579900218
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_dorei	7.0964823072	17.4652870891	26.6998100997	0	21.9550517774	0
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	23.7222816360	60.3143989223	174.1519076931	0	453.9055560340	595.9579900218
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	47.6196520886	82.9394092312	208.0880205442	0	520.0631757546	581.5239438722
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_dorei	21.2221572184	32.2458542049	27.6160919479	0	18.0481788264	0
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_vulgatus	26.2806691564	52.7837227602	181.6019091903	0	500.0723649012	581.5239438722
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	31.4527864428	82.3032888319	201.9497343218	0	509.4651937302	595.9579900218
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_dorei	7.0964823072	17.4652870891	26.6998100997	0	21.9550517774	0
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	23.7222816360	60.3143989223	174.1519076931	0	453.9055560340	595.9579900218
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I	38.7022888616	84.0660008640	210.6286995306	0	518.7440950290	586.5640677409
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_dorei	10.7324622720	23.1331794015	28.4429040161	0	20.1967232937	0
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_vulgatus	25.7503685166	55.1658696242	182.4154924970	0	481.3942530572	586.5640677409

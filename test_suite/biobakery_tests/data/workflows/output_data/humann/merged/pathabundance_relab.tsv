@@ -1,0 +1,28 @@
+# Pathway	HD32R1_subsample_Abundance	HD42R4_subsample_Abundance	HD48R4_subsample_Abundance	LD96R2_subsample_Abundance	LV16R4_subsample_Abundance	LV20R4_subsample_Abundance
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	0.114049	0.129005	0.10689	0	0.113863	0.105168
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_dorei	0.0469156	0.0566234	0.00977646	0	0.00536983	0
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_vulgatus	0.0638629	0.0662557	0.0905605	0	0.100594	0.105168
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation	0.152189	0.116611	0.118715	0	0.111106	0.102299
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_dorei	0.0706591	0.0454977	0.0115153	0	0.002731	0
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_vulgatus	0.0772435	0.0698883	0.0991558	0	0.102412	0.102299
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	0.0939102	0.103396	0.103092	0	0.0962395	0.103862
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_dorei	0.024343	0.0271496	0.0140773	0	0.00366783	0
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	0.0645408	0.0658095	0.0869724	0	0.0914456	0.103862
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	0.109971	0.13036	0.10427	0	0.111339	0.103947
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_dorei	0.0479911	0.0630947	0.00977884	0	0.00500079	0
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_vulgatus	0.059522	0.0639108	0.0869412	0	0.0972423	0.103947
+PWY-6700: queuosine biosynthesis	0.144665	0.0919015	0.131115	0	0.115403	0.115642
+PWY-6700: queuosine biosynthesis|g__Bacteroides.s__Bacteroides_dorei	0.0502571	0.0492857	0.0221332	0	0.0122717	0
+PWY-6700: queuosine biosynthesis|g__Bacteroides.s__Bacteroides_vulgatus	0.0914127	0.0394603	0.101911	0	0.0846929	0.115642
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	0.0811924	0.106406	0.107017	0	0.111921	0.118455
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_dorei	0.0183189	0.0225801	0.0141487	0	0.00482314	0
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	0.0612368	0.0779779	0.092286	0	0.099715	0.118455
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	0.122926	0.107229	0.110269	0	0.114249	0.115586
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_dorei	0.054783	0.0416893	0.0146342	0	0.00396487	0
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_vulgatus	0.067841	0.0682418	0.0962339	0	0.109857	0.115586
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	0.0811924	0.106406	0.107017	0	0.111921	0.118455
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_dorei	0.0183189	0.0225801	0.0141487	0	0.00482314	0
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	0.0612368	0.0779779	0.092286	0	0.099715	0.118455
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I	0.0999063	0.108685	0.111616	0	0.113959	0.116587
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_dorei	0.0277048	0.0299079	0.0150724	0	0.00443686	0
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_vulgatus	0.0664721	0.0713215	0.096665	0	0.105754	0.116587

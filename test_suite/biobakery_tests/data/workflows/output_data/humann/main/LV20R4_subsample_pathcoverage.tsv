@@ -1,0 +1,22 @@
+# Pathway	LV20R4_subsample_Coverage
+UNMAPPED	1.0000000000
+UNINTEGRATED	1.0000000000
+UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus	1.0000000000
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	0.9816354762
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	0.9816354762
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	0.9816354762
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	0.9816354762
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I	0.6836368753
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I|g__Bacteroides.s__Bacteroides_vulgatus	0.6836368753
+PWY-6700: queuosine biosynthesis	0.0304132803
+PWY-6700: queuosine biosynthesis|g__Bacteroides.s__Bacteroides_vulgatus	0.0304132803
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	0.5933367047
+PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Bacteroides.s__Bacteroides_vulgatus	0.5933367047
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	0.2064395412
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_vulgatus	0.2064395412
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	0.1751950484
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)|g__Bacteroides.s__Bacteroides_vulgatus	0.1751950484
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	0.0000121348
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II|g__Bacteroides.s__Bacteroides_vulgatus	0.0000121348
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation	0.2160156787
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation|g__Bacteroides.s__Bacteroides_vulgatus	0.2160156787

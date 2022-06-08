@@ -1,0 +1,1287 @@
+2017-07-18 18:24:57,931	LoggerReporter	started	INFO: Beginning AnADAMA run with 82 tasks.
+2017-07-18 18:24:57,931	LoggerReporter	started	INFO: Workflow configuration options
+2017-07-18 18:24:57,931	LoggerReporter	started	INFO: strain_profiling_options = --marker_in_clade 0.01
+2017-07-18 18:24:57,931	LoggerReporter	started	INFO: grid_benchmark = off
+2017-07-18 18:24:57,931	LoggerReporter	started	INFO: grid_partition = 
+2017-07-18 18:24:57,931	LoggerReporter	started	INFO: pair_identifier = .R1
+2017-07-18 18:24:57,931	LoggerReporter	started	INFO: log_level = INFO
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: input_extension = fastq.gz
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: dry_run = False
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: exclude_target = None
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: until_task = None
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: remove_intermediate_output = False
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: bypass_strain_profiling = False
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: input = examples/tutorial/input/
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: grid_jobs = 0
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: contaminate_databases = /work/code/biobakery_workflows/examples/tutorial/kneaddata_demo_db/Homo_sapiens_demo/
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: jobs = 1
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: grid = None
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: qc_options = 
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: output = biobakery_workflows_tutorial_output
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: target = None
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: grid_environment = None
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: exclude_task = None
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: quit_early = False
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: grid_options = None
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: threads = 1
+2017-07-18 18:24:57,932	LoggerReporter	started	INFO: skip_nothing = False
+2017-07-18 18:24:58,640	LoggerReporter	log_event	INFO: task 3, kneaddata____CSM5FZ4M : ready and waiting for resources 
+2017-07-18 18:24:58,641	LoggerReporter	log_event	INFO: task 3, kneaddata____CSM5FZ4M : starting to run 
+2017-07-18 18:24:58,792	LoggerReporter	task_command	INFO: Tracked executable version:  kneaddata v0.6.1
+
+2017-07-18 18:24:58,792	LoggerReporter	task_command	INFO: Executing with shell:  kneaddata --input /work/code/biobakery_workflows/examples/tutorial/input/CSM5FZ4M.fastq.gz --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main --threads 1 --output-prefix CSM5FZ4M   --reference-db /work/code/biobakery_workflows/examples/tutorial/kneaddata_demo_db/Homo_sapiens_demo/  --serial 
+2017-07-18 18:25:05,428	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Decompressing gzipped file ...
+
+Initial number of reads ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/decompressed_CaJZKD_CSM5FZ4M.fastq ): 108134
+Running Trimmomatic ... 
+Total reads after trimming ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5FZ4M.trimmed.fastq ): 108064
+Decontaminating ...
+Running bowtie2 ... 
+Running bowtie2 ... 
+Total reads after removing those found in reference database ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5FZ4M_Homo_sapiens_demo_bowtie2_clean.fastq ): 107976
+Total reads after merging results from multiple databases ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5FZ4M.fastq ): 107891
+
+Final output file created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5FZ4M.fastq
+
+
+Stderr: 
+2017-07-18 18:25:05,429	LoggerReporter	log_event	INFO: task 3, kneaddata____CSM5FZ4M : completed successfully 
+2017-07-18 18:25:05,429	LoggerReporter	log_event	INFO: task 16, metaphlan____CSM5FZ4M : ready and waiting for resources 
+2017-07-18 18:25:05,429	LoggerReporter	log_event	INFO: task 16, metaphlan____CSM5FZ4M : starting to run 
+
+2017-07-18 18:25:05,527	LoggerReporter	task_command	INFO: Executing with shell:  metaphlan /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5FZ4M.fastq --input_type fastq --output_file /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5FZ4M_taxonomic_profile.tsv --samout /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5FZ4M_bowtie2.sam --nproc 1 --no_map --tmp_dir /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main
+2017-07-18 18:26:02,216	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 18:26:02,216	LoggerReporter	log_event	INFO: task 16, metaphlan____CSM5FZ4M : completed successfully 
+2017-07-18 18:28:24,130	LoggerReporter	log_event	INFO: task 25, humann____CSM5FZ4M : ready and waiting for resources 
+2017-07-18 18:28:24,131	LoggerReporter	log_event	INFO: task 25, humann____CSM5FZ4M : starting to run 
+2017-07-18 18:28:24,346	LoggerReporter	task_command	INFO: Tracked executable version:  humann v3
+2017-07-18 18:28:24,346	LoggerReporter	task_command	INFO: Executing with shell:  humann --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5FZ4M.fastq --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --o-log /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M.log --threads 1 --taxonomic-profile /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5FZ4M_taxonomic_profile.tsv 
+2017-07-18 18:32:42,958	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Output files will be written to: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main
+Found g__Haemophilus.s__Haemophilus_parainfluenzae : 15.89% of mapped reads
+Found g__Streptococcus.s__Streptococcus_vestibularis : 12.54% of mapped reads
+Found g__Streptococcus.s__Streptococcus_anginosus : 12.48% of mapped reads
+Found g__Escherichia.s__Escherichia_coli : 10.65% of mapped reads
+Found g__Faecalibacterium.s__Faecalibacterium_prausnitzii : 9.60% of mapped reads
+Found g__Bacteroides.s__Bacteroides_cellulosilyticus : 7.69% of mapped reads
+Found g__Bacteroides.s__Bacteroides_caccae : 7.22% of mapped reads
+Found g__Bacteroides.s__Bacteroides_thetaiotaomicron : 6.41% of mapped reads
+Found g__Bacteroides.s__Bacteroides_ovatus : 5.32% of mapped reads
+Found g__Bacteroides.s__Bacteroides_vulgatus : 4.04% of mapped reads
+Found g__Bacteroides.s__Bacteroides_xylanisolvens : 3.86% of mapped reads
+Found g__Parabacteroides.s__Parabacteroides_distasonis : 3.17% of mapped reads
+Found g__Blautia.s__Ruminococcus_torques : 1.11% of mapped reads
+
+Total species selected from prescreen: 13
+
+Selected species explain 100.00% of predicted community composition
+
+
+Creating custom ChocoPhlAn database ........
+
+
+Running bowtie2-build ........
+
+
+Running bowtie2 ........
+
+Total bugs from nucleotide alignment: 9
+g__Bacteroides.s__Bacteroides_caccae: 16770 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 7725 hits
+g__Blautia.s__Ruminococcus_torques: 24 hits
+g__Bacteroides.s__Bacteroides_ovatus: 3786 hits
+g__Bacteroides.s__Bacteroides_cellulosilyticus: 2258 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 714 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 15798 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 2058 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 5060 hits
+
+Total gene families from nucleotide alignment: 1532
+
+Unaligned reads after nucleotide alignment: 49.7706018111 %
+
+
+Running diamond ........
+
+
+Aligning to reference database: uniref90_demo_prots.dmnd
+
+Total bugs after translated alignment: 10
+unclassified: 278187 hits
+g__Bacteroides.s__Bacteroides_caccae: 16770 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 7725 hits
+g__Blautia.s__Ruminococcus_torques: 24 hits
+g__Bacteroides.s__Bacteroides_ovatus: 3786 hits
+g__Bacteroides.s__Bacteroides_cellulosilyticus: 2258 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 714 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 15798 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 2058 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 5060 hits
+
+Total gene families after translated alignment: 3569
+
+Unaligned reads after translated alignment: 6.9190201222 %
+
+
+Computing gene families ...
+
+Computing pathways abundance and coverage ...
+
+Output files created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_genefamilies.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_pathabundance.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_pathcoverage.tsv
+
+
+Stderr: 
+2017-07-18 18:32:42,959	LoggerReporter	log_event	INFO: task 25, humann____CSM5FZ4M : completed successfully 
+2017-07-18 18:32:42,960	LoggerReporter	log_event	INFO: task 32, humann_regroup_UniRef2EC____CSM5FZ4M : ready and waiting for resources 
+2017-07-18 18:32:42,960	LoggerReporter	log_event	INFO: task 32, humann_regroup_UniRef2EC____CSM5FZ4M : starting to run 
+2017-07-18 18:32:42,961	LoggerReporter	task_command	INFO: Executing with shell:  humann_regroup_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5FZ4M_ecs.tsv --groups uniref90_level4ec
+2017-07-18 18:32:43,733	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_genefamilies.tsv as stratified output, e.g. ['UniRef90_I9H3P2', 'g__Bacteroides.s__Bacteroides_caccae']
+Loading mapping file from: /home/ljmciver/.local/lib/python2.7/site-packages/humann/data/misc/map_level4ec_uniref90.txt.gz
+Original Feature Count: 3570; Grouped 1+ times: 2078 (58.2%); Grouped 2+ times: 35 (1.0%)
+
+2017-07-18 18:32:43,733	LoggerReporter	log_event	INFO: task 32, humann_regroup_UniRef2EC____CSM5FZ4M : completed successfully 
+2017-07-18 18:32:43,734	LoggerReporter	log_event	INFO: task 47, humann_renorm_ecs_relab____CSM5FZ4M : ready and waiting for resources 
+2017-07-18 18:32:43,734	LoggerReporter	log_event	INFO: task 47, humann_renorm_ecs_relab____CSM5FZ4M : starting to run 
+2017-07-18 18:32:43,735	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5FZ4M_ecs.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/ecs/CSM5FZ4M_ecs_relab.tsv --units relab --special n
+2017-07-18 18:32:43,891	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5FZ4M_ecs.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5FZ4M_ecs.tsv as stratified output, e.g. ['UNGROUPED', 'g__Bacteroides.s__Bacteroides_caccae']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNGROUPED
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_cellulosilyticus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_torques
+Excluding special feature: UNGROUPED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNGROUPED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNGROUPED|unclassified
+
+2017-07-18 18:32:43,892	LoggerReporter	log_event	INFO: task 47, humann_renorm_ecs_relab____CSM5FZ4M : completed successfully 
+2017-07-18 18:32:43,892	LoggerReporter	log_event	INFO: task 41, humann_renorm_genes_relab____CSM5FZ4M : ready and waiting for resources 
+2017-07-18 18:32:43,892	LoggerReporter	log_event	INFO: task 41, humann_renorm_genes_relab____CSM5FZ4M : starting to run 
+2017-07-18 18:32:43,892	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/genes/CSM5FZ4M_genefamilies_relab.tsv --units relab --special n
+2017-07-18 18:32:44,127	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_genefamilies.tsv as stratified output, e.g. ['UniRef90_I9H3P2', 'g__Bacteroides.s__Bacteroides_caccae']
+Excluding special feature: UNMAPPED
+
+2017-07-18 18:32:44,128	LoggerReporter	log_event	INFO: task 41, humann_renorm_genes_relab____CSM5FZ4M : completed successfully 
+2017-07-18 18:32:44,128	LoggerReporter	log_event	INFO: task 53, humann_renorm_pathways_relab____CSM5FZ4M : ready and waiting for resources 
+2017-07-18 18:32:44,129	LoggerReporter	log_event	INFO: task 53, humann_renorm_pathways_relab____CSM5FZ4M : starting to run 
+2017-07-18 18:32:44,129	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_pathabundance.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/pathways/CSM5FZ4M_pathabundance_relab.tsv --units relab --special n
+2017-07-18 18:32:44,317	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_pathabundance.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5FZ4M_pathabundance.tsv as stratified output, e.g. ['UNINTEGRATED', 'g__Bacteroides.s__Bacteroides_caccae']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNINTEGRATED
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNINTEGRATED|unclassified
+Excluding special feature: UNINTEGRATED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNINTEGRATED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_cellulosilyticus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus
+
+2017-07-18 18:32:44,318	LoggerReporter	log_event	INFO: task 53, humann_renorm_pathways_relab____CSM5FZ4M : completed successfully 
+2017-07-18 18:32:44,318	LoggerReporter	log_event	INFO: task 5, kneaddata____CSM5MCUO : ready and waiting for resources 
+2017-07-18 18:32:44,318	LoggerReporter	log_event	INFO: task 5, kneaddata____CSM5MCUO : starting to run 
+2017-07-18 18:32:44,465	LoggerReporter	task_command	INFO: Tracked executable version:  kneaddata v0.6.1
+
+2017-07-18 18:32:44,465	LoggerReporter	task_command	INFO: Executing with shell:  kneaddata --input /work/code/biobakery_workflows/examples/tutorial/input/CSM5MCUO.fastq.gz --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main --threads 1 --output-prefix CSM5MCUO   --reference-db /work/code/biobakery_workflows/examples/tutorial/kneaddata_demo_db/Homo_sapiens_demo/  --serial 
+2017-07-18 18:32:46,890	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Decompressing gzipped file ...
+
+Initial number of reads ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/decompressed_4AFJ8f_CSM5MCUO.fastq ): 27249
+Running Trimmomatic ... 
+Total reads after trimming ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCUO.trimmed.fastq ): 27183
+Decontaminating ...
+Running bowtie2 ... 
+Running bowtie2 ... 
+Total reads after removing those found in reference database ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCUO_Homo_sapiens_demo_bowtie2_clean.fastq ): 27117
+Total reads after merging results from multiple databases ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCUO.fastq ): 27063
+
+Final output file created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCUO.fastq
+
+
+Stderr: 
+2017-07-18 18:32:46,891	LoggerReporter	log_event	INFO: task 5, kneaddata____CSM5MCUO : completed successfully 
+2017-07-18 18:32:46,891	LoggerReporter	log_event	INFO: task 17, metaphlan____CSM5MCUO : ready and waiting for resources 
+2017-07-18 18:32:46,891	LoggerReporter	log_event	INFO: task 17, metaphlan____CSM5MCUO : starting to run 
+2017-07-18 18:32:46,979	LoggerReporter	task_command	INFO: Tracked executable version:  MetaPhlAn version 3
+
+2017-07-18 18:32:46,979	LoggerReporter	task_command	INFO: Executing with shell:  metaphlan /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCUO.fastq --input_type fastq --output_file /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCUO_taxonomic_profile.tsv --samout /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCUO_bowtie2.sam --nproc 1 --no_map --tmp_dir /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main
+2017-07-18 18:33:39,056	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 18:33:39,056	LoggerReporter	log_event	INFO: task 17, metaphlan____CSM5MCUO : completed successfully 
+2017-07-18 18:35:58,225	LoggerReporter	log_event	INFO: task 26, humann____CSM5MCUO : ready and waiting for resources 
+2017-07-18 18:35:58,225	LoggerReporter	log_event	INFO: task 26, humann____CSM5MCUO : starting to run 
+2017-07-18 18:35:58,381	LoggerReporter	task_command	INFO: Tracked executable version:  humann v3
+
+2017-07-18 18:35:58,382	LoggerReporter	task_command	INFO: Executing with shell:  humann --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCUO.fastq --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --o-log /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO.log --threads 1 --taxonomic-profile /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCUO_taxonomic_profile.tsv 
+2017-07-18 18:40:14,597	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Output files will be written to: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main
+Found g__Faecalibacterium.s__Faecalibacterium_prausnitzii : 18.30% of mapped reads
+Found g__Escherichia.s__Escherichia_coli : 14.73% of mapped reads
+Found g__Klebsiella.s__Klebsiella_pneumoniae : 10.28% of mapped reads
+Found g__Bacteroides.s__Bacteroides_dorei : 9.95% of mapped reads
+Found g__Bacteroides.s__Bacteroides_thetaiotaomicron : 7.63% of mapped reads
+Found g__Bacteroides.s__Bacteroides_vulgatus : 7.57% of mapped reads
+Found g__Bacteroides.s__Bacteroides_ovatus : 7.36% of mapped reads
+Found g__Bacteroides.s__Bacteroides_xylanisolvens : 5.29% of mapped reads
+Found g__Bacteroides.s__Bacteroides_cellulosilyticus : 4.80% of mapped reads
+Found g__Parabacteroides.s__Parabacteroides_distasonis : 3.81% of mapped reads
+Found g__Blautia.s__Ruminococcus_obeum : 3.22% of mapped reads
+Found g__Dorea.s__Dorea_formicigenerans : 2.82% of mapped reads
+Found g__Bacteroides.s__Bacteroides_caccae : 1.88% of mapped reads
+Found g__Streptococcus.s__Streptococcus_salivarius : 1.07% of mapped reads
+Found g__Blautia.s__Ruminococcus_torques : 0.75% of mapped reads
+Found g__Haemophilus.s__Haemophilus_parainfluenzae : 0.56% of mapped reads
+
+Total species selected from prescreen: 16
+
+Selected species explain 100.00% of predicted community composition
+
+
+Creating custom ChocoPhlAn database ........
+
+
+Running bowtie2-build ........
+
+
+Running bowtie2 ........
+
+Total bugs from nucleotide alignment: 14
+g__Streptococcus.s__Streptococcus_salivarius: 135 hits
+g__Klebsiella.s__Klebsiella_pneumoniae: 1080 hits
+g__Bacteroides.s__Bacteroides_dorei: 2312 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 704 hits
+g__Blautia.s__Ruminococcus_torques: 267 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 1426 hits
+g__Bacteroides.s__Bacteroides_cellulosilyticus: 787 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 2578 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 1118 hits
+g__Blautia.s__Ruminococcus_obeum: 279 hits
+g__Bacteroides.s__Bacteroides_ovatus: 1458 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 10115 hits
+g__Dorea.s__Dorea_formicigenerans: 269 hits
+g__Bacteroides.s__Bacteroides_caccae: 260 hits
+
+Total gene families from nucleotide alignment: 2269
+
+Unaligned reads after nucleotide alignment: 15.7964748919 %
+
+
+Running diamond ........
+
+
+Aligning to reference database: uniref90_demo_prots.dmnd
+
+Total bugs after translated alignment: 15
+g__Streptococcus.s__Streptococcus_salivarius: 135 hits
+unclassified: 15921 hits
+g__Klebsiella.s__Klebsiella_pneumoniae: 1080 hits
+g__Bacteroides.s__Bacteroides_dorei: 2312 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 704 hits
+g__Blautia.s__Ruminococcus_torques: 267 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 1426 hits
+g__Bacteroides.s__Bacteroides_cellulosilyticus: 787 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 2578 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 1118 hits
+g__Blautia.s__Ruminococcus_obeum: 279 hits
+g__Bacteroides.s__Bacteroides_ovatus: 1458 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 10115 hits
+g__Dorea.s__Dorea_formicigenerans: 269 hits
+g__Bacteroides.s__Bacteroides_caccae: 260 hits
+
+Total gene families after translated alignment: 2912
+
+Unaligned reads after translated alignment: 3.9869933119 %
+
+
+Computing gene families ...
+
+Computing pathways abundance and coverage ...
+
+Output files created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_genefamilies.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_pathabundance.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_pathcoverage.tsv
+
+
+Stderr: 
+2017-07-18 18:40:14,598	LoggerReporter	log_event	INFO: task 26, humann____CSM5MCUO : completed successfully 
+2017-07-18 18:40:14,599	LoggerReporter	log_event	INFO: task 33, humann_regroup_UniRef2EC____CSM5MCUO : ready and waiting for resources 
+2017-07-18 18:40:14,599	LoggerReporter	log_event	INFO: task 33, humann_regroup_UniRef2EC____CSM5MCUO : starting to run 
+2017-07-18 18:40:14,599	LoggerReporter	task_command	INFO: Executing with shell:  humann_regroup_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCUO_ecs.tsv --groups uniref90_level4ec
+2017-07-18 18:40:15,379	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_genefamilies.tsv as stratified output, e.g. ['UniRef90_unknown', 'g__Faecalibacterium.s__Faecalibacterium_prausnitzii']
+Loading mapping file from: /home/ljmciver/.local/lib/python2.7/site-packages/humann/data/misc/map_level4ec_uniref90.txt.gz
+Original Feature Count: 2913; Grouped 1+ times: 1020 (35.0%); Grouped 2+ times: 27 (0.9%)
+
+2017-07-18 18:40:15,379	LoggerReporter	log_event	INFO: task 33, humann_regroup_UniRef2EC____CSM5MCUO : completed successfully 
+2017-07-18 18:40:15,379	LoggerReporter	log_event	INFO: task 48, humann_renorm_ecs_relab____CSM5MCUO : ready and waiting for resources 
+2017-07-18 18:40:15,379	LoggerReporter	log_event	INFO: task 48, humann_renorm_ecs_relab____CSM5MCUO : starting to run 
+2017-07-18 18:40:15,380	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCUO_ecs.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/ecs/CSM5MCUO_ecs_relab.tsv --units relab --special n
+2017-07-18 18:40:15,561	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCUO_ecs.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCUO_ecs.tsv as stratified output, e.g. ['UNGROUPED', 'g__Bacteroides.s__Bacteroides_caccae']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNGROUPED
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_cellulosilyticus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_obeum
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_torques
+Excluding special feature: UNGROUPED|g__Dorea.s__Dorea_formicigenerans
+Excluding special feature: UNGROUPED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNGROUPED|g__Klebsiella.s__Klebsiella_pneumoniae
+Excluding special feature: UNGROUPED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNGROUPED|g__Streptococcus.s__Streptococcus_salivarius
+Excluding special feature: UNGROUPED|unclassified
+
+2017-07-18 18:40:15,562	LoggerReporter	log_event	INFO: task 48, humann_renorm_ecs_relab____CSM5MCUO : completed successfully 
+2017-07-18 18:40:15,562	LoggerReporter	log_event	INFO: task 42, humann_renorm_genes_relab____CSM5MCUO : ready and waiting for resources 
+2017-07-18 18:40:15,562	LoggerReporter	log_event	INFO: task 42, humann_renorm_genes_relab____CSM5MCUO : starting to run 
+2017-07-18 18:40:15,562	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/genes/CSM5MCUO_genefamilies_relab.tsv --units relab --special n
+2017-07-18 18:40:15,758	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_genefamilies.tsv as stratified output, e.g. ['UniRef90_unknown', 'g__Faecalibacterium.s__Faecalibacterium_prausnitzii']
+Excluding special feature: UNMAPPED
+
+2017-07-18 18:40:15,758	LoggerReporter	log_event	INFO: task 42, humann_renorm_genes_relab____CSM5MCUO : completed successfully 
+2017-07-18 18:40:15,759	LoggerReporter	log_event	INFO: task 54, humann_renorm_pathways_relab____CSM5MCUO : ready and waiting for resources 
+2017-07-18 18:40:15,759	LoggerReporter	log_event	INFO: task 54, humann_renorm_pathways_relab____CSM5MCUO : starting to run 
+2017-07-18 18:40:15,760	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_pathabundance.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/pathways/CSM5MCUO_pathabundance_relab.tsv --units relab --special n
+2017-07-18 18:40:15,960	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_pathabundance.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCUO_pathabundance.tsv as stratified output, e.g. ['UNINTEGRATED', 'g__Faecalibacterium.s__Faecalibacterium_prausnitzii']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNINTEGRATED
+Excluding special feature: UNINTEGRATED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNINTEGRATED|g__Klebsiella.s__Klebsiella_pneumoniae
+Excluding special feature: UNINTEGRATED|unclassified
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_cellulosilyticus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNINTEGRATED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNINTEGRATED|g__Dorea.s__Dorea_formicigenerans
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNINTEGRATED|g__Blautia.s__Ruminococcus_torques
+
+2017-07-18 18:40:15,961	LoggerReporter	log_event	INFO: task 54, humann_renorm_pathways_relab____CSM5MCUO : completed successfully 
+2017-07-18 18:40:15,962	LoggerReporter	log_event	INFO: task 7, kneaddata____CSM5MCVL : ready and waiting for resources 
+2017-07-18 18:40:15,962	LoggerReporter	log_event	INFO: task 7, kneaddata____CSM5MCVL : starting to run 
+2017-07-18 18:40:16,110	LoggerReporter	task_command	INFO: Tracked executable version:  kneaddata v0.6.1
+
+2017-07-18 18:40:16,110	LoggerReporter	task_command	INFO: Executing with shell:  kneaddata --input /work/code/biobakery_workflows/examples/tutorial/input/CSM5MCVL.fastq.gz --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main --threads 1 --output-prefix CSM5MCVL   --reference-db /work/code/biobakery_workflows/examples/tutorial/kneaddata_demo_db/Homo_sapiens_demo/  --serial 
+2017-07-18 18:40:18,423	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Decompressing gzipped file ...
+
+Initial number of reads ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/decompressed_v3Jlf2_CSM5MCVL.fastq ): 30251
+Running Trimmomatic ... 
+Total reads after trimming ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVL.trimmed.fastq ): 30144
+Decontaminating ...
+Running bowtie2 ... 
+Running bowtie2 ... 
+Total reads after removing those found in reference database ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVL_Homo_sapiens_demo_bowtie2_clean.fastq ): 30076
+Total reads after merging results from multiple databases ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVL.fastq ): 29991
+
+Final output file created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVL.fastq
+
+
+Stderr: 
+2017-07-18 18:40:18,423	LoggerReporter	log_event	INFO: task 7, kneaddata____CSM5MCVL : completed successfully 
+2017-07-18 18:40:18,423	LoggerReporter	log_event	INFO: task 18, metaphlan____CSM5MCVL : ready and waiting for resources 
+2017-07-18 18:40:18,424	LoggerReporter	log_event	INFO: task 18, metaphlan____CSM5MCVL : starting to run 
+2017-07-18 18:40:18,509	LoggerReporter	task_command	INFO: Tracked executable version:  MetaPhlAn version 3
+
+2017-07-18 18:40:18,509	LoggerReporter	task_command	INFO: Executing with shell:  metaphlan /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVL.fastq --input_type fastq --output_file /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCVL_taxonomic_profile.tsv --samout /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCVL_bowtie2.sam --nproc 1 --no_map --tmp_dir /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main
+2017-07-18 18:41:11,011	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 18:41:11,012	LoggerReporter	log_event	INFO: task 18, metaphlan____CSM5MCVL : completed successfully 
+2017-07-18 18:43:50,517	LoggerReporter	log_event	INFO: task 27, humann____CSM5MCVL : ready and waiting for resources 
+2017-07-18 18:43:50,517	LoggerReporter	log_event	INFO: task 27, humann____CSM5MCVL : starting to run 
+2017-07-18 18:43:50,667	LoggerReporter	task_command	INFO: Tracked executable version:  humann v3
+
+2017-07-18 18:43:50,667	LoggerReporter	task_command	INFO: Executing with shell:  humann --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVL.fastq --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --o-log /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL.log --threads 1 --taxonomic-profile /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCVL_taxonomic_profile.tsv 
+2017-07-18 18:49:03,033	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Output files will be written to: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main
+Found g__Faecalibacterium.s__Faecalibacterium_prausnitzii : 11.98% of mapped reads
+Found g__Escherichia.s__Escherichia_coli : 9.09% of mapped reads
+Found g__Blautia.s__Ruminococcus_gnavus : 6.21% of mapped reads
+Found g__Bacteroides.s__Bacteroides_caccae : 6.09% of mapped reads
+Found g__Bacteroides.s__Bacteroides_dorei : 5.98% of mapped reads
+Found g__Bacteroides.s__Bacteroides_vulgatus : 5.91% of mapped reads
+Found g__Bacteroides.s__Bacteroides_finegoldii : 5.72% of mapped reads
+Found g__Bifidobacterium.s__Bifidobacterium_longum : 5.36% of mapped reads
+Found g__Bacteroides.s__Bacteroides_ovatus : 5.11% of mapped reads
+Found g__Bacteroides.s__Bacteroides_fragilis : 4.97% of mapped reads
+Found g__Klebsiella.s__Klebsiella_pneumoniae : 4.84% of mapped reads
+Found g__Parabacteroides.s__Parabacteroides_distasonis : 4.28% of mapped reads
+Found g__Blautia.s__Ruminococcus_obeum : 3.88% of mapped reads
+Found g__Bacteroides.s__Bacteroides_cellulosilyticus : 3.81% of mapped reads
+Found g__Bacteroides.s__Bacteroides_thetaiotaomicron : 3.43% of mapped reads
+Found g__Blautia.s__Ruminococcus_torques : 2.95% of mapped reads
+Found g__Dorea.s__Dorea_formicigenerans : 2.94% of mapped reads
+Found g__Haemophilus.s__Haemophilus_parainfluenzae : 2.66% of mapped reads
+Found g__Streptococcus.s__Streptococcus_salivarius : 2.53% of mapped reads
+Found g__Bacteroides.s__Bacteroides_xylanisolvens : 2.27% of mapped reads
+
+Total species selected from prescreen: 20
+
+Selected species explain 100.00% of predicted community composition
+
+
+Creating custom ChocoPhlAn database ........
+
+
+Running bowtie2-build ........
+
+
+Running bowtie2 ........
+
+Total bugs from nucleotide alignment: 18
+g__Streptococcus.s__Streptococcus_salivarius: 463 hits
+g__Klebsiella.s__Klebsiella_pneumoniae: 611 hits
+g__Bacteroides.s__Bacteroides_caccae: 1713 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 851 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 678 hits
+g__Blautia.s__Ruminococcus_torques: 342 hits
+g__Bacteroides.s__Bacteroides_ovatus: 1525 hits
+g__Bacteroides.s__Bacteroides_finegoldii: 1502 hits
+g__Bacteroides.s__Bacteroides_cellulosilyticus: 689 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 7012 hits
+g__Dorea.s__Dorea_formicigenerans: 420 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 606 hits
+g__Blautia.s__Ruminococcus_obeum: 554 hits
+g__Bacteroides.s__Bacteroides_fragilis: 970 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 6821 hits
+g__Bifidobacterium.s__Bifidobacterium_longum: 773 hits
+g__Blautia.s__Ruminococcus_gnavus: 854 hits
+g__Bacteroides.s__Bacteroides_dorei: 1796 hits
+
+Total gene families from nucleotide alignment: 3365
+
+Unaligned reads after nucleotide alignment: 6.0384782101 %
+
+
+Running diamond ........
+
+
+Aligning to reference database: uniref90_demo_prots.dmnd
+
+Total bugs after translated alignment: 19
+g__Streptococcus.s__Streptococcus_salivarius: 463 hits
+unclassified: 1039 hits
+g__Klebsiella.s__Klebsiella_pneumoniae: 611 hits
+g__Bacteroides.s__Bacteroides_caccae: 1713 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 851 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 678 hits
+g__Blautia.s__Ruminococcus_torques: 342 hits
+g__Bacteroides.s__Bacteroides_ovatus: 1525 hits
+g__Bacteroides.s__Bacteroides_finegoldii: 1502 hits
+g__Bacteroides.s__Bacteroides_cellulosilyticus: 689 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 7012 hits
+g__Dorea.s__Dorea_formicigenerans: 420 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 606 hits
+g__Blautia.s__Ruminococcus_obeum: 554 hits
+g__Bacteroides.s__Bacteroides_fragilis: 970 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 6821 hits
+g__Bifidobacterium.s__Bifidobacterium_longum: 773 hits
+g__Blautia.s__Ruminococcus_gnavus: 854 hits
+g__Bacteroides.s__Bacteroides_dorei: 1796 hits
+
+Total gene families after translated alignment: 3487
+
+Unaligned reads after translated alignment: 4.5680370778 %
+
+
+Computing gene families ...
+
+Computing pathways abundance and coverage ...
+
+Output files created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_genefamilies.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_pathabundance.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_pathcoverage.tsv
+
+
+Stderr: 
+2017-07-18 18:49:03,033	LoggerReporter	log_event	INFO: task 27, humann____CSM5MCVL : completed successfully 
+2017-07-18 18:49:03,033	LoggerReporter	log_event	INFO: task 34, humann_regroup_UniRef2EC____CSM5MCVL : ready and waiting for resources 
+2017-07-18 18:49:03,034	LoggerReporter	log_event	INFO: task 34, humann_regroup_UniRef2EC____CSM5MCVL : starting to run 
+2017-07-18 18:49:03,034	LoggerReporter	task_command	INFO: Executing with shell:  humann_regroup_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCVL_ecs.tsv --groups uniref90_level4ec
+2017-07-18 18:49:03,711	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_genefamilies.tsv as stratified output, e.g. ['UniRef90_R9H3J9', 'g__Bacteroides.s__Bacteroides_vulgatus']
+Loading mapping file from: /home/ljmciver/.local/lib/python2.7/site-packages/humann/data/misc/map_level4ec_uniref90.txt.gz
+Original Feature Count: 3488; Grouped 1+ times: 807 (23.1%); Grouped 2+ times: 8 (0.2%)
+
+2017-07-18 18:49:03,711	LoggerReporter	log_event	INFO: task 34, humann_regroup_UniRef2EC____CSM5MCVL : completed successfully 
+2017-07-18 18:49:03,711	LoggerReporter	log_event	INFO: task 49, humann_renorm_ecs_relab____CSM5MCVL : ready and waiting for resources 
+2017-07-18 18:49:03,711	LoggerReporter	log_event	INFO: task 49, humann_renorm_ecs_relab____CSM5MCVL : starting to run 
+2017-07-18 18:49:03,711	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCVL_ecs.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/ecs/CSM5MCVL_ecs_relab.tsv --units relab --special n
+2017-07-18 18:49:03,859	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCVL_ecs.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCVL_ecs.tsv as stratified output, e.g. ['UNGROUPED', 'g__Bacteroides.s__Bacteroides_caccae']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNGROUPED
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_cellulosilyticus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_finegoldii
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_fragilis
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNGROUPED|g__Bifidobacterium.s__Bifidobacterium_longum
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_gnavus
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_obeum
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_torques
+Excluding special feature: UNGROUPED|g__Dorea.s__Dorea_formicigenerans
+Excluding special feature: UNGROUPED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNGROUPED|g__Klebsiella.s__Klebsiella_pneumoniae
+Excluding special feature: UNGROUPED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNGROUPED|g__Streptococcus.s__Streptococcus_salivarius
+Excluding special feature: UNGROUPED|unclassified
+
+2017-07-18 18:49:03,860	LoggerReporter	log_event	INFO: task 49, humann_renorm_ecs_relab____CSM5MCVL : completed successfully 
+2017-07-18 18:49:03,860	LoggerReporter	log_event	INFO: task 43, humann_renorm_genes_relab____CSM5MCVL : ready and waiting for resources 
+2017-07-18 18:49:03,860	LoggerReporter	log_event	INFO: task 43, humann_renorm_genes_relab____CSM5MCVL : starting to run 
+2017-07-18 18:49:03,860	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/genes/CSM5MCVL_genefamilies_relab.tsv --units relab --special n
+2017-07-18 18:49:04,063	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_genefamilies.tsv as stratified output, e.g. ['UniRef90_R9H3J9', 'g__Bacteroides.s__Bacteroides_vulgatus']
+Excluding special feature: UNMAPPED
+
+2017-07-18 18:49:04,064	LoggerReporter	log_event	INFO: task 43, humann_renorm_genes_relab____CSM5MCVL : completed successfully 
+2017-07-18 18:49:04,064	LoggerReporter	log_event	INFO: task 55, humann_renorm_pathways_relab____CSM5MCVL : ready and waiting for resources 
+2017-07-18 18:49:04,064	LoggerReporter	log_event	INFO: task 55, humann_renorm_pathways_relab____CSM5MCVL : starting to run 
+2017-07-18 18:49:04,064	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_pathabundance.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/pathways/CSM5MCVL_pathabundance_relab.tsv --units relab --special n
+2017-07-18 18:49:04,211	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_pathabundance.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVL_pathabundance.tsv as stratified output, e.g. ['UNINTEGRATED', 'g__Bacteroides.s__Bacteroides_vulgatus']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNINTEGRATED
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNINTEGRATED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_finegoldii
+Excluding special feature: UNINTEGRATED|g__Klebsiella.s__Klebsiella_pneumoniae
+Excluding special feature: UNINTEGRATED|g__Dorea.s__Dorea_formicigenerans
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNINTEGRATED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNINTEGRATED|g__Blautia.s__Ruminococcus_gnavus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_cellulosilyticus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_fragilis
+Excluding special feature: UNINTEGRATED|unclassified
+Excluding special feature: UNINTEGRATED|g__Bifidobacterium.s__Bifidobacterium_longum
+Excluding special feature: UNINTEGRATED|g__Blautia.s__Ruminococcus_obeum
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNINTEGRATED|g__Streptococcus.s__Streptococcus_salivarius
+Excluding special feature: UNINTEGRATED|g__Blautia.s__Ruminococcus_torques
+
+2017-07-18 18:49:04,212	LoggerReporter	log_event	INFO: task 55, humann_renorm_pathways_relab____CSM5MCVL : completed successfully 
+2017-07-18 18:49:04,212	LoggerReporter	log_event	INFO: task 9, kneaddata____CSM5MCVN : ready and waiting for resources 
+2017-07-18 18:49:04,213	LoggerReporter	log_event	INFO: task 9, kneaddata____CSM5MCVN : starting to run 
+2017-07-18 18:49:04,352	LoggerReporter	task_command	INFO: Tracked executable version:  kneaddata v0.6.1
+
+2017-07-18 18:49:04,353	LoggerReporter	task_command	INFO: Executing with shell:  kneaddata --input /work/code/biobakery_workflows/examples/tutorial/input/CSM5MCVN.fastq.gz --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main --threads 1 --output-prefix CSM5MCVN   --reference-db /work/code/biobakery_workflows/examples/tutorial/kneaddata_demo_db/Homo_sapiens_demo/  --serial 
+2017-07-18 18:49:10,515	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Decompressing gzipped file ...
+
+Initial number of reads ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/decompressed_FCjRod_CSM5MCVN.fastq ): 86293
+Running Trimmomatic ... 
+Total reads after trimming ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVN.trimmed.fastq ): 86209
+Decontaminating ...
+Running bowtie2 ... 
+Running bowtie2 ... 
+Total reads after removing those found in reference database ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVN_Homo_sapiens_demo_bowtie2_clean.fastq ): 86122
+Total reads after merging results from multiple databases ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVN.fastq ): 86039
+
+Final output file created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVN.fastq
+
+
+Stderr: 
+2017-07-18 18:49:10,516	LoggerReporter	log_event	INFO: task 9, kneaddata____CSM5MCVN : completed successfully 
+2017-07-18 18:49:10,516	LoggerReporter	log_event	INFO: task 19, metaphlan____CSM5MCVN : ready and waiting for resources 
+2017-07-18 18:49:10,516	LoggerReporter	log_event	INFO: task 19, metaphlan____CSM5MCVN : starting to run 
+2017-07-18 18:49:10,592	LoggerReporter	task_command	INFO: Tracked executable version:  MetaPhlAn version 3
+
+2017-07-18 18:49:10,592	LoggerReporter	task_command	INFO: Executing with shell:  metaphlan /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVN.fastq --input_type fastq --output_file /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCVN_taxonomic_profile.tsv --samout /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCVN_bowtie2.sam --nproc 1 --no_map --tmp_dir /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main
+2017-07-18 18:50:06,354	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 18:50:06,354	LoggerReporter	log_event	INFO: task 19, metaphlan____CSM5MCVN : completed successfully 
+2017-07-18 18:52:33,113	LoggerReporter	log_event	INFO: task 28, humann____CSM5MCVN : ready and waiting for resources 
+2017-07-18 18:52:33,113	LoggerReporter	log_event	INFO: task 28, humann____CSM5MCVN : starting to run 
+2017-07-18 18:52:33,270	LoggerReporter	task_command	INFO: Tracked executable version:  humann v3
+
+2017-07-18 18:52:33,271	LoggerReporter	task_command	INFO: Executing with shell:  humann --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVN.fastq --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --o-log /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN.log --threads 1 --taxonomic-profile /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCVN_taxonomic_profile.tsv 
+2017-07-18 18:56:43,560	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Output files will be written to: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main
+Found g__Lactobacillus.s__Lactobacillus_salivarius : 13.30% of mapped reads
+Found g__Haemophilus.s__Haemophilus_parainfluenzae : 13.25% of mapped reads
+Found g__Faecalibacterium.s__Faecalibacterium_prausnitzii : 12.01% of mapped reads
+Found g__Streptococcus.s__Streptococcus_vestibularis : 10.47% of mapped reads
+Found g__Bacteroides.s__Bacteroides_thetaiotaomicron : 7.41% of mapped reads
+Found g__Bacteroides.s__Bacteroides_ovatus : 6.43% of mapped reads
+Found g__Bacteroides.s__Bacteroides_caccae : 6.34% of mapped reads
+Found g__Blautia.s__Ruminococcus_torques : 6.25% of mapped reads
+Found g__Bacteroides.s__Bacteroides_vulgatus : 5.60% of mapped reads
+Found g__Bifidobacterium.s__Bifidobacterium_longum : 3.94% of mapped reads
+Found g__Streptococcus.s__Streptococcus_anginosus : 3.57% of mapped reads
+Found g__Bifidobacterium.s__Bifidobacterium_dentium : 3.36% of mapped reads
+Found g__Parabacteroides.s__Parabacteroides_distasonis : 2.86% of mapped reads
+Found g__Bacteroides.s__Bacteroides_xylanisolvens : 1.85% of mapped reads
+Found g__Escherichia.s__Escherichia_coli : 1.74% of mapped reads
+Found g__Bacteroides.s__Bacteroides_dorei : 1.62% of mapped reads
+
+Total species selected from prescreen: 16
+
+Selected species explain 100.00% of predicted community composition
+
+
+Creating custom ChocoPhlAn database ........
+
+
+Running bowtie2-build ........
+
+
+Running bowtie2 ........
+
+Total bugs from nucleotide alignment: 11
+g__Bifidobacterium.s__Bifidobacterium_dentium: 457 hits
+g__Bacteroides.s__Bacteroides_dorei: 2111 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 2128 hits
+g__Blautia.s__Ruminococcus_torques: 809 hits
+g__Bacteroides.s__Bacteroides_ovatus: 6192 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 17554 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 2891 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 1113 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 5642 hits
+g__Bifidobacterium.s__Bifidobacterium_longum: 521 hits
+g__Bacteroides.s__Bacteroides_caccae: 1711 hits
+
+Total gene families from nucleotide alignment: 1854
+
+Unaligned reads after nucleotide alignment: 52.1972593824 %
+
+
+Running diamond ........
+
+
+Aligning to reference database: uniref90_demo_prots.dmnd
+
+Total bugs after translated alignment: 12
+g__Bifidobacterium.s__Bifidobacterium_dentium: 457 hits
+g__Bacteroides.s__Bacteroides_dorei: 2111 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 2128 hits
+g__Blautia.s__Ruminococcus_torques: 809 hits
+g__Bacteroides.s__Bacteroides_ovatus: 6192 hits
+unclassified: 143915 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 17554 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 2891 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 1113 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 5642 hits
+g__Bifidobacterium.s__Bifidobacterium_longum: 521 hits
+g__Bacteroides.s__Bacteroides_caccae: 1711 hits
+
+Total gene families after translated alignment: 2895
+
+Unaligned reads after translated alignment: 8.5600715954 %
+
+
+Computing gene families ...
+
+Computing pathways abundance and coverage ...
+
+Output files created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_genefamilies.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_pathabundance.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_pathcoverage.tsv
+
+
+Stderr: 
+2017-07-18 18:56:43,561	LoggerReporter	log_event	INFO: task 28, humann____CSM5MCVN : completed successfully 
+2017-07-18 18:56:43,561	LoggerReporter	log_event	INFO: task 35, humann_regroup_UniRef2EC____CSM5MCVN : ready and waiting for resources 
+2017-07-18 18:56:43,561	LoggerReporter	log_event	INFO: task 35, humann_regroup_UniRef2EC____CSM5MCVN : starting to run 
+2017-07-18 18:56:43,561	LoggerReporter	task_command	INFO: Executing with shell:  humann_regroup_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCVN_ecs.tsv --groups uniref90_level4ec
+2017-07-18 18:56:44,239	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_genefamilies.tsv as stratified output, e.g. ['UniRef90_R9H3J9', 'g__Bacteroides.s__Bacteroides_vulgatus']
+Loading mapping file from: /home/ljmciver/.local/lib/python2.7/site-packages/humann/data/misc/map_level4ec_uniref90.txt.gz
+Original Feature Count: 2896; Grouped 1+ times: 1315 (45.4%); Grouped 2+ times: 6 (0.2%)
+
+2017-07-18 18:56:44,239	LoggerReporter	log_event	INFO: task 35, humann_regroup_UniRef2EC____CSM5MCVN : completed successfully 
+2017-07-18 18:56:44,240	LoggerReporter	log_event	INFO: task 50, humann_renorm_ecs_relab____CSM5MCVN : ready and waiting for resources 
+2017-07-18 18:56:44,240	LoggerReporter	log_event	INFO: task 50, humann_renorm_ecs_relab____CSM5MCVN : starting to run 
+2017-07-18 18:56:44,240	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCVN_ecs.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/ecs/CSM5MCVN_ecs_relab.tsv --units relab --special n
+2017-07-18 18:56:44,452	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCVN_ecs.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCVN_ecs.tsv as stratified output, e.g. ['UNGROUPED', 'g__Bacteroides.s__Bacteroides_caccae']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNGROUPED
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNGROUPED|g__Bifidobacterium.s__Bifidobacterium_dentium
+Excluding special feature: UNGROUPED|g__Bifidobacterium.s__Bifidobacterium_longum
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_torques
+Excluding special feature: UNGROUPED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNGROUPED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNGROUPED|unclassified
+
+2017-07-18 18:56:44,453	LoggerReporter	log_event	INFO: task 50, humann_renorm_ecs_relab____CSM5MCVN : completed successfully 
+2017-07-18 18:56:44,454	LoggerReporter	log_event	INFO: task 44, humann_renorm_genes_relab____CSM5MCVN : ready and waiting for resources 
+2017-07-18 18:56:44,454	LoggerReporter	log_event	INFO: task 44, humann_renorm_genes_relab____CSM5MCVN : starting to run 
+2017-07-18 18:56:44,455	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/genes/CSM5MCVN_genefamilies_relab.tsv --units relab --special n
+2017-07-18 18:56:44,691	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_genefamilies.tsv as stratified output, e.g. ['UniRef90_R9H3J9', 'g__Bacteroides.s__Bacteroides_vulgatus']
+Excluding special feature: UNMAPPED
+
+2017-07-18 18:56:44,691	LoggerReporter	log_event	INFO: task 44, humann_renorm_genes_relab____CSM5MCVN : completed successfully 
+2017-07-18 18:56:44,692	LoggerReporter	log_event	INFO: task 56, humann_renorm_pathways_relab____CSM5MCVN : ready and waiting for resources 
+2017-07-18 18:56:44,692	LoggerReporter	log_event	INFO: task 56, humann_renorm_pathways_relab____CSM5MCVN : starting to run 
+2017-07-18 18:56:44,692	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_pathabundance.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/pathways/CSM5MCVN_pathabundance_relab.tsv --units relab --special n
+2017-07-18 18:56:44,904	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_pathabundance.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCVN_pathabundance.tsv as stratified output, e.g. ['UNINTEGRATED', 'g__Bacteroides.s__Bacteroides_vulgatus']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNINTEGRATED
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNINTEGRATED|unclassified
+Excluding special feature: UNINTEGRATED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNINTEGRATED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNINTEGRATED|g__Bifidobacterium.s__Bifidobacterium_longum
+Excluding special feature: UNINTEGRATED|g__Blautia.s__Ruminococcus_torques
+Excluding special feature: UNINTEGRATED|g__Bifidobacterium.s__Bifidobacterium_dentium
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_xylanisolvens
+
+2017-07-18 18:56:44,905	LoggerReporter	log_event	INFO: task 56, humann_renorm_pathways_relab____CSM5MCVN : completed successfully 
+2017-07-18 18:56:44,905	LoggerReporter	log_event	INFO: task 11, kneaddata____CSM5MCW6 : ready and waiting for resources 
+2017-07-18 18:56:44,905	LoggerReporter	log_event	INFO: task 11, kneaddata____CSM5MCW6 : starting to run 
+2017-07-18 18:56:45,052	LoggerReporter	task_command	INFO: Tracked executable version:  kneaddata v0.6.1
+
+2017-07-18 18:56:45,052	LoggerReporter	task_command	INFO: Executing with shell:  kneaddata --input /work/code/biobakery_workflows/examples/tutorial/input/CSM5MCW6.fastq.gz --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main --threads 1 --output-prefix CSM5MCW6   --reference-db /work/code/biobakery_workflows/examples/tutorial/kneaddata_demo_db/Homo_sapiens_demo/  --serial 
+2017-07-18 18:56:47,344	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Decompressing gzipped file ...
+
+Initial number of reads ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/decompressed_bO7Y16_CSM5MCW6.fastq ): 35200
+Running Trimmomatic ... 
+Total reads after trimming ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCW6.trimmed.fastq ): 35104
+Decontaminating ...
+Running bowtie2 ... 
+Running bowtie2 ... 
+Total reads after removing those found in reference database ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCW6_Homo_sapiens_demo_bowtie2_clean.fastq ): 35031
+Total reads after merging results from multiple databases ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCW6.fastq ): 34935
+
+Final output file created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCW6.fastq
+
+
+Stderr: 
+2017-07-18 18:56:47,344	LoggerReporter	log_event	INFO: task 11, kneaddata____CSM5MCW6 : completed successfully 
+2017-07-18 18:56:47,344	LoggerReporter	log_event	INFO: task 20, metaphlan____CSM5MCW6 : ready and waiting for resources 
+2017-07-18 18:56:47,345	LoggerReporter	log_event	INFO: task 20, metaphlan____CSM5MCW6 : starting to run 
+2017-07-18 18:56:47,493	LoggerReporter	task_command	INFO: Tracked executable version:  MetaPhlAn version 3
+
+2017-07-18 18:56:47,494	LoggerReporter	task_command	INFO: Executing with shell:  metaphlan.py /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCW6.fastq --input_type fastq --output_file /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCW6_taxonomic_profile.tsv --samout /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCW6_bowtie2.sam --nproc 1 --no_map --tmp_dir /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main
+2017-07-18 18:57:41,346	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 18:57:41,346	LoggerReporter	log_event	INFO: task 20, metaphlan____CSM5MCW6 : completed successfully 
+2017-07-18 19:00:23,684	LoggerReporter	log_event	INFO: task 29, humann____CSM5MCW6 : ready and waiting for resources 
+2017-07-18 19:00:23,684	LoggerReporter	log_event	INFO: task 29, humann____CSM5MCW6 : starting to run 
+2017-07-18 19:00:23,890	LoggerReporter	task_command	INFO: Tracked executable version:  humann v3
+
+2017-07-18 19:00:23,890	LoggerReporter	task_command	INFO: Executing with shell:  humann --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCW6.fastq --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --o-log /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6.log --threads 1 --taxonomic-profile /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCW6_taxonomic_profile.tsv 
+2017-07-18 19:04:34,401	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Output files will be written to: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main
+Found g__Faecalibacterium.s__Faecalibacterium_prausnitzii : 12.09% of mapped reads
+Found g__Bacteroides.s__Bacteroides_fragilis : 7.80% of mapped reads
+Found g__Bacteroides.s__Bacteroides_cellulosilyticus : 7.22% of mapped reads
+Found g__Bacteroides.s__Bacteroides_caccae : 6.91% of mapped reads
+Found g__Bacteroides.s__Bacteroides_dorei : 6.74% of mapped reads
+Found g__Bifidobacterium.s__Bifidobacterium_longum : 6.43% of mapped reads
+Found g__Bacteroides.s__Bacteroides_vulgatus : 6.42% of mapped reads
+Found g__Parabacteroides.s__Parabacteroides_distasonis : 6.41% of mapped reads
+Found g__Blautia.s__Ruminococcus_obeum : 6.23% of mapped reads
+Found g__Bacteroides.s__Bacteroides_thetaiotaomicron : 6.22% of mapped reads
+Found g__Streptococcus.s__Streptococcus_salivarius : 5.98% of mapped reads
+Found g__Bacteroides.s__Bacteroides_ovatus : 5.97% of mapped reads
+Found g__Blautia.s__Ruminococcus_torques : 4.98% of mapped reads
+Found g__Dorea.s__Dorea_formicigenerans : 4.86% of mapped reads
+Found g__Bacteroides.s__Bacteroides_finegoldii : 3.40% of mapped reads
+Found g__Streptococcus.s__Streptococcus_parasanguinis : 1.85% of mapped reads
+Found g__Streptococcus.s__Streptococcus_vestibularis : 0.47% of mapped reads
+
+Total species selected from prescreen: 17
+
+Selected species explain 100.00% of predicted community composition
+
+
+Creating custom ChocoPhlAn database ........
+
+
+Running bowtie2-build ........
+
+
+Running bowtie2 ........
+
+Total bugs from nucleotide alignment: 16
+g__Streptococcus.s__Streptococcus_salivarius: 1196 hits
+g__Bacteroides.s__Bacteroides_caccae: 3455 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 1950 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 2072 hits
+g__Blautia.s__Ruminococcus_torques: 559 hits
+g__Bacteroides.s__Bacteroides_ovatus: 2635 hits
+g__Bacteroides.s__Bacteroides_finegoldii: 696 hits
+g__Bacteroides.s__Bacteroides_cellulosilyticus: 1392 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 1722 hits
+g__Bacteroides.s__Bacteroides_fragilis: 3306 hits
+g__Blautia.s__Ruminococcus_obeum: 770 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 10503 hits
+g__Streptococcus.s__Streptococcus_parasanguinis: 231 hits
+g__Dorea.s__Dorea_formicigenerans: 645 hits
+g__Bifidobacterium.s__Bifidobacterium_longum: 899 hits
+g__Bacteroides.s__Bacteroides_dorei: 1497 hits
+
+Total gene families from nucleotide alignment: 3223
+
+Unaligned reads after nucleotide alignment: 4.0274796050 %
+
+
+Running diamond ........
+
+
+Aligning to reference database: uniref90_demo_prots.dmnd
+
+Total bugs after translated alignment: 17
+g__Streptococcus.s__Streptococcus_salivarius: 1196 hits
+unclassified: 328 hits
+g__Bacteroides.s__Bacteroides_caccae: 3455 hits
+g__Parabacteroides.s__Parabacteroides_distasonis: 1950 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 2072 hits
+g__Blautia.s__Ruminococcus_torques: 559 hits
+g__Bacteroides.s__Bacteroides_ovatus: 2635 hits
+g__Bacteroides.s__Bacteroides_finegoldii: 696 hits
+g__Bacteroides.s__Bacteroides_cellulosilyticus: 1392 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 1722 hits
+g__Bacteroides.s__Bacteroides_fragilis: 3306 hits
+g__Blautia.s__Ruminococcus_obeum: 770 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 10503 hits
+g__Streptococcus.s__Streptococcus_parasanguinis: 231 hits
+g__Dorea.s__Dorea_formicigenerans: 645 hits
+g__Bifidobacterium.s__Bifidobacterium_longum: 899 hits
+g__Bacteroides.s__Bacteroides_dorei: 1497 hits
+
+Total gene families after translated alignment: 3226
+
+Unaligned reads after translated alignment: 3.2689280092 %
+
+
+Computing gene families ...
+
+Computing pathways abundance and coverage ...
+
+Output files created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_genefamilies.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_pathabundance.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_pathcoverage.tsv
+
+
+Stderr: 
+2017-07-18 19:04:34,402	LoggerReporter	log_event	INFO: task 29, humann____CSM5MCW6 : completed successfully 
+2017-07-18 19:04:34,402	LoggerReporter	log_event	INFO: task 36, humann_regroup_UniRef2EC____CSM5MCW6 : ready and waiting for resources 
+2017-07-18 19:04:34,403	LoggerReporter	log_event	INFO: task 36, humann_regroup_UniRef2EC____CSM5MCW6 : starting to run 
+2017-07-18 19:04:34,403	LoggerReporter	task_command	INFO: Executing with shell:  humann_regroup_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCW6_ecs.tsv --groups uniref90_level4ec
+2017-07-18 19:04:35,140	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_genefamilies.tsv as stratified output, e.g. ['UniRef90_R6JGY4', 'g__Bacteroides.s__Bacteroides_ovatus']
+Loading mapping file from: /home/ljmciver/.local/lib/python2.7/site-packages/humann/data/misc/map_level4ec_uniref90.txt.gz
+Original Feature Count: 3227; Grouped 1+ times: 660 (20.5%); Grouped 2+ times: 3 (0.1%)
+
+2017-07-18 19:04:35,140	LoggerReporter	log_event	INFO: task 36, humann_regroup_UniRef2EC____CSM5MCW6 : completed successfully 
+2017-07-18 19:04:35,141	LoggerReporter	log_event	INFO: task 51, humann_renorm_ecs_relab____CSM5MCW6 : ready and waiting for resources 
+2017-07-18 19:04:35,141	LoggerReporter	log_event	INFO: task 51, humann_renorm_ecs_relab____CSM5MCW6 : starting to run 
+2017-07-18 19:04:35,141	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCW6_ecs.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/ecs/CSM5MCW6_ecs_relab.tsv --units relab --special n
+2017-07-18 19:04:35,314	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCW6_ecs.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCW6_ecs.tsv as stratified output, e.g. ['UNGROUPED', 'g__Bacteroides.s__Bacteroides_caccae']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNGROUPED
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_cellulosilyticus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_finegoldii
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_fragilis
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNGROUPED|g__Bifidobacterium.s__Bifidobacterium_longum
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_obeum
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_torques
+Excluding special feature: UNGROUPED|g__Dorea.s__Dorea_formicigenerans
+Excluding special feature: UNGROUPED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNGROUPED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNGROUPED|g__Streptococcus.s__Streptococcus_parasanguinis
+Excluding special feature: UNGROUPED|g__Streptococcus.s__Streptococcus_salivarius
+Excluding special feature: UNGROUPED|unclassified
+
+2017-07-18 19:04:35,315	LoggerReporter	log_event	INFO: task 51, humann_renorm_ecs_relab____CSM5MCW6 : completed successfully 
+2017-07-18 19:04:35,315	LoggerReporter	log_event	INFO: task 45, humann_renorm_genes_relab____CSM5MCW6 : ready and waiting for resources 
+2017-07-18 19:04:35,315	LoggerReporter	log_event	INFO: task 45, humann_renorm_genes_relab____CSM5MCW6 : starting to run 
+2017-07-18 19:04:35,315	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/genes/CSM5MCW6_genefamilies_relab.tsv --units relab --special n
+2017-07-18 19:04:35,538	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_genefamilies.tsv as stratified output, e.g. ['UniRef90_R6JGY4', 'g__Bacteroides.s__Bacteroides_ovatus']
+Excluding special feature: UNMAPPED
+
+2017-07-18 19:04:35,538	LoggerReporter	log_event	INFO: task 45, humann_renorm_genes_relab____CSM5MCW6 : completed successfully 
+2017-07-18 19:04:35,539	LoggerReporter	log_event	INFO: task 57, humann_renorm_pathways_relab____CSM5MCW6 : ready and waiting for resources 
+2017-07-18 19:04:35,539	LoggerReporter	log_event	INFO: task 57, humann_renorm_pathways_relab____CSM5MCW6 : starting to run 
+2017-07-18 19:04:35,539	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_pathabundance.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/pathways/CSM5MCW6_pathabundance_relab.tsv --units relab --special n
+2017-07-18 19:04:35,725	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_pathabundance.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCW6_pathabundance.tsv as stratified output, e.g. ['UNINTEGRATED', 'g__Faecalibacterium.s__Faecalibacterium_prausnitzii']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNINTEGRATED
+Excluding special feature: UNINTEGRATED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_cellulosilyticus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNINTEGRATED|g__Parabacteroides.s__Parabacteroides_distasonis
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_fragilis
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNINTEGRATED|g__Streptococcus.s__Streptococcus_salivarius
+Excluding special feature: UNINTEGRATED|g__Blautia.s__Ruminococcus_obeum
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_finegoldii
+Excluding special feature: UNINTEGRATED|g__Bifidobacterium.s__Bifidobacterium_longum
+Excluding special feature: UNINTEGRATED|g__Dorea.s__Dorea_formicigenerans
+Excluding special feature: UNINTEGRATED|unclassified
+Excluding special feature: UNINTEGRATED|g__Blautia.s__Ruminococcus_torques
+
+2017-07-18 19:04:35,726	LoggerReporter	log_event	INFO: task 57, humann_renorm_pathways_relab____CSM5MCW6 : completed successfully 
+2017-07-18 19:04:35,727	LoggerReporter	log_event	INFO: task 0, kneaddata____CSM5MCWC : ready and waiting for resources 
+2017-07-18 19:04:35,728	LoggerReporter	log_event	INFO: task 0, kneaddata____CSM5MCWC : starting to run 
+2017-07-18 19:04:35,877	LoggerReporter	task_command	INFO: Tracked executable version:  kneaddata v0.6.1
+
+2017-07-18 19:04:35,877	LoggerReporter	task_command	INFO: Executing with shell:  kneaddata --input /work/code/biobakery_workflows/examples/tutorial/input/CSM5MCWC.fastq.gz --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main --threads 1 --output-prefix CSM5MCWC   --reference-db /work/code/biobakery_workflows/examples/tutorial/kneaddata_demo_db/Homo_sapiens_demo/  --serial 
+2017-07-18 19:04:39,658	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Decompressing gzipped file ...
+
+Initial number of reads ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/decompressed_BIM9k1_CSM5MCWC.fastq ): 61076
+Running Trimmomatic ... 
+Total reads after trimming ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCWC.trimmed.fastq ): 61013
+Decontaminating ...
+Running bowtie2 ... 
+Running bowtie2 ... 
+Total reads after removing those found in reference database ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCWC_Homo_sapiens_demo_bowtie2_clean.fastq ): 60948
+Total reads after merging results from multiple databases ( /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCWC.fastq ): 60854
+
+Final output file created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCWC.fastq
+
+
+Stderr: 
+2017-07-18 19:04:39,659	LoggerReporter	log_event	INFO: task 0, kneaddata____CSM5MCWC : completed successfully 
+2017-07-18 19:04:39,660	LoggerReporter	log_event	INFO: task 13, kneaddata_read_count_table : ready and waiting for resources 
+2017-07-18 19:04:39,660	LoggerReporter	log_event	INFO: task 13, kneaddata_read_count_table : starting to run 
+2017-07-18 19:04:39,660	LoggerReporter	task_command	INFO: Executing with shell:  kneaddata_read_count_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/merged/kneaddata_read_count_table.tsv
+2017-07-18 19:04:39,857	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Reading log: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVN.log
+Reading log: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCW6.log
+Reading log: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCWC.log
+Reading log: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5FZ4M.log
+Reading log: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCUO.log
+Reading log: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCVL.log
+Read count table written: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/merged/kneaddata_read_count_table.tsv
+
+Stderr: 
+2017-07-18 19:04:39,858	LoggerReporter	log_event	INFO: task 13, kneaddata_read_count_table : completed successfully 
+2017-07-18 19:04:39,858	LoggerReporter	log_event	INFO: task 14, metaphlan____CSM5MCWC : ready and waiting for resources 
+2017-07-18 19:04:39,858	LoggerReporter	log_event	INFO: task 14, metaphlan____CSM5MCWC : starting to run 
+2017-07-18 19:04:39,937	LoggerReporter	task_command	INFO: Tracked executable version:  MetaPhlAn version 3
+
+2017-07-18 19:04:39,938	LoggerReporter	task_command	INFO: Executing with shell:  metaphlan /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCWC.fastq --input_type fastq --output_file /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCWC_taxonomic_profile.tsv --samout /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCWC_bowtie2.sam --nproc 1 --no_map --tmp_dir /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main
+2017-07-18 19:05:34,179	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 19:05:34,179	LoggerReporter	log_event	INFO: task 14, metaphlan____CSM5MCWC : completed successfully 
+2017-07-18 19:20:54,554	LoggerReporter	log_event	INFO: task 21, metaphlan_join_taxonomic_profiles : ready and waiting for resources 
+2017-07-18 19:20:54,554	LoggerReporter	log_event	INFO: task 21, metaphlan_join_taxonomic_profiles : starting to run 
+2017-07-18 19:20:54,554	LoggerReporter	task_command	INFO: Executing with shell:  humann_join_tables --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/merged/metaphlan_taxonomic_profiles.tsv --file_name taxonomic_profile
+2017-07-18 19:20:54,733	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Gene table created: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/merged/metaphlan_taxonomic_profiles.tsv
+
+Stderr: 
+2017-07-18 19:20:54,734	LoggerReporter	log_event	INFO: task 21, metaphlan_join_taxonomic_profiles : completed successfully 
+2017-07-18 19:20:54,734	LoggerReporter	log_event	INFO: task 22, metaphlan_count_species : ready and waiting for resources 
+2017-07-18 19:20:54,734	LoggerReporter	log_event	INFO: task 22, metaphlan_count_species : starting to run 
+2017-07-18 19:20:54,734	LoggerReporter	task_command	INFO: Executing with shell:  count_features.py --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/merged/metaphlan_taxonomic_profiles.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/merged/metaphlan_species_counts_table.tsv --include s__ --filter t__ --reduce-sample-name
+2017-07-18 19:20:54,893	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 19:20:54,894	LoggerReporter	log_event	INFO: task 22, metaphlan_count_species : completed successfully 
+2017-07-18 19:20:54,894	LoggerReporter	log_event	INFO: task 23, humann____CSM5MCWC : ready and waiting for resources 
+2017-07-18 19:20:54,894	LoggerReporter	log_event	INFO: task 23, humann____CSM5MCWC : starting to run 
+2017-07-18 19:20:55,101	LoggerReporter	task_command	INFO: Tracked executable version:  humann v3
+
+2017-07-18 19:20:55,101	LoggerReporter	task_command	INFO: Executing with shell:  humann --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/kneaddata/main/CSM5MCWC.fastq --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --o-log /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC.log --threads 1 --taxonomic-profile /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/metaphlan/main/CSM5MCWC_taxonomic_profile.tsv 
+2017-07-18 19:25:32,287	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Output files will be written to: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main
+Found g__Streptococcus.s__Streptococcus_vestibularis : 11.30% of mapped reads
+Found g__Lactobacillus.s__Lactobacillus_salivarius : 10.91% of mapped reads
+Found g__Klebsiella.s__Klebsiella_pneumoniae : 9.65% of mapped reads
+Found g__Escherichia.s__Escherichia_coli : 8.50% of mapped reads
+Found g__Haemophilus.s__Haemophilus_parainfluenzae : 8.11% of mapped reads
+Found g__Streptococcus.s__Streptococcus_parasanguinis : 8.07% of mapped reads
+Found g__Bacteroides.s__Bacteroides_caccae : 5.83% of mapped reads
+Found g__Bifidobacterium.s__Bifidobacterium_dentium : 5.40% of mapped reads
+Found g__Bacteroides.s__Bacteroides_thetaiotaomicron : 5.29% of mapped reads
+Found g__Bacteroides.s__Bacteroides_vulgatus : 4.74% of mapped reads
+Found g__Bacteroides.s__Bacteroides_ovatus : 4.70% of mapped reads
+Found g__Streptococcus.s__Streptococcus_salivarius : 4.50% of mapped reads
+Found g__Bifidobacterium.s__Bifidobacterium_longum : 3.07% of mapped reads
+Found g__Faecalibacterium.s__Faecalibacterium_prausnitzii : 2.94% of mapped reads
+Found g__Blautia.s__Ruminococcus_torques : 2.58% of mapped reads
+Found g__Bacteroides.s__Bacteroides_dorei : 2.15% of mapped reads
+Found g__Streptococcus.s__Streptococcus_anginosus : 2.00% of mapped reads
+Found g__Bacteroides.s__Bacteroides_fragilis : 0.16% of mapped reads
+Found g__Bacteroides.s__Bacteroides_xylanisolvens : 0.11% of mapped reads
+
+Total species selected from prescreen: 19
+
+Selected species explain 100.00% of predicted community composition
+
+
+Creating custom ChocoPhlAn database ........
+
+
+Running bowtie2-build ........
+
+
+Running bowtie2 ........
+
+Total bugs from nucleotide alignment: 14
+g__Streptococcus.s__Streptococcus_salivarius: 1722 hits
+g__Bifidobacterium.s__Bifidobacterium_dentium: 1031 hits
+g__Klebsiella.s__Klebsiella_pneumoniae: 2564 hits
+g__Bacteroides.s__Bacteroides_caccae: 4134 hits
+g__Blautia.s__Ruminococcus_torques: 18 hits
+g__Bacteroides.s__Bacteroides_ovatus: 15773 hits
+g__Bacteroides.s__Bacteroides_fragilis: 66 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 17909 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 2548 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 1272 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 921 hits
+g__Streptococcus.s__Streptococcus_parasanguinis: 1113 hits
+g__Bifidobacterium.s__Bifidobacterium_longum: 476 hits
+g__Bacteroides.s__Bacteroides_dorei: 2401 hits
+
+Total gene families from nucleotide alignment: 2315
+
+Unaligned reads after nucleotide alignment: 14.6350281000 %
+
+
+Running diamond ........
+
+
+Aligning to reference database: uniref90_demo_prots.dmnd
+
+Total bugs after translated alignment: 15
+g__Streptococcus.s__Streptococcus_salivarius: 1722 hits
+g__Bifidobacterium.s__Bifidobacterium_dentium: 1031 hits
+g__Klebsiella.s__Klebsiella_pneumoniae: 2564 hits
+g__Bacteroides.s__Bacteroides_caccae: 4134 hits
+g__Blautia.s__Ruminococcus_torques: 18 hits
+g__Bacteroides.s__Bacteroides_ovatus: 15773 hits
+g__Bacteroides.s__Bacteroides_fragilis: 66 hits
+unclassified: 11009 hits
+g__Bacteroides.s__Bacteroides_vulgatus: 17909 hits
+g__Bacteroides.s__Bacteroides_thetaiotaomicron: 2548 hits
+g__Bacteroides.s__Bacteroides_xylanisolvens: 1272 hits
+g__Faecalibacterium.s__Faecalibacterium_prausnitzii: 921 hits
+g__Streptococcus.s__Streptococcus_parasanguinis: 1113 hits
+g__Bifidobacterium.s__Bifidobacterium_longum: 476 hits
+g__Bacteroides.s__Bacteroides_dorei: 2401 hits
+
+Total gene families after translated alignment: 2895
+
+Unaligned reads after translated alignment: 6.1047753640 %
+
+
+Computing gene families ...
+
+Computing pathways abundance and coverage ...
+
+Output files created: 
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_genefamilies.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_pathabundance.tsv
+/work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_pathcoverage.tsv
+
+
+Stderr: 
+2017-07-18 19:25:32,288	LoggerReporter	log_event	INFO: task 23, humann____CSM5MCWC : completed successfully 
+2017-07-18 19:25:32,289	LoggerReporter	log_event	INFO: task 37, humann_join_tables_genefamilies : ready and waiting for resources 
+2017-07-18 19:25:32,289	LoggerReporter	log_event	INFO: task 37, humann_join_tables_genefamilies : starting to run 
+2017-07-18 19:25:32,289	LoggerReporter	task_command	INFO: Executing with shell:  humann_join_tables --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/genefamilies.tsv --file_name genefamilies
+2017-07-18 19:25:32,544	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Gene table created: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/genefamilies.tsv
+
+Stderr: 
+2017-07-18 19:25:32,545	LoggerReporter	log_event	INFO: task 37, humann_join_tables_genefamilies : completed successfully 
+2017-07-18 19:25:32,545	LoggerReporter	log_event	INFO: task 39, humann_join_tables_pathabundance : ready and waiting for resources 
+2017-07-18 19:25:32,546	LoggerReporter	log_event	INFO: task 39, humann_join_tables_pathabundance : starting to run 
+2017-07-18 19:25:32,546	LoggerReporter	task_command	INFO: Executing with shell:  humann_join_tables --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/pathabundance.tsv --file_name pathabundance
+2017-07-18 19:25:32,772	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Gene table created: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/pathabundance.tsv
+
+Stderr: 
+2017-07-18 19:25:32,773	LoggerReporter	log_event	INFO: task 39, humann_join_tables_pathabundance : completed successfully 
+2017-07-18 19:25:32,773	LoggerReporter	log_event	INFO: task 40, humann_renorm_genes_relab____CSM5MCWC : ready and waiting for resources 
+2017-07-18 19:25:32,774	LoggerReporter	log_event	INFO: task 40, humann_renorm_genes_relab____CSM5MCWC : starting to run 
+2017-07-18 19:25:32,774	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/genes/CSM5MCWC_genefamilies_relab.tsv --units relab --special n
+2017-07-18 19:25:33,046	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_genefamilies.tsv as stratified output, e.g. ['UniRef90_R6JGY4', 'g__Bacteroides.s__Bacteroides_ovatus']
+Excluding special feature: UNMAPPED
+
+2017-07-18 19:25:33,047	LoggerReporter	log_event	INFO: task 40, humann_renorm_genes_relab____CSM5MCWC : completed successfully 
+2017-07-18 19:25:33,047	LoggerReporter	log_event	INFO: task 58, humann_join_tables_genes_relab : ready and waiting for resources 
+2017-07-18 19:25:33,048	LoggerReporter	log_event	INFO: task 58, humann_join_tables_genes_relab : starting to run 
+2017-07-18 19:25:33,048	LoggerReporter	task_command	INFO: Executing with shell:  humann_join_tables --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/genes --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/genefamilies_relab.tsv
+2017-07-18 19:25:33,506	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Gene table created: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/genefamilies_relab.tsv
+
+Stderr: 
+2017-07-18 19:25:33,507	LoggerReporter	log_event	INFO: task 58, humann_join_tables_genes_relab : completed successfully 
+2017-07-18 19:25:33,507	LoggerReporter	log_event	INFO: task 61, humann_count_features_genes : ready and waiting for resources 
+2017-07-18 19:25:33,508	LoggerReporter	log_event	INFO: task 61, humann_count_features_genes : starting to run 
+2017-07-18 19:25:33,508	LoggerReporter	task_command	INFO: Executing with shell:  count_features.py --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/genefamilies_relab.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/counts/humann_genefamilies_relab_counts.tsv --reduce-sample-name --ignore-un-features --ignore-stratification
+2017-07-18 19:25:33,709	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 19:25:33,710	LoggerReporter	log_event	INFO: task 61, humann_count_features_genes : completed successfully 
+2017-07-18 19:25:33,710	LoggerReporter	log_event	INFO: task 52, humann_renorm_pathways_relab____CSM5MCWC : ready and waiting for resources 
+2017-07-18 19:25:33,711	LoggerReporter	log_event	INFO: task 52, humann_renorm_pathways_relab____CSM5MCWC : starting to run 
+2017-07-18 19:25:33,711	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_pathabundance.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/pathways/CSM5MCWC_pathabundance_relab.tsv --units relab --special n
+2017-07-18 19:25:33,905	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_pathabundance.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_pathabundance.tsv as stratified output, e.g. ['UNINTEGRATED', 'g__Bacteroides.s__Bacteroides_vulgatus']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNINTEGRATED
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNINTEGRATED|g__Klebsiella.s__Klebsiella_pneumoniae
+Excluding special feature: UNINTEGRATED|g__Streptococcus.s__Streptococcus_salivarius
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNINTEGRATED|g__Streptococcus.s__Streptococcus_parasanguinis
+Excluding special feature: UNINTEGRATED|g__Bifidobacterium.s__Bifidobacterium_dentium
+Excluding special feature: UNINTEGRATED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNINTEGRATED|unclassified
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNINTEGRATED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNINTEGRATED|g__Bifidobacterium.s__Bifidobacterium_longum
+
+2017-07-18 19:25:33,905	LoggerReporter	log_event	INFO: task 52, humann_renorm_pathways_relab____CSM5MCWC : completed successfully 
+2017-07-18 19:25:33,906	LoggerReporter	log_event	INFO: task 60, humann_join_tables_pathways_relab : ready and waiting for resources 
+2017-07-18 19:25:33,906	LoggerReporter	log_event	INFO: task 60, humann_join_tables_pathways_relab : starting to run 
+2017-07-18 19:25:33,906	LoggerReporter	task_command	INFO: Executing with shell:  humann_join_tables --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/pathways --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/pathabundance_relab.tsv
+2017-07-18 19:25:34,095	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Gene table created: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/pathabundance_relab.tsv
+
+Stderr: 
+2017-07-18 19:25:34,095	LoggerReporter	log_event	INFO: task 60, humann_join_tables_pathways_relab : completed successfully 
+2017-07-18 19:25:34,096	LoggerReporter	log_event	INFO: task 63, humann_count_features_pathways : ready and waiting for resources 
+2017-07-18 19:25:34,096	LoggerReporter	log_event	INFO: task 63, humann_count_features_pathways : starting to run 
+2017-07-18 19:25:34,096	LoggerReporter	task_command	INFO: Executing with shell:  count_features.py --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/pathabundance_relab.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/counts/humann_pathabundance_relab_counts.tsv --reduce-sample-name --ignore-un-features --ignore-stratification
+2017-07-18 19:25:34,268	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 19:25:34,269	LoggerReporter	log_event	INFO: task 63, humann_count_features_pathways : completed successfully 
+2017-07-18 19:25:34,269	LoggerReporter	log_event	INFO: task 30, humann_count_alignments_species : ready and waiting for resources 
+2017-07-18 19:25:34,270	LoggerReporter	log_event	INFO: task 30, humann_count_alignments_species : starting to run 
+2017-07-18 19:25:34,270	LoggerReporter	task_command	INFO: Executing with shell:  get_counts_from_humann_logs.py --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/counts/humann_read_and_species_count_table.tsv
+2017-07-18 19:25:34,512	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Read table written to file: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/counts/humann_read_and_species_count_table.tsv
+
+Stderr: 
+2017-07-18 19:25:34,513	LoggerReporter	log_event	INFO: task 30, humann_count_alignments_species : completed successfully 
+2017-07-18 19:25:34,513	LoggerReporter	log_event	INFO: task 31, humann_regroup_UniRef2EC____CSM5MCWC : ready and waiting for resources 
+2017-07-18 19:25:34,513	LoggerReporter	log_event	INFO: task 31, humann_regroup_UniRef2EC____CSM5MCWC : starting to run 
+2017-07-18 19:25:34,514	LoggerReporter	task_command	INFO: Executing with shell:  humann_regroup_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_genefamilies.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCWC_ecs.tsv --groups uniref90_level4ec
+2017-07-18 19:25:35,228	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_genefamilies.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/main/CSM5MCWC_genefamilies.tsv as stratified output, e.g. ['UniRef90_R6JGY4', 'g__Bacteroides.s__Bacteroides_ovatus']
+Loading mapping file from: /home/ljmciver/.local/lib/python2.7/site-packages/humann/data/misc/map_level4ec_uniref90.txt.gz
+Original Feature Count: 2896; Grouped 1+ times: 959 (33.1%); Grouped 2+ times: 7 (0.2%)
+
+2017-07-18 19:25:35,228	LoggerReporter	log_event	INFO: task 31, humann_regroup_UniRef2EC____CSM5MCWC : completed successfully 
+2017-07-18 19:25:35,229	LoggerReporter	log_event	INFO: task 46, humann_renorm_ecs_relab____CSM5MCWC : ready and waiting for resources 
+2017-07-18 19:25:35,229	LoggerReporter	log_event	INFO: task 46, humann_renorm_ecs_relab____CSM5MCWC : starting to run 
+2017-07-18 19:25:35,229	LoggerReporter	task_command	INFO: Executing with shell:  humann_renorm_table --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCWC_ecs.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/ecs/CSM5MCWC_ecs_relab.tsv --units relab --special n
+2017-07-18 19:25:35,384	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: Loading table from: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCWC_ecs.tsv
+  Treating /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped/CSM5MCWC_ecs.tsv as stratified output, e.g. ['UNGROUPED', 'g__Bacteroides.s__Bacteroides_caccae']
+Excluding special feature: UNMAPPED
+Excluding special feature: UNGROUPED
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_caccae
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_dorei
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_fragilis
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_ovatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_thetaiotaomicron
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_vulgatus
+Excluding special feature: UNGROUPED|g__Bacteroides.s__Bacteroides_xylanisolvens
+Excluding special feature: UNGROUPED|g__Bifidobacterium.s__Bifidobacterium_dentium
+Excluding special feature: UNGROUPED|g__Bifidobacterium.s__Bifidobacterium_longum
+Excluding special feature: UNGROUPED|g__Blautia.s__Ruminococcus_torques
+Excluding special feature: UNGROUPED|g__Faecalibacterium.s__Faecalibacterium_prausnitzii
+Excluding special feature: UNGROUPED|g__Klebsiella.s__Klebsiella_pneumoniae
+Excluding special feature: UNGROUPED|g__Streptococcus.s__Streptococcus_parasanguinis
+Excluding special feature: UNGROUPED|g__Streptococcus.s__Streptococcus_salivarius
+Excluding special feature: UNGROUPED|unclassified
+
+2017-07-18 19:25:35,384	LoggerReporter	log_event	INFO: task 46, humann_renorm_ecs_relab____CSM5MCWC : completed successfully 
+2017-07-18 19:25:35,384	LoggerReporter	log_event	INFO: task 59, humann_join_tables_ecs_relab : ready and waiting for resources 
+2017-07-18 19:25:35,385	LoggerReporter	log_event	INFO: task 59, humann_join_tables_ecs_relab : starting to run 
+2017-07-18 19:25:35,385	LoggerReporter	task_command	INFO: Executing with shell:  humann_join_tables --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/relab/ecs --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/ecs_relab.tsv
+2017-07-18 19:25:35,566	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Gene table created: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/ecs_relab.tsv
+
+Stderr: 
+2017-07-18 19:25:35,566	LoggerReporter	log_event	INFO: task 59, humann_join_tables_ecs_relab : completed successfully 
+2017-07-18 19:25:35,567	LoggerReporter	log_event	INFO: task 62, humann_count_features_ecs : ready and waiting for resources 
+2017-07-18 19:25:35,567	LoggerReporter	log_event	INFO: task 62, humann_count_features_ecs : starting to run 
+2017-07-18 19:25:35,567	LoggerReporter	task_command	INFO: Executing with shell:  count_features.py --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/ecs_relab.tsv --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/counts/humann_ecs_relab_counts.tsv --reduce-sample-name --ignore-un-features --ignore-stratification
+2017-07-18 19:25:35,733	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: 
+Stderr: 
+2017-07-18 19:25:35,733	LoggerReporter	log_event	INFO: task 62, humann_count_features_ecs : completed successfully 
+2017-07-18 19:25:35,734	LoggerReporter	log_event	INFO: task 64, humann_merge_feature_counts : ready and waiting for resources 
+2017-07-18 19:25:35,734	LoggerReporter	log_event	INFO: task 64, humann_merge_feature_counts : starting to run 
+2017-07-18 19:25:35,734	LoggerReporter	task_command	INFO: Executing with shell:  humann_join_tables --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/counts --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/counts/humann_feature_counts.tsv --file_name _relab_counts.tsv
+2017-07-18 19:25:35,887	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Gene table created: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/counts/humann_feature_counts.tsv
+
+Stderr: 
+2017-07-18 19:25:35,887	LoggerReporter	log_event	INFO: task 64, humann_merge_feature_counts : completed successfully 
+2017-07-18 19:25:35,888	LoggerReporter	log_event	INFO: task 38, humann_join_tables_ecs : ready and waiting for resources 
+2017-07-18 19:25:35,888	LoggerReporter	log_event	INFO: task 38, humann_join_tables_ecs : starting to run 
+2017-07-18 19:25:35,888	LoggerReporter	task_command	INFO: Executing with shell:  humann_join_tables --input /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/regrouped --output /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/ecs.tsv --file_name ecs
+2017-07-18 19:25:36,081	anadama2.helpers	actually_sh	INFO: Execution complete. Stdout: Gene table created: /work/code/biobakery_workflows/biobakery_workflows_tutorial_output/humann/merged/ecs.tsv
+
+Stderr: 
+2017-07-18 19:25:36,081	LoggerReporter	log_event	INFO: task 38, humann_join_tables_ecs : completed successfully 
+2017-07-18 19:25:36,081	LoggerReporter	finished	INFO: AnADAMA run finished.

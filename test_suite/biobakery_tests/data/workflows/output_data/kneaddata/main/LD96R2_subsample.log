@@ -1,0 +1,70 @@
+05/21/2020 10:20:58 PM - kneaddata.knead_data - INFO: Running kneaddata v0.7.6
+05/21/2020 10:20:58 PM - kneaddata.knead_data - INFO: Output files will be written to: /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main
+05/21/2020 10:20:58 PM - kneaddata.knead_data - DEBUG: Running with the following arguments: 
+verbose = False
+input = /home/hutlab_public/Tutorials/workflows/input/LD96R2_subsample.fastq.gz
+output_dir = /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main
+reference_db = /opt/biobakery_workflows_databases/kneaddata_db_human_genome/Homo_sapiens_demo
+bypass_trim = False
+output_prefix = LD96R2_subsample
+threads = 1
+processes = 1
+trimmomatic_quality_scores = -phred33
+bmtagger = False
+trf = True
+fastqc_start = False
+fastqc_end = False
+store_temp_output = False
+remove_intermediate_output = False
+cat_final_output = False
+log_level = DEBUG
+log = /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.log
+trimmomatic_path = /usr/local/bin/trimmomatic-0.33.jar
+max_memory = 500m
+trimmomatic_options = None
+bowtie2_path = /usr/local/bin/bowtie2
+bowtie2_options = --very-sensitive --phred33
+no_discordant = False
+reorder = False
+serial = True
+bmtagger_path = None
+trf_path = /usr/local/bin/trf
+match = 2
+mismatch = 7
+delta = 7
+pm = 80
+pi = 10
+minscore = 50
+maxperiod = 500
+fastqc_path = None
+remove_temp_output = True
+
+05/21/2020 10:20:58 PM - kneaddata.utilities - INFO: Decompressing gzipped file ...
+05/21/2020 10:20:59 PM - kneaddata.utilities - INFO: Decompressed file created: /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/decompressed_ozz12_zf_LD96R2_subsample.fastq
+05/21/2020 10:20:59 PM - kneaddata.utilities - INFO: READ COUNT: raw single : Initial number of reads ( /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/decompressed_ozz12_zf_LD96R2_subsample.fastq ): 108134.0
+05/21/2020 10:20:59 PM - kneaddata.utilities - DEBUG: Checking input file to Trimmomatic : /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/decompressed_ozz12_zf_LD96R2_subsample.fastq
+05/21/2020 10:20:59 PM - kneaddata.utilities - INFO: Running Trimmomatic ... 
+05/21/2020 10:20:59 PM - kneaddata.utilities - INFO: Execute command: java -Xmx500m -jar /usr/local/bin/trimmomatic-0.33.jar SE -threads 1 -phred33 /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/decompressed_ozz12_zf_LD96R2_subsample.fastq /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.trimmed.fastq ILLUMINACLIP:/usr/local/lib/python3.6/dist-packages/kneaddata/adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:49
+05/21/2020 10:21:02 PM - kneaddata.utilities - DEBUG: b"TrimmomaticSE: Started with arguments: -threads 1 -phred33 /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/decompressed_ozz12_zf_LD96R2_subsample.fastq /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.trimmed.fastq ILLUMINACLIP:/usr/local/lib/python3.6/dist-packages/kneaddata/adapters/TruSeq3-SE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:49\nUsing Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'\nUsing Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'\nILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences\nInput Reads: 108134 Surviving: 108119 (99.99%) Dropped: 15 (0.01%)\nTrimmomaticSE: Completed successfully\n"
+05/21/2020 10:21:02 PM - kneaddata.utilities - DEBUG: Checking output file from Trimmomatic : /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.trimmed.fastq
+05/21/2020 10:21:02 PM - kneaddata.utilities - INFO: READ COUNT: trimmed single : Total reads after trimming ( /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.trimmed.fastq ): 108119.0
+05/21/2020 10:21:02 PM - kneaddata.run - INFO: Decontaminating ...
+05/21/2020 10:21:02 PM - kneaddata.utilities - DEBUG: Checking input file to bowtie2 : /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.trimmed.fastq
+05/21/2020 10:21:02 PM - kneaddata.utilities - INFO: Running bowtie2 ... 
+05/21/2020 10:21:02 PM - kneaddata.utilities - INFO: Execute command: /usr/local/bin/bowtie2 --threads 1 --very-sensitive --phred33 -x /opt/biobakery_workflows_databases/kneaddata_db_human_genome/Homo_sapiens_demo -U /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.trimmed.fastq --un /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample_Homo_sapiens_demo_bowtie2_clean.fastq --al /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample_Homo_sapiens_demo_bowtie2_contam.fastq -S /dev/null
+05/21/2020 10:21:06 PM - kneaddata.utilities - DEBUG: b'108119 reads; of these:\n  108119 (100.00%) were unpaired; of these:\n    108030 (99.92%) aligned 0 times\n    89 (0.08%) aligned exactly 1 time\n    0 (0.00%) aligned >1 times\n0.08% overall alignment rate\n'
+05/21/2020 10:21:06 PM - kneaddata.utilities - DEBUG: Checking output file from bowtie2 : /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample_Homo_sapiens_demo_bowtie2_clean.fastq
+05/21/2020 10:21:06 PM - kneaddata.run - INFO: Total contaminate sequences in file ( /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample_Homo_sapiens_demo_bowtie2_contam.fastq ) : 89.0
+05/21/2020 10:21:06 PM - kneaddata.utilities - INFO: READ COUNT: decontaminated Homo_sapiens_demo single : Total reads after removing those found in reference database ( /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample_Homo_sapiens_demo_bowtie2_clean.fastq ): 108030.0
+05/21/2020 10:21:06 PM - kneaddata.utilities - INFO: READ COUNT: final single : Total reads after merging results from multiple databases ( /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.fastq ): 108030.0
+05/21/2020 10:21:06 PM - kneaddata.utilities - WARNING: Unable to remove file: /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample_Homo_sapiens_demo_bowtie2_clean.fastq
+05/21/2020 10:21:07 PM - kneaddata.utilities - DEBUG: Checking input file to trf : /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.fasta
+05/21/2020 10:21:07 PM - kneaddata.utilities - INFO: Running trf ... 
+05/21/2020 10:21:07 PM - kneaddata.utilities - INFO: Execute command: /usr/local/bin/trf /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.fasta 2 7 7 80 10 50 500 -h -ngs
+05/21/2020 10:21:18 PM - kneaddata.utilities - DEBUG: 0
+05/21/2020 10:21:18 PM - kneaddata.utilities - DEBUG: Checking output file from trf : /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.fasta.trf.parameters.2.7.7.80.10.50.500.dat
+05/21/2020 10:21:18 PM - kneaddata.run - INFO: Total number of sequences with repeats removed from file ( /home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.fastq ): 46
+05/21/2020 10:21:18 PM - kneaddata.knead_data - INFO: 
+Final output file created: 
+/home/hutlab_public/Tutorials/workflows/output_data_NEW/kneaddata/main/LD96R2_subsample.repeats.removed.fastq
+
