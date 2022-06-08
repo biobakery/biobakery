@@ -1,0 +1,7 @@
+05/20/2021 10:44:25 PM - metawibele.config - INFO: ### Start abundance_filtering step ####
+05/20/2021 10:44:25 PM - metawibele.config - INFO: Get bioactivity info ......starting
+05/20/2021 10:44:25 PM - metawibele.config - INFO: Get bioactivity info ......done
+05/20/2021 10:44:25 PM - metawibele.config - INFO: Get abundance info ......starting
+05/20/2021 10:44:25 PM - metawibele.config - INFO: Collect abundance info ......
+05/20/2021 10:44:25 PM - metawibele.config - INFO: Get abundance info ......done
+05/20/2021 10:44:25 PM - metawibele.config - INFO: ### Finish abundance_filtering step ####

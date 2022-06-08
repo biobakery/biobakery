@@ -1,0 +1,43 @@
+================================================================
+Program: CD-HIT, V4.7 (+OpenMP), Jul 01 2017, 08:43:07
+Command: cd-hit -i
+         /usr/local/lib/python3.6/dist-packages/biobakery_tests-0.0.1-py3.6.egg/biobakery_tests/data/metawibele/input/demo_genecatalogs.centroid.faa
+         -T 1 -d 100 -c 0.9 -aL 0.8 -aS 0.8 -G 0 -M 0 -B 0 -o
+         /home/hutlab_public/biobakery/test_suite/metawibele_demo_out/characterization/clustering/metawibele_proteinfamilies.centroid.faa
+
+Started: Fri Jun  3 18:23:08 2022
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 1899
+longest and shortest : 2171 and 30
+Total letters: 573934
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 1 X 10M = 10M
+Table           : 1 X 65M = 65M
+Miscellaneous   : 0M
+Total           : 77M
+
+Table limit with the given memory limit:
+Max number of representatives: 4000000
+Max number of word counting entries: 255585500
+
+comparing sequences from          0  to       1899
+.
+     1899  finished       1584  clusters
+
+Apprixmated maximum memory consumption: 80M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.25
+06/03/2022 06:23:09 PM - metawibele.config - INFO: ### Start extract_cluster_CD_hit step ####
+06/03/2022 06:23:09 PM - metawibele.config - INFO: Get cluster info ......starting
+06/03/2022 06:23:09 PM - metawibele.config - INFO: Get cluster info ......done
+06/03/2022 06:23:09 PM - metawibele.config - INFO: Output clustering summary info ......starting
+06/03/2022 06:23:09 PM - metawibele.config - INFO: Output clustering summary info ......done
+06/03/2022 06:23:09 PM - metawibele.config - INFO: ### Finish extract_cluster_CD_hit step ####

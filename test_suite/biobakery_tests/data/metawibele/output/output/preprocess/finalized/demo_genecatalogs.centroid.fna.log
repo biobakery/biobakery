@@ -1,0 +1,37 @@
+================================================================
+Program: CD-HIT, V4.7 (+OpenMP), Jul 01 2017, 08:43:07
+Command: cd-hit-est -i
+         /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/finalized/demo_combined_gene_protein_coding.complete.sorted.fna
+         -d 100 -c 0.95 -aS 0.8 -G 0 -M 0 -B 0 -o
+         /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/finalized/demo_genecatalogs.centroid.fna
+
+Started: Thu May 20 22:40:12 2021
+================================================================
+                            Output                              
+----------------------------------------------------------------
+total seq: 1
+longest and shortest : 1164 and 1164
+Total letters: 1164
+Sequences have been sorted
+
+Approximated minimal memory consumption:
+Sequence        : 0M
+Buffer          : 1 X 12M = 12M
+Table           : 1 X 16M = 16M
+Miscellaneous   : 4M
+Total           : 33M
+
+Table limit with the given memory limit:
+Max number of representatives: 4000000
+Max number of word counting entries: 632582000
+
+comparing sequences from          0  to          1
+
+        1  finished          1  clusters
+
+Apprixmated maximum memory consumption: 33M
+writing new database
+writing clustering information
+program completed !
+
+Total CPU time 0.15

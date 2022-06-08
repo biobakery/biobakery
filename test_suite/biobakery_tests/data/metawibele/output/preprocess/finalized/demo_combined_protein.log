@@ -1,0 +1,8 @@
+06/03/2022 06:21:10 PM - metawibele.config - INFO: ### Start format_protein_sequences step ####
+06/03/2022 06:21:10 PM - metawibele.config - INFO: Get sequence info ......starting
+06/03/2022 06:21:10 PM - metawibele.config - INFO: ERROR! Gff file doesn't exist!	/home/hutlab_public/biobakery/test_suite/metawibele_demo_out/preprocess/gene_calls/sample2.gff
+06/03/2022 06:21:10 PM - metawibele.config - INFO: Read gff file: /home/hutlab_public/biobakery/test_suite/metawibele_demo_out/preprocess/gene_calls/sample1.gff
+06/03/2022 06:21:10 PM - metawibele.config - INFO: Get sequence info ......done
+06/03/2022 06:21:10 PM - metawibele.config - INFO: Output sequence info ......starting
+06/03/2022 06:21:10 PM - metawibele.config - INFO: Output sequence info ......done
+06/03/2022 06:21:10 PM - metawibele.config - INFO: ### Finish format_protein_sequences step ####

@@ -1,0 +1,6 @@
+06/03/2022 06:21:49 PM - metawibele.config - INFO: ### Start extract_complete_ORF_seq step ####
+06/03/2022 06:21:49 PM - metawibele.config - INFO: Get gene info ......starting
+06/03/2022 06:21:49 PM - metawibele.config - INFO: Get gene info ......done
+06/03/2022 06:21:49 PM - metawibele.config - INFO: Output sequence info ......starting
+06/03/2022 06:21:49 PM - metawibele.config - INFO: Output sequence info ......done
+06/03/2022 06:21:49 PM - metawibele.config - INFO: ### Finish extract_complete_ORF_seq step ####

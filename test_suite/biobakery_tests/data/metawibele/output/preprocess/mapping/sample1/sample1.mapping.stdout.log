@@ -1,0 +1,69 @@
+06/03/2022 06:21:54 PM - metawibele.config - INFO: ### Start gene_abundance step ####
+06/03/2022 06:21:54 PM - metawibele.config - INFO: Bowtie2 mapping......starting
+06/03/2022 06:21:54 PM - metawibele.config - INFO: >>Running botwie2...
+06/03/2022 06:21:54 PM - metawibele.config - INFO: Run command: bowtie2 -x demo_genecatalogs.centroid -U /usr/local/lib/python3.6/dist-packages/biobakery_tests-0.0.1-py3.6.egg/biobakery_tests/data/metawibele/input/sample1_R1.fastq.gz,/usr/local/lib/python3.6/dist-packages/biobakery_tests-0.0.1-py3.6.egg/biobakery_tests/data/metawibele/input/sample1_R2.fastq.gz --threads 1 -S sample1.sam --very-sensitive
+
+40000 reads; of these:
+  40000 (100.00%) were unpaired; of these:
+    39933 (99.83%) aligned 0 times
+    67 (0.17%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+0.17% overall alignment rate
+06/03/2022 06:21:55 PM - metawibele.config - INFO: Bowtie2 mapping......done
+06/03/2022 06:21:55 PM - metawibele.config - INFO: Extract gene abundance......starting
+06/03/2022 06:21:55 PM - metawibele.config - INFO: Run command:samtools view -b sample1.sam > sample1.bam
+06/03/2022 06:21:55 PM - metawibele.config - INFO: Run command:samtools sort sample1.bam -o sample1.sort.bam
+06/03/2022 06:21:55 PM - metawibele.config - INFO: Run command:samtools index sample1.sort.bam
+06/03/2022 06:21:56 PM - metawibele.config - INFO: >>Get abundance...
+06/03/2022 06:21:56 PM - metawibele.config - INFO: Run command:featureCounts -F SAF -T 1 -a  /home/hutlab_public/biobakery/test_suite/metawibele_demo_out/preprocess/finalized/demo_genecatalogs.centroid.saf.gtf -o sample1.sort.bed sample1.sort.bam
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o sample1.sort.bam                               ||
+||                                                                            ||
+||             Output file : sample1.sort.bed                                 ||
+||                 Summary : sample1.sort.bed.summary                         ||
+||              Annotation : demo_genecatalogs.centroid.saf.gtf (SAF)         ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file demo_genecatalogs.centroid.saf.gtf ...                ||
+||    Features : 1                                                            ||
+||    Meta-features : 1                                                       ||
+||    Chromosomes/contigs : 1                                                 ||
+||                                                                            ||
+|| Process BAM file sample1.sort.bam...                                       ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 40000                                                ||
+||    Successfully assigned alignments : 67 (0.2%)                            ||
+||    Running time : 0.00 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "sample1.sort.bed.summar  ||
+|| y"                                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+06/03/2022 06:21:56 PM - metawibele.config - INFO: Extract gene abundance......done
+06/03/2022 06:21:56 PM - metawibele.config - INFO: ### Finish gene_abundance.py ####

@@ -1,0 +1,8 @@
+05/20/2021 10:42:42 PM - metawibele.config - INFO: ### Start interproscan_signalp_protein_family step ####
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Get info ......starting
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Get info ......done
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Get signaling info ......starting
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Get signaling info ......done
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Output signaling summary info ......starting
+05/20/2021 10:42:42 PM - metawibele.config - INFO: Output signaling summary info ......done
+05/20/2021 10:42:42 PM - metawibele.config - INFO: ### Finish interproscan_signalp_protein_family step ####

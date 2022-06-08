@@ -1,0 +1,63 @@
+05/20/2021 10:50:43 PM - metawibele.config - INFO: --- Collecting annotations for protein families ---
+05/20/2021 10:50:43 PM - metawibele.config - INFO: Start read_config_file
+05/20/2021 10:50:43 PM - metawibele.config - INFO: Required ranking item: dna_within_phenotype_abundance	required
+05/20/2021 10:50:43 PM - metawibele.config - INFO: Required ranking item: dna_within_phenotype_prevalence	required
+05/20/2021 10:50:43 PM - metawibele.config - INFO: Required ranking item: maaslin2_da__qvalue	required
+05/20/2021 10:50:43 PM - metawibele.config - INFO: Required ranking item: maaslin2_da__mean_log	required
+05/20/2021 10:50:43 PM - metawibele.config - INFO: Finish read_config_file
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Start read_annotation_file
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Finish read_annotation_file
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Start combine_annotation
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Finish combine_annotation
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Start combine_annotation
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Finish combine_annotation
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1002
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1013
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1034
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1207
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1211
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1261
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1314
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1365
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1369
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1400
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1443
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_1485
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_300
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_312
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_435
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_465
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_502
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_531
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_603
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_646
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_702
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_706
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_714
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_811
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_878
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_888
+05/20/2021 10:50:45 PM - metawibele.config - INFO: WARNING! No required type	MaAsLin2_DA__qvalue	Cluster_961
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Start combine_evidence
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Finish combine_evidence
+05/20/2021 10:50:45 PM - metawibele.config - INFO: --- MetaWIBELE evidence table are written to the output ---
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Start write_prioritization_results
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Finish write_prioritization_results
+05/20/2021 10:50:45 PM - metawibele.config - INFO: --- Calculate Ranking score for protein families ---
+05/20/2021 10:50:45 PM - metawibele.config - INFO: MaAsLin2_DA__qvalue	0.25
+05/20/2021 10:50:45 PM - metawibele.config - INFO: MaAsLin2_DA__mean_log	0.25
+05/20/2021 10:50:45 PM - metawibele.config - INFO: DNA_within_phenotype_abundance	0.25
+05/20/2021 10:50:45 PM - metawibele.config - INFO: DNA_within_phenotype_prevalence	0.25
+05/20/2021 10:50:45 PM - metawibele.config - INFO: --- Weighted method: equal
+05/20/2021 10:50:45 PM - metawibele.config - INFO: --- Ranking method: harmonic_mean
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Start get_rank_score
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Sorting by abs(effect size), e.g. abs(coef), abs(log_FC), abs(mean_log)
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Sorting by negative qvalue
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Finish get_rank_score
+05/20/2021 10:50:45 PM - metawibele.config - INFO: --- Get prioritized families based on MetaWIBELE score ---
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Start prioritize_families
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Finish prioritize_families
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Start write_prioritization_results
+05/20/2021 10:50:45 PM - metawibele.config - INFO: Finish write_prioritization_results
+05/20/2021 10:50:45 PM - metawibele.config - INFO: --- The prioritization output is written in /home/hutlab_public/Tutorials/metawibele/Yancong/output/prioritization ...
+05/20/2021 10:50:45 PM - metawibele.config - INFO: --- Prioritization process is successfully completed ---

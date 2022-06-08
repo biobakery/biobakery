@@ -1,0 +1,60 @@
+seqID	Pfam1_ID	Pfam1_ann	Pfam2_ID	Pfam2_ann	PDB	Chain_pair	Tax1_ID	Tax2_ID	SIFTS_type
+PRISM_7122_38863	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7153_23798	PF01547	Bacterial extracellular solute-binding protein	PF00023	Ankyrin repeat	3j9p	D:C	83333;9606	83333;9606	SIFTS_supporting
+PRISM_7153_23798	PF01547	Bacterial extracellular solute-binding protein	PF02793	Hormone receptor domain	4rwg	C:B	83333;9606	83333;9606	SIFTS_supporting
+PRISM_7153_55065	PF01547	Bacterial extracellular solute-binding protein	PF00023	Ankyrin repeat	3j9p	D:C	83333;9606	83333;9606	SIFTS_supporting
+PRISM_7153_55065	PF01547	Bacterial extracellular solute-binding protein	PF02793	Hormone receptor domain	4rwg	C:B	83333;9606	83333;9606	SIFTS_supporting
+PRISM_7238_18273	PF00004	ATPase family associated with various cellular activities (AAA)	PF00240	Ubiquitin family	5a5b	M:9	4932	9606	SIFTS_supporting
+PRISM_7238_20269	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_7238_49192	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_7238_55587	PF00085	Thioredoxin	PF07686	Immunoglobulin V-set domain	1oaz	B:N	562	10090	SIFTS_supporting
+PRISM_7406_44473	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7408_03657	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_7408_124477	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_7408_71454	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7847_116804	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7855_43022	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7858_82555	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7861_100932	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7861_77918	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_7874_269849	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_7910_95222	PF00111	2Fe-2S iron-sulfur cluster binding domain	PF00034	Cytochrome c	2ybb	3:Y	300852	9913	SIFTS_supporting
+PRISM_7910_95222	PF00111	2Fe-2S iron-sulfur cluster binding domain	PF00034	Cytochrome c	2jqr	B:A	9913	4932	SIFTS_supporting
+PRISM_7911_78276	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7912_260411	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_7941_134548	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_7955_45008	PF00004	ATPase family associated with various cellular activities (AAA)	PF00240	Ubiquitin family	5a5b	M:9	4932	9606	SIFTS_supporting
+PRISM_8226_29379	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_8283_138719	PF00037	4Fe-4S binding domain	PF00034	Cytochrome c	2ybb	8:Y	300852	9913	SIFTS_supporting
+PRISM_8283_244391	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_8361_110097	PF00085	Thioredoxin	PF07686	Immunoglobulin V-set domain	1oaz	B:N	562	10090	SIFTS_supporting
+PRISM_8406_262170	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_8466_130708	PF00403	Heavy-metal-associated domain	PF00080	Copper/zinc superoxide dismutase (SODC)	5u9m	D:C	559292	9606	SIFTS_supporting
+PRISM_8496_139209	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_8537_04283	PF02661	Fic/DOC family	PF00071	Ras family	4itr	B:D	228400	9606	SIFTS_supporting
+PRISM_8591_56495	PF00004	ATPase family associated with various cellular activities (AAA)	PF00240	Ubiquitin family	5a5b	M:9	4932	9606	SIFTS_supporting
+PRISM_8624_97705	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_8675_71504	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_8683_118638	PF00111	2Fe-2S iron-sulfur cluster binding domain	PF00034	Cytochrome c	2ybb	3:Y	300852	9913	SIFTS_supporting
+PRISM_8683_118638	PF00111	2Fe-2S iron-sulfur cluster binding domain	PF00034	Cytochrome c	2jqr	B:A	9913	4932	SIFTS_supporting
+PRISM_8749_43436	PF00575	S1 RNA binding domain	PF00069	Protein kinase domain	2a1a	A:B	4932	9606	SIFTS_supporting
+PRISM_8753_162591	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_8758_33662	PF00403	Heavy-metal-associated domain	PF00080	Copper/zinc superoxide dismutase (SODC)	5u9m	D:C	559292	9606	SIFTS_supporting
+PRISM_8765_184896	PF00128	Alpha amylase, catalytic domain	PF01356	Alpha amylase inhibitor	1bvn	P:T	9823	1932	SIFTS_supporting
+PRISM_8774_63502	PF00004	ATPase family associated with various cellular activities (AAA)	PF00240	Ubiquitin family	5a5b	M:9	4932	9606	SIFTS_supporting
+PRISM_8789_129783	PF00091	Tubulin/FtsZ family, GTPase domain	PF00225	Kinesin motor domain	5mm7	B:K	9823	5270	SIFTS_supporting
+PRISM_8789_129783	PF00091	Tubulin/FtsZ family, GTPase domain	PF00225	Kinesin motor domain	5m5o	B:C	9913	284812	SIFTS_supporting
+PRISM_8794_265785	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_8800_130016	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_8802_418926	PF01547	Bacterial extracellular solute-binding protein	PF00023	Ankyrin repeat	3j9p	D:C	83333;9606	83333;9606	SIFTS_supporting
+PRISM_8802_418926	PF01547	Bacterial extracellular solute-binding protein	PF02793	Hormone receptor domain	4rwg	C:B	83333;9606	83333;9606	SIFTS_supporting
+PRISM_8807_117719	PF00004	ATPase family associated with various cellular activities (AAA)	PF00240	Ubiquitin family	5a5b	M:9	4932	9606	SIFTS_supporting
+PRISM_8841_127788	PF00111	2Fe-2S iron-sulfur cluster binding domain	PF00034	Cytochrome c	2ybb	3:Y	300852	9913	SIFTS_supporting
+PRISM_8841_127788	PF00111	2Fe-2S iron-sulfur cluster binding domain	PF00034	Cytochrome c	2jqr	B:A	9913	4932	SIFTS_supporting
+PRISM_8841_22509	PF00004	ATPase family associated with various cellular activities (AAA)	PF00240	Ubiquitin family	5a5b	M:9	4932	9606	SIFTS_supporting
+PRISM_8892_24447	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_9126_17600	PF02661	Fic/DOC family	PF00071	Ras family	4itr	B:D	228400	9606	SIFTS_supporting
+PRISM_9126_20228	PF00004	ATPase family associated with various cellular activities (AAA)	PF00240	Ubiquitin family	5a5b	M:9	4932	9606	SIFTS_supporting
+PRISM_9126_32593	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting
+PRISM_9126_35737	PF00403	Heavy-metal-associated domain	PF00080	Copper/zinc superoxide dismutase (SODC)	5u9m	D:C	559292	9606	SIFTS_supporting
+PRISM_9148_59140	PF02518	Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase	PF08565	Cdc37 Hsp90 binding domain	1us7	A:B	4932	9606	SIFTS_supporting

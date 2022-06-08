@@ -1,0 +1,8 @@
+05/20/2021 10:45:40 PM - metawibele.config - INFO: ### Start summary_function_annotation step ####
+05/20/2021 10:45:40 PM - metawibele.config - INFO: Get cluster info ......starting
+05/20/2021 10:45:40 PM - metawibele.config - INFO: Get cluster info ......done
+05/20/2021 10:45:40 PM - metawibele.config - INFO: Get annotation info ......starting
+05/20/2021 10:45:40 PM - metawibele.config - INFO: Get annotation info ......done
+05/20/2021 10:45:40 PM - metawibele.config - INFO: Assign annotation......starting
+05/20/2021 10:45:41 PM - metawibele.config - INFO: Assign annotation......done
+05/20/2021 10:45:41 PM - metawibele.config - INFO: ### Finish summary_function_annotation step ####

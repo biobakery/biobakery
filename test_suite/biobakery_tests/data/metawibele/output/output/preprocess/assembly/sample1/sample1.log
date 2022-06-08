@@ -1,0 +1,670 @@
+MEGAHIT v1.1.3
+--- [Thu May 20 22:38:30 2021] Start assembly. Number of CPU threads 4 ---
+--- [Thu May 20 22:38:30 2021] Available memory: 15733841920, used: 14160457728
+--- [Thu May 20 22:38:30 2021] Converting reads to binaries ---
+/usr/local/bin/megahit_asm_core buildlib /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib
+    [read_lib_functions-inl.h  : 209]     Lib 0 (/home/hutlab_public/Tutorials/metawibele/Yancong/raw_reads/sample1_R1.fastq.gz,/home/hutlab_public/Tutorials/metawibele/Yancong/raw_reads/sample1_R2.fastq.gz): pe, 40000 reads, 101 max length
+    [utils.h                   : 126]     Real: 0.6128	user: 0.0328	sys: 0.0263	maxrss: 7484
+--- [Thu May 20 22:38:31 2021] k-max reset to: 119 ---
+--- [Thu May 20 22:38:31 2021] k list: 21,29,39,59,79,99,119 ---
+--- [Thu May 20 22:38:31 2021] Extracting solid (k+1)-mers for k = 21 ---
+cmd: /usr/local/bin/megahit_sdbg_build count -k 21 -m 2 --host_mem 14160457728 --mem_flag 1 --gpu_mem 0 --output_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k21/21 --num_cpu_threads 4 --num_output_threads 1 --read_lib_file /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib
+    [sdbg_builder.cpp          : 112]     Host memory to be used: 14160457728
+    [sdbg_builder.cpp          : 113]     Number CPU threads: 4
+    [cx1.h                     : 450]     Preparing data...
+    [read_lib_functions-inl.h  : 256]     Before reading, sizeof seq_package: 1247612
+    [read_lib_functions-inl.h  : 260]     After reading, sizeof seq_package: 1247612
+    [cx1_kmer_count.cpp        : 136]     40000 reads, 101 max read length
+    [cx1.h                     : 457]     Preparing data... Done. Time elapsed: 0.0182
+    [cx1.h                     : 464]     Preparing partitions and initialing global data...
+    [cx1_kmer_count.cpp        : 227]     2 words per substring, 2 words per edge
+    [cx1_kmer_count.cpp        : 322]     Set: 1555472, 14147566764
+    [cx1_kmer_count.cpp        : 356]     382826, 1007 1555472 14147566764
+    [cx1_kmer_count.cpp        : 363]     Memory for reads: 1276628
+    [cx1_kmer_count.cpp        : 364]     max # lv.1 items = 382826
+    [cx1.h                     : 480]     Preparing partitions and initialing global data... Done. Time elapsed: 0.5207
+    [cx1.h                     : 486]     Start main loop...
+    [cx1.h                     : 515]     Lv1 scanning from bucket 0 to 1872
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2945
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.2770
+    [cx1.h                     : 515]     Lv1 scanning from bucket 1872 to 4980
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2836
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.2943
+    [cx1.h                     : 515]     Lv1 scanning from bucket 4980 to 9101
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2749
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.2911
+    [cx1.h                     : 515]     Lv1 scanning from bucket 9101 to 14343
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2981
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.3337
+    [cx1.h                     : 515]     Lv1 scanning from bucket 14343 to 21060
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.3245
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.2691
+    [cx1.h                     : 515]     Lv1 scanning from bucket 21060 to 30127
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.3190
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.2524
+    [cx1.h                     : 515]     Lv1 scanning from bucket 30127 to 44572
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.3635
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.2831
+    [cx1.h                     : 515]     Lv1 scanning from bucket 44572 to 65536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.3053
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1705
+    [cx1.h                     : 607]     Main loop done. Time elapsed: 4.6357
+    [cx1.h                     : 613]     Postprocessing...
+    [cx1_kmer_count.cpp        : 860]     Total number of candidate reads: 872(23451)
+    [cx1_kmer_count.cpp        : 871]     Total number of solid edges: 614905
+    [cx1.h                     : 621]     Postprocess done. Time elapsed: 0.5038
+    [utils.h                   : 126]     Real: 5.7066	user: 1.7966	sys: 0.0386	maxrss: 15592
+--- [Thu May 20 22:38:37 2021] Building graph for k = 21 ---
+/usr/local/bin/megahit_sdbg_build seq2sdbg --host_mem 14160457728 --mem_flag 1 --gpu_mem 0 --output_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k21/21 --num_cpu_threads 4 -k 21 --kmer_from 0 --num_edge_files 1 --input_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k21/21 --need_mercy
+    [sdbg_builder.cpp          : 339]     Host memory to be used: 14160457728
+    [sdbg_builder.cpp          : 340]     Number CPU threads: 4
+    [cx1.h                     : 450]     Preparing data...
+    [cx1_seq2sdbg.cpp          : 394]     Number edges: 614905
+    [cx1_seq2sdbg.cpp          : 434]     Bases to reserve: 16909882, number contigs: 0, number multiplicity: 768631
+    [cx1_seq2sdbg.cpp          : 440]     Before reading, sizeof seq_package: 4227480, multiplicity vector: 768631
+    [cx1_seq2sdbg.cpp          : 455]     Adding mercy edges...
+    [cx1_seq2sdbg.cpp          : 373]     Number of reads: 872, Number of mercy edges: 19158
+    [cx1_seq2sdbg.cpp          : 462]     Done. Time elapsed: 3.8366
+    [cx1_seq2sdbg.cpp          : 529]     After reading, sizeof seq_package: 4227480, multiplicity vector: 768631
+    [cx1.h                     : 457]     Preparing data... Done. Time elapsed: 8.7252
+    [cx1.h                     : 464]     Preparing partitions and initialing global data...
+    [cx1_seq2sdbg.cpp          : 740]     Memory for sequence: 5604614
+    [cx1_seq2sdbg.cpp          : 741]     max # lv.1 items = 507250
+    [cx1.h                     : 480]     Preparing partitions and initialing global data... Done. Time elapsed: 0.4356
+    [cx1.h                     : 486]     Start main loop...
+    [cx1.h                     : 515]     Lv1 scanning from bucket 0 to 3013
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2007
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.3399
+    [cx1.h                     : 515]     Lv1 scanning from bucket 3013 to 7435
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2685
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.3767
+    [cx1.h                     : 515]     Lv1 scanning from bucket 7435 to 12930
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2624
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.4091
+    [cx1.h                     : 515]     Lv1 scanning from bucket 12930 to 19536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2739
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.4208
+    [cx1.h                     : 515]     Lv1 scanning from bucket 19536 to 27509
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2483
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.3956
+    [cx1.h                     : 515]     Lv1 scanning from bucket 27509 to 37449
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2541
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.3378
+    [cx1.h                     : 515]     Lv1 scanning from bucket 37449 to 51217
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.2427
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.3691
+    [cx1.h                     : 515]     Lv1 scanning from bucket 51217 to 65536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.1981
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1778
+    [cx1.h                     : 607]     Main loop done. Time elapsed: 4.7766
+    [cx1.h                     : 613]     Postprocessing...
+    [cx1_seq2sdbg.cpp          :1139]     Number of $ A C G T A- C- G- T-:
+    [cx1_seq2sdbg.cpp          :1142]     23431 337260 309317 308799 335762 105 70 104 136
+    [cx1_seq2sdbg.cpp          :1151]     Total number of edges: 1314984
+    [cx1_seq2sdbg.cpp          :1152]     Total number of ONEs: 1291138
+    [cx1_seq2sdbg.cpp          :1153]     Total number of $v edges: 23431
+    [cx1.h                     : 621]     Postprocess done. Time elapsed: 0.2862
+    [utils.h                   : 126]     Real: 14.2264	user: 2.1627	sys: 0.7425	maxrss: 273304
+--- [Thu May 20 22:38:51 2021] Assembling contigs from SdBG for k = 21 ---
+cmd: /usr/local/bin/megahit_asm_core assemble -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k21/21 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21 -t 4 --min_standalone 300.0 --prune_level 2 --merge_len 20 --merge_similar 0.95 --low_local_ratio 0.2 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+    [assembler.cpp             : 148]     Loading succinct de Bruijn graph: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k21/21 Done. Time elapsed: 5.189240
+    [assembler.cpp             : 152]     Number of Edges: 1314984; K value: 21
+    [assembler.cpp             : 162]     Number of CPU threads: 4
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 2; Accumulated tips removed: 20; time elapsed: 0.6119
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 4; Accumulated tips removed: 288; time elapsed: 0.6763
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 8; Accumulated tips removed: 820; time elapsed: 1.0304
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 16; Accumulated tips removed: 1826; time elapsed: 1.5958
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 32; Accumulated tips removed: 4272; time elapsed: 2.4456
+    [assembly_algorithms.cpp   : 170]     Removing tips with length less than 42; Accumulated tips removed: 7690; time elapsed: 2.8240
+    [assembler.cpp             : 179]     Tips removal done! Time elapsed(sec): 9.190828
+    [assembler.cpp             : 188]     unitig graph size: 8336, time for building: 3.013350
+    [assembler.cpp             : 211]     Number of bubbles removed: 76, Time elapsed(sec): 0.235529
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 9, Time elapsed(sec): 0.208123
+    [assembler.cpp             : 243]     Number unitigs disconnected: 53, time: 0.298203
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.050662
+    [assembler.cpp             : 200]     Tips removed: 2, time: 1.093443
+    [assembler.cpp             : 211]     Number of bubbles removed: 0, Time elapsed(sec): 0.228042
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 0, Time elapsed(sec): 0.243194
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.303597
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.055653
+    [assembler.cpp             : 132]     Total length: 708164, N50: 88, Mean: 86, number of contigs: 8186
+    [assembler.cpp             : 133]     Maximum length: 1318
+    [assembler.cpp             : 290]     Time to output: 0.695799
+    [assembler.cpp             : 317]     Number of local low depth unitigs removed: 1, complex bubbles removed: 0, time: 1.288115
+    [assembler.cpp             : 132]     Total length: 13280, N50: 61, Mean: 49, number of contigs: 267
+    [assembler.cpp             : 133]     Maximum length: 354
+    [utils.h                   : 126]     Real: 22.2126	user: 6.2815	sys: 0.4550	maxrss: 14632
+--- [Thu May 20 22:39:13 2021] Local assembling k = 21 ---
+cmd: /usr/local/bin/megahit_asm_core local -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21.contigs.fa -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib -t 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21.local.fa --kmax 29
+    [local_assembler.cpp       :  89]     Number of contigs: 75, Mapper size: 2355
+    [read_lib_functions-inl.h  : 256]     Before reading, sizeof seq_package: 1247612
+    [read_lib_functions-inl.h  : 260]     After reading, sizeof seq_package: 1247612
+    [local_assembler.cpp       : 330]     Lib 0, insert size: 156.85 sd: 81.02
+    [local_assembler.cpp       : 462]     Lib 0: total 40000 reads, aligned 715, added 206 reads for local assembly
+    [utils.h                   : 126]     Real: 0.8608	user: 0.3052	sys: 0.0000	maxrss: 7496
+--- [Thu May 20 22:39:14 2021] Extracting iterative edges from k = 21 to 29 ---
+cmd: /usr/local/bin/megahit_asm_core iterate -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21.contigs.fa -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21.bubble_seq.fa -t 4 -k 21 -s 8 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k29/29 -r /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib.bin -f binary
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 275
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 746
+    [iterate_edges.cpp         : 447]     Total: 40000, aligned: 399. Iterative edges: 2447
+    [iterate_edges.cpp         : 451]     Writing iterative edges...
+    [utils.h                   : 126]     Real: 2.0076	user: 0.5553	sys: 0.0044	maxrss: 7496
+--- [Thu May 20 22:39:16 2021] Building graph for k = 29 ---
+/usr/local/bin/megahit_sdbg_build seq2sdbg --host_mem 14160457728 --mem_flag 1 --gpu_mem 0 --output_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k29/29 --num_cpu_threads 4 -k 29 --kmer_from 21 --num_edge_files 1 --input_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k29/29 --addi_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21.addi.fa --local_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21.local.fa --contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21.contigs.fa --bubble /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k21.bubble_seq.fa
+    [sdbg_builder.cpp          : 339]     Host memory to be used: 14160457728
+    [sdbg_builder.cpp          : 340]     Number CPU threads: 4
+    [cx1.h                     : 450]     Preparing data...
+    [cx1_seq2sdbg.cpp          : 394]     Number edges: 2447
+    [cx1_seq2sdbg.cpp          : 434]     Bases to reserve: 115519, number contigs: 798, number multiplicity: 3245
+    [cx1_seq2sdbg.cpp          : 440]     Before reading, sizeof seq_package: 35272, multiplicity vector: 3245
+    [cx1_seq2sdbg.cpp          : 529]     After reading, sizeof seq_package: 333312, multiplicity vector: 12980
+    [cx1.h                     : 457]     Preparing data... Done. Time elapsed: 0.0493
+    [cx1.h                     : 464]     Preparing partitions and initialing global data...
+    [cx1_seq2sdbg.cpp          : 740]     Memory for sequence: 361010
+    [cx1_seq2sdbg.cpp          : 741]     max # lv.1 items = 134164
+    [cx1.h                     : 480]     Preparing partitions and initialing global data... Done. Time elapsed: 0.3552
+    [cx1.h                     : 486]     Start main loop...
+    [cx1.h                     : 515]     Lv1 scanning from bucket 0 to 2854
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0776
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1196
+    [cx1.h                     : 515]     Lv1 scanning from bucket 2854 to 7224
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0771
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1380
+    [cx1.h                     : 515]     Lv1 scanning from bucket 7224 to 12679
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0698
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1421
+    [cx1.h                     : 515]     Lv1 scanning from bucket 12679 to 19274
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0753
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1056
+    [cx1.h                     : 515]     Lv1 scanning from bucket 19274 to 27239
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0530
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1339
+    [cx1.h                     : 515]     Lv1 scanning from bucket 27239 to 37227
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0612
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1507
+    [cx1.h                     : 515]     Lv1 scanning from bucket 37227 to 51177
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0534
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1465
+    [cx1.h                     : 515]     Lv1 scanning from bucket 51177 to 65536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0279
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0819
+    [cx1.h                     : 607]     Main loop done. Time elapsed: 1.5149
+    [cx1.h                     : 613]     Postprocessing...
+    [cx1_seq2sdbg.cpp          :1139]     Number of $ A C G T A- C- G- T-:
+    [cx1_seq2sdbg.cpp          :1142]     16063 252485 230716 229976 250697 38 34 23 32
+    [cx1_seq2sdbg.cpp          :1151]     Total number of edges: 980064
+    [cx1_seq2sdbg.cpp          :1152]     Total number of ONEs: 963874
+    [cx1_seq2sdbg.cpp          :1153]     Total number of $v edges: 16063
+    [cx1.h                     : 621]     Postprocess done. Time elapsed: 0.3101
+    [utils.h                   : 126]     Real: 2.2323	user: 0.5058	sys: 0.0207	maxrss: 18092
+--- [Thu May 20 22:39:18 2021] Assembling contigs from SdBG for k = 29 ---
+cmd: /usr/local/bin/megahit_asm_core assemble -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k29/29 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29 -t 4 --min_standalone 300.0 --prune_level 2 --merge_len 20 --merge_similar 0.95 --low_local_ratio 0.2 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+    [assembler.cpp             : 148]     Loading succinct de Bruijn graph: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k29/29 Done. Time elapsed: 5.157795
+    [assembler.cpp             : 152]     Number of Edges: 980064; K value: 29
+    [assembler.cpp             : 162]     Number of CPU threads: 4
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 2; Accumulated tips removed: 12; time elapsed: 0.4062
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 4; Accumulated tips removed: 36; time elapsed: 0.4569
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 8; Accumulated tips removed: 70; time elapsed: 0.6218
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 16; Accumulated tips removed: 80; time elapsed: 0.9218
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 32; Accumulated tips removed: 168; time elapsed: 1.6550
+    [assembly_algorithms.cpp   : 170]     Removing tips with length less than 58; Accumulated tips removed: 8610; time elapsed: 2.2885
+    [assembler.cpp             : 179]     Tips removal done! Time elapsed(sec): 6.352344
+    [assembler.cpp             : 188]     unitig graph size: 3892, time for building: 1.583893
+    [assembler.cpp             : 211]     Number of bubbles removed: 38, Time elapsed(sec): 0.217316
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 8, Time elapsed(sec): 0.277091
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.321286
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.020991
+    [assembler.cpp             : 200]     Tips removed: 1, time: 1.181816
+    [assembler.cpp             : 211]     Number of bubbles removed: 0, Time elapsed(sec): 0.207776
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 0, Time elapsed(sec): 0.237470
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.292091
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.036332
+    [assembler.cpp             : 132]     Total length: 394461, N50: 98, Mean: 103, number of contigs: 3815
+    [assembler.cpp             : 133]     Maximum length: 1318
+    [assembler.cpp             : 290]     Time to output: 0.440061
+    [assembler.cpp             : 317]     Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.493466
+    [assembler.cpp             : 132]     Total length: 4140, N50: 85, Mean: 72, number of contigs: 57
+    [assembler.cpp             : 133]     Maximum length: 256
+    [utils.h                   : 126]     Real: 16.9206	user: 4.6548	sys: 0.4195	maxrss: 13944
+--- [Thu May 20 22:39:35 2021] Local assembling k = 29 ---
+cmd: /usr/local/bin/megahit_asm_core local -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29.contigs.fa -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib -t 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29.local.fa --kmax 39
+    [local_assembler.cpp       :  89]     Number of contigs: 74, Mapper size: 2425
+    [read_lib_functions-inl.h  : 256]     Before reading, sizeof seq_package: 1247612
+    [read_lib_functions-inl.h  : 260]     After reading, sizeof seq_package: 1247612
+    [local_assembler.cpp       : 330]     Lib 0, insert size: 160.65 sd: 84.48
+    [local_assembler.cpp       : 462]     Lib 0: total 40000 reads, aligned 734, added 187 reads for local assembly
+    [utils.h                   : 126]     Real: 0.6707	user: 0.2803	sys: 0.0076	maxrss: 7508
+--- [Thu May 20 22:39:36 2021] Extracting iterative edges from k = 29 to 39 ---
+cmd: /usr/local/bin/megahit_asm_core iterate -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29.contigs.fa -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29.bubble_seq.fa -t 4 -k 29 -s 10 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k39/39 -r /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib.bin -f binary
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 151
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 230
+    [iterate_edges.cpp         : 447]     Total: 40000, aligned: 144. Iterative edges: 847
+    [iterate_edges.cpp         : 451]     Writing iterative edges...
+    [utils.h                   : 126]     Real: 1.1326	user: 0.4561	sys: 0.0130	maxrss: 7508
+--- [Thu May 20 22:39:37 2021] Building graph for k = 39 ---
+/usr/local/bin/megahit_sdbg_build seq2sdbg --host_mem 14160457728 --mem_flag 1 --gpu_mem 0 --output_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k39/39 --num_cpu_threads 4 -k 39 --kmer_from 29 --num_edge_files 1 --input_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k39/39 --addi_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29.addi.fa --local_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29.local.fa --contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29.contigs.fa --bubble /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k29.bubble_seq.fa
+    [sdbg_builder.cpp          : 339]     Host memory to be used: 14160457728
+    [sdbg_builder.cpp          : 340]     Number CPU threads: 4
+    [cx1.h                     : 450]     Preparing data...
+    [cx1_seq2sdbg.cpp          : 394]     Number edges: 847
+    [cx1_seq2sdbg.cpp          : 434]     Bases to reserve: 52380, number contigs: 252, number multiplicity: 1099
+    [cx1_seq2sdbg.cpp          : 440]     Before reading, sizeof seq_package: 15120, multiplicity vector: 1099
+    [cx1_seq2sdbg.cpp          : 529]     After reading, sizeof seq_package: 241920, multiplicity vector: 8792
+    [cx1.h                     : 457]     Preparing data... Done. Time elapsed: 0.0257
+    [cx1.h                     : 464]     Preparing partitions and initialing global data...
+    [cx1_seq2sdbg.cpp          : 740]     Memory for sequence: 254900
+    [cx1_seq2sdbg.cpp          : 741]     max # lv.1 items = 69657
+    [cx1.h                     : 480]     Preparing partitions and initialing global data... Done. Time elapsed: 0.2713
+    [cx1.h                     : 486]     Start main loop...
+    [cx1.h                     : 515]     Lv1 scanning from bucket 0 to 2757
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0254
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0498
+    [cx1.h                     : 515]     Lv1 scanning from bucket 2757 to 6905
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0369
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0513
+    [cx1.h                     : 515]     Lv1 scanning from bucket 6905 to 12074
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0412
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.1041
+    [cx1.h                     : 515]     Lv1 scanning from bucket 12074 to 18360
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0203
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0779
+    [cx1.h                     : 515]     Lv1 scanning from bucket 18360 to 26016
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0344
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0608
+    [cx1.h                     : 515]     Lv1 scanning from bucket 26016 to 35645
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0238
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0733
+    [cx1.h                     : 515]     Lv1 scanning from bucket 35645 to 49473
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0345
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0689
+    [cx1.h                     : 515]     Lv1 scanning from bucket 49473 to 65536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0312
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0652
+    [cx1.h                     : 607]     Main loop done. Time elapsed: 0.8003
+    [cx1.h                     : 613]     Postprocessing...
+    [cx1_seq2sdbg.cpp          :1139]     Number of $ A C G T A- C- G- T-:
+    [cx1_seq2sdbg.cpp          :1142]     7578 131624 119994 119205 131133 8 7 11 12
+    [cx1_seq2sdbg.cpp          :1151]     Total number of edges: 509572
+    [cx1_seq2sdbg.cpp          :1152]     Total number of ONEs: 501956
+    [cx1_seq2sdbg.cpp          :1153]     Total number of $v edges: 7578
+    [cx1.h                     : 621]     Postprocess done. Time elapsed: 0.2749
+    [utils.h                   : 126]     Real: 1.3913	user: 0.3092	sys: 0.0224	maxrss: 17056
+--- [Thu May 20 22:39:39 2021] Assembling contigs from SdBG for k = 39 ---
+cmd: /usr/local/bin/megahit_asm_core assemble -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k39/39 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39 -t 4 --min_standalone 300.0 --prune_level 2 --merge_len 20 --merge_similar 0.95 --low_local_ratio 0.2 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+    [assembler.cpp             : 148]     Loading succinct de Bruijn graph: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k39/39 Done. Time elapsed: 3.937676
+    [assembler.cpp             : 152]     Number of Edges: 509572; K value: 39
+    [assembler.cpp             : 162]     Number of CPU threads: 4
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 2; Accumulated tips removed: 0; time elapsed: 0.2905
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 4; Accumulated tips removed: 0; time elapsed: 0.2449
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 8; Accumulated tips removed: 2; time elapsed: 0.2854
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 16; Accumulated tips removed: 8; time elapsed: 0.4360
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 32; Accumulated tips removed: 34; time elapsed: 0.7511
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 64; Accumulated tips removed: 6392; time elapsed: 0.7984
+    [assembly_algorithms.cpp   : 170]     Removing tips with length less than 78; Accumulated tips removed: 6660; time elapsed: 0.4011
+    [assembler.cpp             : 179]     Tips removal done! Time elapsed(sec): 3.210063
+    [assembler.cpp             : 188]     unitig graph size: 524, time for building: 0.350037
+    [assembler.cpp             : 211]     Number of bubbles removed: 20, Time elapsed(sec): 0.132899
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 1, Time elapsed(sec): 0.128119
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.204786
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.008002
+    [assembler.cpp             : 200]     Tips removed: 7, time: 0.856141
+    [assembler.cpp             : 211]     Number of bubbles removed: 0, Time elapsed(sec): 0.118463
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 0, Time elapsed(sec): 0.126013
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.174811
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.017260
+    [assembler.cpp             : 132]     Total length: 80441, N50: 162, Mean: 166, number of contigs: 484
+    [assembler.cpp             : 133]     Maximum length: 1357
+    [assembler.cpp             : 290]     Time to output: 0.087227
+    [assembler.cpp             : 317]     Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.118460
+    [assembler.cpp             : 132]     Total length: 1266, N50: 105, Mean: 84, number of contigs: 15
+    [assembler.cpp             : 133]     Maximum length: 138
+    [utils.h                   : 126]     Real: 9.5222	user: 2.8053	sys: 0.4746	maxrss: 13000
+--- [Thu May 20 22:39:48 2021] Local assembling k = 39 ---
+cmd: /usr/local/bin/megahit_asm_core local -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39.contigs.fa -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib -t 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39.local.fa --kmax 59
+    [local_assembler.cpp       :  89]     Number of contigs: 73, Mapper size: 2430
+    [read_lib_functions-inl.h  : 256]     Before reading, sizeof seq_package: 1247612
+    [read_lib_functions-inl.h  : 260]     After reading, sizeof seq_package: 1247612
+    [local_assembler.cpp       : 330]     Lib 0, insert size: 160.99 sd: 84.41
+    [local_assembler.cpp       : 462]     Lib 0: total 40000 reads, aligned 735, added 178 reads for local assembly
+    [utils.h                   : 126]     Real: 0.6003	user: 0.2929	sys: 0.0038	maxrss: 7516
+--- [Thu May 20 22:39:49 2021] Extracting iterative edges from k = 39 to 59 ---
+cmd: /usr/local/bin/megahit_asm_core iterate -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39.contigs.fa -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39.bubble_seq.fa -t 4 -k 39 -s 20 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k59/59 -r /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib.bin -f binary
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 64
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 64
+    [iterate_edges.cpp         : 447]     Total: 40000, aligned: 28. Iterative edges: 408
+    [iterate_edges.cpp         : 451]     Writing iterative edges...
+    [utils.h                   : 126]     Real: 1.2030	user: 0.4281	sys: 0.0040	maxrss: 7516
+--- [Thu May 20 22:39:50 2021] Building graph for k = 59 ---
+/usr/local/bin/megahit_sdbg_build seq2sdbg --host_mem 14160457728 --mem_flag 1 --gpu_mem 0 --output_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k59/59 --num_cpu_threads 4 -k 59 --kmer_from 39 --num_edge_files 1 --input_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k59/59 --addi_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39.addi.fa --local_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39.local.fa --contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39.contigs.fa --bubble /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k39.bubble_seq.fa
+    [sdbg_builder.cpp          : 339]     Host memory to be used: 14160457728
+    [sdbg_builder.cpp          : 340]     Number CPU threads: 4
+    [cx1.h                     : 450]     Preparing data...
+    [cx1_seq2sdbg.cpp          : 394]     Number edges: 408
+    [cx1_seq2sdbg.cpp          : 434]     Bases to reserve: 32501, number contigs: 96, number multiplicity: 504
+    [cx1_seq2sdbg.cpp          : 440]     Before reading, sizeof seq_package: 8904, multiplicity vector: 504
+    [cx1_seq2sdbg.cpp          : 529]     After reading, sizeof seq_package: 38720, multiplicity vector: 1008
+    [cx1.h                     : 457]     Preparing data... Done. Time elapsed: 0.0049
+    [cx1.h                     : 464]     Preparing partitions and initialing global data...
+    [cx1_seq2sdbg.cpp          : 740]     Memory for sequence: 41454
+    [cx1_seq2sdbg.cpp          : 741]     max # lv.1 items = 15034
+    [cx1.h                     : 480]     Preparing partitions and initialing global data... Done. Time elapsed: 0.2132
+    [cx1.h                     : 486]     Start main loop...
+    [cx1.h                     : 515]     Lv1 scanning from bucket 0 to 1957
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0127
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0359
+    [cx1.h                     : 515]     Lv1 scanning from bucket 1957 to 4824
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0161
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0494
+    [cx1.h                     : 515]     Lv1 scanning from bucket 4824 to 8588
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0450
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0307
+    [cx1.h                     : 515]     Lv1 scanning from bucket 8588 to 13483
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0135
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0676
+    [cx1.h                     : 515]     Lv1 scanning from bucket 13483 to 19498
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0210
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0255
+    [cx1.h                     : 515]     Lv1 scanning from bucket 19498 to 27085
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0138
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0242
+    [cx1.h                     : 515]     Lv1 scanning from bucket 27085 to 40087
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0273
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0413
+    [cx1.h                     : 515]     Lv1 scanning from bucket 40087 to 65536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0215
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0240
+    [cx1.h                     : 607]     Main loop done. Time elapsed: 0.4710
+    [cx1.h                     : 613]     Postprocessing...
+    [cx1_seq2sdbg.cpp          :1139]     Number of $ A C G T A- C- G- T-:
+    [cx1_seq2sdbg.cpp          :1142]     959 28464 24737 24627 28294 1 0 0 0
+    [cx1_seq2sdbg.cpp          :1151]     Total number of edges: 107082
+    [cx1_seq2sdbg.cpp          :1152]     Total number of ONEs: 106122
+    [cx1_seq2sdbg.cpp          :1153]     Total number of $v edges: 959
+    [cx1.h                     : 621]     Postprocess done. Time elapsed: 0.3326
+    [utils.h                   : 126]     Real: 1.0455	user: 0.1504	sys: 0.0154	maxrss: 16664
+--- [Thu May 20 22:39:51 2021] Assembling contigs from SdBG for k = 59 ---
+cmd: /usr/local/bin/megahit_asm_core assemble -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k59/59 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59 -t 4 --min_standalone 300.0 --prune_level 2 --merge_len 20 --merge_similar 0.95 --low_local_ratio 0.2 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+    [assembler.cpp             : 148]     Loading succinct de Bruijn graph: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k59/59 Done. Time elapsed: 2.336945
+    [assembler.cpp             : 152]     Number of Edges: 107082; K value: 59
+    [assembler.cpp             : 162]     Number of CPU threads: 4
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 2; Accumulated tips removed: 0; time elapsed: 0.0974
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 4; Accumulated tips removed: 0; time elapsed: 0.0668
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 8; Accumulated tips removed: 0; time elapsed: 0.1030
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 16; Accumulated tips removed: 0; time elapsed: 0.1217
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 32; Accumulated tips removed: 6; time elapsed: 0.1686
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 64; Accumulated tips removed: 126; time elapsed: 0.1640
+    [assembly_algorithms.cpp   : 170]     Removing tips with length less than 118; Accumulated tips removed: 728; time elapsed: 0.1674
+    [assembler.cpp             : 179]     Tips removal done! Time elapsed(sec): 0.891609
+    [assembler.cpp             : 188]     unitig graph size: 129, time for building: 0.250806
+    [assembler.cpp             : 211]     Number of bubbles removed: 0, Time elapsed(sec): 0.138331
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 0, Time elapsed(sec): 0.129838
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.167081
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.010065
+    [assembler.cpp             : 132]     Total length: 30684, N50: 227, Mean: 237, number of contigs: 129
+    [assembler.cpp             : 133]     Maximum length: 1357
+    [assembler.cpp             : 290]     Time to output: 0.031904
+    [assembler.cpp             : 317]     Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.157260
+    [assembler.cpp             : 132]     Total length: 1431, N50: 125, Mean: 110, number of contigs: 13
+    [assembler.cpp             : 133]     Maximum length: 158
+    [utils.h                   : 126]     Real: 4.1673	user: 1.0202	sys: 0.3830	maxrss: 12132
+--- [Thu May 20 22:39:55 2021] Local assembling k = 59 ---
+cmd: /usr/local/bin/megahit_asm_core local -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59.contigs.fa -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib -t 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59.local.fa --kmax 79
+    [local_assembler.cpp       :  89]     Number of contigs: 73, Mapper size: 2430
+    [read_lib_functions-inl.h  : 256]     Before reading, sizeof seq_package: 1247612
+    [read_lib_functions-inl.h  : 260]     After reading, sizeof seq_package: 1247612
+    [local_assembler.cpp       : 330]     Lib 0, insert size: 160.99 sd: 84.41
+    [local_assembler.cpp       : 462]     Lib 0: total 40000 reads, aligned 735, added 178 reads for local assembly
+    [utils.h                   : 126]     Real: 0.4366	user: 0.2544	sys: 0.0070	maxrss: 7520
+--- [Thu May 20 22:39:56 2021] Extracting iterative edges from k = 59 to 79 ---
+cmd: /usr/local/bin/megahit_asm_core iterate -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59.contigs.fa -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59.bubble_seq.fa -t 4 -k 59 -s 20 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k79/79 -r /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib.bin -f binary
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 0
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 0
+    [iterate_edges.cpp         : 447]     Total: 40000, aligned: 0. Iterative edges: 0
+    [utils.h                   : 126]     Real: 0.5021	user: 0.2679	sys: 0.0044	maxrss: 7520
+--- [Thu May 20 22:39:56 2021] Building graph for k = 79 ---
+/usr/local/bin/megahit_sdbg_build seq2sdbg --host_mem 14160457728 --mem_flag 1 --gpu_mem 0 --output_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k79/79 --num_cpu_threads 4 -k 79 --kmer_from 59 --num_edge_files 1 --addi_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59.addi.fa --local_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59.local.fa --contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59.contigs.fa --bubble /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k59.bubble_seq.fa
+    [sdbg_builder.cpp          : 339]     Host memory to be used: 14160457728
+    [sdbg_builder.cpp          : 340]     Number CPU threads: 4
+    [cx1.h                     : 450]     Preparing data...
+    [cx1_seq2sdbg.cpp          : 434]     Bases to reserve: 3735, number contigs: 29, number multiplicity: 29
+    [cx1_seq2sdbg.cpp          : 440]     Before reading, sizeof seq_package: 1176, multiplicity vector: 29
+    [cx1_seq2sdbg.cpp          : 529]     After reading, sizeof seq_package: 16896, multiplicity vector: 232
+    [cx1.h                     : 457]     Preparing data... Done. Time elapsed: 0.0013
+    [cx1.h                     : 464]     Preparing partitions and initialing global data...
+    [cx1_seq2sdbg.cpp          : 740]     Memory for sequence: 17440
+    [cx1_seq2sdbg.cpp          : 741]     max # lv.1 items = 5774
+    [cx1.h                     : 480]     Preparing partitions and initialing global data... Done. Time elapsed: 0.1711
+    [cx1.h                     : 486]     Start main loop...
+    [cx1.h                     : 515]     Lv1 scanning from bucket 0 to 1411
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0168
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0168
+    [cx1.h                     : 515]     Lv1 scanning from bucket 1411 to 3456
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0111
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0094
+    [cx1.h                     : 515]     Lv1 scanning from bucket 3456 to 6383
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0207
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0193
+    [cx1.h                     : 515]     Lv1 scanning from bucket 6383 to 9310
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0166
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0181
+    [cx1.h                     : 515]     Lv1 scanning from bucket 9310 to 14413
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0297
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0135
+    [cx1.h                     : 515]     Lv1 scanning from bucket 14413 to 20299
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0524
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0074
+    [cx1.h                     : 515]     Lv1 scanning from bucket 20299 to 26185
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0100
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0141
+    [cx1.h                     : 515]     Lv1 scanning from bucket 26185 to 65536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0162
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0157
+    [cx1.h                     : 607]     Main loop done. Time elapsed: 0.2888
+    [cx1.h                     : 613]     Postprocessing...
+    [cx1_seq2sdbg.cpp          :1139]     Number of $ A C G T A- C- G- T-:
+    [cx1_seq2sdbg.cpp          :1142]     232 11517 9386 9421 11414 0 0 0 0
+    [cx1_seq2sdbg.cpp          :1151]     Total number of edges: 41970
+    [cx1_seq2sdbg.cpp          :1152]     Total number of ONEs: 41738
+    [cx1_seq2sdbg.cpp          :1153]     Total number of $v edges: 232
+    [cx1.h                     : 621]     Postprocess done. Time elapsed: 0.2169
+    [utils.h                   : 126]     Real: 0.6849	user: 0.1081	sys: 0.0235	maxrss: 16824
+--- [Thu May 20 22:39:57 2021] Assembling contigs from SdBG for k = 79 ---
+cmd: /usr/local/bin/megahit_asm_core assemble -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k79/79 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79 -t 4 --min_standalone 300.0 --prune_level 2 --merge_len 20 --merge_similar 0.95 --low_local_ratio 0.2 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+    [assembler.cpp             : 148]     Loading succinct de Bruijn graph: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k79/79 Done. Time elapsed: 0.955854
+    [assembler.cpp             : 152]     Number of Edges: 41970; K value: 79
+    [assembler.cpp             : 162]     Number of CPU threads: 4
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 2; Accumulated tips removed: 0; time elapsed: 0.0572
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 4; Accumulated tips removed: 0; time elapsed: 0.0566
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 8; Accumulated tips removed: 0; time elapsed: 0.0616
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 16; Accumulated tips removed: 0; time elapsed: 0.0577
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 32; Accumulated tips removed: 0; time elapsed: 0.0745
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 64; Accumulated tips removed: 0; time elapsed: 0.0937
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 128; Accumulated tips removed: 98; time elapsed: 0.0594
+    [assembly_algorithms.cpp   : 170]     Removing tips with length less than 158; Accumulated tips removed: 154; time elapsed: 0.0997
+    [assembler.cpp             : 179]     Tips removal done! Time elapsed(sec): 0.565992
+    [assembler.cpp             : 188]     unitig graph size: 52, time for building: 0.125196
+    [assembler.cpp             : 211]     Number of bubbles removed: 0, Time elapsed(sec): 0.132641
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 0, Time elapsed(sec): 0.101991
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.179103
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.013720
+    [assembler.cpp             : 132]     Total length: 15658, N50: 304, Mean: 301, number of contigs: 52
+    [assembler.cpp             : 133]     Maximum length: 1357
+    [assembler.cpp             : 290]     Time to output: 0.072169
+    [assembler.cpp             : 317]     Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.180170
+    [assembler.cpp             : 132]     Total length: 1691, N50: 145, Mean: 130, number of contigs: 13
+    [assembler.cpp             : 133]     Maximum length: 178
+    [utils.h                   : 126]     Real: 2.4093	user: 0.8894	sys: 0.2233	maxrss: 11996
+--- [Thu May 20 22:40:00 2021] Local assembling k = 79 ---
+cmd: /usr/local/bin/megahit_asm_core local -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79.contigs.fa -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib -t 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79.local.fa --kmax 99
+    [local_assembler.cpp       :  89]     Number of contigs: 39, Mapper size: 1619
+    [read_lib_functions-inl.h  : 256]     Before reading, sizeof seq_package: 1247612
+    [read_lib_functions-inl.h  : 260]     After reading, sizeof seq_package: 1247612
+    [local_assembler.cpp       : 330]     Lib 0, insert size: 169.10 sd: 92.36
+    [local_assembler.cpp       : 462]     Lib 0: total 40000 reads, aligned 524, added 91 reads for local assembly
+    [utils.h                   : 126]     Real: 0.4379	user: 0.2610	sys: 0.0043	maxrss: 7520
+--- [Thu May 20 22:40:00 2021] Extracting iterative edges from k = 79 to 99 ---
+cmd: /usr/local/bin/megahit_asm_core iterate -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79.contigs.fa -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79.bubble_seq.fa -t 4 -k 79 -s 20 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k99/99 -r /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib.bin -f binary
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 0
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 0
+    [iterate_edges.cpp         : 447]     Total: 40000, aligned: 0. Iterative edges: 0
+    [utils.h                   : 126]     Real: 0.3940	user: 0.1927	sys: 0.0037	maxrss: 7520
+--- [Thu May 20 22:40:01 2021] Building graph for k = 99 ---
+/usr/local/bin/megahit_sdbg_build seq2sdbg --host_mem 14160457728 --mem_flag 1 --gpu_mem 0 --output_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k99/99 --num_cpu_threads 4 -k 99 --kmer_from 79 --num_edge_files 1 --addi_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79.addi.fa --local_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79.local.fa --contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79.contigs.fa --bubble /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k79.bubble_seq.fa
+    [sdbg_builder.cpp          : 339]     Host memory to be used: 14160457728
+    [sdbg_builder.cpp          : 340]     Number CPU threads: 4
+    [cx1.h                     : 450]     Preparing data...
+    [cx1_seq2sdbg.cpp          : 434]     Bases to reserve: 4058, number contigs: 28, number multiplicity: 28
+    [cx1_seq2sdbg.cpp          : 440]     Before reading, sizeof seq_package: 1248, multiplicity vector: 28
+    [cx1_seq2sdbg.cpp          : 529]     After reading, sizeof seq_package: 8592, multiplicity vector: 56
+    [cx1.h                     : 457]     Preparing data... Done. Time elapsed: 0.0004
+    [cx1.h                     : 464]     Preparing partitions and initialing global data...
+    [cx1_seq2sdbg.cpp          : 740]     Memory for sequence: 8860
+    [cx1_seq2sdbg.cpp          : 741]     max # lv.1 items = 3028
+    [cx1.h                     : 480]     Preparing partitions and initialing global data... Done. Time elapsed: 0.0772
+    [cx1.h                     : 486]     Start main loop...
+    [cx1.h                     : 515]     Lv1 scanning from bucket 0 to 936
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0356
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0076
+    [cx1.h                     : 515]     Lv1 scanning from bucket 936 to 2481
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0167
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0130
+    [cx1.h                     : 515]     Lv1 scanning from bucket 2481 to 4026
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0177
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0084
+    [cx1.h                     : 515]     Lv1 scanning from bucket 4026 to 7001
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0123
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0205
+    [cx1.h                     : 515]     Lv1 scanning from bucket 7001 to 10128
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0106
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0134
+    [cx1.h                     : 515]     Lv1 scanning from bucket 10128 to 13255
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0143
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0299
+    [cx1.h                     : 515]     Lv1 scanning from bucket 13255 to 16382
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0142
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0083
+    [cx1.h                     : 515]     Lv1 scanning from bucket 16382 to 65536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0158
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0195
+    [cx1.h                     : 607]     Main loop done. Time elapsed: 0.2589
+    [cx1.h                     : 613]     Postprocessing...
+    [cx1_seq2sdbg.cpp          :1139]     Number of $ A C G T A- C- G- T-:
+    [cx1_seq2sdbg.cpp          :1142]     78 6162 4681 4770 6005 0 0 0 0
+    [cx1_seq2sdbg.cpp          :1151]     Total number of edges: 21696
+    [cx1_seq2sdbg.cpp          :1152]     Total number of ONEs: 21618
+    [cx1_seq2sdbg.cpp          :1153]     Total number of $v edges: 78
+    [cx1.h                     : 621]     Postprocess done. Time elapsed: 0.1991
+    [utils.h                   : 126]     Real: 0.5523	user: 0.0933	sys: 0.0203	maxrss: 16536
+--- [Thu May 20 22:40:01 2021] Assembling contigs from SdBG for k = 99 ---
+cmd: /usr/local/bin/megahit_asm_core assemble -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k99/99 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99 -t 4 --min_standalone 300.0 --prune_level 2 --merge_len 20 --merge_similar 0.95 --low_local_ratio 0.2 --min_depth 2 --bubble_level 2 --max_tip_len -1 --careful_bubble
+    [assembler.cpp             : 148]     Loading succinct de Bruijn graph: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k99/99 Done. Time elapsed: 0.600380
+    [assembler.cpp             : 152]     Number of Edges: 21696; K value: 99
+    [assembler.cpp             : 162]     Number of CPU threads: 4
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 2; Accumulated tips removed: 0; time elapsed: 0.0480
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 4; Accumulated tips removed: 0; time elapsed: 0.0401
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 8; Accumulated tips removed: 0; time elapsed: 0.0404
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 16; Accumulated tips removed: 0; time elapsed: 0.0336
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 32; Accumulated tips removed: 0; time elapsed: 0.0409
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 64; Accumulated tips removed: 0; time elapsed: 0.0389
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 128; Accumulated tips removed: 0; time elapsed: 0.0334
+    [assembly_algorithms.cpp   : 170]     Removing tips with length less than 198; Accumulated tips removed: 36; time elapsed: 0.0337
+    [assembler.cpp             : 179]     Tips removal done! Time elapsed(sec): 0.312460
+    [assembler.cpp             : 188]     unitig graph size: 34, time for building: 0.072812
+    [assembler.cpp             : 211]     Number of bubbles removed: 0, Time elapsed(sec): 0.050797
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 0, Time elapsed(sec): 0.085724
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.138086
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.031327
+    [assembler.cpp             : 132]     Total length: 11189, N50: 352, Mean: 329, number of contigs: 34
+    [assembler.cpp             : 133]     Maximum length: 1357
+    [assembler.cpp             : 290]     Time to output: 0.020450
+    [assembler.cpp             : 317]     Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.122828
+    [assembler.cpp             : 132]     Total length: 1951, N50: 165, Mean: 150, number of contigs: 13
+    [assembler.cpp             : 133]     Maximum length: 198
+    [utils.h                   : 126]     Real: 1.4730	user: 0.8493	sys: 0.1237	maxrss: 11952
+--- [Thu May 20 22:40:03 2021] Local assembling k = 99 ---
+cmd: /usr/local/bin/megahit_asm_core local -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99.contigs.fa -l /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib -t 4 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99.local.fa --kmax 119
+    [local_assembler.cpp       :  89]     Number of contigs: 21, Mapper size: 1087
+    [read_lib_functions-inl.h  : 256]     Before reading, sizeof seq_package: 1247612
+    [read_lib_functions-inl.h  : 260]     After reading, sizeof seq_package: 1247612
+    [local_assembler.cpp       : 330]     Lib 0, insert size: 178.16 sd: 98.08
+    [local_assembler.cpp       : 462]     Lib 0: total 40000 reads, aligned 394, added 56 reads for local assembly
+    [utils.h                   : 126]     Real: 0.3364	user: 0.2458	sys: 0.0046	maxrss: 7520
+--- [Thu May 20 22:40:03 2021] Extracting iterative edges from k = 99 to 119 ---
+cmd: /usr/local/bin/megahit_asm_core iterate -c /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99.contigs.fa -b /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99.bubble_seq.fa -t 4 -k 99 -s 20 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k119/119 -r /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/reads.lib.bin -f binary
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 0
+    [iterate_edges.cpp         : 570]     Number of crusial kmers: 0
+    [iterate_edges.cpp         : 447]     Total: 40000, aligned: 0. Iterative edges: 0
+    [utils.h                   : 126]     Real: 0.1030	user: 0.0466	sys: 0.0047	maxrss: 7520
+--- [Thu May 20 22:40:03 2021] Building graph for k = 119 ---
+/usr/local/bin/megahit_sdbg_build seq2sdbg --host_mem 14160457728 --mem_flag 1 --gpu_mem 0 --output_prefix /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k119/119 --num_cpu_threads 4 -k 119 --kmer_from 99 --num_edge_files 1 --addi_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99.addi.fa --local_contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99.local.fa --contig /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99.contigs.fa --bubble /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k99.bubble_seq.fa
+    [sdbg_builder.cpp          : 339]     Host memory to be used: 14160457728
+    [sdbg_builder.cpp          : 340]     Number CPU threads: 4
+    [cx1.h                     : 450]     Preparing data...
+    [cx1_seq2sdbg.cpp          : 434]     Bases to reserve: 4614, number contigs: 28, number multiplicity: 28
+    [cx1_seq2sdbg.cpp          : 440]     Before reading, sizeof seq_package: 1388, multiplicity vector: 28
+    [cx1_seq2sdbg.cpp          : 529]     After reading, sizeof seq_package: 5088, multiplicity vector: 56
+    [cx1.h                     : 457]     Preparing data... Done. Time elapsed: 0.0033
+    [cx1.h                     : 464]     Preparing partitions and initialing global data...
+    [cx1_seq2sdbg.cpp          : 740]     Memory for sequence: 5280
+    [cx1_seq2sdbg.cpp          : 741]     max # lv.1 items = 2119
+    [cx1.h                     : 480]     Preparing partitions and initialing global data... Done. Time elapsed: 0.0958
+    [cx1.h                     : 486]     Start main loop...
+    [cx1.h                     : 515]     Lv1 scanning from bucket 0 to 774
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0050
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0307
+    [cx1.h                     : 515]     Lv1 scanning from bucket 774 to 1866
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0125
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0041
+    [cx1.h                     : 515]     Lv1 scanning from bucket 1866 to 3416
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0143
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0029
+    [cx1.h                     : 515]     Lv1 scanning from bucket 3416 to 5645
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0104
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0021
+    [cx1.h                     : 515]     Lv1 scanning from bucket 5645 to 7874
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0075
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0043
+    [cx1.h                     : 515]     Lv1 scanning from bucket 7874 to 10103
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0106
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0104
+    [cx1.h                     : 515]     Lv1 scanning from bucket 10103 to 12332
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0390
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0091
+    [cx1.h                     : 515]     Lv1 scanning from bucket 12332 to 65536
+    [cx1.h                     : 528]     Lv1 scanning done. Large diff: 0. Time elapsed: 0.0050
+    [cx1.h                     : 594]     Lv1 fetching & sorting done. Time elapsed: 0.0097
+    [cx1.h                     : 607]     Main loop done. Time elapsed: 0.1787
+    [cx1.h                     : 613]     Postprocessing...
+    [cx1_seq2sdbg.cpp          :1139]     Number of $ A C G T A- C- G- T-:
+    [cx1_seq2sdbg.cpp          :1142]     42 4157 3257 3289 4145 0 0 0 0
+    [cx1_seq2sdbg.cpp          :1151]     Total number of edges: 14890
+    [cx1_seq2sdbg.cpp          :1152]     Total number of ONEs: 14848
+    [cx1_seq2sdbg.cpp          :1153]     Total number of $v edges: 42
+    [cx1.h                     : 621]     Postprocess done. Time elapsed: 0.1125
+    [utils.h                   : 126]     Real: 0.4027	user: 0.0901	sys: 0.0164	maxrss: 16912
+--- [Thu May 20 22:40:04 2021] Assembling contigs from SdBG for k = 119 ---
+cmd: /usr/local/bin/megahit_asm_core assemble -s /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k119/119 -o /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/intermediate_contigs/k119 -t 4 --min_standalone 300.0 --prune_level 2 --merge_len 20 --merge_similar 0.95 --low_local_ratio 0.2 --min_depth 2 --bubble_level 2 --max_tip_len 182.0 --is_final_round
+    [assembler.cpp             : 148]     Loading succinct de Bruijn graph: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/assembly/sample1/tmp/k119/119 Done. Time elapsed: 0.522309
+    [assembler.cpp             : 152]     Number of Edges: 14890; K value: 119
+    [assembler.cpp             : 162]     Number of CPU threads: 4
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 2; Accumulated tips removed: 0; time elapsed: 0.0515
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 4; Accumulated tips removed: 0; time elapsed: 0.0409
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 8; Accumulated tips removed: 0; time elapsed: 0.0619
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 16; Accumulated tips removed: 0; time elapsed: 0.0336
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 32; Accumulated tips removed: 0; time elapsed: 0.0482
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 64; Accumulated tips removed: 0; time elapsed: 0.0542
+    [assembly_algorithms.cpp   : 162]     Removing tips with length less than 128; Accumulated tips removed: 0; time elapsed: 0.0584
+    [assembly_algorithms.cpp   : 170]     Removing tips with length less than 182; Accumulated tips removed: 2; time elapsed: 0.0553
+    [assembler.cpp             : 179]     Tips removal done! Time elapsed(sec): 0.408677
+    [assembler.cpp             : 188]     unitig graph size: 33, time for building: 0.105494
+    [assembler.cpp             : 211]     Number of bubbles removed: 0, Time elapsed(sec): 0.108928
+    [assembler.cpp             : 225]     Number of complex bubbles removed: 0, Time elapsed(sec): 0.080130
+    [assembler.cpp             : 243]     Number unitigs disconnected: 0, time: 0.100356
+    [assembler.cpp             : 265]     Unitigs removed in excessive pruning: 0, time: 0.009144
+    [assembler.cpp             : 317]     Number of local low depth unitigs removed: 0, complex bubbles removed: 0, time: 0.090350
+    [assembler.cpp             : 132]     Total length: 11150, N50: 352, Mean: 337, number of contigs: 33
+    [assembler.cpp             : 133]     Maximum length: 1357
+    [utils.h                   : 126]     Real: 1.4491	user: 0.7941	sys: 0.1039	maxrss: 11944
+--- [Thu May 20 22:40:05 2021] Merging to output final contigs ---
+--- [STAT] 21 contigs, total 9157 bp, min 218 bp, max 1357 bp, avg 436 bp, N50 376 bp
+--- [Thu May 20 22:40:05 2021] ALL DONE. Time elapsed: 95.191191 seconds ---

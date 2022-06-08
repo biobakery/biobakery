@@ -1,0 +1,40 @@
+7.0Gb memory in total.
+Using: 6.548Gb.
+MEGAHIT v1.1.3
+--- [Fri Jun  3 18:20:55 2022] Start assembly. Number of CPU threads 1 ---
+--- [Fri Jun  3 18:20:55 2022] Available memory: 7812304896, used: 7031074406
+--- [Fri Jun  3 18:20:55 2022] Converting reads to binaries ---
+    [read_lib_functions-inl.h  : 209]     Lib 0 (/usr/local/lib/python3.6/dist-packages/biobakery_tests-0.0.1-py3.6.egg/biobakery_tests/data/metawibele/input/sample2_R1.fastq.gz,/usr/local/lib/python3.6/dist-packages/biobakery_tests-0.0.1-py3.6.egg/biobakery_tests/data/metawibele/input/sample2_R2.fastq.gz): pe, 40000 reads, 101 max length
+    [utils.h                   : 126]     Real: 0.0779	user: 0.0551	sys: 0.0000	maxrss: 7636
+--- [Fri Jun  3 18:20:55 2022] k-max reset to: 119 ---
+--- [Fri Jun  3 18:20:55 2022] k list: 21,29,39,59,79,99,119 ---
+--- [Fri Jun  3 18:20:55 2022] Extracting solid (k+1)-mers for k = 21 ---
+--- [Fri Jun  3 18:20:56 2022] Building graph for k = 21 ---
+--- [Fri Jun  3 18:20:58 2022] Assembling contigs from SdBG for k = 21 ---
+--- [Fri Jun  3 18:21:02 2022] Local assembling k = 21 ---
+--- [Fri Jun  3 18:21:02 2022] Extracting iterative edges from k = 21 to 29 ---
+--- [Fri Jun  3 18:21:02 2022] Building graph for k = 29 ---
+--- [Fri Jun  3 18:21:02 2022] Assembling contigs from SdBG for k = 29 ---
+--- [Fri Jun  3 18:21:05 2022] Local assembling k = 29 ---
+--- [Fri Jun  3 18:21:05 2022] Extracting iterative edges from k = 29 to 39 ---
+--- [Fri Jun  3 18:21:05 2022] Building graph for k = 39 ---
+--- [Fri Jun  3 18:21:05 2022] Assembling contigs from SdBG for k = 39 ---
+--- [Fri Jun  3 18:21:07 2022] Local assembling k = 39 ---
+--- [Fri Jun  3 18:21:07 2022] Extracting iterative edges from k = 39 to 59 ---
+--- [Fri Jun  3 18:21:07 2022] Building graph for k = 59 ---
+--- [Fri Jun  3 18:21:07 2022] Assembling contigs from SdBG for k = 59 ---
+--- [Fri Jun  3 18:21:08 2022] Local assembling k = 59 ---
+--- [Fri Jun  3 18:21:08 2022] Extracting iterative edges from k = 59 to 79 ---
+--- [Fri Jun  3 18:21:08 2022] Building graph for k = 79 ---
+--- [Fri Jun  3 18:21:08 2022] Assembling contigs from SdBG for k = 79 ---
+--- [Fri Jun  3 18:21:09 2022] Local assembling k = 79 ---
+--- [Fri Jun  3 18:21:09 2022] Extracting iterative edges from k = 79 to 99 ---
+--- [Fri Jun  3 18:21:09 2022] Building graph for k = 99 ---
+--- [Fri Jun  3 18:21:09 2022] Assembling contigs from SdBG for k = 99 ---
+--- [Fri Jun  3 18:21:09 2022] Local assembling k = 99 ---
+--- [Fri Jun  3 18:21:09 2022] Extracting iterative edges from k = 99 to 119 ---
+--- [Fri Jun  3 18:21:09 2022] Building graph for k = 119 ---
+--- [Fri Jun  3 18:21:09 2022] Assembling contigs from SdBG for k = 119 ---
+--- [Fri Jun  3 18:21:09 2022] Merging to output final contigs ---
+--- [STAT] 20 contigs, total 8271 bp, min 303 bp, max 1080 bp, avg 414 bp, N50 352 bp
+--- [Fri Jun  3 18:21:09 2022] ALL DONE. Time elapsed: 14.246505 seconds ---

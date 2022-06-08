@@ -1,0 +1,1 @@
+/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split4/split4.interproscan.txt

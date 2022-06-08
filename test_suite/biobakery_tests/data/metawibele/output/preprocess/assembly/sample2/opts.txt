@@ -1,0 +1,11 @@
+-1
+/usr/local/lib/python3.6/dist-packages/biobakery_tests-0.0.1-py3.6.egg/biobakery_tests/data/metawibele/input/sample2_R1.fastq.gz
+-2
+/usr/local/lib/python3.6/dist-packages/biobakery_tests-0.0.1-py3.6.egg/biobakery_tests/data/metawibele/input/sample2_R2.fastq.gz
+-t
+1
+-o
+/home/hutlab_public/biobakery/test_suite/metawibele_demo_out/preprocess/assembly/sample2
+--out-prefix
+sample2
+MEGAHIT_TEMP_DIR: /home/hutlab_public/biobakery/test_suite/metawibele_demo_out/preprocess/assembly/sample2/tmp/

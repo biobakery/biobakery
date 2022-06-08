@@ -1,0 +1,11 @@
+usearch v9.0.2132_i86linux32, 4.0Gb RAM (15.4Gb total), 4 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: personal use, non-transferrable
+
+00:00 37Mb      0.1% Reading /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/finalized/demo_combined_protein.faa00:00 40Mb    100.0% Reading /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/finalized/demo_combined_protein.faa
+00:00 6.4Mb  Sorting by length                                                                                                     
+00:00 6.4Mb  Length min 25, median 101, max 387
+00:00 6.4Mb     2.4% Writing output00:00 6.4Mb   100.0% Writing output
+00:00 6.4Mb  Write done, closing file and exiting

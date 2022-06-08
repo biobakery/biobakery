@@ -1,0 +1,6 @@
+06/03/2022 06:27:18 PM - metawibele.config - INFO: ### Start sum_to_protein_family_abundance step ####
+06/03/2022 06:27:18 PM - metawibele.config - INFO: Get cluster info ......starting
+06/03/2022 06:27:18 PM - metawibele.config - INFO: Get cluster info ......done
+06/03/2022 06:27:18 PM - metawibele.config - INFO: Assign counts to protein families ......starting
+06/03/2022 06:27:18 PM - metawibele.config - INFO: Assign counts to protein families ......done
+06/03/2022 06:27:18 PM - metawibele.config - INFO: ### Finish sum_to_protein_family_abundance step ####
