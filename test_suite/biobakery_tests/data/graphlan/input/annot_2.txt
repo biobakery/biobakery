@@ -1,0 +1,24 @@
+Bacillus	annotation	Bacillus
+Bacillaceae	annotation	Bacillaceae
+Bacillus	annotation_background_color	b
+Bacillaceae	annotation_background_color	b
+Paenibacillaceae	annotation	Paenibacillaceae
+Paenibacillaceae	annotation_background_color	g
+Staphylococcus	annotation	Staphylococcus
+Staphylococcus	annotation_background_color	r
+Saureus	annotation	S. aureus
+Saureus	annotation_background_color	r
+Paenibacillus	annotation	Paenibacillus
+Paenibacillus	annotation_background_color	g
+Staphylococcaceae	annotation	Staphylococcaceae
+Staphylococcaceae	annotation_background_color	r
+Brevibacillus	annotation	Brevibacillus
+Brevibacillus	annotation_background_color	g
+Bbrevis	annotation	a:Brevibacillus brevis
+Bbrevis	annotation_background_color	g
+Blaterosporus	annotation	b:Brevibacillus laterosporus
+Blaterosporus	annotation_background_color	g
+Banthracis	annotation	Bacillus anthracis
+Banthracis	annotation_background_color	b
+Bsubtilis	annotation	Bacillus subtilis
+Bsubtilis	annotation_background_color	b
