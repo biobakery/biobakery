@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 04/04/2018 12:30:33
+New DB name:   /Users/kev/computation/science/hutlab/germany2018/sandbox/example_identify/refdb/refdb
+New DB title:  ref_prots.faa
+Sequence type: Protein
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 75 sequences in 0.00263 seconds.

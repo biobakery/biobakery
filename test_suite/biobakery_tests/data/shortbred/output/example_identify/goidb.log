@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 04/04/2018 12:30:33
+New DB name:   /Users/kev/computation/science/hutlab/germany2018/sandbox/example_identify/clustdb/goidb
+New DB title:  example_identify/clust/clust.faa
+Sequence type: Protein
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 5 sequences in 0.00720096 seconds.

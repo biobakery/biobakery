@@ -1,0 +1,13 @@
+ShortBRED log 
+Wed Apr  4 00:00:00 2018
+ SEARCH PARAMETERS 
+Match ID:0.95
+Pct Length for Match:0.95
+Sequences: Markers
+# FileName	size	format	extract method	tar file (if part of one)
+1: shortbred_demo_reads.fasta	fasta	small		no_tar
+11000
+Total Reads Processed: 11000
+Average Read Length Specified by User: 100
+Average Read Length Calculated by ShortBRED: 100.0
+Min Read Length: 100
