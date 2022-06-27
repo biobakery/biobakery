@@ -197,6 +197,11 @@ sudo apt-get install xfce4 xfce4-goodies -y
 
 # install vnc server
 sudo apt-get install tightvncserver -y
+myuser="hutlab_public"
+mypasswd="biobakery"
+sudo echo $mypasswd | vncpasswd -f > /home/$myuser/.vnc/passwd
+sudo chown -R $myuser:$myuser /home/$myuser/.vnc
+sudo chmod 0600 /home/$myuser/.vnc/passwd
 
 # install tool for copy/paste
 sudo apt-get install autocutsel -y
@@ -215,6 +220,52 @@ sudo cp xfce4-panel.xml /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/
 sudo sed -i '61 s/.*/       "xrdb \\$HOME\/.Xresources\\nautocutsel -fork\\n"./g' /usr/bin/vncserver
 sudo sed -i '66 s/.*/       "\/etc\/X11\/Xsession\\n"./g' /usr/bin/vncserver
 sudo sed -i '67 s/.*/       "export XKL_XMODMAP_DISABLE=1\\n");/g' /usr/bin/vncserver
+
+# install curatedMetagenomicData(cmD)
+sudo R -q -e "library(BiocManager); BiocManager::install('curatedMetagenomicData')"
+
+# install Macarron
+sudo R -q -e "library(BiocManager); BiocManager::install('Macarron',force=TRUE)"
+
+# install tidyverse
+sudo R -q -e "install.packages('tidyverse')"
+
+# install anpan
+sudo R -q -e "install.packages(c('ape', 
+                   'broom',
+                   'data.table', 
+                   'devtools',
+                   'dplyr', 
+                   'fastglm',
+                   'furrr', 
+                   'ggdendro',
+                   'ggnewscale',
+                   'ggplot2',
+                   'loo',
+                   'patchwork',
+                   'phylogram',
+                   'posterior',
+                   'progressr',
+                   'purrr', 
+                   'R.utils',
+                   'readr',
+                   'stringr',
+                   'tibble', 
+                   'tidyr',
+                   'tidyselect'))"
+sudo R -q -e "install.packages('cmdstanr', repos = c('https://mc-stan.org/r-packages/', getOption('repos')))"
+sudo R -q -e "library(cmdstanr)"
+sudo R -q -e "check_cmdstan_toolchain()"
+sudo R -q -e "install_cmdstan(cores = 2)"
+sudo R -q -e "devtools::install_github('biobakery/anpan')"
+
+# install MTX library (https://github.com/biobakery/MTX_model)
+wget https://github.com/biobakery/MTX_model/archive/master.zip
+tar xzvf MTX_model-master.zip
+sudo R -q -e "BiocManager::install('edgeR')"
+sudo R -q -e "BiocManager::install('metagenomeSeq')"
+sudo R -q -e "install.packages(c('lmerTest','pbapply','car','dplyr','vegan','chemometrics','ggplot2','pheatmap','hash','logging','data.table','MuMIn','glmmTMB','MASS','cplm','pscl'), repos='http://cran.r-project.org')"
+sudo R CMD INSTALL MTX_model-master
 
 #copying demo files in home location
 mkdir -p $HOME/Tutorials && cp -R ../test_suite/biobakery_tests/data/. $HOME/Tutorials/
