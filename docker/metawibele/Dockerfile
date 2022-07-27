@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update && \
-    DEBIAN_FRONTEND="noninteractive" apt-get install -y python python-dev python3 python3-dev python3-pip apt-transport-https software-properties-common wget
+    DEBIAN_FRONTEND="noninteractive" apt-get install -y python python-dev python3 python3-dev python3-pip apt-transport-https software-properties-common wget lftp
 RUN pip3 install boto3 cloudpickle awscli
 
 RUN pip3 install anadama2
@@ -14,7 +14,8 @@ RUN R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
     R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
 
 # Install Maaslin2.R executable and reinstall Maaslin2 package so the versions of the exe and library are in sync
-RUN R -q -e "install.packages(c('MuMIn', 'glmmTMB'), repos='http://cran.r-project.org')"
+RUN apt-get install -y cmake
+RUN R -q -e "install.packages(c('MuMIn', 'glmmTMB', 'car', 'lmerTest'), repos='http://cran.r-project.org')"
 RUN wget https://github.com/biobakery/Maaslin2/archive/refs/tags/1.7.3.zip && \
     mv 1.7.3.zip  Maaslin2-1.7.3.zip && \
     unzip Maaslin2-1.7.3.zip && \
@@ -22,7 +23,7 @@ RUN wget https://github.com/biobakery/Maaslin2/archive/refs/tags/1.7.3.zip && \
     cp Maaslin2-1.7.3/R/*.R /usr/local/bin/ && \
     rm -r Maaslin2-1.7.3
 
-RUN apt-get install cd-hit bowtie2 samtools openjdk-8-jdk -y
+RUN apt-get install cd-hit bowtie2 samtools openjdk-11-jdk -y
 
 # install diamond
 RUN wget http://github.com/bbuchfink/diamond/releases/download/v0.9.24/diamond-linux64.tar.gz && \
@@ -60,6 +61,8 @@ RUN apt-get update && apt-get install libdatetime-perl libxml-simple-perl libdig
     rm -r ncbi-blast-2.8.1+* && \
     /opt/prokka/bin/prokka --setupdb
 
+RUN ln -sf /usr/bin/python3.6 /usr/bin/python
+
 # install prodigal
 RUN wget https://github.com/hyattpd/Prodigal/releases/download/v2.6.3/prodigal.linux && \
     chmod +x prodigal.linux && \
@@ -77,4 +80,4 @@ ENV LC_ALL C.UTF-8
 
 RUN apt-get update && apt-get install -y python3-numpy python3-scipy python3-pandas vim 
 
-RUN pip3 install metawibele==0.4.4
+RUN pip3 install metawibele==0.4.5
