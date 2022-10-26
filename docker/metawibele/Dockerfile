@@ -59,7 +59,9 @@ RUN apt-get update && apt-get install libdatetime-perl libxml-simple-perl libdig
     tar xzvf ncbi-blast-2.8.1+-x64-linux.tar.gz && \
     cp ncbi-blast-2.8.1+/bin/* /usr/local/bin/ && \
     rm -r ncbi-blast-2.8.1+* && \
-    /opt/prokka/bin/prokka --setupdb
+    /opt/prokka/bin/prokka --setupdb && \
+    rm -f /usr/bin/cmpress && \
+    rm -f /usr/bin/cmscan 
 
 RUN ln -sf /usr/bin/python3.6 /usr/bin/python
 
@@ -80,4 +82,4 @@ ENV LC_ALL C.UTF-8
 
 RUN apt-get update && apt-get install -y python3-numpy python3-scipy python3-pandas vim 
 
-RUN pip3 install metawibele==0.4.5
+RUN pip3 install metawibele==0.4.6
