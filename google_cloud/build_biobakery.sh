@@ -3,6 +3,8 @@
 # This file will provision an image of Ubuntu 22.04 (Jammy Jellyfish) with bioBakery.
 # This is based on the core bioBakery provisions file used with vagrant.
 
+# Build with 124 Gb of disk space to include databases and lots of extra space.
+
 # ---------------------------------------------------------------
 # install and update required packages
 # ---------------------------------------------------------------
@@ -42,7 +44,6 @@ rm v1.4.1.tar.gz && rm -r trimal-1.4.1
 
 # install metaphlan plus strainphlan with dependencies and databases
 sudo pip3 install metaphlan 
-#sudo metaphlan --install --nproc 2 # don't install the full database, instead install the demo database
 sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
@@ -215,8 +216,26 @@ sudo sed -i '61 s/.*/       "xrdb \\$HOME\/.Xresources\\nautocutsel -fork\\n"./g
 sudo sed -i '66 s/.*/       "\/etc\/X11\/Xsession\\n"./g' /usr/bin/vncserver
 sudo sed -i '67 s/.*/       "export XKL_XMODMAP_DISABLE=1\\n");/g' /usr/bin/vncserver
 
-#copying demo files in home location
-mkdir -p $HOME/Tutorials && cp -R ../test_suite/biobakery_tests/data/. $HOME/Tutorials/
 printf '\n\n\nbioBakery install complete.\n\nbioBakery dependencies that require licenses are not included. Refer to the instructions in the bioBakery doc
 umentation for more information: https://github.com/biobakery/biobakery/wiki/biobakery_basic#13-install-biobakery-dependencies .\n\n'
 
+
+# ---------------------------------------------------------------
+# install files and databases for tutorials
+# ---------------------------------------------------------------
+
+#copying demo files in home location
+mkdir -p $HOME/Tutorials && cp -R ../test_suite/biobakery_tests/data/. $HOME/Tutorials/
+
+# installing full metaphlan database
+sudo metaphlan --install --nproc 2
+
+
+# ---------------------------------------------------------------
+# install test suite
+# ---------------------------------------------------------------
+
+( cd ../test_suite/ && sudo python3 setup.py install )
+
+printf '\n\n\nbioBakery install complete.\n\nbioBakery dependencies that require licenses are not included. Refer to the instructions in the bioBakery doc
+umentation for more information: https://github.com/biobakery/biobakery/wiki/biobakery_basic#13-install-biobakery-dependencies .\n\n'
