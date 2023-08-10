@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# This file will provision an image of Ubuntu 18.04 (Bionic Beaver) with bioBakery.
+# This file will provision an image of Ubuntu 22.04 (Jammy Jellyfish) with bioBakery.
 # This is based on the core bioBakery provisions file used with vagrant.
 
 # ---------------------------------------------------------------
@@ -12,7 +12,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
 
 # packages required for deb building and installation
-sudo apt-get install -y git gdebi-core python3-dev python3-pip python-pip build-essential fastqc
+sudo apt-get install -y git gdebi-core python3-dev python3-pip build-essential fastqc
 sudo pip install setuptools --upgrade
 
 # install libreoffice
@@ -30,7 +30,7 @@ sudo apt-get install dos2unix -y
 
 sudo pip3 install kneaddata --no-binary :all:
 # install humann with python2 as library needed for workflows scripts
-sudo pip install humann --no-binary :all:
+sudo pip3 install humann --no-binary :all:
 
 # install v3 of phylophlan (case change in pypi package) plus dependencies
 sudo apt-get install fasttree -y
@@ -42,15 +42,15 @@ rm v1.4.1.tar.gz && rm -r trimal-1.4.1
 
 # install metaphlan plus strainphlan with dependencies and databases
 sudo pip3 install metaphlan 
-sudo metaphlan --install --nproc 2
+#sudo metaphlan --install --nproc 2 # don't install the full database, instead install the demo database
 sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
 
 # install R and maaslin2
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
-sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev -y
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/r-project.gpg
+echo "deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" | sudo tee -a /etc/apt/sources.list.d/r-project.list
+sudo apt update -y && sudo apt install r-base libcurl4-openssl-dev cmake -y
 
 sudo R -q -e "install.packages('BiocManager', repos='http://cran.r-project.org')"
 sudo R -q -e "library(BiocManager); BiocManager::install('Maaslin2')"
@@ -101,9 +101,8 @@ sudo apt-get install muscle cd-hit -y
 sudo pip3 install shortbred
 
 # install graphlan (currently python2)
-# install 2.0.0 for workflows vis
-sudo pip install matplotlib==2.0.0
 git clone https://github.com/biobakery/graphlan.git
+sudo mkdir /usr/local/bin/src/
 sudo cp graphlan/*.py /usr/local/bin/ && sudo cp graphlan/src/graphlan_lib.py /usr/local/bin/src/ && sudo cp graphlan/src/pyphlan.py /usr/local/bin/src/ 
 rm -rf graphlan
 
