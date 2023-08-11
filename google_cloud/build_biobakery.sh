@@ -32,7 +32,6 @@ sudo apt-get install dos2unix -y
 # ---------------------------------------------------------------
 
 sudo pip3 install kneaddata --no-binary :all:
-# install humann with python2 as library needed for workflows scripts
 sudo pip3 install humann --no-binary :all:
 
 # install v3 of phylophlan (case change in pypi package) plus dependencies
@@ -48,6 +47,12 @@ sudo pip3 install metaphlan
 sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
+
+# install latest bowtie2 version
+wget http://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.2.3/bowtie2-2.2.3-linux-x86_64.zip
+unzip bowtie2-2.2.3-linux-x86_64.zip
+sudo cp bowtie2-2.2.3/bowtie2* /usr/local/bin/
+rm -r bowtie2-2.2.3*
 
 # install R and maaslin2
 wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/r-project.gpg
