@@ -32,6 +32,9 @@ sudo apt-get install dos2unix -y
 # ---------------------------------------------------------------
 
 sudo pip3 install kneaddata --no-binary :all:
+wget https://github.com/Benson-Genomics-Lab/TRF/releases/download/v4.09.1/trf409.legacylinux64
+chmod 755 trf409.legacylinux64 && mv trf409.legacylinux64 trf && sudo mv trf /usr/local/bin/
+
 sudo pip3 install humann --no-binary :all:
 
 # install v3 of phylophlan (case change in pypi package) plus dependencies
