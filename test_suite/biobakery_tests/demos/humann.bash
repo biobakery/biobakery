@@ -1,10 +1,13 @@
-humann --input $INPUT_FOLDER/demo.fastq --output $OUTPUT_FOLDER --verbose --threads $THREADS
+
+humann_test
+
+humann --input $INPUT_FOLDER/demo.fastq.gz --output $OUTPUT_FOLDER --threads $THREADS
 
 humann --input $INPUT_FOLDER/demo.sam --output $OUTPUT_FOLDER --threads $THREADS
 
 humann --input $INPUT_FOLDER/demo.m8 --output $OUTPUT_FOLDER --threads $THREADS
 
-humann --input $INPUT_FOLDER/demo.fastq --output $OUTPUT_FOLDER --verbose --threads $THREADS --bypass-translated-search
+humann --input $INPUT_FOLDER/demo.fastq.gz --output $OUTPUT_FOLDER --verbose --threads $THREADS --bypass-translated-search
 
 humann_renorm_table --input $OUTPUT_FOLDER/demo_genefamilies.tsv --output $OUTPUT_FOLDER/demo_genefamilies-cpm.tsv --units cpm --update-snames
 
