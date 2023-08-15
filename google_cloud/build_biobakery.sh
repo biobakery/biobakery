@@ -36,6 +36,9 @@ wget https://github.com/Benson-Genomics-Lab/TRF/releases/download/v4.09.1/trf409
 chmod 755 trf409.legacylinux64 && mv trf409.legacylinux64 trf && sudo mv trf /usr/local/bin/
 
 sudo pip3 install humann --no-binary :all:
+sudo humann_databases --download chocophlan DEMO /opt/humann_databases
+sudo humann_databases --download uniref DEMO_diamond /opt/humann_databases
+
 
 # install v3 of phylophlan (case change in pypi package) plus dependencies
 sudo apt-get install fasttree -y
