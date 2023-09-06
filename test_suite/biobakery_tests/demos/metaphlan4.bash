@@ -8,6 +8,6 @@ metaphlan $INPUT_FOLDER/SRS014494-Posterior_fornix.fasta.gz $OUTPUT_FOLDER/SRS01
 # merge the tables
 merge_metaphlan_tables.py $OUTPUT_FOLDER/*_profile.txt > $OUTPUT_FOLDER/merged_abundance_table.txt
 
-grep -E "s__|SRS" merged_abundance_table.txt grep -v "t__" sed "s/^.*|//g" sed "s/SRS[0-9]*-//g" > $OUTPUT_FOLDER/merged_abundance_table_species.txt
+grep -E "s__|SRS" $OUTPUT_FOLDER/merged_abundance_table.txt grep -v "t__" sed "s/^.*|//g" sed "s/SRS[0-9]*-//g" > $OUTPUT_FOLDER/merged_abundance_table_species.txt
 
 hclust2.py -i $OUTPUT_FOLDER/merged_abundance_table_species.txt -o $OUTPUT_FOLDER/abundance_heatmap_species.png --f_dist_f braycurtis --s_dist_f braycurtis --cell_aspect_ratio 0.5 --log_scale --flabel_size 10 --slabel_size 10 --max_flabel_len 100 --max_slabel_len 100 --minv 0.1 --dpi 300
