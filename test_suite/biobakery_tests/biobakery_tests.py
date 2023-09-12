@@ -13,7 +13,9 @@ import os
 import shutil
 import tempfile
 import subprocess
-    
+import time
+import datetime
+
 VERSION="0.0.1"
 
 BASH_EXTENSION=".bash"
@@ -24,6 +26,8 @@ THREADS_ENV="THREADS"
 INPUT_ENV="INPUT_FOLDER"
 
 OUTPUT_INDENT="    "
+
+MAX_TIME_ALLOWED=60*10 # 10 minutes
 
 INSTALLED_SCRIPT_FOLDER=os.path.dirname(os.path.abspath(__file__))
 
@@ -80,13 +84,25 @@ def run_demo_subprocess(tool_name, demo_bash_script, demo_env):
     print("Running demo for "+tool_name+" (commands start with +) ...\n")
     
     try:
-        # run bash demo with option to print each command executed to stdout
-        demo_command=["bash","-x",demo_bash_script]
-        subprocess.check_call(demo_command, env=demo_env)
+        # run each command individually so as to error out on any command
+        # track each task time and overall time
+        total_time=0
+        for cmmd in open(demo_bash_script):
+            if cmmd.rstrip():
+                print(cmmd)
+                start=time.time()
+                subprocess.check_call(cmmd, env=demo_env, shell=True)
+                end=time.time()
+                elapsed_time=end-start
+                total_time+=elapsed_time
+                print('=============> Time elapsed (hh:mm:ss) '+time.strftime("%H:%M:%S", time.gmtime(elapsed_time)))
+                if elapsed_time > MAX_TIME_ALLOWED:
+                    sys.exit("ERROR: Command ran longer than the max time allowed (minutes): "+str(MAX_TIME_ALLOWED/60))
     except (EnvironmentError, subprocess.CalledProcessError):
         sys.exit("ERROR: Unable to run demo for tool " + tool_name)    
     
     print("Finished running demo for " + tool_name)
+    print('=============> Total time elapsed (hh:mm:ss) '+time.strftime("%H:%M:%S", time.gmtime(total_time)))
 
 def run_demo(biobakery_demo_files, mode, tool, threads, output_folder):
     """
