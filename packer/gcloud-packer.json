@@ -1,0 +1,33 @@
+{
+    "variables": {
+        "account_file": "biobakery.json"
+    },
+    "builders": [
+        {
+            "type": "googlecompute",
+            "project_id": "biobakery-1328",
+            "source_image_family": "ubuntu-pro-2204-lts",
+            "disk_size": 124,
+            "machine_type": "n2-highmem-4",
+            "account_file": "{{ user `account_file` }}",
+            "zone": "us-central1-a",
+            "ssh_username": "hutlab_public",
+            "image_name": "biobakery-{{timestamp}}",
+            "image_description": "biobakery VM instances",
+            "image_storage_locations": [
+                "us-central1"
+            ],
+            "image_labels": {
+                "developer": "hutlab",
+                "team": "cloud"
+            },
+            "service_account_email": "packer@biobakery-1328.iam.gserviceaccount.com"
+        }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "../google_cloud/build_biobakery.sh"
+        }
+    ]
+}
