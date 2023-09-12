@@ -105,7 +105,7 @@ rm -r vsearch*
 
 # install panphlan
 sudo pip3 install sklearn
-sudo pip3 install panphlan
+sudo pip3 install panphlan==3.0
 wget https://github.com/marbl/Mash/releases/download/v2.2/mash-Linux64-v2.2.tar
 tar xvf mash-Linux64-v2.2.tar
 sudo mv mash-Linux64-v2.2/mash /usr/local/bin/
