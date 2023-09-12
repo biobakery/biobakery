@@ -12,6 +12,8 @@
 # update all packages
 sudo DEBIAN_FRONTEND=noninteractive apt-get update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get dist-upgrade --yes
+echo set debconf to Noninteractive
+echo 'debconf debconf/frontend select Noninteractive' | sudo debconf-set-selections
 
 # packages required for deb building and installation
 sudo apt-get install -y git gdebi-core python3-dev python3-pip build-essential fastqc python2
@@ -35,21 +37,21 @@ sudo pip3 install kneaddata --no-binary :all:
 wget https://github.com/Benson-Genomics-Lab/TRF/releases/download/v4.09.1/trf409.legacylinux64
 chmod 755 trf409.legacylinux64 && mv trf409.legacylinux64 trf && sudo mv trf /usr/local/bin/
 
-sudo pip3 install humann --no-binary :all:
+sudo pip3 install humann==3.8 --no-binary :all:
 sudo humann_databases --download chocophlan DEMO /opt/humann_databases
 sudo humann_databases --download uniref DEMO_diamond /opt/humann_databases
 
 
 # install v3 of phylophlan (case change in pypi package) plus dependencies
 sudo apt-get install fasttree -y
-sudo pip3 install PhyloPhlAn
+sudo pip3 install PhyloPhlAn==3.0.3
 wget https://github.com/scapella/trimal/archive/v1.4.1.tar.gz
 tar xzvf v1.4.1.tar.gz
 ( cd trimal-1.4.1/source/ && make && sudo cp *al /usr/local/bin/ )
 rm v1.4.1.tar.gz && rm -r trimal-1.4.1
 
 # install metaphlan plus strainphlan with dependencies and databases
-sudo pip3 install metaphlan 
+sudo pip3 install metaphlan==4.0.6
 sudo pip3 install cython
 sudo apt-get install python3-pysam samtools zlib1g-dev libbz2-dev liblzma-dev -y
 sudo pip3 install cmseq
@@ -82,7 +84,7 @@ sudo R -q -e "library(BiocManager); BiocManager::install('Biostrings')"
 sudo R -q -e "install.packages(c('optparse','ggplot2','RColorBrewer'), repos='http://cran.r-project.org')"
 
 # install waafle
-sudo pip3 install waafle
+sudo pip3 install waafle==1.0.0
 wget https://github.com/hyattpd/Prodigal/releases/download/v2.6.3/prodigal.linux
 chmod +x prodigal.linux
 sudo mv prodigal.linux /usr/local/bin/
