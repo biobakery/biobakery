@@ -1,9 +1,10 @@
 
-for f in $INPUT_FOLDER/* ; do
-    echo "Running metaphlan 3.0 on ${f}"
-    bn=$(basename ${f%.fastq.bz2})
-    metaphlan $f --input_type fastq -s $OUTPUT_FOLDER/${bn}.sam.bz2 --bowtie2out $OUTPUT_FOLDER/${bn}.bowtie2.bz2 -o $OUTPUT_FOLDER/${bn}_profile.tsv
-done
+metaphlan $INPUT_FOLDER/SRS013951.fastq.bz2 --input_type fastq -s $OUTPUT_FOLDER/SRS013951.sam.bz2 --bowtie2out $OUTPUT_FOLDER/SRS013951.bowtie2.bz2 -o $OUTPUT_FOLDER/SRS013951_profile.tsv
+metaphlan $INPUT_FOLDER/SRS014613.fastq.bz2 --input_type fastq -s $OUTPUT_FOLDER/SRS014613.sam.bz2 --bowtie2out $OUTPUT_FOLDER/SRS014613.bowtie2.bz2 -o $OUTPUT_FOLDER/SRS014613_profile.tsv
+metaphlan $INPUT_FOLDER/SRS019161.fastq.bz2 --input_type fastq -s $OUTPUT_FOLDER/SRS019161.sam.bz2 --bowtie2out $OUTPUT_FOLDER/SRS019161.bowtie2.bz2 -o $OUTPUT_FOLDER/SRS019161_profile.tsv
+metaphlan $INPUT_FOLDER/SRS022137.fastq.bz2 --input_type fastq -s $OUTPUT_FOLDER/SRS022137.sam.bz2 --bowtie2out $OUTPUT_FOLDER/SRS022137.bowtie2.bz2 -o $OUTPUT_FOLDER/SRS022137_profile.tsv
+metaphlan $INPUT_FOLDER/SRS055982.fastq.bz2 --input_type fastq -s $OUTPUT_FOLDER/SRS055982.sam.bz2 --bowtie2out $OUTPUT_FOLDER/SRS055982.bowtie2.bz2 -o $OUTPUT_FOLDER/SRS055982_profile.tsv
+metaphlan $INPUT_FOLDER/SRS064276.fastq.bz2 --input_type fastq -s $OUTPUT_FOLDER/SRS064276.sam.bz2 --bowtie2out $OUTPUT_FOLDER/SRS064276.bowtie2.bz2 -o $OUTPUT_FOLDER/SRS064276_profile.tsv
 
 sample2markers.py -i $OUTPUT_FOLDER/*.sam.bz2 -o $OUTPUT_FOLDER --nprocs $THREADS
 
