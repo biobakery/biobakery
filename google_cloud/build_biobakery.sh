@@ -81,7 +81,7 @@ sudo pip3 install hclust2
 
 sudo R -q -e "library(BiocManager); BiocManager::install('ggtree')"
 sudo R -q -e "library(BiocManager); BiocManager::install('Biostrings')"
-sudo R -q -e "install.packages(c('optparse','ggplot2','RColorBrewer'), repos='http://cran.r-project.org')"
+sudo R -q -e "install.packages(c('optparse','ggplot2','RColorBrewer','ape','rbiom','compositions'), repos='http://cran.r-project.org')"
 
 # install waafle
 sudo pip3 install waafle==1.0.0
