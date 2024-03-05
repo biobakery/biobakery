@@ -8,7 +8,7 @@ RUN pip3 install boto3 cloudpickle awscli
 RUN pip3 install anadama2
 
 # install kneaddata and dependencies
-RUN pip3 install humann==3.6 --no-binary :all:
+RUN pip3 install humann==3.9 --no-binary :all:
 RUN pip3 install numpy cython
 RUN pip3 install biom-format
 RUN pip3 install metaphlan
