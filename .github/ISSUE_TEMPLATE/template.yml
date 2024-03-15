@@ -1,0 +1,25 @@
+name: Issue template
+description: Provide feedback on TOOL
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in TOOL!
+        Note - issues on github are only used internally
+        and will not receive a response.
+        Please use [the forums](https://forums.biobakery.org/TOOL)
+        to file bug reports or feature requests.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What would you like to say?
+      description: Remember, issues submitted here will be automatically closed and are unlikely to receive a response.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Acknowledgement of closure
+      description: Issues from users opened here are closed automatically, please use the forums instead.
+      options:
+        - label: I understand that only issues opened at https://forums.biobakery.org will receive responses.
+          required: true
