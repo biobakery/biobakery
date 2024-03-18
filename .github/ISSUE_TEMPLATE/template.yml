@@ -1,20 +1,12 @@
 name: Issue template
-description: Provide feedback on TOOL
-title: "[Feedback]: "
+description: Provide feedback on this tool
+title: "[Include a brief but informative description of the issue]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in TOOL!
-        Note - issues on github are only used internally
-        and will not receive a response.
-        Please use [the forums](https://forums.biobakery.org/TOOL)
-        to file bug reports or feature requests.
-  - type: textarea
-    id: feedback
-    attributes:
-      label: What would you like to say?
-      description: Remember, issues submitted here will be automatically closed and are unlikely to receive a response.
+        Thanks for your interest in the bioBakery! Please note that we use a Discourse forum (https://forums.biobakery.org) for interaction with our user community, including fielding bug reports and feature requests, rather than GitHub.
+        You are welcome to open an issue here, but please note that it will be automatically closed, and while we will review it, it is not likely to receive a response. If you are looking for a response, please make your post to an appropriate Discourse topic instead.
   - type: checkboxes
     id: terms
     attributes:
@@ -23,3 +15,8 @@ body:
       options:
         - label: I understand that only issues opened at https://forums.biobakery.org will receive responses.
           required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What would you like to say?
+      description: Remember, issues submitted here will be automatically closed and are unlikely to receive a response.
