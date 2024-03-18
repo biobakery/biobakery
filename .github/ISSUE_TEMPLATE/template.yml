@@ -17,3 +17,4 @@ body:
     id: feedback
     attributes:
       label: What would you like to say?
+      placeholder: Provide additional details about your issue here
