@@ -5,13 +5,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for your interest in the bioBakery! Please note that we use a Discourse forum (https://forums.biobakery.org) for interaction with our user community, including fielding bug reports and feature requests, rather than GitHub.
-        You are welcome to open an issue here, but please note that it will be automatically closed, and while we will review it, it is not likely to receive a response. If you are looking for a response, please make your post to an appropriate Discourse topic instead.
+        Thanks for your interest in the bioBakery! Please note that we use a Discourse forum (https://forums.biobakery.org) for interaction with our user community, including fielding bug reports and feature requests, rather than GitHub. You are welcome to open an issue here, but please note that it will be automatically closed, and while we will review it, it is not likely to receive a response. If you are looking for a response, please make your post to an appropriate Discourse topic instead.
   - type: checkboxes
     id: terms
     attributes:
       label: Acknowledgement of closure
-      description: Issues from users opened here are closed automatically, please use the forums instead.
       options:
         - label: I understand that only issues opened at https://forums.biobakery.org will receive responses.
           required: true
@@ -19,4 +17,3 @@ body:
     id: feedback
     attributes:
       label: What would you like to say?
-      description: Remember, issues submitted here will be automatically closed and are unlikely to receive a response.
