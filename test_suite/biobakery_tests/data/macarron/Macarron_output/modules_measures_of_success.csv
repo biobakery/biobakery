@@ -1,5 +1,0 @@
-"","Minimum module size (min_module_size)","Total modules","Singletons","% Annotated modules","% Consistent assignments","Max classes per module","90p classes per module","Max subclasses per module","90p subclasses per module","% Features in HAM"
-"1",5,71,8,7.04,100,1,1,1,1,10.36
-"2",10,30,8,16.67,100,1,1,1,1,13
-"3",15,21,8,23.81,100,1,1,1,1,17.49
-"4",20,15,28,33.33,100,1,1,1,1,20.94
