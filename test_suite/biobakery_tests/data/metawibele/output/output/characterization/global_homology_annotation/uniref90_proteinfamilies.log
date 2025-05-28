@@ -1,8 +1,0 @@
-05/20/2021 10:44:02 PM - metawibele.config - INFO: ### Start uniref_protein_family step ####
-05/20/2021 10:44:02 PM - metawibele.config - INFO: Get cluster info ......starting
-05/20/2021 10:44:02 PM - metawibele.config - INFO: Get cluster info ......done
-05/20/2021 10:44:02 PM - metawibele.config - INFO: Get annotation info ......starting
-05/20/2021 10:44:02 PM - metawibele.config - INFO: Get annotation info ......done
-05/20/2021 10:44:02 PM - metawibele.config - INFO: Assign annotation to peptide families ......starting
-05/20/2021 10:44:03 PM - metawibele.config - INFO: Assign annotation to peptide families ......done
-05/20/2021 10:44:03 PM - metawibele.config - INFO: ### Finish uniref_protein_family step ####

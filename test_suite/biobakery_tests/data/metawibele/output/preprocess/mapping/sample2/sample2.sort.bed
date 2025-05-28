@@ -1,3 +1,0 @@
-# Program:featureCounts v2.0.1; Command:"featureCounts" "-F" "SAF" "-T" "1" "-a" "/home/hutlab_public/biobakery/test_suite/metawibele_demo_out/preprocess/finalized/demo_genecatalogs.centroid.saf.gtf" "-o" "sample2.sort.bed" "sample2.sort.bam" 
-Geneid	Chr	Start	End	Strand	Length	sample2.sort.bam
-sample1_2-1	sample1_2-1	1	1164	+	1164	5

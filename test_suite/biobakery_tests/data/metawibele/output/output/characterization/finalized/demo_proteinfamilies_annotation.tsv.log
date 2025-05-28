@@ -1,8 +1,0 @@
-05/20/2021 10:46:01 PM - metawibele.config - INFO: ### Start finalize_annotation step ####
-05/20/2021 10:46:01 PM - metawibele.config - INFO: Get cluster info ......starting
-05/20/2021 10:46:01 PM - metawibele.config - INFO: Get cluster info ......done
-05/20/2021 10:46:01 PM - metawibele.config - INFO: Get annotation info ......starting
-05/20/2021 10:46:02 PM - metawibele.config - INFO: Get annotation info ......done
-05/20/2021 10:46:02 PM - metawibele.config - INFO: Finalize annotation for prioritization families ......starting
-05/20/2021 10:46:03 PM - metawibele.config - INFO: Finalize annotation for prioritization families ......done
-05/20/2021 10:46:03 PM - metawibele.config - INFO: ### Finish finalize_annotation step ####

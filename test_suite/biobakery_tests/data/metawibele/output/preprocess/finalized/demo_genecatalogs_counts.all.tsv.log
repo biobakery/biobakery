@@ -1,8 +1,0 @@
-06/03/2022 06:21:56 PM - metawibele.config - INFO: #### Start gene_catalog_abundance step ####
-06/03/2022 06:21:56 PM - metawibele.config - INFO: Get cluster info ......starting
-06/03/2022 06:21:56 PM - metawibele.config - INFO: Get cluster info ......done
-06/03/2022 06:21:56 PM - metawibele.config - INFO: Get counts info ......starting
-06/03/2022 06:21:56 PM - metawibele.config - INFO: Get counts info ......done
-06/03/2022 06:21:56 PM - metawibele.config - INFO: Assign counts to peptide families ......starting
-06/03/2022 06:21:56 PM - metawibele.config - INFO: Assign counts to peptide families ......done
-06/03/2022 06:21:56 PM - metawibele.config - INFO: ### Finish gene_catalog_abundance step ####

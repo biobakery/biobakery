@@ -1,58 +1,0 @@
-MSPminer - version 1.0.0 - non-commercial use only
-(C) Copyright 2016-2018 Enterome & INRA
-
-Reading count matrix...
-Progress: 0%Progress: 100%Done. Count matrix has 1899 genes quantified across 102 samples.
-
-Computing number of mapped reads in samples...
-Done.
-
-Computing sqrt transformation of genes counts...
-Done.
-
-Filtering too rare genes...
-Done. 1788 genes remaining.
-
-Creating genes bins...
-Done. Genes split in 102 bins.
-
-Creating seeds...
-Progress: 0%Progress: 0%Progress: 1%Progress: 2%Progress: 3%Progress: 4%Progress: 5%Progress: 6%Progress: 7%Progress: 8%Progress: 9%Progress: 10%Progress: 11%Progress: 12%Progress: 13%Progress: 14%Progress: 15%Progress: 16%Progress: 17%Progress: 18%Progress: 19%Progress: 20%Progress: 21%Progress: 22%Progress: 23%Progress: 24%Progress: 25%Progress: 26%Progress: 27%Progress: 28%Progress: 29%Progress: 30%Progress: 31%Progress: 32%Progress: 33%Progress: 34%Progress: 35%Progress: 36%Progress: 37%Progress: 38%Progress: 39%Progress: 40%Progress: 41%Progress: 42%Progress: 43%Progress: 44%Progress: 45%Progress: 46%Progress: 47%Progress: 48%Progress: 49%Progress: 50%Progress: 50%Progress: 51%Progress: 52%Progress: 53%Progress: 54%Progress: 55%Progress: 56%Progress: 57%Progress: 58%Progress: 59%Progress: 60%Progress: 61%Progress: 62%Progress: 63%Progress: 64%Progress: 65%Progress: 66%Progress: 67%Progress: 68%Progress: 69%Progress: 70%Progress: 71%Progress: 72%Progress: 73%Progress: 74%Progress: 75%Progress: 76%Progress: 77%Progress: 78%Progress: 79%Progress: 80%Progress: 81%Progress: 82%Progress: 83%Progress: 84%Progress: 85%Progress: 86%Progress: 87%Progress: 88%Progress: 89%Progress: 90%Progress: 91%Progress: 92%Progress: 93%Progress: 94%Progress: 95%Progress: 96%Progress: 97%Progress: 98%Progress: 99%Progress: 100%Done. 11 seeds created.
-
-Printing all seeds...
-Done.
-
-Merging seeds...
-Progress: 0%Progress: 45%Progress: 54%Progress: 90%Progress: 100%Done. 2 seeds remaining.
-
-Printing merged seeds...
-Done.
-
-Extracting core seeds ...
-Progress: 0%Progress: 50%Progress: 100%Done. 2 core seeds extracted.
-
-Printing core seeds...
-Done.
-
-Creating Metagenomic Species Pan-genomes...
-Progress: 0%Progress: 50%Progress: 100%Metagenomic species creation done.
-
-Printing Metagenomic Species Pan-genomes...
-Done.
-
-Time Statistics:
-Reading count matrix: 0 min 0 sec
-Computing number of mapped reads in samples: 0 min 0 sec
-Sqrt transformation: 0 min 0 sec
-Filtering rare genes: 0 min 0 sec
-Creating genes bins: 0 min 0 sec
-Creating seeds: 0 min 5 sec
-Printing all seeds: 0 min 0 sec
-Merging seeds: 0 min 0 sec
-Printing merged seeds: 0 min 0 sec
-Extracting core seeds: 0 min 0 sec
-Printing core seeds: 0 min 0 sec
-Creating Metagenomic Species Pan-genomes: 0 min 1 sec
-Printing Metagenomic Species Pan-genomes: 0 min 0 sec
-Total: 0 min 6 sec
-

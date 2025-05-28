@@ -1,8 +1,0 @@
-05/20/2021 10:40:10 PM - metawibele.config - INFO: ### Start format_protein_sequences step ####
-05/20/2021 10:40:10 PM - metawibele.config - INFO: Get sequence info ......starting
-05/20/2021 10:40:10 PM - metawibele.config - INFO: Read gff file: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/gene_calls/sample2.gff
-05/20/2021 10:40:10 PM - metawibele.config - INFO: Read gff file: /home/hutlab_public/Tutorials/metawibele/Yancong/output/preprocess/gene_calls/sample1.gff
-05/20/2021 10:40:10 PM - metawibele.config - INFO: Get sequence info ......done
-05/20/2021 10:40:10 PM - metawibele.config - INFO: Output sequence info ......starting
-05/20/2021 10:40:10 PM - metawibele.config - INFO: Output sequence info ......done
-05/20/2021 10:40:10 PM - metawibele.config - INFO: ### Finish format_protein_sequences step ####

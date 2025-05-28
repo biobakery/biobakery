@@ -1,6 +1,0 @@
-05/20/2021 10:44:03 PM - metawibele.config - INFO: ### Start summary_protein_uniref_annotation step ####
-05/20/2021 10:44:03 PM - metawibele.config - INFO: Get info ......starting
-05/20/2021 10:44:24 PM - metawibele.config - INFO: Get info ......done
-05/20/2021 10:44:24 PM - metawibele.config - INFO: Assign annotation to peptide families ......starting
-05/20/2021 10:44:24 PM - metawibele.config - INFO: Assign annotation to peptide families ......done
-05/20/2021 10:44:24 PM - metawibele.config - INFO: ### Finish summary_protein_uniref_annotation step ####

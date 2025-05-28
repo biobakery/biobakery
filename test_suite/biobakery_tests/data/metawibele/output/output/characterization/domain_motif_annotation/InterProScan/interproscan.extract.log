@@ -1,8 +1,0 @@
-05/20/2021 10:42:40 PM - metawibele.config - INFO: ### Start interproscan_protein setp ####
-05/20/2021 10:42:40 PM - metawibele.config - INFO: Get InterProScan info ......starting
-05/20/2021 10:42:40 PM - metawibele.config - INFO: OK!	/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split3.interproscan.txt
-05/20/2021 10:42:40 PM - metawibele.config - INFO: OK!	/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split2.interproscan.txt
-05/20/2021 10:42:40 PM - metawibele.config - INFO: OK!	/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split4.interproscan.txt
-05/20/2021 10:42:40 PM - metawibele.config - INFO: OK!	/home/hutlab_public/Tutorials/metawibele/Yancong/output/characterization/domain_motif_annotation/InterProScan/split1.interproscan.txt
-05/20/2021 10:42:40 PM - metawibele.config - INFO: Get InterProScan info ......done
-05/20/2021 10:42:40 PM - metawibele.config - INFO: ### Finish interproscan_protein step ####
