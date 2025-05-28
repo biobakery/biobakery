@@ -1,0 +1,85 @@
+05/28/2025 07:37:43 PM - kneaddata.knead_data - INFO: Running kneaddata v0.12.0
+05/28/2025 07:37:43 PM - kneaddata.knead_data - INFO: Output files will be written to: /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC
+05/28/2025 07:37:43 PM - kneaddata.knead_data - DEBUG: Running with the following arguments: 
+verbose = False
+input1 = None
+input2 = None
+unpaired = input/SE_extra.fastq
+output_dir = /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC
+scratch_dir = 
+reference_db = /home/hutlab_public/Tutorials/kneaddata/input/demo_db/demo_db
+bypass_trim = False
+output_prefix = SE_extra_kneaddata
+threads = 1
+processes = 1
+trimmomatic_quality_scores = -phred33
+bmtagger = False
+bypass_trf = False
+run_trf = False
+fastqc_start = True
+fastqc_end = True
+store_temp_output = False
+remove_intermediate_output = False
+cat_final_output = False
+log_level = DEBUG
+log = /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.log
+trimmomatic_path = /usr/local/bin/trimmomatic-0.33.jar
+run_trim_repetitive = False
+max_memory = 500m
+trimmomatic_options = None
+sequencer_source = NexteraPE
+bowtie2_path = /usr/local/bin/bowtie2
+bowtie2_options = --very-sensitive-local --phred33
+decontaminate_pairs = unpaired
+reorder = False
+serial = False
+bmtagger_path = None
+trf_path = /usr/local/bin/trf
+match = 2
+mismatch = 7
+delta = 7
+pm = 80
+pi = 10
+minscore = 50
+maxperiod = 500
+fastqc_path = /usr/local/bin/fastqc
+remove_temp_output = True
+input = /home/hutlab_public/Tutorials/kneaddata/input/SE_extra.fastq
+discordant = True
+
+05/28/2025 07:37:43 PM - kneaddata.utilities - INFO: READ COUNT: raw single : Initial number of reads ( /home/hutlab_public/Tutorials/kneaddata/input/SE_extra.fastq ): 12332.0
+05/28/2025 07:37:43 PM - kneaddata.utilities - DEBUG: Creating output directory: /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/fastqc
+05/28/2025 07:37:43 PM - kneaddata.utilities - DEBUG: Checking input file to fastqc : /home/hutlab_public/Tutorials/kneaddata/input/SE_extra.fastq
+05/28/2025 07:37:43 PM - kneaddata.utilities - INFO: Running fastqc ... 
+05/28/2025 07:37:43 PM - kneaddata.utilities - INFO: Execute command: /usr/local/bin/fastqc /home/hutlab_public/Tutorials/kneaddata/input/SE_extra.fastq --threads 1 --outdir /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/fastqc --extract
+05/28/2025 07:37:48 PM - kneaddata.utilities - DEBUG: b'Started analysis of SE_extra.fastq\nApprox 5% complete for SE_extra.fastq\nApprox 15% complete for SE_extra.fastq\nApprox 20% complete for SE_extra.fastq\nApprox 30% complete for SE_extra.fastq\nApprox 40% complete for SE_extra.fastq\nApprox 45% complete for SE_extra.fastq\nApprox 55% complete for SE_extra.fastq\nApprox 60% complete for SE_extra.fastq\nApprox 70% complete for SE_extra.fastq\nApprox 80% complete for SE_extra.fastq\nApprox 85% complete for SE_extra.fastq\nApprox 95% complete for SE_extra.fastq\nAnalysis complete for SE_extra.fastq\n'
+05/28/2025 07:37:48 PM - kneaddata.utilities - DEBUG: Checking input file to Trimmomatic : /home/hutlab_public/Tutorials/kneaddata/input/SE_extra.fastq
+05/28/2025 07:37:48 PM - kneaddata.utilities - INFO: Running Trimmomatic ... 
+05/28/2025 07:37:48 PM - kneaddata.utilities - INFO: Execute command: java -Xmx500m -jar /usr/local/bin/trimmomatic-0.33.jar SE -threads 1 -phred33 /home/hutlab_public/Tutorials/kneaddata/input/SE_extra.fastq /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fastq MINLEN:60 ILLUMINACLIP:/home/hutlab_public/.local/lib/python3.6/site-packages/kneaddata/adapters/NexteraPE-PE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:87
+05/28/2025 07:37:48 PM - kneaddata.utilities - DEBUG: b"TrimmomaticSE: Started with arguments: -threads 1 -phred33 /home/hutlab_public/Tutorials/kneaddata/input/SE_extra.fastq /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fastq MINLEN:60 ILLUMINACLIP:/home/hutlab_public/.local/lib/python3.6/site-packages/kneaddata/adapters/NexteraPE-PE.fa:2:30:10 SLIDINGWINDOW:4:20 MINLEN:87\nUsing PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'\nUsing Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'\nUsing Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'\nUsing Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'\nUsing Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'\nILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences\nInput Reads: 12332 Surviving: 7660 (62.11%) Dropped: 4672 (37.89%)\nTrimmomaticSE: Completed successfully\n"
+05/28/2025 07:37:48 PM - kneaddata.utilities - DEBUG: Checking output file from Trimmomatic : /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fastq
+05/28/2025 07:37:48 PM - kneaddata.utilities - INFO: READ COUNT: trimmed single : Total reads after trimming ( /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fastq ): 7660.0
+05/28/2025 07:37:48 PM - kneaddata.utilities - DEBUG: Checking input file to trf : /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fasta
+05/28/2025 07:37:48 PM - kneaddata.utilities - INFO: Running trf ... 
+05/28/2025 07:37:48 PM - kneaddata.utilities - INFO: Execute command: kneaddata_trf_parallel --input /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fasta --output /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fasta.trf.parameters.2.7.7.80.10.50.500.dat --trf-path /usr/local/bin/trf --trf-options '2 7 7 80 10 50 500 -h -ngs' --nproc 1
+05/28/2025 07:37:49 PM - kneaddata.utilities - DEBUG: 0
+05/28/2025 07:37:49 PM - kneaddata.utilities - DEBUG: Checking output file from trf : /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fasta.trf.parameters.2.7.7.80.10.50.500.dat
+05/28/2025 07:37:50 PM - kneaddata.run - INFO: Total number of sequences with repeats removed from file ( /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.trimmed.fastq ): 0
+05/28/2025 07:37:50 PM - kneaddata.run - INFO: Decontaminating ...
+05/28/2025 07:37:50 PM - kneaddata.utilities - DEBUG: Checking input file to bowtie2 : /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.repeats.removed.fastq
+05/28/2025 07:37:50 PM - kneaddata.utilities - INFO: Running bowtie2 ... 
+05/28/2025 07:37:50 PM - kneaddata.utilities - INFO: Execute command: /usr/local/bin/bowtie2 --threads 1 --very-sensitive-local --phred33 -x /home/hutlab_public/Tutorials/kneaddata/input/demo_db/demo_db -U /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.repeats.removed.fastq --un /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata_demo_db_bowtie2_clean.fastq --al /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata_demo_db_bowtie2_contam.fastq -S /dev/null
+05/28/2025 07:37:50 PM - kneaddata.utilities - DEBUG: b'7660 reads; of these:\n  7660 (100.00%) were unpaired; of these:\n    7660 (100.00%) aligned 0 times\n    0 (0.00%) aligned exactly 1 time\n    0 (0.00%) aligned >1 times\n0.00% overall alignment rate\n'
+05/28/2025 07:37:50 PM - kneaddata.utilities - DEBUG: Checking output file from bowtie2 : /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata_demo_db_bowtie2_clean.fastq
+05/28/2025 07:37:50 PM - kneaddata.run - INFO: Total contaminate sequences in file ( /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata_demo_db_bowtie2_contam.fastq ) : 0.0
+05/28/2025 07:37:50 PM - kneaddata.utilities - INFO: READ COUNT: decontaminated demo_db single : Total reads after removing those found in reference database ( /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata_demo_db_bowtie2_clean.fastq ): 7660.0
+05/28/2025 07:37:50 PM - kneaddata.utilities - INFO: READ COUNT: final single : Total reads after merging results from multiple databases ( /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.fastq ): 7660.0
+05/28/2025 07:37:50 PM - kneaddata.utilities - WARNING: Unable to remove file: /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata_demo_db_bowtie2_clean.fastq
+05/28/2025 07:37:50 PM - kneaddata.utilities - DEBUG: Checking input file to fastqc : /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.fastq
+05/28/2025 07:37:50 PM - kneaddata.utilities - INFO: Running fastqc ... 
+05/28/2025 07:37:50 PM - kneaddata.utilities - INFO: Execute command: /usr/local/bin/fastqc /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.fastq --threads 1 --outdir /home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/fastqc --extract
+05/28/2025 07:37:54 PM - kneaddata.utilities - DEBUG: b'Started analysis of SE_extra_kneaddata.fastq\nApprox 10% complete for SE_extra_kneaddata.fastq\nApprox 25% complete for SE_extra_kneaddata.fastq\nApprox 35% complete for SE_extra_kneaddata.fastq\nApprox 50% complete for SE_extra_kneaddata.fastq\nApprox 65% complete for SE_extra_kneaddata.fastq\nApprox 75% complete for SE_extra_kneaddata.fastq\nApprox 90% complete for SE_extra_kneaddata.fastq\nAnalysis complete for SE_extra_kneaddata.fastq\n'
+05/28/2025 07:37:54 PM - kneaddata.knead_data - INFO: 
+Final output file created: 
+/home/hutlab_public/Tutorials/kneaddata/kneaddataOutputFastQC/SE_extra_kneaddata.fastq
+

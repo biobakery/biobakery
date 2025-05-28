@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SE_extra.fastq
+FAIL	Per base sequence quality	SE_extra.fastq
+WARN	Per tile sequence quality	SE_extra.fastq
+PASS	Per sequence quality scores	SE_extra.fastq
+FAIL	Per base sequence content	SE_extra.fastq
+FAIL	Per sequence GC content	SE_extra.fastq
+PASS	Per base N content	SE_extra.fastq
+PASS	Sequence Length Distribution	SE_extra.fastq
+FAIL	Sequence Duplication Levels	SE_extra.fastq
+FAIL	Overrepresented sequences	SE_extra.fastq
+PASS	Adapter Content	SE_extra.fastq
