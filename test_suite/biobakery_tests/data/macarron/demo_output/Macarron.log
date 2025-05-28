@@ -1,0 +1,26 @@
+2025-05-28 14:14:41.084418 INFO::Writing function arguments to log file
+2025-05-28 14:14:41.087924 DEBUG::Function arguments
+2025-05-28 14:14:41.088109 DEBUG::Input abundance file: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Macarron/extdata/demo_abundances.csv
+2025-05-28 14:14:41.088247 DEBUG::Input annotation file: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Macarron/extdata/demo_annotations.csv
+2025-05-28 14:14:41.08837 DEBUG::Input metadata file: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Macarron/extdata/demo_metadata.csv
+2025-05-28 14:14:41.088492 DEBUG::Input chemical classification file: /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library/Macarron/extdata/demo_taxonomy.csv
+2025-05-28 14:14:41.088607 DEBUG::Output folder: Macarron_output
+2025-05-28 14:14:41.088725 DEBUG::Phenotypic/Environmental metadata: 1
+2025-05-28 14:14:41.088839 DEBUG::Minimum prevalence: 0.700000
+2025-05-28 14:14:41.088965 DEBUG::Execution mode: serial
+2025-05-28 14:14:41.089104 DEBUG::Public database ID: 1
+2025-05-28 14:14:41.089243 DEBUG::Metabolite name: 2
+2025-05-28 14:14:41.089367 DEBUG::Minimum module size:
+2025-05-28 14:14:41.089509 DEBUG::Fixed effects:
+2025-05-28 14:14:41.08964 DEBUG::Random effects:
+2025-05-28 14:14:41.089765 DEBUG::Reference condition/level:
+2025-05-28 14:14:41.089889 DEBUG::Cores: 1
+2025-05-28 14:14:41.10311 INFO::Summarized Experiment created.
+2025-05-28 14:14:41.103843 INFO::Metadata chosen for prevalence filtering: diagnosis
+2025-05-28 14:14:42.969843 INFO::Distance matrix with 869 metabolic features created.
+2025-05-28 14:14:42.970546 INFO::Minimum module size used for this dataset: 10
+2025-05-28 14:14:43.395131 INFO::Total number of modules detected: 30
+2025-05-28 14:14:43.906003 DEBUG::Writing MaAsLin2 results to folder: Macarron_output/maaslin2_results
+2025-05-28 14:15:46.178747 INFO::Writing all prioritized metabolites to file: Macarron_output/prioritized_metabolites_all.csv
+2025-05-28 14:15:46.182949 INFO::Writing characterizable prioritized metabolites to file: Macarron_output/prioritized_metabolites_characterizable.csv
+2025-05-28 14:15:46.190287 INFO::Writing highly prioritized metabolites in IBD to file: Macarron_output/highly_prioritized_per_module_in_IBD.csv

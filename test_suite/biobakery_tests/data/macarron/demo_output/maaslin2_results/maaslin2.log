@@ -1,0 +1,2236 @@
+2025-05-28 14:14:43.954003 INFO::Writing function arguments to log file
+2025-05-28 14:14:43.954425 DEBUG::Function arguments
+2025-05-28 14:14:43.954546 DEBUG::Output folder: Macarron_output/maaslin2_results
+2025-05-28 14:14:43.954652 DEBUG::Min Abundance: 0.000000
+2025-05-28 14:14:43.954756 DEBUG::Min Prevalence: 0.000000
+2025-05-28 14:14:43.954855 DEBUG::Normalization: NONE
+2025-05-28 14:14:43.954954 DEBUG::Transform: NONE
+2025-05-28 14:14:43.955053 DEBUG::Analysis method: LM
+2025-05-28 14:14:43.955151 DEBUG::Max significance: 0.250000
+2025-05-28 14:14:43.955254 DEBUG::Random effects:
+2025-05-28 14:14:43.955364 DEBUG::Fixed effects:
+2025-05-28 14:14:43.95547 DEBUG::Correction method: BH
+2025-05-28 14:14:43.955577 DEBUG::Standardize: TRUE
+2025-05-28 14:14:43.95568 DEBUG::Cores: 1
+2025-05-28 14:14:43.955773 INFO::Verifying options selected are valid
+2025-05-28 14:14:43.971967 INFO::Determining format of input files
+2025-05-28 14:14:43.972502 INFO::Input format is data samples as columns and metadata samples as rows
+2025-05-28 14:14:43.974323 DEBUG::Transformed data so samples are rows
+2025-05-28 14:14:43.974874 DEBUG::A total of 102 samples were found in both the data and metadata
+2025-05-28 14:14:43.97499 DEBUG::Reordering data/metadata to use same sample ordering
+2025-05-28 14:14:43.97739 INFO::Formula for fixed effects: expr ~  diagnosis + age + antibiotics
+2025-05-28 14:14:43.978031 INFO::Filter data based on min abundance and min prevalence
+2025-05-28 14:14:43.978757 INFO::Total samples in data: 102
+2025-05-28 14:14:43.979031 INFO::Min samples required with min abundance for a feature not to be filtered: 0.000000
+2025-05-28 14:14:43.982681 INFO::Total filtered features: 0
+2025-05-28 14:14:43.983043 INFO::Filtered feature names from abundance and prevalence filtering:
+2025-05-28 14:14:43.989453 INFO::Total filtered features with variance filtering: 0
+2025-05-28 14:14:43.990122 INFO::Filtered feature names from variance filtering:
+2025-05-28 14:14:43.990706 INFO::Running selected normalization method: NONE
+2025-05-28 14:14:43.991079 INFO::Applying z-score to standardize continuous metadata
+2025-05-28 14:14:43.996736 INFO::Running selected transform method: NONE
+2025-05-28 14:14:43.997187 INFO::Running selected analysis method: LM
+2025-05-28 14:14:44.004402 INFO::Fitting model to feature number 1, F1
+2025-05-28 14:14:44.012037 INFO::Fitting model to feature number 2, F2
+2025-05-28 14:14:44.013322 INFO::Fitting model to feature number 3, F3
+2025-05-28 14:14:44.014349 INFO::Fitting model to feature number 4, F4
+2025-05-28 14:14:44.015298 INFO::Fitting model to feature number 5, F5
+2025-05-28 14:14:44.016222 INFO::Fitting model to feature number 6, F6
+2025-05-28 14:14:44.017158 INFO::Fitting model to feature number 7, F7
+2025-05-28 14:14:44.018112 INFO::Fitting model to feature number 8, F8
+2025-05-28 14:14:44.019038 INFO::Fitting model to feature number 9, F9
+2025-05-28 14:14:44.020189 INFO::Fitting model to feature number 10, F10
+2025-05-28 14:14:44.021154 INFO::Fitting model to feature number 11, F11
+2025-05-28 14:14:44.022134 INFO::Fitting model to feature number 12, F12
+2025-05-28 14:14:44.023421 INFO::Fitting model to feature number 13, F13
+2025-05-28 14:14:44.028485 INFO::Fitting model to feature number 14, F14
+2025-05-28 14:14:44.029629 INFO::Fitting model to feature number 15, F15
+2025-05-28 14:14:44.030591 INFO::Fitting model to feature number 16, F16
+2025-05-28 14:14:44.031606 INFO::Fitting model to feature number 17, F17
+2025-05-28 14:14:44.032555 INFO::Fitting model to feature number 18, F18
+2025-05-28 14:14:44.033564 INFO::Fitting model to feature number 19, F19
+2025-05-28 14:14:44.034536 INFO::Fitting model to feature number 20, F20
+2025-05-28 14:14:44.03546 INFO::Fitting model to feature number 21, F21
+2025-05-28 14:14:44.036405 INFO::Fitting model to feature number 22, F22
+2025-05-28 14:14:44.03736 INFO::Fitting model to feature number 23, F23
+2025-05-28 14:14:44.038325 INFO::Fitting model to feature number 24, F24
+2025-05-28 14:14:44.039366 INFO::Fitting model to feature number 25, F25
+2025-05-28 14:14:44.040376 INFO::Fitting model to feature number 26, F26
+2025-05-28 14:14:44.041349 INFO::Fitting model to feature number 27, F27
+2025-05-28 14:14:44.042374 INFO::Fitting model to feature number 28, F28
+2025-05-28 14:14:44.043347 INFO::Fitting model to feature number 29, F29
+2025-05-28 14:14:44.044285 INFO::Fitting model to feature number 30, F30
+2025-05-28 14:14:44.045238 INFO::Fitting model to feature number 31, F31
+2025-05-28 14:14:44.046202 INFO::Fitting model to feature number 32, F32
+2025-05-28 14:14:44.047232 INFO::Fitting model to feature number 33, F33
+2025-05-28 14:14:44.04813 INFO::Fitting model to feature number 34, F34
+2025-05-28 14:14:44.04901 INFO::Fitting model to feature number 35, F35
+2025-05-28 14:14:44.049948 INFO::Fitting model to feature number 36, F36
+2025-05-28 14:14:44.050978 INFO::Fitting model to feature number 37, F37
+2025-05-28 14:14:44.051937 INFO::Fitting model to feature number 38, F38
+2025-05-28 14:14:44.052887 INFO::Fitting model to feature number 39, F39
+2025-05-28 14:14:44.053834 INFO::Fitting model to feature number 40, F40
+2025-05-28 14:14:44.054787 INFO::Fitting model to feature number 41, F41
+2025-05-28 14:14:44.055772 INFO::Fitting model to feature number 42, F43
+2025-05-28 14:14:44.056785 INFO::Fitting model to feature number 43, F44
+2025-05-28 14:14:44.057782 INFO::Fitting model to feature number 44, F45
+2025-05-28 14:14:44.058745 INFO::Fitting model to feature number 45, F46
+2025-05-28 14:14:44.059795 INFO::Fitting model to feature number 46, F47
+2025-05-28 14:14:44.061074 INFO::Fitting model to feature number 47, F48
+2025-05-28 14:14:44.063318 INFO::Fitting model to feature number 48, F49
+2025-05-28 14:14:44.064223 INFO::Fitting model to feature number 49, F50
+2025-05-28 14:14:44.065137 INFO::Fitting model to feature number 50, F51
+2025-05-28 14:14:44.066068 INFO::Fitting model to feature number 51, F52
+2025-05-28 14:14:44.067009 INFO::Fitting model to feature number 52, F53
+2025-05-28 14:14:44.06797 INFO::Fitting model to feature number 53, F54
+2025-05-28 14:14:44.068912 INFO::Fitting model to feature number 54, F55
+2025-05-28 14:14:44.069922 INFO::Fitting model to feature number 55, F56
+2025-05-28 14:14:44.070883 INFO::Fitting model to feature number 56, F57
+2025-05-28 14:14:44.071858 INFO::Fitting model to feature number 57, F58
+2025-05-28 14:14:44.072846 INFO::Fitting model to feature number 58, F59
+2025-05-28 14:14:44.073903 INFO::Fitting model to feature number 59, F60
+2025-05-28 14:14:44.074891 INFO::Fitting model to feature number 60, F63
+2025-05-28 14:14:44.075841 INFO::Fitting model to feature number 61, F64
+2025-05-28 14:14:44.076854 INFO::Fitting model to feature number 62, F65
+2025-05-28 14:14:44.077844 INFO::Fitting model to feature number 63, F66
+2025-05-28 14:14:44.078878 INFO::Fitting model to feature number 64, F67
+2025-05-28 14:14:44.083217 INFO::Fitting model to feature number 65, F68
+2025-05-28 14:14:44.084201 INFO::Fitting model to feature number 66, F69
+2025-05-28 14:14:44.08515 INFO::Fitting model to feature number 67, F70
+2025-05-28 14:14:44.086043 INFO::Fitting model to feature number 68, F71
+2025-05-28 14:14:44.087011 INFO::Fitting model to feature number 69, F72
+2025-05-28 14:14:44.087953 INFO::Fitting model to feature number 70, F73
+2025-05-28 14:14:44.088946 INFO::Fitting model to feature number 71, F74
+2025-05-28 14:14:44.089939 INFO::Fitting model to feature number 72, F76
+2025-05-28 14:14:44.091014 INFO::Fitting model to feature number 73, F77
+2025-05-28 14:14:44.091916 INFO::Fitting model to feature number 74, F78
+2025-05-28 14:14:44.092874 INFO::Fitting model to feature number 75, F79
+2025-05-28 14:14:44.093814 INFO::Fitting model to feature number 76, F80
+2025-05-28 14:14:44.094762 INFO::Fitting model to feature number 77, F81
+2025-05-28 14:14:44.095725 INFO::Fitting model to feature number 78, F82
+2025-05-28 14:14:44.096701 INFO::Fitting model to feature number 79, F83
+2025-05-28 14:14:44.097667 INFO::Fitting model to feature number 80, F84
+2025-05-28 14:14:44.098619 INFO::Fitting model to feature number 81, F85
+2025-05-28 14:14:44.099669 INFO::Fitting model to feature number 82, F86
+2025-05-28 14:14:44.100636 INFO::Fitting model to feature number 83, F87
+2025-05-28 14:14:44.101578 INFO::Fitting model to feature number 84, F88
+2025-05-28 14:14:44.102483 INFO::Fitting model to feature number 85, F89
+2025-05-28 14:14:44.103409 INFO::Fitting model to feature number 86, F90
+2025-05-28 14:14:44.104376 INFO::Fitting model to feature number 87, F91
+2025-05-28 14:14:44.105346 INFO::Fitting model to feature number 88, F92
+2025-05-28 14:14:44.106342 INFO::Fitting model to feature number 89, F93
+2025-05-28 14:14:44.10737 INFO::Fitting model to feature number 90, F94
+2025-05-28 14:14:44.114597 INFO::Fitting model to feature number 91, F95
+2025-05-28 14:14:44.115748 INFO::Fitting model to feature number 92, F96
+2025-05-28 14:14:44.116767 INFO::Fitting model to feature number 93, F97
+2025-05-28 14:14:44.12109 INFO::Fitting model to feature number 94, F98
+2025-05-28 14:14:44.122066 INFO::Fitting model to feature number 95, F99
+2025-05-28 14:14:44.123097 INFO::Fitting model to feature number 96, F100
+2025-05-28 14:14:44.124562 INFO::Fitting model to feature number 97, F101
+2025-05-28 14:14:44.125693 INFO::Fitting model to feature number 98, F102
+2025-05-28 14:14:44.126681 INFO::Fitting model to feature number 99, F103
+2025-05-28 14:14:44.127733 INFO::Fitting model to feature number 100, F104
+2025-05-28 14:14:44.128683 INFO::Fitting model to feature number 101, F105
+2025-05-28 14:14:44.129611 INFO::Fitting model to feature number 102, F106
+2025-05-28 14:14:44.13053 INFO::Fitting model to feature number 103, F107
+2025-05-28 14:14:44.131454 INFO::Fitting model to feature number 104, F108
+2025-05-28 14:14:44.135491 INFO::Fitting model to feature number 105, F109
+2025-05-28 14:14:44.136631 INFO::Fitting model to feature number 106, F110
+2025-05-28 14:14:44.137732 INFO::Fitting model to feature number 107, F111
+2025-05-28 14:14:44.138756 INFO::Fitting model to feature number 108, F112
+2025-05-28 14:14:44.13983 INFO::Fitting model to feature number 109, F113
+2025-05-28 14:14:44.140853 INFO::Fitting model to feature number 110, F114
+2025-05-28 14:14:44.141871 INFO::Fitting model to feature number 111, F115
+2025-05-28 14:14:44.14278 INFO::Fitting model to feature number 112, F117
+2025-05-28 14:14:44.143692 INFO::Fitting model to feature number 113, F118
+2025-05-28 14:14:44.144586 INFO::Fitting model to feature number 114, F119
+2025-05-28 14:14:44.145464 INFO::Fitting model to feature number 115, F120
+2025-05-28 14:14:44.146342 INFO::Fitting model to feature number 116, F121
+2025-05-28 14:14:44.147254 INFO::Fitting model to feature number 117, F122
+2025-05-28 14:14:44.14824 INFO::Fitting model to feature number 118, F123
+2025-05-28 14:14:44.149197 INFO::Fitting model to feature number 119, F124
+2025-05-28 14:14:44.150113 INFO::Fitting model to feature number 120, F125
+2025-05-28 14:14:44.151092 INFO::Fitting model to feature number 121, F126
+2025-05-28 14:14:44.152052 INFO::Fitting model to feature number 122, F127
+2025-05-28 14:14:44.153011 INFO::Fitting model to feature number 123, F128
+2025-05-28 14:14:44.153958 INFO::Fitting model to feature number 124, F129
+2025-05-28 14:14:44.154924 INFO::Fitting model to feature number 125, F130
+2025-05-28 14:14:44.15589 INFO::Fitting model to feature number 126, F131
+2025-05-28 14:14:44.156966 INFO::Fitting model to feature number 127, F132
+2025-05-28 14:14:44.158013 INFO::Fitting model to feature number 128, F133
+2025-05-28 14:14:44.158958 INFO::Fitting model to feature number 129, F134
+2025-05-28 14:14:44.159861 INFO::Fitting model to feature number 130, F135
+2025-05-28 14:14:44.16077 INFO::Fitting model to feature number 131, F136
+2025-05-28 14:14:44.161672 INFO::Fitting model to feature number 132, F137
+2025-05-28 14:14:44.162593 INFO::Fitting model to feature number 133, F138
+2025-05-28 14:14:44.16356 INFO::Fitting model to feature number 134, F139
+2025-05-28 14:14:44.164464 INFO::Fitting model to feature number 135, F140
+2025-05-28 14:14:44.16548 INFO::Fitting model to feature number 136, F141
+2025-05-28 14:14:44.166762 INFO::Fitting model to feature number 137, F142
+2025-05-28 14:14:44.171262 INFO::Fitting model to feature number 138, F143
+2025-05-28 14:14:44.172255 INFO::Fitting model to feature number 139, F144
+2025-05-28 14:14:44.173243 INFO::Fitting model to feature number 140, F145
+2025-05-28 14:14:44.174546 INFO::Fitting model to feature number 141, F146
+2025-05-28 14:14:44.17581 INFO::Fitting model to feature number 142, F147
+2025-05-28 14:14:44.176884 INFO::Fitting model to feature number 143, F148
+2025-05-28 14:14:44.177826 INFO::Fitting model to feature number 144, F149
+2025-05-28 14:14:44.178828 INFO::Fitting model to feature number 145, F150
+2025-05-28 14:14:44.179746 INFO::Fitting model to feature number 146, F152
+2025-05-28 14:14:44.180669 INFO::Fitting model to feature number 147, F153
+2025-05-28 14:14:44.181606 INFO::Fitting model to feature number 148, F154
+2025-05-28 14:14:44.182517 INFO::Fitting model to feature number 149, F155
+2025-05-28 14:14:44.183418 INFO::Fitting model to feature number 150, F156
+2025-05-28 14:14:44.184334 INFO::Fitting model to feature number 151, F157
+2025-05-28 14:14:44.185244 INFO::Fitting model to feature number 152, F158
+2025-05-28 14:14:44.186154 INFO::Fitting model to feature number 153, F159
+2025-05-28 14:14:44.187189 INFO::Fitting model to feature number 154, F160
+2025-05-28 14:14:44.188178 INFO::Fitting model to feature number 155, F161
+2025-05-28 14:14:44.189155 INFO::Fitting model to feature number 156, F162
+2025-05-28 14:14:44.190109 INFO::Fitting model to feature number 157, F163
+2025-05-28 14:14:44.19114 INFO::Fitting model to feature number 158, F164
+2025-05-28 14:14:44.192132 INFO::Fitting model to feature number 159, F165
+2025-05-28 14:14:44.193125 INFO::Fitting model to feature number 160, F166
+2025-05-28 14:14:44.194137 INFO::Fitting model to feature number 161, F167
+2025-05-28 14:14:44.195145 INFO::Fitting model to feature number 162, F168
+2025-05-28 14:14:44.196177 INFO::Fitting model to feature number 163, F169
+2025-05-28 14:14:44.197124 INFO::Fitting model to feature number 164, F170
+2025-05-28 14:14:44.198039 INFO::Fitting model to feature number 165, F171
+2025-05-28 14:14:44.198949 INFO::Fitting model to feature number 166, F172
+2025-05-28 14:14:44.199858 INFO::Fitting model to feature number 167, F173
+2025-05-28 14:14:44.200761 INFO::Fitting model to feature number 168, F174
+2025-05-28 14:14:44.201675 INFO::Fitting model to feature number 169, F175
+2025-05-28 14:14:44.20256 INFO::Fitting model to feature number 170, F176
+2025-05-28 14:14:44.203521 INFO::Fitting model to feature number 171, F177
+2025-05-28 14:14:44.204553 INFO::Fitting model to feature number 172, F178
+2025-05-28 14:14:44.205529 INFO::Fitting model to feature number 173, F179
+2025-05-28 14:14:44.20671 INFO::Fitting model to feature number 174, F180
+2025-05-28 14:14:44.207997 INFO::Fitting model to feature number 175, F181
+2025-05-28 14:14:44.209084 INFO::Fitting model to feature number 176, F182
+2025-05-28 14:14:44.210125 INFO::Fitting model to feature number 177, F183
+2025-05-28 14:14:44.211169 INFO::Fitting model to feature number 178, F184
+2025-05-28 14:14:44.212152 INFO::Fitting model to feature number 179, F185
+2025-05-28 14:14:44.213085 INFO::Fitting model to feature number 180, F186
+2025-05-28 14:14:44.214117 INFO::Fitting model to feature number 181, F187
+2025-05-28 14:14:44.215041 INFO::Fitting model to feature number 182, F188
+2025-05-28 14:14:44.215974 INFO::Fitting model to feature number 183, F189
+2025-05-28 14:14:44.21689 INFO::Fitting model to feature number 184, F190
+2025-05-28 14:14:44.21782 INFO::Fitting model to feature number 185, F191
+2025-05-28 14:14:44.218734 INFO::Fitting model to feature number 186, F192
+2025-05-28 14:14:44.219657 INFO::Fitting model to feature number 187, F193
+2025-05-28 14:14:44.220613 INFO::Fitting model to feature number 188, F194
+2025-05-28 14:14:44.221592 INFO::Fitting model to feature number 189, F195
+2025-05-28 14:14:44.222646 INFO::Fitting model to feature number 190, F196
+2025-05-28 14:14:44.223651 INFO::Fitting model to feature number 191, F197
+2025-05-28 14:14:44.228586 INFO::Fitting model to feature number 192, F198
+2025-05-28 14:14:44.233862 INFO::Fitting model to feature number 193, F199
+2025-05-28 14:14:44.235218 INFO::Fitting model to feature number 194, F200
+2025-05-28 14:14:44.236726 INFO::Fitting model to feature number 195, F201
+2025-05-28 14:14:44.238847 INFO::Fitting model to feature number 196, F202
+2025-05-28 14:14:44.240105 INFO::Fitting model to feature number 197, F203
+2025-05-28 14:14:44.241197 INFO::Fitting model to feature number 198, F204
+2025-05-28 14:14:44.242359 INFO::Fitting model to feature number 199, F206
+2025-05-28 14:14:44.2435 INFO::Fitting model to feature number 200, F207
+2025-05-28 14:14:44.244629 INFO::Fitting model to feature number 201, F208
+2025-05-28 14:14:44.245746 INFO::Fitting model to feature number 202, F209
+2025-05-28 14:14:44.246787 INFO::Fitting model to feature number 203, F210
+2025-05-28 14:14:44.247833 INFO::Fitting model to feature number 204, F211
+2025-05-28 14:14:44.248775 INFO::Fitting model to feature number 205, F212
+2025-05-28 14:14:44.249745 INFO::Fitting model to feature number 206, F213
+2025-05-28 14:14:44.250672 INFO::Fitting model to feature number 207, F214
+2025-05-28 14:14:44.251675 INFO::Fitting model to feature number 208, F215
+2025-05-28 14:14:44.25265 INFO::Fitting model to feature number 209, F216
+2025-05-28 14:14:44.25363 INFO::Fitting model to feature number 210, F217
+2025-05-28 14:14:44.254593 INFO::Fitting model to feature number 211, F218
+2025-05-28 14:14:44.255558 INFO::Fitting model to feature number 212, F219
+2025-05-28 14:14:44.25651 INFO::Fitting model to feature number 213, F220
+2025-05-28 14:14:44.257514 INFO::Fitting model to feature number 214, F221
+2025-05-28 14:14:44.25856 INFO::Fitting model to feature number 215, F222
+2025-05-28 14:14:44.25958 INFO::Fitting model to feature number 216, F223
+2025-05-28 14:14:44.260592 INFO::Fitting model to feature number 217, F224
+2025-05-28 14:14:44.261542 INFO::Fitting model to feature number 218, F225
+2025-05-28 14:14:44.262513 INFO::Fitting model to feature number 219, F226
+2025-05-28 14:14:44.263486 INFO::Fitting model to feature number 220, F227
+2025-05-28 14:14:44.264447 INFO::Fitting model to feature number 221, F228
+2025-05-28 14:14:44.265348 INFO::Fitting model to feature number 222, F229
+2025-05-28 14:14:44.266263 INFO::Fitting model to feature number 223, F230
+2025-05-28 14:14:44.267203 INFO::Fitting model to feature number 224, F231
+2025-05-28 14:14:44.268151 INFO::Fitting model to feature number 225, F232
+2025-05-28 14:14:44.269211 INFO::Fitting model to feature number 226, F233
+2025-05-28 14:14:44.270174 INFO::Fitting model to feature number 227, F234
+2025-05-28 14:14:44.271108 INFO::Fitting model to feature number 228, F235
+2025-05-28 14:14:44.272061 INFO::Fitting model to feature number 229, F236
+2025-05-28 14:14:44.273002 INFO::Fitting model to feature number 230, F237
+2025-05-28 14:14:44.273958 INFO::Fitting model to feature number 231, F238
+2025-05-28 14:14:44.275146 INFO::Fitting model to feature number 232, F239
+2025-05-28 14:14:44.276463 INFO::Fitting model to feature number 233, F240
+2025-05-28 14:14:44.277505 INFO::Fitting model to feature number 234, F241
+2025-05-28 14:14:44.278613 INFO::Fitting model to feature number 235, F242
+2025-05-28 14:14:44.279691 INFO::Fitting model to feature number 236, F243
+2025-05-28 14:14:44.280661 INFO::Fitting model to feature number 237, F244
+2025-05-28 14:14:44.281608 INFO::Fitting model to feature number 238, F245
+2025-05-28 14:14:44.282518 INFO::Fitting model to feature number 239, F246
+2025-05-28 14:14:44.283431 INFO::Fitting model to feature number 240, F247
+2025-05-28 14:14:44.284336 INFO::Fitting model to feature number 241, F248
+2025-05-28 14:14:44.285245 INFO::Fitting model to feature number 242, F249
+2025-05-28 14:14:44.286152 INFO::Fitting model to feature number 243, F250
+2025-05-28 14:14:44.287171 INFO::Fitting model to feature number 244, F252
+2025-05-28 14:14:44.288133 INFO::Fitting model to feature number 245, F253
+2025-05-28 14:14:44.289143 INFO::Fitting model to feature number 246, F254
+2025-05-28 14:14:44.290162 INFO::Fitting model to feature number 247, F255
+2025-05-28 14:14:44.29121 INFO::Fitting model to feature number 248, F256
+2025-05-28 14:14:44.306516 INFO::Fitting model to feature number 249, F257
+2025-05-28 14:14:44.307708 INFO::Fitting model to feature number 250, F259
+2025-05-28 14:14:44.308762 INFO::Fitting model to feature number 251, F260
+2025-05-28 14:14:44.309727 INFO::Fitting model to feature number 252, F261
+2025-05-28 14:14:44.310712 INFO::Fitting model to feature number 253, F262
+2025-05-28 14:14:44.311601 INFO::Fitting model to feature number 254, F263
+2025-05-28 14:14:44.312468 INFO::Fitting model to feature number 255, F264
+2025-05-28 14:14:44.313334 INFO::Fitting model to feature number 256, F265
+2025-05-28 14:14:44.314207 INFO::Fitting model to feature number 257, F266
+2025-05-28 14:14:44.315074 INFO::Fitting model to feature number 258, F267
+2025-05-28 14:14:44.315938 INFO::Fitting model to feature number 259, F269
+2025-05-28 14:14:44.31682 INFO::Fitting model to feature number 260, F270
+2025-05-28 14:14:44.317751 INFO::Fitting model to feature number 261, F271
+2025-05-28 14:14:44.318681 INFO::Fitting model to feature number 262, F272
+2025-05-28 14:14:44.319573 INFO::Fitting model to feature number 263, F273
+2025-05-28 14:14:44.320479 INFO::Fitting model to feature number 264, F274
+2025-05-28 14:14:44.321465 INFO::Fitting model to feature number 265, F276
+2025-05-28 14:14:44.3224 INFO::Fitting model to feature number 266, F277
+2025-05-28 14:14:44.323298 INFO::Fitting model to feature number 267, F278
+2025-05-28 14:14:44.324202 INFO::Fitting model to feature number 268, F279
+2025-05-28 14:14:44.325122 INFO::Fitting model to feature number 269, F280
+2025-05-28 14:14:44.326109 INFO::Fitting model to feature number 270, F281
+2025-05-28 14:14:44.327137 INFO::Fitting model to feature number 271, F282
+2025-05-28 14:14:44.328001 INFO::Fitting model to feature number 272, F283
+2025-05-28 14:14:44.328851 INFO::Fitting model to feature number 273, F284
+2025-05-28 14:14:44.329702 INFO::Fitting model to feature number 274, F285
+2025-05-28 14:14:44.330554 INFO::Fitting model to feature number 275, F286
+2025-05-28 14:14:44.331404 INFO::Fitting model to feature number 276, F287
+2025-05-28 14:14:44.332345 INFO::Fitting model to feature number 277, F288
+2025-05-28 14:14:44.333207 INFO::Fitting model to feature number 278, F289
+2025-05-28 14:14:44.334114 INFO::Fitting model to feature number 279, F290
+2025-05-28 14:14:44.335071 INFO::Fitting model to feature number 280, F292
+2025-05-28 14:14:44.336009 INFO::Fitting model to feature number 281, F293
+2025-05-28 14:14:44.336957 INFO::Fitting model to feature number 282, F294
+2025-05-28 14:14:44.337871 INFO::Fitting model to feature number 283, F295
+2025-05-28 14:14:44.338805 INFO::Fitting model to feature number 284, F296
+2025-05-28 14:14:44.339751 INFO::Fitting model to feature number 285, F297
+2025-05-28 14:14:44.34073 INFO::Fitting model to feature number 286, F298
+2025-05-28 14:14:44.341758 INFO::Fitting model to feature number 287, F299
+2025-05-28 14:14:44.342655 INFO::Fitting model to feature number 288, F300
+2025-05-28 14:14:44.343598 INFO::Fitting model to feature number 289, F301
+2025-05-28 14:14:44.344463 INFO::Fitting model to feature number 290, F302
+2025-05-28 14:14:44.345327 INFO::Fitting model to feature number 291, F303
+2025-05-28 14:14:44.34618 INFO::Fitting model to feature number 292, F304
+2025-05-28 14:14:44.347132 INFO::Fitting model to feature number 293, F305
+2025-05-28 14:14:44.347999 INFO::Fitting model to feature number 294, F306
+2025-05-28 14:14:44.34893 INFO::Fitting model to feature number 295, F307
+2025-05-28 14:14:44.349825 INFO::Fitting model to feature number 296, F308
+2025-05-28 14:14:44.35075 INFO::Fitting model to feature number 297, F309
+2025-05-28 14:14:44.351818 INFO::Fitting model to feature number 298, F310
+2025-05-28 14:14:44.352697 INFO::Fitting model to feature number 299, F311
+2025-05-28 14:14:44.353615 INFO::Fitting model to feature number 300, F312
+2025-05-28 14:14:44.354532 INFO::Fitting model to feature number 301, F313
+2025-05-28 14:14:44.355468 INFO::Fitting model to feature number 302, F315
+2025-05-28 14:14:44.356377 INFO::Fitting model to feature number 303, F316
+2025-05-28 14:14:44.357287 INFO::Fitting model to feature number 304, F317
+2025-05-28 14:14:44.35824 INFO::Fitting model to feature number 305, F318
+2025-05-28 14:14:44.35922 INFO::Fitting model to feature number 306, F319
+2025-05-28 14:14:44.360182 INFO::Fitting model to feature number 307, F320
+2025-05-28 14:14:44.361046 INFO::Fitting model to feature number 308, F321
+2025-05-28 14:14:44.361898 INFO::Fitting model to feature number 309, F322
+2025-05-28 14:14:44.362835 INFO::Fitting model to feature number 310, F323
+2025-05-28 14:14:44.363723 INFO::Fitting model to feature number 311, F324
+2025-05-28 14:14:44.364643 INFO::Fitting model to feature number 312, F325
+2025-05-28 14:14:44.365563 INFO::Fitting model to feature number 313, F326
+2025-05-28 14:14:44.366465 INFO::Fitting model to feature number 314, F327
+2025-05-28 14:14:44.36742 INFO::Fitting model to feature number 315, F328
+2025-05-28 14:14:44.368365 INFO::Fitting model to feature number 316, F329
+2025-05-28 14:14:44.369244 INFO::Fitting model to feature number 317, F330
+2025-05-28 14:14:44.370147 INFO::Fitting model to feature number 318, F331
+2025-05-28 14:14:44.371052 INFO::Fitting model to feature number 319, F332
+2025-05-28 14:14:44.371958 INFO::Fitting model to feature number 320, F333
+2025-05-28 14:14:44.372869 INFO::Fitting model to feature number 321, F334
+2025-05-28 14:14:44.373812 INFO::Fitting model to feature number 322, F335
+2025-05-28 14:14:44.374788 INFO::Fitting model to feature number 323, F336
+2025-05-28 14:14:44.375813 INFO::Fitting model to feature number 324, F337
+2025-05-28 14:14:44.376789 INFO::Fitting model to feature number 325, F338
+2025-05-28 14:14:44.377694 INFO::Fitting model to feature number 326, F339
+2025-05-28 14:14:44.37862 INFO::Fitting model to feature number 327, F340
+2025-05-28 14:14:44.379484 INFO::Fitting model to feature number 328, F342
+2025-05-28 14:14:44.380383 INFO::Fitting model to feature number 329, F343
+2025-05-28 14:14:44.381265 INFO::Fitting model to feature number 330, F344
+2025-05-28 14:14:44.382187 INFO::Fitting model to feature number 331, F345
+2025-05-28 14:14:44.383138 INFO::Fitting model to feature number 332, F346
+2025-05-28 14:14:44.38399 INFO::Fitting model to feature number 333, F347
+2025-05-28 14:14:44.384909 INFO::Fitting model to feature number 334, F348
+2025-05-28 14:14:44.385774 INFO::Fitting model to feature number 335, F350
+2025-05-28 14:14:44.386648 INFO::Fitting model to feature number 336, F351
+2025-05-28 14:14:44.387556 INFO::Fitting model to feature number 337, F352
+2025-05-28 14:14:44.388467 INFO::Fitting model to feature number 338, F353
+2025-05-28 14:14:44.38937 INFO::Fitting model to feature number 339, F355
+2025-05-28 14:14:44.39028 INFO::Fitting model to feature number 340, F356
+2025-05-28 14:14:44.391211 INFO::Fitting model to feature number 341, F357
+2025-05-28 14:14:44.392189 INFO::Fitting model to feature number 342, F358
+2025-05-28 14:14:44.393277 INFO::Fitting model to feature number 343, F359
+2025-05-28 14:14:44.394223 INFO::Fitting model to feature number 344, F360
+2025-05-28 14:14:44.395106 INFO::Fitting model to feature number 345, F361
+2025-05-28 14:14:44.396012 INFO::Fitting model to feature number 346, F362
+2025-05-28 14:14:44.396917 INFO::Fitting model to feature number 347, F363
+2025-05-28 14:14:44.397849 INFO::Fitting model to feature number 348, F364
+2025-05-28 14:14:44.398783 INFO::Fitting model to feature number 349, F365
+2025-05-28 14:14:44.399642 INFO::Fitting model to feature number 350, F366
+2025-05-28 14:14:44.400526 INFO::Fitting model to feature number 351, F367
+2025-05-28 14:14:44.401471 INFO::Fitting model to feature number 352, F368
+2025-05-28 14:14:44.40233 INFO::Fitting model to feature number 353, F369
+2025-05-28 14:14:44.403192 INFO::Fitting model to feature number 354, F370
+2025-05-28 14:14:44.404107 INFO::Fitting model to feature number 355, F371
+2025-05-28 14:14:44.405007 INFO::Fitting model to feature number 356, F372
+2025-05-28 14:14:44.405941 INFO::Fitting model to feature number 357, F373
+2025-05-28 14:14:44.406861 INFO::Fitting model to feature number 358, F374
+2025-05-28 14:14:44.407773 INFO::Fitting model to feature number 359, F375
+2025-05-28 14:14:44.408722 INFO::Fitting model to feature number 360, F376
+2025-05-28 14:14:44.410122 INFO::Fitting model to feature number 361, F377
+2025-05-28 14:14:44.411378 INFO::Fitting model to feature number 362, F378
+2025-05-28 14:14:44.412423 INFO::Fitting model to feature number 363, F379
+2025-05-28 14:14:44.413408 INFO::Fitting model to feature number 364, F380
+2025-05-28 14:14:44.414407 INFO::Fitting model to feature number 365, F381
+2025-05-28 14:14:44.415343 INFO::Fitting model to feature number 366, F382
+2025-05-28 14:14:44.416258 INFO::Fitting model to feature number 367, F383
+2025-05-28 14:14:44.417157 INFO::Fitting model to feature number 368, F384
+2025-05-28 14:14:44.418047 INFO::Fitting model to feature number 369, F386
+2025-05-28 14:14:44.419021 INFO::Fitting model to feature number 370, F387
+2025-05-28 14:14:44.41997 INFO::Fitting model to feature number 371, F388
+2025-05-28 14:14:44.420948 INFO::Fitting model to feature number 372, F389
+2025-05-28 14:14:44.421869 INFO::Fitting model to feature number 373, F390
+2025-05-28 14:14:44.422804 INFO::Fitting model to feature number 374, F391
+2025-05-28 14:14:44.423728 INFO::Fitting model to feature number 375, F392
+2025-05-28 14:14:44.424732 INFO::Fitting model to feature number 376, F393
+2025-05-28 14:14:44.425987 INFO::Fitting model to feature number 377, F394
+2025-05-28 14:14:44.42728 INFO::Fitting model to feature number 378, F395
+2025-05-28 14:14:44.42837 INFO::Fitting model to feature number 379, F396
+2025-05-28 14:14:44.429349 INFO::Fitting model to feature number 380, F397
+2025-05-28 14:14:44.430356 INFO::Fitting model to feature number 381, F398
+2025-05-28 14:14:44.431274 INFO::Fitting model to feature number 382, F399
+2025-05-28 14:14:44.432169 INFO::Fitting model to feature number 383, F400
+2025-05-28 14:14:44.433068 INFO::Fitting model to feature number 384, F401
+2025-05-28 14:14:44.433955 INFO::Fitting model to feature number 385, F402
+2025-05-28 14:14:44.434844 INFO::Fitting model to feature number 386, F403
+2025-05-28 14:14:44.43573 INFO::Fitting model to feature number 387, F404
+2025-05-28 14:14:44.436723 INFO::Fitting model to feature number 388, F406
+2025-05-28 14:14:44.437657 INFO::Fitting model to feature number 389, F407
+2025-05-28 14:14:44.438574 INFO::Fitting model to feature number 390, F408
+2025-05-28 14:14:44.439508 INFO::Fitting model to feature number 391, F409
+2025-05-28 14:14:44.440403 INFO::Fitting model to feature number 392, F410
+2025-05-28 14:14:44.441357 INFO::Fitting model to feature number 393, F411
+2025-05-28 14:14:44.442342 INFO::Fitting model to feature number 394, F412
+2025-05-28 14:14:44.44335 INFO::Fitting model to feature number 395, F413
+2025-05-28 14:14:44.444304 INFO::Fitting model to feature number 396, F414
+2025-05-28 14:14:44.445292 INFO::Fitting model to feature number 397, F415
+2025-05-28 14:14:44.446205 INFO::Fitting model to feature number 398, F416
+2025-05-28 14:14:44.45289 INFO::Fitting model to feature number 399, F417
+2025-05-28 14:14:44.455302 INFO::Fitting model to feature number 400, F418
+2025-05-28 14:14:44.456435 INFO::Fitting model to feature number 401, F419
+2025-05-28 14:14:44.457451 INFO::Fitting model to feature number 402, F420
+2025-05-28 14:14:44.458427 INFO::Fitting model to feature number 403, F421
+2025-05-28 14:14:44.459574 INFO::Fitting model to feature number 404, F422
+2025-05-28 14:14:44.460698 INFO::Fitting model to feature number 405, F423
+2025-05-28 14:14:44.462243 INFO::Fitting model to feature number 406, F425
+2025-05-28 14:14:44.463583 INFO::Fitting model to feature number 407, F426
+2025-05-28 14:14:44.464869 INFO::Fitting model to feature number 408, F428
+2025-05-28 14:14:44.465921 INFO::Fitting model to feature number 409, F429
+2025-05-28 14:14:44.46684 INFO::Fitting model to feature number 410, F430
+2025-05-28 14:14:44.467787 INFO::Fitting model to feature number 411, F431
+2025-05-28 14:14:44.468755 INFO::Fitting model to feature number 412, F432
+2025-05-28 14:14:44.469742 INFO::Fitting model to feature number 413, F433
+2025-05-28 14:14:44.470673 INFO::Fitting model to feature number 414, F434
+2025-05-28 14:14:44.471683 INFO::Fitting model to feature number 415, F435
+2025-05-28 14:14:44.472631 INFO::Fitting model to feature number 416, F436
+2025-05-28 14:14:44.473558 INFO::Fitting model to feature number 417, F437
+2025-05-28 14:14:44.474519 INFO::Fitting model to feature number 418, F438
+2025-05-28 14:14:44.475489 INFO::Fitting model to feature number 419, F439
+2025-05-28 14:14:44.476491 INFO::Fitting model to feature number 420, F440
+2025-05-28 14:14:44.477578 INFO::Fitting model to feature number 421, F441
+2025-05-28 14:14:44.478529 INFO::Fitting model to feature number 422, F442
+2025-05-28 14:14:44.479463 INFO::Fitting model to feature number 423, F443
+2025-05-28 14:14:44.480515 INFO::Fitting model to feature number 424, F444
+2025-05-28 14:14:44.481407 INFO::Fitting model to feature number 425, F445
+2025-05-28 14:14:44.482359 INFO::Fitting model to feature number 426, F446
+2025-05-28 14:14:44.483344 INFO::Fitting model to feature number 427, F447
+2025-05-28 14:14:44.487337 INFO::Fitting model to feature number 428, F448
+2025-05-28 14:14:44.491104 INFO::Fitting model to feature number 429, F449
+2025-05-28 14:14:44.492061 INFO::Fitting model to feature number 430, F450
+2025-05-28 14:14:44.493164 INFO::Fitting model to feature number 431, F451
+2025-05-28 14:14:44.494369 INFO::Fitting model to feature number 432, F452
+2025-05-28 14:14:44.495516 INFO::Fitting model to feature number 433, F454
+2025-05-28 14:14:44.496496 INFO::Fitting model to feature number 434, F455
+2025-05-28 14:14:44.497413 INFO::Fitting model to feature number 435, F456
+2025-05-28 14:14:44.498307 INFO::Fitting model to feature number 436, F457
+2025-05-28 14:14:44.499191 INFO::Fitting model to feature number 437, F458
+2025-05-28 14:14:44.500123 INFO::Fitting model to feature number 438, F459
+2025-05-28 14:14:44.501086 INFO::Fitting model to feature number 439, F461
+2025-05-28 14:14:44.502059 INFO::Fitting model to feature number 440, F462
+2025-05-28 14:14:44.503022 INFO::Fitting model to feature number 441, F463
+2025-05-28 14:14:44.504074 INFO::Fitting model to feature number 442, F464
+2025-05-28 14:14:44.505063 INFO::Fitting model to feature number 443, F465
+2025-05-28 14:14:44.506033 INFO::Fitting model to feature number 444, F466
+2025-05-28 14:14:44.507239 INFO::Fitting model to feature number 445, F467
+2025-05-28 14:14:44.508459 INFO::Fitting model to feature number 446, F468
+2025-05-28 14:14:44.509557 INFO::Fitting model to feature number 447, F469
+2025-05-28 14:14:44.51054 INFO::Fitting model to feature number 448, F470
+2025-05-28 14:14:44.51147 INFO::Fitting model to feature number 449, F471
+2025-05-28 14:14:44.512427 INFO::Fitting model to feature number 450, F474
+2025-05-28 14:14:44.513465 INFO::Fitting model to feature number 451, F475
+2025-05-28 14:14:44.514358 INFO::Fitting model to feature number 452, F476
+2025-05-28 14:14:44.51523 INFO::Fitting model to feature number 453, F477
+2025-05-28 14:14:44.516105 INFO::Fitting model to feature number 454, F478
+2025-05-28 14:14:44.516988 INFO::Fitting model to feature number 455, F479
+2025-05-28 14:14:44.517854 INFO::Fitting model to feature number 456, F480
+2025-05-28 14:14:44.51872 INFO::Fitting model to feature number 457, F481
+2025-05-28 14:14:44.519586 INFO::Fitting model to feature number 458, F482
+2025-05-28 14:14:44.520492 INFO::Fitting model to feature number 459, F483
+2025-05-28 14:14:44.521482 INFO::Fitting model to feature number 460, F484
+2025-05-28 14:14:44.522427 INFO::Fitting model to feature number 461, F485
+2025-05-28 14:14:44.523343 INFO::Fitting model to feature number 462, F486
+2025-05-28 14:14:44.524296 INFO::Fitting model to feature number 463, F487
+2025-05-28 14:14:44.525207 INFO::Fitting model to feature number 464, F488
+2025-05-28 14:14:44.526162 INFO::Fitting model to feature number 465, F489
+2025-05-28 14:14:44.527208 INFO::Fitting model to feature number 466, F490
+2025-05-28 14:14:44.528192 INFO::Fitting model to feature number 467, F491
+2025-05-28 14:14:44.529114 INFO::Fitting model to feature number 468, F492
+2025-05-28 14:14:44.530084 INFO::Fitting model to feature number 469, F493
+2025-05-28 14:14:44.531042 INFO::Fitting model to feature number 470, F494
+2025-05-28 14:14:44.531979 INFO::Fitting model to feature number 471, F495
+2025-05-28 14:14:44.532877 INFO::Fitting model to feature number 472, F496
+2025-05-28 14:14:44.53376 INFO::Fitting model to feature number 473, F497
+2025-05-28 14:14:44.534655 INFO::Fitting model to feature number 474, F498
+2025-05-28 14:14:44.535551 INFO::Fitting model to feature number 475, F499
+2025-05-28 14:14:44.536466 INFO::Fitting model to feature number 476, F500
+2025-05-28 14:14:44.537385 INFO::Fitting model to feature number 477, F501
+2025-05-28 14:14:44.538399 INFO::Fitting model to feature number 478, F502
+2025-05-28 14:14:44.539324 INFO::Fitting model to feature number 479, F503
+2025-05-28 14:14:44.54026 INFO::Fitting model to feature number 480, F504
+2025-05-28 14:14:44.54119 INFO::Fitting model to feature number 481, F505
+2025-05-28 14:14:44.54212 INFO::Fitting model to feature number 482, F506
+2025-05-28 14:14:44.543306 INFO::Fitting model to feature number 483, F507
+2025-05-28 14:14:44.544547 INFO::Fitting model to feature number 484, F508
+2025-05-28 14:14:44.545558 INFO::Fitting model to feature number 485, F509
+2025-05-28 14:14:44.546529 INFO::Fitting model to feature number 486, F510
+2025-05-28 14:14:44.547546 INFO::Fitting model to feature number 487, F511
+2025-05-28 14:14:44.548538 INFO::Fitting model to feature number 488, F512
+2025-05-28 14:14:44.549459 INFO::Fitting model to feature number 489, F513
+2025-05-28 14:14:44.550361 INFO::Fitting model to feature number 490, F514
+2025-05-28 14:14:44.554199 INFO::Fitting model to feature number 491, F515
+2025-05-28 14:14:44.555107 INFO::Fitting model to feature number 492, F516
+2025-05-28 14:14:44.556009 INFO::Fitting model to feature number 493, F517
+2025-05-28 14:14:44.556919 INFO::Fitting model to feature number 494, F518
+2025-05-28 14:14:44.557872 INFO::Fitting model to feature number 495, F519
+2025-05-28 14:14:44.558966 INFO::Fitting model to feature number 496, F520
+2025-05-28 14:14:44.559925 INFO::Fitting model to feature number 497, F521
+2025-05-28 14:14:44.560871 INFO::Fitting model to feature number 498, F522
+2025-05-28 14:14:44.561821 INFO::Fitting model to feature number 499, F523
+2025-05-28 14:14:44.562705 INFO::Fitting model to feature number 500, F524
+2025-05-28 14:14:44.563601 INFO::Fitting model to feature number 501, F525
+2025-05-28 14:14:44.564476 INFO::Fitting model to feature number 502, F526
+2025-05-28 14:14:44.565357 INFO::Fitting model to feature number 503, F527
+2025-05-28 14:14:44.566242 INFO::Fitting model to feature number 504, F528
+2025-05-28 14:14:44.567218 INFO::Fitting model to feature number 505, F529
+2025-05-28 14:14:44.568114 INFO::Fitting model to feature number 506, F530
+2025-05-28 14:14:44.568994 INFO::Fitting model to feature number 507, F531
+2025-05-28 14:14:44.56989 INFO::Fitting model to feature number 508, F532
+2025-05-28 14:14:44.570809 INFO::Fitting model to feature number 509, F533
+2025-05-28 14:14:44.57174 INFO::Fitting model to feature number 510, F534
+2025-05-28 14:14:44.572699 INFO::Fitting model to feature number 511, F535
+2025-05-28 14:14:44.573624 INFO::Fitting model to feature number 512, F536
+2025-05-28 14:14:44.574533 INFO::Fitting model to feature number 513, F537
+2025-05-28 14:14:44.575488 INFO::Fitting model to feature number 514, F539
+2025-05-28 14:14:44.576412 INFO::Fitting model to feature number 515, F540
+2025-05-28 14:14:44.577426 INFO::Fitting model to feature number 516, F541
+2025-05-28 14:14:44.578418 INFO::Fitting model to feature number 517, F543
+2025-05-28 14:14:44.57933 INFO::Fitting model to feature number 518, F544
+2025-05-28 14:14:44.580242 INFO::Fitting model to feature number 519, F545
+2025-05-28 14:14:44.581173 INFO::Fitting model to feature number 520, F546
+2025-05-28 14:14:44.588454 INFO::Fitting model to feature number 521, F547
+2025-05-28 14:14:44.590602 INFO::Fitting model to feature number 522, F548
+2025-05-28 14:14:44.592007 INFO::Fitting model to feature number 523, F549
+2025-05-28 14:14:44.593264 INFO::Fitting model to feature number 524, F550
+2025-05-28 14:14:44.594618 INFO::Fitting model to feature number 525, F551
+2025-05-28 14:14:44.596036 INFO::Fitting model to feature number 526, F552
+2025-05-28 14:14:44.598368 INFO::Fitting model to feature number 527, F553
+2025-05-28 14:14:44.599617 INFO::Fitting model to feature number 528, F554
+2025-05-28 14:14:44.600646 INFO::Fitting model to feature number 529, F555
+2025-05-28 14:14:44.601564 INFO::Fitting model to feature number 530, F556
+2025-05-28 14:14:44.602451 INFO::Fitting model to feature number 531, F557
+2025-05-28 14:14:44.60346 INFO::Fitting model to feature number 532, F558
+2025-05-28 14:14:44.604404 INFO::Fitting model to feature number 533, F559
+2025-05-28 14:14:44.605418 INFO::Fitting model to feature number 534, F560
+2025-05-28 14:14:44.606895 INFO::Fitting model to feature number 535, F561
+2025-05-28 14:14:44.608133 INFO::Fitting model to feature number 536, F562
+2025-05-28 14:14:44.609248 INFO::Fitting model to feature number 537, F563
+2025-05-28 14:14:44.610449 INFO::Fitting model to feature number 538, F564
+2025-05-28 14:14:44.612303 INFO::Fitting model to feature number 539, F566
+2025-05-28 14:14:44.613565 INFO::Fitting model to feature number 540, F567
+2025-05-28 14:14:44.614694 INFO::Fitting model to feature number 541, F568
+2025-05-28 14:14:44.615649 INFO::Fitting model to feature number 542, F569
+2025-05-28 14:14:44.616594 INFO::Fitting model to feature number 543, F570
+2025-05-28 14:14:44.617578 INFO::Fitting model to feature number 544, F571
+2025-05-28 14:14:44.618494 INFO::Fitting model to feature number 545, F572
+2025-05-28 14:14:44.6194 INFO::Fitting model to feature number 546, F573
+2025-05-28 14:14:44.620336 INFO::Fitting model to feature number 547, F574
+2025-05-28 14:14:44.621343 INFO::Fitting model to feature number 548, F575
+2025-05-28 14:14:44.622338 INFO::Fitting model to feature number 549, F576
+2025-05-28 14:14:44.62343 INFO::Fitting model to feature number 550, F577
+2025-05-28 14:14:44.62446 INFO::Fitting model to feature number 551, F578
+2025-05-28 14:14:44.625428 INFO::Fitting model to feature number 552, F579
+2025-05-28 14:14:44.626343 INFO::Fitting model to feature number 553, F580
+2025-05-28 14:14:44.62731 INFO::Fitting model to feature number 554, F581
+2025-05-28 14:14:44.628511 INFO::Fitting model to feature number 555, F582
+2025-05-28 14:14:44.629714 INFO::Fitting model to feature number 556, F583
+2025-05-28 14:14:44.630718 INFO::Fitting model to feature number 557, F584
+2025-05-28 14:14:44.631666 INFO::Fitting model to feature number 558, F585
+2025-05-28 14:14:44.63276 INFO::Fitting model to feature number 559, F586
+2025-05-28 14:14:44.633718 INFO::Fitting model to feature number 560, F587
+2025-05-28 14:14:44.634615 INFO::Fitting model to feature number 561, F588
+2025-05-28 14:14:44.646104 INFO::Fitting model to feature number 562, F589
+2025-05-28 14:14:44.647355 INFO::Fitting model to feature number 563, F590
+2025-05-28 14:14:44.648382 INFO::Fitting model to feature number 564, F591
+2025-05-28 14:14:44.64929 INFO::Fitting model to feature number 565, F592
+2025-05-28 14:14:44.650181 INFO::Fitting model to feature number 566, F593
+2025-05-28 14:14:44.651073 INFO::Fitting model to feature number 567, F594
+2025-05-28 14:14:44.652028 INFO::Fitting model to feature number 568, F595
+2025-05-28 14:14:44.652937 INFO::Fitting model to feature number 569, F596
+2025-05-28 14:14:44.653827 INFO::Fitting model to feature number 570, F597
+2025-05-28 14:14:44.65471 INFO::Fitting model to feature number 571, F598
+2025-05-28 14:14:44.65563 INFO::Fitting model to feature number 572, F599
+2025-05-28 14:14:44.656524 INFO::Fitting model to feature number 573, F600
+2025-05-28 14:14:44.65741 INFO::Fitting model to feature number 574, F601
+2025-05-28 14:14:44.658337 INFO::Fitting model to feature number 575, F602
+2025-05-28 14:14:44.659313 INFO::Fitting model to feature number 576, F603
+2025-05-28 14:14:44.660736 INFO::Fitting model to feature number 577, F605
+2025-05-28 14:14:44.662103 INFO::Fitting model to feature number 578, F606
+2025-05-28 14:14:44.663153 INFO::Fitting model to feature number 579, F607
+2025-05-28 14:14:44.664119 INFO::Fitting model to feature number 580, F608
+2025-05-28 14:14:44.665114 INFO::Fitting model to feature number 581, F609
+2025-05-28 14:14:44.666005 INFO::Fitting model to feature number 582, F610
+2025-05-28 14:14:44.666893 INFO::Fitting model to feature number 583, F611
+2025-05-28 14:14:44.667803 INFO::Fitting model to feature number 584, F612
+2025-05-28 14:14:44.668695 INFO::Fitting model to feature number 585, F613
+2025-05-28 14:14:44.669713 INFO::Fitting model to feature number 586, F614
+2025-05-28 14:14:44.670654 INFO::Fitting model to feature number 587, F615
+2025-05-28 14:14:44.6716 INFO::Fitting model to feature number 588, F616
+2025-05-28 14:14:44.672551 INFO::Fitting model to feature number 589, F617
+2025-05-28 14:14:44.673494 INFO::Fitting model to feature number 590, F618
+2025-05-28 14:14:44.674399 INFO::Fitting model to feature number 591, F619
+2025-05-28 14:14:44.675314 INFO::Fitting model to feature number 592, F620
+2025-05-28 14:14:44.676351 INFO::Fitting model to feature number 593, F621
+2025-05-28 14:14:44.677412 INFO::Fitting model to feature number 594, F622
+2025-05-28 14:14:44.678537 INFO::Fitting model to feature number 595, F623
+2025-05-28 14:14:44.679496 INFO::Fitting model to feature number 596, F624
+2025-05-28 14:14:44.680419 INFO::Fitting model to feature number 597, F625
+2025-05-28 14:14:44.681327 INFO::Fitting model to feature number 598, F626
+2025-05-28 14:14:44.68229 INFO::Fitting model to feature number 599, F627
+2025-05-28 14:14:44.683211 INFO::Fitting model to feature number 600, F628
+2025-05-28 14:14:44.684093 INFO::Fitting model to feature number 601, F629
+2025-05-28 14:14:44.684983 INFO::Fitting model to feature number 602, F630
+2025-05-28 14:14:44.685933 INFO::Fitting model to feature number 603, F631
+2025-05-28 14:14:44.686982 INFO::Fitting model to feature number 604, F632
+2025-05-28 14:14:44.687934 INFO::Fitting model to feature number 605, F633
+2025-05-28 14:14:44.68888 INFO::Fitting model to feature number 606, F634
+2025-05-28 14:14:44.689812 INFO::Fitting model to feature number 607, F635
+2025-05-28 14:14:44.690729 INFO::Fitting model to feature number 608, F636
+2025-05-28 14:14:44.691641 INFO::Fitting model to feature number 609, F637
+2025-05-28 14:14:44.692559 INFO::Fitting model to feature number 610, F638
+2025-05-28 14:14:44.693588 INFO::Fitting model to feature number 611, F639
+2025-05-28 14:14:44.694667 INFO::Fitting model to feature number 612, F640
+2025-05-28 14:14:44.695741 INFO::Fitting model to feature number 613, F641
+2025-05-28 14:14:44.696646 INFO::Fitting model to feature number 614, F642
+2025-05-28 14:14:44.697547 INFO::Fitting model to feature number 615, F643
+2025-05-28 14:14:44.698481 INFO::Fitting model to feature number 616, F644
+2025-05-28 14:14:44.703118 INFO::Fitting model to feature number 617, F645
+2025-05-28 14:14:44.706526 INFO::Fitting model to feature number 618, F646
+2025-05-28 14:14:44.707863 INFO::Fitting model to feature number 619, F647
+2025-05-28 14:14:44.709069 INFO::Fitting model to feature number 620, F648
+2025-05-28 14:14:44.710376 INFO::Fitting model to feature number 621, F649
+2025-05-28 14:14:44.712656 INFO::Fitting model to feature number 622, F650
+2025-05-28 14:14:44.714107 INFO::Fitting model to feature number 623, F651
+2025-05-28 14:14:44.715188 INFO::Fitting model to feature number 624, F652
+2025-05-28 14:14:44.716934 INFO::Fitting model to feature number 625, F653
+2025-05-28 14:14:44.718062 INFO::Fitting model to feature number 626, F654
+2025-05-28 14:14:44.719023 INFO::Fitting model to feature number 627, F655
+2025-05-28 14:14:44.719975 INFO::Fitting model to feature number 628, F656
+2025-05-28 14:14:44.720918 INFO::Fitting model to feature number 629, F657
+2025-05-28 14:14:44.721914 INFO::Fitting model to feature number 630, F658
+2025-05-28 14:14:44.722929 INFO::Fitting model to feature number 631, F659
+2025-05-28 14:14:44.723896 INFO::Fitting model to feature number 632, F660
+2025-05-28 14:14:44.72485 INFO::Fitting model to feature number 633, F661
+2025-05-28 14:14:44.725768 INFO::Fitting model to feature number 634, F662
+2025-05-28 14:14:44.726679 INFO::Fitting model to feature number 635, F663
+2025-05-28 14:14:44.727623 INFO::Fitting model to feature number 636, F664
+2025-05-28 14:14:44.728615 INFO::Fitting model to feature number 637, F665
+2025-05-28 14:14:44.72972 INFO::Fitting model to feature number 638, F666
+2025-05-28 14:14:44.730725 INFO::Fitting model to feature number 639, F667
+2025-05-28 14:14:44.731721 INFO::Fitting model to feature number 640, F668
+2025-05-28 14:14:44.732667 INFO::Fitting model to feature number 641, F669
+2025-05-28 14:14:44.733638 INFO::Fitting model to feature number 642, F670
+2025-05-28 14:14:44.734537 INFO::Fitting model to feature number 643, F671
+2025-05-28 14:14:44.735408 INFO::Fitting model to feature number 644, F672
+2025-05-28 14:14:44.736292 INFO::Fitting model to feature number 645, F673
+2025-05-28 14:14:44.737216 INFO::Fitting model to feature number 646, F674
+2025-05-28 14:14:44.738126 INFO::Fitting model to feature number 647, F675
+2025-05-28 14:14:44.739054 INFO::Fitting model to feature number 648, F676
+2025-05-28 14:14:44.740048 INFO::Fitting model to feature number 649, F677
+2025-05-28 14:14:44.740974 INFO::Fitting model to feature number 650, F678
+2025-05-28 14:14:44.741873 INFO::Fitting model to feature number 651, F679
+2025-05-28 14:14:44.742778 INFO::Fitting model to feature number 652, F680
+2025-05-28 14:14:44.743679 INFO::Fitting model to feature number 653, F681
+2025-05-28 14:14:44.744641 INFO::Fitting model to feature number 654, F682
+2025-05-28 14:14:44.745652 INFO::Fitting model to feature number 655, F683
+2025-05-28 14:14:44.746633 INFO::Fitting model to feature number 656, F684
+2025-05-28 14:14:44.747544 INFO::Fitting model to feature number 657, F685
+2025-05-28 14:14:44.748512 INFO::Fitting model to feature number 658, F686
+2025-05-28 14:14:44.749411 INFO::Fitting model to feature number 659, F687
+2025-05-28 14:14:44.750298 INFO::Fitting model to feature number 660, F688
+2025-05-28 14:14:44.75152 INFO::Fitting model to feature number 661, F689
+2025-05-28 14:14:44.752504 INFO::Fitting model to feature number 662, F690
+2025-05-28 14:14:44.753459 INFO::Fitting model to feature number 663, F691
+2025-05-28 14:14:44.754419 INFO::Fitting model to feature number 664, F692
+2025-05-28 14:14:44.755364 INFO::Fitting model to feature number 665, F693
+2025-05-28 14:14:44.756295 INFO::Fitting model to feature number 666, F694
+2025-05-28 14:14:44.7573 INFO::Fitting model to feature number 667, F695
+2025-05-28 14:14:44.758259 INFO::Fitting model to feature number 668, F696
+2025-05-28 14:14:44.759201 INFO::Fitting model to feature number 669, F697
+2025-05-28 14:14:44.760197 INFO::Fitting model to feature number 670, F698
+2025-05-28 14:14:44.764372 INFO::Fitting model to feature number 671, F699
+2025-05-28 14:14:44.765401 INFO::Fitting model to feature number 672, F700
+2025-05-28 14:14:44.766317 INFO::Fitting model to feature number 673, F701
+2025-05-28 14:14:44.767223 INFO::Fitting model to feature number 674, F702
+2025-05-28 14:14:44.768137 INFO::Fitting model to feature number 675, F704
+2025-05-28 14:14:44.769204 INFO::Fitting model to feature number 676, F705
+2025-05-28 14:14:44.770143 INFO::Fitting model to feature number 677, F706
+2025-05-28 14:14:44.771063 INFO::Fitting model to feature number 678, F707
+2025-05-28 14:14:44.771988 INFO::Fitting model to feature number 679, F708
+2025-05-28 14:14:44.772918 INFO::Fitting model to feature number 680, F709
+2025-05-28 14:14:44.773861 INFO::Fitting model to feature number 681, F710
+2025-05-28 14:14:44.774807 INFO::Fitting model to feature number 682, F711
+2025-05-28 14:14:44.775751 INFO::Fitting model to feature number 683, F712
+2025-05-28 14:14:44.776697 INFO::Fitting model to feature number 684, F713
+2025-05-28 14:14:44.777767 INFO::Fitting model to feature number 685, F714
+2025-05-28 14:14:44.778766 INFO::Fitting model to feature number 686, F715
+2025-05-28 14:14:44.780032 INFO::Fitting model to feature number 687, F716
+2025-05-28 14:14:44.781174 INFO::Fitting model to feature number 688, F717
+2025-05-28 14:14:44.782206 INFO::Fitting model to feature number 689, F718
+2025-05-28 14:14:44.783163 INFO::Fitting model to feature number 690, F719
+2025-05-28 14:14:44.784088 INFO::Fitting model to feature number 691, F720
+2025-05-28 14:14:44.789585 INFO::Fitting model to feature number 692, F721
+2025-05-28 14:14:44.793128 INFO::Fitting model to feature number 693, F722
+2025-05-28 14:14:44.794658 INFO::Fitting model to feature number 694, F723
+2025-05-28 14:14:44.795717 INFO::Fitting model to feature number 695, F724
+2025-05-28 14:14:44.796876 INFO::Fitting model to feature number 696, F725
+2025-05-28 14:14:44.798242 INFO::Fitting model to feature number 697, F726
+2025-05-28 14:14:44.79929 INFO::Fitting model to feature number 698, F727
+2025-05-28 14:14:44.800636 INFO::Fitting model to feature number 699, F728
+2025-05-28 14:14:44.802573 INFO::Fitting model to feature number 700, F729
+2025-05-28 14:14:44.803647 INFO::Fitting model to feature number 701, F730
+2025-05-28 14:14:44.804578 INFO::Fitting model to feature number 702, F731
+2025-05-28 14:14:44.805591 INFO::Fitting model to feature number 703, F732
+2025-05-28 14:14:44.806543 INFO::Fitting model to feature number 704, F733
+2025-05-28 14:14:44.807495 INFO::Fitting model to feature number 705, F734
+2025-05-28 14:14:44.808436 INFO::Fitting model to feature number 706, F735
+2025-05-28 14:14:44.809379 INFO::Fitting model to feature number 707, F736
+2025-05-28 14:14:44.810312 INFO::Fitting model to feature number 708, F737
+2025-05-28 14:14:44.811257 INFO::Fitting model to feature number 709, F739
+2025-05-28 14:14:44.812216 INFO::Fitting model to feature number 710, F740
+2025-05-28 14:14:44.813292 INFO::Fitting model to feature number 711, F741
+2025-05-28 14:14:44.814579 INFO::Fitting model to feature number 712, F742
+2025-05-28 14:14:44.815683 INFO::Fitting model to feature number 713, F743
+2025-05-28 14:14:44.816664 INFO::Fitting model to feature number 714, F744
+2025-05-28 14:14:44.817607 INFO::Fitting model to feature number 715, F745
+2025-05-28 14:14:44.818525 INFO::Fitting model to feature number 716, F746
+2025-05-28 14:14:44.819464 INFO::Fitting model to feature number 717, F747
+2025-05-28 14:14:44.820436 INFO::Fitting model to feature number 718, F748
+2025-05-28 14:14:44.821386 INFO::Fitting model to feature number 719, F749
+2025-05-28 14:14:44.822324 INFO::Fitting model to feature number 720, F750
+2025-05-28 14:14:44.823353 INFO::Fitting model to feature number 721, F751
+2025-05-28 14:14:44.824315 INFO::Fitting model to feature number 722, F752
+2025-05-28 14:14:44.82528 INFO::Fitting model to feature number 723, F753
+2025-05-28 14:14:44.826232 INFO::Fitting model to feature number 724, F754
+2025-05-28 14:14:44.82718 INFO::Fitting model to feature number 725, F755
+2025-05-28 14:14:44.828129 INFO::Fitting model to feature number 726, F756
+2025-05-28 14:14:44.829109 INFO::Fitting model to feature number 727, F757
+2025-05-28 14:14:44.830139 INFO::Fitting model to feature number 728, F758
+2025-05-28 14:14:44.83107 INFO::Fitting model to feature number 729, F759
+2025-05-28 14:14:44.832099 INFO::Fitting model to feature number 730, F760
+2025-05-28 14:14:44.832982 INFO::Fitting model to feature number 731, F761
+2025-05-28 14:14:44.833888 INFO::Fitting model to feature number 732, F762
+2025-05-28 14:14:44.834791 INFO::Fitting model to feature number 733, F763
+2025-05-28 14:14:44.835716 INFO::Fitting model to feature number 734, F764
+2025-05-28 14:14:44.836681 INFO::Fitting model to feature number 735, F765
+2025-05-28 14:14:44.837724 INFO::Fitting model to feature number 736, F766
+2025-05-28 14:14:44.838686 INFO::Fitting model to feature number 737, F767
+2025-05-28 14:14:44.839591 INFO::Fitting model to feature number 738, F768
+2025-05-28 14:14:44.840603 INFO::Fitting model to feature number 739, F769
+2025-05-28 14:14:44.841556 INFO::Fitting model to feature number 740, F770
+2025-05-28 14:14:44.842492 INFO::Fitting model to feature number 741, F771
+2025-05-28 14:14:44.8434 INFO::Fitting model to feature number 742, F772
+2025-05-28 14:14:44.844312 INFO::Fitting model to feature number 743, F773
+2025-05-28 14:14:44.845227 INFO::Fitting model to feature number 744, F774
+2025-05-28 14:14:44.846165 INFO::Fitting model to feature number 745, F775
+2025-05-28 14:14:44.847219 INFO::Fitting model to feature number 746, F776
+2025-05-28 14:14:44.848196 INFO::Fitting model to feature number 747, F777
+2025-05-28 14:14:44.849223 INFO::Fitting model to feature number 748, F778
+2025-05-28 14:14:44.850119 INFO::Fitting model to feature number 749, F779
+2025-05-28 14:14:44.851026 INFO::Fitting model to feature number 750, F780
+2025-05-28 14:14:44.851926 INFO::Fitting model to feature number 751, F781
+2025-05-28 14:14:44.852817 INFO::Fitting model to feature number 752, F782
+2025-05-28 14:14:44.853735 INFO::Fitting model to feature number 753, F783
+2025-05-28 14:14:44.854692 INFO::Fitting model to feature number 754, F784
+2025-05-28 14:14:44.855651 INFO::Fitting model to feature number 755, F785
+2025-05-28 14:14:44.856564 INFO::Fitting model to feature number 756, F786
+2025-05-28 14:14:44.857575 INFO::Fitting model to feature number 757, F787
+2025-05-28 14:14:44.858498 INFO::Fitting model to feature number 758, F788
+2025-05-28 14:14:44.859444 INFO::Fitting model to feature number 759, F789
+2025-05-28 14:14:44.860382 INFO::Fitting model to feature number 760, F790
+2025-05-28 14:14:44.861319 INFO::Fitting model to feature number 761, F791
+2025-05-28 14:14:44.862276 INFO::Fitting model to feature number 762, F792
+2025-05-28 14:14:44.863256 INFO::Fitting model to feature number 763, F793
+2025-05-28 14:14:44.864261 INFO::Fitting model to feature number 764, F794
+2025-05-28 14:14:44.865298 INFO::Fitting model to feature number 765, F795
+2025-05-28 14:14:44.866311 INFO::Fitting model to feature number 766, F796
+2025-05-28 14:14:44.867199 INFO::Fitting model to feature number 767, F797
+2025-05-28 14:14:44.868138 INFO::Fitting model to feature number 768, F798
+2025-05-28 14:14:44.869036 INFO::Fitting model to feature number 769, F799
+2025-05-28 14:14:44.87 INFO::Fitting model to feature number 770, F800
+2025-05-28 14:14:44.870907 INFO::Fitting model to feature number 771, F801
+2025-05-28 14:14:44.871878 INFO::Fitting model to feature number 772, F802
+2025-05-28 14:14:44.872828 INFO::Fitting model to feature number 773, F803
+2025-05-28 14:14:44.873729 INFO::Fitting model to feature number 774, F804
+2025-05-28 14:14:44.874743 INFO::Fitting model to feature number 775, F805
+2025-05-28 14:14:44.875678 INFO::Fitting model to feature number 776, F806
+2025-05-28 14:14:44.876624 INFO::Fitting model to feature number 777, F808
+2025-05-28 14:14:44.87757 INFO::Fitting model to feature number 778, F809
+2025-05-28 14:14:44.878503 INFO::Fitting model to feature number 779, F810
+2025-05-28 14:14:44.879441 INFO::Fitting model to feature number 780, F811
+2025-05-28 14:14:44.880383 INFO::Fitting model to feature number 781, F812
+2025-05-28 14:14:44.883425 INFO::Fitting model to feature number 782, F813
+2025-05-28 14:14:44.888048 INFO::Fitting model to feature number 783, F814
+2025-05-28 14:14:44.890515 INFO::Fitting model to feature number 784, F815
+2025-05-28 14:14:44.891774 INFO::Fitting model to feature number 785, F816
+2025-05-28 14:14:44.89279 INFO::Fitting model to feature number 786, F817
+2025-05-28 14:14:44.893783 INFO::Fitting model to feature number 787, F818
+2025-05-28 14:14:44.894744 INFO::Fitting model to feature number 788, F819
+2025-05-28 14:14:44.895703 INFO::Fitting model to feature number 789, F820
+2025-05-28 14:14:44.896646 INFO::Fitting model to feature number 790, F821
+2025-05-28 14:14:44.897607 INFO::Fitting model to feature number 791, F822
+2025-05-28 14:14:44.898575 INFO::Fitting model to feature number 792, F823
+2025-05-28 14:14:44.899634 INFO::Fitting model to feature number 793, F824
+2025-05-28 14:14:44.90061 INFO::Fitting model to feature number 794, F825
+2025-05-28 14:14:44.902042 INFO::Fitting model to feature number 795, F826
+2025-05-28 14:14:44.904005 INFO::Fitting model to feature number 796, F827
+2025-05-28 14:14:44.90639 INFO::Fitting model to feature number 797, F828
+2025-05-28 14:14:44.907441 INFO::Fitting model to feature number 798, F829
+2025-05-28 14:14:44.908395 INFO::Fitting model to feature number 799, F830
+2025-05-28 14:14:44.909373 INFO::Fitting model to feature number 800, F831
+2025-05-28 14:14:44.910308 INFO::Fitting model to feature number 801, F832
+2025-05-28 14:14:44.911316 INFO::Fitting model to feature number 802, F833
+2025-05-28 14:14:44.912216 INFO::Fitting model to feature number 803, F834
+2025-05-28 14:14:44.913097 INFO::Fitting model to feature number 804, F835
+2025-05-28 14:14:44.913994 INFO::Fitting model to feature number 805, F836
+2025-05-28 14:14:44.914905 INFO::Fitting model to feature number 806, F837
+2025-05-28 14:14:44.915793 INFO::Fitting model to feature number 807, F838
+2025-05-28 14:14:44.916691 INFO::Fitting model to feature number 808, F839
+2025-05-28 14:14:44.917585 INFO::Fitting model to feature number 809, F840
+2025-05-28 14:14:44.918468 INFO::Fitting model to feature number 810, F841
+2025-05-28 14:14:44.919417 INFO::Fitting model to feature number 811, F842
+2025-05-28 14:14:44.920367 INFO::Fitting model to feature number 812, F843
+2025-05-28 14:14:44.92131 INFO::Fitting model to feature number 813, F844
+2025-05-28 14:14:44.922223 INFO::Fitting model to feature number 814, F845
+2025-05-28 14:14:44.923135 INFO::Fitting model to feature number 815, F846
+2025-05-28 14:14:44.924055 INFO::Fitting model to feature number 816, F847
+2025-05-28 14:14:44.924954 INFO::Fitting model to feature number 817, F848
+2025-05-28 14:14:44.925856 INFO::Fitting model to feature number 818, F849
+2025-05-28 14:14:44.926751 INFO::Fitting model to feature number 819, F850
+2025-05-28 14:14:44.927713 INFO::Fitting model to feature number 820, F851
+2025-05-28 14:14:44.928614 INFO::Fitting model to feature number 821, F852
+2025-05-28 14:14:44.929561 INFO::Fitting model to feature number 822, F853
+2025-05-28 14:14:44.930567 INFO::Fitting model to feature number 823, F854
+2025-05-28 14:14:44.93154 INFO::Fitting model to feature number 824, F855
+2025-05-28 14:14:44.932442 INFO::Fitting model to feature number 825, F856
+2025-05-28 14:14:44.933352 INFO::Fitting model to feature number 826, F857
+2025-05-28 14:14:44.934248 INFO::Fitting model to feature number 827, F858
+2025-05-28 14:14:44.935202 INFO::Fitting model to feature number 828, F859
+2025-05-28 14:14:44.936219 INFO::Fitting model to feature number 829, F860
+2025-05-28 14:14:44.937135 INFO::Fitting model to feature number 830, F861
+2025-05-28 14:14:44.938074 INFO::Fitting model to feature number 831, F862
+2025-05-28 14:14:44.938989 INFO::Fitting model to feature number 832, F863
+2025-05-28 14:14:44.939895 INFO::Fitting model to feature number 833, F864
+2025-05-28 14:14:44.940806 INFO::Fitting model to feature number 834, F865
+2025-05-28 14:14:44.941726 INFO::Fitting model to feature number 835, F866
+2025-05-28 14:14:44.942657 INFO::Fitting model to feature number 836, F867
+2025-05-28 14:14:44.94357 INFO::Fitting model to feature number 837, F868
+2025-05-28 14:14:44.944553 INFO::Fitting model to feature number 838, F869
+2025-05-28 14:14:44.945473 INFO::Fitting model to feature number 839, F870
+2025-05-28 14:14:44.946434 INFO::Fitting model to feature number 840, F871
+2025-05-28 14:14:44.947436 INFO::Fitting model to feature number 841, F872
+2025-05-28 14:14:44.948469 INFO::Fitting model to feature number 842, F873
+2025-05-28 14:14:44.949402 INFO::Fitting model to feature number 843, F874
+2025-05-28 14:14:44.950304 INFO::Fitting model to feature number 844, F875
+2025-05-28 14:14:44.951205 INFO::Fitting model to feature number 845, F876
+2025-05-28 14:14:44.95213 INFO::Fitting model to feature number 846, F877
+2025-05-28 14:14:44.953096 INFO::Fitting model to feature number 847, F878
+2025-05-28 14:14:44.954033 INFO::Fitting model to feature number 848, F879
+2025-05-28 14:14:44.954986 INFO::Fitting model to feature number 849, F880
+2025-05-28 14:14:44.955943 INFO::Fitting model to feature number 850, F881
+2025-05-28 14:14:44.956904 INFO::Fitting model to feature number 851, F882
+2025-05-28 14:14:44.957811 INFO::Fitting model to feature number 852, F883
+2025-05-28 14:14:44.958711 INFO::Fitting model to feature number 853, F884
+2025-05-28 14:14:44.959621 INFO::Fitting model to feature number 854, F885
+2025-05-28 14:14:44.96055 INFO::Fitting model to feature number 855, F886
+2025-05-28 14:14:44.961541 INFO::Fitting model to feature number 856, F887
+2025-05-28 14:14:44.962483 INFO::Fitting model to feature number 857, F888
+2025-05-28 14:14:44.963385 INFO::Fitting model to feature number 858, F889
+2025-05-28 14:14:44.964303 INFO::Fitting model to feature number 859, F890
+2025-05-28 14:14:44.965241 INFO::Fitting model to feature number 860, F891
+2025-05-28 14:14:44.968206 INFO::Fitting model to feature number 861, F892
+2025-05-28 14:14:44.973277 INFO::Fitting model to feature number 862, F893
+2025-05-28 14:14:44.975601 INFO::Fitting model to feature number 863, F894
+2025-05-28 14:14:44.976775 INFO::Fitting model to feature number 864, F895
+2025-05-28 14:14:44.977983 INFO::Fitting model to feature number 865, F896
+2025-05-28 14:14:44.97906 INFO::Fitting model to feature number 866, F897
+2025-05-28 14:14:44.980755 INFO::Fitting model to feature number 867, F898
+2025-05-28 14:14:44.981902 INFO::Fitting model to feature number 868, F899
+2025-05-28 14:14:44.982861 INFO::Fitting model to feature number 869, F900
+2025-05-28 14:14:45.042665 INFO::Counting total values for each feature
+2025-05-28 14:14:45.077713 INFO::Writing filtered data to file Macarron_output/maaslin2_results/features/filtered_data.tsv
+2025-05-28 14:14:45.114779 INFO::Writing filtered, normalized data to file Macarron_output/maaslin2_results/features/filtered_data_norm.tsv
+2025-05-28 14:14:45.154789 INFO::Writing filtered, normalized, transformed data to file Macarron_output/maaslin2_results/features/filtered_data_norm_transformed.tsv
+2025-05-28 14:14:45.197748 INFO::Writing residuals to file Macarron_output/maaslin2_results/fits/residuals.rds
+2025-05-28 14:14:45.216548 INFO::Writing fitted values to file Macarron_output/maaslin2_results/fits/fitted.rds
+2025-05-28 14:14:45.232238 INFO::Writing all results to file (ordered by increasing q-values): Macarron_output/maaslin2_results/all_results.tsv
+2025-05-28 14:14:45.23954 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Macarron_output/maaslin2_results/significant_results.tsv
+2025-05-28 14:14:45.243013 INFO::Writing association plots (one for each significant association) to output folder: Macarron_output/maaslin2_results
+2025-05-28 14:14:45.252128 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-05-28 14:14:45.252643 INFO::Plotting data for metadata number 1, diagnosis
+2025-05-28 14:14:45.269446 INFO::Creating boxplot for categorical data, diagnosis vs F504
+2025-05-28 14:14:45.353109 INFO::Creating boxplot for categorical data, diagnosis vs F859
+2025-05-28 14:14:45.403152 INFO::Creating boxplot for categorical data, diagnosis vs F533
+2025-05-28 14:14:45.449281 INFO::Creating boxplot for categorical data, diagnosis vs F587
+2025-05-28 14:14:45.504519 INFO::Creating boxplot for categorical data, diagnosis vs F584
+2025-05-28 14:14:45.549626 INFO::Creating boxplot for categorical data, diagnosis vs F197
+2025-05-28 14:14:45.593368 INFO::Creating boxplot for categorical data, diagnosis vs F380
+2025-05-28 14:14:45.639395 INFO::Creating boxplot for categorical data, diagnosis vs F829
+2025-05-28 14:14:45.685092 INFO::Creating boxplot for categorical data, diagnosis vs F664
+2025-05-28 14:14:45.737266 INFO::Creating boxplot for categorical data, diagnosis vs F93
+2025-05-28 14:14:45.785344 INFO::Creating boxplot for categorical data, diagnosis vs F15
+2025-05-28 14:14:45.83113 INFO::Creating boxplot for categorical data, diagnosis vs F881
+2025-05-28 14:14:45.877228 INFO::Creating boxplot for categorical data, diagnosis vs F806
+2025-05-28 14:14:45.923106 INFO::Creating boxplot for categorical data, diagnosis vs F78
+2025-05-28 14:14:45.96896 INFO::Creating boxplot for categorical data, diagnosis vs F189
+2025-05-28 14:14:46.020032 INFO::Creating boxplot for categorical data, diagnosis vs F369
+2025-05-28 14:14:46.065563 INFO::Creating boxplot for categorical data, diagnosis vs F623
+2025-05-28 14:14:46.11171 INFO::Creating boxplot for categorical data, diagnosis vs F710
+2025-05-28 14:14:46.157554 INFO::Creating boxplot for categorical data, diagnosis vs F851
+2025-05-28 14:14:46.203463 INFO::Creating boxplot for categorical data, diagnosis vs F257
+2025-05-28 14:14:46.249238 INFO::Creating boxplot for categorical data, diagnosis vs F330
+2025-05-28 14:14:46.299802 INFO::Creating boxplot for categorical data, diagnosis vs F344
+2025-05-28 14:14:46.346745 INFO::Creating boxplot for categorical data, diagnosis vs F696
+2025-05-28 14:14:46.392617 INFO::Creating boxplot for categorical data, diagnosis vs F741
+2025-05-28 14:14:46.438418 INFO::Creating boxplot for categorical data, diagnosis vs F509
+2025-05-28 14:14:46.486371 INFO::Creating boxplot for categorical data, diagnosis vs F479
+2025-05-28 14:14:46.534681 INFO::Creating boxplot for categorical data, diagnosis vs F550
+2025-05-28 14:14:46.587914 INFO::Creating boxplot for categorical data, diagnosis vs F640
+2025-05-28 14:14:46.635791 INFO::Creating boxplot for categorical data, diagnosis vs F281
+2025-05-28 14:14:46.682987 INFO::Creating boxplot for categorical data, diagnosis vs F80
+2025-05-28 14:14:46.729241 INFO::Creating boxplot for categorical data, diagnosis vs F285
+2025-05-28 14:14:46.775128 INFO::Creating boxplot for categorical data, diagnosis vs F531
+2025-05-28 14:14:46.825721 INFO::Creating boxplot for categorical data, diagnosis vs F737
+2025-05-28 14:14:46.869612 INFO::Creating boxplot for categorical data, diagnosis vs F875
+2025-05-28 14:14:46.914787 INFO::Creating boxplot for categorical data, diagnosis vs F864
+2025-05-28 14:14:46.960597 INFO::Creating boxplot for categorical data, diagnosis vs F379
+2025-05-28 14:14:47.006152 INFO::Creating boxplot for categorical data, diagnosis vs F190
+2025-05-28 14:14:47.053614 INFO::Creating boxplot for categorical data, diagnosis vs F4
+2025-05-28 14:14:47.103505 INFO::Creating boxplot for categorical data, diagnosis vs F591
+2025-05-28 14:14:47.147007 INFO::Creating boxplot for categorical data, diagnosis vs F773
+2025-05-28 14:14:47.195017 INFO::Creating boxplot for categorical data, diagnosis vs F283
+2025-05-28 14:14:47.239016 INFO::Creating boxplot for categorical data, diagnosis vs F233
+2025-05-28 14:14:47.28346 INFO::Creating boxplot for categorical data, diagnosis vs F420
+2025-05-28 14:14:47.333878 INFO::Creating boxplot for categorical data, diagnosis vs F5
+2025-05-28 14:14:47.379789 INFO::Creating boxplot for categorical data, diagnosis vs F137
+2025-05-28 14:14:47.423356 INFO::Creating boxplot for categorical data, diagnosis vs F215
+2025-05-28 14:14:47.467571 INFO::Creating boxplot for categorical data, diagnosis vs F489
+2025-05-28 14:14:47.511323 INFO::Creating boxplot for categorical data, diagnosis vs F220
+2025-05-28 14:14:47.556026 INFO::Creating boxplot for categorical data, diagnosis vs F691
+2025-05-28 14:14:47.605046 INFO::Creating boxplot for categorical data, diagnosis vs F381
+2025-05-28 14:14:47.65082 INFO::Creating boxplot for categorical data, diagnosis vs F539
+2025-05-28 14:14:47.694844 INFO::Creating boxplot for categorical data, diagnosis vs F490
+2025-05-28 14:14:47.737988 INFO::Creating boxplot for categorical data, diagnosis vs F832
+2025-05-28 14:14:47.782784 INFO::Creating boxplot for categorical data, diagnosis vs F396
+2025-05-28 14:14:47.826262 INFO::Creating boxplot for categorical data, diagnosis vs F528
+2025-05-28 14:14:47.875671 INFO::Creating boxplot for categorical data, diagnosis vs F234
+2025-05-28 14:14:47.918673 INFO::Creating boxplot for categorical data, diagnosis vs F178
+2025-05-28 14:14:47.962779 INFO::Creating boxplot for categorical data, diagnosis vs F761
+2025-05-28 14:14:48.010039 INFO::Creating boxplot for categorical data, diagnosis vs F2
+2025-05-28 14:14:48.058669 INFO::Creating boxplot for categorical data, diagnosis vs F260
+2025-05-28 14:14:48.111121 INFO::Creating boxplot for categorical data, diagnosis vs F734
+2025-05-28 14:14:48.155494 INFO::Creating boxplot for categorical data, diagnosis vs F429
+2025-05-28 14:14:48.20079 INFO::Creating boxplot for categorical data, diagnosis vs F630
+2025-05-28 14:14:48.24668 INFO::Creating boxplot for categorical data, diagnosis vs F817
+2025-05-28 14:14:48.294905 INFO::Creating boxplot for categorical data, diagnosis vs F847
+2025-05-28 14:14:48.339314 INFO::Creating boxplot for categorical data, diagnosis vs F896
+2025-05-28 14:14:48.413627 INFO::Creating boxplot for categorical data, diagnosis vs F81
+2025-05-28 14:14:48.45687 INFO::Creating boxplot for categorical data, diagnosis vs F110
+2025-05-28 14:14:48.50503 INFO::Creating boxplot for categorical data, diagnosis vs F3
+2025-05-28 14:14:48.551152 INFO::Creating boxplot for categorical data, diagnosis vs F33
+2025-05-28 14:14:48.597751 INFO::Creating boxplot for categorical data, diagnosis vs F270
+2025-05-28 14:14:48.643914 INFO::Creating boxplot for categorical data, diagnosis vs F278
+2025-05-28 14:14:48.699039 INFO::Creating boxplot for categorical data, diagnosis vs F264
+2025-05-28 14:14:48.744399 INFO::Creating boxplot for categorical data, diagnosis vs F90
+2025-05-28 14:14:48.790346 INFO::Creating boxplot for categorical data, diagnosis vs F403
+2025-05-28 14:14:48.839167 INFO::Creating boxplot for categorical data, diagnosis vs F727
+2025-05-28 14:14:48.892894 INFO::Creating boxplot for categorical data, diagnosis vs F394
+2025-05-28 14:14:48.94773 INFO::Creating boxplot for categorical data, diagnosis vs F800
+2025-05-28 14:14:48.993698 INFO::Creating boxplot for categorical data, diagnosis vs F439
+2025-05-28 14:14:49.039687 INFO::Creating boxplot for categorical data, diagnosis vs F554
+2025-05-28 14:14:49.085228 INFO::Creating boxplot for categorical data, diagnosis vs F559
+2025-05-28 14:14:49.130526 INFO::Creating boxplot for categorical data, diagnosis vs F548
+2025-05-28 14:14:49.176598 INFO::Creating boxplot for categorical data, diagnosis vs F794
+2025-05-28 14:14:49.230517 INFO::Creating boxplot for categorical data, diagnosis vs F45
+2025-05-28 14:14:49.276448 INFO::Creating boxplot for categorical data, diagnosis vs F158
+2025-05-28 14:14:49.322344 INFO::Creating boxplot for categorical data, diagnosis vs F477
+2025-05-28 14:14:49.368682 INFO::Creating boxplot for categorical data, diagnosis vs F1
+2025-05-28 14:14:49.414192 INFO::Creating boxplot for categorical data, diagnosis vs F862
+2025-05-28 14:14:49.460435 INFO::Creating boxplot for categorical data, diagnosis vs F803
+2025-05-28 14:14:49.516415 INFO::Creating boxplot for categorical data, diagnosis vs F751
+2025-05-28 14:14:49.562197 INFO::Creating boxplot for categorical data, diagnosis vs F98
+2025-05-28 14:14:49.607418 INFO::Creating boxplot for categorical data, diagnosis vs F22
+2025-05-28 14:14:49.653624 INFO::Creating boxplot for categorical data, diagnosis vs F625
+2025-05-28 14:14:49.702421 INFO::Creating boxplot for categorical data, diagnosis vs F206
+2025-05-28 14:14:49.754978 INFO::Creating boxplot for categorical data, diagnosis vs F779
+2025-05-28 14:14:49.804663 INFO::Creating boxplot for categorical data, diagnosis vs F532
+2025-05-28 14:14:49.849878 INFO::Creating boxplot for categorical data, diagnosis vs F676
+2025-05-28 14:14:49.895701 INFO::Creating boxplot for categorical data, diagnosis vs F644
+2025-05-28 14:14:49.941734 INFO::Creating boxplot for categorical data, diagnosis vs F7
+2025-05-28 14:14:49.987706 INFO::Creating boxplot for categorical data, diagnosis vs F596
+2025-05-28 14:14:50.041627 INFO::Creating boxplot for categorical data, diagnosis vs F250
+2025-05-28 14:14:50.08615 INFO::Creating boxplot for categorical data, diagnosis vs F462
+2025-05-28 14:14:50.131456 INFO::Creating boxplot for categorical data, diagnosis vs F516
+2025-05-28 14:14:50.177127 INFO::Creating boxplot for categorical data, diagnosis vs F659
+2025-05-28 14:14:50.222863 INFO::Creating boxplot for categorical data, diagnosis vs F663
+2025-05-28 14:14:50.267439 INFO::Creating boxplot for categorical data, diagnosis vs F837
+2025-05-28 14:14:50.320528 INFO::Creating boxplot for categorical data, diagnosis vs F138
+2025-05-28 14:14:50.364244 INFO::Creating boxplot for categorical data, diagnosis vs F445
+2025-05-28 14:14:50.408357 INFO::Creating boxplot for categorical data, diagnosis vs F697
+2025-05-28 14:14:50.451911 INFO::Creating boxplot for categorical data, diagnosis vs F225
+2025-05-28 14:14:50.495494 INFO::Creating boxplot for categorical data, diagnosis vs F148
+2025-05-28 14:14:50.544999 INFO::Creating boxplot for categorical data, diagnosis vs F448
+2025-05-28 14:14:50.590107 INFO::Creating boxplot for categorical data, diagnosis vs F91
+2025-05-28 14:14:50.634191 INFO::Creating boxplot for categorical data, diagnosis vs F123
+2025-05-28 14:14:50.678057 INFO::Creating boxplot for categorical data, diagnosis vs F665
+2025-05-28 14:14:50.721169 INFO::Creating boxplot for categorical data, diagnosis vs F845
+2025-05-28 14:14:50.764616 INFO::Creating boxplot for categorical data, diagnosis vs F331
+2025-05-28 14:14:50.827706 INFO::Creating boxplot for categorical data, diagnosis vs F361
+2025-05-28 14:14:50.879716 INFO::Creating boxplot for categorical data, diagnosis vs F421
+2025-05-28 14:14:50.926144 INFO::Creating boxplot for categorical data, diagnosis vs F277
+2025-05-28 14:14:50.971948 INFO::Creating boxplot for categorical data, diagnosis vs F307
+2025-05-28 14:14:51.020259 INFO::Creating boxplot for categorical data, diagnosis vs F503
+2025-05-28 14:14:51.06484 INFO::Creating boxplot for categorical data, diagnosis vs F34
+2025-05-28 14:14:51.120765 INFO::Creating boxplot for categorical data, diagnosis vs F649
+2025-05-28 14:14:51.164476 INFO::Creating boxplot for categorical data, diagnosis vs F825
+2025-05-28 14:14:51.208441 INFO::Creating boxplot for categorical data, diagnosis vs F298
+2025-05-28 14:14:51.253468 INFO::Creating boxplot for categorical data, diagnosis vs F461
+2025-05-28 14:14:51.299091 INFO::Creating boxplot for categorical data, diagnosis vs F242
+2025-05-28 14:14:51.35296 INFO::Creating boxplot for categorical data, diagnosis vs F375
+2025-05-28 14:14:51.398808 INFO::Creating boxplot for categorical data, diagnosis vs F648
+2025-05-28 14:14:51.444708 INFO::Creating boxplot for categorical data, diagnosis vs F724
+2025-05-28 14:14:51.489392 INFO::Creating boxplot for categorical data, diagnosis vs F678
+2025-05-28 14:14:51.535515 INFO::Creating boxplot for categorical data, diagnosis vs F290
+2025-05-28 14:14:51.584792 INFO::Creating boxplot for categorical data, diagnosis vs F743
+2025-05-28 14:14:51.639228 INFO::Creating boxplot for categorical data, diagnosis vs F495
+2025-05-28 14:14:51.685162 INFO::Creating boxplot for categorical data, diagnosis vs F261
+2025-05-28 14:14:51.734653 INFO::Creating boxplot for categorical data, diagnosis vs F43
+2025-05-28 14:14:51.781032 INFO::Creating boxplot for categorical data, diagnosis vs F714
+2025-05-28 14:14:51.827939 INFO::Creating boxplot for categorical data, diagnosis vs F131
+2025-05-28 14:14:51.881679 INFO::Creating boxplot for categorical data, diagnosis vs F150
+2025-05-28 14:14:51.929542 INFO::Creating boxplot for categorical data, diagnosis vs F651
+2025-05-28 14:14:51.975853 INFO::Creating boxplot for categorical data, diagnosis vs F798
+2025-05-28 14:14:52.02384 INFO::Creating boxplot for categorical data, diagnosis vs F289
+2025-05-28 14:14:52.069332 INFO::Creating boxplot for categorical data, diagnosis vs F661
+2025-05-28 14:14:52.115155 INFO::Creating boxplot for categorical data, diagnosis vs F199
+2025-05-28 14:14:52.168826 INFO::Creating boxplot for categorical data, diagnosis vs F406
+2025-05-28 14:14:52.212871 INFO::Creating boxplot for categorical data, diagnosis vs F139
+2025-05-28 14:14:52.256893 INFO::Creating boxplot for categorical data, diagnosis vs F506
+2025-05-28 14:14:52.30119 INFO::Creating boxplot for categorical data, diagnosis vs F552
+2025-05-28 14:14:52.345468 INFO::Creating boxplot for categorical data, diagnosis vs F94
+2025-05-28 14:14:52.392639 INFO::Creating boxplot for categorical data, diagnosis vs F430
+2025-05-28 14:14:52.452388 INFO::Creating boxplot for categorical data, diagnosis vs F639
+2025-05-28 14:14:52.497647 INFO::Creating boxplot for categorical data, diagnosis vs F500
+2025-05-28 14:14:52.543374 INFO::Creating boxplot for categorical data, diagnosis vs F609
+2025-05-28 14:14:52.589124 INFO::Creating boxplot for categorical data, diagnosis vs F306
+2025-05-28 14:14:52.635458 INFO::Creating boxplot for categorical data, diagnosis vs F507
+2025-05-28 14:14:52.689822 INFO::Creating boxplot for categorical data, diagnosis vs F671
+2025-05-28 14:14:52.735429 INFO::Creating boxplot for categorical data, diagnosis vs F894
+2025-05-28 14:14:52.781217 INFO::Creating boxplot for categorical data, diagnosis vs F345
+2025-05-28 14:14:52.829953 INFO::Creating boxplot for categorical data, diagnosis vs F801
+2025-05-28 14:14:52.8757 INFO::Creating boxplot for categorical data, diagnosis vs F194
+2025-05-28 14:14:52.922449 INFO::Creating boxplot for categorical data, diagnosis vs F195
+2025-05-28 14:14:52.976825 INFO::Creating boxplot for categorical data, diagnosis vs F119
+2025-05-28 14:14:53.022403 INFO::Creating boxplot for categorical data, diagnosis vs F120
+2025-05-28 14:14:53.068325 INFO::Creating boxplot for categorical data, diagnosis vs F231
+2025-05-28 14:14:53.11453 INFO::Creating boxplot for categorical data, diagnosis vs F311
+2025-05-28 14:14:53.158867 INFO::Creating boxplot for categorical data, diagnosis vs F646
+2025-05-28 14:14:53.210646 INFO::Creating boxplot for categorical data, diagnosis vs F814
+2025-05-28 14:14:53.253913 INFO::Creating boxplot for categorical data, diagnosis vs F510
+2025-05-28 14:14:53.298644 INFO::Creating boxplot for categorical data, diagnosis vs F398
+2025-05-28 14:14:53.342901 INFO::Creating boxplot for categorical data, diagnosis vs F60
+2025-05-28 14:14:53.387864 INFO::Creating boxplot for categorical data, diagnosis vs F153
+2025-05-28 14:14:53.436893 INFO::Creating boxplot for categorical data, diagnosis vs F858
+2025-05-28 14:14:53.492932 INFO::Creating boxplot for categorical data, diagnosis vs F775
+2025-05-28 14:14:53.542421 INFO::Creating boxplot for categorical data, diagnosis vs F684
+2025-05-28 14:14:53.588822 INFO::Creating boxplot for categorical data, diagnosis vs F384
+2025-05-28 14:14:53.633124 INFO::Creating boxplot for categorical data, diagnosis vs F134
+2025-05-28 14:14:53.677523 INFO::Creating boxplot for categorical data, diagnosis vs F670
+2025-05-28 14:14:53.729794 INFO::Creating boxplot for categorical data, diagnosis vs F632
+2025-05-28 14:14:53.774293 INFO::Creating boxplot for categorical data, diagnosis vs F721
+2025-05-28 14:14:53.818268 INFO::Creating boxplot for categorical data, diagnosis vs F700
+2025-05-28 14:14:53.86241 INFO::Creating boxplot for categorical data, diagnosis vs F376
+2025-05-28 14:14:53.907487 INFO::Creating boxplot for categorical data, diagnosis vs F301
+2025-05-28 14:14:53.952335 INFO::Creating boxplot for categorical data, diagnosis vs F27
+2025-05-28 14:14:54.03626 INFO::Creating boxplot for categorical data, diagnosis vs F280
+2025-05-28 14:14:54.082211 INFO::Creating boxplot for categorical data, diagnosis vs F391
+2025-05-28 14:14:54.128338 INFO::Creating boxplot for categorical data, diagnosis vs F725
+2025-05-28 14:14:54.175481 INFO::Creating boxplot for categorical data, diagnosis vs F186
+2025-05-28 14:14:54.223809 INFO::Creating boxplot for categorical data, diagnosis vs F481
+2025-05-28 14:14:54.278707 INFO::Creating boxplot for categorical data, diagnosis vs F333
+2025-05-28 14:14:54.325297 INFO::Creating boxplot for categorical data, diagnosis vs F720
+2025-05-28 14:14:54.369575 INFO::Creating boxplot for categorical data, diagnosis vs F520
+2025-05-28 14:14:54.417194 INFO::Creating boxplot for categorical data, diagnosis vs F129
+2025-05-28 14:14:54.463009 INFO::Creating boxplot for categorical data, diagnosis vs F204
+2025-05-28 14:14:54.509065 INFO::Creating boxplot for categorical data, diagnosis vs F259
+2025-05-28 14:14:54.562922 INFO::Creating boxplot for categorical data, diagnosis vs F831
+2025-05-28 14:14:54.609861 INFO::Creating boxplot for categorical data, diagnosis vs F891
+2025-05-28 14:14:54.655853 INFO::Creating boxplot for categorical data, diagnosis vs F262
+2025-05-28 14:14:54.702142 INFO::Creating boxplot for categorical data, diagnosis vs F592
+2025-05-28 14:14:54.747825 INFO::Creating boxplot for categorical data, diagnosis vs F343
+2025-05-28 14:14:54.793831 INFO::Creating boxplot for categorical data, diagnosis vs F505
+2025-05-28 14:14:54.849151 INFO::Creating boxplot for categorical data, diagnosis vs F622
+2025-05-28 14:14:54.895226 INFO::Creating boxplot for categorical data, diagnosis vs F348
+2025-05-28 14:14:54.941343 INFO::Creating boxplot for categorical data, diagnosis vs F133
+2025-05-28 14:14:54.987031 INFO::Creating boxplot for categorical data, diagnosis vs F371
+2025-05-28 14:14:55.033616 INFO::Creating boxplot for categorical data, diagnosis vs F113
+2025-05-28 14:14:55.086401 INFO::Creating boxplot for categorical data, diagnosis vs F336
+2025-05-28 14:14:55.132771 INFO::Creating boxplot for categorical data, diagnosis vs F399
+2025-05-28 14:14:55.178717 INFO::Creating boxplot for categorical data, diagnosis vs F416
+2025-05-28 14:14:55.22537 INFO::Creating boxplot for categorical data, diagnosis vs F657
+2025-05-28 14:14:55.271116 INFO::Creating boxplot for categorical data, diagnosis vs F241
+2025-05-28 14:14:55.316949 INFO::Creating boxplot for categorical data, diagnosis vs F95
+2025-05-28 14:14:55.370577 INFO::Creating boxplot for categorical data, diagnosis vs F128
+2025-05-28 14:14:55.416743 INFO::Creating boxplot for categorical data, diagnosis vs F595
+2025-05-28 14:14:55.463255 INFO::Creating boxplot for categorical data, diagnosis vs F428
+2025-05-28 14:14:55.512822 INFO::Creating boxplot for categorical data, diagnosis vs F796
+2025-05-28 14:14:55.557074 INFO::Creating boxplot for categorical data, diagnosis vs F709
+2025-05-28 14:14:55.609318 INFO::Creating boxplot for categorical data, diagnosis vs F602
+2025-05-28 14:14:55.665379 INFO::Creating boxplot for categorical data, diagnosis vs F293
+2025-05-28 14:14:55.713813 INFO::Creating boxplot for categorical data, diagnosis vs F867
+2025-05-28 14:14:55.759688 INFO::Creating boxplot for categorical data, diagnosis vs F108
+2025-05-28 14:14:55.805155 INFO::Creating boxplot for categorical data, diagnosis vs F846
+2025-05-28 14:14:55.854857 INFO::Creating boxplot for categorical data, diagnosis vs F633
+2025-05-28 14:14:55.908894 INFO::Creating boxplot for categorical data, diagnosis vs F564
+2025-05-28 14:14:55.957166 INFO::Creating boxplot for categorical data, diagnosis vs F183
+2025-05-28 14:14:56.003602 INFO::Creating boxplot for categorical data, diagnosis vs F647
+2025-05-28 14:14:56.053123 INFO::Creating boxplot for categorical data, diagnosis vs F288
+2025-05-28 14:14:56.097733 INFO::Creating boxplot for categorical data, diagnosis vs F159
+2025-05-28 14:14:56.142393 INFO::Creating boxplot for categorical data, diagnosis vs F638
+2025-05-28 14:14:56.194656 INFO::Creating boxplot for categorical data, diagnosis vs F484
+2025-05-28 14:14:56.238414 INFO::Creating boxplot for categorical data, diagnosis vs F20
+2025-05-28 14:14:56.282317 INFO::Creating boxplot for categorical data, diagnosis vs F19
+2025-05-28 14:14:56.329481 INFO::Creating boxplot for categorical data, diagnosis vs F897
+2025-05-28 14:14:56.375325 INFO::Creating boxplot for categorical data, diagnosis vs F442
+2025-05-28 14:14:56.427497 INFO::Creating boxplot for categorical data, diagnosis vs F372
+2025-05-28 14:14:56.473048 INFO::Creating boxplot for categorical data, diagnosis vs F771
+2025-05-28 14:14:56.519809 INFO::Creating boxplot for categorical data, diagnosis vs F370
+2025-05-28 14:14:56.563742 INFO::Creating boxplot for categorical data, diagnosis vs F620
+2025-05-28 14:14:56.607809 INFO::Creating boxplot for categorical data, diagnosis vs F753
+2025-05-28 14:14:56.656198 INFO::Creating boxplot for categorical data, diagnosis vs F568
+2025-05-28 14:14:56.712853 INFO::Creating boxplot for categorical data, diagnosis vs F312
+2025-05-28 14:14:56.761504 INFO::Creating boxplot for categorical data, diagnosis vs F485
+2025-05-28 14:14:56.807872 INFO::Creating boxplot for categorical data, diagnosis vs F627
+2025-05-28 14:14:56.859683 INFO::Creating boxplot for categorical data, diagnosis vs F72
+2025-05-28 14:14:56.907669 INFO::Creating boxplot for categorical data, diagnosis vs F575
+2025-05-28 14:14:56.955233 INFO::Creating boxplot for categorical data, diagnosis vs F332
+2025-05-28 14:14:57.010223 INFO::Creating boxplot for categorical data, diagnosis vs F674
+2025-05-28 14:14:57.060661 INFO::Creating boxplot for categorical data, diagnosis vs F537
+2025-05-28 14:14:57.106018 INFO::Creating boxplot for categorical data, diagnosis vs F839
+2025-05-28 14:14:57.150088 INFO::Creating boxplot for categorical data, diagnosis vs F715
+2025-05-28 14:14:57.203544 INFO::Creating boxplot for categorical data, diagnosis vs F768
+2025-05-28 14:14:57.258881 INFO::Creating boxplot for categorical data, diagnosis vs F202
+2025-05-28 14:14:57.313413 INFO::Creating boxplot for categorical data, diagnosis vs F756
+2025-05-28 14:14:57.364721 INFO::Creating boxplot for categorical data, diagnosis vs F536
+2025-05-28 14:14:57.411912 INFO::Creating boxplot for categorical data, diagnosis vs F677
+2025-05-28 14:14:57.459092 INFO::Creating boxplot for categorical data, diagnosis vs F435
+2025-05-28 14:14:57.505785 INFO::Creating boxplot for categorical data, diagnosis vs F574
+2025-05-28 14:14:57.559798 INFO::Creating boxplot for categorical data, diagnosis vs F70
+2025-05-28 14:14:57.605132 INFO::Creating boxplot for categorical data, diagnosis vs F146
+2025-05-28 14:14:57.649696 INFO::Creating boxplot for categorical data, diagnosis vs F236
+2025-05-28 14:14:57.694614 INFO::Creating boxplot for categorical data, diagnosis vs F527
+2025-05-28 14:14:57.739942 INFO::Creating boxplot for categorical data, diagnosis vs F624
+2025-05-28 14:14:57.792424 INFO::Creating boxplot for categorical data, diagnosis vs F426
+2025-05-28 14:14:57.839724 INFO::Creating boxplot for categorical data, diagnosis vs F880
+2025-05-28 14:14:57.885777 INFO::Creating boxplot for categorical data, diagnosis vs F549
+2025-05-28 14:14:57.933767 INFO::Creating boxplot for categorical data, diagnosis vs F49
+2025-05-28 14:14:57.978542 INFO::Creating boxplot for categorical data, diagnosis vs F67
+2025-05-28 14:14:58.023818 INFO::Creating boxplot for categorical data, diagnosis vs F491
+2025-05-28 14:14:58.077013 INFO::Creating boxplot for categorical data, diagnosis vs F174
+2025-05-28 14:14:58.122144 INFO::Creating boxplot for categorical data, diagnosis vs F254
+2025-05-28 14:14:58.167214 INFO::Creating boxplot for categorical data, diagnosis vs F112
+2025-05-28 14:14:58.211116 INFO::Creating boxplot for categorical data, diagnosis vs F235
+2025-05-28 14:14:58.255575 INFO::Creating boxplot for categorical data, diagnosis vs F833
+2025-05-28 14:14:58.308563 INFO::Creating boxplot for categorical data, diagnosis vs F752
+2025-05-28 14:14:58.354342 INFO::Creating boxplot for categorical data, diagnosis vs F792
+2025-05-28 14:14:58.399598 INFO::Creating boxplot for categorical data, diagnosis vs F422
+2025-05-28 14:14:58.446917 INFO::Creating boxplot for categorical data, diagnosis vs F6
+2025-05-28 14:14:58.493562 INFO::Creating boxplot for categorical data, diagnosis vs F463
+2025-05-28 14:14:58.540692 INFO::Creating boxplot for categorical data, diagnosis vs F706
+2025-05-28 14:14:58.593912 INFO::Creating boxplot for categorical data, diagnosis vs F642
+2025-05-28 14:14:58.640631 INFO::Creating boxplot for categorical data, diagnosis vs F65
+2025-05-28 14:14:58.68678 INFO::Creating boxplot for categorical data, diagnosis vs F102
+2025-05-28 14:14:58.731056 INFO::Creating boxplot for categorical data, diagnosis vs F783
+2025-05-28 14:14:58.785542 INFO::Creating boxplot for categorical data, diagnosis vs F478
+2025-05-28 14:14:58.837835 INFO::Creating boxplot for categorical data, diagnosis vs F889
+2025-05-28 14:14:58.883486 INFO::Creating boxplot for categorical data, diagnosis vs F350
+2025-05-28 14:14:58.927819 INFO::Creating boxplot for categorical data, diagnosis vs F681
+2025-05-28 14:14:58.97239 INFO::Creating boxplot for categorical data, diagnosis vs F748
+2025-05-28 14:14:59.017438 INFO::Creating boxplot for categorical data, diagnosis vs F762
+2025-05-28 14:14:59.061984 INFO::Creating boxplot for categorical data, diagnosis vs F852
+2025-05-28 14:14:59.117321 INFO::Creating boxplot for categorical data, diagnosis vs F180
+2025-05-28 14:14:59.162606 INFO::Creating boxplot for categorical data, diagnosis vs F248
+2025-05-28 14:14:59.206821 INFO::Creating boxplot for categorical data, diagnosis vs F759
+2025-05-28 14:14:59.250639 INFO::Creating boxplot for categorical data, diagnosis vs F824
+2025-05-28 14:14:59.294987 INFO::Creating boxplot for categorical data, diagnosis vs F145
+2025-05-28 14:14:59.350059 INFO::Creating boxplot for categorical data, diagnosis vs F16
+2025-05-28 14:14:59.399149 INFO::Creating boxplot for categorical data, diagnosis vs F169
+2025-05-28 14:14:59.446606 INFO::Creating boxplot for categorical data, diagnosis vs F392
+2025-05-28 14:14:59.491887 INFO::Creating boxplot for categorical data, diagnosis vs F468
+2025-05-28 14:14:59.537341 INFO::Creating boxplot for categorical data, diagnosis vs F476
+2025-05-28 14:14:59.587131 INFO::Creating boxplot for categorical data, diagnosis vs F699
+2025-05-28 14:14:59.893405 INFO::Creating boxplot for categorical data, diagnosis vs F735
+2025-05-28 14:14:59.936429 INFO::Creating boxplot for categorical data, diagnosis vs F182
+2025-05-28 14:14:59.980156 INFO::Creating boxplot for categorical data, diagnosis vs F64
+2025-05-28 14:15:00.023637 INFO::Creating boxplot for categorical data, diagnosis vs F203
+2025-05-28 14:15:00.070327 INFO::Creating boxplot for categorical data, diagnosis vs F877
+2025-05-28 14:15:00.119467 INFO::Creating boxplot for categorical data, diagnosis vs F433
+2025-05-28 14:15:00.163208 INFO::Creating boxplot for categorical data, diagnosis vs F739
+2025-05-28 14:15:00.210358 INFO::Creating boxplot for categorical data, diagnosis vs F749
+2025-05-28 14:15:00.253812 INFO::Creating boxplot for categorical data, diagnosis vs F382
+2025-05-28 14:15:00.297223 INFO::Creating boxplot for categorical data, diagnosis vs F162
+2025-05-28 14:15:00.341501 INFO::Creating boxplot for categorical data, diagnosis vs F438
+2025-05-28 14:15:00.39044 INFO::Creating boxplot for categorical data, diagnosis vs F360
+2025-05-28 14:15:00.434191 INFO::Creating boxplot for categorical data, diagnosis vs F56
+2025-05-28 14:15:00.478116 INFO::Creating boxplot for categorical data, diagnosis vs F529
+2025-05-28 14:15:00.52279 INFO::Creating boxplot for categorical data, diagnosis vs F48
+2025-05-28 14:15:00.576218 INFO::Creating boxplot for categorical data, diagnosis vs F826
+2025-05-28 14:15:00.620523 INFO::Creating boxplot for categorical data, diagnosis vs F488
+2025-05-28 14:15:00.670695 INFO::Creating boxplot for categorical data, diagnosis vs F309
+2025-05-28 14:15:00.717678 INFO::Creating boxplot for categorical data, diagnosis vs F834
+2025-05-28 14:15:00.761999 INFO::Creating boxplot for categorical data, diagnosis vs F449
+2025-05-28 14:15:00.805823 INFO::Creating boxplot for categorical data, diagnosis vs F77
+2025-05-28 14:15:00.849152 INFO::Creating boxplot for categorical data, diagnosis vs F365
+2025-05-28 14:15:00.893928 INFO::Creating boxplot for categorical data, diagnosis vs F346
+2025-05-28 14:15:00.943622 INFO::Creating boxplot for categorical data, diagnosis vs F654
+2025-05-28 14:15:00.987827 INFO::Creating boxplot for categorical data, diagnosis vs F79
+2025-05-28 14:15:01.032037 INFO::Creating boxplot for categorical data, diagnosis vs F785
+2025-05-28 14:15:01.079312 INFO::Creating boxplot for categorical data, diagnosis vs F415
+2025-05-28 14:15:01.123506 INFO::Creating boxplot for categorical data, diagnosis vs F466
+2025-05-28 14:15:01.172615 INFO::Creating boxplot for categorical data, diagnosis vs F643
+2025-05-28 14:15:01.219583 INFO::Creating boxplot for categorical data, diagnosis vs F160
+2025-05-28 14:15:01.263046 INFO::Creating boxplot for categorical data, diagnosis vs F69
+2025-05-28 14:15:01.306741 INFO::Creating boxplot for categorical data, diagnosis vs F498
+2025-05-28 14:15:01.350527 INFO::Creating boxplot for categorical data, diagnosis vs F207
+2025-05-28 14:15:01.394806 INFO::Creating boxplot for categorical data, diagnosis vs F679
+2025-05-28 14:15:01.444074 INFO::Creating boxplot for categorical data, diagnosis vs F618
+2025-05-28 14:15:01.487333 INFO::Creating boxplot for categorical data, diagnosis vs F255
+2025-05-28 14:15:01.531496 INFO::Creating boxplot for categorical data, diagnosis vs F267
+2025-05-28 14:15:01.575615 INFO::Creating boxplot for categorical data, diagnosis vs F143
+2025-05-28 14:15:01.621486 INFO::Creating boxplot for categorical data, diagnosis vs F286
+2025-05-28 14:15:01.664965 INFO::Creating boxplot for categorical data, diagnosis vs F562
+2025-05-28 14:15:01.720355 INFO::Creating boxplot for categorical data, diagnosis vs F100
+2025-05-28 14:15:01.766624 INFO::Creating boxplot for categorical data, diagnosis vs F374
+2025-05-28 14:15:01.816046 INFO::Creating boxplot for categorical data, diagnosis vs F535
+2025-05-28 14:15:01.861985 INFO::Creating boxplot for categorical data, diagnosis vs F658
+2025-05-28 14:15:01.907611 INFO::Creating boxplot for categorical data, diagnosis vs F707
+2025-05-28 14:15:01.959539 INFO::Creating boxplot for categorical data, diagnosis vs F325
+2025-05-28 14:15:02.003948 INFO::Creating boxplot for categorical data, diagnosis vs F89
+2025-05-28 14:15:02.047618 INFO::Creating boxplot for categorical data, diagnosis vs F214
+2025-05-28 14:15:02.099874 INFO::Creating boxplot for categorical data, diagnosis vs F578
+2025-05-28 14:15:02.145077 INFO::Creating boxplot for categorical data, diagnosis vs F790
+2025-05-28 14:15:02.190714 INFO::Creating boxplot for categorical data, diagnosis vs F265
+2025-05-28 14:15:02.242597 INFO::Creating boxplot for categorical data, diagnosis vs F253
+2025-05-28 14:15:02.287826 INFO::Creating boxplot for categorical data, diagnosis vs F294
+2025-05-28 14:15:02.332564 INFO::Creating boxplot for categorical data, diagnosis vs F410
+2025-05-28 14:15:02.377092 INFO::Creating boxplot for categorical data, diagnosis vs F614
+2025-05-28 14:15:02.420998 INFO::Creating boxplot for categorical data, diagnosis vs F764
+2025-05-28 14:15:02.466177 INFO::Creating boxplot for categorical data, diagnosis vs F59
+2025-05-28 14:15:02.515323 INFO::Creating boxplot for categorical data, diagnosis vs F675
+2025-05-28 14:15:02.559562 INFO::Creating boxplot for categorical data, diagnosis vs F441
+2025-05-28 14:15:02.604344 INFO::Creating boxplot for categorical data, diagnosis vs F193
+2025-05-28 14:15:02.649026 INFO::Creating boxplot for categorical data, diagnosis vs F689
+2025-05-28 14:15:02.70069 INFO::Creating boxplot for categorical data, diagnosis vs F249
+2025-05-28 14:15:02.7585 INFO::Creating boxplot for categorical data, diagnosis vs F821
+2025-05-28 14:15:02.803288 INFO::Creating boxplot for categorical data, diagnosis vs F351
+2025-05-28 14:15:02.846994 INFO::Creating boxplot for categorical data, diagnosis vs F66
+2025-05-28 14:15:02.891643 INFO::Creating boxplot for categorical data, diagnosis vs F413
+2025-05-28 14:15:02.936723 INFO::Creating boxplot for categorical data, diagnosis vs F172
+2025-05-28 14:15:02.982281 INFO::Creating boxplot for categorical data, diagnosis vs F317
+2025-05-28 14:15:03.035453 INFO::Creating boxplot for categorical data, diagnosis vs F167
+2025-05-28 14:15:03.080045 INFO::Creating boxplot for categorical data, diagnosis vs F229
+2025-05-28 14:15:03.124451 INFO::Creating boxplot for categorical data, diagnosis vs F243
+2025-05-28 14:15:03.169738 INFO::Creating boxplot for categorical data, diagnosis vs F732
+2025-05-28 14:15:03.215126 INFO::Creating boxplot for categorical data, diagnosis vs F467
+2025-05-28 14:15:03.266441 INFO::Creating boxplot for categorical data, diagnosis vs F474
+2025-05-28 14:15:03.312213 INFO::Creating boxplot for categorical data, diagnosis vs F156
+2025-05-28 14:15:03.357091 INFO::Creating boxplot for categorical data, diagnosis vs F786
+2025-05-28 14:15:03.402032 INFO::Creating boxplot for categorical data, diagnosis vs F216
+2025-05-28 14:15:03.446842 INFO::Creating boxplot for categorical data, diagnosis vs F85
+2025-05-28 14:15:03.49552 INFO::Creating boxplot for categorical data, diagnosis vs F621
+2025-05-28 14:15:03.546084 INFO::Creating boxplot for categorical data, diagnosis vs F558
+2025-05-28 14:15:03.590644 INFO::Creating boxplot for categorical data, diagnosis vs F582
+2025-05-28 14:15:03.641936 INFO::Creating boxplot for categorical data, diagnosis vs F898
+2025-05-28 14:15:03.686372 INFO::Creating boxplot for categorical data, diagnosis vs F402
+2025-05-28 14:15:03.730872 INFO::Creating boxplot for categorical data, diagnosis vs F71
+2025-05-28 14:15:03.7756 INFO::Creating boxplot for categorical data, diagnosis vs F99
+2025-05-28 14:15:03.825877 INFO::Creating boxplot for categorical data, diagnosis vs F366
+2025-05-28 14:15:03.869031 INFO::Creating boxplot for categorical data, diagnosis vs F778
+2025-05-28 14:15:03.911858 INFO::Creating boxplot for categorical data, diagnosis vs F188
+2025-05-28 14:15:03.955609 INFO::Creating boxplot for categorical data, diagnosis vs F857
+2025-05-28 14:15:03.999682 INFO::Creating boxplot for categorical data, diagnosis vs F440
+2025-05-28 14:15:04.049955 INFO::Creating boxplot for categorical data, diagnosis vs F799
+2025-05-28 14:15:04.095296 INFO::Creating boxplot for categorical data, diagnosis vs F482
+2025-05-28 14:15:04.140814 INFO::Creating boxplot for categorical data, diagnosis vs F212
+2025-05-28 14:15:04.185092 INFO::Creating boxplot for categorical data, diagnosis vs F882
+2025-05-28 14:15:04.229285 INFO::Creating boxplot for categorical data, diagnosis vs F599
+2025-05-28 14:15:04.274415 INFO::Creating boxplot for categorical data, diagnosis vs F302
+2025-05-28 14:15:04.323795 INFO::Creating boxplot for categorical data, diagnosis vs F543
+2025-05-28 14:15:04.367752 INFO::Creating boxplot for categorical data, diagnosis vs F269
+2025-05-28 14:15:04.412152 INFO::Creating boxplot for categorical data, diagnosis vs F650
+2025-05-28 14:15:04.456154 INFO::Creating boxplot for categorical data, diagnosis vs F456
+2025-05-28 14:15:04.502828 INFO::Creating boxplot for categorical data, diagnosis vs F573
+2025-05-28 14:15:04.555165 INFO::Creating boxplot for categorical data, diagnosis vs F8
+2025-05-28 14:15:04.602342 INFO::Creating boxplot for categorical data, diagnosis vs F810
+2025-05-28 14:15:04.646104 INFO::Creating boxplot for categorical data, diagnosis vs F401
+2025-05-28 14:15:04.690944 INFO::Creating boxplot for categorical data, diagnosis vs F606
+2025-05-28 14:15:04.73628 INFO::Creating boxplot for categorical data, diagnosis vs F662
+2025-05-28 14:15:04.78077 INFO::Creating boxplot for categorical data, diagnosis vs F765
+2025-05-28 14:15:04.830673 INFO::Creating boxplot for categorical data, diagnosis vs F887
+2025-05-28 14:15:04.87461 INFO::Creating boxplot for categorical data, diagnosis vs F770
+2025-05-28 14:15:04.918117 INFO::Creating boxplot for categorical data, diagnosis vs F469
+2025-05-28 14:15:04.963544 INFO::Creating boxplot for categorical data, diagnosis vs F86
+2025-05-28 14:15:05.009933 INFO::Creating boxplot for categorical data, diagnosis vs F400
+2025-05-28 14:15:05.06115 INFO::Creating boxplot for categorical data, diagnosis vs F579
+2025-05-28 14:15:05.107268 INFO::Creating boxplot for categorical data, diagnosis vs F871
+2025-05-28 14:15:05.1584 INFO::Creating boxplot for categorical data, diagnosis vs F37
+2025-05-28 14:15:05.2031 INFO::Creating boxplot for categorical data, diagnosis vs F446
+2025-05-28 14:15:05.250802 INFO::Creating boxplot for categorical data, diagnosis vs F218
+2025-05-28 14:15:05.296719 INFO::Creating boxplot for categorical data, diagnosis vs F321
+2025-05-28 14:15:05.375831 INFO::Creating boxplot for categorical data, diagnosis vs F487
+2025-05-28 14:15:05.421651 INFO::Creating boxplot for categorical data, diagnosis vs F740
+2025-05-28 14:15:05.467564 INFO::Creating boxplot for categorical data, diagnosis vs F141
+2025-05-28 14:15:05.516046 INFO::Creating boxplot for categorical data, diagnosis vs F327
+2025-05-28 14:15:05.565346 INFO::Creating boxplot for categorical data, diagnosis vs F196
+2025-05-28 14:15:05.623035 INFO::Creating boxplot for categorical data, diagnosis vs F883
+2025-05-28 14:15:05.671297 INFO::Creating boxplot for categorical data, diagnosis vs F279
+2025-05-28 14:15:05.717427 INFO::Creating boxplot for categorical data, diagnosis vs F838
+2025-05-28 14:15:05.763519 INFO::Creating boxplot for categorical data, diagnosis vs F451
+2025-05-28 14:15:05.809773 INFO::Creating boxplot for categorical data, diagnosis vs F854
+2025-05-28 14:15:05.856347 INFO::Creating boxplot for categorical data, diagnosis vs F434
+2025-05-28 14:15:05.914671 INFO::Creating boxplot for categorical data, diagnosis vs F519
+2025-05-28 14:15:05.960028 INFO::Creating boxplot for categorical data, diagnosis vs F694
+2025-05-28 14:15:06.00595 INFO::Creating boxplot for categorical data, diagnosis vs F561
+2025-05-28 14:15:06.051995 INFO::Creating boxplot for categorical data, diagnosis vs F10
+2025-05-28 14:15:06.097989 INFO::Creating boxplot for categorical data, diagnosis vs F303
+2025-05-28 14:15:06.143958 INFO::Creating boxplot for categorical data, diagnosis vs F512
+2025-05-28 14:15:06.197069 INFO::Creating boxplot for categorical data, diagnosis vs F645
+2025-05-28 14:15:06.241104 INFO::Creating boxplot for categorical data, diagnosis vs F793
+2025-05-28 14:15:06.285805 INFO::Creating boxplot for categorical data, diagnosis vs F404
+2025-05-28 14:15:06.330241 INFO::Creating boxplot for categorical data, diagnosis vs F362
+2025-05-28 14:15:06.375688 INFO::Creating boxplot for categorical data, diagnosis vs F525
+2025-05-28 14:15:06.42102 INFO::Creating boxplot for categorical data, diagnosis vs F742
+2025-05-28 14:15:06.474015 INFO::Creating boxplot for categorical data, diagnosis vs F276
+2025-05-28 14:15:06.520587 INFO::Creating boxplot for categorical data, diagnosis vs F499
+2025-05-28 14:15:06.566554 INFO::Creating boxplot for categorical data, diagnosis vs F328
+2025-05-28 14:15:06.612072 INFO::Creating boxplot for categorical data, diagnosis vs F787
+2025-05-28 14:15:06.661688 INFO::Creating boxplot for categorical data, diagnosis vs F30
+2025-05-28 14:15:06.718279 INFO::Creating boxplot for categorical data, diagnosis vs F122
+2025-05-28 14:15:06.775312 INFO::Creating boxplot for categorical data, diagnosis vs F619
+2025-05-28 14:15:06.823328 INFO::Creating boxplot for categorical data, diagnosis vs F572
+2025-05-28 14:15:06.871414 INFO::Creating boxplot for categorical data, diagnosis vs F47
+2025-05-28 14:15:06.916555 INFO::Creating boxplot for categorical data, diagnosis vs F570
+2025-05-28 14:15:06.962264 INFO::Creating boxplot for categorical data, diagnosis vs F26
+2025-05-28 14:15:07.01637 INFO::Creating boxplot for categorical data, diagnosis vs F252
+2025-05-28 14:15:07.062221 INFO::Creating boxplot for categorical data, diagnosis vs F117
+2025-05-28 14:15:07.10722 INFO::Creating boxplot for categorical data, diagnosis vs F683
+2025-05-28 14:15:07.152622 INFO::Creating boxplot for categorical data, diagnosis vs F395
+2025-05-28 14:15:07.198097 INFO::Creating boxplot for categorical data, diagnosis vs F822
+2025-05-28 14:15:07.244301 INFO::Creating boxplot for categorical data, diagnosis vs F46
+2025-05-28 14:15:07.297641 INFO::Creating boxplot for categorical data, diagnosis vs F154
+2025-05-28 14:15:07.342517 INFO::Creating boxplot for categorical data, diagnosis vs F540
+2025-05-28 14:15:07.387655 INFO::Creating boxplot for categorical data, diagnosis vs F884
+2025-05-28 14:15:07.432377 INFO::Creating boxplot for categorical data, diagnosis vs F368
+2025-05-28 14:15:07.478072 INFO::Creating boxplot for categorical data, diagnosis vs F607
+2025-05-28 14:15:07.531216 INFO::Creating boxplot for categorical data, diagnosis vs F111
+2025-05-28 14:15:07.576325 INFO::Creating boxplot for categorical data, diagnosis vs F745
+2025-05-28 14:15:07.620959 INFO::Creating boxplot for categorical data, diagnosis vs F673
+2025-05-28 14:15:07.66694 INFO::Creating boxplot for categorical data, diagnosis vs F92
+2025-05-28 14:15:07.713077 INFO::Creating boxplot for categorical data, diagnosis vs F493
+2025-05-28 14:15:07.76063 INFO::Creating boxplot for categorical data, diagnosis vs F835
+2025-05-28 14:15:07.814264 INFO::Creating boxplot for categorical data, diagnosis vs F872
+2025-05-28 14:15:07.859925 INFO::Creating boxplot for categorical data, diagnosis vs F879
+2025-05-28 14:15:07.903639 INFO::Creating boxplot for categorical data, diagnosis vs F432
+2025-05-28 14:15:07.948957 INFO::Creating boxplot for categorical data, diagnosis vs F518
+2025-05-28 14:15:07.99363 INFO::Creating boxplot for categorical data, diagnosis vs F44
+2025-05-28 14:15:08.046287 INFO::Creating boxplot for categorical data, diagnosis vs F240
+2025-05-28 14:15:08.091026 INFO::Creating boxplot for categorical data, diagnosis vs F819
+2025-05-28 14:15:08.13635 INFO::Creating boxplot for categorical data, diagnosis vs F411
+2025-05-28 14:15:08.184939 INFO::Creating boxplot for categorical data, diagnosis vs F353
+2025-05-28 14:15:08.245023 INFO::Creating boxplot for categorical data, diagnosis vs F763
+2025-05-28 14:15:08.298357 INFO::Creating boxplot for categorical data, diagnosis vs F97
+2025-05-28 14:15:08.363844 INFO::Creating boxplot for categorical data, diagnosis vs F40
+2025-05-28 14:15:08.410028 INFO::Creating boxplot for categorical data, diagnosis vs F652
+2025-05-28 14:15:08.460525 INFO::Creating boxplot for categorical data, diagnosis vs F789
+2025-05-28 14:15:08.507724 INFO::Creating boxplot for categorical data, diagnosis vs F25
+2025-05-28 14:15:08.555019 INFO::Creating boxplot for categorical data, diagnosis vs F256
+2025-05-28 14:15:08.60217 INFO::Creating boxplot for categorical data, diagnosis vs F423
+2025-05-28 14:15:08.657923 INFO::Creating boxplot for categorical data, diagnosis vs F594
+2025-05-28 14:15:08.704024 INFO::Creating boxplot for categorical data, diagnosis vs F201
+2025-05-28 14:15:08.750794 INFO::Creating boxplot for categorical data, diagnosis vs F813
+2025-05-28 14:15:08.797389 INFO::Creating boxplot for categorical data, diagnosis vs F653
+2025-05-28 14:15:08.843707 INFO::Creating boxplot for categorical data, diagnosis vs F524
+2025-05-28 14:15:08.897653 INFO::Creating boxplot for categorical data, diagnosis vs F777
+2025-05-28 14:15:08.943812 INFO::Creating boxplot for categorical data, diagnosis vs F226
+2025-05-28 14:15:08.989588 INFO::Creating boxplot for categorical data, diagnosis vs F227
+2025-05-28 14:15:09.03578 INFO::Creating boxplot for categorical data, diagnosis vs F521
+2025-05-28 14:15:09.081415 INFO::Creating boxplot for categorical data, diagnosis vs F14
+2025-05-28 14:15:09.127706 INFO::Creating boxplot for categorical data, diagnosis vs F310
+2025-05-28 14:15:09.184656 INFO::Creating boxplot for categorical data, diagnosis vs F452
+2025-05-28 14:15:09.230142 INFO::Creating boxplot for categorical data, diagnosis vs F52
+2025-05-28 14:15:09.276337 INFO::Creating boxplot for categorical data, diagnosis vs F53
+2025-05-28 14:15:09.32246 INFO::Creating boxplot for categorical data, diagnosis vs F844
+2025-05-28 14:15:09.37152 INFO::Creating boxplot for categorical data, diagnosis vs F31
+2025-05-28 14:15:09.424379 INFO::Creating boxplot for categorical data, diagnosis vs F795
+2025-05-28 14:15:09.471483 INFO::Creating boxplot for categorical data, diagnosis vs F766
+2025-05-28 14:15:09.516266 INFO::Creating boxplot for categorical data, diagnosis vs F342
+2025-05-28 14:15:09.561645 INFO::Creating boxplot for categorical data, diagnosis vs F408
+2025-05-28 14:15:09.607375 INFO::Creating boxplot for categorical data, diagnosis vs F282
+2025-05-28 14:15:09.652654 INFO::Creating boxplot for categorical data, diagnosis vs F508
+2025-05-28 14:15:09.706554 INFO::Creating boxplot for categorical data, diagnosis vs F805
+2025-05-28 14:15:09.751928 INFO::Creating boxplot for categorical data, diagnosis vs F337
+2025-05-28 14:15:09.797404 INFO::Creating boxplot for categorical data, diagnosis vs F820
+2025-05-28 14:15:09.84238 INFO::Creating boxplot for categorical data, diagnosis vs F593
+2025-05-28 14:15:09.888208 INFO::Creating boxplot for categorical data, diagnosis vs F701
+2025-05-28 14:15:09.94995 INFO::Creating boxplot for categorical data, diagnosis vs F459
+2025-05-28 14:15:09.995162 INFO::Creating boxplot for categorical data, diagnosis vs F305
+2025-05-28 14:15:10.041627 INFO::Creating boxplot for categorical data, diagnosis vs F142
+2025-05-28 14:15:10.087612 INFO::Creating boxplot for categorical data, diagnosis vs F534
+2025-05-28 14:15:10.133602 INFO::Creating boxplot for categorical data, diagnosis vs F135
+2025-05-28 14:15:10.183771 INFO::Creating boxplot for categorical data, diagnosis vs F702
+2025-05-28 14:15:10.238582 INFO::Creating boxplot for categorical data, diagnosis vs F776
+2025-05-28 14:15:10.284239 INFO::Creating boxplot for categorical data, diagnosis vs F295
+2025-05-28 14:15:10.33071 INFO::Creating boxplot for categorical data, diagnosis vs F355
+2025-05-28 14:15:10.378497 INFO::Creating boxplot for categorical data, diagnosis vs F797
+2025-05-28 14:15:10.425395 INFO::Creating boxplot for categorical data, diagnosis vs F13
+2025-05-28 14:15:10.480151 INFO::Creating boxplot for categorical data, diagnosis vs F356
+2025-05-28 14:15:10.525989 INFO::Creating boxplot for categorical data, diagnosis vs F359
+2025-05-28 14:15:10.570422 INFO::Creating boxplot for categorical data, diagnosis vs F121
+2025-05-28 14:15:10.615383 INFO::Creating boxplot for categorical data, diagnosis vs F850
+2025-05-28 14:15:10.660507 INFO::Creating boxplot for categorical data, diagnosis vs F899
+2025-05-28 14:15:10.706295 INFO::Creating boxplot for categorical data, diagnosis vs F628
+2025-05-28 14:15:10.759392 INFO::Creating boxplot for categorical data, diagnosis vs F843
+2025-05-28 14:15:10.803526 INFO::Creating boxplot for categorical data, diagnosis vs F107
+2025-05-28 14:15:10.848573 INFO::Creating boxplot for categorical data, diagnosis vs F287
+2025-05-28 14:15:10.893957 INFO::Creating boxplot for categorical data, diagnosis vs F165
+2025-05-28 14:15:10.938301 INFO::Creating boxplot for categorical data, diagnosis vs F557
+2025-05-28 14:15:11.007752 INFO::Creating boxplot for categorical data, diagnosis vs F127
+2025-05-28 14:15:11.052897 INFO::Creating boxplot for categorical data, diagnosis vs F299
+2025-05-28 14:15:11.098114 INFO::Creating boxplot for categorical data, diagnosis vs F497
+2025-05-28 14:15:11.143576 INFO::Creating boxplot for categorical data, diagnosis vs F711
+2025-05-28 14:15:11.19199 INFO::Creating boxplot for categorical data, diagnosis vs F319
+2025-05-28 14:15:11.236442 INFO::Creating boxplot for categorical data, diagnosis vs F271
+2025-05-28 14:15:11.295128 INFO::Creating boxplot for categorical data, diagnosis vs F157
+2025-05-28 14:15:11.340037 INFO::Creating boxplot for categorical data, diagnosis vs F560
+2025-05-28 14:15:11.386326 INFO::Creating boxplot for categorical data, diagnosis vs F680
+2025-05-28 14:15:11.431497 INFO::Creating boxplot for categorical data, diagnosis vs F580
+2025-05-28 14:15:11.486102 INFO::Creating boxplot for categorical data, diagnosis vs F152
+2025-05-28 14:15:11.532834 INFO::Creating boxplot for categorical data, diagnosis vs F12
+2025-05-28 14:15:11.591894 INFO::Creating boxplot for categorical data, diagnosis vs F324
+2025-05-28 14:15:11.639077 INFO::Creating boxplot for categorical data, diagnosis vs F893
+2025-05-28 14:15:11.689018 INFO::Creating boxplot for categorical data, diagnosis vs F318
+2025-05-28 14:15:11.735742 INFO::Creating boxplot for categorical data, diagnosis vs F784
+2025-05-28 14:15:11.78243 INFO::Creating boxplot for categorical data, diagnosis vs F567
+2025-05-28 14:15:11.839064 INFO::Creating boxplot for categorical data, diagnosis vs F457
+2025-05-28 14:15:11.884854 INFO::Creating boxplot for categorical data, diagnosis vs F708
+2025-05-28 14:15:11.929663 INFO::Creating boxplot for categorical data, diagnosis vs F669
+2025-05-28 14:15:11.974897 INFO::Creating boxplot for categorical data, diagnosis vs F87
+2025-05-28 14:15:12.521037 INFO::Plotting data for metadata number 2, antibiotics
+2025-05-28 14:15:12.521734 INFO::Creating boxplot for categorical data, antibiotics vs F663
+2025-05-28 14:15:12.573011 INFO::Creating boxplot for categorical data, antibiotics vs F838
+2025-05-28 14:15:12.624747 INFO::Creating boxplot for categorical data, antibiotics vs F764
+2025-05-28 14:15:12.673525 INFO::Creating boxplot for categorical data, antibiotics vs F880
+2025-05-28 14:15:12.736746 INFO::Creating boxplot for categorical data, antibiotics vs F751
+2025-05-28 14:15:12.786351 INFO::Creating boxplot for categorical data, antibiotics vs F288
+2025-05-28 14:15:12.836668 INFO::Creating boxplot for categorical data, antibiotics vs F65
+2025-05-28 14:15:12.885188 INFO::Creating boxplot for categorical data, antibiotics vs F742
+2025-05-28 14:15:12.933588 INFO::Creating boxplot for categorical data, antibiotics vs F528
+2025-05-28 14:15:12.990589 INFO::Creating boxplot for categorical data, antibiotics vs F790
+2025-05-28 14:15:13.041087 INFO::Creating boxplot for categorical data, antibiotics vs F777
+2025-05-28 14:15:13.089432 INFO::Creating boxplot for categorical data, antibiotics vs F178
+2025-05-28 14:15:13.137796 INFO::Creating boxplot for categorical data, antibiotics vs F139
+2025-05-28 14:15:13.18595 INFO::Creating boxplot for categorical data, antibiotics vs F202
+2025-05-28 14:15:13.234908 INFO::Creating boxplot for categorical data, antibiotics vs F220
+2025-05-28 14:15:13.294281 INFO::Creating boxplot for categorical data, antibiotics vs F397
+2025-05-28 14:15:13.342433 INFO::Creating boxplot for categorical data, antibiotics vs F882
+2025-05-28 14:15:13.390206 INFO::Creating boxplot for categorical data, antibiotics vs F446
+2025-05-28 14:15:13.438081 INFO::Creating boxplot for categorical data, antibiotics vs F418
+2025-05-28 14:15:13.490001 INFO::Creating boxplot for categorical data, antibiotics vs F133
+2025-05-28 14:15:13.559823 INFO::Creating boxplot for categorical data, antibiotics vs F696
+2025-05-28 14:15:13.623032 INFO::Creating boxplot for categorical data, antibiotics vs F548
+2025-05-28 14:15:13.671006 INFO::Creating boxplot for categorical data, antibiotics vs F536
+2025-05-28 14:15:13.719222 INFO::Creating boxplot for categorical data, antibiotics vs F194
+2025-05-28 14:15:13.767637 INFO::Creating boxplot for categorical data, antibiotics vs F34
+2025-05-28 14:15:13.826715 INFO::Creating boxplot for categorical data, antibiotics vs F153
+2025-05-28 14:15:13.874962 INFO::Creating boxplot for categorical data, antibiotics vs F400
+2025-05-28 14:15:13.923943 INFO::Creating boxplot for categorical data, antibiotics vs F794
+2025-05-28 14:15:13.972153 INFO::Creating boxplot for categorical data, antibiotics vs F396
+2025-05-28 14:15:14.020259 INFO::Creating boxplot for categorical data, antibiotics vs F182
+2025-05-28 14:15:14.080895 INFO::Creating boxplot for categorical data, antibiotics vs F719
+2025-05-28 14:15:14.130977 INFO::Creating boxplot for categorical data, antibiotics vs F109
+2025-05-28 14:15:14.179478 INFO::Creating boxplot for categorical data, antibiotics vs F180
+2025-05-28 14:15:14.227785 INFO::Creating boxplot for categorical data, antibiotics vs F552
+2025-05-28 14:15:14.275705 INFO::Creating boxplot for categorical data, antibiotics vs F789
+2025-05-28 14:15:14.331707 INFO::Creating boxplot for categorical data, antibiotics vs F893
+2025-05-28 14:15:14.385987 INFO::Creating boxplot for categorical data, antibiotics vs F834
+2025-05-28 14:15:14.434876 INFO::Creating boxplot for categorical data, antibiotics vs F889
+2025-05-28 14:15:14.483219 INFO::Creating boxplot for categorical data, antibiotics vs F143
+2025-05-28 14:15:14.531374 INFO::Creating boxplot for categorical data, antibiotics vs F224
+2025-05-28 14:15:14.580359 INFO::Creating boxplot for categorical data, antibiotics vs F5
+2025-05-28 14:15:14.639973 INFO::Creating boxplot for categorical data, antibiotics vs F873
+2025-05-28 14:15:14.688526 INFO::Creating boxplot for categorical data, antibiotics vs F452
+2025-05-28 14:15:14.739073 INFO::Creating boxplot for categorical data, antibiotics vs F681
+2025-05-28 14:15:14.787371 INFO::Creating boxplot for categorical data, antibiotics vs F468
+2025-05-28 14:15:14.83585 INFO::Creating boxplot for categorical data, antibiotics vs F731
+2025-05-28 14:15:14.896082 INFO::Creating boxplot for categorical data, antibiotics vs F479
+2025-05-28 14:15:14.944694 INFO::Creating boxplot for categorical data, antibiotics vs F520
+2025-05-28 14:15:14.993389 INFO::Creating boxplot for categorical data, antibiotics vs F649
+2025-05-28 14:15:15.04175 INFO::Creating boxplot for categorical data, antibiotics vs F259
+2025-05-28 14:15:15.09071 INFO::Creating boxplot for categorical data, antibiotics vs F186
+2025-05-28 14:15:15.150704 INFO::Creating boxplot for categorical data, antibiotics vs F312
+2025-05-28 14:15:15.198564 INFO::Creating boxplot for categorical data, antibiotics vs F477
+2025-05-28 14:15:15.254113 INFO::Creating boxplot for categorical data, antibiotics vs F4
+2025-05-28 14:15:15.30245 INFO::Creating boxplot for categorical data, antibiotics vs F632
+2025-05-28 14:15:15.350899 INFO::Creating boxplot for categorical data, antibiotics vs F31
+2025-05-28 14:15:15.410708 INFO::Creating boxplot for categorical data, antibiotics vs F184
+2025-05-28 14:15:15.459677 INFO::Creating boxplot for categorical data, antibiotics vs F7
+2025-05-28 14:15:15.507501 INFO::Creating boxplot for categorical data, antibiotics vs F213
+2025-05-28 14:15:15.555795 INFO::Creating boxplot for categorical data, antibiotics vs F691
+2025-05-28 14:15:15.603863 INFO::Creating boxplot for categorical data, antibiotics vs F828
+2025-05-28 14:15:15.663576 INFO::Creating boxplot for categorical data, antibiotics vs F831
+2025-05-28 14:15:15.711923 INFO::Creating boxplot for categorical data, antibiotics vs F315
+2025-05-28 14:15:15.761895 INFO::Creating boxplot for categorical data, antibiotics vs F159
+2025-05-28 14:15:15.810216 INFO::Creating boxplot for categorical data, antibiotics vs F331
+2025-05-28 14:15:15.858932 INFO::Creating boxplot for categorical data, antibiotics vs F757
+2025-05-28 14:15:15.919039 INFO::Creating boxplot for categorical data, antibiotics vs F167
+2025-05-28 14:15:15.96923 INFO::Creating boxplot for categorical data, antibiotics vs F85
+2025-05-28 14:15:16.020139 INFO::Creating boxplot for categorical data, antibiotics vs F80
+2025-05-28 14:15:16.069222 INFO::Creating boxplot for categorical data, antibiotics vs F105
+2025-05-28 14:15:16.159296 INFO::Creating boxplot for categorical data, antibiotics vs F674
+2025-05-28 14:15:16.223606 INFO::Creating boxplot for categorical data, antibiotics vs F50
+2025-05-28 14:15:16.275767 INFO::Creating boxplot for categorical data, antibiotics vs F164
+2025-05-28 14:15:16.33005 INFO::Creating boxplot for categorical data, antibiotics vs F840
+2025-05-28 14:15:16.378894 INFO::Creating boxplot for categorical data, antibiotics vs F232
+2025-05-28 14:15:16.428931 INFO::Creating boxplot for categorical data, antibiotics vs F872
+2025-05-28 14:15:16.489218 INFO::Creating boxplot for categorical data, antibiotics vs F54
+2025-05-28 14:15:16.53888 INFO::Creating boxplot for categorical data, antibiotics vs F365
+2025-05-28 14:15:16.587287 INFO::Creating boxplot for categorical data, antibiotics vs F499
+2025-05-28 14:15:16.635587 INFO::Creating boxplot for categorical data, antibiotics vs F510
+2025-05-28 14:15:16.687294 INFO::Creating boxplot for categorical data, antibiotics vs F716
+2025-05-28 14:15:16.785353 INFO::Creating boxplot for categorical data, antibiotics vs F454
+2025-05-28 14:15:16.835318 INFO::Creating boxplot for categorical data, antibiotics vs F52
+2025-05-28 14:15:16.885072 INFO::Creating boxplot for categorical data, antibiotics vs F273
+2025-05-28 14:15:16.938727 INFO::Creating boxplot for categorical data, antibiotics vs F474
+2025-05-28 14:15:17.001958 INFO::Creating boxplot for categorical data, antibiotics vs F267
+2025-05-28 14:15:17.054221 INFO::Creating boxplot for categorical data, antibiotics vs F253
+2025-05-28 14:15:17.113843 INFO::Creating boxplot for categorical data, antibiotics vs F247
+2025-05-28 14:15:17.163258 INFO::Creating boxplot for categorical data, antibiotics vs F708
+2025-05-28 14:15:17.213201 INFO::Creating boxplot for categorical data, antibiotics vs F438
+2025-05-28 14:15:17.262248 INFO::Creating boxplot for categorical data, antibiotics vs F450
+2025-05-28 14:15:17.310989 INFO::Creating boxplot for categorical data, antibiotics vs F666
+2025-05-28 14:15:17.370127 INFO::Creating boxplot for categorical data, antibiotics vs F720
+2025-05-28 14:15:17.418988 INFO::Creating boxplot for categorical data, antibiotics vs F48
+2025-05-28 14:15:17.46866 INFO::Creating boxplot for categorical data, antibiotics vs F371
+2025-05-28 14:15:17.517477 INFO::Creating boxplot for categorical data, antibiotics vs F423
+2025-05-28 14:15:17.566693 INFO::Creating boxplot for categorical data, antibiotics vs F190
+2025-05-28 14:15:17.624757 INFO::Creating boxplot for categorical data, antibiotics vs F351
+2025-05-28 14:15:17.67375 INFO::Creating boxplot for categorical data, antibiotics vs F394
+2025-05-28 14:15:17.722761 INFO::Creating boxplot for categorical data, antibiotics vs F581
+2025-05-28 14:15:17.771831 INFO::Creating boxplot for categorical data, antibiotics vs F276
+2025-05-28 14:15:17.820359 INFO::Creating boxplot for categorical data, antibiotics vs F608
+2025-05-28 14:15:17.878097 INFO::Creating boxplot for categorical data, antibiotics vs F28
+2025-05-28 14:15:17.927796 INFO::Creating boxplot for categorical data, antibiotics vs F805
+2025-05-28 14:15:17.977161 INFO::Creating boxplot for categorical data, antibiotics vs F249
+2025-05-28 14:15:18.028039 INFO::Creating boxplot for categorical data, antibiotics vs F776
+2025-05-28 14:15:18.079156 INFO::Creating boxplot for categorical data, antibiotics vs F755
+2025-05-28 14:15:18.128194 INFO::Creating boxplot for categorical data, antibiotics vs F68
+2025-05-28 14:15:18.187769 INFO::Creating boxplot for categorical data, antibiotics vs F78
+2025-05-28 14:15:18.236541 INFO::Creating boxplot for categorical data, antibiotics vs F381
+2025-05-28 14:15:18.285931 INFO::Creating boxplot for categorical data, antibiotics vs F644
+2025-05-28 14:15:18.335756 INFO::Creating boxplot for categorical data, antibiotics vs F358
+2025-05-28 14:15:18.383785 INFO::Creating boxplot for categorical data, antibiotics vs F344
+2025-05-28 14:15:18.442301 INFO::Creating boxplot for categorical data, antibiotics vs F209
+2025-05-28 14:15:18.491245 INFO::Creating boxplot for categorical data, antibiotics vs F898
+2025-05-28 14:15:18.540341 INFO::Creating boxplot for categorical data, antibiotics vs F51
+2025-05-28 14:15:18.588788 INFO::Creating boxplot for categorical data, antibiotics vs F149
+2025-05-28 14:15:18.645199 INFO::Creating boxplot for categorical data, antibiotics vs F108
+2025-05-28 14:15:18.705473 INFO::Creating boxplot for categorical data, antibiotics vs F255
+2025-05-28 14:15:18.756701 INFO::Creating boxplot for categorical data, antibiotics vs F823
+2025-05-28 14:15:18.807362 INFO::Creating boxplot for categorical data, antibiotics vs F864
+2025-05-28 14:15:18.856636 INFO::Creating boxplot for categorical data, antibiotics vs F214
+2025-05-28 14:15:18.905298 INFO::Creating boxplot for categorical data, antibiotics vs F76
+2025-05-28 14:15:18.964652 INFO::Creating boxplot for categorical data, antibiotics vs F575
+2025-05-28 14:15:19.013864 INFO::Creating boxplot for categorical data, antibiotics vs F13
+2025-05-28 14:15:19.062932 INFO::Creating boxplot for categorical data, antibiotics vs F389
+2025-05-28 14:15:19.111661 INFO::Creating boxplot for categorical data, antibiotics vs F556
+2025-05-28 14:15:19.160609 INFO::Creating boxplot for categorical data, antibiotics vs F49
+2025-05-28 14:15:19.216963 INFO::Creating boxplot for categorical data, antibiotics vs F436
+2025-05-28 14:15:19.26971 INFO::Creating boxplot for categorical data, antibiotics vs F378
+2025-05-28 14:15:19.319153 INFO::Creating boxplot for categorical data, antibiotics vs F682
+2025-05-28 14:15:19.368339 INFO::Creating boxplot for categorical data, antibiotics vs F47
+2025-05-28 14:15:19.41692 INFO::Creating boxplot for categorical data, antibiotics vs F429
+2025-05-28 14:15:19.465967 INFO::Creating boxplot for categorical data, antibiotics vs F588
+2025-05-28 14:15:19.525993 INFO::Creating boxplot for categorical data, antibiotics vs F616
+2025-05-28 14:15:19.575968 INFO::Creating boxplot for categorical data, antibiotics vs F323
+2025-05-28 14:15:19.625011 INFO::Creating boxplot for categorical data, antibiotics vs F409
+2025-05-28 14:15:19.673562 INFO::Creating boxplot for categorical data, antibiotics vs F326
+2025-05-28 14:15:19.722911 INFO::Creating boxplot for categorical data, antibiotics vs F698
+2025-05-28 14:15:19.782913 INFO::Creating boxplot for categorical data, antibiotics vs F567
+2025-05-28 14:15:19.832274 INFO::Creating boxplot for categorical data, antibiotics vs F179
+2025-05-28 14:15:19.881948 INFO::Creating boxplot for categorical data, antibiotics vs F787
+2025-05-28 14:15:19.930173 INFO::Creating boxplot for categorical data, antibiotics vs F79
+2025-05-28 14:15:19.978368 INFO::Creating boxplot for categorical data, antibiotics vs F335
+2025-05-28 14:15:20.03823 INFO::Creating boxplot for categorical data, antibiotics vs F576
+2025-05-28 14:15:20.087315 INFO::Creating boxplot for categorical data, antibiotics vs F667
+2025-05-28 14:15:20.136364 INFO::Creating boxplot for categorical data, antibiotics vs F694
+2025-05-28 14:15:20.184469 INFO::Creating boxplot for categorical data, antibiotics vs F297
+2025-05-28 14:15:20.23288 INFO::Creating boxplot for categorical data, antibiotics vs F569
+2025-05-28 14:15:20.300073 INFO::Creating boxplot for categorical data, antibiotics vs F138
+2025-05-28 14:15:20.352931 INFO::Creating boxplot for categorical data, antibiotics vs F611
+2025-05-28 14:15:20.402448 INFO::Creating boxplot for categorical data, antibiotics vs F810
+2025-05-28 14:15:20.452852 INFO::Creating boxplot for categorical data, antibiotics vs F746
+2025-05-28 14:15:20.50236 INFO::Creating boxplot for categorical data, antibiotics vs F23
+2025-05-28 14:15:20.566374 INFO::Creating boxplot for categorical data, antibiotics vs F135
+2025-05-28 14:15:20.616977 INFO::Creating boxplot for categorical data, antibiotics vs F411
+2025-05-28 14:15:20.666887 INFO::Creating boxplot for categorical data, antibiotics vs F489
+2025-05-28 14:15:20.718867 INFO::Creating boxplot for categorical data, antibiotics vs F492
+2025-05-28 14:15:20.768208 INFO::Creating boxplot for categorical data, antibiotics vs F844
+2025-05-28 14:15:20.828965 INFO::Creating boxplot for categorical data, antibiotics vs F586
+2025-05-28 14:15:20.878916 INFO::Creating boxplot for categorical data, antibiotics vs F11
+2025-05-28 14:15:20.929189 INFO::Creating boxplot for categorical data, antibiotics vs F900
+2025-05-28 14:15:20.978986 INFO::Creating boxplot for categorical data, antibiotics vs F21
+2025-05-28 14:15:21.028831 INFO::Creating boxplot for categorical data, antibiotics vs F736
+2025-05-28 14:15:21.089075 INFO::Creating boxplot for categorical data, antibiotics vs F408
+2025-05-28 14:15:21.138108 INFO::Creating boxplot for categorical data, antibiotics vs F788
+2025-05-28 14:15:21.187038 INFO::Creating boxplot for categorical data, antibiotics vs F66
+2025-05-28 14:15:21.235571 INFO::Creating boxplot for categorical data, antibiotics vs F493
+2025-05-28 14:15:21.283842 INFO::Creating boxplot for categorical data, antibiotics vs F343
+2025-05-28 14:15:21.342111 INFO::Creating boxplot for categorical data, antibiotics vs F352
+2025-05-28 14:15:21.391795 INFO::Creating boxplot for categorical data, antibiotics vs F677
+2025-05-28 14:15:21.440497 INFO::Creating boxplot for categorical data, antibiotics vs F816
+2025-05-28 14:15:21.49002 INFO::Creating boxplot for categorical data, antibiotics vs F457
+2025-05-28 14:15:21.539456 INFO::Creating boxplot for categorical data, antibiotics vs F330
+2025-05-28 14:15:21.599549 INFO::Creating boxplot for categorical data, antibiotics vs F293
+2025-05-28 14:15:21.6523 INFO::Creating boxplot for categorical data, antibiotics vs F725
+2025-05-28 14:15:21.702299 INFO::Creating boxplot for categorical data, antibiotics vs F813
+2025-05-28 14:15:21.752682 INFO::Creating boxplot for categorical data, antibiotics vs F295
+2025-05-28 14:15:21.802929 INFO::Creating boxplot for categorical data, antibiotics vs F656
+2025-05-28 14:15:21.861567 INFO::Creating boxplot for categorical data, antibiotics vs F669
+2025-05-28 14:15:21.920505 INFO::Creating boxplot for categorical data, antibiotics vs F15
+2025-05-28 14:15:21.973705 INFO::Creating boxplot for categorical data, antibiotics vs F419
+2025-05-28 14:15:22.023216 INFO::Creating boxplot for categorical data, antibiotics vs F701
+2025-05-28 14:15:22.072705 INFO::Creating boxplot for categorical data, antibiotics vs F176
+2025-05-28 14:15:22.129122 INFO::Creating boxplot for categorical data, antibiotics vs F203
+2025-05-28 14:15:22.180438 INFO::Creating boxplot for categorical data, antibiotics vs F501
+2025-05-28 14:15:22.230903 INFO::Creating boxplot for categorical data, antibiotics vs F772
+2025-05-28 14:15:22.27948 INFO::Creating boxplot for categorical data, antibiotics vs F488
+2025-05-28 14:15:22.327523 INFO::Creating boxplot for categorical data, antibiotics vs F600
+2025-05-28 14:15:22.397946 INFO::Creating boxplot for categorical data, antibiotics vs F768
+2025-05-28 14:15:22.453815 INFO::Creating boxplot for categorical data, antibiotics vs F432
+2025-05-28 14:15:22.50411 INFO::Creating boxplot for categorical data, antibiotics vs F26
+2025-05-28 14:15:22.554896 INFO::Creating boxplot for categorical data, antibiotics vs F189
+2025-05-28 14:15:22.606082 INFO::Creating boxplot for categorical data, antibiotics vs F200
+2025-05-28 14:15:22.658645 INFO::Creating boxplot for categorical data, antibiotics vs F121
+2025-05-28 14:15:22.723351 INFO::Creating boxplot for categorical data, antibiotics vs F624
+2025-05-28 14:15:22.779239 INFO::Creating boxplot for categorical data, antibiotics vs F855
+2025-05-28 14:15:22.830705 INFO::Creating boxplot for categorical data, antibiotics vs F380
+2025-05-28 14:15:22.879989 INFO::Creating boxplot for categorical data, antibiotics vs F734
+2025-05-28 14:15:22.929068 INFO::Creating boxplot for categorical data, antibiotics vs F16
+2025-05-28 14:15:23.000128 INFO::Creating boxplot for categorical data, antibiotics vs F602
+2025-05-28 14:15:23.050923 INFO::Creating boxplot for categorical data, antibiotics vs F210
+2025-05-28 14:15:23.101297 INFO::Creating boxplot for categorical data, antibiotics vs F217
+2025-05-28 14:15:23.150915 INFO::Creating boxplot for categorical data, antibiotics vs F640
+2025-05-28 14:15:23.198991 INFO::Creating boxplot for categorical data, antibiotics vs F631
+2025-05-28 14:15:23.261217 INFO::Creating boxplot for categorical data, antibiotics vs F32
+2025-05-28 14:15:23.311464 INFO::Creating boxplot for categorical data, antibiotics vs F322
+2025-05-28 14:15:23.361691 INFO::Creating boxplot for categorical data, antibiotics vs F476
+2025-05-28 14:15:23.413271 INFO::Creating boxplot for categorical data, antibiotics vs F265
+2025-05-28 14:15:23.46374 INFO::Creating boxplot for categorical data, antibiotics vs F283
+2025-05-28 14:15:23.515258 INFO::Creating boxplot for categorical data, antibiotics vs F316
+2025-05-28 14:15:23.61351 INFO::Creating boxplot for categorical data, antibiotics vs F465
+2025-05-28 14:15:23.680891 INFO::Creating boxplot for categorical data, antibiotics vs F24
+2025-05-28 14:15:23.735296 INFO::Creating boxplot for categorical data, antibiotics vs F38
+2025-05-28 14:15:23.785583 INFO::Creating boxplot for categorical data, antibiotics vs F82
+2025-05-28 14:15:23.834228 INFO::Creating boxplot for categorical data, antibiotics vs F86
+2025-05-28 14:15:23.901081 INFO::Creating boxplot for categorical data, antibiotics vs F270
+2025-05-28 14:15:23.951239 INFO::Creating boxplot for categorical data, antibiotics vs F485
+2025-05-28 14:15:24.001264 INFO::Creating boxplot for categorical data, antibiotics vs F486
+2025-05-28 14:15:24.05093 INFO::Creating boxplot for categorical data, antibiotics vs F399
+2025-05-28 14:15:24.099949 INFO::Creating boxplot for categorical data, antibiotics vs F573
+2025-05-28 14:15:24.162989 INFO::Creating boxplot for categorical data, antibiotics vs F877
+2025-05-28 14:15:24.212798 INFO::Creating boxplot for categorical data, antibiotics vs F709
+2025-05-28 14:15:24.262506 INFO::Creating boxplot for categorical data, antibiotics vs F227
+2025-05-28 14:15:24.311836 INFO::Creating boxplot for categorical data, antibiotics vs F553
+2025-05-28 14:15:24.360328 INFO::Creating boxplot for categorical data, antibiotics vs F123
+2025-05-28 14:15:24.423288 INFO::Creating boxplot for categorical data, antibiotics vs F118
+2025-05-28 14:15:24.473734 INFO::Creating boxplot for categorical data, antibiotics vs F605
+2025-05-28 14:15:24.523711 INFO::Creating boxplot for categorical data, antibiotics vs F619
+2025-05-28 14:15:24.574211 INFO::Creating boxplot for categorical data, antibiotics vs F830
+2025-05-28 14:15:24.623517 INFO::Creating boxplot for categorical data, antibiotics vs F837
+2025-05-28 14:15:24.684688 INFO::Creating boxplot for categorical data, antibiotics vs F12
+2025-05-28 14:15:24.737322 INFO::Creating boxplot for categorical data, antibiotics vs F623
+2025-05-28 14:15:24.791245 INFO::Creating boxplot for categorical data, antibiotics vs F806
+2025-05-28 14:15:24.840222 INFO::Creating boxplot for categorical data, antibiotics vs F353
+2025-05-28 14:15:24.88945 INFO::Creating boxplot for categorical data, antibiotics vs F829
+2025-05-28 14:15:24.939431 INFO::Creating boxplot for categorical data, antibiotics vs F289
+2025-05-28 14:15:25.00361 INFO::Creating boxplot for categorical data, antibiotics vs F93
+2025-05-28 14:15:25.054903 INFO::Creating boxplot for categorical data, antibiotics vs F379
+2025-05-28 14:15:25.104382 INFO::Creating boxplot for categorical data, antibiotics vs F370
+2025-05-28 14:15:25.154869 INFO::Creating boxplot for categorical data, antibiotics vs F360
+2025-05-28 14:15:25.203384 INFO::Creating boxplot for categorical data, antibiotics vs F710
+2025-05-28 14:15:25.26607 INFO::Creating boxplot for categorical data, antibiotics vs F388
+2025-05-28 14:15:25.315495 INFO::Creating boxplot for categorical data, antibiotics vs F796
+2025-05-28 14:15:25.372803 INFO::Creating boxplot for categorical data, antibiotics vs F174
+2025-05-28 14:15:25.421727 INFO::Creating boxplot for categorical data, antibiotics vs F601
+2025-05-28 14:15:25.470547 INFO::Creating boxplot for categorical data, antibiotics vs F775
+2025-05-28 14:15:25.533727 INFO::Creating boxplot for categorical data, antibiotics vs F836
+2025-05-28 14:15:25.583986 INFO::Creating boxplot for categorical data, antibiotics vs F192
+2025-05-28 14:15:25.633668 INFO::Creating boxplot for categorical data, antibiotics vs F463
+2025-05-28 14:15:25.683272 INFO::Creating boxplot for categorical data, antibiotics vs F57
+2025-05-28 14:15:25.732659 INFO::Creating boxplot for categorical data, antibiotics vs F658
+2025-05-28 14:15:25.796173 INFO::Creating boxplot for categorical data, antibiotics vs F596
+2025-05-28 14:15:25.845301 INFO::Creating boxplot for categorical data, antibiotics vs F218
+2025-05-28 14:15:25.899237 INFO::Creating boxplot for categorical data, antibiotics vs F104
+2025-05-28 14:15:25.950053 INFO::Creating boxplot for categorical data, antibiotics vs F466
+2025-05-28 14:15:26.002843 INFO::Creating boxplot for categorical data, antibiotics vs F737
+2025-05-28 14:15:26.064746 INFO::Creating boxplot for categorical data, antibiotics vs F487
+2025-05-28 14:15:26.114652 INFO::Creating boxplot for categorical data, antibiotics vs F369
+2025-05-28 14:15:26.164553 INFO::Creating boxplot for categorical data, antibiotics vs F584
+2025-05-28 14:15:26.213647 INFO::Creating boxplot for categorical data, antibiotics vs F166
+2025-05-28 14:15:26.262892 INFO::Creating boxplot for categorical data, antibiotics vs F822
+2025-05-28 14:15:26.325053 INFO::Creating boxplot for categorical data, antibiotics vs F416
+2025-05-28 14:15:26.376118 INFO::Creating boxplot for categorical data, antibiotics vs F70
+2025-05-28 14:15:26.425945 INFO::Creating boxplot for categorical data, antibiotics vs F243
+2025-05-28 14:15:26.476105 INFO::Creating boxplot for categorical data, antibiotics vs F498
+2025-05-28 14:15:26.525247 INFO::Creating boxplot for categorical data, antibiotics vs F272
+2025-05-28 14:15:26.584479 INFO::Creating boxplot for categorical data, antibiotics vs F846
+2025-05-28 14:15:26.637575 INFO::Creating boxplot for categorical data, antibiotics vs F881
+2025-05-28 14:15:26.68676 INFO::Creating boxplot for categorical data, antibiotics vs F280
+2025-05-28 14:15:26.736614 INFO::Creating boxplot for categorical data, antibiotics vs F761
+2025-05-28 14:15:26.785128 INFO::Creating boxplot for categorical data, antibiotics vs F781
+2025-05-28 14:15:26.840518 INFO::Creating boxplot for categorical data, antibiotics vs F697
+2025-05-28 14:15:26.897183 INFO::Creating boxplot for categorical data, antibiotics vs F890
+2025-05-28 14:15:26.947307 INFO::Creating boxplot for categorical data, antibiotics vs F197
+2025-05-28 14:15:26.999618 INFO::Creating boxplot for categorical data, antibiotics vs F826
+2025-05-28 14:15:27.056802 INFO::Creating boxplot for categorical data, antibiotics vs F641
+2025-05-28 14:15:27.106453 INFO::Creating boxplot for categorical data, antibiotics vs F700
+2025-05-28 14:15:27.170099 INFO::Creating boxplot for categorical data, antibiotics vs F531
+2025-05-28 14:15:27.219328 INFO::Creating boxplot for categorical data, antibiotics vs F660
+2025-05-28 14:15:27.269992 INFO::Creating boxplot for categorical data, antibiotics vs F257
+2025-05-28 14:15:27.31826 INFO::Creating boxplot for categorical data, antibiotics vs F136
+2025-05-28 14:15:27.367327 INFO::Creating boxplot for categorical data, antibiotics vs F875
+2025-05-28 14:15:27.430223 INFO::Creating boxplot for categorical data, antibiotics vs F160
+2025-05-28 14:15:27.480252 INFO::Creating boxplot for categorical data, antibiotics vs F782
+2025-05-28 14:15:27.531203 INFO::Creating boxplot for categorical data, antibiotics vs F642
+2025-05-28 14:15:27.58211 INFO::Creating boxplot for categorical data, antibiotics vs F730
+2025-05-28 14:15:27.633737 INFO::Creating boxplot for categorical data, antibiotics vs F679
+2025-05-28 14:15:27.696845 INFO::Creating boxplot for categorical data, antibiotics vs F713
+2025-05-28 14:15:27.746922 INFO::Creating boxplot for categorical data, antibiotics vs F821
+2025-05-28 14:15:27.798227 INFO::Creating boxplot for categorical data, antibiotics vs F443
+2025-05-28 14:15:27.847277 INFO::Creating boxplot for categorical data, antibiotics vs F729
+2025-05-28 14:15:27.896961 INFO::Creating boxplot for categorical data, antibiotics vs F25
+2025-05-28 14:15:27.960729 INFO::Creating boxplot for categorical data, antibiotics vs F338
+2025-05-28 14:15:28.01417 INFO::Creating boxplot for categorical data, antibiotics vs F647
+2025-05-28 14:15:28.064598 INFO::Creating boxplot for categorical data, antibiotics vs F817
+2025-05-28 14:15:28.113469 INFO::Creating boxplot for categorical data, antibiotics vs F535
+2025-05-28 14:15:28.16317 INFO::Creating boxplot for categorical data, antibiotics vs F634
+2025-05-28 14:15:28.256475 INFO::Creating boxplot for categorical data, antibiotics vs F533
+2025-05-28 14:15:28.305587 INFO::Creating boxplot for categorical data, antibiotics vs F808
+2025-05-28 14:15:28.356077 INFO::Creating boxplot for categorical data, antibiotics vs F571
+2025-05-28 14:15:28.409045 INFO::Creating boxplot for categorical data, antibiotics vs F529
+2025-05-28 14:15:28.461636 INFO::Creating boxplot for categorical data, antibiotics vs F827
+2025-05-28 14:15:28.524659 INFO::Creating boxplot for categorical data, antibiotics vs F107
+2025-05-28 14:15:28.574183 INFO::Creating boxplot for categorical data, antibiotics vs F515
+2025-05-28 14:15:28.626866 INFO::Creating boxplot for categorical data, antibiotics vs F305
+2025-05-28 14:15:28.677063 INFO::Creating boxplot for categorical data, antibiotics vs F662
+2025-05-28 14:15:28.726506 INFO::Creating boxplot for categorical data, antibiotics vs F310
+2025-05-28 14:15:28.794353 INFO::Creating boxplot for categorical data, antibiotics vs F430
+2025-05-28 14:15:28.843644 INFO::Creating boxplot for categorical data, antibiotics vs F173
+2025-05-28 14:15:28.893541 INFO::Creating boxplot for categorical data, antibiotics vs F820
+2025-05-28 14:15:28.944135 INFO::Creating boxplot for categorical data, antibiotics vs F743
+2025-05-28 14:15:28.993215 INFO::Creating boxplot for categorical data, antibiotics vs F63
+2025-05-28 14:15:29.049409 INFO::Creating boxplot for categorical data, antibiotics vs F215
+2025-05-28 14:15:29.10326 INFO::Creating boxplot for categorical data, antibiotics vs F216
+2025-05-28 14:15:29.152707 INFO::Creating boxplot for categorical data, antibiotics vs F245
+2025-05-28 14:15:29.203461 INFO::Creating boxplot for categorical data, antibiotics vs F862
+2025-05-28 14:15:29.252138 INFO::Creating boxplot for categorical data, antibiotics vs F541
+2025-05-28 14:15:29.300957 INFO::Creating boxplot for categorical data, antibiotics vs F558
+2025-05-28 14:15:29.362574 INFO::Creating boxplot for categorical data, antibiotics vs F633
+2025-05-28 14:15:29.415904 INFO::Creating boxplot for categorical data, antibiotics vs F94
+2025-05-28 14:15:29.4661 INFO::Creating boxplot for categorical data, antibiotics vs F574
+2025-05-28 14:15:29.515132 INFO::Creating boxplot for categorical data, antibiotics vs F238
+2025-05-28 14:15:29.564093 INFO::Creating boxplot for categorical data, antibiotics vs F815
+2025-05-28 14:15:29.625762 INFO::Creating boxplot for categorical data, antibiotics vs F587
+2025-05-28 14:15:29.674795 INFO::Creating boxplot for categorical data, antibiotics vs F464
+2025-05-28 14:15:29.729144 INFO::Creating boxplot for categorical data, antibiotics vs F590
+2025-05-28 14:15:29.779178 INFO::Creating boxplot for categorical data, antibiotics vs F124
+2025-05-28 14:15:29.828186 INFO::Creating boxplot for categorical data, antibiotics vs F664
+2025-05-28 14:15:29.892396 INFO::Creating boxplot for categorical data, antibiotics vs F100
+2025-05-28 14:15:29.942568 INFO::Creating boxplot for categorical data, antibiotics vs F744
+2025-05-28 14:15:29.993321 INFO::Creating boxplot for categorical data, antibiotics vs F444
+2025-05-28 14:15:30.043296 INFO::Creating boxplot for categorical data, antibiotics vs F597
+2025-05-28 14:15:30.095099 INFO::Creating boxplot for categorical data, antibiotics vs F650
+2025-05-28 14:15:30.155408 INFO::Creating boxplot for categorical data, antibiotics vs F147
+2025-05-28 14:15:30.205004 INFO::Creating boxplot for categorical data, antibiotics vs F363
+2025-05-28 14:15:30.255618 INFO::Creating boxplot for categorical data, antibiotics vs F521
+2025-05-28 14:15:30.305917 INFO::Creating boxplot for categorical data, antibiotics vs F412
+2025-05-28 14:15:30.354954 INFO::Creating boxplot for categorical data, antibiotics vs F279
+2025-05-28 14:15:30.41173 INFO::Creating boxplot for categorical data, antibiotics vs F225
+2025-05-28 14:15:30.473478 INFO::Creating boxplot for categorical data, antibiotics vs F10
+2025-05-28 14:15:30.52413 INFO::Creating boxplot for categorical data, antibiotics vs F481
+2025-05-28 14:15:30.575564 INFO::Creating boxplot for categorical data, antibiotics vs F861
+2025-05-28 14:15:30.627403 INFO::Creating boxplot for categorical data, antibiotics vs F888
+2025-05-28 14:15:30.67642 INFO::Creating boxplot for categorical data, antibiotics vs F156
+2025-05-28 14:15:30.739688 INFO::Creating boxplot for categorical data, antibiotics vs F857
+2025-05-28 14:15:30.79087 INFO::Creating boxplot for categorical data, antibiotics vs F509
+2025-05-28 14:15:30.842193 INFO::Creating boxplot for categorical data, antibiotics vs F244
+2025-05-28 14:15:30.891852 INFO::Creating boxplot for categorical data, antibiotics vs F514
+2025-05-28 14:15:30.940509 INFO::Creating boxplot for categorical data, antibiotics vs F196
+2025-05-28 14:15:31.003788 INFO::Creating boxplot for categorical data, antibiotics vs F304
+2025-05-28 14:15:31.05443 INFO::Creating boxplot for categorical data, antibiotics vs F833
+2025-05-28 14:15:31.105907 INFO::Creating boxplot for categorical data, antibiotics vs F294
+2025-05-28 14:15:31.155546 INFO::Creating boxplot for categorical data, antibiotics vs F550
+2025-05-28 14:15:31.204546 INFO::Creating boxplot for categorical data, antibiotics vs F869
+2025-05-28 14:15:31.266898 INFO::Creating boxplot for categorical data, antibiotics vs F364
+2025-05-28 14:15:31.317637 INFO::Creating boxplot for categorical data, antibiotics vs F583
+2025-05-28 14:15:31.36834 INFO::Creating boxplot for categorical data, antibiotics vs F441
+2025-05-28 14:15:31.419346 INFO::Creating boxplot for categorical data, antibiotics vs F595
+2025-05-28 14:15:31.468949 INFO::Creating boxplot for categorical data, antibiotics vs F35
+2025-05-28 14:15:31.53174 INFO::Creating boxplot for categorical data, antibiotics vs F630
+2025-05-28 14:15:31.582338 INFO::Creating boxplot for categorical data, antibiotics vs F401
+2025-05-28 14:15:31.633 INFO::Creating boxplot for categorical data, antibiotics vs F287
+2025-05-28 14:15:31.683408 INFO::Creating boxplot for categorical data, antibiotics vs F250
+2025-05-28 14:15:31.733006 INFO::Creating boxplot for categorical data, antibiotics vs F239
+2025-05-28 14:15:31.794994 INFO::Creating boxplot for categorical data, antibiotics vs F88
+2025-05-28 14:15:31.848948 INFO::Creating boxplot for categorical data, antibiotics vs F752
+2025-05-28 14:15:31.90015 INFO::Creating boxplot for categorical data, antibiotics vs F539
+2025-05-28 14:15:31.955032 INFO::Creating boxplot for categorical data, antibiotics vs F69
+2025-05-28 14:15:32.005052 INFO::Creating boxplot for categorical data, antibiotics vs F126
+2025-05-28 14:15:32.076216 INFO::Creating boxplot for categorical data, antibiotics vs F362
+2025-05-28 14:15:32.127628 INFO::Creating boxplot for categorical data, antibiotics vs F753
+2025-05-28 14:15:32.178234 INFO::Creating boxplot for categorical data, antibiotics vs F469
+2025-05-28 14:15:32.228991 INFO::Creating boxplot for categorical data, antibiotics vs F14
+2025-05-28 14:15:32.278282 INFO::Creating boxplot for categorical data, antibiotics vs F803
+2025-05-28 14:15:32.336494 INFO::Creating boxplot for categorical data, antibiotics vs F814
+2025-05-28 14:15:32.389106 INFO::Creating boxplot for categorical data, antibiotics vs F449
+2025-05-28 14:15:32.439581 INFO::Creating boxplot for categorical data, antibiotics vs F494
+2025-05-28 14:15:32.489284 INFO::Creating boxplot for categorical data, antibiotics vs F439
+2025-05-28 14:15:32.540284 INFO::Creating boxplot for categorical data, antibiotics vs F686
+2025-05-28 14:15:32.590527 INFO::Creating boxplot for categorical data, antibiotics vs F591
+2025-05-28 14:15:32.653421 INFO::Creating boxplot for categorical data, antibiotics vs F735
+2025-05-28 14:15:32.703597 INFO::Creating boxplot for categorical data, antibiotics vs F111
+2025-05-28 14:15:32.754206 INFO::Creating boxplot for categorical data, antibiotics vs F346
+2025-05-28 14:15:32.805506 INFO::Creating boxplot for categorical data, antibiotics vs F29
+2025-05-28 14:15:32.856564 INFO::Creating boxplot for categorical data, antibiotics vs F376
+2025-05-28 14:15:32.918038 INFO::Creating boxplot for categorical data, antibiotics vs F414
+2025-05-28 14:15:32.96807 INFO::Creating boxplot for categorical data, antibiotics vs F555
+2025-05-28 14:15:33.020416 INFO::Creating boxplot for categorical data, antibiotics vs F517
+2025-05-28 14:15:33.06972 INFO::Creating boxplot for categorical data, antibiotics vs F544
+2025-05-28 14:15:33.120494 INFO::Creating boxplot for categorical data, antibiotics vs F339
+2025-05-28 14:15:33.182286 INFO::Creating boxplot for categorical data, antibiotics vs F689
+2025-05-28 14:15:33.232444 INFO::Creating boxplot for categorical data, antibiotics vs F391
+2025-05-28 14:15:33.282558 INFO::Creating boxplot for categorical data, antibiotics vs F502
+2025-05-28 14:15:33.33212 INFO::Creating boxplot for categorical data, antibiotics vs F298
+2025-05-28 14:15:33.382183 INFO::Creating boxplot for categorical data, antibiotics vs F337
+2025-05-28 14:15:33.444176 INFO::Creating boxplot for categorical data, antibiotics vs F773
+2025-05-28 14:15:33.494025 INFO::Creating boxplot for categorical data, antibiotics vs F592
+2025-05-28 14:15:33.54421 INFO::Creating boxplot for categorical data, antibiotics vs F307
+2025-05-28 14:15:33.594014 INFO::Creating boxplot for categorical data, antibiotics vs F115
+2025-05-28 14:15:33.643765 INFO::Creating boxplot for categorical data, antibiotics vs F739
+2025-05-28 14:15:33.714193 INFO::Creating boxplot for categorical data, antibiotics vs F433
+2025-05-28 14:15:33.766669 INFO::Creating boxplot for categorical data, antibiotics vs F384
+2025-05-28 14:15:33.821139 INFO::Creating boxplot for categorical data, antibiotics vs F750
+2025-05-28 14:15:33.871481 INFO::Creating boxplot for categorical data, antibiotics vs F762
+2025-05-28 14:15:33.92112 INFO::Creating boxplot for categorical data, antibiotics vs F277
+2025-05-28 14:15:34.26404 INFO::Creating boxplot for categorical data, antibiotics vs F871
+2025-05-28 14:15:34.311206 INFO::Creating boxplot for categorical data, antibiotics vs F839
+2025-05-28 14:15:34.359128 INFO::Creating boxplot for categorical data, antibiotics vs F127
+2025-05-28 14:15:34.406407 INFO::Creating boxplot for categorical data, antibiotics vs F554
+2025-05-28 14:15:34.453643 INFO::Creating boxplot for categorical data, antibiotics vs F676
+2025-05-28 14:15:34.506695 INFO::Creating boxplot for categorical data, antibiotics vs F568
+2025-05-28 14:15:34.554696 INFO::Creating boxplot for categorical data, antibiotics vs F137
+2025-05-28 14:15:34.602244 INFO::Creating boxplot for categorical data, antibiotics vs F131
+2025-05-28 14:15:34.650075 INFO::Creating boxplot for categorical data, antibiotics vs F60
+2025-05-28 14:15:34.698226 INFO::Creating boxplot for categorical data, antibiotics vs F98
+2025-05-28 14:15:34.752069 INFO::Creating boxplot for categorical data, antibiotics vs F672
+2025-05-28 14:15:34.803747 INFO::Creating boxplot for categorical data, antibiotics vs F530
+2025-05-28 14:15:34.855743 INFO::Creating boxplot for categorical data, antibiotics vs F809
+2025-05-28 14:15:34.904947 INFO::Creating boxplot for categorical data, antibiotics vs F894
+2025-05-28 14:15:34.954027 INFO::Creating boxplot for categorical data, antibiotics vs F22
+2025-05-28 14:15:35.00386 INFO::Creating boxplot for categorical data, antibiotics vs F818
+2025-05-28 14:15:35.063068 INFO::Creating boxplot for categorical data, antibiotics vs F559
+2025-05-28 14:15:35.112028 INFO::Creating boxplot for categorical data, antibiotics vs F741
+2025-05-28 14:15:35.160287 INFO::Creating boxplot for categorical data, antibiotics vs F398
+2025-05-28 14:15:35.207962 INFO::Creating boxplot for categorical data, antibiotics vs F357
+2025-05-28 14:15:35.256983 INFO::Creating boxplot for categorical data, antibiotics vs F119
+2025-05-28 14:15:35.310683 INFO::Creating boxplot for categorical data, antibiotics vs F426
+2025-05-28 14:15:35.35856 INFO::Creating boxplot for categorical data, antibiotics vs F204
+2025-05-28 14:15:35.405744 INFO::Creating boxplot for categorical data, antibiotics vs F851
+2025-05-28 14:15:35.453499 INFO::Creating boxplot for categorical data, antibiotics vs F657
+2025-05-28 14:15:35.505144 INFO::Creating boxplot for categorical data, antibiotics vs F801
+2025-05-28 14:15:35.566321 INFO::Creating boxplot for categorical data, antibiotics vs F754
+2025-05-28 14:15:35.61483 INFO::Creating boxplot for categorical data, antibiotics vs F859
+2025-05-28 14:15:35.66204 INFO::Creating boxplot for categorical data, antibiotics vs F480
+2025-05-28 14:15:35.710408 INFO::Creating boxplot for categorical data, antibiotics vs F507
+2025-05-28 14:15:35.757867 INFO::Creating boxplot for categorical data, antibiotics vs F207
+2025-05-28 14:15:36.324174 INFO::Plotting data for metadata number 3, age
+2025-05-28 14:15:36.325002 INFO::Creating scatter plot for continuous data, age vs F340
+2025-05-28 14:15:36.406364 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.406693 INFO::Creating scatter plot for continuous data, age vs F603
+2025-05-28 14:15:36.485794 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.486167 INFO::Creating scatter plot for continuous data, age vs F356
+2025-05-28 14:15:36.539701 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.540067 INFO::Creating scatter plot for continuous data, age vs F181
+2025-05-28 14:15:36.592457 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.592798 INFO::Creating scatter plot for continuous data, age vs F177
+2025-05-28 14:15:36.646396 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.649729 INFO::Creating scatter plot for continuous data, age vs F390
+2025-05-28 14:15:36.710057 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.710393 INFO::Creating scatter plot for continuous data, age vs F743
+2025-05-28 14:15:36.759191 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.759526 INFO::Creating scatter plot for continuous data, age vs F491
+2025-05-28 14:15:36.81373 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.814091 INFO::Creating scatter plot for continuous data, age vs F436
+2025-05-28 14:15:36.862816 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.863165 INFO::Creating scatter plot for continuous data, age vs F219
+2025-05-28 14:15:36.912619 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.912949 INFO::Creating scatter plot for continuous data, age vs F483
+2025-05-28 14:15:36.972809 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:36.973157 INFO::Creating scatter plot for continuous data, age vs F878
+2025-05-28 14:15:37.026136 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.026478 INFO::Creating scatter plot for continuous data, age vs F876
+2025-05-28 14:15:37.082442 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.082774 INFO::Creating scatter plot for continuous data, age vs F211
+2025-05-28 14:15:37.139362 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.139678 INFO::Creating scatter plot for continuous data, age vs F732
+2025-05-28 14:15:37.193151 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.193496 INFO::Creating scatter plot for continuous data, age vs F222
+2025-05-28 14:15:37.268724 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.269112 INFO::Creating scatter plot for continuous data, age vs F688
+2025-05-28 14:15:37.326134 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.326471 INFO::Creating scatter plot for continuous data, age vs F170
+2025-05-28 14:15:37.380329 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.380654 INFO::Creating scatter plot for continuous data, age vs F431
+2025-05-28 14:15:37.436243 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.436574 INFO::Creating scatter plot for continuous data, age vs F174
+2025-05-28 14:15:37.491916 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.49224 INFO::Creating scatter plot for continuous data, age vs F17
+2025-05-28 14:15:37.541879 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.542204 INFO::Creating scatter plot for continuous data, age vs F334
+2025-05-28 14:15:37.595735 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.596064 INFO::Creating scatter plot for continuous data, age vs F835
+2025-05-28 14:15:37.647178 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.647551 INFO::Creating scatter plot for continuous data, age vs F223
+2025-05-28 14:15:37.704509 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.704877 INFO::Creating scatter plot for continuous data, age vs F383
+2025-05-28 14:15:37.765453 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.765817 INFO::Creating scatter plot for continuous data, age vs F623
+2025-05-28 14:15:37.831034 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.831448 INFO::Creating scatter plot for continuous data, age vs F329
+2025-05-28 14:15:37.88715 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.887495 INFO::Creating scatter plot for continuous data, age vs F395
+2025-05-28 14:15:37.944372 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:37.944765 INFO::Creating scatter plot for continuous data, age vs F528
+2025-05-28 14:15:38.003063 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.003435 INFO::Creating scatter plot for continuous data, age vs F13
+2025-05-28 14:15:38.058233 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.058604 INFO::Creating scatter plot for continuous data, age vs F36
+2025-05-28 14:15:38.109498 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.109851 INFO::Creating scatter plot for continuous data, age vs F285
+2025-05-28 14:15:38.165407 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.166032 INFO::Creating scatter plot for continuous data, age vs F404
+2025-05-28 14:15:38.223366 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.223707 INFO::Creating scatter plot for continuous data, age vs F894
+2025-05-28 14:15:38.283492 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.283816 INFO::Creating scatter plot for continuous data, age vs F300
+2025-05-28 14:15:38.337547 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.337863 INFO::Creating scatter plot for continuous data, age vs F32
+2025-05-28 14:15:38.391881 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.392206 INFO::Creating scatter plot for continuous data, age vs F24
+2025-05-28 14:15:38.445804 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.446164 INFO::Creating scatter plot for continuous data, age vs F97
+2025-05-28 14:15:38.496321 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.496668 INFO::Creating scatter plot for continuous data, age vs F849
+2025-05-28 14:15:38.552888 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.553224 INFO::Creating scatter plot for continuous data, age vs F185
+2025-05-28 14:15:38.606407 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.606754 INFO::Creating scatter plot for continuous data, age vs F513
+2025-05-28 14:15:38.659917 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.660247 INFO::Creating scatter plot for continuous data, age vs F296
+2025-05-28 14:15:38.713898 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.714242 INFO::Creating scatter plot for continuous data, age vs F471
+2025-05-28 14:15:38.7779 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.778313 INFO::Creating scatter plot for continuous data, age vs F793
+2025-05-28 14:15:38.834828 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.835179 INFO::Creating scatter plot for continuous data, age vs F402
+2025-05-28 14:15:38.889554 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.889884 INFO::Creating scatter plot for continuous data, age vs F541
+2025-05-28 14:15:38.943446 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.943806 INFO::Creating scatter plot for continuous data, age vs F496
+2025-05-28 14:15:38.993587 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:38.993929 INFO::Creating scatter plot for continuous data, age vs F386
+2025-05-28 14:15:39.050138 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.050483 INFO::Creating scatter plot for continuous data, age vs F594
+2025-05-28 14:15:39.103876 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.104239 INFO::Creating scatter plot for continuous data, age vs F704
+2025-05-28 14:15:39.154092 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.154429 INFO::Creating scatter plot for continuous data, age vs F330
+2025-05-28 14:15:39.209335 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.209656 INFO::Creating scatter plot for continuous data, age vs F197
+2025-05-28 14:15:39.269658 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.269985 INFO::Creating scatter plot for continuous data, age vs F735
+2025-05-28 14:15:39.323225 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.323553 INFO::Creating scatter plot for continuous data, age vs F481
+2025-05-28 14:15:39.372918 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.373246 INFO::Creating scatter plot for continuous data, age vs F635
+2025-05-28 14:15:39.426553 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.426881 INFO::Creating scatter plot for continuous data, age vs F687
+2025-05-28 14:15:39.483065 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.483394 INFO::Creating scatter plot for continuous data, age vs F652
+2025-05-28 14:15:39.552013 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.552394 INFO::Creating scatter plot for continuous data, age vs F651
+2025-05-28 14:15:39.606388 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.606755 INFO::Creating scatter plot for continuous data, age vs F82
+2025-05-28 14:15:39.655962 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.656297 INFO::Creating scatter plot for continuous data, age vs F7
+2025-05-28 14:15:39.705606 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.705957 INFO::Creating scatter plot for continuous data, age vs F866
+2025-05-28 14:15:39.801884 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.802272 INFO::Creating scatter plot for continuous data, age vs F593
+2025-05-28 14:15:39.854454 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.85482 INFO::Creating scatter plot for continuous data, age vs F733
+2025-05-28 14:15:39.904856 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.90553 INFO::Creating scatter plot for continuous data, age vs F684
+2025-05-28 14:15:39.966891 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:39.967273 INFO::Creating scatter plot for continuous data, age vs F410
+2025-05-28 14:15:40.024969 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.02532 INFO::Creating scatter plot for continuous data, age vs F224
+2025-05-28 14:15:40.091079 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.091415 INFO::Creating scatter plot for continuous data, age vs F722
+2025-05-28 14:15:40.145634 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.145996 INFO::Creating scatter plot for continuous data, age vs F856
+2025-05-28 14:15:40.196768 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.197149 INFO::Creating scatter plot for continuous data, age vs F680
+2025-05-28 14:15:40.247879 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.248213 INFO::Creating scatter plot for continuous data, age vs F19
+2025-05-28 14:15:40.304283 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.304624 INFO::Creating scatter plot for continuous data, age vs F860
+2025-05-28 14:15:40.363431 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.363787 INFO::Creating scatter plot for continuous data, age vs F859
+2025-05-28 14:15:40.41717 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.417507 INFO::Creating scatter plot for continuous data, age vs F522
+2025-05-28 14:15:40.472213 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.472543 INFO::Creating scatter plot for continuous data, age vs F372
+2025-05-28 14:15:40.526504 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.526833 INFO::Creating scatter plot for continuous data, age vs F899
+2025-05-28 14:15:40.577006 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.577362 INFO::Creating scatter plot for continuous data, age vs F782
+2025-05-28 14:15:40.642195 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.642558 INFO::Creating scatter plot for continuous data, age vs F839
+2025-05-28 14:15:40.696095 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.696424 INFO::Creating scatter plot for continuous data, age vs F827
+2025-05-28 14:15:40.753194 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.753537 INFO::Creating scatter plot for continuous data, age vs F817
+2025-05-28 14:15:40.808367 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.808699 INFO::Creating scatter plot for continuous data, age vs F345
+2025-05-28 14:15:40.868897 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.869269 INFO::Creating scatter plot for continuous data, age vs F127
+2025-05-28 14:15:40.923774 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.924129 INFO::Creating scatter plot for continuous data, age vs F749
+2025-05-28 14:15:40.978725 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:40.979091 INFO::Creating scatter plot for continuous data, age vs F877
+2025-05-28 14:15:41.033522 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.033856 INFO::Creating scatter plot for continuous data, age vs F150
+2025-05-28 14:15:41.091894 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.092236 INFO::Creating scatter plot for continuous data, age vs F752
+2025-05-28 14:15:41.151263 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.151605 INFO::Creating scatter plot for continuous data, age vs F848
+2025-05-28 14:15:41.202018 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.202362 INFO::Creating scatter plot for continuous data, age vs F809
+2025-05-28 14:15:41.257006 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.25734 INFO::Creating scatter plot for continuous data, age vs F751
+2025-05-28 14:15:41.31396 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.314314 INFO::Creating scatter plot for continuous data, age vs F15
+2025-05-28 14:15:41.364108 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.364456 INFO::Creating scatter plot for continuous data, age vs F521
+2025-05-28 14:15:41.42261 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.42294 INFO::Creating scatter plot for continuous data, age vs F842
+2025-05-28 14:15:41.476264 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.476625 INFO::Creating scatter plot for continuous data, age vs F319
+2025-05-28 14:15:41.531048 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.531415 INFO::Creating scatter plot for continuous data, age vs F96
+2025-05-28 14:15:41.585704 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.586058 INFO::Creating scatter plot for continuous data, age vs F171
+2025-05-28 14:15:41.648756 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.649107 INFO::Creating scatter plot for continuous data, age vs F241
+2025-05-28 14:15:41.699113 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.699442 INFO::Creating scatter plot for continuous data, age vs F582
+2025-05-28 14:15:41.751429 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.751734 INFO::Creating scatter plot for continuous data, age vs F822
+2025-05-28 14:15:41.802992 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.803357 INFO::Creating scatter plot for continuous data, age vs F748
+2025-05-28 14:15:41.853969 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.854326 INFO::Creating scatter plot for continuous data, age vs F147
+2025-05-28 14:15:41.917126 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.917479 INFO::Creating scatter plot for continuous data, age vs F16
+2025-05-28 14:15:41.967247 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:41.967607 INFO::Creating scatter plot for continuous data, age vs F212
+2025-05-28 14:15:42.021587 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.02193 INFO::Creating scatter plot for continuous data, age vs F718
+2025-05-28 14:15:42.076587 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.07698 INFO::Creating scatter plot for continuous data, age vs F663
+2025-05-28 14:15:42.130147 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.130508 INFO::Creating scatter plot for continuous data, age vs F690
+2025-05-28 14:15:42.192932 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.19328 INFO::Creating scatter plot for continuous data, age vs F865
+2025-05-28 14:15:42.243295 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.246935 INFO::Creating scatter plot for continuous data, age vs F421
+2025-05-28 14:15:42.299346 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.299689 INFO::Creating scatter plot for continuous data, age vs F110
+2025-05-28 14:15:42.35782 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.358136 INFO::Creating scatter plot for continuous data, age vs F857
+2025-05-28 14:15:42.412847 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.413198 INFO::Creating scatter plot for continuous data, age vs F84
+2025-05-28 14:15:42.476015 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.476343 INFO::Creating scatter plot for continuous data, age vs F123
+2025-05-28 14:15:42.526198 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.528981 INFO::Creating scatter plot for continuous data, age vs F566
+2025-05-28 14:15:42.580618 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.580976 INFO::Creating scatter plot for continuous data, age vs F370
+2025-05-28 14:15:42.631151 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.631478 INFO::Creating scatter plot for continuous data, age vs F65
+2025-05-28 14:15:42.69081 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.691149 INFO::Creating scatter plot for continuous data, age vs F119
+2025-05-28 14:15:42.74127 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.741596 INFO::Creating scatter plot for continuous data, age vs F263
+2025-05-28 14:15:42.791435 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.791772 INFO::Creating scatter plot for continuous data, age vs F630
+2025-05-28 14:15:42.847414 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.847735 INFO::Creating scatter plot for continuous data, age vs F628
+2025-05-28 14:15:42.90163 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.90198 INFO::Creating scatter plot for continuous data, age vs F711
+2025-05-28 14:15:42.965446 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:42.965759 INFO::Creating scatter plot for continuous data, age vs F152
+2025-05-28 14:15:43.026914 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.027288 INFO::Creating scatter plot for continuous data, age vs F324
+2025-05-28 14:15:43.081935 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.082272 INFO::Creating scatter plot for continuous data, age vs F575
+2025-05-28 14:15:43.132246 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.132598 INFO::Creating scatter plot for continuous data, age vs F699
+2025-05-28 14:15:43.186732 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.18709 INFO::Creating scatter plot for continuous data, age vs F846
+2025-05-28 14:15:43.249419 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.249757 INFO::Creating scatter plot for continuous data, age vs F380
+2025-05-28 14:15:43.303385 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.303731 INFO::Creating scatter plot for continuous data, age vs F172
+2025-05-28 14:15:43.35798 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.360816 INFO::Creating scatter plot for continuous data, age vs F504
+2025-05-28 14:15:43.411568 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.411925 INFO::Creating scatter plot for continuous data, age vs F34
+2025-05-28 14:15:43.471799 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.472134 INFO::Creating scatter plot for continuous data, age vs F199
+2025-05-28 14:15:43.526759 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.527094 INFO::Creating scatter plot for continuous data, age vs F198
+2025-05-28 14:15:43.581781 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.582125 INFO::Creating scatter plot for continuous data, age vs F479
+2025-05-28 14:15:43.637391 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.637746 INFO::Creating scatter plot for continuous data, age vs F673
+2025-05-28 14:15:43.689131 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.689486 INFO::Creating scatter plot for continuous data, age vs F508
+2025-05-28 14:15:43.752264 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.752597 INFO::Creating scatter plot for continuous data, age vs F337
+2025-05-28 14:15:43.812514 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.812916 INFO::Creating scatter plot for continuous data, age vs F737
+2025-05-28 14:15:43.868406 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.868732 INFO::Creating scatter plot for continuous data, age vs F609
+2025-05-28 14:15:43.923257 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.923587 INFO::Creating scatter plot for continuous data, age vs F40
+2025-05-28 14:15:43.982363 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:43.982707 INFO::Creating scatter plot for continuous data, age vs F821
+2025-05-28 14:15:44.037207 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.03755 INFO::Creating scatter plot for continuous data, age vs F643
+2025-05-28 14:15:44.087315 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.087682 INFO::Creating scatter plot for continuous data, age vs F759
+2025-05-28 14:15:44.137948 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.138302 INFO::Creating scatter plot for continuous data, age vs F417
+2025-05-28 14:15:44.193891 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.194241 INFO::Creating scatter plot for continuous data, age vs F58
+2025-05-28 14:15:44.257261 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.25761 INFO::Creating scatter plot for continuous data, age vs F267
+2025-05-28 14:15:44.31342 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.313764 INFO::Creating scatter plot for continuous data, age vs F101
+2025-05-28 14:15:44.363901 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.364621 INFO::Creating scatter plot for continuous data, age vs F890
+2025-05-28 14:15:44.423998 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.424343 INFO::Creating scatter plot for continuous data, age vs F655
+2025-05-28 14:15:44.48815 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.488473 INFO::Creating scatter plot for continuous data, age vs F95
+2025-05-28 14:15:44.538121 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.538449 INFO::Creating scatter plot for continuous data, age vs F775
+2025-05-28 14:15:44.588588 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.58892 INFO::Creating scatter plot for continuous data, age vs F93
+2025-05-28 14:15:44.643114 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.643467 INFO::Creating scatter plot for continuous data, age vs F353
+2025-05-28 14:15:44.700979 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.701343 INFO::Creating scatter plot for continuous data, age vs F480
+2025-05-28 14:15:44.764551 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.764883 INFO::Creating scatter plot for continuous data, age vs F567
+2025-05-28 14:15:44.819421 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.819757 INFO::Creating scatter plot for continuous data, age vs F871
+2025-05-28 14:15:44.876197 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.876503 INFO::Creating scatter plot for continuous data, age vs F295
+2025-05-28 14:15:44.927313 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.927683 INFO::Creating scatter plot for continuous data, age vs F459
+2025-05-28 14:15:44.99133 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:44.991687 INFO::Creating scatter plot for continuous data, age vs F812
+2025-05-28 14:15:45.046028 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.046395 INFO::Creating scatter plot for continuous data, age vs F146
+2025-05-28 14:15:45.09639 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.096739 INFO::Creating scatter plot for continuous data, age vs F239
+2025-05-28 14:15:45.151425 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.151762 INFO::Creating scatter plot for continuous data, age vs F754
+2025-05-28 14:15:45.206544 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.206875 INFO::Creating scatter plot for continuous data, age vs F443
+2025-05-28 14:15:45.282745 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.283074 INFO::Creating scatter plot for continuous data, age vs F5
+2025-05-28 14:15:45.338295 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.338645 INFO::Creating scatter plot for continuous data, age vs F864
+2025-05-28 14:15:45.389221 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.389547 INFO::Creating scatter plot for continuous data, age vs F477
+2025-05-28 14:15:45.443537 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.443919 INFO::Creating scatter plot for continuous data, age vs F571
+2025-05-28 14:15:45.498765 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2025-05-28 14:15:45.499116 INFO::Creating scatter plot for continuous data, age vs F715
+2025-05-28 14:15:45.565471 DEBUG::`geom_smooth()` using formula = 'y ~ x'
