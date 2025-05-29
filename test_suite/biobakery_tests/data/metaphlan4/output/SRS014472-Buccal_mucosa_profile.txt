@@ -1,21 +1,21 @@
-#mpa_v30_CHOCOPhlAn_201901
-#/usr/local/bin/metaphlan SRS014472-Buccal_mucosa.fasta.gz --input_type fasta --nproc 4
+#toy_vOct22_CHOCOPhlAnSGB_202403
+#/n/huttenhower_lab/tools/metaphlan4/rocky8/v4.1.1/bin/metaphlan demo_in/SRS014472-Buccal_mucosa.fasta.gz --input_type fasta --bowtie2db /n/home06/efranzosa/run/metaphlan4_demo_databases/toy_vOct22_CHOCOPhlAnSGB_202403 --index toy_vOct22_CHOCOPhlAnSGB_202403 --bowtie2out demo_out/SRS014472-Buccal_mucosa.fasta.gz.bowtie2out.txt --nproc 8
+#19463 reads processed
 #SampleID	Metaphlan_Analysis
 #clade_name	NCBI_tax_id	relative_abundance	additional_species
 k__Bacteria	2	100.0	
-k__Bacteria|p__Firmicutes	2|1239	98.68942	
-k__Bacteria|p__Proteobacteria	2|1224	1.31058	
-k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	98.68942	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	1.31058	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	79.51797	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales	2|1239|91061|1385	19.17145	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales	2|1224|1236|135625	1.31058	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae	2|1239|91061|186826|1300	79.51797	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillales_unclassified	2|1239|91061|1385|	19.17145	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae	2|1224|1236|135625|712	1.31058	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus	2|1239|91061|186826|1300|1301	79.51797	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillales_unclassified|g__Gemella	2|1239|91061|1385||1378	19.17145	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus	2|1224|1236|135625|712|724	1.31058	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_mitis	2|1239|91061|186826|1300|1301|28037	79.51797	k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_sp_HMSC063B03,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_sp_UMB0029,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_sp_HMSC073F11,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_sp_KR,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_sp_NM,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_sp_HMSC077D04,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_sp_CCUG_49591,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_sp_NPS_308
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Bacillales|f__Bacillales_unclassified|g__Gemella|s__Gemella_haemolysans	2|1239|91061|1385||1378|1379	19.17145	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_haemolyticus	2|1224|1236|135625|712|724|726	1.31058	k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_sp_CCUG_66565,k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_sp_oral_taxon_036,k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_sp_oral_taxon_851
+k__Bacteria|p__Firmicutes	2|1239	83.83307	
+k__Bacteria|p__Proteobacteria	2|1224	16.16693	
+k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	83.83307	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	16.16693	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	83.83307	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales	2|1224|1236|135625	16.16693	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae	2|1239|91061|186826|1300	83.83307	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae	2|1224|1236|135625|712	16.16693	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus	2|1239|91061|186826|1300|1301	83.83307	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus	2|1224|1236|135625|712|724	16.16693	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_mitis	2|1239|91061|186826|1300|1301|28037	83.83307	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_haemolyticus	2|1224|1236|135625|712|724|726	16.16693	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_mitis|t__SGB8168	2|1239|91061|186826|1300|1301|28037|	66.97874	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Streptococcaceae|g__Streptococcus|s__Streptococcus_mitis|t__SGB8180_group	2|1239|91061|186826|1300|1301|28037|	16.85433	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_haemolyticus|t__SGB9649	2|1224|1236|135625|712|724|726|	16.16693	

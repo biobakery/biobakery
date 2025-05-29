@@ -1,17 +1,20 @@
-#mpa_v30_CHOCOPhlAn_201901
-#/usr/local/bin/metaphlan SRS014464-Anterior_nares.fasta.gz --input_type fasta --nproc 4
+#toy_vOct22_CHOCOPhlAnSGB_202403
+#/n/huttenhower_lab/tools/metaphlan4/rocky8/v4.1.1/bin/metaphlan demo_in/SRS014464-Anterior_nares.fasta.gz --input_type fasta --bowtie2db /n/home06/efranzosa/run/metaphlan4_demo_databases/toy_vOct22_CHOCOPhlAnSGB_202403 --index toy_vOct22_CHOCOPhlAnSGB_202403 --bowtie2out demo_out/SRS014464-Anterior_nares.fasta.gz.bowtie2out.txt --nproc 8
+#17695 reads processed
 #SampleID	Metaphlan_Analysis
 #clade_name	NCBI_tax_id	relative_abundance	additional_species
 k__Bacteria	2	100.0	
-k__Bacteria|p__Proteobacteria	2|1224	97.23649	
-k__Bacteria|p__Firmicutes	2|1239	2.76351	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	97.23649	
-k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	2.76351	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales	2|1224|1236|72274	97.23649	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	2.76351	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae	2|1224|1236|72274|468	97.23649	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Carnobacteriaceae	2|1239|91061|186826|186828	2.76351	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Moraxella	2|1224|1236|72274|468|475	97.23649	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Carnobacteriaceae|g__Dolosigranulum	2|1239|91061|186826|186828|29393	2.76351	
-k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pseudomonadales|f__Moraxellaceae|g__Moraxella|s__Moraxella_nonliquefaciens	2|1224|1236|72274|468|475|478	97.23649	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Carnobacteriaceae|g__Dolosigranulum|s__Dolosigranulum_pigrum	2|1239|91061|186826|186828|29393|29394	2.76351	
+k__Bacteria|p__Proteobacteria	2|1224	79.13867	
+k__Bacteria|p__Actinobacteria	2|201174	20.86133	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	79.13867	
+k__Bacteria|p__Actinobacteria|c__Actinomycetia	2|201174|1760	20.86133	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Moraxellales	2|1224|1236|2887326	79.13867	
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales	2|201174|1760|85007	20.86133	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Moraxellales|f__Moraxellaceae	2|1224|1236|2887326|468	79.13867	
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae	2|201174|1760|85007|1653	20.86133	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Moraxellales|f__Moraxellaceae|g__Moraxella	2|1224|1236|2887326|468|475	79.13867	
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium	2|201174|1760|85007|1653|1716	20.86133	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Moraxellales|f__Moraxellaceae|g__Moraxella|s__Moraxella_nonliquefaciens	2|1224|1236|2887326|468|475|478	79.13867	
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium|s__Corynebacterium_pseudodiphtheriticum	2|201174|1760|85007|1653|1716|37637	20.86133	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Moraxellales|f__Moraxellaceae|g__Moraxella|s__Moraxella_nonliquefaciens|t__SGB10426	2|1224|1236|2887326|468|475|478|	79.13867	
+k__Bacteria|p__Actinobacteria|c__Actinomycetia|o__Corynebacteriales|f__Corynebacteriaceae|g__Corynebacterium|s__Corynebacterium_pseudodiphtheriticum|t__SGB17013	2|201174|1760|85007|1653|1716|37637|	20.86133	

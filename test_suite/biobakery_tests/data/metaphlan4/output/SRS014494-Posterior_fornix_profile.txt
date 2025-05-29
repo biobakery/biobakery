@@ -1,5 +1,6 @@
-#mpa_v30_CHOCOPhlAn_201901
-#/usr/local/bin/metaphlan SRS014494-Posterior_fornix.fasta.gz --input_type fasta --nproc 4
+#toy_vOct22_CHOCOPhlAnSGB_202403
+#/n/huttenhower_lab/tools/metaphlan4/rocky8/v4.1.1/bin/metaphlan demo_in/SRS014494-Posterior_fornix.fasta.gz --input_type fasta --bowtie2db /n/home06/efranzosa/run/metaphlan4_demo_databases/toy_vOct22_CHOCOPhlAnSGB_202403 --index toy_vOct22_CHOCOPhlAnSGB_202403 --bowtie2out demo_out/SRS014494-Posterior_fornix.fasta.gz.bowtie2out.txt --nproc 8
+#19203 reads processed
 #SampleID	Metaphlan_Analysis
 #clade_name	NCBI_tax_id	relative_abundance	additional_species
 k__Bacteria	2	100.0	
@@ -8,5 +9,9 @@ k__Bacteria|p__Firmicutes|c__Bacilli	2|1239|91061	100.0
 k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales	2|1239|91061|186826	100.0	
 k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae	2|1239|91061|186826|33958	100.0	
 k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus	2|1239|91061|186826|33958|1578	100.0	
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_crispatus	2|1239|91061|186826|33958|1578|47770	80.56118	k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_sp_UMNPBX8,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_sp_UMNPBX16,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_sp_UMNPBX15,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_sp_UMNPBX12,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_sp_UMNPBX1,k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_sp_UMNPBX11
-k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_iners	2|1239|91061|186826|33958|1578|147802	19.43882	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_crispatus	2|1239|91061|186826|33958|1578|47770	77.36286	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_iners	2|1239|91061|186826|33958|1578|147802	21.60871	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_jensenii	2|1239|91061|186826|33958|1578|109790	1.02844	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_crispatus|t__SGB7045	2|1239|91061|186826|33958|1578|47770|	77.36286	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_iners|t__SGB7025	2|1239|91061|186826|33958|1578|147802|	21.60871	
+k__Bacteria|p__Firmicutes|c__Bacilli|o__Lactobacillales|f__Lactobacillaceae|g__Lactobacillus|s__Lactobacillus_jensenii|t__SGB7035	2|1239|91061|186826|33958|1578|109790|	1.02844	
