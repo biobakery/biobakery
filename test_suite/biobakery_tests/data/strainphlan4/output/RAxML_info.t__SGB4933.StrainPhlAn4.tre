@@ -1,0 +1,74 @@
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 3131 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 2.63%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 1 inferences on the original alignment using 1 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+ML estimate of 25 per site rate categories
+
+Likelihood of final tree will be evaluated and optimized under GAMMA
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 3131
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/n/home08/wnickols/.conda/envs/mpa4/bin/raxmlHPC-PTHREADS-SSE3 -p 1989 -m GTRCAT -T 4 -w /n/holystore01/LABS/huttenhower_lab/Users/wnickols/training_courses/biobakery_strainphlan4/output -s output/./t__SGB4933.StrainPhlAn4_concatenated.aln -n t__SGB4933.StrainPhlAn4.tre 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.213 0.328 0.254 0.205 
+
+Inference[0]: Time 8.630753 CAT-based likelihood -53835.567224, best rearrangement setting 5
+alpha[0]: 1.000000 rates[0] ac ag at cg ct gt: 0.888414 4.054548 1.116095 0.023287 3.902510 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -56924.623110 tree written to file /n/holystore01/LABS/huttenhower_lab/Users/wnickols/training_courses/biobakery_strainphlan4/output/RAxML_result.t__SGB4933.StrainPhlAn4.tre
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -56924.623110 .... 
+
+Final GAMMA-based Score of best tree -56911.277308
+
+Program execution info written to /n/holystore01/LABS/huttenhower_lab/Users/wnickols/training_courses/biobakery_strainphlan4/output/RAxML_info.t__SGB4933.StrainPhlAn4.tre
+Best-scoring ML tree written to: /n/holystore01/LABS/huttenhower_lab/Users/wnickols/training_courses/biobakery_strainphlan4/output/RAxML_bestTree.t__SGB4933.StrainPhlAn4.tre
+
+Overall execution time: 17.127466 secs or 0.004758 hours or 0.000198 days
+

@@ -1,0 +1,16 @@
+Clade: t__SGB4933
+Number of samples: 26
+Number of references: 6
+Number of available markers for the clade: 200
+Filtering parameters:
+	Number of bases to remove when trimming markers: 50
+	Minimum number of markers to make a sample primary: 20
+	Minimum percentage of markers to make a sample primary: 25
+	Minimum number of markers to keep a sample after filtering: 20
+	Minimum percentage of markers to keep a sample after filtering: 25
+	Minimum percentage of samples to keep a marker: 50
+Number of markers selected after filtering: 80
+Number of samples after filtering: 25
+Number of references after filtering: 0
+PhyloPhlan phylogenetic precision mode: fast
+Number of processes used: 4
