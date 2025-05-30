@@ -1,0 +1,24 @@
+#toy_vOct22_CHOCOPhlAnSGB_202403
+#/n/huttenhower_lab/tools/metaphlan4/rocky8/v4.0.6_vOct_fixed/bin/metaphlan /n/holylfs05/LABS/huttenhower_lab/Lab/data/biobakery4_data/humann4_demo_test/demo_fastq/demo_humann_temp/tmppva_mqa0/tmp9e_7kos8 -t rel_ab_w_read_stats --bowtie2db /n/home06/efranzosa/run/metaphlan4_demo_databases/toy_vOct22_CHOCOPhlAnSGB_202403 --index toy_vOct22_CHOCOPhlAnSGB_202403 -o /n/holylfs05/LABS/huttenhower_lab/Lab/data/biobakery4_data/humann4_demo_test/demo_fastq/demo_1_metaphlan_profile.tsv --input_type fastq --bowtie2out /n/holylfs05/LABS/huttenhower_lab/Lab/data/biobakery4_data/humann4_demo_test/demo_fastq/demo_humann_temp/demo_metaphlan_bowtie2.txt
+#135403 reads processed
+#SampleID	Metaphlan_Analysis
+#estimated_reads_mapped_to_known_clades:355069
+#clade_name	clade_taxid	relative_abundance	coverage	estimated_number_of_reads_from_the_clade
+k__Bacteria	2	100.0	0.08023	355069
+k__Bacteria|p__Bacteroidetes	2|976	100.0	0.08023	355069
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia	2|976|200643	55.77207	0.04475	262153
+k__Bacteria|p__Bacteroidetes|c__CFGB4425	2|976|	44.22793	0.03548	92916
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	55.77207	0.04475	262153
+k__Bacteria|p__Bacteroidetes|c__CFGB4425|o__OFGB4425	2|976||	44.22793	0.03548	92916
+k__Bacteria|p__Bacteroidetes|c__CFGB4425|o__OFGB4425|f__FGB4425	2|976|||	44.22793	0.03548	92916
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	43.04577	0.03454	230968
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae	2|976|200643|171549|171550	12.72629	0.01021	31185
+k__Bacteria|p__Bacteroidetes|c__CFGB4425|o__OFGB4425|f__FGB4425|g__GGB1511	2|976||||	44.22793	0.03548	92916
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	43.04577	0.03454	230968
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes	2|976|200643|171549|171550|239759	12.72629	0.01021	31185
+k__Bacteria|p__Bacteroidetes|c__CFGB4425|o__OFGB4425|f__FGB4425|g__GGB1511|s__GGB1511_SGB2091	2|976|||||	44.22793	0.03548	92916
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_ovatus	2|976|200643|171549|815|816|28116	43.04577	0.03454	230968
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_finegoldii	2|976|200643|171549|171550|239759|214856	12.72629	0.01021	31185
+k__Bacteria|p__Bacteroidetes|c__CFGB4425|o__OFGB4425|f__FGB4425|g__GGB1511|s__GGB1511_SGB2091|t__SGB2091	2|976||||||	44.22793	0.03548	92916
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_ovatus|t__SGB1871	2|976|200643|171549|815|816|28116|	43.04577	0.03454	230968
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Rikenellaceae|g__Alistipes|s__Alistipes_finegoldii|t__SGB2301	2|976|200643|171549|171550|239759|214856|	12.72629	0.01021	31185
