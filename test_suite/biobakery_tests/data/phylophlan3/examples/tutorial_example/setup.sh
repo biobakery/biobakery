@@ -9,9 +9,9 @@ tar -xjf tutorial_ethiopia__mags.tar.bz2
 
 mkdir -p phylophlan_databases/
 cd phylophlan_databases/
-wget https://www.dropbox.com/s/tik9yubeerq4t37/tutorial_ethiopia.md5
+wget http://cmprod1.cibio.unitn.it/databases/PhyloPhlAn/tutorial_ethiopia.md5
 #wget https://www.dropbox.com/s/br0yjonlk4bxyfc/tutorial_ethiopia.tar
-wget https://www.dropbox.com/s/9oey75prd2v7lfs/tutorial_ethiopia.txt.bz2
+wget http://cmprod1.cibio.unitn.it/databases/PhyloPhlAn/tutorial_ethiopia.txt.bz2
 mkdir -p s__Escherichia_coli phylophlan_chlamydiae
 cd s__Escherichia_coli/
 wget https://www.dropbox.com/s/8quyu04fucl3dwj/s__Escherichia_coli.faa
