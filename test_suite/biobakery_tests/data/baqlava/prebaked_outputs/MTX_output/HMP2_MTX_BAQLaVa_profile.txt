@@ -1,4 +1,4 @@
-BAQLaVa VGB	MSM9VZEK_TR_mtx_small_Abundance-RPKs	Reference Species	Taxonomy	Other ICTV Genomes in VGB
+BAQLaVa VGB	HMP2_MTX	Reference Species	Taxonomy	Other ICTV Genomes in VGB
 VGB_1580	353.2183637695882	VGB_1580	r__monodnaviria;k__sangervirae;p__phixviricota;c__malgrandaviricetes;o__petitvirales;f__microviridae;g__microviridae_unclassified	
 VGB_1580|nucleotide	353.2183637695882	VGB_1580	r__monodnaviria;k__sangervirae;p__phixviricota;c__malgrandaviricetes;o__petitvirales;f__microviridae;g__microviridae_unclassified	
 VGB_2374	20.485580454472725	VGB_2374	r__riboviria;k__orthornavirae;p__pisuviricota;c__duplopiviricetes;o__durnavirales;f__picobirnaviridae;g__picobirnaviridae_unclassified	
