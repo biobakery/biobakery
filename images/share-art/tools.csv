@@ -1,0 +1,30 @@
+group,tool,description,art,featured
+Microbial Community Profiling Tools,HUMAnN,Profile microbial gene and pathway abundance stratified by contributing species.,HUMAnN.png,yes
+Microbial Community Profiling Tools,MetaPhlAn,Profile the presence and abundance of microbial clades.,MetaPhlAn.png,yes
+Microbial Community Profiling Tools,PICRUSt,Predict metagenome functional content from marker genes.,PICRUSt.png,yes
+Microbial Community Profiling Tools,PhyloPhlAn,Reconstruct microbial phylogenetic trees and assign genome taxonomy.,PhyloPhlAn.png,
+Microbial Community Profiling Tools,MetaWIBELE,Identify and prioritize potentially bioactive gene families in microbial communities.,MetaWIBELE.png,
+Microbial Community Profiling Tools,StrainPhlAn,Identify and track microbial strains based on single-nucleotide variants within marker genes.,StrainPhlAn.png,
+Microbial Community Profiling Tools,MACARRoN,Identify and prioritize potentially bioactive metabolites in microbial communities.,MACARRoN.png,
+Microbial Community Profiling Tools,FUGAsseM,Predict functions for uncharacterized gene families based on microbial community data.,FUGAsseM.png,
+Microbial Community Profiling Tools,WAAFLE,Identify novel LGT events in assembled metagenomes.,WAAFLE.png,
+Microbial Community Profiling Tools,MelonnPan,Predict metabolome content from microbial enzyme abundances.,MelonnPan.png,
+Microbial Community Profiling Tools,ShortBRED,Profile proteins of interest with very high specificity.,ShortBRED.png,
+Microbial Community Profiling Tools,PPANINI,Prioritize microbial genes based on their meta’omic properties.,PPANINI.png,
+Microbial Community Profiling Tools,BAQLaVa,Profile the presence and abundance of known and novel viral taxa.,BAQLaVa.png,
+Microbial Community Profiling Tools,PARATHAA,Classify microbial amplicon sequences while preserving primer-specific taxonomic ambiguity.,PARATHAA.png,
+Microbial Community Profiling Tools,PanPhlAn,Identify and track microbial strains based on differential gene carriage.,PanPhlAn.png,
+Analysis/Statistics Tools,MaAsLin,Associate arbitrarily complex metadata with microbiome features.,MaAsLin.png,yes
+Analysis/Statistics Tools,MMUPHin,Correct batch effects and meta-analyze microbiome profiles across studies.,MMUPHin.png,yes
+Analysis/Statistics Tools,SparseDOSSA,Generate realistic microbial community abundance tables for statistical benchmarking.,SparseDOSSA.png,
+Analysis/Statistics Tools,Anpan,Associate microbial strain properties and sample metadata by several methods.,Anpan.png,
+Analysis/Statistics Tools,CCREPE,Assess the statistical significance of similarity measures in compositional data.,CCREPE.png,
+Analysis/Statistics Tools,HAllA,"Perform well-powered comparisons of paired, high-dimensional datasets.",HAllA.png,
+Analysis/Statistics Tools,MicroPITA,Select samples for follow-up analysis in two-stage tiered studies.,MicroPITA.png,
+Analysis/Statistics Tools,BAnOCC,Evaluate ecological similarity in compositional data using Bayesian methods.,BAnOCC.png,
+Analysis/Statistics Tools,LEfSe,Associate up to two metadata with microbiome features.,LEfSe.png,
+Analysis/Statistics Tools,ARepA,Extract and normalize ‘omics data from online repositories.,ARepA.png,
+Infrastructure/Utilities,GraPhlAn,Generate cladograms and decorate with metadata.,,
+Infrastructure/Utilities,KneadData,"Perform quality control of meta’omic sequencing reads, including host-read removal.",KneadData.png,yes
+Infrastructure/Utilities,AnADAMA 2,Perform and document automated scientific workflows.,AnADAMA_2.png,
+Infrastructure/Utilities,bioBakery Workflows,A collection of workflows for executing common microbial community analyses.,bioBakery_Workflows.png,yes
