@@ -24,7 +24,7 @@ Analysis/Statistics Tools,MicroPITA,Select samples for follow-up analysis in two
 Analysis/Statistics Tools,BAnOCC,Evaluate ecological similarity in compositional data using Bayesian methods.,BAnOCC.png,
 Analysis/Statistics Tools,LEfSe,Associate up to two metadata with microbiome features.,LEfSe.png,
 Analysis/Statistics Tools,ARepA,Extract and normalize ‘omics data from online repositories.,ARepA.png,
-Infrastructure/Utilities,GraPhlAn,Generate cladograms and decorate with metadata.,,
+Infrastructure/Utilities,GraPhlAn,Generate cladograms and decorate with metadata.,Bakey.png,
 Infrastructure/Utilities,KneadData,"Perform quality control of meta’omic sequencing reads, including host-read removal.",KneadData.png,yes
 Infrastructure/Utilities,AnADAMA 2,Perform and document automated scientific workflows.,AnADAMA_2.png,
 Infrastructure/Utilities,bioBakery Workflows,A collection of workflows for executing common microbial community analyses.,bioBakery_Workflows.png,yes
